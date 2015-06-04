@@ -1,0 +1,23 @@
+class Main {
+
+void main(Int i, Int a, Int b,Int d){
+ 	a = 1;
+ 	b = 2;
+
+	}
+}
+
+class Test{
+	Int test(Int a,Int b){
+		Int c;
+		Int d;
+		b=1;
+		a=a+1;
+		c=b;
+		d=dummy(a);
+		return c;
+	}
+	Int dummy(Int a){
+		return 0;
+	}
+}

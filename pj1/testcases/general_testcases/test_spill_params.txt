@@ -1,0 +1,41 @@
+class Main {
+void main() {
+  Int a;
+  Int b;
+  Int c;
+  Int d;
+  Int e;
+  Int f;
+  Int g;
+  Int h;
+  Int i;
+  a = 1;
+  b = 2;
+  c = 3;
+  d = 4;
+  e = 5;
+  f = a+b+c+d+e; // f=15
+  g = a+b+c+d+e+f;     // g=30
+  h = a+b+c+d+e+g-f; // h=30
+  i = a-b-c-d-e-f+g+h; // i=17
+  new Cls().fun(1,c,a,h,g,d,9);
+  new Cls().test(); 
+}
+}
+
+class Cls {
+Int a;
+Int b;
+
+void fun (Int x1, Int x2, Int x3, Int x4, Int x5, Int x6, Int x7) {
+a = x1 + x2 + x3 + x4 + x5; // a = 65,15
+b = x6 + x7; // b = 13,13
+println("a:");
+println(a); // a is 
+println("b:");
+println(b);
+}
+void test() {
+   fun(1,2,3,4,5,6,7);
+}
+}
