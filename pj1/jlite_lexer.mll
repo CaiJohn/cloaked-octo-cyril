@@ -42,8 +42,8 @@ rule token file_name = parse
   | '!' 	{ NEG }
   | '{'		{ OBRACE }
   | '}'		{ CBRACE }
-  | '('		{ OPAREN }
-  | ')'		{ CPAREN }
+  | '('		{ let () = print_endline("OPAREN") in OPAREN }
+  | ')'		{ let () = print_endline("CPAREN") in CPAREN }
   | "Int"	{ INT_KWORD}
   | "Bool"	{ BOOL_KWORD}
   | "String" { STRING_KWORD}
@@ -61,6 +61,8 @@ rule token file_name = parse
   | "main"  { MAIN_KWORD }
   | "readln" { READ_KWORD }
   | "println" { PRINT_KWORD }
+  | "private" { PRIVATE_KWORD }
+  | "extends" { EXTENDS_KWORD }
   | ';'		{ SEMICOLON }
   | '.'		{ DOT }
   | ','		{ COMMA }

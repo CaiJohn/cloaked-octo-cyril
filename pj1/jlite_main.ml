@@ -21,7 +21,11 @@ let parse_file file_name =
       close_in org_in_chnl;
         prog 
     with
-    End_of_file -> exit 0   
+    End_of_file -> exit 0  
+    | Parsing.Parse_error ->
+        let curr = lexbuf.Lexing.lex_curr_p in
+        let tok = Lexing.lexeme lexbuf in
+        let () = print_endline ("parsing: tok "^tok) in exit 0 
 
 let _ = 
  begin
@@ -32,3 +36,13 @@ let _ =
       let prog = parse_file x in
       print_endline (Jlite_structs.string_of_jlite_program prog)
  end
+(*
+ begin
+        let curr = lexbuf.Lexing.lex_curr_p in
+        let line = curr.Lexing.pos_lnum in
+        let cnum = curr.Lexing.pos_cnum - curr.Lexing.pos_bol in
+        let tok = Lexing.lexeme lexbuf in
+        let tail = Sql_lexer.ruleTail "" lexbuf in
+        raise (Error (exn,(line,cnum,tok,tail)))
+      end
+*)

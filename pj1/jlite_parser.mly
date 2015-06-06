@@ -52,6 +52,8 @@
 %token MAIN_KWORD
 %token READ_KWORD
 %token PRINT_KWORD
+%token PRIVATE_KWORD
+%token EXTENDS_KWORD
 
 %token <int> INTEGER_LITERAL
 %token <string> STRING_LITERAL
@@ -88,12 +90,17 @@ class_main:
 		OBRACE method_main CBRACE { ( $2, $4) }
 ;
 
+inheritence:
+	{ None }
+	| EXTENDS_KWORD CLASS_IDENTIFIER { Some $2 }
+;
+
 class_decl:
-	CLASS_KWORD CLASS_IDENTIFIER 
+	CLASS_KWORD CLASS_IDENTIFIER inheritence 
 		OBRACE 
 			varmth_varmth_decl_list  method_decl_list
-		CBRACE { ($2, (fst $4), 
-				(List.append (snd $4) $5))}
+		CBRACE { ($2, $3,(fst $5), 
+				(List.append (snd $5) $6))}
 ;
 	
 class_decl_list: 
@@ -107,37 +114,63 @@ non_zero_class_decl_list:
 	| non_zero_class_decl_list class_decl	{ $2 :: $1}
 ;
 
+
+modifier:
+	{ let () = print_endline "modifier:Public" in Public }
+	| PRIVATE_KWORD { Private }
+;
+
 method_main:
-	VOID_KWORD MAIN_KWORD
+		VOID_KWORD MAIN_KWORD
 		OPAREN mthd_param_list CPAREN 
 		OBRACE 
 		var_decl_stmt_list 
 		non_zero_stmt_list 
 		CBRACE 
-			{ { rettype=VoidT; 
+			{ { 
+				modifier = Public;
+				rettype = VoidT; 
 				jliteid = SimpleVarId "main"; 
-				ir3id =  (SimpleVarId "main"); 
-				params=$4; 
-				localvars=$7; stmts=$8;
+				ir3id = (SimpleVarId "main"); 
+				params = $4; 
+				localvars = $7; stmts = $8;
 			}}
 ;
 
 var_id_rule:
-	VAR_IDENTIFIER { SimpleVarId $1 }
+	VAR_IDENTIFIER { let () = print_endline($1) in SimpleVarId $1 }
 ;
 
 method_decl:
-	type_KWORD var_id_rule 
+		type_KWORD var_id_rule
 		OPAREN mthd_param_list CPAREN 
 		OBRACE 
 		var_decl_stmt_list 
 		non_zero_stmt_list 
 		CBRACE 
-			{ { rettype=$1; 
+			{ { 
+				modifier=Public;
+				rettype=$1; 
 				jliteid=$2;
 				ir3id= $2;				
 				params=$4; 
 				localvars=$7; stmts=$8;
+			}}
+		|
+	    modifier
+	   	type_KWORD var_id_rule
+		OPAREN mthd_param_list CPAREN 
+		OBRACE 
+		var_decl_stmt_list 
+		non_zero_stmt_list 
+		CBRACE 
+			{ { 
+				modifier=$1;
+				rettype=$2; 
+				jliteid=$3;
+				ir3id= $3;				
+				params=$5; 
+				localvars=$8; stmts=$9;
 			}}
 ;	
 
@@ -152,11 +185,11 @@ non_zero_method_decl_list:
 ;
 
 type_KWORD: 
-	BOOL_KWORD 		{BoolT }
-    | INT_KWORD 	{ IntT }
+	BOOL_KWORD 		{ BoolT }
+    | INT_KWORD 	{ let () = print_endline("IntT") in IntT }
 	| STRING_KWORD 	{ StringT }
 	| VOID_KWORD 	{ VoidT }
-	| CLASS_IDENTIFIER { ObjectT $1 }
+	| CLASS_IDENTIFIER { let () = print_endline("Object") in ObjectT $1 }
 ;
 
 /* === Rule for defining the list of parameters of a method === */
@@ -234,7 +267,16 @@ non_zero_stmt_list:
 
 
 /* === Rule for defining the different types of expressions in a method body ===*/
-exp: 
+cast:
+	{ None }
+	| OPAREN CLASS_IDENTIFIER CPAREN { Some $2 }
+;
+
+exp:
+	cast raw_exp {$2}
+;
+
+raw_exp: 
 	bexp  	{ $1 }
 	| aexp 	{ $1 }
 	| sexp 	{ $1  }
@@ -297,6 +339,7 @@ atom:
 	| var_id_rule 				{ Var $1 }
 	| NEW_KWORD CLASS_IDENTIFIER OPAREN CPAREN { ObjectCreate $2 }
 	| OPAREN exp CPAREN 	{ $2 }
+	| cast atom { $2 }
 
 exp_list: 
 	{ [] }

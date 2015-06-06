@@ -66,6 +66,9 @@ and jlite_stmt =
 (* Ocaml Tuple Type representing a jlite variable declaration *)
 type var_decl = jlite_type * var_id
 
+and modifier =
+	| Private
+	| Public
 (* Ocaml Record Type representing a jlite method declaration *)
 (* MdDecl -> <Type> <id> ( <FmlList> ) { <VarDecl>* <Stmt>* *)	
 and md_decl =
@@ -77,6 +80,7 @@ and md_decl =
 	  (* After overloading checking ir3id becomes cname_n *)
 	  (* where n is the index of method in the list cname methods *)
 	  mutable ir3id: var_id ;
+	  modifier: modifier;
 	  rettype: jlite_type;
 	  params:(var_decl list);
 	  localvars:(var_decl list);
@@ -85,7 +89,7 @@ and md_decl =
   
 (* Ocaml Tuple Type representing a jlite class declaration *)
 (* ClassDecl -> class <cname> {<VarDecl>* <MdDecl>} *)	  
-and class_decl = class_name * (var_decl list) * (md_decl list)
+and class_decl = class_name * class_name option *(var_decl list) * (md_decl list)
 
 (* Ocaml Tuple Type representing a jlite main class declaration *)
 and class_main = class_name * md_decl
@@ -226,11 +230,23 @@ let string_of_var_decl ((t,id):var_decl) : string =
 let string_of_arg_decl ((t,id):var_decl) : string = 
 	(string_of_jlite_type t) ^ " " 
 	^ string_of_var_id id
-		
+
+(* displace a Jlite method modifier *)
+let string_of_modifier (m:modifier): string =
+	match m with
+	| Private -> "private"
+	| Public -> ""
+
 (* display a Jlite method declaration *)
 let string_of_md_decl (m:md_decl) : string = 
+	let modifier =
+		let raw_string = string_of_modifier m.modifier in
+		if raw_string = ""
+		then ""
+		else raw_string^" "
+	in
 	let methodHeader = 
-		print_tab() ^ (string_of_jlite_type m.rettype) 
+		print_tab() ^ modifier ^ (string_of_jlite_type m.rettype) 
 		^ " " ^ string_of_var_id m.jliteid ^ 
 		"(" ^ (string_of_list m.params string_of_arg_decl ",") ^ ")" 
 		^"{\n" in
@@ -258,9 +274,14 @@ let string_of_class_main ((c,md):class_main) : string =
 	
 (* display a Jlite Class declaration *)
 let string_of_class_decl 
-	((c,var_list, md_list):class_decl) : string = 
+	((c,parent, var_list, md_list):class_decl) : string =
+	let inheritence =
+		match parent with
+		| Some pa -> " extends "^pa^" "
+		| None -> ""
+	in
 	let classHeader = 
-		"class " ^ c ^ "{\n" ^ indent_inc() in
+		"class " ^ c ^ inheritence ^ "{\n" ^ indent_inc() in
 	let classBody = 
 		(string_of_list var_list string_of_var_decl ";\n" )  
 		^ (if ((List.length var_list) >  0) 
