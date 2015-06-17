@@ -42,8 +42,8 @@ rule token file_name = parse
   | '!' 	{ NEG }
   | '{'		{ OBRACE }
   | '}'		{ CBRACE }
-  | '('		{ let () = print_endline("OPAREN") in OPAREN }
-  | ')'		{ let () = print_endline("CPAREN") in CPAREN }
+  | '('		{ OPAREN }
+  | ')'		{ CPAREN }
   | "Int"	{ INT_KWORD}
   | "Bool"	{ BOOL_KWORD}
   | "String" { STRING_KWORD}

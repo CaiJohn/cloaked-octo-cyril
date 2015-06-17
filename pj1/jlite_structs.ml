@@ -49,8 +49,10 @@ type jlite_exp =
   | ThisWord 
   | NullWord
   | Var of var_id
+  | CastExp of jlite_exp * jlite_type
     (* Reserved for type checking. Please do not instantiate during parsing *)
   | TypedExp of jlite_exp * jlite_type 
+
 
 and jlite_stmt = 
 	| IfStmt of jlite_exp * (jlite_stmt list) * (jlite_stmt list)
@@ -179,6 +181,8 @@ let string_of_jlite_expr (e:jlite_exp):string =
 	| ThisWord -> "this"
 	| NullWord -> "null"
     | Var v -> string_of_var_id v
+    | CastExp (e,t) ->
+    	"(" ^ string_of_jlite_type t ^ ")" ^ helper_func e
 	| TypedExp (e,t) -> 
 		(helper_func e) ^":" 
 		^ (string_of_jlite_type t)

@@ -116,7 +116,7 @@ non_zero_class_decl_list:
 
 
 modifier:
-	{ let () = print_endline "modifier:Public" in Public }
+	{  Public }
 	| PRIVATE_KWORD { Private }
 ;
 
@@ -138,7 +138,7 @@ method_main:
 ;
 
 var_id_rule:
-	VAR_IDENTIFIER { let () = print_endline($1) in SimpleVarId $1 }
+	VAR_IDENTIFIER {  SimpleVarId $1 }
 ;
 
 method_decl:
@@ -186,10 +186,10 @@ non_zero_method_decl_list:
 
 type_KWORD: 
 	BOOL_KWORD 		{ BoolT }
-    | INT_KWORD 	{ let () = print_endline("IntT") in IntT }
+    | INT_KWORD 	{ IntT }
 	| STRING_KWORD 	{ StringT }
 	| VOID_KWORD 	{ VoidT }
-	| CLASS_IDENTIFIER { let () = print_endline("Object") in ObjectT $1 }
+	| CLASS_IDENTIFIER {  ObjectT $1 }
 ;
 
 /* === Rule for defining the list of parameters of a method === */
@@ -268,15 +268,11 @@ non_zero_stmt_list:
 
 /* === Rule for defining the different types of expressions in a method body ===*/
 cast:
-	{ None }
-	| OPAREN CLASS_IDENTIFIER CPAREN { Some $2 }
+	OPAREN CLASS_IDENTIFIER CPAREN { Some $2 }
 ;
 
-exp:
-	cast raw_exp {$2}
-;
 
-raw_exp: 
+exp: 
 	bexp  	{ $1 }
 	| aexp 	{ $1 }
 	| sexp 	{ $1  }
@@ -338,8 +334,9 @@ atom:
 	| NULL_KWORD				{ NullWord }
 	| var_id_rule 				{ Var $1 }
 	| NEW_KWORD CLASS_IDENTIFIER OPAREN CPAREN { ObjectCreate $2 }
+	| OPAREN type_KWORD CPAREN atom { CastExp ( $4, $2) }	
 	| OPAREN exp CPAREN 	{ $2 }
-	| cast atom { $2 }
+;
 
 exp_list: 
 	{ [] }
