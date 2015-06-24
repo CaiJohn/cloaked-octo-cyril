@@ -15,7 +15,11 @@ void main(Int i, Int a, Int b,Int d){
  }
 }
 
-class Dummy extends A{
+class DummyP{
+  Int i;
+}
+
+class Dummy extends DummyP{
 
   Int i;
   Dummy j;
@@ -35,6 +39,9 @@ Bool j;
 }
 
 Int getCompute() {
+   DummyP a; 
+   Dummy d;
+   d = (Dummy)a;
    return 1; 
 }
 

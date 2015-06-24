@@ -74,9 +74,75 @@ let find_class_decl
 		| [] -> None
 		| (cname,cparent,cvars,cmthd)::tail_lst -> 
 			if ((String.compare cname cid) = 0) 
-				then (Some (cname,cvars,cmthd)) 
+				then (Some (cname,cparent,cvars,cmthd)) 
 				else ( helper tail_lst)
-	in ( helper clst) 
+	in ( helper clst)
+
+(* Return the list of direct sons of a class *)
+let find_class_direct_son
+	((cm,clst):jlite_program) (cid:class_name) =
+	let rec helper clst=
+		match clst with
+		| [] -> []
+		| ((cname,cparent,cvars,cmthd) as c)::rest ->
+			begin
+				match cparent with
+				| Some cp ->
+					if  ((String.compare cp cid) = 0)
+					then c::(helper rest)
+					else helper rest
+				| None ->
+					helper rest
+			end
+
+	in
+	let () = print_endline ("cid: "^cid) in
+	helper clst
+;;
+
+let find_class_direct_son_name_list
+	((cm,clst):jlite_program) (cid:class_name) =
+	let sonlst = find_class_direct_son (cm,clst) cid in 
+	List.map (fun (cname,_,_,_) -> cname) sonlst
+;;
+
+(* Determine whether one class inherits from the other *)
+(* What happened when there is cylinical inheritence? Keep track of a starting point *)
+let can_up_cast_to
+	((cm,clst): jlite_program) (son:class_name) (father:class_name) =
+	let rec helper from =
+		match find_class_decl (cm,clst) from with
+		| Some (_,Some cp,_,_) ->
+			if ((String.compare cp father) = 0)
+			then true
+			else helper cp
+		| _ ->
+			false
+	in
+	helper son
+;;
+
+(* Determine whether one class can be downcast to another *)
+let can_down_cast_to
+	((cm,clst):jlite_program) (son:class_name) (father:class_name) =
+	let rec helper fatherlst=
+		let sonlst = List.fold_left (fun r father -> (find_class_direct_son_name_list (cm,clst) father)@r) [] fatherlst in
+		let () = print_endline (string_of_list sonlst (fun x->x) ";") in
+		let () = print_endline ("can_down_cast_to") in
+		let result = List.fold_left (fun r nson -> if ((String.compare son nson)==0) then (true||r) else r ) false sonlst in
+		if result
+		then true
+		else helper sonlst
+	in
+	helper [father]
+;;
+
+let can_cast_to
+	(p:jlite_program) (son:class_name) (father:class_name) =
+	(can_down_cast_to p father son)||(can_up_cast_to p son father)
+;;
+
+		
 
 (* Compare a declared variable type against a given type *)
 let compare_param_decl_type 
@@ -91,7 +157,7 @@ let find_method_decl_type
 	(calleetypes: jlite_type list) =
 	match (find_class_decl p calleecls) with
 	| None -> failwith "Cannot Find method"
-	| Some (cname,cvars,cmthd) -> 
+	| Some (cname,_,cvars,cmthd) -> 
 		let rec helper mthdlst =
 		match mthdlst with
 		| [] -> failwith 
@@ -119,7 +185,7 @@ let find_field
 	(fieldid:var_id) =
 	match (find_class_decl p cls) with
 	| None -> Unknown
-	| Some (cname,cvars,cmthd) -> 
+	| Some (cname,_,cvars,cmthd) -> 
 		let rec  helper flst :jlite_type =
 			match flst with
 			| [] -> Unknown 
@@ -279,9 +345,20 @@ let rec type_check_expr
 			else (Unknown, e)
 		| MdCall (e,args) -> 
 			(type_check_method_call p env classid (e,args)) 
-		| CastExp (e,cast_type) ->
-			let (nt,typed_e) = helper e in
-			
+		| CastExp (e,casttype)->
+			let (etype,typedExp) = helper e in
+			if compare_jlite_types etype casttype
+			then (etype,(TypedExp (CastExp (typedExp,casttype),etype)))
+			else
+				(
+					match casttype,etype with
+					| ObjectT cast, ObjectT cname->
+						if can_cast_to p cname cast
+						then (casttype, TypedExp(CastExp (typedExp,casttype),casttype))
+					    else (Unknown, TypedExp(CastExp (typedExp,casttype),Unknown))
+					| _ ->
+						(Unknown, TypedExp(CastExp (typedExp,casttype),Unknown))
+				)
 		| _ -> (Unknown, e)
 	  in  helper exp
 
