@@ -38,6 +38,8 @@ let _ =
       let () = print_endline (Jlite_structs.string_of_jlite_program prog) in
       let typed_prog = Jlite_annotatedtyping.type_check_jlite_program prog in
       let () = print_endline (Jlite_structs.string_of_jlite_program typed_prog) in
+      let ir3prog = Jlite_toir3.jlite_program_to_IR3 typed_prog in
+      let () = print_endline (Ir3_structs.string_of_ir3_program ir3prog) in
       ()
  end
 (*

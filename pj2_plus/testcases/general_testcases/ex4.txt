@@ -1,0 +1,35 @@
+/* More boolean short-circuiting testing
+*/
+
+class Main {
+  void main() {
+    Int k;
+    Bool bool1;
+    Foo foo;
+    foo = new Foo();
+    while(foo != NULL && bool1 && foo.method1()) {
+      k = 1;
+    }
+    k = 2/1 + 4 * 5;
+    bool1 = true || foo.method1();
+    new Foo().bool = 4>=2 || true || 4<5 || false;
+    if(foo!=NULL && foo.method1() || !foo.bool) {
+      k = 0;
+    } else {
+      k = 1;
+    } 
+    while(bool1 || 4 > 5 && !foo.method1()) {
+      k = 2;
+    }
+  }
+}
+
+class Foo {
+  Bool bool;
+  Bool method1() {
+    return 1 > 2;
+  }
+  void method2() {
+    println("Hello!");
+  }
+}

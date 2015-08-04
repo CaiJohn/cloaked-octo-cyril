@@ -1,0 +1,43 @@
+class Main {
+
+void main() {
+  Int a;
+  Int b;
+  Int c;
+  Int d;
+  Int e;
+  Int f;
+  a = 1;
+  b = 2;
+  c = 3;
+  d = 4;
+  e = 5;
+  f = a+b+c+d+e; // f=15
+  println(new Compute().accCompute(a).accCompute(a,b).accCompute(a,b,c).accCompute(a,b,c,d).accCompute(a,b,c,d,e).i+3); // 38 
+  println(f);  // to test the stack is ok
+}
+}
+
+class Compute {
+Int i;
+Compute accCompute(Int a) {
+   i = a;
+   return this;
+}
+Compute accCompute(Int a,Int b) {
+   i = i + a + b;
+   return this;
+}
+Compute accCompute(Int a,Int b,Int c){
+   i = i+a+b+c;
+   return this;
+}
+Compute accCompute(Int a,Int b,Int c,Int d){
+   i = i+a+b+c+d;
+   return this;
+}
+Compute accCompute(Int x1,Int x2,Int x3,Int x4,Int x5) {
+   i = i + x1 +x2 + x3 + x4 +x5;
+   return this;
+} 
+}

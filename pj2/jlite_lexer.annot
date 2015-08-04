@@ -1,0 +1,1806 @@
+"jlite_lexer.mll" 8 93 99 "jlite_lexer.mll" 8 93 111
+type(
+  string -> Lexing.lexbuf -> unit
+)
+ident(
+  def incr_linenum "jlite_lexer.ml" 14 380 380 "jlite_lexer.ml" 1 0 -1
+)
+"jlite_lexer.mll" 8 93 112 "jlite_lexer.mll" 8 93 121
+type(
+  string
+)
+ident(
+  def file_name "jlite_lexer.mll" 8 93 122 "jlite_lexer.mll" 15 353 355
+)
+"jlite_lexer.mll" 8 93 122 "jlite_lexer.mll" 8 93 128
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "jlite_lexer.mll" 9 132 136 "jlite_lexer.mll" 15 353 355
+)
+"jlite_lexer.mll" 9 132 140 "jlite_lexer.mll" 9 132 143
+type(
+  Lexing.position
+)
+ident(
+  def pos "jlite_lexer.mll" 10 175 181 "jlite_lexer.mll" 15 353 355
+)
+"jlite_lexer.mll" 9 132 146 "jlite_lexer.mll" 9 132 152
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.mll" 8 93 122 "jlite_lexer.mll" 8 93 128
+)
+"jlite_lexer.mll" 9 132 146 "jlite_lexer.mll" 9 132 170
+type(
+  Lexing.position
+)
+"jlite_lexer.mll" 10 175 181 "jlite_lexer.mll" 10 175 187
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.mll" 8 93 122 "jlite_lexer.mll" 8 93 128
+)
+"jlite_lexer.mll" 11 211 214 "jlite_lexer.mll" 11 211 217
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "jlite_lexer.mll" 9 132 140 "jlite_lexer.mll" 9 132 143
+)
+"jlite_lexer.mll" 12 224 248 "jlite_lexer.mll" 12 224 257
+type(
+  string
+)
+ident(
+  int_ref file_name "jlite_lexer.mll" 8 93 112 "jlite_lexer.mll" 8 93 121
+)
+"jlite_lexer.mll" 13 260 283 "jlite_lexer.mll" 13 260 286
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "jlite_lexer.mll" 9 132 140 "jlite_lexer.mll" 9 132 143
+)
+"jlite_lexer.mll" 13 260 283 "jlite_lexer.mll" 13 260 302
+type(
+  int
+)
+"jlite_lexer.mll" 13 260 303 "jlite_lexer.mll" 13 260 304
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"jlite_lexer.mll" 13 260 305 "jlite_lexer.mll" 13 260 306
+type(
+  int
+)
+"jlite_lexer.mll" 13 260 283 "jlite_lexer.mll" 13 260 306
+type(
+  int
+)
+"jlite_lexer.mll" 14 309 331 "jlite_lexer.mll" 14 309 334
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "jlite_lexer.mll" 9 132 140 "jlite_lexer.mll" 9 132 143
+)
+"jlite_lexer.mll" 14 309 331 "jlite_lexer.mll" 14 309 350
+type(
+  int
+)
+"jlite_lexer.mll" 11 211 212 "jlite_lexer.mll" 15 353 355
+type(
+  Lexing.position
+)
+"jlite_lexer.mll" 10 175 181 "jlite_lexer.mll" 15 353 355
+type(
+  unit
+)
+"jlite_lexer.mll" 9 132 136 "jlite_lexer.mll" 15 353 355
+type(
+  unit
+)
+"jlite_lexer.ml" 14 380 384 "jlite_lexer.ml" 14 380 402
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "jlite_lexer.ml" 1789 123379 123379 "jlite_lexer.ml" 1 0 -1
+)
+"jlite_lexer.ml" 16 428 431 "jlite_lexer.ml" 32 1548 1593
+type(
+  string
+)
+"jlite_lexer.ml" 34 1619 1622 "jlite_lexer.ml" 50 2739 2784
+type(
+  string
+)
+"jlite_lexer.ml" 52 2810 2813 "jlite_lexer.ml" 68 3930 3975
+type(
+  string
+)
+"jlite_lexer.ml" 70 3999 4002 "jlite_lexer.ml" 921 63569 63574
+type(
+  string
+)
+"jlite_lexer.ml" 923 63598 63601 "jlite_lexer.ml" 1774 123168 123173
+type(
+  string
+)
+"jlite_lexer.ml" 1776 123201 123204 "jlite_lexer.ml" 1776 123201 123206
+type(
+  string
+)
+"jlite_lexer.ml" 1778 123237 123240 "jlite_lexer.ml" 1778 123237 123242
+type(
+  string
+)
+"jlite_lexer.ml" 1780 123273 123276 "jlite_lexer.ml" 1780 123273 123278
+type(
+  string
+)
+"jlite_lexer.ml" 1782 123307 123310 "jlite_lexer.ml" 1782 123307 123312
+type(
+  string
+)
+"jlite_lexer.ml" 1784 123341 123344 "jlite_lexer.ml" 1784 123341 123346
+type(
+  string
+)
+"jlite_lexer.ml" 1786 123369 123372 "jlite_lexer.ml" 1786 123369 123374
+type(
+  string
+)
+"jlite_lexer.ml" 14 380 405 "jlite_lexer.ml" 1787 123376 123377
+type(
+  Lexing.lex_tables
+)
+"jlite_lexer.ml" 1789 123379 123387 "jlite_lexer.ml" 1789 123379 123392
+type(
+  string -> Lexing.lexbuf -> Jlite_parser.token
+)
+ident(
+  def token "jlite_lexer.ml" 1789 123379 123379 "jlite_lexer.ml" 1 0 -1
+)
+"jlite_lexer.ml" 1789 123379 123393 "jlite_lexer.ml" 1789 123379 123402
+type(
+  string
+)
+ident(
+  def file_name "jlite_lexer.ml" 1789 123379 123403 "jlite_lexer.ml" 1790 123412 123456
+)
+"jlite_lexer.ml" 1789 123379 123403 "jlite_lexer.ml" 1789 123379 123409
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "jlite_lexer.ml" 1790 123412 123416 "jlite_lexer.ml" 1790 123412 123456
+)
+"jlite_lexer.ml" 1790 123412 123416 "jlite_lexer.ml" 1790 123412 123437
+type(
+  string -> Lexing.lexbuf -> int -> Jlite_parser.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "jlite_lexer.ml" 1791 123457 123461 "jlite_lexer.ml" 1791 123457 123482
+)
+"jlite_lexer.ml" 1790 123412 123438 "jlite_lexer.ml" 1790 123412 123447
+type(
+  string
+)
+ident(
+  int_ref file_name "jlite_lexer.ml" 1789 123379 123393 "jlite_lexer.ml" 1789 123379 123402
+)
+"jlite_lexer.ml" 1790 123412 123448 "jlite_lexer.ml" 1790 123412 123454
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 1789 123379 123403 "jlite_lexer.ml" 1789 123379 123409
+)
+"jlite_lexer.ml" 1790 123412 123455 "jlite_lexer.ml" 1790 123412 123456
+type(
+  int
+)
+"jlite_lexer.ml" 1790 123412 123416 "jlite_lexer.ml" 1790 123412 123456
+call(
+  tail
+)
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1791 123457 123461 "jlite_lexer.ml" 1791 123457 123482
+type(
+  string -> Lexing.lexbuf -> int -> Jlite_parser.token
+)
+ident(
+  def __ocaml_lex_token_rec "jlite_lexer.ml" 1789 123379 123379 "jlite_lexer.ml" 1 0 -1
+)
+"jlite_lexer.ml" 1791 123457 123483 "jlite_lexer.ml" 1791 123457 123492
+type(
+  string
+)
+ident(
+  def file_name "jlite_lexer.ml" 1791 123457 123493 "jlite_lexer.ml" 2073 128680 128795
+)
+"jlite_lexer.ml" 1791 123457 123493 "jlite_lexer.ml" 1791 123457 123499
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "jlite_lexer.ml" 1791 123457 123500 "jlite_lexer.ml" 2073 128680 128795
+)
+"jlite_lexer.ml" 1791 123457 123500 "jlite_lexer.ml" 1791 123457 123517
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "jlite_lexer.ml" 1792 123520 123522 "jlite_lexer.ml" 2073 128680 128795
+)
+"jlite_lexer.ml" 1792 123520 123528 "jlite_lexer.ml" 1792 123520 123541
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"jlite_lexer.ml" 1792 123520 123542 "jlite_lexer.ml" 1792 123520 123560
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "jlite_lexer.ml" 14 380 384 "jlite_lexer.ml" 14 380 402
+)
+"jlite_lexer.ml" 1792 123520 123561 "jlite_lexer.ml" 1792 123520 123578
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "jlite_lexer.ml" 1791 123457 123500 "jlite_lexer.ml" 1791 123457 123517
+)
+"jlite_lexer.ml" 1792 123520 123579 "jlite_lexer.ml" 1792 123520 123585
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 1791 123457 123493 "jlite_lexer.ml" 1791 123457 123499
+)
+"jlite_lexer.ml" 1792 123520 123528 "jlite_lexer.ml" 1792 123520 123585
+call(
+  stack
+)
+type(
+  int
+)
+"jlite_lexer.ml" 1793 123591 123599 "jlite_lexer.ml" 1793 123591 123600
+type(
+  int
+)
+"jlite_lexer.mll" 29 123627 123636 "jlite_lexer.mll" 29 123627 123644
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1798 123670 123674 "jlite_lexer.ml" 1798 123670 123675
+type(
+  int
+)
+"jlite_lexer.mll" 30 123702 123711 "jlite_lexer.mll" 30 123702 123720
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1803 123746 123750 "jlite_lexer.ml" 1803 123746 123751
+type(
+  int
+)
+"jlite_lexer.mll" 31 123778 123787 "jlite_lexer.mll" 31 123778 123799
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1808 123825 123829 "jlite_lexer.ml" 1808 123825 123830
+type(
+  int
+)
+"jlite_lexer.mll" 32 123857 123866 "jlite_lexer.mll" 32 123857 123876
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1813 123902 123906 "jlite_lexer.ml" 1813 123902 123907
+type(
+  int
+)
+"jlite_lexer.mll" 33 123934 123946 "jlite_lexer.mll" 33 123934 123952
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1818 123978 123982 "jlite_lexer.ml" 1818 123978 123983
+type(
+  int
+)
+"jlite_lexer.mll" 34 124010 124019 "jlite_lexer.mll" 34 124010 124029
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1823 124055 124059 "jlite_lexer.ml" 1823 124055 124060
+type(
+  int
+)
+"jlite_lexer.mll" 35 124087 124097 "jlite_lexer.mll" 35 124087 124104
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1828 124130 124134 "jlite_lexer.ml" 1828 124130 124135
+type(
+  int
+)
+"jlite_lexer.mll" 36 124162 124171 "jlite_lexer.mll" 36 124162 124177
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1833 124203 124207 "jlite_lexer.ml" 1833 124203 124208
+type(
+  int
+)
+"jlite_lexer.mll" 37 124235 124244 "jlite_lexer.mll" 37 124235 124251
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1838 124277 124281 "jlite_lexer.ml" 1838 124277 124282
+type(
+  int
+)
+"jlite_lexer.mll" 38 124309 124319 "jlite_lexer.mll" 38 124309 124326
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1843 124352 124356 "jlite_lexer.ml" 1843 124352 124358
+type(
+  int
+)
+"jlite_lexer.mll" 39 124385 124394 "jlite_lexer.mll" 39 124385 124401
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1848 124427 124431 "jlite_lexer.ml" 1848 124427 124433
+type(
+  int
+)
+"jlite_lexer.mll" 40 124460 124470 "jlite_lexer.mll" 40 124460 124477
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1853 124503 124507 "jlite_lexer.ml" 1853 124503 124509
+type(
+  int
+)
+"jlite_lexer.mll" 41 124536 124546 "jlite_lexer.mll" 41 124536 124552
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1858 124578 124582 "jlite_lexer.ml" 1858 124578 124584
+type(
+  int
+)
+"jlite_lexer.mll" 42 124611 124620 "jlite_lexer.mll" 42 124611 124627
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1863 124653 124657 "jlite_lexer.ml" 1863 124653 124659
+type(
+  int
+)
+"jlite_lexer.mll" 43 124686 124695 "jlite_lexer.mll" 43 124686 124705
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1868 124731 124735 "jlite_lexer.ml" 1868 124731 124737
+type(
+  int
+)
+"jlite_lexer.mll" 44 124764 124773 "jlite_lexer.mll" 44 124764 124783
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1873 124809 124813 "jlite_lexer.ml" 1873 124809 124815
+type(
+  int
+)
+"jlite_lexer.mll" 45 124842 124851 "jlite_lexer.mll" 45 124842 124861
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1878 124887 124891 "jlite_lexer.ml" 1878 124887 124893
+type(
+  int
+)
+"jlite_lexer.mll" 46 124920 124929 "jlite_lexer.mll" 46 124920 124939
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1883 124965 124969 "jlite_lexer.ml" 1883 124965 124971
+type(
+  int
+)
+"jlite_lexer.mll" 47 124998 125008 "jlite_lexer.mll" 47 124998 125020
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1888 125046 125050 "jlite_lexer.ml" 1888 125046 125052
+type(
+  int
+)
+"jlite_lexer.mll" 48 125079 125090 "jlite_lexer.mll" 48 125079 125103
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1893 125129 125133 "jlite_lexer.ml" 1893 125129 125135
+type(
+  int
+)
+"jlite_lexer.mll" 49 125162 125175 "jlite_lexer.mll" 49 125162 125190
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1898 125216 125220 "jlite_lexer.ml" 1898 125216 125222
+type(
+  int
+)
+"jlite_lexer.mll" 50 125249 125260 "jlite_lexer.mll" 50 125249 125274
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1903 125300 125304 "jlite_lexer.ml" 1903 125300 125306
+type(
+  int
+)
+"jlite_lexer.mll" 51 125333 125345 "jlite_lexer.mll" 51 125333 125360
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1908 125386 125390 "jlite_lexer.ml" 1908 125386 125392
+type(
+  int
+)
+"jlite_lexer.mll" 52 125419 125431 "jlite_lexer.mll" 52 125419 125446
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1913 125472 125476 "jlite_lexer.ml" 1913 125472 125478
+type(
+  int
+)
+"jlite_lexer.mll" 53 125505 125517 "jlite_lexer.mll" 53 125505 125531
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1918 125557 125561 "jlite_lexer.ml" 1918 125557 125563
+type(
+  int
+)
+"jlite_lexer.mll" 54 125590 125602 "jlite_lexer.mll" 54 125590 125617
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1923 125643 125647 "jlite_lexer.ml" 1923 125643 125649
+type(
+  int
+)
+"jlite_lexer.mll" 55 125676 125686 "jlite_lexer.mll" 55 125676 125698
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1928 125724 125728 "jlite_lexer.ml" 1928 125724 125730
+type(
+  int
+)
+"jlite_lexer.mll" 56 125757 125768 "jlite_lexer.mll" 56 125757 125782
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1933 125808 125812 "jlite_lexer.ml" 1933 125808 125814
+type(
+  int
+)
+"jlite_lexer.mll" 57 125841 125854 "jlite_lexer.mll" 57 125841 125870
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1938 125896 125900 "jlite_lexer.ml" 1938 125896 125902
+type(
+  int
+)
+"jlite_lexer.mll" 58 125929 125940 "jlite_lexer.mll" 58 125929 125954
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1943 125980 125984 "jlite_lexer.ml" 1943 125980 125986
+type(
+  int
+)
+"jlite_lexer.mll" 59 126013 126024 "jlite_lexer.mll" 59 126013 126038
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1948 126064 126068 "jlite_lexer.ml" 1948 126064 126070
+type(
+  int
+)
+"jlite_lexer.mll" 60 126097 126107 "jlite_lexer.mll" 60 126097 126120
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1953 126146 126150 "jlite_lexer.ml" 1953 126146 126152
+type(
+  int
+)
+"jlite_lexer.mll" 61 126179 126191 "jlite_lexer.mll" 61 126179 126205
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1958 126231 126235 "jlite_lexer.ml" 1958 126231 126237
+type(
+  int
+)
+"jlite_lexer.mll" 62 126264 126277 "jlite_lexer.mll" 62 126264 126291
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1963 126317 126321 "jlite_lexer.ml" 1963 126317 126323
+type(
+  int
+)
+"jlite_lexer.mll" 63 126350 126364 "jlite_lexer.mll" 63 126350 126379
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1968 126405 126409 "jlite_lexer.ml" 1968 126405 126411
+type(
+  int
+)
+"jlite_lexer.mll" 64 126438 126452 "jlite_lexer.mll" 64 126438 126469
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1973 126495 126499 "jlite_lexer.ml" 1973 126495 126501
+type(
+  int
+)
+"jlite_lexer.mll" 65 126528 126542 "jlite_lexer.mll" 65 126528 126559
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1978 126585 126589 "jlite_lexer.ml" 1978 126585 126591
+type(
+  int
+)
+"jlite_lexer.mll" 66 126618 126627 "jlite_lexer.mll" 66 126618 126640
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1983 126666 126670 "jlite_lexer.ml" 1983 126666 126672
+type(
+  int
+)
+"jlite_lexer.mll" 67 126699 126708 "jlite_lexer.mll" 67 126699 126715
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1988 126741 126745 "jlite_lexer.ml" 1988 126741 126747
+type(
+  int
+)
+"jlite_lexer.mll" 68 126774 126783 "jlite_lexer.mll" 68 126774 126792
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1993 126818 126822 "jlite_lexer.ml" 1993 126818 126824
+type(
+  int
+)
+"jlite_lexer.mll" 69 126851 126865 "jlite_lexer.mll" 69 126851 126879
+type(
+  string -> Lexing.lexbuf -> Jlite_parser.token
+)
+ident(
+  int_ref single_comment "jlite_lexer.ml" 2091 129353 129357 "jlite_lexer.ml" 2091 129353 129371
+)
+"jlite_lexer.mll" 69 126851 126880 "jlite_lexer.mll" 69 126851 126889
+type(
+  string
+)
+ident(
+  int_ref file_name "jlite_lexer.ml" 1791 123457 123483 "jlite_lexer.ml" 1791 123457 123492
+)
+"jlite_lexer.mll" 69 126851 126890 "jlite_lexer.mll" 69 126851 126896
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 1791 123457 123493 "jlite_lexer.ml" 1791 123457 123499
+)
+"jlite_lexer.mll" 69 126851 126863 "jlite_lexer.mll" 69 126851 126898
+call(
+  tail
+)
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1998 126924 126928 "jlite_lexer.ml" 1998 126924 126930
+type(
+  int
+)
+"jlite_lexer.mll" 70 126957 126969 "jlite_lexer.mll" 70 126957 126982
+type(
+  string -> Lexing.lexbuf -> Jlite_parser.token
+)
+ident(
+  int_ref multi_comment "jlite_lexer.ml" 2075 128797 128801 "jlite_lexer.ml" 2075 128797 128814
+)
+"jlite_lexer.mll" 70 126957 126983 "jlite_lexer.mll" 70 126957 126992
+type(
+  string
+)
+ident(
+  int_ref file_name "jlite_lexer.ml" 1791 123457 123483 "jlite_lexer.ml" 1791 123457 123492
+)
+"jlite_lexer.mll" 70 126957 126993 "jlite_lexer.mll" 70 126957 126999
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 1791 123457 123493 "jlite_lexer.ml" 1791 123457 123499
+)
+"jlite_lexer.mll" 70 126957 126967 "jlite_lexer.mll" 70 126957 127001
+call(
+  tail
+)
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2003 127027 127031 "jlite_lexer.ml" 2003 127027 127033
+type(
+  int
+)
+"jlite_lexer.mll" 71 127060 127070 "jlite_lexer.mll" 71 127060 127087
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2008 127113 127117 "jlite_lexer.ml" 2008 127113 127119
+type(
+  int
+)
+"jlite_lexer.mll" 72 127150 127165 "jlite_lexer.mll" 72 127150 127168
+type(
+  string
+)
+ident(
+  def str "jlite_lexer.mll" 72 127301 127321 "jlite_lexer.mll" 72 127301 127344
+)
+"jlite_lexer.ml" 2013 127193 127195 "jlite_lexer.ml" 2013 127193 127212
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"jlite_lexer.ml" 2013 127193 127213 "jlite_lexer.ml" 2013 127193 127219
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 1791 123457 123493 "jlite_lexer.ml" 1791 123457 123499
+)
+"jlite_lexer.ml" 2013 127193 127220 "jlite_lexer.ml" 2013 127193 127226
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 1791 123457 123493 "jlite_lexer.ml" 1791 123457 123499
+)
+"jlite_lexer.ml" 2013 127193 127220 "jlite_lexer.ml" 2013 127193 127247
+type(
+  int
+)
+"jlite_lexer.ml" 2013 127193 127248 "jlite_lexer.ml" 2013 127193 127254
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 1791 123457 123493 "jlite_lexer.ml" 1791 123457 123499
+)
+"jlite_lexer.ml" 2013 127193 127248 "jlite_lexer.ml" 2013 127193 127274
+type(
+  int
+)
+"jlite_lexer.ml" 2013 127193 127195 "jlite_lexer.ml" 2013 127193 127274
+call(
+  stack
+)
+type(
+  string
+)
+"jlite_lexer.mll" 72 127301 127340 "jlite_lexer.mll" 72 127301 127343
+type(
+  string
+)
+ident(
+  int_ref str "jlite_lexer.mll" 72 127150 127165 "jlite_lexer.mll" 72 127150 127168
+)
+"jlite_lexer.mll" 72 127301 127321 "jlite_lexer.mll" 72 127301 127344
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2009 127123 127123 "jlite_lexer.mll" 72 127301 127344
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2018 127370 127374 "jlite_lexer.ml" 2018 127370 127376
+type(
+  int
+)
+"jlite_lexer.mll" 73 127407 127420 "jlite_lexer.mll" 73 127407 127424
+type(
+  string
+)
+ident(
+  def str1 "jlite_lexer.mll" 73 127557 127576 "jlite_lexer.mll" 73 127557 127599
+)
+"jlite_lexer.ml" 2023 127449 127451 "jlite_lexer.ml" 2023 127449 127468
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"jlite_lexer.ml" 2023 127449 127469 "jlite_lexer.ml" 2023 127449 127475
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 1791 123457 123493 "jlite_lexer.ml" 1791 123457 123499
+)
+"jlite_lexer.ml" 2023 127449 127476 "jlite_lexer.ml" 2023 127449 127482
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 1791 123457 123493 "jlite_lexer.ml" 1791 123457 123499
+)
+"jlite_lexer.ml" 2023 127449 127476 "jlite_lexer.ml" 2023 127449 127503
+type(
+  int
+)
+"jlite_lexer.ml" 2023 127449 127504 "jlite_lexer.ml" 2023 127449 127510
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 1791 123457 123493 "jlite_lexer.ml" 1791 123457 123499
+)
+"jlite_lexer.ml" 2023 127449 127504 "jlite_lexer.ml" 2023 127449 127530
+type(
+  int
+)
+"jlite_lexer.ml" 2023 127449 127451 "jlite_lexer.ml" 2023 127449 127530
+call(
+  stack
+)
+type(
+  string
+)
+"jlite_lexer.mll" 73 127557 127593 "jlite_lexer.mll" 73 127557 127597
+type(
+  string
+)
+ident(
+  int_ref str1 "jlite_lexer.mll" 73 127407 127420 "jlite_lexer.mll" 73 127407 127424
+)
+"jlite_lexer.mll" 73 127557 127576 "jlite_lexer.mll" 73 127557 127599
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2019 127380 127380 "jlite_lexer.mll" 73 127557 127599
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2028 127625 127629 "jlite_lexer.ml" 2028 127625 127631
+type(
+  int
+)
+"jlite_lexer.mll" 74 127662 127676 "jlite_lexer.mll" 74 127662 127679
+type(
+  string
+)
+ident(
+  def num "jlite_lexer.mll" 75 127812 127814 "jlite_lexer.mll" 75 127812 127853
+)
+"jlite_lexer.ml" 2033 127704 127706 "jlite_lexer.ml" 2033 127704 127723
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"jlite_lexer.ml" 2033 127704 127724 "jlite_lexer.ml" 2033 127704 127730
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 1791 123457 123493 "jlite_lexer.ml" 1791 123457 123499
+)
+"jlite_lexer.ml" 2033 127704 127731 "jlite_lexer.ml" 2033 127704 127737
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 1791 123457 123493 "jlite_lexer.ml" 1791 123457 123499
+)
+"jlite_lexer.ml" 2033 127704 127731 "jlite_lexer.ml" 2033 127704 127758
+type(
+  int
+)
+"jlite_lexer.ml" 2033 127704 127759 "jlite_lexer.ml" 2033 127704 127765
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 1791 123457 123493 "jlite_lexer.ml" 1791 123457 123499
+)
+"jlite_lexer.ml" 2033 127704 127759 "jlite_lexer.ml" 2033 127704 127785
+type(
+  int
+)
+"jlite_lexer.ml" 2033 127704 127706 "jlite_lexer.ml" 2033 127704 127785
+call(
+  stack
+)
+type(
+  string
+)
+"jlite_lexer.mll" 75 127812 127833 "jlite_lexer.mll" 75 127812 127846
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"jlite_lexer.mll" 75 127812 127847 "jlite_lexer.mll" 75 127812 127850
+type(
+  string
+)
+ident(
+  int_ref num "jlite_lexer.mll" 74 127662 127676 "jlite_lexer.mll" 74 127662 127679
+)
+"jlite_lexer.mll" 75 127812 127832 "jlite_lexer.mll" 75 127812 127851
+type(
+  int
+)
+"jlite_lexer.mll" 75 127812 127814 "jlite_lexer.mll" 75 127812 127853
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2029 127635 127635 "jlite_lexer.mll" 75 127812 127853
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2038 127879 127883 "jlite_lexer.ml" 2038 127879 127885
+type(
+  int
+)
+"jlite_lexer.mll" 77 127916 127929 "jlite_lexer.mll" 77 127916 127930
+type(
+  string
+)
+ident(
+  def s "jlite_lexer.mll" 78 128076 128082 "jlite_lexer.mll" 78 128076 128102
+)
+"jlite_lexer.ml" 2043 127955 127957 "jlite_lexer.ml" 2043 127955 127974
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"jlite_lexer.ml" 2043 127955 127975 "jlite_lexer.ml" 2043 127955 127981
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 1791 123457 123493 "jlite_lexer.ml" 1791 123457 123499
+)
+"jlite_lexer.ml" 2043 127955 127983 "jlite_lexer.ml" 2043 127955 127989
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 1791 123457 123493 "jlite_lexer.ml" 1791 123457 123499
+)
+"jlite_lexer.ml" 2043 127955 127983 "jlite_lexer.ml" 2043 127955 128010
+type(
+  int
+)
+"jlite_lexer.ml" 2043 127955 128011 "jlite_lexer.ml" 2043 127955 128012
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"jlite_lexer.ml" 2043 127955 128013 "jlite_lexer.ml" 2043 127955 128014
+type(
+  int
+)
+"jlite_lexer.ml" 2043 127955 127982 "jlite_lexer.ml" 2043 127955 128015
+type(
+  int
+)
+"jlite_lexer.ml" 2043 127955 128017 "jlite_lexer.ml" 2043 127955 128023
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 1791 123457 123493 "jlite_lexer.ml" 1791 123457 123499
+)
+"jlite_lexer.ml" 2043 127955 128017 "jlite_lexer.ml" 2043 127955 128043
+type(
+  int
+)
+"jlite_lexer.ml" 2043 127955 128044 "jlite_lexer.ml" 2043 127955 128045
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"jlite_lexer.ml" 2043 127955 128046 "jlite_lexer.ml" 2043 127955 128048
+type(
+  int
+)
+"jlite_lexer.ml" 2043 127955 128016 "jlite_lexer.ml" 2043 127955 128049
+type(
+  int
+)
+"jlite_lexer.ml" 2043 127955 127957 "jlite_lexer.ml" 2043 127955 128049
+call(
+  stack
+)
+type(
+  string
+)
+"jlite_lexer.mll" 78 128076 128099 "jlite_lexer.mll" 78 128076 128100
+type(
+  string
+)
+ident(
+  int_ref s "jlite_lexer.mll" 77 127916 127929 "jlite_lexer.mll" 77 127916 127930
+)
+"jlite_lexer.mll" 78 128076 128082 "jlite_lexer.mll" 78 128076 128102
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2039 127889 127889 "jlite_lexer.mll" 78 128076 128102
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2048 128128 128132 "jlite_lexer.ml" 2048 128128 128134
+type(
+  int
+)
+"jlite_lexer.mll" 79 128161 128178 "jlite_lexer.mll" 79 128161 128183
+type(
+  string -> Lexing.lexbuf -> Jlite_parser.token
+)
+ident(
+  int_ref token "jlite_lexer.ml" 1789 123379 123387 "jlite_lexer.ml" 1789 123379 123392
+)
+"jlite_lexer.mll" 79 128161 128184 "jlite_lexer.mll" 79 128161 128193
+type(
+  string
+)
+ident(
+  int_ref file_name "jlite_lexer.ml" 1791 123457 123483 "jlite_lexer.ml" 1791 123457 123492
+)
+"jlite_lexer.mll" 79 128161 128194 "jlite_lexer.mll" 79 128161 128200
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 1791 123457 123493 "jlite_lexer.ml" 1791 123457 123499
+)
+"jlite_lexer.mll" 79 128161 128176 "jlite_lexer.mll" 79 128161 128202
+call(
+  tail
+)
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2053 128228 128232 "jlite_lexer.ml" 2053 128228 128234
+type(
+  int
+)
+"jlite_lexer.mll" 80 128261 128272 "jlite_lexer.mll" 80 128261 128284
+type(
+  string -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref incr_linenum "jlite_lexer.mll" 8 93 99 "jlite_lexer.mll" 8 93 111
+)
+"jlite_lexer.mll" 80 128261 128285 "jlite_lexer.mll" 80 128261 128294
+type(
+  string
+)
+ident(
+  int_ref file_name "jlite_lexer.ml" 1791 123457 123483 "jlite_lexer.ml" 1791 123457 123492
+)
+"jlite_lexer.mll" 80 128261 128295 "jlite_lexer.mll" 80 128261 128301
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 1791 123457 123493 "jlite_lexer.ml" 1791 123457 123499
+)
+"jlite_lexer.mll" 80 128261 128272 "jlite_lexer.mll" 80 128261 128301
+call(
+  stack
+)
+type(
+  unit
+)
+"jlite_lexer.mll" 80 128261 128303 "jlite_lexer.mll" 80 128261 128308
+type(
+  string -> Lexing.lexbuf -> Jlite_parser.token
+)
+ident(
+  int_ref token "jlite_lexer.ml" 1789 123379 123387 "jlite_lexer.ml" 1789 123379 123392
+)
+"jlite_lexer.mll" 80 128261 128309 "jlite_lexer.mll" 80 128261 128318
+type(
+  string
+)
+ident(
+  int_ref file_name "jlite_lexer.ml" 1791 123457 123483 "jlite_lexer.ml" 1791 123457 123492
+)
+"jlite_lexer.mll" 80 128261 128319 "jlite_lexer.mll" 80 128261 128325
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 1791 123457 123493 "jlite_lexer.ml" 1791 123457 123499
+)
+"jlite_lexer.mll" 80 128261 128303 "jlite_lexer.mll" 80 128261 128325
+call(
+  tail
+)
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.mll" 80 128261 128270 "jlite_lexer.mll" 80 128261 128327
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2058 128353 128357 "jlite_lexer.ml" 2058 128353 128359
+type(
+  int
+)
+"jlite_lexer.mll" 81 128386 128397 "jlite_lexer.mll" 81 128386 128409
+type(
+  string -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref incr_linenum "jlite_lexer.mll" 8 93 99 "jlite_lexer.mll" 8 93 111
+)
+"jlite_lexer.mll" 81 128386 128410 "jlite_lexer.mll" 81 128386 128419
+type(
+  string
+)
+ident(
+  int_ref file_name "jlite_lexer.ml" 1791 123457 123483 "jlite_lexer.ml" 1791 123457 123492
+)
+"jlite_lexer.mll" 81 128386 128420 "jlite_lexer.mll" 81 128386 128426
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 1791 123457 123493 "jlite_lexer.ml" 1791 123457 123499
+)
+"jlite_lexer.mll" 81 128386 128397 "jlite_lexer.mll" 81 128386 128426
+call(
+  stack
+)
+type(
+  unit
+)
+"jlite_lexer.mll" 81 128386 128428 "jlite_lexer.mll" 81 128386 128433
+type(
+  string -> Lexing.lexbuf -> Jlite_parser.token
+)
+ident(
+  int_ref token "jlite_lexer.ml" 1789 123379 123387 "jlite_lexer.ml" 1789 123379 123392
+)
+"jlite_lexer.mll" 81 128386 128434 "jlite_lexer.mll" 81 128386 128443
+type(
+  string
+)
+ident(
+  int_ref file_name "jlite_lexer.ml" 1791 123457 123483 "jlite_lexer.ml" 1791 123457 123492
+)
+"jlite_lexer.mll" 81 128386 128444 "jlite_lexer.mll" 81 128386 128450
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 1791 123457 123493 "jlite_lexer.ml" 1791 123457 123499
+)
+"jlite_lexer.mll" 81 128386 128428 "jlite_lexer.mll" 81 128386 128450
+call(
+  tail
+)
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.mll" 81 128386 128395 "jlite_lexer.mll" 81 128386 128452
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2063 128478 128482 "jlite_lexer.ml" 2063 128478 128484
+type(
+  int
+)
+"jlite_lexer.mll" 82 128511 128524 "jlite_lexer.mll" 82 128511 128536
+type(
+  string -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref incr_linenum "jlite_lexer.mll" 8 93 99 "jlite_lexer.mll" 8 93 111
+)
+"jlite_lexer.mll" 82 128511 128537 "jlite_lexer.mll" 82 128511 128546
+type(
+  string
+)
+ident(
+  int_ref file_name "jlite_lexer.ml" 1791 123457 123483 "jlite_lexer.ml" 1791 123457 123492
+)
+"jlite_lexer.mll" 82 128511 128547 "jlite_lexer.mll" 82 128511 128553
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 1791 123457 123493 "jlite_lexer.ml" 1791 123457 123499
+)
+"jlite_lexer.mll" 82 128511 128524 "jlite_lexer.mll" 82 128511 128553
+call(
+  stack
+)
+type(
+  unit
+)
+"jlite_lexer.mll" 82 128511 128555 "jlite_lexer.mll" 82 128511 128560
+type(
+  string -> Lexing.lexbuf -> Jlite_parser.token
+)
+ident(
+  int_ref token "jlite_lexer.ml" 1789 123379 123387 "jlite_lexer.ml" 1789 123379 123392
+)
+"jlite_lexer.mll" 82 128511 128561 "jlite_lexer.mll" 82 128511 128570
+type(
+  string
+)
+ident(
+  int_ref file_name "jlite_lexer.ml" 1791 123457 123483 "jlite_lexer.ml" 1791 123457 123492
+)
+"jlite_lexer.mll" 82 128511 128571 "jlite_lexer.mll" 82 128511 128577
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 1791 123457 123493 "jlite_lexer.ml" 1791 123457 123499
+)
+"jlite_lexer.mll" 82 128511 128555 "jlite_lexer.mll" 82 128511 128577
+call(
+  tail
+)
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.mll" 82 128511 128522 "jlite_lexer.mll" 82 128511 128579
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2068 128605 128609 "jlite_lexer.ml" 2068 128605 128611
+type(
+  int
+)
+"jlite_lexer.mll" 83 128638 128647 "jlite_lexer.mll" 83 128638 128654
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2073 128680 128684 "jlite_lexer.ml" 2073 128680 128701
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "jlite_lexer.ml" 2073 128680 128705 "jlite_lexer.ml" 2073 128680 128795
+)
+"jlite_lexer.ml" 2073 128680 128705 "jlite_lexer.ml" 2073 128680 128711
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 1791 123457 123493 "jlite_lexer.ml" 1791 123457 123499
+)
+"jlite_lexer.ml" 2073 128680 128705 "jlite_lexer.ml" 2073 128680 128730
+type(
+  Lexing.lexbuf -> unit
+)
+"jlite_lexer.ml" 2073 128680 128731 "jlite_lexer.ml" 2073 128680 128737
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 1791 123457 123493 "jlite_lexer.ml" 1791 123457 123499
+)
+"jlite_lexer.ml" 2073 128680 128705 "jlite_lexer.ml" 2073 128680 128737
+call(
+  stack
+)
+type(
+  unit
+)
+"jlite_lexer.ml" 2073 128680 128739 "jlite_lexer.ml" 2073 128680 128760
+type(
+  string -> Lexing.lexbuf -> int -> Jlite_parser.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "jlite_lexer.ml" 1791 123457 123461 "jlite_lexer.ml" 1791 123457 123482
+)
+"jlite_lexer.ml" 2073 128680 128761 "jlite_lexer.ml" 2073 128680 128770
+type(
+  string
+)
+ident(
+  int_ref file_name "jlite_lexer.ml" 1791 123457 123483 "jlite_lexer.ml" 1791 123457 123492
+)
+"jlite_lexer.ml" 2073 128680 128771 "jlite_lexer.ml" 2073 128680 128777
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 1791 123457 123493 "jlite_lexer.ml" 1791 123457 123499
+)
+"jlite_lexer.ml" 2073 128680 128778 "jlite_lexer.ml" 2073 128680 128795
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "jlite_lexer.ml" 2073 128680 128684 "jlite_lexer.ml" 2073 128680 128701
+)
+"jlite_lexer.ml" 2073 128680 128739 "jlite_lexer.ml" 2073 128680 128795
+call(
+  tail
+)
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2073 128680 128705 "jlite_lexer.ml" 2073 128680 128795
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 1792 123520 123522 "jlite_lexer.ml" 2073 128680 128795
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2075 128797 128801 "jlite_lexer.ml" 2075 128797 128814
+type(
+  string -> Lexing.lexbuf -> Jlite_parser.token
+)
+ident(
+  def multi_comment "jlite_lexer.ml" 1789 123379 123379 "jlite_lexer.ml" 1 0 -1
+)
+"jlite_lexer.ml" 2075 128797 128815 "jlite_lexer.ml" 2075 128797 128824
+type(
+  string
+)
+ident(
+  def file_name "jlite_lexer.ml" 2075 128797 128825 "jlite_lexer.ml" 2076 128834 128888
+)
+"jlite_lexer.ml" 2075 128797 128825 "jlite_lexer.ml" 2075 128797 128831
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "jlite_lexer.ml" 2076 128834 128838 "jlite_lexer.ml" 2076 128834 128888
+)
+"jlite_lexer.ml" 2076 128834 128838 "jlite_lexer.ml" 2076 128834 128867
+type(
+  string -> Lexing.lexbuf -> int -> Jlite_parser.token
+)
+ident(
+  int_ref __ocaml_lex_multi_comment_rec "jlite_lexer.ml" 2077 128889 128893 "jlite_lexer.ml" 2077 128889 128922
+)
+"jlite_lexer.ml" 2076 128834 128868 "jlite_lexer.ml" 2076 128834 128877
+type(
+  string
+)
+ident(
+  int_ref file_name "jlite_lexer.ml" 2075 128797 128815 "jlite_lexer.ml" 2075 128797 128824
+)
+"jlite_lexer.ml" 2076 128834 128878 "jlite_lexer.ml" 2076 128834 128884
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 2075 128797 128825 "jlite_lexer.ml" 2075 128797 128831
+)
+"jlite_lexer.ml" 2076 128834 128885 "jlite_lexer.ml" 2076 128834 128888
+type(
+  int
+)
+"jlite_lexer.ml" 2076 128834 128838 "jlite_lexer.ml" 2076 128834 128888
+call(
+  tail
+)
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2077 128889 128893 "jlite_lexer.ml" 2077 128889 128922
+type(
+  string -> Lexing.lexbuf -> int -> Jlite_parser.token
+)
+ident(
+  def __ocaml_lex_multi_comment_rec "jlite_lexer.ml" 1789 123379 123379 "jlite_lexer.ml" 1 0 -1
+)
+"jlite_lexer.ml" 2077 128889 128923 "jlite_lexer.ml" 2077 128889 128932
+type(
+  string
+)
+ident(
+  def file_name "jlite_lexer.ml" 2077 128889 128933 "jlite_lexer.ml" 2089 129228 129351
+)
+"jlite_lexer.ml" 2077 128889 128933 "jlite_lexer.ml" 2077 128889 128939
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "jlite_lexer.ml" 2077 128889 128940 "jlite_lexer.ml" 2089 129228 129351
+)
+"jlite_lexer.ml" 2077 128889 128940 "jlite_lexer.ml" 2077 128889 128957
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "jlite_lexer.ml" 2078 128960 128962 "jlite_lexer.ml" 2089 129228 129351
+)
+"jlite_lexer.ml" 2078 128960 128968 "jlite_lexer.ml" 2078 128960 128981
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"jlite_lexer.ml" 2078 128960 128982 "jlite_lexer.ml" 2078 128960 129000
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "jlite_lexer.ml" 14 380 384 "jlite_lexer.ml" 14 380 402
+)
+"jlite_lexer.ml" 2078 128960 129001 "jlite_lexer.ml" 2078 128960 129018
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "jlite_lexer.ml" 2077 128889 128940 "jlite_lexer.ml" 2077 128889 128957
+)
+"jlite_lexer.ml" 2078 128960 129019 "jlite_lexer.ml" 2078 128960 129025
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 2077 128889 128933 "jlite_lexer.ml" 2077 128889 128939
+)
+"jlite_lexer.ml" 2078 128960 128968 "jlite_lexer.ml" 2078 128960 129025
+call(
+  stack
+)
+type(
+  int
+)
+"jlite_lexer.ml" 2079 129031 129039 "jlite_lexer.ml" 2079 129031 129040
+type(
+  int
+)
+"jlite_lexer.mll" 86 129067 129079 "jlite_lexer.mll" 86 129067 129084
+type(
+  string -> Lexing.lexbuf -> Jlite_parser.token
+)
+ident(
+  int_ref token "jlite_lexer.ml" 1789 123379 123387 "jlite_lexer.ml" 1789 123379 123392
+)
+"jlite_lexer.mll" 86 129067 129085 "jlite_lexer.mll" 86 129067 129094
+type(
+  string
+)
+ident(
+  int_ref file_name "jlite_lexer.ml" 2077 128889 128923 "jlite_lexer.ml" 2077 128889 128932
+)
+"jlite_lexer.mll" 86 129067 129095 "jlite_lexer.mll" 86 129067 129101
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 2077 128889 128933 "jlite_lexer.ml" 2077 128889 128939
+)
+"jlite_lexer.mll" 86 129067 129077 "jlite_lexer.mll" 86 129067 129103
+call(
+  tail
+)
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2084 129129 129133 "jlite_lexer.ml" 2084 129129 129134
+type(
+  int
+)
+"jlite_lexer.mll" 87 129161 129171 "jlite_lexer.mll" 87 129161 129184
+type(
+  string -> Lexing.lexbuf -> Jlite_parser.token
+)
+ident(
+  int_ref multi_comment "jlite_lexer.ml" 2075 128797 128801 "jlite_lexer.ml" 2075 128797 128814
+)
+"jlite_lexer.mll" 87 129161 129185 "jlite_lexer.mll" 87 129161 129194
+type(
+  string
+)
+ident(
+  int_ref file_name "jlite_lexer.ml" 2077 128889 128923 "jlite_lexer.ml" 2077 128889 128932
+)
+"jlite_lexer.mll" 87 129161 129195 "jlite_lexer.mll" 87 129161 129201
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 2077 128889 128933 "jlite_lexer.ml" 2077 128889 128939
+)
+"jlite_lexer.mll" 87 129161 129169 "jlite_lexer.mll" 87 129161 129202
+call(
+  tail
+)
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2089 129228 129232 "jlite_lexer.ml" 2089 129228 129249
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "jlite_lexer.ml" 2089 129228 129253 "jlite_lexer.ml" 2089 129228 129351
+)
+"jlite_lexer.ml" 2089 129228 129253 "jlite_lexer.ml" 2089 129228 129259
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 2077 128889 128933 "jlite_lexer.ml" 2077 128889 128939
+)
+"jlite_lexer.ml" 2089 129228 129253 "jlite_lexer.ml" 2089 129228 129278
+type(
+  Lexing.lexbuf -> unit
+)
+"jlite_lexer.ml" 2089 129228 129279 "jlite_lexer.ml" 2089 129228 129285
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 2077 128889 128933 "jlite_lexer.ml" 2077 128889 128939
+)
+"jlite_lexer.ml" 2089 129228 129253 "jlite_lexer.ml" 2089 129228 129285
+call(
+  stack
+)
+type(
+  unit
+)
+"jlite_lexer.ml" 2089 129228 129287 "jlite_lexer.ml" 2089 129228 129316
+type(
+  string -> Lexing.lexbuf -> int -> Jlite_parser.token
+)
+ident(
+  int_ref __ocaml_lex_multi_comment_rec "jlite_lexer.ml" 2077 128889 128893 "jlite_lexer.ml" 2077 128889 128922
+)
+"jlite_lexer.ml" 2089 129228 129317 "jlite_lexer.ml" 2089 129228 129326
+type(
+  string
+)
+ident(
+  int_ref file_name "jlite_lexer.ml" 2077 128889 128923 "jlite_lexer.ml" 2077 128889 128932
+)
+"jlite_lexer.ml" 2089 129228 129327 "jlite_lexer.ml" 2089 129228 129333
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 2077 128889 128933 "jlite_lexer.ml" 2077 128889 128939
+)
+"jlite_lexer.ml" 2089 129228 129334 "jlite_lexer.ml" 2089 129228 129351
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "jlite_lexer.ml" 2089 129228 129232 "jlite_lexer.ml" 2089 129228 129249
+)
+"jlite_lexer.ml" 2089 129228 129287 "jlite_lexer.ml" 2089 129228 129351
+call(
+  tail
+)
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2089 129228 129253 "jlite_lexer.ml" 2089 129228 129351
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2078 128960 128962 "jlite_lexer.ml" 2089 129228 129351
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2091 129353 129357 "jlite_lexer.ml" 2091 129353 129371
+type(
+  string -> Lexing.lexbuf -> Jlite_parser.token
+)
+ident(
+  def single_comment "jlite_lexer.ml" 1789 123379 123379 "jlite_lexer.ml" 1 0 -1
+)
+"jlite_lexer.ml" 2091 129353 129372 "jlite_lexer.ml" 2091 129353 129381
+type(
+  string
+)
+ident(
+  def file_name "jlite_lexer.ml" 2091 129353 129382 "jlite_lexer.ml" 2092 129391 129446
+)
+"jlite_lexer.ml" 2091 129353 129382 "jlite_lexer.ml" 2091 129353 129388
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "jlite_lexer.ml" 2092 129391 129395 "jlite_lexer.ml" 2092 129391 129446
+)
+"jlite_lexer.ml" 2092 129391 129395 "jlite_lexer.ml" 2092 129391 129425
+type(
+  string -> Lexing.lexbuf -> int -> Jlite_parser.token
+)
+ident(
+  int_ref __ocaml_lex_single_comment_rec "jlite_lexer.ml" 2093 129447 129451 "jlite_lexer.ml" 2093 129447 129481
+)
+"jlite_lexer.ml" 2092 129391 129426 "jlite_lexer.ml" 2092 129391 129435
+type(
+  string
+)
+ident(
+  int_ref file_name "jlite_lexer.ml" 2091 129353 129372 "jlite_lexer.ml" 2091 129353 129381
+)
+"jlite_lexer.ml" 2092 129391 129436 "jlite_lexer.ml" 2092 129391 129442
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 2091 129353 129382 "jlite_lexer.ml" 2091 129353 129388
+)
+"jlite_lexer.ml" 2092 129391 129443 "jlite_lexer.ml" 2092 129391 129446
+type(
+  int
+)
+"jlite_lexer.ml" 2092 129391 129395 "jlite_lexer.ml" 2092 129391 129446
+call(
+  tail
+)
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2093 129447 129451 "jlite_lexer.ml" 2093 129447 129481
+type(
+  string -> Lexing.lexbuf -> int -> Jlite_parser.token
+)
+ident(
+  def __ocaml_lex_single_comment_rec "jlite_lexer.ml" 1789 123379 123379 "jlite_lexer.ml" 1 0 -1
+)
+"jlite_lexer.ml" 2093 129447 129482 "jlite_lexer.ml" 2093 129447 129491
+type(
+  string
+)
+ident(
+  def file_name "jlite_lexer.ml" 2093 129447 129492 "jlite_lexer.ml" 2105 129790 129914
+)
+"jlite_lexer.ml" 2093 129447 129492 "jlite_lexer.ml" 2093 129447 129498
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "jlite_lexer.ml" 2093 129447 129499 "jlite_lexer.ml" 2105 129790 129914
+)
+"jlite_lexer.ml" 2093 129447 129499 "jlite_lexer.ml" 2093 129447 129516
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "jlite_lexer.ml" 2094 129519 129521 "jlite_lexer.ml" 2105 129790 129914
+)
+"jlite_lexer.ml" 2094 129519 129527 "jlite_lexer.ml" 2094 129519 129540
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"jlite_lexer.ml" 2094 129519 129541 "jlite_lexer.ml" 2094 129519 129559
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "jlite_lexer.ml" 14 380 384 "jlite_lexer.ml" 14 380 402
+)
+"jlite_lexer.ml" 2094 129519 129560 "jlite_lexer.ml" 2094 129519 129577
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "jlite_lexer.ml" 2093 129447 129499 "jlite_lexer.ml" 2093 129447 129516
+)
+"jlite_lexer.ml" 2094 129519 129578 "jlite_lexer.ml" 2094 129519 129584
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 2093 129447 129492 "jlite_lexer.ml" 2093 129447 129498
+)
+"jlite_lexer.ml" 2094 129519 129527 "jlite_lexer.ml" 2094 129519 129584
+call(
+  stack
+)
+type(
+  int
+)
+"jlite_lexer.ml" 2095 129590 129598 "jlite_lexer.ml" 2095 129590 129599
+type(
+  int
+)
+"jlite_lexer.mll" 90 129626 129640 "jlite_lexer.mll" 90 129626 129645
+type(
+  string -> Lexing.lexbuf -> Jlite_parser.token
+)
+ident(
+  int_ref token "jlite_lexer.ml" 1789 123379 123387 "jlite_lexer.ml" 1789 123379 123392
+)
+"jlite_lexer.mll" 90 129626 129646 "jlite_lexer.mll" 90 129626 129655
+type(
+  string
+)
+ident(
+  int_ref file_name "jlite_lexer.ml" 2093 129447 129482 "jlite_lexer.ml" 2093 129447 129491
+)
+"jlite_lexer.mll" 90 129626 129656 "jlite_lexer.mll" 90 129626 129662
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 2093 129447 129492 "jlite_lexer.ml" 2093 129447 129498
+)
+"jlite_lexer.mll" 90 129626 129638 "jlite_lexer.mll" 90 129626 129664
+call(
+  tail
+)
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2100 129690 129694 "jlite_lexer.ml" 2100 129690 129695
+type(
+  int
+)
+"jlite_lexer.mll" 91 129722 129732 "jlite_lexer.mll" 91 129722 129746
+type(
+  string -> Lexing.lexbuf -> Jlite_parser.token
+)
+ident(
+  int_ref single_comment "jlite_lexer.ml" 2091 129353 129357 "jlite_lexer.ml" 2091 129353 129371
+)
+"jlite_lexer.mll" 91 129722 129747 "jlite_lexer.mll" 91 129722 129756
+type(
+  string
+)
+ident(
+  int_ref file_name "jlite_lexer.ml" 2093 129447 129482 "jlite_lexer.ml" 2093 129447 129491
+)
+"jlite_lexer.mll" 91 129722 129757 "jlite_lexer.mll" 91 129722 129763
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 2093 129447 129492 "jlite_lexer.ml" 2093 129447 129498
+)
+"jlite_lexer.mll" 91 129722 129730 "jlite_lexer.mll" 91 129722 129764
+call(
+  tail
+)
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2105 129790 129794 "jlite_lexer.ml" 2105 129790 129811
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "jlite_lexer.ml" 2105 129790 129815 "jlite_lexer.ml" 2105 129790 129914
+)
+"jlite_lexer.ml" 2105 129790 129815 "jlite_lexer.ml" 2105 129790 129821
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 2093 129447 129492 "jlite_lexer.ml" 2093 129447 129498
+)
+"jlite_lexer.ml" 2105 129790 129815 "jlite_lexer.ml" 2105 129790 129840
+type(
+  Lexing.lexbuf -> unit
+)
+"jlite_lexer.ml" 2105 129790 129841 "jlite_lexer.ml" 2105 129790 129847
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 2093 129447 129492 "jlite_lexer.ml" 2093 129447 129498
+)
+"jlite_lexer.ml" 2105 129790 129815 "jlite_lexer.ml" 2105 129790 129847
+call(
+  stack
+)
+type(
+  unit
+)
+"jlite_lexer.ml" 2105 129790 129849 "jlite_lexer.ml" 2105 129790 129879
+type(
+  string -> Lexing.lexbuf -> int -> Jlite_parser.token
+)
+ident(
+  int_ref __ocaml_lex_single_comment_rec "jlite_lexer.ml" 2093 129447 129451 "jlite_lexer.ml" 2093 129447 129481
+)
+"jlite_lexer.ml" 2105 129790 129880 "jlite_lexer.ml" 2105 129790 129889
+type(
+  string
+)
+ident(
+  int_ref file_name "jlite_lexer.ml" 2093 129447 129482 "jlite_lexer.ml" 2093 129447 129491
+)
+"jlite_lexer.ml" 2105 129790 129890 "jlite_lexer.ml" 2105 129790 129896
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "jlite_lexer.ml" 2093 129447 129492 "jlite_lexer.ml" 2093 129447 129498
+)
+"jlite_lexer.ml" 2105 129790 129897 "jlite_lexer.ml" 2105 129790 129914
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "jlite_lexer.ml" 2105 129790 129794 "jlite_lexer.ml" 2105 129790 129811
+)
+"jlite_lexer.ml" 2105 129790 129849 "jlite_lexer.ml" 2105 129790 129914
+call(
+  tail
+)
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2105 129790 129815 "jlite_lexer.ml" 2105 129790 129914
+type(
+  Jlite_parser.token
+)
+"jlite_lexer.ml" 2094 129519 129521 "jlite_lexer.ml" 2105 129790 129914
+type(
+  Jlite_parser.token
+)

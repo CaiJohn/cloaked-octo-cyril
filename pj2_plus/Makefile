@@ -1,7 +1,9 @@
 all:jlite_parser clean
 
-jlite_parser:jlite_lexer.cmo jlite_parser.cmo jlite_structs.cmo jlite_annotatedtyping.cmo jlite_main.ml
-	ocamlc -annot jlite_structs.cmo jlite_lexer.cmo jlite_parser.cmo jlite_annotatedtyping.cmo jlite_main.ml -o jlite_parser
+jlite_parser:jlite_lexer.cmo jlite_parser.cmo jlite_structs.cmo jlite_annotatedtyping.cmo jlite_toir3.cmo ir3_structs.cmo jlite_main.ml
+	ocamlc -annot jlite_structs.cmo jlite_lexer.cmo jlite_parser.cmo jlite_annotatedtyping.cmo jlite_toir3.cmo ir3_structs.cmo jlite_main.ml -o jlite_parser
+
+
 
 jlite_parser.cmo:jlite_parser.ml jlite_parser.cmi jlite_structs.cmo
 	ocamlc -annot -c jlite_structs.cmo jlite_parser.ml
@@ -22,6 +24,13 @@ jlite_structs.cmo:jlite_structs.ml
 
 jlite_annotatedtyping.cmo:jlite_annotatedtyping.ml jlite_structs.cmo
 	ocamlc -annot -c jlite_structs.cmo jlite_annotatedtyping.ml
+
+
+ir3_structs.cmo:jlite_structs.cmo ir3_structs.ml
+	ocamlc -annot -c jlite_structs.cmo ir3_structs.ml
+
+jlite_toir3.cmo:jlite_structs.cmo ir3_structs.cmo jlite_toir3.ml
+	ocamlc -annot -c jlite_structs.cmo  ir3_structs.cmo jlite_toir3.ml
 
 
 .PHONY:clean
