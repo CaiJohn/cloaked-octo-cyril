@@ -90,8 +90,11 @@ and md_decl =
 	 }
   
 (* Ocaml Tuple Type representing a jlite class declaration *)
-(* ClassDecl -> class <cname> {<VarDecl>* <MdDecl>} *)	  
-and class_decl = class_name * class_name option *(var_decl list) * (md_decl list)
+(* ClassDecl -> class <cname> {<VarDecl>* <MdDecl>} *)
+
+and attr_decl = (modifier * var_decl)
+
+and class_decl = class_name * class_name option *(attr_decl list) * (md_decl list)
 
 (* Ocaml Tuple Type representing a jlite main class declaration *)
 and class_main = class_name * md_decl
@@ -230,6 +233,7 @@ let string_of_var_decl ((t,id):var_decl) : string =
 	print_tab() ^ (string_of_jlite_type t) 
 	^ " " ^ string_of_var_id id
 
+
 (* display a Jlite method argument declaration *)  
 let string_of_arg_decl ((t,id):var_decl) : string = 
 	(string_of_jlite_type t) ^ " " 
@@ -275,7 +279,12 @@ let string_of_class_main ((c,md):class_main) : string =
 	let classBody = string_of_md_decl md in
 	let classEnd = indent_dec()^ "\n}" in
 		classHeader ^ classBody  ^ classEnd
-	
+
+let string_of_attr_decl ((m,(t,id)):attr_decl) : string = 
+	print_tab() ^ (string_of_modifier m) ^" "^(string_of_jlite_type t) 
+	^ " " ^ string_of_var_id id	
+
+
 (* display a Jlite Class declaration *)
 let string_of_class_decl 
 	((c,parent, var_list, md_list):class_decl) : string =
@@ -287,7 +296,7 @@ let string_of_class_decl
 	let classHeader = 
 		"class " ^ c ^ inheritence ^ "{\n" ^ indent_inc() in
 	let classBody = 
-		(string_of_list var_list string_of_var_decl ";\n" )  
+		(string_of_list var_list string_of_attr_decl ";\n" )  
 		^ (if ((List.length var_list) >  0) 
 			then ";\n" else "") ^ "\n" 
 		^ (string_of_list md_list string_of_md_decl "\n\n"  ) in

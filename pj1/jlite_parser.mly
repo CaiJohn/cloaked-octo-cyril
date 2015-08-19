@@ -229,11 +229,13 @@ varmth_varmth_decl_list:
 
 non_zero_varmth_decl_list: 
 	type_KWORD var_id_rule SEMICOLON non_zero_varmth_decl_list
-			{ ((($1, $2) :: (fst $4)), (snd $4))}
+			{ (((Public,($1, $2)) :: (fst $4)), (snd $4))}
+	| modifier type_KWORD var_id_rule SEMICOLON non_zero_varmth_decl_list
+			{ ((($1,($2, $3)) :: (fst $5)), (snd $5))}
 	| method_decl 
 			{ ([], [$1])}
 	| type_KWORD var_id_rule SEMICOLON		
-			{ ([($1, $2)],[]) }
+			{ ([(Public,($1, $2))],[]) }
 ;
 
 /* === Rule for defining the different types of statements in a method body ===*/

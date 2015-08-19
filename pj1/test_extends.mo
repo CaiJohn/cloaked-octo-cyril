@@ -40,6 +40,7 @@ class Dummy extends DummyParent{
   Compute c;
   Int i;
   Dummy j;
+  private Int p;
 
   private Int dummy() {
   Bool i;
