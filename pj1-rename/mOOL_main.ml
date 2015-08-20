@@ -18,7 +18,7 @@ let parse_file file_name =
       print_string "Parsing...\n" ;
     print_string file_name ;
     print_string "\n" ;
-    let prog =  Jlite_parser.input (Jlite_lexer.token file_name) lexbuf in
+    let prog =  MOOL_parser.input (MOOL_lexer.token file_name) lexbuf in
       close_in org_in_chnl;
         prog 
     with
@@ -35,6 +35,6 @@ let _ =
     | [] -> print_string "no file provided \n"
     | x::_-> 
       let prog = parse_file x in
-      print_endline (Jlite_structs.string_of_mOOL_program prog)
+      print_endline (MOOL_structs.string_of_mOOL_program prog)
  end
 

@@ -1,0 +1,59 @@
+/* Mainly test complicated expression,
+   NULL related testing, 
+   some short-circuit testing
+ */
+
+class Main {
+
+    void main(Int i,Int a, Int b,Int d){
+        Int t1;
+        Int t2;
+        Compute help;
+        help = NULL;
+        help = new Compute();
+        t1 = new Compute().addSquares(a,b) + new Compute().square(i);
+        t2 = help.square(d);
+        t2 = help.add(NULL,d);
+        if(t2>t1 && help != NULL){
+            println("Square of d larger than sum of squares");
+        }
+        else{
+            println("Square of d larger than sum of squares");
+        }
+    }
+
+}
+
+class Compute {
+
+    Bool computedSquares;
+    Int chachedValue;
+    Compute c;
+
+    void getInstance() {
+        c = NULL;
+        // return c;
+    }
+
+    Int square(Int a){
+        return a*addSquares(1,2);
+    }
+
+    Int add(Compute c, Int b){
+        return b;
+    }
+
+    Int addSquares(Int a, Int b){
+        while(a>b && 1==2) {
+            if(computedSquares){
+                a = 1+1;
+                return chachedValue;
+            }
+            else{
+                computedSquares = true;
+                return add(new Compute(),square(b));
+            }
+        }
+        return 1;
+    }
+}

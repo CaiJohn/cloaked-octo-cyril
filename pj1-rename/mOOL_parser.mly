@@ -8,7 +8,7 @@
 %{
 
   open Printf
-  open Jlite_structs
+  open MOOL_structs
 
   let get_pos x = 
 	Parsing.rhs_start_pos x
@@ -77,7 +77,7 @@
 
 /* ============= Return type of parser ========== */
 %start input
-%type <Jlite_structs.mOOL_program> input
+%type <MOOL_structs.mOOL_program> input
 %% 
 
 /* ========= Grammar rules and actions ========== */
