@@ -56,6 +56,7 @@ rule token file_name = parse
   | "else"	{ ELSE_KWORD }
   | "return" { RETURN_KWORD }
   | "this"	{ THIS_KWORD }
+  | "super"     { SUPER_KWORD}
   | "NULL" { NULL_KWORD }
   | "new"	{ NEW_KWORD }
   | "main"  { MAIN_KWORD }

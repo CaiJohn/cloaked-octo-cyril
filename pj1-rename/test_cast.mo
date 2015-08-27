@@ -24,6 +24,7 @@ void main(){
     // . has higher priority than the casting
     c = (NewClass)a.test(a,b);
     
+    k = super.a.test();
 
  }
 }

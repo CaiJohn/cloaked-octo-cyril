@@ -48,6 +48,7 @@ type mOOL_exp =
   | StringLiteral of string
   | ThisWord 
   | NullWord
+  | SuperWord
   | Var of var_id
   | CastExp of mOOL_exp * mOOL_type
     (* Reserved for type checking. Please do not instantiate during parsing *)
@@ -182,6 +183,7 @@ let string_of_mOOL_expr (e:mOOL_exp):string =
     | IntLiteral v -> (string_of_int v)
 	| StringLiteral v -> "\"" ^ v ^ "\"" 
 	| ThisWord -> "this"
+	| SuperWord -> "super"
 	| NullWord -> "null"
     | Var v -> string_of_var_id v
     | CastExp (e,t) ->

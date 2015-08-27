@@ -48,6 +48,7 @@
 %token RETURN_KWORD
 %token THIS_KWORD 
 %token NULL_KWORD
+%token SUPER_KWORD
 %token NEW_KWORD
 %token MAIN_KWORD
 %token READ_KWORD
@@ -334,6 +335,7 @@ atom:
 	| atom OPAREN exp_list CPAREN 	{ MdCall ( $1, $3) }
 	| THIS_KWORD 					{ ThisWord }
 	| NULL_KWORD				{ NullWord }
+	| SUPER_KWORD                           { SuperWord}
 	| var_id_rule 				{ Var $1 }
 	| NEW_KWORD CLASS_IDENTIFIER OPAREN CPAREN { ObjectCreate $2 }
 	| OPAREN type_KWORD CPAREN atom { CastExp ( $4, $2) }	
