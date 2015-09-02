@@ -19,7 +19,8 @@ void main(){
     ts = (TestSon)new_t;
     
     // Test private attr
-    // a = tgs.pr;
+    //a = tgs.pr;
+    
 
     // Test public attr
        a = tgs.pu;
@@ -32,6 +33,7 @@ void main(){
 }
 
 class Test {
+  private Int priTest;
   Int test(){
       Int a;
       TestSon ts;
@@ -44,12 +46,20 @@ class Test {
       // Test public method
       ts.test2(ts);
 
+      // Test private attr
+      a = priTest;
+      priTest = a;
+      a = t.priTest;
+      //a = ts.priTest;
+      //a = priTestSon;
+
       a = 0;
       return 0;
       }
 }
 
 class TestSon extends Test{
+  private Int priTestSon;
   Int test2(Test t){
       Int a;
       TestSon ts;

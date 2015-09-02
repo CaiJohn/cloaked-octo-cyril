@@ -220,7 +220,9 @@ let find_method_decl_type
 let find_field 
       (p: mOOL_program) 
       (cls:class_name) 
-      (fieldid:var_id) =
+      (fieldid:var_id)
+      (insidecls:class_name)
+  =
   match (find_class_decl p cls) with
   | None -> Unknown
   | Some (cname,_,cvars,cmthd) -> 
@@ -230,7 +232,14 @@ let find_field
        | (modifier,(ftype,fid))::tail_lst ->
 	  (
 	    match modifier with
-	      | Private -> helper tail_lst
+	      | Private ->
+		 if (String.compare insidecls cls)==0
+		 then
+		   if (compare_var_ids fid fieldid)
+		   then ftype
+		   else ( helper tail_lst)
+		 else
+		   helper tail_lst
 	      | Public ->
 		 if (compare_var_ids fid fieldid)
 		 then ftype
@@ -372,12 +381,12 @@ let rec type_check_expr
 	 | _,_,_-> (Unknown, TypedExp(
 				 BinaryExp (op, arg1TypedExp, arg2TypedExp), Unknown))
        end
-    | FieldAccess (e,id) -> 
+    | FieldAccess (e,id) ->
        let (objtype, objTypedExp) = helper e in
        begin
 	 match objtype with
 	 | ObjectT cname -> 
-	    let typ = (find_field p cname id) in 
+	    let typ = (find_field p cname id classid) in 
 	    (typ, TypedExp 
 		    (FieldAccess(objTypedExp,id), typ)) 
 	 | _ -> (Unknown, TypedExp(
