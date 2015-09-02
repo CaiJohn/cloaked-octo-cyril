@@ -6,8 +6,8 @@ void main(){
   // Must have at least one stmt
     Int a;
     Int b;
-    a = (Bool) b;
-    b = (Int)(Bool) b+a;// It means (Int)((Bool) b)
+//     a = (Bool) b;
+    b = (Int) b+a;// It means (Int)((Bool) b)
     b = (Test)a + b;
     b = a + (Test)b;
     b = (Test)a + (Test)b;

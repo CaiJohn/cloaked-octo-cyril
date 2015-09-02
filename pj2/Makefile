@@ -1,29 +1,29 @@
-all:jlite_parser clean
+all:mOOL_parser clean
 
-jlite_parser:jlite_lexer.cmo jlite_parser.cmo jlite_structs.cmo jlite_annotatedtyping.cmo jlite_main.ml
-	ocamlc -annot jlite_structs.cmo jlite_lexer.cmo jlite_parser.cmo jlite_annotatedtyping.cmo jlite_main.ml -o jlite_parser
+mOOL_parser:mOOL_lexer.cmo mOOL_parser.cmo mOOL_structs.cmo mOOL_annotatedtyping.cmo mOOL_main.ml
+	ocamlc -annot mOOL_structs.cmo mOOL_lexer.cmo mOOL_parser.cmo mOOL_annotatedtyping.cmo mOOL_main.ml -o mOOL_parser
 
-jlite_parser.cmo:jlite_parser.ml jlite_parser.cmi jlite_structs.cmo
-	ocamlc -annot -c jlite_structs.cmo jlite_parser.ml
-jlite_parser.cmi:jlite_parser.mli jlite_structs.cmo
-	ocamlc -c jlite_structs.cmo jlite_parser.mli
-jlite_parser.mli:jlite_parser.mly
-	ocamlyacc jlite_parser.mly
-jlite_parser.ml:jlite_parser.mly
-	ocamlyacc jlite_parser.mly
+mOOL_parser.cmo:mOOL_parser.ml mOOL_parser.cmi mOOL_structs.cmo
+	ocamlc -annot -c mOOL_structs.cmo mOOL_parser.ml
+mOOL_parser.cmi:mOOL_parser.mli mOOL_structs.cmo
+	ocamlc -c mOOL_structs.cmo mOOL_parser.mli
+mOOL_parser.mli:mOOL_parser.mly
+	ocamlyacc mOOL_parser.mly
+mOOL_parser.ml:mOOL_parser.mly
+	ocamlyacc mOOL_parser.mly
 
-jlite_lexer.cmo:jlite_lexer.ml jlite_parser.cmo
-	ocamlc -annot -c jlite_parser.cmo jlite_lexer.ml
-jlite_lexer.ml:jlite_lexer.mll
-	ocamllex jlite_lexer.mll
+mOOL_lexer.cmo:mOOL_lexer.ml mOOL_parser.cmo
+	ocamlc -annot -c mOOL_parser.cmo mOOL_lexer.ml
+mOOL_lexer.ml:mOOL_lexer.mll
+	ocamllex mOOL_lexer.mll
 
-jlite_structs.cmo:jlite_structs.ml
-	ocamlc -annot -c jlite_structs.ml
+mOOL_structs.cmo:mOOL_structs.ml
+	ocamlc -annot -c mOOL_structs.ml
 
-jlite_annotatedtyping.cmo:jlite_annotatedtyping.ml jlite_structs.cmo
-	ocamlc -annot -c jlite_structs.cmo jlite_annotatedtyping.ml
+mOOL_annotatedtyping.cmo:mOOL_annotatedtyping.ml mOOL_structs.cmo
+	ocamlc -annot -c mOOL_structs.cmo mOOL_annotatedtyping.ml
 
 
 .PHONY:clean
 clean:
-	rm *.cmi *.cmo *.mli jlite_parser.ml jlite_lexer.ml
+	rm *.cmi *.cmo *.mli mOOL_parser.ml mOOL_lexer.ml

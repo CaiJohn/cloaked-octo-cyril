@@ -1,14 +1,14 @@
 
 /* ===================================================== */
 /* ============== CS4212 Compiler Design ============== *)
-(* 		  Parsing of Jlite programs into  Asts			 *)
+(* 		  Parsing of MOOL programs into  Asts			 *)
 (* ===================================================== *)
 
 /* ============ Error reporting Code ============ */
 %{
 
   open Printf
-  open Jlite_structs
+  open MOOL_structs
 
   let get_pos x = 
 	Parsing.rhs_start_pos x
@@ -48,6 +48,7 @@
 %token RETURN_KWORD
 %token THIS_KWORD 
 %token NULL_KWORD
+%token SUPER_KWORD
 %token NEW_KWORD
 %token MAIN_KWORD
 %token READ_KWORD
@@ -77,7 +78,7 @@
 
 /* ============= Return type of parser ========== */
 %start input
-%type <Jlite_structs.jlite_program> input
+%type <MOOL_structs.mOOL_program> input
 %% 
 
 /* ========= Grammar rules and actions ========== */
@@ -130,7 +131,7 @@ method_main:
 			{ { 
 				modifier = Public;
 				rettype = VoidT; 
-				jliteid = SimpleVarId "main"; 
+				mOOLid = SimpleVarId "main"; 
 				ir3id = (SimpleVarId "main"); 
 				params = $4; 
 				localvars = $7; stmts = $8;
@@ -151,7 +152,7 @@ method_decl:
 			{ { 
 				modifier=Public;
 				rettype=$1; 
-				jliteid=$2;
+				mOOLid=$2;
 				ir3id= $2;				
 				params=$4; 
 				localvars=$7; stmts=$8;
@@ -167,7 +168,7 @@ method_decl:
 			{ { 
 				modifier=$1;
 				rettype=$2; 
-				jliteid=$3;
+				mOOLid=$3;
 				ir3id= $3;				
 				params=$5; 
 				localvars=$8; stmts=$9;
@@ -229,11 +230,13 @@ varmth_varmth_decl_list:
 
 non_zero_varmth_decl_list: 
 	type_KWORD var_id_rule SEMICOLON non_zero_varmth_decl_list
-			{ ((($1, $2) :: (fst $4)), (snd $4))}
+			{ (((Public,($1, $2)) :: (fst $4)), (snd $4))}
+	| modifier type_KWORD var_id_rule SEMICOLON non_zero_varmth_decl_list
+			{ ((($1,($2, $3)) :: (fst $5)), (snd $5))}
 	| method_decl 
 			{ ([], [$1])}
 	| type_KWORD var_id_rule SEMICOLON		
-			{ ([($1, $2)],[]) }
+			{ ([(Public,($1, $2))],[]) }
 ;
 
 /* === Rule for defining the different types of statements in a method body ===*/
@@ -332,6 +335,7 @@ atom:
 	| atom OPAREN exp_list CPAREN 	{ MdCall ( $1, $3) }
 	| THIS_KWORD 					{ ThisWord }
 	| NULL_KWORD				{ NullWord }
+	| SUPER_KWORD                           { SuperWord}
 	| var_id_rule 				{ Var $1 }
 	| NEW_KWORD CLASS_IDENTIFIER OPAREN CPAREN { ObjectCreate $2 }
 	| OPAREN type_KWORD CPAREN atom { CastExp ( $4, $2) }	
