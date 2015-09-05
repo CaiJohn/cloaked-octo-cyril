@@ -1,0 +1,322 @@
+opt_deadcode = false
+opt_common_sub_expression = false
+opt_global_common_sub_expression = false
+opt_copy_propagation = false
+opt_peephole = false
+opt_ldr_str = false
+Compiling...
+testcases/realworld_tests/hanoi.java
+
+====Graph====
+hanoi: num_discs
+num_discs: hanoi
+====Reg Assignment====
+hanoi: R1
+num_discs: R0
+====Spill List====
+
+
+====Graph====
+num_discs: this
+this: num_discs
+====Reg Assignment====
+num_discs: R1
+this: R0
+====Spill List====
+
+
+====Graph====
+_t4: this src dest aux
+this: src dest aux _t4
+aux: this src dest _t4
+src: this dest aux _t4
+dest: this src aux _t4
+====Reg Assignment====
+_t4: R4
+this: R3
+aux: R2
+src: R1
+dest: R0
+====Spill List====
+
+
+====Graph====
+from: to disk
+to: from disk
+disk: to from
+====Reg Assignment====
+from: R2
+to: R1
+disk: R0
+====Spill List====
+
+
+====Graph====
+_t1: this src n dest aux
+n: _t1 _t2 this src dest aux _t-1
+_t2: this src n dest aux
+_t3: this src dest aux
+this: _t1 _t2 n _t-1 src dest aux _t3
+_t-1: this src n dest aux
+aux: _t1 _t2 n _t-1 this src dest _t3
+src: _t1 _t2 n _t-1 this dest aux _t3
+dest: _t1 _t2 n _t-1 this src aux _t3
+====Reg Assignment====
+_t1: R3
+_t2: R3
+_t3: R3
+this: R4
+_t-1: R3
+aux: R2
+src: R1
+dest: R0
+====Spill List====
+n
+
+======Updated IR3 program========
+======= IR3 Program New =======
+
+======= CData3 New======= 
+
+class Main{
+}
+
+class Hanoi{
+  Int n;
+}
+
+=======  CMtd3 New ======= 
+
+void main(Main this){
+  Int num_discs;
+  Hanoi hanoi;
+  num_discs(REG:__R0)=10;
+  hanoi(REG:__R1)=new Hanoi();
+  [Hanoi_0(hanoi(REG:__R1),num_discs(REG:__R0))];
+  [Hanoi_1(hanoi(REG:__R1),"A","C","B")];
+}
+
+void Hanoi_0(Hanoi this,Int num_discs){
+  this(REG:__R0).n(REG:!!!UNSET)=num_discs(REG:__R1);
+}
+
+void Hanoi_1(Hanoi this,String src,String dest,String aux){
+  Int _t4;
+  _t4(REG:__R4)=this(REG:__R3).n(REG:!!!UNSET);
+  [Hanoi_3(this(REG:__R3),_t4(REG:__R4),src(REG:__R1),dest(REG:__R0),aux(REG:__R2))];
+}
+
+void Hanoi_2(Hanoi this,Int disk,String from,String to){
+  println("Move disk ");
+  println(disk(REG:__R0));
+  println(" from peg ");
+  println(from(REG:__R2));
+  println(" to peg ");
+  println(to(REG:__R1));
+  println("*EOL*");
+}
+
+void Hanoi_3(Hanoi this,Int n,String src,String dest,String aux){
+  Bool _t1;
+  Int _t2;
+  Int _t3;
+   _t-1;
+  _t-1(REG:__R3)=1;
+  LD __A1, __M0;
+  _t1(REG:__R3)=[_t-1(REG:__R3),n(REG:__A1)](==);
+  cmp v4,#0
+bEQ .0
+  [Hanoi_2(this(REG:__R4),n(MEM:__M0),src(REG:__R1),dest(REG:__R0))];
+  Return;
+ Label 0:
+  LD __A1, __M0;
+  n(REG:__A1)=n(REG:__A1);
+  ST __A1, __M0;
+ Label 1:
+  LD __A1, __M0;
+  _t2(REG:__R3)=[n(REG:__A1),1](-);
+  [Hanoi_3(this(REG:__R4),_t2(REG:__R3),src(REG:__R1),aux(REG:__R2),dest(REG:__R0))];
+  [Hanoi_2(this(REG:__R4),n(MEM:__M0),src(REG:__R1),dest(REG:__R0))];
+  LD __A1, __M0;
+  _t3(REG:__R3)=[n(REG:__A1),1](-);
+  [Hanoi_3(this(REG:__R4),_t3(REG:__R3),aux(REG:__R2),dest(REG:__R0),src(REG:__R1))];
+  Return;
+}
+
+======= End of IR3 Program New =======
+
+
+======Arm Program========
+.data
+	
+L4:
+	.asciz "%s\n"
+	
+L0:
+	.asciz "B"
+	
+L6:
+	.asciz " from peg \n"
+	
+L5:
+	.asciz " to peg \n"
+	
+L8:
+	.asciz "Move disk \n"
+	
+L2:
+	.asciz "A"
+	
+L1:
+	.asciz "C"
+	
+L7:
+	.asciz "%i\n"
+	
+L3:
+	.asciz "*EOL*\n"
+	.text
+	.global main
+	
+main:
+	stmfd sp!,{v1,v2,v3,v4,v5,fp,lr}
+	add fp,sp,#24
+	sub sp,fp,#24
+	mov v1,#10
+	mov a1,#4
+	bl _Znwj(PLT)
+	mov v2,a1
+	mov a2,v1
+	mov a1,v2
+	bl Hanoi_0
+	ldr a4,=L0
+	ldr a3,=L1
+	ldr a2,=L2
+	mov a1,v2
+	bl Hanoi_1
+	
+.main_exit:
+	sub sp,fp,#24
+	ldmfd sp!,{v1,v2,v3,v4,v5,fp,pc}
+	
+Hanoi_0:
+	stmfd sp!,{v1,v2,v3,v4,v5,fp,lr}
+	add fp,sp,#24
+	sub sp,fp,#24
+	mov v1,a1
+	mov v2,a2
+	str v2,[v1,#0]
+	
+.Hanoi_0_exit:
+	sub sp,fp,#24
+	ldmfd sp!,{v1,v2,v3,v4,v5,fp,pc}
+	
+Hanoi_1:
+	stmfd sp!,{v1,v2,v3,v4,v5,fp,lr}
+	add fp,sp,#24
+	sub sp,fp,#24
+	mov v4,a1
+	mov v2,a2
+	mov v1,a3
+	mov v3,a4
+	ldr v5,[v4,#0]
+	stmfd sp!,{v3}
+	mov a4,v1
+	mov a3,v2
+	mov a2,v5
+	mov a1,v4
+	bl Hanoi_3
+	add sp,sp,#4
+	
+.Hanoi_1_exit:
+	sub sp,fp,#24
+	ldmfd sp!,{v1,v2,v3,v4,v5,fp,pc}
+	
+Hanoi_2:
+	stmfd sp!,{v1,v2,v3,v4,v5,fp,lr}
+	add fp,sp,#24
+	sub sp,fp,#24
+	mov v1,a2
+	mov v3,a3
+	mov v2,a4
+	ldr a1,=L8
+	bl printf(PLT)
+	mov a2,v1
+	ldr a1,=L7
+	bl printf(PLT)
+	ldr a1,=L6
+	bl printf(PLT)
+	mov a2,v3
+	ldr a1,=L4
+	bl printf(PLT)
+	ldr a1,=L5
+	bl printf(PLT)
+	mov a2,v2
+	ldr a1,=L4
+	bl printf(PLT)
+	ldr a1,=L3
+	bl printf(PLT)
+	
+.Hanoi_2_exit:
+	sub sp,fp,#24
+	ldmfd sp!,{v1,v2,v3,v4,v5,fp,pc}
+	
+Hanoi_3:
+	stmfd sp!,{v1,v2,v3,v4,v5,fp,lr}
+	add fp,sp,#24
+	sub sp,fp,#28
+	mov v5,a1
+	str a2,[fp,#-28]
+	mov v2,a3
+	mov v1,a4
+	ldr v3,[fp,#4]
+	mov v4,#1
+	ldr a1,[fp,#-28]
+	cmp v4,a1
+	moveq v4,#1
+	movne v4,#0
+	cmp v4,#0
+	bEQ .0
+	mov a4,v1
+	mov a3,v2
+	ldr a1,[fp,#-28]
+	mov a2,a1
+	mov a1,v5
+	bl Hanoi_2
+	b .Hanoi_3_exit
+	
+.0:
+	ldr a1,[fp,#-28]
+	mov a1,a1
+	str a1,[fp,#-28]
+	
+.1:
+	ldr a1,[fp,#-28]
+	sub v4,a1,#1
+	stmfd sp!,{v1}
+	mov a4,v3
+	mov a3,v2
+	mov a2,v4
+	mov a1,v5
+	bl Hanoi_3
+	add sp,sp,#4
+	mov a4,v1
+	mov a3,v2
+	ldr a1,[fp,#-28]
+	mov a2,a1
+	mov a1,v5
+	bl Hanoi_2
+	ldr a1,[fp,#-28]
+	sub v4,a1,#1
+	stmfd sp!,{v2}
+	mov a4,v1
+	mov a3,v3
+	mov a2,v4
+	mov a1,v5
+	bl Hanoi_3
+	add sp,sp,#4
+	b .Hanoi_3_exit
+	
+.Hanoi_3_exit:
+	sub sp,fp,#24
+	ldmfd sp!,{v1,v2,v3,v4,v5,fp,pc}
