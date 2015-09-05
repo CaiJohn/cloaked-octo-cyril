@@ -1,10 +1,10 @@
 (* ===================================================== *)
 (* ============== CS4212 Compiler Design ============== *)
-(* 			  	 Lexing of Jlite programs 			 	 *)
+(* 			  	 Lexing of MOOL programs 			 	 *)
 (* ===================================================== *)
 
 {
-  open Jlite_parser (* Assumes the parser file is "parser.mly". *)
+  open MOOL_parser (* Assumes the parser file is "parser.mly". *)
   let incr_linenum file_name lexbuf =
     let pos = lexbuf.Lexing.lex_curr_p in
       lexbuf.Lexing.lex_curr_p <- 
@@ -56,6 +56,7 @@ rule token file_name = parse
   | "else"	{ ELSE_KWORD }
   | "return" { RETURN_KWORD }
   | "this"	{ THIS_KWORD }
+  | "super"     { SUPER_KWORD}
   | "NULL" { NULL_KWORD }
   | "new"	{ NEW_KWORD }
   | "main"  { MAIN_KWORD }
@@ -82,10 +83,10 @@ rule token file_name = parse
   | "\r\n" { incr_linenum file_name lexbuf; token file_name lexbuf }
   | eof		{ EOF }
   
-and multi_comment file_name = parse
+  and multi_comment file_name = parse
   | "*/" 	{ token file_name lexbuf }
   | _ 		{ multi_comment file_name lexbuf}
   
-and single_comment file_name = parse
+ and single_comment file_name = parse
   | newline { token file_name lexbuf }
   | _ 		{ single_comment file_name lexbuf}	
