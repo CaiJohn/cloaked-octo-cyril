@@ -2,7 +2,7 @@
 
 class Main {
 
-void main(){
+Void main(){
   // Must have at least one stmt
     Int a;
     Int b;

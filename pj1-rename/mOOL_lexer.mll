@@ -50,7 +50,7 @@ rule token file_name = parse
   | "true"	{ TRUE_KWORD }
   | "false"	{ FALSE_KWORD }
   | "class" { CLASS_KWORD }
-  | "void"  { VOID_KWORD }
+  | "Void"  { VOID_KWORD }
   | "while"	{ WHILE_KWORD }
   | "if" 	{ IF_KWORD }
   | "else"	{ ELSE_KWORD }

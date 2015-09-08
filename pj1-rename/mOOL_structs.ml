@@ -146,12 +146,12 @@ let string_of_mOOL_op (e:mOOL_op):string =
 (* display a MOOL type *)
 let string_of_mOOL_type (e:mOOL_type):string =
   match e with
-    | IntT -> "Int"
-	| BoolT -> "Bool"
-    | StringT -> "String"
-	| VoidT -> "void"
-	| ObjectT c -> c
-	| Unknown -> ""
+  | IntT -> "Int"
+  | BoolT -> "Bool"
+  | StringT -> "String"
+  | VoidT -> "Void"
+  | ObjectT c -> c
+  | Unknown -> ""
 	
 (* display a MOOL var_id *)
 let string_of_var_id (e:var_id):string =
