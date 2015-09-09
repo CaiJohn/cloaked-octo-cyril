@@ -288,10 +288,36 @@ let mOOL_mddecl_to_IR3 cname m  =
 
 
 (* Transform a class to IR3 table *)
-let mOOL_class_decl_to_class3
-      ((cname,cparent,cvars,cmthds):class_decl):class3 =
-  match cparent with
+let mOOL_class_decl_list_to_class3_list
+      (clslst:class_decl list):class3 list=
+  let construct_class3 
+  let rec helper_one cls reslst =
+    match cls.parent with
     | None ->
+       |
+  in
+  let helper curclslst reslst=
+    match curclslst with
+    | h::rest ->
+       let hclass3 = helper_one h reslst in
+       helper rest (hclass3::reslst)
+    | [] -> reslst
+  
+(* let mOOL_class_decl_to_class3 *)
+(*       ((cname,cparent,cvars,cmthds):class_decl):class3 = *)
+(*   match cparent with *)
+(*   | None ->  *)
+(*      (\* Just build up own table*\) *)
+(*      let var_table = mOOLvar_decl_lst_to_ID3 cvars in        *)
+(*      let meth_table = List.map (fun cmth -> (cmth.mOOLid, cmth.ir3id)) cmthds in *)
+(*      { *)
+(*        classname = cname; *)
+(*        parent = None; *)
+(*        var_table = var_table; *)
+(*        meth_table = meth_table; *)
+(*      } *)
+(*   | Some p -> *)
+     
        
   
 
