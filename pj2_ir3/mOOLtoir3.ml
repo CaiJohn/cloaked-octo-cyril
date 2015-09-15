@@ -5,7 +5,7 @@
 (* ===================================================== *)
 
 open MOOL_structs
-open Ir3_structs
+open Ir3mOOL_structs
 
 let labelcount = ref 0 
 let fresh_label () = 
@@ -133,7 +133,7 @@ and mOOLmdcall_to_IR3Expr
 	let rec helper explst =
 		match explst with
 		| [] -> []
-		| arg::tail_lst -> 
+		| arg::tail_lst ->
 			let (argIR3,vars,stmts) = 
 				(mOOLexpr_to_IR3Expr classid arg true false) in
 			let argIdc3 = (iR3Expr_get_idc3 argIR3) in
@@ -141,7 +141,7 @@ and mOOLmdcall_to_IR3Expr
 	in let res = ( helper args) in 
 	let (paramsIR3, varsstmts) = List.split res in
 	let (paramsNewVars, paramsNewStmts) = List.split varsstmts in
-		(MdCall3 (string_of_var_id calleeid, (Var3 caller)::paramsIR3),
+		(MdCall3 (caller,string_of_var_id calleeid, (Var3 caller)::paramsIR3),
 		 expVars@(List.flatten paramsNewVars),
 		 expStmts@(List.flatten paramsNewStmts))
 	
@@ -287,66 +287,89 @@ let mOOL_mddecl_to_IR3 cname m  =
 		}
 
 
-(* Transform a class to IR3 table *)
+(* Transform a class to IR3 class descriptor *)
 let mOOL_class_decl_list_to_class3_list
-      (clslst:class_decl list):class3 list=
-  let construct_class3 
-  let rec helper_one cls reslst =
-    match cls.parent with
+      (clslst:class_decl list) =
+  let rec helper_one ((cname,cparent,cvars,cmthds):class_decl) reslst clslst=
+    let own_var_table = mOOLvar_decl_lst_to_ID3 ((List.map (fun (m,v)->v) cvars)) in
+    let own_meth_table = List.map (fun m -> (m.mOOLid, string_of_var_id m.ir3id)) cmthds in
+    match cparent with
     | None ->
-       |
+       let c3 = 
+	 {
+	   classname = cname;
+	   parent = None;
+	   var_table = own_var_table;
+	   meth_table = own_meth_table;
+	 }
+       in 
+       c3::reslst
+    | Some p ->
+       let pc3 = 
+	 try
+	   List.find (fun pc3 -> pc3.classname = p) reslst
+	 with Not_found ->
+	   let parent_class = List.find (fun (name,_,_,_) -> name=p) clslst in
+	   let reslst = helper_one parent_class reslst clslst in
+	   List.find (fun pc3 -> pc3.classname = p) (helper_one parent_class reslst clslst)
+       in
+       let old_var_table = pc3.var_table in
+       let old_meth_table = List.map
+			      (fun (mid,id3) ->
+			       try
+				 List.find (fun (nmid,nid3) -> nmid = mid) own_meth_table
+			       with Not_found ->
+				 (mid,id3)) pc3.meth_table 
+			       in
+       let new_var_table = List.filter (fun (t,id) -> (not (List.exists (fun (nt,nid) -> nid = id) old_var_table))) own_var_table in
+       let new_meth_table = List.filter (fun (mid,id3) -> (not (List.exists (fun (nmid,nid3) -> mid = nmid) old_meth_table))) own_meth_table in
+       let c3 = 
+	 {
+	   classname = cname;
+	   parent = None;
+	   var_table = old_var_table@new_var_table;
+	   meth_table = old_meth_table@new_meth_table;
+	 }
+       in
+       c3::reslst
   in
-  let helper curclslst reslst=
+  let rec helper curclslst reslst=
     match curclslst with
     | h::rest ->
-       let hclass3 = helper_one h reslst in
-       helper rest (hclass3::reslst)
+       let reslst = helper_one h reslst clslst in
+       helper rest reslst
     | [] -> reslst
+  in
+  let ir3_meth_decl_list = List.fold_left (fun res (cname,_,_,cmthds) -> (List.map (fun mth -> mOOL_mddecl_to_IR3 cname mth) cmthds)@res) [] clslst in
+  (helper clslst [], ir3_meth_decl_list)
+;;
   
-(* let mOOL_class_decl_to_class3 *)
-(*       ((cname,cparent,cvars,cmthds):class_decl):class3 = *)
-(*   match cparent with *)
-(*   | None ->  *)
-(*      (\* Just build up own table*\) *)
-(*      let var_table = mOOLvar_decl_lst_to_ID3 cvars in        *)
-(*      let meth_table = List.map (fun cmth -> (cmth.mOOLid, cmth.ir3id)) cmthds in *)
-(*      { *)
-(*        classname = cname; *)
-(*        parent = None; *)
-(*        var_table = var_table; *)
-(*        meth_table = meth_table; *)
-(*      } *)
-(*   | Some p -> *)
-     
-       
-  
-
 (* Transform a MOOL program to IR3 *) 
-let mOOL_program_to_IR3 (p:mOOL_program):ir3_program=
-	let mOOL_class_main_to_IR3 
-		((cname,mmthd):class_main ) =
-		 ((cname,"NULL",[],[]),
-			(mOOL_mddecl_to_IR3 cname mmthd )) in
-	let rec mOOL_class_decl_to_IR3 
-		((cname,cparent,cvars,cmthds):class_decl) =
-		let rec helper mthdlst =
-			match mthdlst with 
-			| [] -> []
-			| m::tail_rest -> 
-				(mOOL_mddecl_to_IR3 cname m)::
-					( helper tail_rest)
-		in ((cname,"NULL",[],
-			(mOOLvar_decl_lst_to_ID3 cvars)),
-			(helper cmthds))
-	in 
-	begin
-		let (mainclass, classes) = p in 
-		let (newmainir3, newmainmdir3) =
-			(mOOL_class_main_to_IR3 mainclass) in
-		let newir3classesLst = 
-			(List.map mOOL_class_decl_to_IR3 classes) in
-		let (newclasses,newmethods) = 
-			(List.split newir3classesLst) in 
-		(newmainir3::newclasses,newmainmdir3,
-			(List.flatten newmethods))
-	end
+let mOOL_program_to_IR3 (p:mOOL_program):ir3_program=  
+  let mOOL_class_main_to_IR3
+	((cname,mmthd):class_main ) =
+    ((cname,"NULL",[],[]),
+     (mOOL_mddecl_to_IR3 cname mmthd )) in
+  (* let rec mOOL_class_decl_to_IR3  *)
+  (* 	    ((cname,cparent,cvars,cmthds):class_decl) = *)
+  (*   let rec helper mthdlst = *)
+  (*     match mthdlst with  *)
+  (*     | [] -> [] *)
+  (*     | m::tail_rest ->  *)
+  (* 	 (mOOL_mddecl_to_IR3 cname m):: *)
+  (* 	   ( helper tail_rest) *)
+  (*   in ((cname,"NULL",[], *)
+  (* 	 (mOOLvar_decl_lst_to_ID3 cvars)), *)
+  (* 	(helper cmthds)) *)
+  (* in  *)
+  begin
+    let (mainclass, classes) = p in 
+    let (newmainir3, newmainmdir3) =
+      (mOOL_class_main_to_IR3 mainclass) in
+    (* let newir3classesLst = *)
+    (*   (List.map mOOL_class_decl_to_IR3 classes) in *)
+    let (newclasses,newmethods) = 
+      (List.split (mOOL_class_decl_list_to_class3_list classes)) in 
+    (newmainir3::newclasses,newmainmdir3,
+    newmethods)
+  end

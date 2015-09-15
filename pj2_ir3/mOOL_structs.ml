@@ -99,7 +99,7 @@ and class_decl = class_name * class_name option * (attr_decl list) * (md_decl li
 
 (* Ocaml Tuple Type representing a mOOL main class declaration *)
 and class_main = class_name * md_decl
-  
+
 (* Ocaml Tuple Type representing a mOOL program *)
 and mOOL_program = class_main * (class_decl list)
 	

@@ -67,7 +67,7 @@ type md_decl3 =
 type cdata3 = cname3 * (var_decl3 list)
 
 (* Ocaml Tuple Type representing an IR3 program *)
-type ir3_program = (cdata3 list) * (md_decl3 ) * (md_decl3 list)
+type ir3_program = (class3 list) * (md_decl3 ) * (md_decl3 list)
 	
 (* ===================================================== *)
 (*  Functions for printing the IR3 *)

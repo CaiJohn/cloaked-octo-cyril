@@ -4,7 +4,7 @@
 (* 		  Structures for IR3 of mOOL language 			 *)
 (* ===================================================== *)
 
-open mOOL_structs
+open MOOL_structs
 
 (* IR3 types, expressions, and statements are represented by Ocaml Variant Types *)
 (* Ocaml Variant Types can contain more than one kind of value *)
@@ -74,12 +74,12 @@ type class3 =
     classname:cname3;
     parent:cname3 option;
     var_table: var_decl3 list;
-    meth_table: (string * id3) list;
+    meth_table: (var_id* id3) list;
   }
 ;;
 
 (* Ocaml Tuple Type representing an IR3 program *)
-type ir3_program = (cdata3 list) * (md_decl3 ) * (md_decl3 list)
+type ir3_program = (class3 list) * (md_decl3 ) * (md_decl3 list)
 						   
 (* ===================================================== *)
 (*  Functions for printing the IR3 *)
@@ -157,7 +157,7 @@ let string_of_ir3_exp e:string =
   | FieldAccess3 (id1,id2) -> id1^"."^id2
   | ObjectCreate3 c -> "new " ^ c ^ "()"
   | MdCall3 (caller,id,args) -> 
-     "["^ caller ^"."^id^
+     "["^ caller ^"."^id
      ^"("^(string_of_list args string_of_idc3 ",")^ ")]"
   | Idc3Expr e -> (string_of_idc3 e)
 		    
@@ -243,21 +243,20 @@ let string_of_class3
     ^ (if ((List.length cls.var_table) >  0) then ";\n" else "")
   in
   let meth =
-    (string_of_list cls.meth_table (fun pair-> string_of_pair pair (fun x->x) (fun x->x)) ";\n")
-    ^ (if ((List.length cls.var_table) >  0) then ";\n" else "")
+    ""
+    (* (string_of_list cls.meth_table (fun pair-> string_of_pair pair (fun x->x) (fun x->x)) ";\n") *)
+    (* ^ (if ((List.length cls.var_table) >  0) then ";\n" else "") *)
   in
   let classEnd = indent_dec()^"}" in
   classHeader ^ parent ^ attr ^ meth
-;;
-    
-								     
+;;			     
 				  
 (* display an IR3 program *)
 let string_of_ir3_program 
-      ((cdata3lst, mainmd3, md3lst):ir3_program) : string = 
+      ((class3lst, mainmd3, md3lst):ir3_program) : string = 
   "======= IR3 Program =======\n\n" 
   ^ "======= CData3 ======= \n\n" ^ 
-    (string_of_list cdata3lst string_of_cdata3 "\n\n" )
+    (string_of_list class3lst string_of_class3 "\n\n" )
     ^ "\n\n" ^ "=======  CMtd3 ======= \n\n"
     ^ (string_of_meth_decl3 mainmd3) ^ "\n"
     ^ (string_of_list md3lst string_of_meth_decl3 "\n" )
