@@ -4333,21 +4333,21 @@ type(
   class3 -> string
 )
 ident(
-  def string_of_class3 "ir3mOOL_structs.ml" 255 7936 7936 "ir3mOOL_structs.ml" 1 0 -1
+  def string_of_class3 "ir3mOOL_structs.ml" 254 7934 7934 "ir3mOOL_structs.ml" 1 0 -1
 )
 "ir3mOOL_structs.ml" 233 7253 7260 "ir3mOOL_structs.ml" 233 7253 7263
 type(
   class3
 )
 ident(
-  def cls "ir3mOOL_structs.ml" 233 7253 7271 "ir3mOOL_structs.ml" 251 7852 7888
+  def cls "ir3mOOL_structs.ml" 233 7253 7271 "ir3mOOL_structs.ml" 250 7841 7886
 )
 "ir3mOOL_structs.ml" 234 7280 7286 "ir3mOOL_structs.ml" 234 7280 7297
 type(
   string
 )
 ident(
-  def classHeader "ir3mOOL_structs.ml" 236 7355 7357 "ir3mOOL_structs.ml" 251 7852 7888
+  def classHeader "ir3mOOL_structs.ml" 236 7355 7357 "ir3mOOL_structs.ml" 250 7841 7886
 )
 "ir3mOOL_structs.ml" 235 7300 7304 "ir3mOOL_structs.ml" 235 7300 7312
 type(
@@ -4433,7 +4433,7 @@ type(
   string
 )
 ident(
-  def parent "ir3mOOL_structs.ml" 241 7471 7473 "ir3mOOL_structs.ml" 251 7852 7888
+  def parent "ir3mOOL_structs.ml" 241 7471 7473 "ir3mOOL_structs.ml" 250 7841 7886
 )
 "ir3mOOL_structs.ml" 237 7371 7381 "ir3mOOL_structs.ml" 237 7371 7384
 type(
@@ -4517,7 +4517,7 @@ type(
   string
 )
 ident(
-  def attr "ir3mOOL_structs.ml" 245 7616 7618 "ir3mOOL_structs.ml" 251 7852 7888
+  def attr "ir3mOOL_structs.ml" 245 7616 7618 "ir3mOOL_structs.ml" 250 7841 7886
 )
 "ir3mOOL_structs.ml" 242 7485 7490 "ir3mOOL_structs.ml" 242 7485 7504
 type(
@@ -4626,395 +4626,566 @@ type(
   string
 )
 ident(
-  def meth "ir3mOOL_structs.ml" 250 7815 7817 "ir3mOOL_structs.ml" 251 7852 7888
+  def meth "ir3mOOL_structs.ml" 249 7804 7806 "ir3mOOL_structs.ml" 250 7841 7886
 )
-"ir3mOOL_structs.ml" 246 7629 7633 "ir3mOOL_structs.ml" 246 7629 7635
+"ir3mOOL_structs.ml" 246 7629 7634 "ir3mOOL_structs.ml" 246 7629 7648
 type(
-  string
-)
-"ir3mOOL_structs.ml" 250 7815 7821 "ir3mOOL_structs.ml" 250 7815 7829
-type(
-  string
+  (MOOL_structs.var_id * id3) list ->
+  (MOOL_structs.var_id * id3 -> string) -> string -> string
 )
 ident(
-  def classEnd "ir3mOOL_structs.ml" 251 7852 7854 "ir3mOOL_structs.ml" 251 7852 7888
+  int_ref string_of_list "ir3mOOL_structs.ml" 106 3091 3095 "ir3mOOL_structs.ml" 106 3091 3109
 )
-"ir3mOOL_structs.ml" 250 7815 7832 "ir3mOOL_structs.ml" 250 7815 7842
+"ir3mOOL_structs.ml" 246 7629 7649 "ir3mOOL_structs.ml" 246 7629 7652
 type(
-  unit -> string
+  class3
 )
 ident(
-  int_ref indent_dec "ir3mOOL_structs.ml" 95 2707 2711 "ir3mOOL_structs.ml" 95 2707 2721
+  int_ref cls "ir3mOOL_structs.ml" 233 7253 7260 "ir3mOOL_structs.ml" 233 7253 7263
 )
-"ir3mOOL_structs.ml" 250 7815 7842 "ir3mOOL_structs.ml" 250 7815 7844
+"ir3mOOL_structs.ml" 246 7629 7649 "ir3mOOL_structs.ml" 246 7629 7663
 type(
-  unit
+  (MOOL_structs.var_id * id3) list
 )
-"ir3mOOL_structs.ml" 250 7815 7832 "ir3mOOL_structs.ml" 250 7815 7844
-call(
-  stack
-)
+"ir3mOOL_structs.ml" 246 7629 7669 "ir3mOOL_structs.ml" 246 7629 7673
 type(
-  string
-)
-"ir3mOOL_structs.ml" 250 7815 7844 "ir3mOOL_structs.ml" 250 7815 7845
-type(
-  string -> string -> string
+  MOOL_structs.var_id * id3
 )
 ident(
-  ext_ref Pervasives.( ^ )
+  def pair "ir3mOOL_structs.ml" 246 7629 7676 "ir3mOOL_structs.ml" 246 7629 7725
 )
-"ir3mOOL_structs.ml" 250 7815 7845 "ir3mOOL_structs.ml" 250 7815 7848
+"ir3mOOL_structs.ml" 246 7629 7676 "ir3mOOL_structs.ml" 246 7629 7690
 type(
-  string
-)
-"ir3mOOL_structs.ml" 250 7815 7832 "ir3mOOL_structs.ml" 250 7815 7848
-call(
-  stack
-)
-type(
-  string
-)
-"ir3mOOL_structs.ml" 251 7852 7854 "ir3mOOL_structs.ml" 251 7852 7865
-type(
-  string
+  MOOL_structs.var_id * id3 ->
+  (MOOL_structs.var_id -> string) -> (id3 -> id3) -> string
 )
 ident(
-  int_ref classHeader "ir3mOOL_structs.ml" 234 7280 7286 "ir3mOOL_structs.ml" 234 7280 7297
+  int_ref string_of_pair "ir3mOOL_structs.ml" 109 3172 3176 "ir3mOOL_structs.ml" 109 3172 3190
 )
-"ir3mOOL_structs.ml" 251 7852 7866 "ir3mOOL_structs.ml" 251 7852 7867
+"ir3mOOL_structs.ml" 246 7629 7691 "ir3mOOL_structs.ml" 246 7629 7695
 type(
-  string -> string -> string
+  MOOL_structs.var_id * id3
 )
 ident(
-  ext_ref Pervasives.( ^ )
+  int_ref pair "ir3mOOL_structs.ml" 246 7629 7669 "ir3mOOL_structs.ml" 246 7629 7673
 )
-"ir3mOOL_structs.ml" 251 7852 7868 "ir3mOOL_structs.ml" 251 7852 7874
+"ir3mOOL_structs.ml" 246 7629 7696 "ir3mOOL_structs.ml" 246 7629 7714
 type(
-  string
+  MOOL_structs.var_id -> string
 )
 ident(
-  int_ref parent "ir3mOOL_structs.ml" 236 7355 7361 "ir3mOOL_structs.ml" 236 7355 7367
+  ext_ref MOOL_structs.string_of_var_id
 )
-"ir3mOOL_structs.ml" 251 7852 7875 "ir3mOOL_structs.ml" 251 7852 7876
+"ir3mOOL_structs.ml" 246 7629 7720 "ir3mOOL_structs.ml" 246 7629 7721
 type(
-  string -> string -> string
+  id3
 )
 ident(
-  ext_ref Pervasives.( ^ )
+  def x "ir3mOOL_structs.ml" 246 7629 7723 "ir3mOOL_structs.ml" 246 7629 7724
 )
-"ir3mOOL_structs.ml" 251 7852 7877 "ir3mOOL_structs.ml" 251 7852 7881
+"ir3mOOL_structs.ml" 246 7629 7723 "ir3mOOL_structs.ml" 246 7629 7724
 type(
-  string
+  id3
 )
 ident(
-  int_ref attr "ir3mOOL_structs.ml" 241 7471 7477 "ir3mOOL_structs.ml" 241 7471 7481
+  int_ref x "ir3mOOL_structs.ml" 246 7629 7720 "ir3mOOL_structs.ml" 246 7629 7721
 )
-"ir3mOOL_structs.ml" 251 7852 7882 "ir3mOOL_structs.ml" 251 7852 7883
+"ir3mOOL_structs.ml" 246 7629 7715 "ir3mOOL_structs.ml" 246 7629 7725
 type(
-  string -> string -> string
+  id3 -> id3
 )
-ident(
-  ext_ref Pervasives.( ^ )
-)
-"ir3mOOL_structs.ml" 251 7852 7884 "ir3mOOL_structs.ml" 251 7852 7888
-type(
-  string
-)
-ident(
-  int_ref meth "ir3mOOL_structs.ml" 245 7616 7622 "ir3mOOL_structs.ml" 245 7616 7626
-)
-"ir3mOOL_structs.ml" 251 7852 7877 "ir3mOOL_structs.ml" 251 7852 7888
-call(
-  stack
-)
-type(
-  string
-)
-"ir3mOOL_structs.ml" 251 7852 7868 "ir3mOOL_structs.ml" 251 7852 7888
-call(
-  stack
-)
-type(
-  string
-)
-"ir3mOOL_structs.ml" 251 7852 7854 "ir3mOOL_structs.ml" 251 7852 7888
+"ir3mOOL_structs.ml" 246 7629 7676 "ir3mOOL_structs.ml" 246 7629 7725
 call(
   tail
 )
 type(
   string
 )
-"ir3mOOL_structs.ml" 250 7815 7817 "ir3mOOL_structs.ml" 251 7852 7888
+"ir3mOOL_structs.ml" 246 7629 7664 "ir3mOOL_structs.ml" 246 7629 7726
+type(
+  MOOL_structs.var_id * id3 -> string
+)
+"ir3mOOL_structs.ml" 246 7629 7727 "ir3mOOL_structs.ml" 246 7629 7732
 type(
   string
 )
-"ir3mOOL_structs.ml" 245 7616 7618 "ir3mOOL_structs.ml" 251 7852 7888
-type(
-  string
-)
-"ir3mOOL_structs.ml" 241 7471 7473 "ir3mOOL_structs.ml" 251 7852 7888
-type(
-  string
-)
-"ir3mOOL_structs.ml" 236 7355 7357 "ir3mOOL_structs.ml" 251 7852 7888
-type(
-  string
-)
-"ir3mOOL_structs.ml" 234 7280 7282 "ir3mOOL_structs.ml" 251 7852 7888
-type(
-  string
+"ir3mOOL_structs.ml" 246 7629 7633 "ir3mOOL_structs.ml" 246 7629 7733
+call(
+  stack
 )
 type(
   string
 )
-"ir3mOOL_structs.ml" 255 7936 7940 "ir3mOOL_structs.ml" 255 7936 7961
+"ir3mOOL_structs.ml" 247 7734 7738 "ir3mOOL_structs.ml" 247 7734 7739
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3mOOL_structs.ml" 247 7734 7746 "ir3mOOL_structs.ml" 247 7734 7757
+type(
+  var_decl3 list -> int
+)
+ident(
+  ext_ref List.length
+)
+"ir3mOOL_structs.ml" 247 7734 7758 "ir3mOOL_structs.ml" 247 7734 7761
+type(
+  class3
+)
+ident(
+  int_ref cls "ir3mOOL_structs.ml" 233 7253 7260 "ir3mOOL_structs.ml" 233 7253 7263
+)
+"ir3mOOL_structs.ml" 247 7734 7758 "ir3mOOL_structs.ml" 247 7734 7771
+type(
+  var_decl3 list
+)
+"ir3mOOL_structs.ml" 247 7734 7745 "ir3mOOL_structs.ml" 247 7734 7772
+call(
+  stack
+)
+type(
+  int
+)
+"ir3mOOL_structs.ml" 247 7734 7773 "ir3mOOL_structs.ml" 247 7734 7774
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"ir3mOOL_structs.ml" 247 7734 7776 "ir3mOOL_structs.ml" 247 7734 7777
+type(
+  int
+)
+"ir3mOOL_structs.ml" 247 7734 7744 "ir3mOOL_structs.ml" 247 7734 7778
+type(
+  bool
+)
+"ir3mOOL_structs.ml" 247 7734 7784 "ir3mOOL_structs.ml" 247 7734 7789
+type(
+  string
+)
+"ir3mOOL_structs.ml" 247 7734 7795 "ir3mOOL_structs.ml" 247 7734 7797
+type(
+  string
+)
+"ir3mOOL_structs.ml" 247 7734 7740 "ir3mOOL_structs.ml" 247 7734 7798
+type(
+  string
+)
+"ir3mOOL_structs.ml" 246 7629 7633 "ir3mOOL_structs.ml" 247 7734 7798
+call(
+  stack
+)
+type(
+  string
+)
+"ir3mOOL_structs.ml" 249 7804 7810 "ir3mOOL_structs.ml" 249 7804 7818
+type(
+  string
+)
+ident(
+  def classEnd "ir3mOOL_structs.ml" 250 7841 7843 "ir3mOOL_structs.ml" 250 7841 7886
+)
+"ir3mOOL_structs.ml" 249 7804 7821 "ir3mOOL_structs.ml" 249 7804 7831
+type(
+  unit -> string
+)
+ident(
+  int_ref indent_dec "ir3mOOL_structs.ml" 95 2707 2711 "ir3mOOL_structs.ml" 95 2707 2721
+)
+"ir3mOOL_structs.ml" 249 7804 7831 "ir3mOOL_structs.ml" 249 7804 7833
+type(
+  unit
+)
+"ir3mOOL_structs.ml" 249 7804 7821 "ir3mOOL_structs.ml" 249 7804 7833
+call(
+  stack
+)
+type(
+  string
+)
+"ir3mOOL_structs.ml" 249 7804 7833 "ir3mOOL_structs.ml" 249 7804 7834
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3mOOL_structs.ml" 249 7804 7834 "ir3mOOL_structs.ml" 249 7804 7837
+type(
+  string
+)
+"ir3mOOL_structs.ml" 249 7804 7821 "ir3mOOL_structs.ml" 249 7804 7837
+call(
+  stack
+)
+type(
+  string
+)
+"ir3mOOL_structs.ml" 250 7841 7843 "ir3mOOL_structs.ml" 250 7841 7854
+type(
+  string
+)
+ident(
+  int_ref classHeader "ir3mOOL_structs.ml" 234 7280 7286 "ir3mOOL_structs.ml" 234 7280 7297
+)
+"ir3mOOL_structs.ml" 250 7841 7855 "ir3mOOL_structs.ml" 250 7841 7856
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3mOOL_structs.ml" 250 7841 7857 "ir3mOOL_structs.ml" 250 7841 7863
+type(
+  string
+)
+ident(
+  int_ref parent "ir3mOOL_structs.ml" 236 7355 7361 "ir3mOOL_structs.ml" 236 7355 7367
+)
+"ir3mOOL_structs.ml" 250 7841 7864 "ir3mOOL_structs.ml" 250 7841 7865
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3mOOL_structs.ml" 250 7841 7866 "ir3mOOL_structs.ml" 250 7841 7870
+type(
+  string
+)
+ident(
+  int_ref attr "ir3mOOL_structs.ml" 241 7471 7477 "ir3mOOL_structs.ml" 241 7471 7481
+)
+"ir3mOOL_structs.ml" 250 7841 7871 "ir3mOOL_structs.ml" 250 7841 7872
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3mOOL_structs.ml" 250 7841 7873 "ir3mOOL_structs.ml" 250 7841 7877
+type(
+  string
+)
+ident(
+  int_ref meth "ir3mOOL_structs.ml" 245 7616 7622 "ir3mOOL_structs.ml" 245 7616 7626
+)
+"ir3mOOL_structs.ml" 250 7841 7877 "ir3mOOL_structs.ml" 250 7841 7878
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3mOOL_structs.ml" 250 7841 7878 "ir3mOOL_structs.ml" 250 7841 7886
+type(
+  string
+)
+ident(
+  int_ref classEnd "ir3mOOL_structs.ml" 249 7804 7810 "ir3mOOL_structs.ml" 249 7804 7818
+)
+"ir3mOOL_structs.ml" 250 7841 7873 "ir3mOOL_structs.ml" 250 7841 7886
+call(
+  stack
+)
+type(
+  string
+)
+"ir3mOOL_structs.ml" 250 7841 7866 "ir3mOOL_structs.ml" 250 7841 7886
+call(
+  stack
+)
+type(
+  string
+)
+"ir3mOOL_structs.ml" 250 7841 7857 "ir3mOOL_structs.ml" 250 7841 7886
+call(
+  stack
+)
+type(
+  string
+)
+"ir3mOOL_structs.ml" 250 7841 7843 "ir3mOOL_structs.ml" 250 7841 7886
+call(
+  tail
+)
+type(
+  string
+)
+"ir3mOOL_structs.ml" 249 7804 7806 "ir3mOOL_structs.ml" 250 7841 7886
+type(
+  string
+)
+"ir3mOOL_structs.ml" 245 7616 7618 "ir3mOOL_structs.ml" 250 7841 7886
+type(
+  string
+)
+"ir3mOOL_structs.ml" 241 7471 7473 "ir3mOOL_structs.ml" 250 7841 7886
+type(
+  string
+)
+"ir3mOOL_structs.ml" 236 7355 7357 "ir3mOOL_structs.ml" 250 7841 7886
+type(
+  string
+)
+"ir3mOOL_structs.ml" 234 7280 7282 "ir3mOOL_structs.ml" 250 7841 7886
+type(
+  string
+)
+type(
+  string
+)
+"ir3mOOL_structs.ml" 254 7934 7938 "ir3mOOL_structs.ml" 254 7934 7959
 type(
   ir3_program -> string
 )
 ident(
-  def string_of_ir3_program "ir3mOOL_structs.ml" 263 8300 8348 "ir3mOOL_structs.ml" 1 0 -1
+  def string_of_ir3_program "ir3mOOL_structs.ml" 262 8298 8346 "ir3mOOL_structs.ml" 1 0 -1
 )
-"ir3mOOL_structs.ml" 256 7963 7971 "ir3mOOL_structs.ml" 256 7963 7980
+"ir3mOOL_structs.ml" 255 7961 7969 "ir3mOOL_structs.ml" 255 7961 7978
 type(
   class3 list
 )
 ident(
-  def class3lst "ir3mOOL_structs.ml" 256 7963 8012 "ir3mOOL_structs.ml" 263 8300 8348
+  def class3lst "ir3mOOL_structs.ml" 255 7961 8010 "ir3mOOL_structs.ml" 262 8298 8346
 )
-"ir3mOOL_structs.ml" 256 7963 7982 "ir3mOOL_structs.ml" 256 7963 7989
+"ir3mOOL_structs.ml" 255 7961 7980 "ir3mOOL_structs.ml" 255 7961 7987
 type(
   md_decl3
 )
 ident(
-  def mainmd3 "ir3mOOL_structs.ml" 256 7963 8012 "ir3mOOL_structs.ml" 263 8300 8348
+  def mainmd3 "ir3mOOL_structs.ml" 255 7961 8010 "ir3mOOL_structs.ml" 262 8298 8346
 )
-"ir3mOOL_structs.ml" 256 7963 7991 "ir3mOOL_structs.ml" 256 7963 7997
+"ir3mOOL_structs.ml" 255 7961 7989 "ir3mOOL_structs.ml" 255 7961 7995
 type(
   md_decl3 list
 )
 ident(
-  def md3lst "ir3mOOL_structs.ml" 256 7963 8012 "ir3mOOL_structs.ml" 263 8300 8348
+  def md3lst "ir3mOOL_structs.ml" 255 7961 8010 "ir3mOOL_structs.ml" 262 8298 8346
 )
-"ir3mOOL_structs.ml" 256 7963 7970 "ir3mOOL_structs.ml" 256 7963 7998
+"ir3mOOL_structs.ml" 255 7961 7968 "ir3mOOL_structs.ml" 255 7961 7996
 type(
   ir3_program
 )
-"ir3mOOL_structs.ml" 257 8024 8026 "ir3mOOL_structs.ml" 257 8024 8059
+"ir3mOOL_structs.ml" 256 8022 8024 "ir3mOOL_structs.ml" 256 8022 8057
 type(
   string
 )
-"ir3mOOL_structs.ml" 258 8061 8063 "ir3mOOL_structs.ml" 258 8061 8064
+"ir3mOOL_structs.ml" 257 8059 8061 "ir3mOOL_structs.ml" 257 8059 8062
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"ir3mOOL_structs.ml" 258 8061 8065 "ir3mOOL_structs.ml" 258 8061 8094
+"ir3mOOL_structs.ml" 257 8059 8063 "ir3mOOL_structs.ml" 257 8059 8092
 type(
   string
 )
-"ir3mOOL_structs.ml" 258 8061 8095 "ir3mOOL_structs.ml" 258 8061 8096
+"ir3mOOL_structs.ml" 257 8059 8093 "ir3mOOL_structs.ml" 257 8059 8094
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"ir3mOOL_structs.ml" 259 8098 8103 "ir3mOOL_structs.ml" 259 8098 8117
+"ir3mOOL_structs.ml" 258 8096 8101 "ir3mOOL_structs.ml" 258 8096 8115
 type(
   class3 list -> (class3 -> string) -> string -> string
 )
 ident(
   int_ref string_of_list "ir3mOOL_structs.ml" 106 3091 3095 "ir3mOOL_structs.ml" 106 3091 3109
 )
-"ir3mOOL_structs.ml" 259 8098 8118 "ir3mOOL_structs.ml" 259 8098 8127
+"ir3mOOL_structs.ml" 258 8096 8116 "ir3mOOL_structs.ml" 258 8096 8125
 type(
   class3 list
 )
 ident(
-  int_ref class3lst "ir3mOOL_structs.ml" 256 7963 7971 "ir3mOOL_structs.ml" 256 7963 7980
+  int_ref class3lst "ir3mOOL_structs.ml" 255 7961 7969 "ir3mOOL_structs.ml" 255 7961 7978
 )
-"ir3mOOL_structs.ml" 259 8098 8128 "ir3mOOL_structs.ml" 259 8098 8144
+"ir3mOOL_structs.ml" 258 8096 8126 "ir3mOOL_structs.ml" 258 8096 8142
 type(
   class3 -> string
 )
 ident(
   int_ref string_of_class3 "ir3mOOL_structs.ml" 232 7232 7236 "ir3mOOL_structs.ml" 232 7232 7252
 )
-"ir3mOOL_structs.ml" 259 8098 8145 "ir3mOOL_structs.ml" 259 8098 8151
+"ir3mOOL_structs.ml" 258 8096 8143 "ir3mOOL_structs.ml" 258 8096 8149
 type(
   string
 )
-"ir3mOOL_structs.ml" 259 8098 8102 "ir3mOOL_structs.ml" 259 8098 8153
+"ir3mOOL_structs.ml" 258 8096 8100 "ir3mOOL_structs.ml" 258 8096 8151
 call(
   stack
 )
 type(
   string
 )
-"ir3mOOL_structs.ml" 260 8154 8158 "ir3mOOL_structs.ml" 260 8154 8159
+"ir3mOOL_structs.ml" 259 8152 8156 "ir3mOOL_structs.ml" 259 8152 8157
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"ir3mOOL_structs.ml" 260 8154 8160 "ir3mOOL_structs.ml" 260 8154 8166
+"ir3mOOL_structs.ml" 259 8152 8158 "ir3mOOL_structs.ml" 259 8152 8164
 type(
   string
 )
-"ir3mOOL_structs.ml" 260 8154 8167 "ir3mOOL_structs.ml" 260 8154 8168
+"ir3mOOL_structs.ml" 259 8152 8165 "ir3mOOL_structs.ml" 259 8152 8166
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"ir3mOOL_structs.ml" 260 8154 8169 "ir3mOOL_structs.ml" 260 8154 8198
+"ir3mOOL_structs.ml" 259 8152 8167 "ir3mOOL_structs.ml" 259 8152 8196
 type(
   string
 )
-"ir3mOOL_structs.ml" 261 8199 8203 "ir3mOOL_structs.ml" 261 8199 8204
+"ir3mOOL_structs.ml" 260 8197 8201 "ir3mOOL_structs.ml" 260 8197 8202
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"ir3mOOL_structs.ml" 261 8199 8206 "ir3mOOL_structs.ml" 261 8199 8226
+"ir3mOOL_structs.ml" 260 8197 8204 "ir3mOOL_structs.ml" 260 8197 8224
 type(
   md_decl3 -> string
 )
 ident(
   int_ref string_of_meth_decl3 "ir3mOOL_structs.ml" 201 6123 6127 "ir3mOOL_structs.ml" 201 6123 6147
 )
-"ir3mOOL_structs.ml" 261 8199 8227 "ir3mOOL_structs.ml" 261 8199 8234
+"ir3mOOL_structs.ml" 260 8197 8225 "ir3mOOL_structs.ml" 260 8197 8232
 type(
   md_decl3
 )
 ident(
-  int_ref mainmd3 "ir3mOOL_structs.ml" 256 7963 7982 "ir3mOOL_structs.ml" 256 7963 7989
+  int_ref mainmd3 "ir3mOOL_structs.ml" 255 7961 7980 "ir3mOOL_structs.ml" 255 7961 7987
 )
-"ir3mOOL_structs.ml" 261 8199 8205 "ir3mOOL_structs.ml" 261 8199 8235
+"ir3mOOL_structs.ml" 260 8197 8203 "ir3mOOL_structs.ml" 260 8197 8233
 call(
   stack
 )
 type(
   string
 )
-"ir3mOOL_structs.ml" 261 8199 8236 "ir3mOOL_structs.ml" 261 8199 8237
+"ir3mOOL_structs.ml" 260 8197 8234 "ir3mOOL_structs.ml" 260 8197 8235
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"ir3mOOL_structs.ml" 261 8199 8238 "ir3mOOL_structs.ml" 261 8199 8242
+"ir3mOOL_structs.ml" 260 8197 8236 "ir3mOOL_structs.ml" 260 8197 8240
 type(
   string
 )
-"ir3mOOL_structs.ml" 262 8243 8247 "ir3mOOL_structs.ml" 262 8243 8248
+"ir3mOOL_structs.ml" 261 8241 8245 "ir3mOOL_structs.ml" 261 8241 8246
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"ir3mOOL_structs.ml" 262 8243 8250 "ir3mOOL_structs.ml" 262 8243 8264
+"ir3mOOL_structs.ml" 261 8241 8248 "ir3mOOL_structs.ml" 261 8241 8262
 type(
   md_decl3 list -> (md_decl3 -> string) -> string -> string
 )
 ident(
   int_ref string_of_list "ir3mOOL_structs.ml" 106 3091 3095 "ir3mOOL_structs.ml" 106 3091 3109
 )
-"ir3mOOL_structs.ml" 262 8243 8265 "ir3mOOL_structs.ml" 262 8243 8271
+"ir3mOOL_structs.ml" 261 8241 8263 "ir3mOOL_structs.ml" 261 8241 8269
 type(
   md_decl3 list
 )
 ident(
-  int_ref md3lst "ir3mOOL_structs.ml" 256 7963 7991 "ir3mOOL_structs.ml" 256 7963 7997
+  int_ref md3lst "ir3mOOL_structs.ml" 255 7961 7989 "ir3mOOL_structs.ml" 255 7961 7995
 )
-"ir3mOOL_structs.ml" 262 8243 8272 "ir3mOOL_structs.ml" 262 8243 8292
+"ir3mOOL_structs.ml" 261 8241 8270 "ir3mOOL_structs.ml" 261 8241 8290
 type(
   md_decl3 -> string
 )
 ident(
   int_ref string_of_meth_decl3 "ir3mOOL_structs.ml" 201 6123 6127 "ir3mOOL_structs.ml" 201 6123 6147
 )
-"ir3mOOL_structs.ml" 262 8243 8293 "ir3mOOL_structs.ml" 262 8243 8297
+"ir3mOOL_structs.ml" 261 8241 8291 "ir3mOOL_structs.ml" 261 8241 8295
 type(
   string
 )
-"ir3mOOL_structs.ml" 262 8243 8249 "ir3mOOL_structs.ml" 262 8243 8299
+"ir3mOOL_structs.ml" 261 8241 8247 "ir3mOOL_structs.ml" 261 8241 8297
 call(
   stack
 )
 type(
   string
 )
-"ir3mOOL_structs.ml" 263 8300 8304 "ir3mOOL_structs.ml" 263 8300 8305
+"ir3mOOL_structs.ml" 262 8298 8302 "ir3mOOL_structs.ml" 262 8298 8303
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"ir3mOOL_structs.ml" 263 8300 8306 "ir3mOOL_structs.ml" 263 8300 8348
+"ir3mOOL_structs.ml" 262 8298 8304 "ir3mOOL_structs.ml" 262 8298 8346
 type(
   string
 )
-"ir3mOOL_structs.ml" 262 8243 8249 "ir3mOOL_structs.ml" 263 8300 8348
+"ir3mOOL_structs.ml" 261 8241 8247 "ir3mOOL_structs.ml" 262 8298 8346
 call(
   stack
 )
 type(
   string
 )
-"ir3mOOL_structs.ml" 261 8199 8238 "ir3mOOL_structs.ml" 263 8300 8348
+"ir3mOOL_structs.ml" 260 8197 8236 "ir3mOOL_structs.ml" 262 8298 8346
 call(
   stack
 )
 type(
   string
 )
-"ir3mOOL_structs.ml" 261 8199 8205 "ir3mOOL_structs.ml" 263 8300 8348
+"ir3mOOL_structs.ml" 260 8197 8203 "ir3mOOL_structs.ml" 262 8298 8346
 call(
   stack
 )
 type(
   string
 )
-"ir3mOOL_structs.ml" 260 8154 8169 "ir3mOOL_structs.ml" 263 8300 8348
+"ir3mOOL_structs.ml" 259 8152 8167 "ir3mOOL_structs.ml" 262 8298 8346
 call(
   stack
 )
 type(
   string
 )
-"ir3mOOL_structs.ml" 260 8154 8160 "ir3mOOL_structs.ml" 263 8300 8348
+"ir3mOOL_structs.ml" 259 8152 8158 "ir3mOOL_structs.ml" 262 8298 8346
 call(
   stack
 )
 type(
   string
 )
-"ir3mOOL_structs.ml" 259 8098 8102 "ir3mOOL_structs.ml" 263 8300 8348
+"ir3mOOL_structs.ml" 258 8096 8100 "ir3mOOL_structs.ml" 262 8298 8346
 call(
   stack
 )
 type(
   string
 )
-"ir3mOOL_structs.ml" 258 8061 8065 "ir3mOOL_structs.ml" 263 8300 8348
+"ir3mOOL_structs.ml" 257 8059 8063 "ir3mOOL_structs.ml" 262 8298 8346
 call(
   stack
 )
 type(
   string
 )
-"ir3mOOL_structs.ml" 257 8024 8026 "ir3mOOL_structs.ml" 263 8300 8348
+"ir3mOOL_structs.ml" 256 8022 8024 "ir3mOOL_structs.ml" 262 8298 8346
 call(
   tail
 )

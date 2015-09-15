@@ -38,7 +38,8 @@ let _ =
       let () = print_endline (MOOL_structs.string_of_mOOL_program prog) in
       let typed_prog = MOOL_annotatedtyping.type_check_mOOL_program prog in
       let () = print_endline (MOOL_structs.string_of_mOOL_program typed_prog) in
-      let () = print_endline (MOOLtoir3.mOOL_program_to_IR3 typed_prog) in
+      let ir3_prog = (MOOLtoir3.mOOL_program_to_IR3 typed_prog) in
+      let () = print_endline (Ir3mOOL_structs.string_of_ir3_program ir3_prog) in
       ()
  end
 (*

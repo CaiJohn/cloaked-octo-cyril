@@ -581,7 +581,7 @@ type(
   string
 )
 ident(
-  def x "mOOL_main.ml" 37 1024 1030 "mOOL_main.ml" 41 1289 1297
+  def x "mOOL_main.ml" 37 1024 1030 "mOOL_main.ml" 43 1437 1445
 )
 "mOOL_main.ml" 36 1010 1019 "mOOL_main.ml" 36 1010 1020
 type(
@@ -596,7 +596,7 @@ type(
   MOOL_structs.mOOL_program
 )
 ident(
-  def prog "mOOL_main.ml" 38 1057 1063 "mOOL_main.ml" 41 1289 1297
+  def prog "mOOL_main.ml" 38 1057 1063 "mOOL_main.ml" 43 1437 1445
 )
 "mOOL_main.ml" 37 1024 1041 "mOOL_main.ml" 37 1024 1051
 type(
@@ -663,7 +663,7 @@ type(
   MOOL_structs.mOOL_program
 )
 ident(
-  def typed_prog "mOOL_main.ml" 40 1208 1214 "mOOL_main.ml" 41 1289 1297
+  def typed_prog "mOOL_main.ml" 40 1208 1214 "mOOL_main.ml" 43 1437 1445
 )
 "mOOL_main.ml" 39 1132 1155 "mOOL_main.ml" 39 1132 1199
 type(
@@ -725,31 +725,106 @@ call(
 type(
   unit
 )
-"mOOL_main.ml" 41 1289 1295 "mOOL_main.ml" 41 1289 1297
+"mOOL_main.ml" 41 1289 1299 "mOOL_main.ml" 41 1289 1307
+type(
+  Ir3mOOL_structs.ir3_program
+)
+ident(
+  def ir3_prog "mOOL_main.ml" 42 1356 1362 "mOOL_main.ml" 43 1437 1445
+)
+"mOOL_main.ml" 41 1289 1311 "mOOL_main.ml" 41 1289 1340
+type(
+  MOOL_structs.mOOL_program -> Ir3mOOL_structs.ir3_program
+)
+ident(
+  ext_ref MOOLtoir3.mOOL_program_to_IR3
+)
+"mOOL_main.ml" 41 1289 1341 "mOOL_main.ml" 41 1289 1351
+type(
+  MOOL_structs.mOOL_program
+)
+ident(
+  int_ref typed_prog "mOOL_main.ml" 39 1132 1142 "mOOL_main.ml" 39 1132 1152
+)
+"mOOL_main.ml" 41 1289 1310 "mOOL_main.ml" 41 1289 1352
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_program
+)
+"mOOL_main.ml" 42 1356 1366 "mOOL_main.ml" 42 1356 1368
 type(
   unit
 )
-"mOOL_main.ml" 40 1208 1214 "mOOL_main.ml" 41 1289 1297
+"mOOL_main.ml" 42 1356 1371 "mOOL_main.ml" 42 1356 1384
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"mOOL_main.ml" 42 1356 1386 "mOOL_main.ml" 42 1356 1423
+type(
+  Ir3mOOL_structs.ir3_program -> string
+)
+ident(
+  ext_ref Ir3mOOL_structs.string_of_ir3_program
+)
+"mOOL_main.ml" 42 1356 1424 "mOOL_main.ml" 42 1356 1432
+type(
+  Ir3mOOL_structs.ir3_program
+)
+ident(
+  int_ref ir3_prog "mOOL_main.ml" 41 1289 1299 "mOOL_main.ml" 41 1289 1307
+)
+"mOOL_main.ml" 42 1356 1385 "mOOL_main.ml" 42 1356 1433
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 42 1356 1371 "mOOL_main.ml" 42 1356 1433
+call(
+  stack
+)
 type(
   unit
 )
-"mOOL_main.ml" 39 1132 1138 "mOOL_main.ml" 41 1289 1297
+"mOOL_main.ml" 43 1437 1443 "mOOL_main.ml" 43 1437 1445
 type(
   unit
 )
-"mOOL_main.ml" 38 1057 1063 "mOOL_main.ml" 41 1289 1297
+"mOOL_main.ml" 42 1356 1362 "mOOL_main.ml" 43 1437 1445
 type(
   unit
 )
-"mOOL_main.ml" 37 1024 1030 "mOOL_main.ml" 41 1289 1297
+"mOOL_main.ml" 41 1289 1295 "mOOL_main.ml" 43 1437 1445
 type(
   unit
 )
-"mOOL_main.ml" 34 934 938 "mOOL_main.ml" 41 1289 1297
+"mOOL_main.ml" 40 1208 1214 "mOOL_main.ml" 43 1437 1445
 type(
   unit
 )
-"mOOL_main.ml" 32 884 885 "mOOL_main.ml" 42 1298 1302
+"mOOL_main.ml" 39 1132 1138 "mOOL_main.ml" 43 1437 1445
+type(
+  unit
+)
+"mOOL_main.ml" 38 1057 1063 "mOOL_main.ml" 43 1437 1445
+type(
+  unit
+)
+"mOOL_main.ml" 37 1024 1030 "mOOL_main.ml" 43 1437 1445
+type(
+  unit
+)
+"mOOL_main.ml" 34 934 938 "mOOL_main.ml" 43 1437 1445
+type(
+  unit
+)
+"mOOL_main.ml" 32 884 885 "mOOL_main.ml" 44 1446 1450
 type(
   unit
 )

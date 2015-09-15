@@ -243,19 +243,18 @@ let string_of_class3
     ^ (if ((List.length cls.var_table) >  0) then ";\n" else "")
   in
   let meth =
-    ""
-    (* (string_of_list cls.meth_table (fun pair-> string_of_pair pair (fun x->x) (fun x->x)) ";\n") *)
-    (* ^ (if ((List.length cls.var_table) >  0) then ";\n" else "") *)
+    (string_of_list cls.meth_table (fun pair-> string_of_pair pair (string_of_var_id) (fun x->x)) ";\n")
+    ^ (if ((List.length cls.var_table) >  0) then ";\n" else "")
   in
   let classEnd = indent_dec()^"}" in
-  classHeader ^ parent ^ attr ^ meth
+  classHeader ^ parent ^ attr ^ meth^classEnd
 ;;			     
 				  
 (* display an IR3 program *)
 let string_of_ir3_program 
       ((class3lst, mainmd3, md3lst):ir3_program) : string = 
   "======= IR3 Program =======\n\n" 
-  ^ "======= CData3 ======= \n\n" ^ 
+  ^ "======= Class3 ======= \n\n" ^ 
     (string_of_list class3lst string_of_class3 "\n\n" )
     ^ "\n\n" ^ "=======  CMtd3 ======= \n\n"
     ^ (string_of_meth_decl3 mainmd3) ^ "\n"

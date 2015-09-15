@@ -348,8 +348,12 @@ let mOOL_class_decl_list_to_class3_list
 let mOOL_program_to_IR3 (p:mOOL_program):ir3_program=  
   let mOOL_class_main_to_IR3
 	((cname,mmthd):class_main ) =
-    ((cname,"NULL",[],[]),
-     (mOOL_mddecl_to_IR3 cname mmthd )) in
+    ({
+      classname=cname;
+      parent=None;
+      var_table=[];
+      meth_table=[(mmthd.mOOLid,string_of_var_id mmthd.ir3id)];
+      },(mOOL_mddecl_to_IR3 cname mmthd )) in
   (* let rec mOOL_class_decl_to_IR3  *)
   (* 	    ((cname,cparent,cvars,cmthds):class_decl) = *)
   (*   let rec helper mthdlst = *)
@@ -369,7 +373,6 @@ let mOOL_program_to_IR3 (p:mOOL_program):ir3_program=
     (* let newir3classesLst = *)
     (*   (List.map mOOL_class_decl_to_IR3 classes) in *)
     let (newclasses,newmethods) = 
-      (List.split (mOOL_class_decl_list_to_class3_list classes)) in 
-    (newmainir3::newclasses,newmainmdir3,
-    newmethods)
+      (mOOL_class_decl_list_to_class3_list classes) in 
+    (newmainir3::newclasses,newmainmdir3,newmethods)
   end
