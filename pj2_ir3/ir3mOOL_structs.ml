@@ -69,18 +69,22 @@ type meth = string
 type parent = string
 type cdata3 = cname3 * parent * (meth list) * (var_decl3 list)
 
+type meth_signature = string * (ir3_type list)
+
 type class3 =
   {
     classname:cname3;
     parent:cname3 option;
     var_table: var_decl3 list;
-    meth_table: (var_id* id3) list;
+    meth_table: (meth_signature * id3) list;
   }
 ;;
 
 (* Ocaml Tuple Type representing an IR3 program *)
 type ir3_program = (class3 list) * (md_decl3 ) * (md_decl3 list)
-						   
+		
+
+				   
 (* ===================================================== *)
 (*  Functions for printing the IR3 *)
 (* ===================================================== *)
@@ -229,6 +233,12 @@ let string_of_cdata3
      classHeader ^ classBody  ^ classEnd
 ;;
 
+let string_of_meth_signature
+      ((name,plst):meth_signature):string=
+  let para = string_of_list plst string_of_ir3_type ":" in
+  name ^ "["^para^"]"
+;;
+
 let string_of_class3
       (cls:class3):string=
   let classHeader =
@@ -243,7 +253,7 @@ let string_of_class3
     ^ (if ((List.length cls.var_table) >  0) then ";\n" else "")
   in
   let meth =
-    (string_of_list cls.meth_table (fun pair-> string_of_pair pair (string_of_var_id) (fun x->x)) ";\n")
+    (string_of_list cls.meth_table (fun pair-> string_of_pair pair (string_of_meth_signature) (fun x->x)) ";\n")
     ^ (if ((List.length cls.var_table) >  0) then ";\n" else "")
   in
   let classEnd = indent_dec()^"}" in

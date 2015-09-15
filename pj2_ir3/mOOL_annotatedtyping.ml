@@ -1,7 +1,7 @@
 
 (* ===================================================== *)
 (* ============== CS4212 Compiler Design ============== *)
-(* 			  TypeChecking of Jlite programs 			 *)
+(* 			  TypeChecking of mOOL programs 			 *)
 (* ===================================================== *)
 
 open MOOL_structs
@@ -14,6 +14,7 @@ let compare_mOOL_types
   | (ObjectT name1), (ObjectT name2) -> 
      ((String.compare name1 name2) == 0) 
   | t1, t2 -> t1 == t2
+
 		      
 (* Compare two variable ids *) 	
 let compare_var_ids v1 v2 =
@@ -26,7 +27,7 @@ let compare_var_ids v1 v2 =
      ((String.compare id1 id2) == 0)		
   | TypedVarId (id1,t1,s1), TypedVarId (id2,t2 ,s2) ->
      ((String.compare id1 id2) == 0) && (s1 == s2)
-					  
+    
 (* Find the declared type of a variable *) 		
 let rec find_var_decl_type 
 	  (vlst: var_decl list) (vid:var_id) =
@@ -77,6 +78,8 @@ let find_class_decl
        then (Some (cname,cparent,cvars,cmthd)) 
        else ( helper tail_lst)
   in ( helper clst)
+
+
 
 (* Return the list of direct sons of a class *)
 let find_class_direct_son
@@ -342,6 +345,21 @@ let rec type_check_expr
     | StringLiteral v -> (StringT, e)
     | ThisWord -> 
        ((ObjectT classid), TypedExp (e,(ObjectT classid)))
+    | SuperWord ->
+       let (_,parent,_,_) = 
+	 (
+	   match find_class_decl p classid with
+	   | Some c -> c
+	   | None -> failwith "cannot find class decl"
+	 )
+       in
+       (
+	 match parent with
+	 | Some parent_name ->
+	    ((ObjectT parent_name),TypedExp (e,(ObjectT parent_name)))
+	 | None ->
+	    (Unknown,e)
+       )
     | NullWord -> ((ObjectT "null") , TypedExp (e,(ObjectT "null")))
     | Var v -> 
        let (vtyp,vid) =(find_var_decl_type env v) in

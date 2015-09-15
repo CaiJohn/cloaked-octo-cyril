@@ -40,13 +40,16 @@ class TestSon extends Test{
 
   void method1(Int a){
        Int b;
+       method1();
        b = a+1;
        return;
   }
 
   Int method2(){
     Int a;
-    a=1;
+    // Type checking for super word
+    a=super.t1;
+    
     return a;
     }
 }

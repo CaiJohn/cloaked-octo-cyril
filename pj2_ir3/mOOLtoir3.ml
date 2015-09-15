@@ -82,6 +82,8 @@ let rec mOOLexpr_to_IR3Expr
 			| Var v -> 
 				(mOOLvarid_to_IR3Expr classid v toidc3)
 			| ThisWord -> (Idc3Expr (Var3 "this"),[],[])
+			| SuperWord ->
+			   iR3Expr_to_id3 (FieldAccess3 ("this","super")) t [] [] toid3
 			| NullWord -> 
 				let newExpr = (Idc3Expr (IntLiteral3 0)) in 
 				(iR3Expr_to_id3 newExpr t [] [] toid3)
@@ -286,13 +288,27 @@ let mOOL_mddecl_to_IR3 cname m  =
 		 ir3stmts=newstmts;
 		}
 
+let get_meth_signature (m:md_decl):meth_signature =
+  (string_of_var_id m.mOOLid, List.map (fun (t,_) ->t) m.params)
+;;
+ 
+let compare_meth_signature (n1,plst1) (n2,plst2) =
+  let para =
+    if List.length plst1 = List.length plst2
+    then
+      List.for_all (fun x-> x) (List.map2 (fun t1 t2 -> MOOL_annotatedtyping.compare_mOOL_types t1 t2) plst1 plst2)
+    else
+      false
+  in
+  para && (n1=n2)
+;;
 
 (* Transform a class to IR3 class descriptor *)
 let mOOL_class_decl_list_to_class3_list
       (clslst:class_decl list) =
   let rec helper_one ((cname,cparent,cvars,cmthds):class_decl) reslst clslst=
     let own_var_table = mOOLvar_decl_lst_to_ID3 ((List.map (fun (m,v)->v) cvars)) in
-    let own_meth_table = List.map (fun m -> (m.mOOLid, string_of_var_id m.ir3id)) cmthds in
+    let own_meth_table = List.map (fun m -> (get_meth_signature m,string_of_var_id m.ir3id)) cmthds in
     match cparent with
     | None ->
        let c3 = 
@@ -315,14 +331,14 @@ let mOOL_class_decl_list_to_class3_list
        in
        let old_var_table = pc3.var_table in
        let old_meth_table = List.map
-			      (fun (mid,id3) ->
+			      (fun (ms,id3) ->
 			       try
-				 List.find (fun (nmid,nid3) -> nmid = mid) own_meth_table
+				 List.find (fun (nms,nid3) -> compare_meth_signature ms nms) own_meth_table
 			       with Not_found ->
-				 (mid,id3)) pc3.meth_table 
+				 (ms,id3)) pc3.meth_table 
 			       in
        let new_var_table = List.filter (fun (t,id) -> (not (List.exists (fun (nt,nid) -> nid = id) old_var_table))) own_var_table in
-       let new_meth_table = List.filter (fun (mid,id3) -> (not (List.exists (fun (nmid,nid3) -> mid = nmid) old_meth_table))) own_meth_table in
+       let new_meth_table = List.filter (fun (ms,id3) -> (not (List.exists (fun (nms,nid3) -> compare_meth_signature ms nms) old_meth_table))) own_meth_table in
        let c3 = 
 	 {
 	   classname = cname;
@@ -352,7 +368,7 @@ let mOOL_program_to_IR3 (p:mOOL_program):ir3_program=
       classname=cname;
       parent=None;
       var_table=[];
-      meth_table=[(mmthd.mOOLid,string_of_var_id mmthd.ir3id)];
+      meth_table=[(get_meth_signature mmthd, string_of_var_id mmthd.ir3id)];
       },(mOOL_mddecl_to_IR3 cname mmthd )) in
   (* let rec mOOL_class_decl_to_IR3  *)
   (* 	    ((cname,cparent,cvars,cmthds):class_decl) = *)
