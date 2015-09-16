@@ -1,6 +1,6 @@
 class Main {
 
-void main(Int i, Int a, Int b,Int d){
+void main(){
  Int t1;
  Int t2;
  return;
@@ -19,7 +19,7 @@ class Test{
 	return;
  }
 
- Int test_method1(){
+ Int test_method1(Int c){
      Bool b;
      return t1;
   }
@@ -35,12 +35,24 @@ class TestSon extends Test{
 
   void method1(){
        Int b;
+       //method1(3);
        return;
   }
 
   void method1(Int a){
        Int b;
-       method1();
+       //method1();
+       Test t;
+       t.method1();
+       if(b>0){
+	t.test_method1(b);
+	}
+	else{
+	  method1();
+	}
+       t=new TestSon();
+       ((TestSon)t).method1();
+       method1(3);
        b = a+1;
        return;
   }
@@ -49,6 +61,7 @@ class TestSon extends Test{
     Int a;
     // Type checking for super word
     a=super.t1;
+    //method1(3);
     
     return a;
     }

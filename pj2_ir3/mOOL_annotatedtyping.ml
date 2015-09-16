@@ -340,9 +340,9 @@ let rec type_check_expr
   let rec helper e 
 	  : (mOOL_type * mOOL_exp) =
     match e with
-    | BoolLiteral v -> (BoolT, e)
-    | IntLiteral v -> (IntT, e)
-    | StringLiteral v -> (StringT, e)
+    | BoolLiteral v -> (BoolT,TypedExp (e,BoolT))
+    | IntLiteral v -> (IntT,TypedExp (e,IntT))
+    | StringLiteral v -> (StringT, TypedExp (e,StringT))
     | ThisWord -> 
        ((ObjectT classid), TypedExp (e,(ObjectT classid)))
     | SuperWord ->
@@ -467,8 +467,8 @@ and type_check_method_call
        p calleecls calleeid argtypes inside_class
     ) in
   let caleeRenamedExp = match caleeTypedExp with
-    | Var v -> Var ir3id
-    | FieldAccess (e,id) -> FieldAccess (e,ir3id)	
+    | Var v -> (*Var ir3id*) Var v
+    | FieldAccess (e,id) -> (*FieldAccess (e,ir3id)*) FieldAccess (e,id)	
     | _  -> failwith "Error in method call"		
   in(rettype, TypedExp(
 		  MdCall(caleeRenamedExp,argExpr),rettype))

@@ -35,7 +35,8 @@ type ir3_exp =
   | Idc3Expr of idc3
   | MdCall3 of id3 * string * (idc3 list) 
   | ObjectCreate3 of string
-
+  | CastExp3 of id3 * id3
+;;
 type ir3_stmt = 
   | Label3 of label3
   | IfStmt3 of ir3_exp * label3 
@@ -48,6 +49,7 @@ type ir3_stmt =
   | MdCallStmt3 of ir3_exp
   | ReturnStmt3 of id3
   | ReturnVoidStmt3
+
 
 (* Ocaml Tuple Type representing an IR3 variable declaration *)
 type var_decl3 = ir3_type * id3
@@ -76,7 +78,7 @@ type class3 =
     classname:cname3;
     parent:cname3 option;
     var_table: var_decl3 list;
-    meth_table: (meth_signature * id3) list;
+    meth_table: (id3 * id3) list;
   }
 ;;
 
@@ -164,7 +166,7 @@ let string_of_ir3_exp e:string =
      "["^ caller ^"."^id
      ^"("^(string_of_list args string_of_idc3 ",")^ ")]"
   | Idc3Expr e -> (string_of_idc3 e)
-		    
+  | CastExp3 (id,t) -> "("^t^")"^id
 		    
 (* display an IR3 statement *)
 let string_of_ir3_stmt (s:ir3_stmt):string =
@@ -253,11 +255,13 @@ let string_of_class3
     ^ (if ((List.length cls.var_table) >  0) then ";\n" else "")
   in
   let meth =
-    (string_of_list cls.meth_table (fun pair-> string_of_pair pair (string_of_meth_signature) (fun x->x)) ";\n")
+    (string_of_list cls.meth_table (fun pair-> print_tab()^(string_of_pair pair (fun x->x) (fun x->x))) ";\n")
     ^ (if ((List.length cls.var_table) >  0) then ";\n" else "")
   in
   let classEnd = indent_dec()^"}" in
-  classHeader ^ parent ^ attr ^ meth^classEnd
+  classHeader ^ parent ^ attr ^ "\n"^
+    print_tab() ^ "----meth table----\n" ^
+  meth^classEnd
 ;;			     
 				  
 (* display an IR3 program *)

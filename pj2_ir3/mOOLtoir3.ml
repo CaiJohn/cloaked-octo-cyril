@@ -58,7 +58,16 @@ let mOOLvarid_to_IR3Expr
 		else
 			let newExpr = Idc3Expr (Var3 id) in
 			(newExpr,[], [])
-			
+
+let get_meth_signature (m:md_decl):meth_signature =
+  (string_of_var_id m.mOOLid, List.map (fun (t,_) ->t) m.params)
+;;
+
+let meth_signature_to_unique_name ((n,palst):meth_signature) =
+  let typ_str = List.fold_left (fun r t -> r^"~"^(string_of_mOOL_type t)) "" palst in
+  n^typ_str
+;;
+		
 (* Transform an expression to IR3 *)
 let rec mOOLexpr_to_IR3Expr
 	(classid: class_name) 
@@ -67,15 +76,15 @@ let rec mOOLexpr_to_IR3Expr
 	let rec helper 
 		(je:mOOL_exp) (toidc3:bool) (toid3:bool)=
 		match je with
-		| BoolLiteral v -> 
-			let newExpr = Idc3Expr (BoolLiteral3 v) in 
-			(iR3Expr_to_id3 newExpr BoolT [] [] toid3)
-		| IntLiteral v -> 
-			let newExpr = Idc3Expr (IntLiteral3 v) in
-			(iR3Expr_to_id3 newExpr IntT [] [] toid3)
-		| StringLiteral v -> 
-			let newExpr = Idc3Expr (StringLiteral3 v) in 
-			(iR3Expr_to_id3 newExpr StringT [] [] toid3)
+		(* | BoolLiteral v ->  *)
+		(* 	let newExpr = Idc3Expr (BoolLiteral3 v) in  *)
+		(* 	(iR3Expr_to_id3 newExpr BoolT [] [] toid3) *)
+		(* | IntLiteral v ->  *)
+		(* 	let newExpr = Idc3Expr (IntLiteral3 v) in *)
+		(* 	(iR3Expr_to_id3 newExpr IntT [] [] toid3) *)
+		(* | StringLiteral v ->  *)
+		(* 	let newExpr = Idc3Expr (StringLiteral3 v) in  *)
+		(* 	(iR3Expr_to_id3 newExpr StringT [] [] toid3) *)
 		| TypedExp (te,t) -> 
 			begin 
 			match te with
@@ -113,10 +122,25 @@ let rec mOOLexpr_to_IR3Expr
 				let (newExpr,vars,stmts) = 
 					(mOOLmdcall_to_IR3Expr classid (e,args) toidc3) in
 				(iR3Expr_to_id3 newExpr t vars stmts toidc3)
+			| BoolLiteral v -> 
+			   let newExpr = Idc3Expr (BoolLiteral3 v) in 
+			   (iR3Expr_to_id3 newExpr BoolT [] [] toid3)
+			| IntLiteral v -> 
+			   let newExpr = Idc3Expr (IntLiteral3 v) in
+			   (iR3Expr_to_id3 newExpr IntT [] [] toid3)
+			| StringLiteral v -> 
+			   let newExpr = Idc3Expr (StringLiteral3 v) in 
+			   (iR3Expr_to_id3 newExpr StringT [] [] toid3)
+			| CastExp (e,cast_t) ->
+			   let (eIR3,vars,stmts) = helper e true false in
+			   let eIdc3 = iR3Expr_get_id3 eIR3 in
+			   let newExpr = CastExp3 (eIdc3,string_of_mOOL_type cast_t) in
+			   (iR3Expr_to_id3 newExpr t vars stmts toidc3)			   
 			| _ -> failwith "Error: Untyped expression"
 			end
 		| _ -> failwith "Error: Untyped expression"
-	  in helper jexp toidc3 toid3
+	in helper jexp toidc3 toid3
+
 
 	  
 (* Transform a function application to IR3 *) 	  
@@ -142,8 +166,10 @@ and mOOLmdcall_to_IR3Expr
 			 (argIdc3,(vars,stmts)) ::  helper tail_lst
 	in let res = ( helper args) in 
 	let (paramsIR3, varsstmts) = List.split res in
+	(* Flatten the function name into function signature *)
+	let meth_signature_name = meth_signature_to_unique_name (string_of_var_id calleeid, List.map (function TypedExp (_,t)-> t |_ -> failwith "Untyped!") args) in
 	let (paramsNewVars, paramsNewStmts) = List.split varsstmts in
-		(MdCall3 (caller,string_of_var_id calleeid, (Var3 caller)::paramsIR3),
+		(MdCall3 (caller,meth_signature_name, (Var3 caller)::paramsIR3),
 		 expVars@(List.flatten paramsNewVars),
 		 expStmts@(List.flatten paramsNewStmts))
 	
@@ -267,7 +293,7 @@ let rec mOOLstmts_to_IR3Stmts
 			| MdCallStmt e ->  
 				let (expr3,exprvars,exprstmts) = 
 					(mOOLexpr_to_IR3Expr classid e false false) in 
-				let printIR3 = (MdCallStmt3 expr3) in 
+				let printIR3 = (MdCallStmt3 expr3) in
 				(exprvars,exprstmts@[printIR3])
 			
 		  in let (vars,stmts) = (helper s) in
@@ -288,9 +314,7 @@ let mOOL_mddecl_to_IR3 cname m  =
 		 ir3stmts=newstmts;
 		}
 
-let get_meth_signature (m:md_decl):meth_signature =
-  (string_of_var_id m.mOOLid, List.map (fun (t,_) ->t) m.params)
-;;
+
  
 let compare_meth_signature (n1,plst1) (n2,plst2) =
   let para =
@@ -308,7 +332,7 @@ let mOOL_class_decl_list_to_class3_list
       (clslst:class_decl list) =
   let rec helper_one ((cname,cparent,cvars,cmthds):class_decl) reslst clslst=
     let own_var_table = mOOLvar_decl_lst_to_ID3 ((List.map (fun (m,v)->v) cvars)) in
-    let own_meth_table = List.map (fun m -> (get_meth_signature m,string_of_var_id m.ir3id)) cmthds in
+    let own_meth_table = List.map (fun m -> (meth_signature_to_unique_name (get_meth_signature m),string_of_var_id m.ir3id)) cmthds in
     match cparent with
     | None ->
        let c3 = 
@@ -333,16 +357,16 @@ let mOOL_class_decl_list_to_class3_list
        let old_meth_table = List.map
 			      (fun (ms,id3) ->
 			       try
-				 List.find (fun (nms,nid3) -> compare_meth_signature ms nms) own_meth_table
+				 List.find (fun (nms,nid3) -> ms = nms) own_meth_table
 			       with Not_found ->
 				 (ms,id3)) pc3.meth_table 
 			       in
        let new_var_table = List.filter (fun (t,id) -> (not (List.exists (fun (nt,nid) -> nid = id) old_var_table))) own_var_table in
-       let new_meth_table = List.filter (fun (ms,id3) -> (not (List.exists (fun (nms,nid3) -> compare_meth_signature ms nms) old_meth_table))) own_meth_table in
+       let new_meth_table = List.filter (fun (ms,id3) -> (not (List.exists (fun (nms,nid3) -> ms =  nms) old_meth_table))) own_meth_table in
        let c3 = 
 	 {
 	   classname = cname;
-	   parent = None;
+	   parent = Some p;
 	   var_table = old_var_table@new_var_table;
 	   meth_table = old_meth_table@new_meth_table;
 	 }
@@ -368,7 +392,7 @@ let mOOL_program_to_IR3 (p:mOOL_program):ir3_program=
       classname=cname;
       parent=None;
       var_table=[];
-      meth_table=[(get_meth_signature mmthd, string_of_var_id mmthd.ir3id)];
+      meth_table=[(meth_signature_to_unique_name (get_meth_signature mmthd), string_of_var_id mmthd.ir3id)];
       },(mOOL_mddecl_to_IR3 cname mmthd )) in
   (* let rec mOOL_class_decl_to_IR3  *)
   (* 	    ((cname,cparent,cvars,cmthds):class_decl) = *)
