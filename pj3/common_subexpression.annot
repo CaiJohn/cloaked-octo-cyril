@@ -1,0 +1,1517 @@
+"common_subexpression.ml" 3 22 26 "common_subexpression.ml" 3 22 38
+type(
+  int ref
+)
+ident(
+  def cse_varcount "common_subexpression.ml" 6 111 111 "common_subexpression.ml" 1 0 -1
+)
+"common_subexpression.ml" 3 22 41 "common_subexpression.ml" 3 22 44
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"common_subexpression.ml" 3 22 45 "common_subexpression.ml" 3 22 46
+type(
+  int
+)
+"common_subexpression.ml" 3 22 41 "common_subexpression.ml" 3 22 46
+type(
+  int ref
+)
+"common_subexpression.ml" 6 111 115 "common_subexpression.ml" 6 111 128
+type(
+  unit -> string
+)
+ident(
+  def fresh_cse_var "common_subexpression.ml" 10 205 205 "common_subexpression.ml" 1 0 -1
+)
+"common_subexpression.ml" 6 111 128 "common_subexpression.ml" 6 111 130
+type(
+  unit
+)
+"common_subexpression.ml" 7 133 138 "common_subexpression.ml" 7 133 150
+type(
+  int ref
+)
+ident(
+  int_ref cse_varcount "common_subexpression.ml" 3 22 26 "common_subexpression.ml" 3 22 38
+)
+"common_subexpression.ml" 7 133 150 "common_subexpression.ml" 7 133 152
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"common_subexpression.ml" 7 133 152 "common_subexpression.ml" 7 133 153
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common_subexpression.ml" 7 133 153 "common_subexpression.ml" 7 133 165
+type(
+  int ref
+)
+ident(
+  int_ref cse_varcount "common_subexpression.ml" 3 22 26 "common_subexpression.ml" 3 22 38
+)
+"common_subexpression.ml" 7 133 152 "common_subexpression.ml" 7 133 165
+type(
+  int
+)
+"common_subexpression.ml" 7 133 165 "common_subexpression.ml" 7 133 166
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"common_subexpression.ml" 7 133 166 "common_subexpression.ml" 7 133 167
+type(
+  int
+)
+"common_subexpression.ml" 7 133 152 "common_subexpression.ml" 7 133 167
+type(
+  int
+)
+"common_subexpression.ml" 7 133 138 "common_subexpression.ml" 7 133 167
+type(
+  unit
+)
+"common_subexpression.ml" 8 169 174 "common_subexpression.ml" 8 169 187
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"common_subexpression.ml" 8 169 188 "common_subexpression.ml" 8 169 189
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common_subexpression.ml" 8 169 189 "common_subexpression.ml" 8 169 201
+type(
+  int ref
+)
+ident(
+  int_ref cse_varcount "common_subexpression.ml" 3 22 26 "common_subexpression.ml" 3 22 38
+)
+"common_subexpression.ml" 8 169 188 "common_subexpression.ml" 8 169 201
+type(
+  int
+)
+"common_subexpression.ml" 8 169 173 "common_subexpression.ml" 8 169 202
+call(
+  tail
+)
+type(
+  string
+)
+"common_subexpression.ml" 7 133 137 "common_subexpression.ml" 8 169 203
+type(
+  string
+)
+"common_subexpression.ml" 10 205 209 "common_subexpression.ml" 10 205 234
+type(
+  Ir3_structs_new.ir3_stmt_new list -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def common_subexp_elimination "common_subexpression.ml" 85 3347 3370 "common_subexpression.ml" 1 0 -1
+)
+"common_subexpression.ml" 10 205 235 "common_subexpression.ml" 10 205 240
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def stmts "common_subexpression.ml" 11 243 247 "common_subexpression.ml" 85 3347 3370
+)
+"common_subexpression.ml" 11 243 251 "common_subexpression.ml" 11 243 270
+type(
+  ('a * (string * Ir3_structs_new.reg_or_mem)) list ->
+  'a ->
+  ('a * (string * Ir3_structs_new.reg_or_mem)) list * bool *
+  (string * Ir3_structs_new.reg_or_mem)
+)
+ident(
+  def add_new_exp_to_list "common_subexpression.ml" 27 855 859 "common_subexpression.ml" 85 3347 3370
+)
+"common_subexpression.ml" 11 243 271 "common_subexpression.ml" 11 243 279
+type(
+  ('a * (string * Ir3_structs_new.reg_or_mem)) list
+)
+ident(
+  def exp_list "common_subexpression.ml" 11 243 280 "common_subexpression.ml" 25 794 847
+)
+"common_subexpression.ml" 11 243 280 "common_subexpression.ml" 11 243 283
+type(
+  'a
+)
+ident(
+  def exp "common_subexpression.ml" 12 286 294 "common_subexpression.ml" 25 794 847
+)
+"common_subexpression.ml" 12 286 298 "common_subexpression.ml" 12 286 309
+type(
+  'b -> 'b -> bool
+)
+ident(
+  def is_same_exp "common_subexpression.ml" 15 357 365 "common_subexpression.ml" 25 794 847
+)
+"common_subexpression.ml" 12 286 310 "common_subexpression.ml" 12 286 314
+type(
+  'b
+)
+ident(
+  def exp1 "common_subexpression.ml" 12 286 315 "common_subexpression.ml" 13 322 345
+)
+"common_subexpression.ml" 12 286 315 "common_subexpression.ml" 12 286 319
+type(
+  'b
+)
+ident(
+  def exp2 "common_subexpression.ml" 13 322 334 "common_subexpression.ml" 13 322 345
+)
+"common_subexpression.ml" 13 322 334 "common_subexpression.ml" 13 322 338
+type(
+  'b
+)
+ident(
+  int_ref exp1 "common_subexpression.ml" 12 286 310 "common_subexpression.ml" 12 286 314
+)
+"common_subexpression.ml" 13 322 339 "common_subexpression.ml" 13 322 340
+type(
+  'b -> 'b -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"common_subexpression.ml" 13 322 341 "common_subexpression.ml" 13 322 345
+type(
+  'b
+)
+ident(
+  int_ref exp2 "common_subexpression.ml" 12 286 315 "common_subexpression.ml" 12 286 319
+)
+"common_subexpression.ml" 13 322 334 "common_subexpression.ml" 13 322 345
+type(
+  bool
+)
+"common_subexpression.ml" 16 369 385 "common_subexpression.ml" 16 369 390
+type(
+  'a * (string * Ir3_structs_new.reg_or_mem)
+)
+ident(
+  def entry "common_subexpression.ml" 18 471 483 "common_subexpression.ml" 19 512 551
+)
+"common_subexpression.ml" 16 369 393 "common_subexpression.ml" 16 369 402
+type(
+  ('a * (string * Ir3_structs_new.reg_or_mem) -> bool) ->
+  ('a * (string * Ir3_structs_new.reg_or_mem)) list ->
+  'a * (string * Ir3_structs_new.reg_or_mem)
+)
+ident(
+  ext_ref List.find
+)
+"common_subexpression.ml" 17 403 425 "common_subexpression.ml" 17 403 429
+type(
+  'a
+)
+ident(
+  def exp2 "common_subexpression.ml" 17 403 437 "common_subexpression.ml" 17 403 457
+)
+"common_subexpression.ml" 17 403 431 "common_subexpression.ml" 17 403 432
+type(
+  string * Ir3_structs_new.reg_or_mem
+)
+"common_subexpression.ml" 17 403 424 "common_subexpression.ml" 17 403 433
+type(
+  'a * (string * Ir3_structs_new.reg_or_mem)
+)
+"common_subexpression.ml" 17 403 437 "common_subexpression.ml" 17 403 448
+type(
+  'a -> 'a -> bool
+)
+ident(
+  int_ref is_same_exp "common_subexpression.ml" 12 286 298 "common_subexpression.ml" 12 286 309
+)
+"common_subexpression.ml" 17 403 449 "common_subexpression.ml" 17 403 452
+type(
+  'a
+)
+ident(
+  int_ref exp "common_subexpression.ml" 11 243 280 "common_subexpression.ml" 11 243 283
+)
+"common_subexpression.ml" 17 403 453 "common_subexpression.ml" 17 403 457
+type(
+  'a
+)
+ident(
+  int_ref exp2 "common_subexpression.ml" 17 403 425 "common_subexpression.ml" 17 403 429
+)
+"common_subexpression.ml" 17 403 437 "common_subexpression.ml" 17 403 457
+call(
+  tail
+)
+type(
+  bool
+)
+"common_subexpression.ml" 17 403 419 "common_subexpression.ml" 17 403 458
+type(
+  'a * (string * Ir3_structs_new.reg_or_mem) -> bool
+)
+"common_subexpression.ml" 17 403 459 "common_subexpression.ml" 17 403 467
+type(
+  ('a * (string * Ir3_structs_new.reg_or_mem)) list
+)
+ident(
+  int_ref exp_list "common_subexpression.ml" 11 243 271 "common_subexpression.ml" 11 243 279
+)
+"common_subexpression.ml" 16 369 393 "common_subexpression.ml" 17 403 467
+call(
+  stack
+)
+type(
+  'a * (string * Ir3_structs_new.reg_or_mem)
+)
+"common_subexpression.ml" 18 471 488 "common_subexpression.ml" 18 471 489
+type(
+  'a
+)
+"common_subexpression.ml" 18 471 491 "common_subexpression.ml" 18 471 499
+type(
+  string * Ir3_structs_new.reg_or_mem
+)
+ident(
+  def variable "common_subexpression.ml" 19 512 524 "common_subexpression.ml" 19 512 551
+)
+"common_subexpression.ml" 18 471 487 "common_subexpression.ml" 18 471 500
+type(
+  'a * (string * Ir3_structs_new.reg_or_mem)
+)
+"common_subexpression.ml" 18 471 503 "common_subexpression.ml" 18 471 508
+type(
+  'a * (string * Ir3_structs_new.reg_or_mem)
+)
+ident(
+  int_ref entry "common_subexpression.ml" 16 369 385 "common_subexpression.ml" 16 369 390
+)
+"common_subexpression.ml" 19 512 525 "common_subexpression.ml" 19 512 533
+type(
+  ('a * (string * Ir3_structs_new.reg_or_mem)) list
+)
+ident(
+  int_ref exp_list "common_subexpression.ml" 11 243 271 "common_subexpression.ml" 11 243 279
+)
+"common_subexpression.ml" 19 512 535 "common_subexpression.ml" 19 512 540
+type(
+  bool
+)
+"common_subexpression.ml" 19 512 542 "common_subexpression.ml" 19 512 550
+type(
+  string * Ir3_structs_new.reg_or_mem
+)
+ident(
+  int_ref variable "common_subexpression.ml" 18 471 491 "common_subexpression.ml" 18 471 499
+)
+"common_subexpression.ml" 19 512 524 "common_subexpression.ml" 19 512 551
+type(
+  ('a * (string * Ir3_structs_new.reg_or_mem)) list * bool *
+  (string * Ir3_structs_new.reg_or_mem)
+)
+"common_subexpression.ml" 18 471 483 "common_subexpression.ml" 19 512 551
+type(
+  ('a * (string * Ir3_structs_new.reg_or_mem)) list * bool *
+  (string * Ir3_structs_new.reg_or_mem)
+)
+"common_subexpression.ml" 16 369 381 "common_subexpression.ml" 19 512 551
+type(
+  ('a * (string * Ir3_structs_new.reg_or_mem)) list * bool *
+  (string * Ir3_structs_new.reg_or_mem)
+)
+"common_subexpression.ml" 21 565 577 "common_subexpression.ml" 21 565 586
+type(
+  exn
+)
+"common_subexpression.ml" 22 590 610 "common_subexpression.ml" 22 590 623
+type(
+  string
+)
+ident(
+  def variable_name "common_subexpression.ml" 23 654 670 "common_subexpression.ml" 25 794 847
+)
+"common_subexpression.ml" 22 590 626 "common_subexpression.ml" 22 590 632
+type(
+  string
+)
+"common_subexpression.ml" 22 590 633 "common_subexpression.ml" 22 590 634
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"common_subexpression.ml" 22 590 635 "common_subexpression.ml" 22 590 648
+type(
+  unit -> string
+)
+ident(
+  int_ref fresh_cse_var "common_subexpression.ml" 6 111 115 "common_subexpression.ml" 6 111 128
+)
+"common_subexpression.ml" 22 590 648 "common_subexpression.ml" 22 590 650
+type(
+  unit
+)
+"common_subexpression.ml" 22 590 635 "common_subexpression.ml" 22 590 650
+call(
+  stack
+)
+type(
+  string
+)
+"common_subexpression.ml" 22 590 626 "common_subexpression.ml" 22 590 650
+call(
+  stack
+)
+type(
+  string
+)
+"common_subexpression.ml" 23 654 674 "common_subexpression.ml" 23 654 682
+type(
+  string * Ir3_structs_new.reg_or_mem
+)
+ident(
+  def variable "common_subexpression.ml" 24 722 738 "common_subexpression.ml" 25 794 847
+)
+"common_subexpression.ml" 23 654 686 "common_subexpression.ml" 23 654 699
+type(
+  string
+)
+ident(
+  int_ref variable_name "common_subexpression.ml" 22 590 610 "common_subexpression.ml" 22 590 623
+)
+"common_subexpression.ml" 23 654 706 "common_subexpression.ml" 23 654 716
+type(
+  string
+)
+"common_subexpression.ml" 23 654 701 "common_subexpression.ml" 23 654 717
+type(
+  Ir3_structs_new.reg_or_mem
+)
+"common_subexpression.ml" 23 654 685 "common_subexpression.ml" 23 654 718
+type(
+  string * Ir3_structs_new.reg_or_mem
+)
+"common_subexpression.ml" 24 722 742 "common_subexpression.ml" 24 722 761
+type(
+  ('a * (string * Ir3_structs_new.reg_or_mem)) list
+)
+ident(
+  def new_common_exp_list "common_subexpression.ml" 25 794 810 "common_subexpression.ml" 25 794 847
+)
+"common_subexpression.ml" 24 722 764 "common_subexpression.ml" 24 722 772
+type(
+  ('a * (string * Ir3_structs_new.reg_or_mem)) list
+)
+ident(
+  int_ref exp_list "common_subexpression.ml" 11 243 271 "common_subexpression.ml" 11 243 279
+)
+"common_subexpression.ml" 24 722 772 "common_subexpression.ml" 24 722 773
+type(
+  ('a * (string * Ir3_structs_new.reg_or_mem)) list ->
+  ('a * (string * Ir3_structs_new.reg_or_mem)) list ->
+  ('a * (string * Ir3_structs_new.reg_or_mem)) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"common_subexpression.ml" 24 722 775 "common_subexpression.ml" 24 722 778
+type(
+  'a
+)
+ident(
+  int_ref exp "common_subexpression.ml" 11 243 280 "common_subexpression.ml" 11 243 283
+)
+"common_subexpression.ml" 24 722 780 "common_subexpression.ml" 24 722 788
+type(
+  string * Ir3_structs_new.reg_or_mem
+)
+ident(
+  int_ref variable "common_subexpression.ml" 23 654 674 "common_subexpression.ml" 23 654 682
+)
+"common_subexpression.ml" 24 722 774 "common_subexpression.ml" 24 722 789
+type(
+  'a * (string * Ir3_structs_new.reg_or_mem)
+)
+"common_subexpression.ml" 24 722 773 "common_subexpression.ml" 24 722 790
+type(
+  ('a * (string * Ir3_structs_new.reg_or_mem)) list
+)
+"common_subexpression.ml" 24 722 764 "common_subexpression.ml" 24 722 790
+call(
+  stack
+)
+type(
+  ('a * (string * Ir3_structs_new.reg_or_mem)) list
+)
+"common_subexpression.ml" 25 794 811 "common_subexpression.ml" 25 794 830
+type(
+  ('a * (string * Ir3_structs_new.reg_or_mem)) list
+)
+ident(
+  int_ref new_common_exp_list "common_subexpression.ml" 24 722 742 "common_subexpression.ml" 24 722 761
+)
+"common_subexpression.ml" 25 794 832 "common_subexpression.ml" 25 794 836
+type(
+  bool
+)
+"common_subexpression.ml" 25 794 838 "common_subexpression.ml" 25 794 846
+type(
+  string * Ir3_structs_new.reg_or_mem
+)
+ident(
+  int_ref variable "common_subexpression.ml" 23 654 674 "common_subexpression.ml" 23 654 682
+)
+"common_subexpression.ml" 25 794 810 "common_subexpression.ml" 25 794 847
+type(
+  ('a * (string * Ir3_structs_new.reg_or_mem)) list * bool *
+  (string * Ir3_structs_new.reg_or_mem)
+)
+"common_subexpression.ml" 24 722 738 "common_subexpression.ml" 25 794 847
+type(
+  ('a * (string * Ir3_structs_new.reg_or_mem)) list * bool *
+  (string * Ir3_structs_new.reg_or_mem)
+)
+"common_subexpression.ml" 23 654 670 "common_subexpression.ml" 25 794 847
+type(
+  ('a * (string * Ir3_structs_new.reg_or_mem)) list * bool *
+  (string * Ir3_structs_new.reg_or_mem)
+)
+"common_subexpression.ml" 22 590 606 "common_subexpression.ml" 25 794 847
+type(
+  ('a * (string * Ir3_structs_new.reg_or_mem)) list * bool *
+  (string * Ir3_structs_new.reg_or_mem)
+)
+"common_subexpression.ml" 15 357 365 "common_subexpression.ml" 25 794 847
+type(
+  ('a * (string * Ir3_structs_new.reg_or_mem)) list * bool *
+  (string * Ir3_structs_new.reg_or_mem)
+)
+"common_subexpression.ml" 12 286 294 "common_subexpression.ml" 25 794 847
+type(
+  ('a * (string * Ir3_structs_new.reg_or_mem)) list * bool *
+  (string * Ir3_structs_new.reg_or_mem)
+)
+"common_subexpression.ml" 27 855 863 "common_subexpression.ml" 27 855 883
+type(
+  (Ir3_structs_new.ir3_exp_new * 'c) list ->
+  Ir3_structs_new.id3_new -> (Ir3_structs_new.ir3_exp_new * 'c) list
+)
+ident(
+  def remove_exp_from_list "common_subexpression.ml" 51 1654 1658 "common_subexpression.ml" 85 3347 3370
+)
+"common_subexpression.ml" 27 855 884 "common_subexpression.ml" 27 855 892
+type(
+  (Ir3_structs_new.ir3_exp_new * 'c) list
+)
+ident(
+  def exp_list "common_subexpression.ml" 27 855 893 "common_subexpression.ml" 49 1626 1646
+)
+"common_subexpression.ml" 27 855 893 "common_subexpression.ml" 27 855 904
+type(
+  Ir3_structs_new.id3_new
+)
+ident(
+  def defined_var "common_subexpression.ml" 28 907 915 "common_subexpression.ml" 49 1626 1646
+)
+"common_subexpression.ml" 28 907 919 "common_subexpression.ml" 28 907 930
+type(
+  'd -> 'd -> bool
+)
+ident(
+  def is_same_var "common_subexpression.ml" 31 978 986 "common_subexpression.ml" 49 1626 1646
+)
+"common_subexpression.ml" 28 907 931 "common_subexpression.ml" 28 907 935
+type(
+  'd
+)
+ident(
+  def var1 "common_subexpression.ml" 28 907 936 "common_subexpression.ml" 29 943 966
+)
+"common_subexpression.ml" 28 907 936 "common_subexpression.ml" 28 907 940
+type(
+  'd
+)
+ident(
+  def var2 "common_subexpression.ml" 29 943 955 "common_subexpression.ml" 29 943 966
+)
+"common_subexpression.ml" 29 943 955 "common_subexpression.ml" 29 943 959
+type(
+  'd
+)
+ident(
+  int_ref var1 "common_subexpression.ml" 28 907 931 "common_subexpression.ml" 28 907 935
+)
+"common_subexpression.ml" 29 943 960 "common_subexpression.ml" 29 943 961
+type(
+  'd -> 'd -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"common_subexpression.ml" 29 943 962 "common_subexpression.ml" 29 943 966
+type(
+  'd
+)
+ident(
+  int_ref var2 "common_subexpression.ml" 28 907 936 "common_subexpression.ml" 28 907 940
+)
+"common_subexpression.ml" 29 943 955 "common_subexpression.ml" 29 943 966
+type(
+  bool
+)
+"common_subexpression.ml" 31 978 990 "common_subexpression.ml" 31 978 1008
+type(
+  Ir3_structs_new.idc3_new -> Ir3_structs_new.ir3_exp_new -> bool
+)
+ident(
+  def is_var_used_in_exp "common_subexpression.ml" 46 1473 1481 "common_subexpression.ml" 49 1626 1646
+)
+"common_subexpression.ml" 31 978 1009 "common_subexpression.ml" 31 978 1017
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  def var_idc3 "common_subexpression.ml" 31 978 1018 "common_subexpression.ml" 44 1440 1461
+)
+"common_subexpression.ml" 31 978 1018 "common_subexpression.ml" 31 978 1021
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  def exp "common_subexpression.ml" 32 1024 1036 "common_subexpression.ml" 44 1440 1461
+)
+"common_subexpression.ml" 32 1024 1042 "common_subexpression.ml" 32 1024 1045
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  int_ref exp "common_subexpression.ml" 31 978 1018 "common_subexpression.ml" 31 978 1021
+)
+"common_subexpression.ml" 33 1051 1081 "common_subexpression.ml" 33 1051 1082
+type(
+  Ir3_structs_new.ir3_op_new
+)
+"common_subexpression.ml" 33 1051 1084 "common_subexpression.ml" 33 1051 1088
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  def var1 "common_subexpression.ml" 34 1099 1115 "common_subexpression.ml" 37 1230 1255
+)
+"common_subexpression.ml" 33 1051 1090 "common_subexpression.ml" 33 1051 1094
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  def var2 "common_subexpression.ml" 34 1099 1115 "common_subexpression.ml" 37 1230 1255
+)
+"common_subexpression.ml" 33 1051 1065 "common_subexpression.ml" 33 1051 1095
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"common_subexpression.ml" 34 1099 1120 "common_subexpression.ml" 34 1099 1131
+type(
+  Ir3_structs_new.idc3_new -> Ir3_structs_new.idc3_new -> bool
+)
+ident(
+  int_ref is_same_var "common_subexpression.ml" 28 907 919 "common_subexpression.ml" 28 907 930
+)
+"common_subexpression.ml" 34 1099 1132 "common_subexpression.ml" 34 1099 1140
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref var_idc3 "common_subexpression.ml" 31 978 1009 "common_subexpression.ml" 31 978 1017
+)
+"common_subexpression.ml" 34 1099 1141 "common_subexpression.ml" 34 1099 1145
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref var1 "common_subexpression.ml" 33 1051 1084 "common_subexpression.ml" 33 1051 1088
+)
+"common_subexpression.ml" 34 1099 1119 "common_subexpression.ml" 34 1099 1146
+call(
+  stack
+)
+type(
+  bool
+)
+"common_subexpression.ml" 34 1099 1147 "common_subexpression.ml" 34 1099 1149
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"common_subexpression.ml" 34 1099 1151 "common_subexpression.ml" 34 1099 1162
+type(
+  Ir3_structs_new.idc3_new -> Ir3_structs_new.idc3_new -> bool
+)
+ident(
+  int_ref is_same_var "common_subexpression.ml" 28 907 919 "common_subexpression.ml" 28 907 930
+)
+"common_subexpression.ml" 34 1099 1163 "common_subexpression.ml" 34 1099 1171
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref var_idc3 "common_subexpression.ml" 31 978 1009 "common_subexpression.ml" 31 978 1017
+)
+"common_subexpression.ml" 34 1099 1172 "common_subexpression.ml" 34 1099 1176
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref var2 "common_subexpression.ml" 33 1051 1090 "common_subexpression.ml" 33 1051 1094
+)
+"common_subexpression.ml" 34 1099 1150 "common_subexpression.ml" 34 1099 1177
+call(
+  stack
+)
+type(
+  bool
+)
+"common_subexpression.ml" 34 1099 1118 "common_subexpression.ml" 34 1099 1178
+type(
+  bool
+)
+"common_subexpression.ml" 35 1184 1204 "common_subexpression.ml" 35 1184 1208
+type(
+  bool
+)
+"common_subexpression.ml" 37 1230 1250 "common_subexpression.ml" 37 1230 1255
+type(
+  bool
+)
+"common_subexpression.ml" 34 1099 1115 "common_subexpression.ml" 37 1230 1255
+type(
+  bool
+)
+"common_subexpression.ml" 38 1256 1285 "common_subexpression.ml" 38 1256 1286
+type(
+  Ir3_structs_new.ir3_op_new
+)
+"common_subexpression.ml" 38 1256 1288 "common_subexpression.ml" 38 1256 1292
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  def var1 "common_subexpression.ml" 39 1297 1313 "common_subexpression.ml" 42 1395 1420
+)
+"common_subexpression.ml" 38 1256 1270 "common_subexpression.ml" 38 1256 1293
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"common_subexpression.ml" 39 1297 1317 "common_subexpression.ml" 39 1297 1328
+type(
+  Ir3_structs_new.idc3_new -> Ir3_structs_new.idc3_new -> bool
+)
+ident(
+  int_ref is_same_var "common_subexpression.ml" 28 907 919 "common_subexpression.ml" 28 907 930
+)
+"common_subexpression.ml" 39 1297 1329 "common_subexpression.ml" 39 1297 1337
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref var_idc3 "common_subexpression.ml" 31 978 1009 "common_subexpression.ml" 31 978 1017
+)
+"common_subexpression.ml" 39 1297 1338 "common_subexpression.ml" 39 1297 1342
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref var1 "common_subexpression.ml" 38 1256 1288 "common_subexpression.ml" 38 1256 1292
+)
+"common_subexpression.ml" 39 1297 1316 "common_subexpression.ml" 39 1297 1343
+call(
+  stack
+)
+type(
+  bool
+)
+"common_subexpression.ml" 40 1349 1369 "common_subexpression.ml" 40 1349 1373
+type(
+  bool
+)
+"common_subexpression.ml" 42 1395 1415 "common_subexpression.ml" 42 1395 1420
+type(
+  bool
+)
+"common_subexpression.ml" 39 1297 1313 "common_subexpression.ml" 42 1395 1420
+type(
+  bool
+)
+"common_subexpression.ml" 43 1421 1435 "common_subexpression.ml" 43 1421 1436
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"common_subexpression.ml" 44 1440 1456 "common_subexpression.ml" 44 1440 1461
+type(
+  bool
+)
+"common_subexpression.ml" 32 1024 1036 "common_subexpression.ml" 44 1440 1461
+type(
+  bool
+)
+"common_subexpression.ml" 46 1473 1485 "common_subexpression.ml" 46 1473 1501
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  def defined_var_idc3 "common_subexpression.ml" 47 1528 1536 "common_subexpression.ml" 49 1626 1646
+)
+"common_subexpression.ml" 46 1473 1513 "common_subexpression.ml" 46 1473 1524
+type(
+  Ir3_structs_new.id3_new
+)
+ident(
+  int_ref defined_var "common_subexpression.ml" 27 855 893 "common_subexpression.ml" 27 855 904
+)
+"common_subexpression.ml" 46 1473 1504 "common_subexpression.ml" 46 1473 1524
+type(
+  Ir3_structs_new.idc3_new
+)
+"common_subexpression.ml" 47 1528 1536 "common_subexpression.ml" 47 1528 1547
+type(
+  (Ir3_structs_new.ir3_exp_new * 'c -> bool) ->
+  (Ir3_structs_new.ir3_exp_new * 'c) list ->
+  (Ir3_structs_new.ir3_exp_new * 'c) list
+)
+ident(
+  ext_ref List.filter
+)
+"common_subexpression.ml" 48 1548 1566 "common_subexpression.ml" 48 1548 1569
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  def exp "common_subexpression.ml" 48 1548 1577 "common_subexpression.ml" 48 1548 1624
+)
+"common_subexpression.ml" 48 1548 1571 "common_subexpression.ml" 48 1548 1572
+type(
+  'c
+)
+"common_subexpression.ml" 48 1548 1565 "common_subexpression.ml" 48 1548 1573
+type(
+  Ir3_structs_new.ir3_exp_new * 'c
+)
+"common_subexpression.ml" 48 1548 1577 "common_subexpression.ml" 48 1548 1595
+type(
+  Ir3_structs_new.idc3_new -> Ir3_structs_new.ir3_exp_new -> bool
+)
+ident(
+  int_ref is_var_used_in_exp "common_subexpression.ml" 31 978 990 "common_subexpression.ml" 31 978 1008
+)
+"common_subexpression.ml" 48 1548 1596 "common_subexpression.ml" 48 1548 1612
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref defined_var_idc3 "common_subexpression.ml" 46 1473 1485 "common_subexpression.ml" 46 1473 1501
+)
+"common_subexpression.ml" 48 1548 1613 "common_subexpression.ml" 48 1548 1616
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  int_ref exp "common_subexpression.ml" 48 1548 1566 "common_subexpression.ml" 48 1548 1569
+)
+"common_subexpression.ml" 48 1548 1577 "common_subexpression.ml" 48 1548 1616
+call(
+  stack
+)
+type(
+  bool
+)
+"common_subexpression.ml" 48 1548 1617 "common_subexpression.ml" 48 1548 1618
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"common_subexpression.ml" 48 1548 1619 "common_subexpression.ml" 48 1548 1624
+type(
+  bool
+)
+"common_subexpression.ml" 48 1548 1577 "common_subexpression.ml" 48 1548 1624
+type(
+  bool
+)
+"common_subexpression.ml" 48 1548 1560 "common_subexpression.ml" 48 1548 1625
+type(
+  Ir3_structs_new.ir3_exp_new * 'c -> bool
+)
+"common_subexpression.ml" 49 1626 1638 "common_subexpression.ml" 49 1626 1646
+type(
+  (Ir3_structs_new.ir3_exp_new * 'c) list
+)
+ident(
+  int_ref exp_list "common_subexpression.ml" 27 855 884 "common_subexpression.ml" 27 855 892
+)
+"common_subexpression.ml" 47 1528 1536 "common_subexpression.ml" 49 1626 1646
+call(
+  tail
+)
+type(
+  (Ir3_structs_new.ir3_exp_new * 'c) list
+)
+"common_subexpression.ml" 46 1473 1481 "common_subexpression.ml" 49 1626 1646
+type(
+  (Ir3_structs_new.ir3_exp_new * 'c) list
+)
+"common_subexpression.ml" 31 978 986 "common_subexpression.ml" 49 1626 1646
+type(
+  (Ir3_structs_new.ir3_exp_new * 'c) list
+)
+"common_subexpression.ml" 28 907 915 "common_subexpression.ml" 49 1626 1646
+type(
+  (Ir3_structs_new.ir3_exp_new * 'c) list
+)
+"common_subexpression.ml" 51 1654 1666 "common_subexpression.ml" 51 1654 1676
+type(
+  Ir3_structs_new.ir3_stmt_new list ->
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list ->
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def cse_helper "common_subexpression.ml" 51 1654 1658 "common_subexpression.ml" 85 3347 3370
+)
+"common_subexpression.ml" 51 1654 1677 "common_subexpression.ml" 51 1654 1682
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def stmts "common_subexpression.ml" 51 1654 1683 "common_subexpression.ml" 83 3303 3339
+)
+"common_subexpression.ml" 51 1654 1683 "common_subexpression.ml" 51 1654 1698
+type(
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+ident(
+  def common_exp_list "common_subexpression.ml" 52 1701 1709 "common_subexpression.ml" 83 3303 3339
+)
+"common_subexpression.ml" 52 1701 1715 "common_subexpression.ml" 52 1701 1720
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref stmts "common_subexpression.ml" 51 1654 1677 "common_subexpression.ml" 51 1654 1682
+)
+"common_subexpression.ml" 53 1726 1736 "common_subexpression.ml" 53 1726 1738
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"common_subexpression.ml" 54 1742 1754 "common_subexpression.ml" 54 1742 1756
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"common_subexpression.ml" 55 1757 1767 "common_subexpression.ml" 55 1757 1771
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  def stmt "common_subexpression.ml" 56 1786 1798 "common_subexpression.ml" 83 3303 3339
+)
+"common_subexpression.ml" 55 1757 1773 "common_subexpression.ml" 55 1757 1782
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def tail_list "common_subexpression.ml" 56 1786 1798 "common_subexpression.ml" 83 3303 3339
+)
+"common_subexpression.ml" 55 1757 1767 "common_subexpression.ml" 55 1757 1782
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"common_subexpression.ml" 56 1786 1803 "common_subexpression.ml" 56 1786 1816
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def updated_stmts "common_subexpression.ml" 82 3226 3238 "common_subexpression.ml" 83 3303 3339
+)
+"common_subexpression.ml" 56 1786 1818 "common_subexpression.ml" 56 1786 1841
+type(
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+ident(
+  def updated_common_exp_list "common_subexpression.ml" 82 3226 3238 "common_subexpression.ml" 83 3303 3339
+)
+"common_subexpression.ml" 56 1786 1802 "common_subexpression.ml" 56 1786 1842
+type(
+  Ir3_structs_new.ir3_stmt_new list *
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+"common_subexpression.ml" 57 1845 1867 "common_subexpression.ml" 57 1845 1871
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "common_subexpression.ml" 55 1757 1767 "common_subexpression.ml" 55 1757 1771
+)
+"common_subexpression.ml" 58 1877 1912 "common_subexpression.ml" 58 1877 1920
+type(
+  Ir3_structs_new.id3_new
+)
+ident(
+  def assignee "common_subexpression.ml" 59 1930 1950 "common_subexpression.ml" 78 3085 3143
+)
+"common_subexpression.ml" 58 1877 1922 "common_subexpression.ml" 58 1877 1925
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  def exp "common_subexpression.ml" 59 1930 1950 "common_subexpression.ml" 78 3085 3143
+)
+"common_subexpression.ml" 58 1877 1895 "common_subexpression.ml" 58 1877 1926
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"common_subexpression.ml" 59 1930 1955 "common_subexpression.ml" 59 1930 1968
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def updated_stmts "common_subexpression.ml" 76 2954 2974 "common_subexpression.ml" 78 3085 3143
+)
+"common_subexpression.ml" 59 1930 1970 "common_subexpression.ml" 59 1930 1993
+type(
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+ident(
+  def updated_common_exp_list "common_subexpression.ml" 76 2954 2974 "common_subexpression.ml" 78 3085 3143
+)
+"common_subexpression.ml" 59 1930 1954 "common_subexpression.ml" 59 1930 1994
+type(
+  Ir3_structs_new.ir3_stmt_new list *
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+"common_subexpression.ml" 60 1997 2027 "common_subexpression.ml" 60 1997 2030
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  int_ref exp "common_subexpression.ml" 58 1877 1922 "common_subexpression.ml" 58 1877 1925
+)
+"common_subexpression.ml" 61 2036 2077 "common_subexpression.ml" 61 2036 2078
+type(
+  Ir3_structs_new.idc3_new
+)
+type(
+  Ir3_structs_new.idc3_new
+)
+type(
+  Ir3_structs_new.ir3_op_new
+)
+"common_subexpression.ml" 61 2036 2062 "common_subexpression.ml" 61 2036 2078
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"common_subexpression.ml" 62 2079 2119 "common_subexpression.ml" 62 2079 2120
+type(
+  Ir3_structs_new.idc3_new
+)
+type(
+  Ir3_structs_new.ir3_op_new
+)
+"common_subexpression.ml" 62 2079 2105 "common_subexpression.ml" 62 2079 2120
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"common_subexpression.ml" 61 2036 2062 "common_subexpression.ml" 62 2079 2120
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"common_subexpression.ml" 63 2124 2157 "common_subexpression.ml" 63 2124 2180
+type(
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+ident(
+  def updated_common_exp_list "common_subexpression.ml" 65 2281 2309 "common_subexpression.ml" 72 2774 2847
+)
+"common_subexpression.ml" 63 2124 2182 "common_subexpression.ml" 63 2124 2192
+type(
+  bool
+)
+ident(
+  def is_new_exp "common_subexpression.ml" 65 2281 2309 "common_subexpression.ml" 72 2774 2847
+)
+"common_subexpression.ml" 63 2124 2194 "common_subexpression.ml" 63 2124 2202
+type(
+  Ir3_structs_new.id3_new
+)
+ident(
+  def variable "common_subexpression.ml" 65 2281 2309 "common_subexpression.ml" 72 2774 2847
+)
+"common_subexpression.ml" 63 2124 2156 "common_subexpression.ml" 63 2124 2203
+type(
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list * bool *
+  Ir3_structs_new.id3_new
+)
+"common_subexpression.ml" 64 2206 2238 "common_subexpression.ml" 64 2206 2257
+type(
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list ->
+  Ir3_structs_new.ir3_exp_new ->
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list * bool *
+  Ir3_structs_new.id3_new
+)
+ident(
+  int_ref add_new_exp_to_list "common_subexpression.ml" 11 243 251 "common_subexpression.ml" 11 243 270
+)
+"common_subexpression.ml" 64 2206 2258 "common_subexpression.ml" 64 2206 2273
+type(
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+ident(
+  int_ref common_exp_list "common_subexpression.ml" 51 1654 1683 "common_subexpression.ml" 51 1654 1698
+)
+"common_subexpression.ml" 64 2206 2274 "common_subexpression.ml" 64 2206 2277
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  int_ref exp "common_subexpression.ml" 58 1877 1922 "common_subexpression.ml" 58 1877 1925
+)
+"common_subexpression.ml" 64 2206 2238 "common_subexpression.ml" 64 2206 2277
+call(
+  stack
+)
+type(
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list * bool *
+  Ir3_structs_new.id3_new
+)
+"common_subexpression.ml" 65 2281 2312 "common_subexpression.ml" 65 2281 2324
+type(
+  bool
+)
+ident(
+  int_ref is_new_exp "common_subexpression.ml" 63 2124 2182 "common_subexpression.ml" 63 2124 2192
+)
+"common_subexpression.ml" 66 2330 2366 "common_subexpression.ml" 66 2330 2378
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  def assignee_exp "common_subexpression.ml" 67 2417 2449 "common_subexpression.ml" 68 2511 2589
+)
+"common_subexpression.ml" 66 2330 2404 "common_subexpression.ml" 66 2330 2412
+type(
+  Ir3_structs_new.id3_new
+)
+ident(
+  int_ref assignee "common_subexpression.ml" 58 1877 1912 "common_subexpression.ml" 58 1877 1920
+)
+"common_subexpression.ml" 66 2330 2394 "common_subexpression.ml" 66 2330 2413
+type(
+  Ir3_structs_new.idc3_new
+)
+"common_subexpression.ml" 66 2330 2381 "common_subexpression.ml" 66 2330 2413
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"common_subexpression.ml" 67 2417 2453 "common_subexpression.ml" 67 2417 2464
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  def assign_stmt "common_subexpression.ml" 68 2511 2543 "common_subexpression.ml" 68 2511 2589
+)
+"common_subexpression.ml" 67 2417 2484 "common_subexpression.ml" 67 2417 2492
+type(
+  Ir3_structs_new.id3_new
+)
+ident(
+  int_ref variable "common_subexpression.ml" 63 2124 2194 "common_subexpression.ml" 63 2124 2202
+)
+"common_subexpression.ml" 67 2417 2494 "common_subexpression.ml" 67 2417 2506
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  int_ref assignee_exp "common_subexpression.ml" 66 2330 2366 "common_subexpression.ml" 66 2330 2378
+)
+"common_subexpression.ml" 67 2417 2467 "common_subexpression.ml" 67 2417 2507
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"common_subexpression.ml" 68 2511 2544 "common_subexpression.ml" 68 2511 2548
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "common_subexpression.ml" 55 1757 1767 "common_subexpression.ml" 55 1757 1771
+)
+"common_subexpression.ml" 68 2511 2551 "common_subexpression.ml" 68 2511 2562
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref assign_stmt "common_subexpression.ml" 67 2417 2453 "common_subexpression.ml" 67 2417 2464
+)
+"common_subexpression.ml" 68 2511 2550 "common_subexpression.ml" 68 2511 2563
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"common_subexpression.ml" 68 2511 2544 "common_subexpression.ml" 68 2511 2563
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"common_subexpression.ml" 68 2511 2565 "common_subexpression.ml" 68 2511 2588
+type(
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+ident(
+  int_ref updated_common_exp_list "common_subexpression.ml" 63 2124 2157 "common_subexpression.ml" 63 2124 2180
+)
+"common_subexpression.ml" 68 2511 2543 "common_subexpression.ml" 68 2511 2589
+type(
+  Ir3_structs_new.ir3_stmt_new list *
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+"common_subexpression.ml" 67 2417 2449 "common_subexpression.ml" 68 2511 2589
+type(
+  Ir3_structs_new.ir3_stmt_new list *
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+"common_subexpression.ml" 66 2330 2362 "common_subexpression.ml" 68 2511 2589
+type(
+  Ir3_structs_new.ir3_stmt_new list *
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+"common_subexpression.ml" 70 2623 2659 "common_subexpression.ml" 70 2623 2671
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  def updated_stmt "common_subexpression.ml" 72 2774 2806 "common_subexpression.ml" 72 2774 2847
+)
+"common_subexpression.ml" 70 2623 2691 "common_subexpression.ml" 70 2623 2699
+type(
+  Ir3_structs_new.id3_new
+)
+ident(
+  int_ref assignee "common_subexpression.ml" 58 1877 1912 "common_subexpression.ml" 58 1877 1920
+)
+"common_subexpression.ml" 71 2701 2760 "common_subexpression.ml" 71 2701 2768
+type(
+  Ir3_structs_new.id3_new
+)
+ident(
+  int_ref variable "common_subexpression.ml" 63 2124 2194 "common_subexpression.ml" 63 2124 2202
+)
+"common_subexpression.ml" 71 2701 2750 "common_subexpression.ml" 71 2701 2769
+type(
+  Ir3_structs_new.idc3_new
+)
+"common_subexpression.ml" 71 2701 2737 "common_subexpression.ml" 71 2701 2769
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"common_subexpression.ml" 70 2623 2674 "common_subexpression.ml" 71 2701 2770
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"common_subexpression.ml" 72 2774 2808 "common_subexpression.ml" 72 2774 2820
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref updated_stmt "common_subexpression.ml" 70 2623 2659 "common_subexpression.ml" 70 2623 2671
+)
+"common_subexpression.ml" 72 2774 2807 "common_subexpression.ml" 72 2774 2821
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"common_subexpression.ml" 72 2774 2823 "common_subexpression.ml" 72 2774 2846
+type(
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+ident(
+  int_ref updated_common_exp_list "common_subexpression.ml" 63 2124 2157 "common_subexpression.ml" 63 2124 2180
+)
+"common_subexpression.ml" 72 2774 2806 "common_subexpression.ml" 72 2774 2847
+type(
+  Ir3_structs_new.ir3_stmt_new list *
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+"common_subexpression.ml" 70 2623 2655 "common_subexpression.ml" 72 2774 2847
+type(
+  Ir3_structs_new.ir3_stmt_new list *
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+"common_subexpression.ml" 65 2281 2309 "common_subexpression.ml" 72 2774 2847
+type(
+  Ir3_structs_new.ir3_stmt_new list *
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+"common_subexpression.ml" 63 2124 2152 "common_subexpression.ml" 72 2774 2847
+type(
+  Ir3_structs_new.ir3_stmt_new list *
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+"common_subexpression.ml" 73 2848 2874 "common_subexpression.ml" 73 2848 2875
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"common_subexpression.ml" 74 2879 2908 "common_subexpression.ml" 74 2879 2912
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "common_subexpression.ml" 55 1757 1767 "common_subexpression.ml" 55 1757 1771
+)
+"common_subexpression.ml" 74 2879 2907 "common_subexpression.ml" 74 2879 2913
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"common_subexpression.ml" 74 2879 2915 "common_subexpression.ml" 74 2879 2930
+type(
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+ident(
+  int_ref common_exp_list "common_subexpression.ml" 51 1654 1683 "common_subexpression.ml" 51 1654 1698
+)
+"common_subexpression.ml" 74 2879 2907 "common_subexpression.ml" 74 2879 2930
+type(
+  Ir3_structs_new.ir3_stmt_new list *
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+"common_subexpression.ml" 60 1997 2021 "common_subexpression.ml" 74 2879 2930
+type(
+  Ir3_structs_new.ir3_stmt_new list *
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+"common_subexpression.ml" 76 2954 2978 "common_subexpression.ml" 76 2954 3001
+type(
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+ident(
+  def updated_common_exp_list "common_subexpression.ml" 78 3085 3105 "common_subexpression.ml" 78 3085 3143
+)
+"common_subexpression.ml" 77 3004 3028 "common_subexpression.ml" 77 3004 3048
+type(
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list ->
+  Ir3_structs_new.id3_new ->
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+ident(
+  int_ref remove_exp_from_list "common_subexpression.ml" 27 855 863 "common_subexpression.ml" 27 855 883
+)
+"common_subexpression.ml" 77 3004 3049 "common_subexpression.ml" 77 3004 3072
+type(
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+ident(
+  int_ref updated_common_exp_list "common_subexpression.ml" 59 1930 1970 "common_subexpression.ml" 59 1930 1993
+)
+"common_subexpression.ml" 77 3004 3073 "common_subexpression.ml" 77 3004 3081
+type(
+  Ir3_structs_new.id3_new
+)
+ident(
+  int_ref assignee "common_subexpression.ml" 58 1877 1912 "common_subexpression.ml" 58 1877 1920
+)
+"common_subexpression.ml" 77 3004 3028 "common_subexpression.ml" 77 3004 3081
+call(
+  stack
+)
+type(
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+"common_subexpression.ml" 78 3085 3105 "common_subexpression.ml" 78 3085 3118
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref updated_stmts "common_subexpression.ml" 59 1930 1955 "common_subexpression.ml" 59 1930 1968
+)
+"common_subexpression.ml" 78 3085 3120 "common_subexpression.ml" 78 3085 3143
+type(
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+ident(
+  int_ref updated_common_exp_list "common_subexpression.ml" 76 2954 2978 "common_subexpression.ml" 76 2954 3001
+)
+"common_subexpression.ml" 78 3085 3105 "common_subexpression.ml" 78 3085 3143
+type(
+  Ir3_structs_new.ir3_stmt_new list *
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+"common_subexpression.ml" 76 2954 2974 "common_subexpression.ml" 78 3085 3143
+type(
+  Ir3_structs_new.ir3_stmt_new list *
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+"common_subexpression.ml" 59 1930 1950 "common_subexpression.ml" 78 3085 3143
+type(
+  Ir3_structs_new.ir3_stmt_new list *
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+"common_subexpression.ml" 79 3144 3162 "common_subexpression.ml" 79 3144 3163
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"common_subexpression.ml" 80 3167 3188 "common_subexpression.ml" 80 3167 3192
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "common_subexpression.ml" 55 1757 1767 "common_subexpression.ml" 55 1757 1771
+)
+"common_subexpression.ml" 80 3167 3187 "common_subexpression.ml" 80 3167 3193
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"common_subexpression.ml" 80 3167 3195 "common_subexpression.ml" 80 3167 3210
+type(
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+ident(
+  int_ref common_exp_list "common_subexpression.ml" 51 1654 1683 "common_subexpression.ml" 51 1654 1698
+)
+"common_subexpression.ml" 80 3167 3187 "common_subexpression.ml" 80 3167 3210
+type(
+  Ir3_structs_new.ir3_stmt_new list *
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+"common_subexpression.ml" 57 1845 1861 "common_subexpression.ml" 80 3167 3210
+type(
+  Ir3_structs_new.ir3_stmt_new list *
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+"common_subexpression.ml" 82 3226 3242 "common_subexpression.ml" 82 3226 3252
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def tail_stmts "common_subexpression.ml" 83 3303 3315 "common_subexpression.ml" 83 3303 3339
+)
+"common_subexpression.ml" 82 3226 3255 "common_subexpression.ml" 82 3226 3265
+type(
+  Ir3_structs_new.ir3_stmt_new list ->
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list ->
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref cse_helper "common_subexpression.ml" 51 1654 1666 "common_subexpression.ml" 51 1654 1676
+)
+"common_subexpression.ml" 82 3226 3266 "common_subexpression.ml" 82 3226 3275
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref tail_list "common_subexpression.ml" 55 1757 1773 "common_subexpression.ml" 55 1757 1782
+)
+"common_subexpression.ml" 82 3226 3276 "common_subexpression.ml" 82 3226 3299
+type(
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+ident(
+  int_ref updated_common_exp_list "common_subexpression.ml" 56 1786 1818 "common_subexpression.ml" 56 1786 1841
+)
+"common_subexpression.ml" 82 3226 3255 "common_subexpression.ml" 82 3226 3299
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"common_subexpression.ml" 83 3303 3315 "common_subexpression.ml" 83 3303 3328
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref updated_stmts "common_subexpression.ml" 56 1786 1803 "common_subexpression.ml" 56 1786 1816
+)
+"common_subexpression.ml" 83 3303 3328 "common_subexpression.ml" 83 3303 3329
+type(
+  Ir3_structs_new.ir3_stmt_new list ->
+  Ir3_structs_new.ir3_stmt_new list -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"common_subexpression.ml" 83 3303 3329 "common_subexpression.ml" 83 3303 3339
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref tail_stmts "common_subexpression.ml" 82 3226 3242 "common_subexpression.ml" 82 3226 3252
+)
+"common_subexpression.ml" 83 3303 3315 "common_subexpression.ml" 83 3303 3339
+call(
+  tail
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"common_subexpression.ml" 82 3226 3238 "common_subexpression.ml" 83 3303 3339
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"common_subexpression.ml" 56 1786 1798 "common_subexpression.ml" 83 3303 3339
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"common_subexpression.ml" 52 1701 1709 "common_subexpression.ml" 83 3303 3339
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"common_subexpression.ml" 85 3347 3351 "common_subexpression.ml" 85 3347 3361
+type(
+  Ir3_structs_new.ir3_stmt_new list ->
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list ->
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref cse_helper "common_subexpression.ml" 51 1654 1666 "common_subexpression.ml" 51 1654 1676
+)
+"common_subexpression.ml" 85 3347 3362 "common_subexpression.ml" 85 3347 3367
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref stmts "common_subexpression.ml" 10 205 235 "common_subexpression.ml" 10 205 240
+)
+"common_subexpression.ml" 85 3347 3368 "common_subexpression.ml" 85 3347 3370
+type(
+  (Ir3_structs_new.ir3_exp_new * Ir3_structs_new.id3_new) list
+)
+"common_subexpression.ml" 85 3347 3351 "common_subexpression.ml" 85 3347 3370
+call(
+  tail
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"common_subexpression.ml" 51 1654 1658 "common_subexpression.ml" 85 3347 3370
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"common_subexpression.ml" 27 855 859 "common_subexpression.ml" 85 3347 3370
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"common_subexpression.ml" 11 243 247 "common_subexpression.ml" 85 3347 3370
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)

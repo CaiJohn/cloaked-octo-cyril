@@ -1,0 +1,4252 @@
+"mOOL_main.ml" 23 539 543 "mOOL_main.ml" 23 539 548
+type(
+  bool
+)
+ident(
+  def useTA "mOOL_main.ml" 25 558 558 "mOOL_main.ml" 1 0 -1
+)
+"mOOL_main.ml" 23 539 551 "mOOL_main.ml" 23 539 556
+type(
+  bool
+)
+"mOOL_main.ml" 25 558 562 "mOOL_main.ml" 25 558 574
+type(
+  string list ref
+)
+ident(
+  def source_files "mOOL_main.ml" 26 584 584 "mOOL_main.ml" 1 0 -1
+)
+"mOOL_main.ml" 25 558 577 "mOOL_main.ml" 25 558 580
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"mOOL_main.ml" 25 558 581 "mOOL_main.ml" 25 558 583
+type(
+  string list
+)
+"mOOL_main.ml" 25 558 577 "mOOL_main.ml" 25 558 583
+type(
+  string list ref
+)
+"mOOL_main.ml" 26 584 588 "mOOL_main.ml" 26 584 599
+type(
+  string ref
+)
+ident(
+  def output_file "mOOL_main.ml" 27 609 609 "mOOL_main.ml" 1 0 -1
+)
+"mOOL_main.ml" 26 584 602 "mOOL_main.ml" 26 584 605
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"mOOL_main.ml" 26 584 606 "mOOL_main.ml" 26 584 608
+type(
+  string
+)
+"mOOL_main.ml" 26 584 602 "mOOL_main.ml" 26 584 608
+type(
+  string ref
+)
+"mOOL_main.ml" 27 609 613 "mOOL_main.ml" 27 609 620
+type(
+  bool ref
+)
+ident(
+  def verbose "mOOL_main.ml" 29 634 634 "mOOL_main.ml" 1 0 -1
+)
+"mOOL_main.ml" 27 609 623 "mOOL_main.ml" 27 609 626
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"mOOL_main.ml" 27 609 627 "mOOL_main.ml" 27 609 632
+type(
+  bool
+)
+"mOOL_main.ml" 27 609 623 "mOOL_main.ml" 27 609 632
+type(
+  bool ref
+)
+"mOOL_main.ml" 29 634 638 "mOOL_main.ml" 29 634 647
+type(
+  string
+)
+ident(
+  def usage_msg "mOOL_main.ml" 31 684 684 "mOOL_main.ml" 1 0 -1
+)
+"mOOL_main.ml" 29 634 650 "mOOL_main.ml" 29 634 658
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"mOOL_main.ml" 29 634 660 "mOOL_main.ml" 29 634 661
+type(
+  int
+)
+"mOOL_main.ml" 29 634 650 "mOOL_main.ml" 29 634 662
+type(
+  string
+)
+"mOOL_main.ml" 29 634 663 "mOOL_main.ml" 29 634 664
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"mOOL_main.ml" 29 634 665 "mOOL_main.ml" 29 634 682
+type(
+  string
+)
+"mOOL_main.ml" 29 634 650 "mOOL_main.ml" 29 634 682
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 31 684 688 "mOOL_main.ml" 31 684 703
+type(
+  string -> unit
+)
+ident(
+  def set_source_file "mOOL_main.ml" 33 748 748 "mOOL_main.ml" 1 0 -1
+)
+"mOOL_main.ml" 31 684 704 "mOOL_main.ml" 31 684 707
+type(
+  string
+)
+ident(
+  def arg "mOOL_main.ml" 31 684 710 "mOOL_main.ml" 31 684 746
+)
+"mOOL_main.ml" 31 684 710 "mOOL_main.ml" 31 684 722
+type(
+  string list ref
+)
+ident(
+  int_ref source_files "mOOL_main.ml" 25 558 562 "mOOL_main.ml" 25 558 574
+)
+"mOOL_main.ml" 31 684 723 "mOOL_main.ml" 31 684 725
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"mOOL_main.ml" 31 684 726 "mOOL_main.ml" 31 684 729
+type(
+  string
+)
+ident(
+  int_ref arg "mOOL_main.ml" 31 684 704 "mOOL_main.ml" 31 684 707
+)
+"mOOL_main.ml" 31 684 733 "mOOL_main.ml" 31 684 734
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 31 684 734 "mOOL_main.ml" 31 684 746
+type(
+  string list ref
+)
+ident(
+  int_ref source_files "mOOL_main.ml" 25 558 562 "mOOL_main.ml" 25 558 574
+)
+"mOOL_main.ml" 31 684 733 "mOOL_main.ml" 31 684 746
+type(
+  string list
+)
+"mOOL_main.ml" 31 684 726 "mOOL_main.ml" 31 684 746
+type(
+  string list
+)
+"mOOL_main.ml" 31 684 710 "mOOL_main.ml" 31 684 746
+type(
+  unit
+)
+"mOOL_main.ml" 33 748 752 "mOOL_main.ml" 33 748 766
+type(
+  string -> unit
+)
+ident(
+  def print_endlinev "mOOL_main.ml" 36 820 820 "mOOL_main.ml" 1 0 -1
+)
+"mOOL_main.ml" 33 748 767 "mOOL_main.ml" 33 748 770
+type(
+  string
+)
+ident(
+  def str "mOOL_main.ml" 33 748 773 "mOOL_main.ml" 34 808 817
+)
+"mOOL_main.ml" 33 748 776 "mOOL_main.ml" 33 748 777
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 33 748 777 "mOOL_main.ml" 33 748 784
+type(
+  bool ref
+)
+ident(
+  int_ref verbose "mOOL_main.ml" 27 609 613 "mOOL_main.ml" 27 609 620
+)
+"mOOL_main.ml" 33 748 776 "mOOL_main.ml" 33 748 784
+type(
+  bool
+)
+"mOOL_main.ml" 33 748 790 "mOOL_main.ml" 33 748 803
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"mOOL_main.ml" 33 748 804 "mOOL_main.ml" 33 748 807
+type(
+  string
+)
+ident(
+  int_ref str "mOOL_main.ml" 33 748 767 "mOOL_main.ml" 33 748 770
+)
+"mOOL_main.ml" 33 748 790 "mOOL_main.ml" 33 748 807
+call(
+  tail
+)
+type(
+  unit
+)
+"mOOL_main.ml" 34 808 815 "mOOL_main.ml" 34 808 817
+type(
+  unit
+)
+"mOOL_main.ml" 33 748 773 "mOOL_main.ml" 34 808 817
+type(
+  unit
+)
+"mOOL_main.ml" 36 820 824 "mOOL_main.ml" 36 820 834
+type(
+  string -> MOOL_structs.mOOL_program
+)
+ident(
+  def parse_file "mOOL_main.ml" 48 1153 1153 "mOOL_main.ml" 1 0 -1
+)
+"mOOL_main.ml" 36 820 835 "mOOL_main.ml" 36 820 844
+type(
+  string
+)
+ident(
+  def file_name "mOOL_main.ml" 37 847 849 "mOOL_main.ml" 46 1126 1151
+)
+"mOOL_main.ml" 37 847 853 "mOOL_main.ml" 37 847 864
+type(
+  in_channel
+)
+ident(
+  def org_in_chnl "mOOL_main.ml" 38 888 890 "mOOL_main.ml" 46 1126 1151
+)
+"mOOL_main.ml" 37 847 867 "mOOL_main.ml" 37 847 874
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"mOOL_main.ml" 37 847 875 "mOOL_main.ml" 37 847 884
+type(
+  string
+)
+ident(
+  int_ref file_name "mOOL_main.ml" 36 820 835 "mOOL_main.ml" 36 820 844
+)
+"mOOL_main.ml" 37 847 867 "mOOL_main.ml" 37 847 884
+call(
+  stack
+)
+type(
+  in_channel
+)
+"mOOL_main.ml" 38 888 894 "mOOL_main.ml" 38 888 900
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "mOOL_main.ml" 39 938 940 "mOOL_main.ml" 46 1126 1151
+)
+"mOOL_main.ml" 38 888 903 "mOOL_main.ml" 38 888 922
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"mOOL_main.ml" 38 888 923 "mOOL_main.ml" 38 888 934
+type(
+  in_channel
+)
+ident(
+  int_ref org_in_chnl "mOOL_main.ml" 37 847 853 "mOOL_main.ml" 37 847 864
+)
+"mOOL_main.ml" 38 888 903 "mOOL_main.ml" 38 888 934
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"mOOL_main.ml" 40 944 948 "mOOL_main.ml" 40 944 962
+type(
+  string -> unit
+)
+ident(
+  int_ref print_endlinev "mOOL_main.ml" 33 748 752 "mOOL_main.ml" 33 748 766
+)
+"mOOL_main.ml" 40 944 963 "mOOL_main.ml" 40 944 977
+type(
+  string
+)
+"mOOL_main.ml" 40 944 948 "mOOL_main.ml" 40 944 977
+call(
+  stack
+)
+type(
+  unit
+)
+"mOOL_main.ml" 41 980 984 "mOOL_main.ml" 41 980 998
+type(
+  string -> unit
+)
+ident(
+  int_ref print_endlinev "mOOL_main.ml" 33 748 752 "mOOL_main.ml" 33 748 766
+)
+"mOOL_main.ml" 41 980 999 "mOOL_main.ml" 41 980 1008
+type(
+  string
+)
+ident(
+  int_ref file_name "mOOL_main.ml" 36 820 835 "mOOL_main.ml" 36 820 844
+)
+"mOOL_main.ml" 41 980 984 "mOOL_main.ml" 41 980 1008
+call(
+  stack
+)
+type(
+  unit
+)
+"mOOL_main.ml" 42 1011 1019 "mOOL_main.ml" 42 1011 1023
+type(
+  MOOL_structs.mOOL_program
+)
+ident(
+  def prog "mOOL_main.ml" 43 1084 1088 "mOOL_main.ml" 44 1110 1118
+)
+"mOOL_main.ml" 42 1011 1027 "mOOL_main.ml" 42 1011 1044
+type(
+  (Lexing.lexbuf -> MOOL_parser.token) ->
+  Lexing.lexbuf -> MOOL_structs.mOOL_program
+)
+ident(
+  ext_ref MOOL_parser.input
+)
+"mOOL_main.ml" 42 1011 1046 "mOOL_main.ml" 42 1011 1062
+type(
+  string -> Lexing.lexbuf -> MOOL_parser.token
+)
+ident(
+  ext_ref MOOL_lexer.token
+)
+"mOOL_main.ml" 42 1011 1063 "mOOL_main.ml" 42 1011 1072
+type(
+  string
+)
+ident(
+  int_ref file_name "mOOL_main.ml" 36 820 835 "mOOL_main.ml" 36 820 844
+)
+"mOOL_main.ml" 42 1011 1045 "mOOL_main.ml" 42 1011 1073
+call(
+  stack
+)
+type(
+  Lexing.lexbuf -> MOOL_parser.token
+)
+"mOOL_main.ml" 42 1011 1074 "mOOL_main.ml" 42 1011 1080
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "mOOL_main.ml" 38 888 894 "mOOL_main.ml" 38 888 900
+)
+"mOOL_main.ml" 42 1011 1027 "mOOL_main.ml" 42 1011 1080
+call(
+  stack
+)
+type(
+  MOOL_structs.mOOL_program
+)
+"mOOL_main.ml" 43 1084 1088 "mOOL_main.ml" 43 1084 1096
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"mOOL_main.ml" 43 1084 1097 "mOOL_main.ml" 43 1084 1108
+type(
+  in_channel
+)
+ident(
+  int_ref org_in_chnl "mOOL_main.ml" 37 847 853 "mOOL_main.ml" 37 847 864
+)
+"mOOL_main.ml" 43 1084 1088 "mOOL_main.ml" 43 1084 1108
+call(
+  stack
+)
+type(
+  unit
+)
+"mOOL_main.ml" 44 1110 1114 "mOOL_main.ml" 44 1110 1118
+type(
+  MOOL_structs.mOOL_program
+)
+ident(
+  int_ref prog "mOOL_main.ml" 42 1011 1019 "mOOL_main.ml" 42 1011 1023
+)
+"mOOL_main.ml" 43 1084 1088 "mOOL_main.ml" 44 1110 1118
+type(
+  MOOL_structs.mOOL_program
+)
+"mOOL_main.ml" 42 1011 1015 "mOOL_main.ml" 44 1110 1118
+type(
+  MOOL_structs.mOOL_program
+)
+"mOOL_main.ml" 41 980 984 "mOOL_main.ml" 44 1110 1118
+type(
+  MOOL_structs.mOOL_program
+)
+"mOOL_main.ml" 40 944 948 "mOOL_main.ml" 44 1110 1118
+type(
+  MOOL_structs.mOOL_program
+)
+"mOOL_main.ml" 46 1126 1130 "mOOL_main.ml" 46 1126 1141
+type(
+  exn
+)
+"mOOL_main.ml" 46 1126 1145 "mOOL_main.ml" 46 1126 1149
+type(
+  int -> MOOL_structs.mOOL_program
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"mOOL_main.ml" 46 1126 1150 "mOOL_main.ml" 46 1126 1151
+type(
+  int
+)
+"mOOL_main.ml" 46 1126 1145 "mOOL_main.ml" 46 1126 1151
+call(
+  tail
+)
+type(
+  MOOL_structs.mOOL_program
+)
+"mOOL_main.ml" 39 938 940 "mOOL_main.ml" 46 1126 1151
+type(
+  MOOL_structs.mOOL_program
+)
+"mOOL_main.ml" 38 888 890 "mOOL_main.ml" 46 1126 1151
+type(
+  MOOL_structs.mOOL_program
+)
+"mOOL_main.ml" 37 847 849 "mOOL_main.ml" 46 1126 1151
+type(
+  MOOL_structs.mOOL_program
+)
+"mOOL_main.ml" 48 1153 1157 "mOOL_main.ml" 48 1153 1171
+type(
+  Ir3_structs_new.md_decl3_new -> Ir3_structs_new.md_decl3_new
+)
+ident(
+  def analyze_method "mOOL_main.ml" 73 1998 1998 "mOOL_main.ml" 1 0 -1
+)
+"mOOL_main.ml" 48 1153 1172 "mOOL_main.ml" 48 1153 1174
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  def md "mOOL_main.ml" 49 1177 1179 "mOOL_main.ml" 71 1934 1996
+)
+"mOOL_main.ml" 49 1177 1184 "mOOL_main.ml" 49 1177 1198
+type(
+  (string * string list) list
+)
+ident(
+  def liveness_graph "mOOL_main.ml" 50 1259 1261 "mOOL_main.ml" 71 1934 1996
+)
+"mOOL_main.ml" 49 1177 1199 "mOOL_main.ml" 49 1177 1204
+type(
+  (string * int) list
+)
+ident(
+  def costs "mOOL_main.ml" 50 1259 1261 "mOOL_main.ml" 71 1934 1996
+)
+"mOOL_main.ml" 49 1177 1183 "mOOL_main.ml" 49 1177 1205
+type(
+  (string * string list) list * (string * int) list
+)
+"mOOL_main.ml" 49 1177 1208 "mOOL_main.ml" 49 1177 1243
+type(
+  Ir3_structs_new.ir3_stmt_new list ->
+  (string * string list) list * (string * int) list
+)
+ident(
+  ext_ref Liveness_analysis.liveness_analysis
+)
+"mOOL_main.ml" 49 1177 1244 "mOOL_main.ml" 49 1177 1246
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref md "mOOL_main.ml" 48 1153 1172 "mOOL_main.ml" 48 1153 1174
+)
+"mOOL_main.ml" 49 1177 1244 "mOOL_main.ml" 49 1177 1255
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"mOOL_main.ml" 49 1177 1208 "mOOL_main.ml" 49 1177 1255
+call(
+  stack
+)
+type(
+  (string * string list) list * (string * int) list
+)
+"mOOL_main.ml" 50 1259 1265 "mOOL_main.ml" 50 1259 1266
+type(
+  unit
+)
+"mOOL_main.ml" 50 1259 1269 "mOOL_main.ml" 50 1259 1283
+type(
+  string -> unit
+)
+ident(
+  int_ref print_endlinev "mOOL_main.ml" 33 748 752 "mOOL_main.ml" 33 748 766
+)
+"mOOL_main.ml" 51 1284 1291 "mOOL_main.ml" 51 1284 1308
+type(
+  string
+)
+"mOOL_main.ml" 51 1284 1309 "mOOL_main.ml" 51 1284 1310
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"mOOL_main.ml" 52 1311 1319 "mOOL_main.ml" 52 1311 1333
+type(
+  (string * string list) list ->
+  (string * string list -> string) -> string -> string
+)
+ident(
+  ext_ref Ir3_structs_new.string_of_list
+)
+"mOOL_main.ml" 52 1311 1334 "mOOL_main.ml" 52 1311 1348
+type(
+  (string * string list) list
+)
+ident(
+  int_ref liveness_graph "mOOL_main.ml" 49 1177 1184 "mOOL_main.ml" 49 1177 1198
+)
+"mOOL_main.ml" 53 1349 1365 "mOOL_main.ml" 53 1349 1369
+type(
+  string
+)
+ident(
+  def node "mOOL_main.ml" 53 1349 1383 "mOOL_main.ml" 54 1397 1474
+)
+"mOOL_main.ml" 53 1349 1371 "mOOL_main.ml" 53 1349 1378
+type(
+  string list
+)
+ident(
+  def neibour "mOOL_main.ml" 53 1349 1383 "mOOL_main.ml" 54 1397 1474
+)
+"mOOL_main.ml" 53 1349 1364 "mOOL_main.ml" 53 1349 1379
+type(
+  string * string list
+)
+"mOOL_main.ml" 53 1349 1383 "mOOL_main.ml" 53 1349 1387
+type(
+  string
+)
+ident(
+  int_ref node "mOOL_main.ml" 53 1349 1365 "mOOL_main.ml" 53 1349 1369
+)
+"mOOL_main.ml" 53 1349 1388 "mOOL_main.ml" 53 1349 1389
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"mOOL_main.ml" 53 1349 1390 "mOOL_main.ml" 53 1349 1394
+type(
+  string
+)
+"mOOL_main.ml" 53 1349 1395 "mOOL_main.ml" 53 1349 1396
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"mOOL_main.ml" 54 1397 1431 "mOOL_main.ml" 54 1397 1445
+type(
+  string list -> (string -> string) -> string -> string
+)
+ident(
+  ext_ref Ir3_structs_new.string_of_list
+)
+"mOOL_main.ml" 54 1397 1446 "mOOL_main.ml" 54 1397 1453
+type(
+  string list
+)
+ident(
+  int_ref neibour "mOOL_main.ml" 53 1349 1371 "mOOL_main.ml" 53 1349 1378
+)
+"mOOL_main.ml" 54 1397 1459 "mOOL_main.ml" 54 1397 1462
+type(
+  string
+)
+ident(
+  def str "mOOL_main.ml" 54 1397 1466 "mOOL_main.ml" 54 1397 1469
+)
+"mOOL_main.ml" 54 1397 1466 "mOOL_main.ml" 54 1397 1469
+type(
+  string
+)
+ident(
+  int_ref str "mOOL_main.ml" 54 1397 1459 "mOOL_main.ml" 54 1397 1462
+)
+"mOOL_main.ml" 54 1397 1454 "mOOL_main.ml" 54 1397 1470
+type(
+  string -> string
+)
+"mOOL_main.ml" 54 1397 1471 "mOOL_main.ml" 54 1397 1474
+type(
+  string
+)
+"mOOL_main.ml" 54 1397 1431 "mOOL_main.ml" 54 1397 1474
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 53 1349 1390 "mOOL_main.ml" 54 1397 1474
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 53 1349 1383 "mOOL_main.ml" 54 1397 1474
+call(
+  tail
+)
+type(
+  string
+)
+"mOOL_main.ml" 53 1349 1359 "mOOL_main.ml" 54 1397 1475
+type(
+  string * string list -> string
+)
+"mOOL_main.ml" 55 1476 1486 "mOOL_main.ml" 55 1476 1490
+type(
+  string
+)
+"mOOL_main.ml" 52 1311 1318 "mOOL_main.ml" 55 1476 1491
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 51 1284 1290 "mOOL_main.ml" 55 1476 1492
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 50 1259 1269 "mOOL_main.ml" 55 1476 1492
+call(
+  stack
+)
+type(
+  unit
+)
+"mOOL_main.ml" 57 1498 1505 "mOOL_main.ml" 57 1498 1519
+type(
+  (string * int) list
+)
+ident(
+  def reg_assign_res "mOOL_main.ml" 59 1605 1607 "mOOL_main.ml" 71 1934 1996
+)
+"mOOL_main.ml" 57 1498 1521 "mOOL_main.ml" 57 1498 1531
+type(
+  string list
+)
+ident(
+  def spill_list "mOOL_main.ml" 59 1605 1607 "mOOL_main.ml" 71 1934 1996
+)
+"mOOL_main.ml" 57 1498 1504 "mOOL_main.ml" 57 1498 1532
+type(
+  (string * int) list * string list
+)
+"mOOL_main.ml" 58 1535 1539 "mOOL_main.ml" 58 1535 1578
+type(
+  int ->
+  (string * string list) list ->
+  (string * int) list -> (string * int) list * string list
+)
+ident(
+  ext_ref Register_allocation.register_allocation
+)
+"mOOL_main.ml" 58 1535 1579 "mOOL_main.ml" 58 1535 1580
+type(
+  int
+)
+"mOOL_main.ml" 58 1535 1581 "mOOL_main.ml" 58 1535 1595
+type(
+  (string * string list) list
+)
+ident(
+  int_ref liveness_graph "mOOL_main.ml" 49 1177 1184 "mOOL_main.ml" 49 1177 1198
+)
+"mOOL_main.ml" 58 1535 1596 "mOOL_main.ml" 58 1535 1601
+type(
+  (string * int) list
+)
+ident(
+  int_ref costs "mOOL_main.ml" 49 1177 1199 "mOOL_main.ml" 49 1177 1204
+)
+"mOOL_main.ml" 58 1535 1539 "mOOL_main.ml" 58 1535 1601
+call(
+  stack
+)
+type(
+  (string * int) list * string list
+)
+"mOOL_main.ml" 59 1605 1611 "mOOL_main.ml" 59 1605 1612
+type(
+  unit
+)
+"mOOL_main.ml" 59 1605 1615 "mOOL_main.ml" 59 1605 1629
+type(
+  string -> unit
+)
+ident(
+  int_ref print_endlinev "mOOL_main.ml" 33 748 752 "mOOL_main.ml" 33 748 766
+)
+"mOOL_main.ml" 60 1630 1637 "mOOL_main.ml" 60 1630 1663
+type(
+  string
+)
+"mOOL_main.ml" 60 1630 1664 "mOOL_main.ml" 60 1630 1665
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"mOOL_main.ml" 61 1666 1674 "mOOL_main.ml" 61 1666 1688
+type(
+  (string * int) list -> (string * int -> string) -> string -> string
+)
+ident(
+  ext_ref Ir3_structs_new.string_of_list
+)
+"mOOL_main.ml" 61 1666 1689 "mOOL_main.ml" 61 1666 1703
+type(
+  (string * int) list
+)
+ident(
+  int_ref reg_assign_res "mOOL_main.ml" 57 1498 1505 "mOOL_main.ml" 57 1498 1519
+)
+"mOOL_main.ml" 62 1704 1720 "mOOL_main.ml" 62 1704 1723
+type(
+  string
+)
+ident(
+  def var "mOOL_main.ml" 62 1704 1733 "mOOL_main.ml" 62 1704 1768
+)
+"mOOL_main.ml" 62 1704 1725 "mOOL_main.ml" 62 1704 1728
+type(
+  int
+)
+ident(
+  def reg "mOOL_main.ml" 62 1704 1733 "mOOL_main.ml" 62 1704 1768
+)
+"mOOL_main.ml" 62 1704 1719 "mOOL_main.ml" 62 1704 1729
+type(
+  string * int
+)
+"mOOL_main.ml" 62 1704 1734 "mOOL_main.ml" 62 1704 1737
+type(
+  string
+)
+ident(
+  int_ref var "mOOL_main.ml" 62 1704 1720 "mOOL_main.ml" 62 1704 1723
+)
+"mOOL_main.ml" 62 1704 1738 "mOOL_main.ml" 62 1704 1739
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"mOOL_main.ml" 62 1704 1740 "mOOL_main.ml" 62 1704 1745
+type(
+  string
+)
+"mOOL_main.ml" 62 1704 1746 "mOOL_main.ml" 62 1704 1747
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"mOOL_main.ml" 62 1704 1749 "mOOL_main.ml" 62 1704 1762
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"mOOL_main.ml" 62 1704 1763 "mOOL_main.ml" 62 1704 1766
+type(
+  int
+)
+ident(
+  int_ref reg "mOOL_main.ml" 62 1704 1725 "mOOL_main.ml" 62 1704 1728
+)
+"mOOL_main.ml" 62 1704 1748 "mOOL_main.ml" 62 1704 1767
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 62 1704 1740 "mOOL_main.ml" 62 1704 1767
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 62 1704 1733 "mOOL_main.ml" 62 1704 1768
+call(
+  tail
+)
+type(
+  string
+)
+"mOOL_main.ml" 62 1704 1714 "mOOL_main.ml" 62 1704 1769
+type(
+  string * int -> string
+)
+"mOOL_main.ml" 63 1770 1780 "mOOL_main.ml" 63 1770 1784
+type(
+  string
+)
+"mOOL_main.ml" 61 1666 1673 "mOOL_main.ml" 64 1785 1793
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 60 1630 1636 "mOOL_main.ml" 64 1785 1794
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 59 1605 1615 "mOOL_main.ml" 64 1785 1794
+call(
+  stack
+)
+type(
+  unit
+)
+"mOOL_main.ml" 66 1800 1806 "mOOL_main.ml" 66 1800 1807
+type(
+  unit
+)
+"mOOL_main.ml" 66 1800 1810 "mOOL_main.ml" 66 1800 1824
+type(
+  string -> unit
+)
+ident(
+  int_ref print_endlinev "mOOL_main.ml" 33 748 752 "mOOL_main.ml" 33 748 766
+)
+"mOOL_main.ml" 67 1825 1832 "mOOL_main.ml" 67 1825 1854
+type(
+  string
+)
+"mOOL_main.ml" 67 1825 1855 "mOOL_main.ml" 67 1825 1856
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"mOOL_main.ml" 68 1857 1865 "mOOL_main.ml" 68 1857 1879
+type(
+  string list -> (string -> string) -> string -> string
+)
+ident(
+  ext_ref Ir3_structs_new.string_of_list
+)
+"mOOL_main.ml" 68 1857 1880 "mOOL_main.ml" 68 1857 1890
+type(
+  string list
+)
+ident(
+  int_ref spill_list "mOOL_main.ml" 57 1498 1521 "mOOL_main.ml" 57 1498 1531
+)
+"mOOL_main.ml" 68 1857 1896 "mOOL_main.ml" 68 1857 1899
+type(
+  string
+)
+ident(
+  def str "mOOL_main.ml" 68 1857 1903 "mOOL_main.ml" 68 1857 1906
+)
+"mOOL_main.ml" 68 1857 1903 "mOOL_main.ml" 68 1857 1906
+type(
+  string
+)
+ident(
+  int_ref str "mOOL_main.ml" 68 1857 1896 "mOOL_main.ml" 68 1857 1899
+)
+"mOOL_main.ml" 68 1857 1891 "mOOL_main.ml" 68 1857 1907
+type(
+  string -> string
+)
+"mOOL_main.ml" 68 1857 1908 "mOOL_main.ml" 68 1857 1912
+type(
+  string
+)
+"mOOL_main.ml" 68 1857 1864 "mOOL_main.ml" 68 1857 1913
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 69 1914 1921 "mOOL_main.ml" 69 1914 1922
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"mOOL_main.ml" 69 1914 1923 "mOOL_main.ml" 69 1914 1927
+type(
+  string
+)
+"mOOL_main.ml" 68 1857 1864 "mOOL_main.ml" 69 1914 1927
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 67 1825 1831 "mOOL_main.ml" 69 1914 1928
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 66 1800 1810 "mOOL_main.ml" 69 1914 1928
+call(
+  stack
+)
+type(
+  unit
+)
+"mOOL_main.ml" 71 1934 1936 "mOOL_main.ml" 71 1934 1967
+type(
+  Ir3_structs_new.md_decl3_new ->
+  (string * int) list -> string list -> Ir3_structs_new.md_decl3_new
+)
+ident(
+  ext_ref Assign_register.assign_register
+)
+"mOOL_main.ml" 71 1934 1968 "mOOL_main.ml" 71 1934 1970
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref md "mOOL_main.ml" 48 1153 1172 "mOOL_main.ml" 48 1153 1174
+)
+"mOOL_main.ml" 71 1934 1971 "mOOL_main.ml" 71 1934 1985
+type(
+  (string * int) list
+)
+ident(
+  int_ref reg_assign_res "mOOL_main.ml" 57 1498 1505 "mOOL_main.ml" 57 1498 1519
+)
+"mOOL_main.ml" 71 1934 1986 "mOOL_main.ml" 71 1934 1996
+type(
+  string list
+)
+ident(
+  int_ref spill_list "mOOL_main.ml" 57 1498 1521 "mOOL_main.ml" 57 1498 1531
+)
+"mOOL_main.ml" 71 1934 1936 "mOOL_main.ml" 71 1934 1996
+call(
+  tail
+)
+type(
+  Ir3_structs_new.md_decl3_new
+)
+"mOOL_main.ml" 66 1800 1802 "mOOL_main.ml" 71 1934 1996
+type(
+  Ir3_structs_new.md_decl3_new
+)
+"mOOL_main.ml" 59 1605 1607 "mOOL_main.ml" 71 1934 1996
+type(
+  Ir3_structs_new.md_decl3_new
+)
+"mOOL_main.ml" 57 1498 1500 "mOOL_main.ml" 71 1934 1996
+type(
+  Ir3_structs_new.md_decl3_new
+)
+"mOOL_main.ml" 50 1259 1261 "mOOL_main.ml" 71 1934 1996
+type(
+  Ir3_structs_new.md_decl3_new
+)
+"mOOL_main.ml" 49 1177 1179 "mOOL_main.ml" 71 1934 1996
+type(
+  Ir3_structs_new.md_decl3_new
+)
+"mOOL_main.ml" 73 1998 2002 "mOOL_main.ml" 73 1998 2017
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list ->
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)
+ident(
+  def analyze_program "mOOL_main.ml" 78 2156 2156 "mOOL_main.ml" 1 0 -1
+)
+"mOOL_main.ml" 73 1998 2019 "mOOL_main.ml" 73 1998 2024
+type(
+  'a
+)
+ident(
+  def cdata "mOOL_main.ml" 74 2038 2040 "mOOL_main.ml" 76 2127 2154
+)
+"mOOL_main.ml" 73 1998 2025 "mOOL_main.ml" 73 1998 2029
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  def main "mOOL_main.ml" 74 2038 2040 "mOOL_main.ml" 76 2127 2154
+)
+"mOOL_main.ml" 73 1998 2030 "mOOL_main.ml" 73 1998 2034
+type(
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  def mtds "mOOL_main.ml" 74 2038 2040 "mOOL_main.ml" 76 2127 2154
+)
+"mOOL_main.ml" 73 1998 2018 "mOOL_main.ml" 73 1998 2035
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)
+"mOOL_main.ml" 74 2038 2044 "mOOL_main.ml" 74 2038 2052
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  def new_main "mOOL_main.ml" 75 2078 2080 "mOOL_main.ml" 76 2127 2154
+)
+"mOOL_main.ml" 74 2038 2055 "mOOL_main.ml" 74 2038 2069
+type(
+  Ir3_structs_new.md_decl3_new -> Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref analyze_method "mOOL_main.ml" 48 1153 1157 "mOOL_main.ml" 48 1153 1171
+)
+"mOOL_main.ml" 74 2038 2070 "mOOL_main.ml" 74 2038 2074
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref main "mOOL_main.ml" 73 1998 2025 "mOOL_main.ml" 73 1998 2029
+)
+"mOOL_main.ml" 74 2038 2055 "mOOL_main.ml" 74 2038 2074
+call(
+  stack
+)
+type(
+  Ir3_structs_new.md_decl3_new
+)
+"mOOL_main.ml" 75 2078 2084 "mOOL_main.ml" 75 2078 2092
+type(
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  def new_mtds "mOOL_main.ml" 76 2127 2129 "mOOL_main.ml" 76 2127 2154
+)
+"mOOL_main.ml" 75 2078 2095 "mOOL_main.ml" 75 2078 2103
+type(
+  (Ir3_structs_new.md_decl3_new -> Ir3_structs_new.md_decl3_new) ->
+  Ir3_structs_new.md_decl3_new list -> Ir3_structs_new.md_decl3_new list
+)
+ident(
+  ext_ref List.map
+)
+"mOOL_main.ml" 75 2078 2104 "mOOL_main.ml" 75 2078 2118
+type(
+  Ir3_structs_new.md_decl3_new -> Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref analyze_method "mOOL_main.ml" 48 1153 1157 "mOOL_main.ml" 48 1153 1171
+)
+"mOOL_main.ml" 75 2078 2119 "mOOL_main.ml" 75 2078 2123
+type(
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  int_ref mtds "mOOL_main.ml" 73 1998 2030 "mOOL_main.ml" 73 1998 2034
+)
+"mOOL_main.ml" 75 2078 2095 "mOOL_main.ml" 75 2078 2123
+call(
+  stack
+)
+type(
+  Ir3_structs_new.md_decl3_new list
+)
+"mOOL_main.ml" 76 2127 2130 "mOOL_main.ml" 76 2127 2135
+type(
+  'a
+)
+ident(
+  int_ref cdata "mOOL_main.ml" 73 1998 2019 "mOOL_main.ml" 73 1998 2024
+)
+"mOOL_main.ml" 76 2127 2136 "mOOL_main.ml" 76 2127 2144
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref new_main "mOOL_main.ml" 74 2038 2044 "mOOL_main.ml" 74 2038 2052
+)
+"mOOL_main.ml" 76 2127 2145 "mOOL_main.ml" 76 2127 2153
+type(
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  int_ref new_mtds "mOOL_main.ml" 75 2078 2084 "mOOL_main.ml" 75 2078 2092
+)
+"mOOL_main.ml" 76 2127 2129 "mOOL_main.ml" 76 2127 2154
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)
+"mOOL_main.ml" 75 2078 2080 "mOOL_main.ml" 76 2127 2154
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)
+"mOOL_main.ml" 74 2038 2040 "mOOL_main.ml" 76 2127 2154
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)
+"mOOL_main.ml" 78 2156 2160 "mOOL_main.ml" 78 2156 2180
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list ->
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)
+ident(
+  def basic_block_optimize "mOOL_main.ml" 133 4448 4448 "mOOL_main.ml" 1 0 -1
+)
+"mOOL_main.ml" 78 2156 2181 "mOOL_main.ml" 78 2156 2193
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)
+ident(
+  def ir3_prog_new "mOOL_main.ml" 79 2196 2198 "mOOL_main.ml" 131 4392 4445
+)
+"mOOL_main.ml" 79 2196 2202 "mOOL_main.ml" 79 2196 2224
+type(
+  Ir3_structs_new.md_decl3_new -> Ir3_structs_new.md_decl3_new
+)
+ident(
+  def block_optimize_md_decl "mOOL_main.ml" 127 4164 4166 "mOOL_main.ml" 131 4392 4445
+)
+"mOOL_main.ml" 79 2196 2225 "mOOL_main.ml" 79 2196 2232
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  def md_decl "mOOL_main.ml" 80 2237 2241 "mOOL_main.ml" 125 4120 4158
+)
+"mOOL_main.ml" 80 2237 2245 "mOOL_main.ml" 80 2237 2250
+type(
+  Ir3_structs_new.ir3_stmt_new list ref
+)
+ident(
+  def stmts "mOOL_main.ml" 81 2277 2281 "mOOL_main.ml" 125 4120 4158
+)
+"mOOL_main.ml" 80 2237 2253 "mOOL_main.ml" 80 2237 2256
+type(
+  Ir3_structs_new.ir3_stmt_new list -> Ir3_structs_new.ir3_stmt_new list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"mOOL_main.ml" 80 2237 2257 "mOOL_main.ml" 80 2237 2264
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref md_decl "mOOL_main.ml" 79 2196 2225 "mOOL_main.ml" 79 2196 2232
+)
+"mOOL_main.ml" 80 2237 2257 "mOOL_main.ml" 80 2237 2273
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"mOOL_main.ml" 80 2237 2253 "mOOL_main.ml" 80 2237 2273
+type(
+  Ir3_structs_new.ir3_stmt_new list ref
+)
+"mOOL_main.ml" 81 2277 2285 "mOOL_main.ml" 81 2277 2298
+type(
+  int ref
+)
+ident(
+  def pre_stmts_len "mOOL_main.ml" 82 2339 2343 "mOOL_main.ml" 125 4120 4158
+)
+"mOOL_main.ml" 81 2277 2301 "mOOL_main.ml" 81 2277 2304
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"mOOL_main.ml" 81 2277 2306 "mOOL_main.ml" 81 2277 2317
+type(
+  Ir3_structs_new.ir3_stmt_new list -> int
+)
+ident(
+  ext_ref List.length
+)
+"mOOL_main.ml" 81 2277 2318 "mOOL_main.ml" 81 2277 2325
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref md_decl "mOOL_main.ml" 79 2196 2225 "mOOL_main.ml" 79 2196 2232
+)
+"mOOL_main.ml" 81 2277 2318 "mOOL_main.ml" 81 2277 2334
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"mOOL_main.ml" 81 2277 2305 "mOOL_main.ml" 81 2277 2335
+call(
+  stack
+)
+type(
+  int
+)
+"mOOL_main.ml" 81 2277 2301 "mOOL_main.ml" 81 2277 2335
+type(
+  int ref
+)
+"mOOL_main.ml" 82 2339 2347 "mOOL_main.ml" 82 2339 2363
+type(
+  bool ref
+)
+ident(
+  def cse_cp_loop_flag "mOOL_main.ml" 83 2379 2383 "mOOL_main.ml" 125 4120 4158
+)
+"mOOL_main.ml" 82 2339 2366 "mOOL_main.ml" 82 2339 2369
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"mOOL_main.ml" 82 2339 2370 "mOOL_main.ml" 82 2339 2374
+type(
+  bool
+)
+"mOOL_main.ml" 82 2339 2366 "mOOL_main.ml" 82 2339 2374
+type(
+  bool ref
+)
+"mOOL_main.ml" 83 2379 2389 "mOOL_main.ml" 83 2379 2390
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 83 2379 2390 "mOOL_main.ml" 83 2379 2406
+type(
+  bool ref
+)
+ident(
+  int_ref cse_cp_loop_flag "mOOL_main.ml" 82 2339 2347 "mOOL_main.ml" 82 2339 2363
+)
+"mOOL_main.ml" 83 2379 2389 "mOOL_main.ml" 83 2379 2406
+type(
+  bool
+)
+"mOOL_main.ml" 84 2410 2416 "mOOL_main.ml" 84 2410 2432
+type(
+  bool ref
+)
+ident(
+  int_ref cse_cp_loop_flag "mOOL_main.ml" 82 2339 2347 "mOOL_main.ml" 82 2339 2363
+)
+"mOOL_main.ml" 84 2410 2433 "mOOL_main.ml" 84 2410 2435
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"mOOL_main.ml" 84 2410 2436 "mOOL_main.ml" 84 2410 2441
+type(
+  bool
+)
+"mOOL_main.ml" 84 2410 2416 "mOOL_main.ml" 84 2410 2441
+type(
+  unit
+)
+"mOOL_main.ml" 86 2496 2502 "mOOL_main.ml" 86 2496 2507
+type(
+  Ir3_structs_new.ir3_stmt_new list ref
+)
+ident(
+  int_ref stmts "mOOL_main.ml" 80 2237 2245 "mOOL_main.ml" 80 2237 2250
+)
+"mOOL_main.ml" 86 2496 2508 "mOOL_main.ml" 86 2496 2510
+type(
+  Ir3_structs_new.ir3_stmt_new list ref ->
+  Ir3_structs_new.ir3_stmt_new list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"mOOL_main.ml" 86 2496 2515 "mOOL_main.ml" 86 2496 2516
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 86 2496 2516 "mOOL_main.ml" 86 2496 2567
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_global_common_sub_expression
+)
+"mOOL_main.ml" 86 2496 2514 "mOOL_main.ml" 86 2496 2568
+type(
+  bool
+)
+"mOOL_main.ml" 87 2574 2585 "mOOL_main.ml" 87 2574 2645
+type(
+  Ir3_structs_new.ir3_stmt_new list -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  ext_ref Global_common_subexpression.global_common_subexp_elimination
+)
+"mOOL_main.ml" 87 2574 2646 "mOOL_main.ml" 87 2574 2647
+type(
+  Ir3_structs_new.ir3_stmt_new list ref -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 87 2574 2647 "mOOL_main.ml" 87 2574 2652
+type(
+  Ir3_structs_new.ir3_stmt_new list ref
+)
+ident(
+  int_ref stmts "mOOL_main.ml" 80 2237 2245 "mOOL_main.ml" 80 2237 2250
+)
+"mOOL_main.ml" 87 2574 2646 "mOOL_main.ml" 87 2574 2652
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"mOOL_main.ml" 87 2574 2584 "mOOL_main.ml" 87 2574 2653
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"mOOL_main.ml" 88 2654 2667 "mOOL_main.ml" 88 2654 2668
+type(
+  Ir3_structs_new.ir3_stmt_new list ref -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 88 2654 2668 "mOOL_main.ml" 88 2654 2673
+type(
+  Ir3_structs_new.ir3_stmt_new list ref
+)
+ident(
+  int_ref stmts "mOOL_main.ml" 80 2237 2245 "mOOL_main.ml" 80 2237 2250
+)
+"mOOL_main.ml" 88 2654 2667 "mOOL_main.ml" 88 2654 2673
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"mOOL_main.ml" 86 2496 2511 "mOOL_main.ml" 88 2654 2673
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"mOOL_main.ml" 86 2496 2502 "mOOL_main.ml" 88 2654 2673
+type(
+  unit
+)
+"mOOL_main.ml" 89 2676 2686 "mOOL_main.ml" 89 2676 2693
+type(
+  Ir3_bbl_generator.ir3_bbl list
+)
+ident(
+  def ir3bbls "mOOL_main.ml" 90 2735 2741 "mOOL_main.ml" 123 4068 4109
+)
+"mOOL_main.ml" 89 2676 2697 "mOOL_main.ml" 89 2676 2714
+type(
+  Ir3_structs_new.ir3_stmt_new list -> Ir3_bbl_generator.md_bbls
+)
+ident(
+  ext_ref Ir3_bbl_generator.ir3_stmts_to_bbls
+)
+"mOOL_main.ml" 89 2676 2715 "mOOL_main.ml" 89 2676 2716
+type(
+  Ir3_structs_new.ir3_stmt_new list ref -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 89 2676 2716 "mOOL_main.ml" 89 2676 2721
+type(
+  Ir3_structs_new.ir3_stmt_new list ref
+)
+ident(
+  int_ref stmts "mOOL_main.ml" 80 2237 2245 "mOOL_main.ml" 80 2237 2250
+)
+"mOOL_main.ml" 89 2676 2715 "mOOL_main.ml" 89 2676 2721
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"mOOL_main.ml" 89 2676 2696 "mOOL_main.ml" 89 2676 2722
+call(
+  stack
+)
+type(
+  Ir3_bbl_generator.md_bbls
+)
+"mOOL_main.ml" 89 2676 2696 "mOOL_main.ml" 89 2676 2730
+type(
+  Ir3_bbl_generator.ir3_bbl list
+)
+"mOOL_main.ml" 90 2735 2745 "mOOL_main.ml" 90 2735 2755
+type(
+  Ir3_structs_new.ir3_stmt_new list list
+)
+ident(
+  def stmts_list "mOOL_main.ml" 113 3578 3584 "mOOL_main.ml" 123 4068 4109
+)
+"mOOL_main.ml" 91 2759 2767 "mOOL_main.ml" 91 2759 2775
+type(
+  (Ir3_bbl_generator.ir3_bbl -> Ir3_structs_new.ir3_stmt_new list) ->
+  Ir3_bbl_generator.ir3_bbl list -> Ir3_structs_new.ir3_stmt_new list list
+)
+ident(
+  ext_ref List.map
+)
+"mOOL_main.ml" 93 2788 2804 "mOOL_main.ml" 93 2788 2805
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  def x "mOOL_main.ml" 94 2809 2823 "mOOL_main.ml" 110 3515 3544
+)
+"mOOL_main.ml" 94 2809 2827 "mOOL_main.ml" 94 2809 2832
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def stmts "mOOL_main.ml" 95 2846 2860 "mOOL_main.ml" 110 3515 3544
+)
+"mOOL_main.ml" 94 2809 2835 "mOOL_main.ml" 94 2809 2836
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  int_ref x "mOOL_main.ml" 93 2788 2804 "mOOL_main.ml" 93 2788 2805
+)
+"mOOL_main.ml" 94 2809 2835 "mOOL_main.ml" 94 2809 2842
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"mOOL_main.ml" 95 2846 2864 "mOOL_main.ml" 95 2846 2879
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def optimized_stmts "mOOL_main.ml" 97 2945 2959 "mOOL_main.ml" 110 3515 3544
+)
+"mOOL_main.ml" 95 2846 2882 "mOOL_main.ml" 95 2846 2887
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref stmts "mOOL_main.ml" 94 2809 2827 "mOOL_main.ml" 94 2809 2832
+)
+"mOOL_main.ml" 97 2945 2963 "mOOL_main.ml" 97 2945 2978
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def optimized_stmts "mOOL_main.ml" 104 3258 3272 "mOOL_main.ml" 110 3515 3544
+)
+"mOOL_main.ml" 98 2981 3001 "mOOL_main.ml" 98 2981 3002
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 98 2981 3002 "mOOL_main.ml" 98 2981 3046
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_common_sub_expression
+)
+"mOOL_main.ml" 98 2981 3000 "mOOL_main.ml" 98 2981 3047
+type(
+  bool
+)
+"mOOL_main.ml" 99 3053 3072 "mOOL_main.ml" 99 3053 3118
+type(
+  Ir3_structs_new.ir3_stmt_new list -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  ext_ref Common_subexpression.common_subexp_elimination
+)
+"mOOL_main.ml" 99 3053 3119 "mOOL_main.ml" 99 3053 3134
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref optimized_stmts "mOOL_main.ml" 95 2846 2864 "mOOL_main.ml" 95 2846 2879
+)
+"mOOL_main.ml" 99 3053 3071 "mOOL_main.ml" 99 3053 3135
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"mOOL_main.ml" 101 3157 3175 "mOOL_main.ml" 101 3157 3190
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref optimized_stmts "mOOL_main.ml" 95 2846 2864 "mOOL_main.ml" 95 2846 2879
+)
+"mOOL_main.ml" 98 2981 2997 "mOOL_main.ml" 101 3157 3190
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"mOOL_main.ml" 104 3258 3276 "mOOL_main.ml" 104 3258 3291
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def optimized_stmts "mOOL_main.ml" 110 3515 3529 "mOOL_main.ml" 110 3515 3544
+)
+"mOOL_main.ml" 105 3294 3314 "mOOL_main.ml" 105 3294 3315
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 105 3294 3315 "mOOL_main.ml" 105 3294 3354
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_copy_propagation
+)
+"mOOL_main.ml" 105 3294 3313 "mOOL_main.ml" 105 3294 3355
+type(
+  bool
+)
+"mOOL_main.ml" 106 3361 3380 "mOOL_main.ml" 106 3361 3425
+type(
+  Ir3_structs_new.ir3_stmt_new list -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  ext_ref Copy_propagation.copy_propagation_elimination
+)
+"mOOL_main.ml" 106 3361 3426 "mOOL_main.ml" 106 3361 3441
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref optimized_stmts "mOOL_main.ml" 97 2945 2963 "mOOL_main.ml" 97 2945 2978
+)
+"mOOL_main.ml" 106 3361 3379 "mOOL_main.ml" 106 3361 3442
+call(
+  tail
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"mOOL_main.ml" 108 3464 3482 "mOOL_main.ml" 108 3464 3497
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref optimized_stmts "mOOL_main.ml" 97 2945 2963 "mOOL_main.ml" 97 2945 2978
+)
+"mOOL_main.ml" 105 3294 3310 "mOOL_main.ml" 108 3464 3497
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"mOOL_main.ml" 110 3515 3529 "mOOL_main.ml" 110 3515 3544
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref optimized_stmts "mOOL_main.ml" 104 3258 3276 "mOOL_main.ml" 104 3258 3291
+)
+"mOOL_main.ml" 104 3258 3272 "mOOL_main.ml" 110 3515 3544
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"mOOL_main.ml" 97 2945 2959 "mOOL_main.ml" 110 3515 3544
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"mOOL_main.ml" 95 2846 2860 "mOOL_main.ml" 110 3515 3544
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"mOOL_main.ml" 94 2809 2823 "mOOL_main.ml" 110 3515 3544
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"mOOL_main.ml" 92 2776 2786 "mOOL_main.ml" 111 3545 3556
+type(
+  Ir3_bbl_generator.ir3_bbl -> Ir3_structs_new.ir3_stmt_new list
+)
+"mOOL_main.ml" 112 3557 3567 "mOOL_main.ml" 112 3557 3574
+type(
+  Ir3_bbl_generator.ir3_bbl list
+)
+ident(
+  int_ref ir3bbls "mOOL_main.ml" 89 2676 2686 "mOOL_main.ml" 89 2676 2693
+)
+"mOOL_main.ml" 91 2759 2767 "mOOL_main.ml" 112 3557 3574
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list list
+)
+"mOOL_main.ml" 113 3578 3584 "mOOL_main.ml" 113 3578 3589
+type(
+  Ir3_structs_new.ir3_stmt_new list ref
+)
+ident(
+  int_ref stmts "mOOL_main.ml" 80 2237 2245 "mOOL_main.ml" 80 2237 2250
+)
+"mOOL_main.ml" 113 3578 3590 "mOOL_main.ml" 113 3578 3592
+type(
+  Ir3_structs_new.ir3_stmt_new list ref ->
+  Ir3_structs_new.ir3_stmt_new list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"mOOL_main.ml" 113 3578 3593 "mOOL_main.ml" 113 3578 3605
+type(
+  Ir3_structs_new.ir3_stmt_new list list -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  ext_ref List.flatten
+)
+"mOOL_main.ml" 113 3578 3606 "mOOL_main.ml" 113 3578 3616
+type(
+  Ir3_structs_new.ir3_stmt_new list list
+)
+ident(
+  int_ref stmts_list "mOOL_main.ml" 90 2735 2745 "mOOL_main.ml" 90 2735 2755
+)
+"mOOL_main.ml" 113 3578 3593 "mOOL_main.ml" 113 3578 3616
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"mOOL_main.ml" 113 3578 3584 "mOOL_main.ml" 113 3578 3616
+type(
+  unit
+)
+"mOOL_main.ml" 115 3652 3658 "mOOL_main.ml" 115 3652 3663
+type(
+  Ir3_structs_new.ir3_stmt_new list ref
+)
+ident(
+  int_ref stmts "mOOL_main.ml" 80 2237 2245 "mOOL_main.ml" 80 2237 2250
+)
+"mOOL_main.ml" 115 3652 3664 "mOOL_main.ml" 115 3652 3666
+type(
+  Ir3_structs_new.ir3_stmt_new list ref ->
+  Ir3_structs_new.ir3_stmt_new list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"mOOL_main.ml" 115 3652 3671 "mOOL_main.ml" 115 3652 3672
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 115 3652 3672 "mOOL_main.ml" 115 3652 3703
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_deadcode
+)
+"mOOL_main.ml" 115 3652 3670 "mOOL_main.ml" 115 3652 3704
+type(
+  bool
+)
+"mOOL_main.ml" 116 3710 3721 "mOOL_main.ml" 116 3710 3769
+type(
+  Ir3_structs_new.ir3_stmt_new list -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  ext_ref Liveness_analysis.dead_code_elimination_fixpoint
+)
+"mOOL_main.ml" 116 3710 3770 "mOOL_main.ml" 116 3710 3771
+type(
+  Ir3_structs_new.ir3_stmt_new list ref -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 116 3710 3771 "mOOL_main.ml" 116 3710 3776
+type(
+  Ir3_structs_new.ir3_stmt_new list ref
+)
+ident(
+  int_ref stmts "mOOL_main.ml" 80 2237 2245 "mOOL_main.ml" 80 2237 2250
+)
+"mOOL_main.ml" 116 3710 3770 "mOOL_main.ml" 116 3710 3776
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"mOOL_main.ml" 116 3710 3720 "mOOL_main.ml" 116 3710 3777
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"mOOL_main.ml" 118 3791 3801 "mOOL_main.ml" 118 3791 3802
+type(
+  Ir3_structs_new.ir3_stmt_new list ref -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 118 3791 3802 "mOOL_main.ml" 118 3791 3807
+type(
+  Ir3_structs_new.ir3_stmt_new list ref
+)
+ident(
+  int_ref stmts "mOOL_main.ml" 80 2237 2245 "mOOL_main.ml" 80 2237 2250
+)
+"mOOL_main.ml" 118 3791 3801 "mOOL_main.ml" 118 3791 3807
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"mOOL_main.ml" 115 3652 3667 "mOOL_main.ml" 118 3791 3807
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"mOOL_main.ml" 115 3652 3658 "mOOL_main.ml" 118 3791 3807
+type(
+  unit
+)
+"mOOL_main.ml" 120 3948 3957 "mOOL_main.ml" 120 3948 3958
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 120 3948 3958 "mOOL_main.ml" 120 3948 3971
+type(
+  int ref
+)
+ident(
+  int_ref pre_stmts_len "mOOL_main.ml" 81 2277 2285 "mOOL_main.ml" 81 2277 2298
+)
+"mOOL_main.ml" 120 3948 3957 "mOOL_main.ml" 120 3948 3971
+type(
+  int
+)
+"mOOL_main.ml" 120 3948 3971 "mOOL_main.ml" 120 3948 3972
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"mOOL_main.ml" 120 3948 3973 "mOOL_main.ml" 120 3948 3984
+type(
+  Ir3_structs_new.ir3_stmt_new list -> int
+)
+ident(
+  ext_ref List.length
+)
+"mOOL_main.ml" 120 3948 3985 "mOOL_main.ml" 120 3948 3986
+type(
+  Ir3_structs_new.ir3_stmt_new list ref -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 120 3948 3986 "mOOL_main.ml" 120 3948 3991
+type(
+  Ir3_structs_new.ir3_stmt_new list ref
+)
+ident(
+  int_ref stmts "mOOL_main.ml" 80 2237 2245 "mOOL_main.ml" 80 2237 2250
+)
+"mOOL_main.ml" 120 3948 3985 "mOOL_main.ml" 120 3948 3991
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"mOOL_main.ml" 120 3948 3972 "mOOL_main.ml" 120 3948 3992
+call(
+  stack
+)
+type(
+  int
+)
+"mOOL_main.ml" 120 3948 3957 "mOOL_main.ml" 120 3948 3992
+type(
+  bool
+)
+"mOOL_main.ml" 121 3994 4005 "mOOL_main.ml" 121 3994 4021
+type(
+  bool ref
+)
+ident(
+  int_ref cse_cp_loop_flag "mOOL_main.ml" 82 2339 2347 "mOOL_main.ml" 82 2339 2363
+)
+"mOOL_main.ml" 121 3994 4022 "mOOL_main.ml" 121 3994 4024
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"mOOL_main.ml" 121 3994 4025 "mOOL_main.ml" 121 3994 4030
+type(
+  bool
+)
+"mOOL_main.ml" 121 3994 4005 "mOOL_main.ml" 121 3994 4030
+type(
+  unit
+)
+"mOOL_main.ml" 122 4031 4042 "mOOL_main.ml" 122 4031 4058
+type(
+  bool ref
+)
+ident(
+  int_ref cse_cp_loop_flag "mOOL_main.ml" 82 2339 2347 "mOOL_main.ml" 82 2339 2363
+)
+"mOOL_main.ml" 122 4031 4059 "mOOL_main.ml" 122 4031 4061
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"mOOL_main.ml" 122 4031 4062 "mOOL_main.ml" 122 4031 4066
+type(
+  bool
+)
+"mOOL_main.ml" 122 4031 4042 "mOOL_main.ml" 122 4031 4066
+type(
+  unit
+)
+"mOOL_main.ml" 120 3948 3954 "mOOL_main.ml" 122 4031 4066
+type(
+  unit
+)
+"mOOL_main.ml" 123 4068 4074 "mOOL_main.ml" 123 4068 4087
+type(
+  int ref
+)
+ident(
+  int_ref pre_stmts_len "mOOL_main.ml" 81 2277 2285 "mOOL_main.ml" 81 2277 2298
+)
+"mOOL_main.ml" 123 4068 4088 "mOOL_main.ml" 123 4068 4090
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"mOOL_main.ml" 123 4068 4091 "mOOL_main.ml" 123 4068 4102
+type(
+  Ir3_structs_new.ir3_stmt_new list -> int
+)
+ident(
+  ext_ref List.length
+)
+"mOOL_main.ml" 123 4068 4103 "mOOL_main.ml" 123 4068 4104
+type(
+  Ir3_structs_new.ir3_stmt_new list ref -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 123 4068 4104 "mOOL_main.ml" 123 4068 4109
+type(
+  Ir3_structs_new.ir3_stmt_new list ref
+)
+ident(
+  int_ref stmts "mOOL_main.ml" 80 2237 2245 "mOOL_main.ml" 80 2237 2250
+)
+"mOOL_main.ml" 123 4068 4103 "mOOL_main.ml" 123 4068 4109
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"mOOL_main.ml" 123 4068 4091 "mOOL_main.ml" 123 4068 4109
+call(
+  stack
+)
+type(
+  int
+)
+"mOOL_main.ml" 123 4068 4074 "mOOL_main.ml" 123 4068 4109
+type(
+  unit
+)
+"mOOL_main.ml" 120 3948 3954 "mOOL_main.ml" 123 4068 4109
+type(
+  unit
+)
+"mOOL_main.ml" 115 3652 3658 "mOOL_main.ml" 123 4068 4109
+type(
+  unit
+)
+"mOOL_main.ml" 113 3578 3584 "mOOL_main.ml" 123 4068 4109
+type(
+  unit
+)
+"mOOL_main.ml" 90 2735 2741 "mOOL_main.ml" 123 4068 4109
+type(
+  unit
+)
+"mOOL_main.ml" 89 2676 2682 "mOOL_main.ml" 123 4068 4109
+type(
+  unit
+)
+"mOOL_main.ml" 86 2496 2502 "mOOL_main.ml" 123 4068 4109
+type(
+  unit
+)
+"mOOL_main.ml" 84 2410 2416 "mOOL_main.ml" 123 4068 4109
+type(
+  unit
+)
+"mOOL_main.ml" 83 2379 2383 "mOOL_main.ml" 124 4110 4118
+type(
+  unit
+)
+"mOOL_main.ml" 125 4120 4126 "mOOL_main.ml" 125 4120 4133
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref md_decl "mOOL_main.ml" 79 2196 2225 "mOOL_main.ml" 79 2196 2232
+)
+"mOOL_main.ml" 125 4120 4150 "mOOL_main.ml" 125 4120 4151
+type(
+  Ir3_structs_new.ir3_stmt_new list ref -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 125 4120 4151 "mOOL_main.ml" 125 4120 4156
+type(
+  Ir3_structs_new.ir3_stmt_new list ref
+)
+ident(
+  int_ref stmts "mOOL_main.ml" 80 2237 2245 "mOOL_main.ml" 80 2237 2250
+)
+"mOOL_main.ml" 125 4120 4150 "mOOL_main.ml" 125 4120 4156
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"mOOL_main.ml" 125 4120 4124 "mOOL_main.ml" 125 4120 4158
+type(
+  Ir3_structs_new.md_decl3_new
+)
+"mOOL_main.ml" 83 2379 2383 "mOOL_main.ml" 125 4120 4158
+type(
+  Ir3_structs_new.md_decl3_new
+)
+"mOOL_main.ml" 82 2339 2343 "mOOL_main.ml" 125 4120 4158
+type(
+  Ir3_structs_new.md_decl3_new
+)
+"mOOL_main.ml" 81 2277 2281 "mOOL_main.ml" 125 4120 4158
+type(
+  Ir3_structs_new.md_decl3_new
+)
+"mOOL_main.ml" 80 2237 2241 "mOOL_main.ml" 125 4120 4158
+type(
+  Ir3_structs_new.md_decl3_new
+)
+"mOOL_main.ml" 127 4164 4171 "mOOL_main.ml" 127 4164 4176
+type(
+  'a
+)
+ident(
+  def cdata "mOOL_main.ml" 128 4220 4222 "mOOL_main.ml" 131 4392 4445
+)
+"mOOL_main.ml" 127 4164 4178 "mOOL_main.ml" 127 4164 4190
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  def main_md_decl "mOOL_main.ml" 128 4220 4222 "mOOL_main.ml" 131 4392 4445
+)
+"mOOL_main.ml" 127 4164 4192 "mOOL_main.ml" 127 4164 4200
+type(
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  def md_decls "mOOL_main.ml" 128 4220 4222 "mOOL_main.ml" 131 4392 4445
+)
+"mOOL_main.ml" 127 4164 4170 "mOOL_main.ml" 127 4164 4201
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)
+"mOOL_main.ml" 127 4164 4204 "mOOL_main.ml" 127 4164 4216
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)
+ident(
+  int_ref ir3_prog_new "mOOL_main.ml" 78 2156 2181 "mOOL_main.ml" 78 2156 2193
+)
+"mOOL_main.ml" 128 4220 4226 "mOOL_main.ml" 128 4220 4248
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  def optimized_main_md_decl "mOOL_main.ml" 129 4290 4292 "mOOL_main.ml" 131 4392 4445
+)
+"mOOL_main.ml" 128 4220 4251 "mOOL_main.ml" 128 4220 4273
+type(
+  Ir3_structs_new.md_decl3_new -> Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref block_optimize_md_decl "mOOL_main.ml" 79 2196 2202 "mOOL_main.ml" 79 2196 2224
+)
+"mOOL_main.ml" 128 4220 4274 "mOOL_main.ml" 128 4220 4286
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref main_md_decl "mOOL_main.ml" 127 4164 4178 "mOOL_main.ml" 127 4164 4190
+)
+"mOOL_main.ml" 128 4220 4251 "mOOL_main.ml" 128 4220 4286
+call(
+  stack
+)
+type(
+  Ir3_structs_new.md_decl3_new
+)
+"mOOL_main.ml" 129 4290 4296 "mOOL_main.ml" 129 4290 4314
+type(
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  def optimized_md_decls "mOOL_main.ml" 131 4392 4394 "mOOL_main.ml" 131 4392 4445
+)
+"mOOL_main.ml" 129 4290 4317 "mOOL_main.ml" 129 4290 4325
+type(
+  (Ir3_structs_new.md_decl3_new -> Ir3_structs_new.md_decl3_new) ->
+  Ir3_structs_new.md_decl3_new list -> Ir3_structs_new.md_decl3_new list
+)
+ident(
+  ext_ref List.map
+)
+"mOOL_main.ml" 130 4326 4337 "mOOL_main.ml" 130 4326 4344
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  def md_decl "mOOL_main.ml" 130 4326 4348 "mOOL_main.ml" 130 4326 4378
+)
+"mOOL_main.ml" 130 4326 4348 "mOOL_main.ml" 130 4326 4370
+type(
+  Ir3_structs_new.md_decl3_new -> Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref block_optimize_md_decl "mOOL_main.ml" 79 2196 2202 "mOOL_main.ml" 79 2196 2224
+)
+"mOOL_main.ml" 130 4326 4371 "mOOL_main.ml" 130 4326 4378
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref md_decl "mOOL_main.ml" 130 4326 4337 "mOOL_main.ml" 130 4326 4344
+)
+"mOOL_main.ml" 130 4326 4348 "mOOL_main.ml" 130 4326 4378
+call(
+  tail
+)
+type(
+  Ir3_structs_new.md_decl3_new
+)
+"mOOL_main.ml" 130 4326 4332 "mOOL_main.ml" 130 4326 4379
+type(
+  Ir3_structs_new.md_decl3_new -> Ir3_structs_new.md_decl3_new
+)
+"mOOL_main.ml" 130 4326 4380 "mOOL_main.ml" 130 4326 4388
+type(
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  int_ref md_decls "mOOL_main.ml" 127 4164 4192 "mOOL_main.ml" 127 4164 4200
+)
+"mOOL_main.ml" 129 4290 4317 "mOOL_main.ml" 130 4326 4388
+call(
+  stack
+)
+type(
+  Ir3_structs_new.md_decl3_new list
+)
+"mOOL_main.ml" 131 4392 4395 "mOOL_main.ml" 131 4392 4400
+type(
+  'a
+)
+ident(
+  int_ref cdata "mOOL_main.ml" 127 4164 4171 "mOOL_main.ml" 127 4164 4176
+)
+"mOOL_main.ml" 131 4392 4402 "mOOL_main.ml" 131 4392 4424
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref optimized_main_md_decl "mOOL_main.ml" 128 4220 4226 "mOOL_main.ml" 128 4220 4248
+)
+"mOOL_main.ml" 131 4392 4426 "mOOL_main.ml" 131 4392 4444
+type(
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  int_ref optimized_md_decls "mOOL_main.ml" 129 4290 4296 "mOOL_main.ml" 129 4290 4314
+)
+"mOOL_main.ml" 131 4392 4394 "mOOL_main.ml" 131 4392 4445
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)
+"mOOL_main.ml" 129 4290 4292 "mOOL_main.ml" 131 4392 4445
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)
+"mOOL_main.ml" 128 4220 4222 "mOOL_main.ml" 131 4392 4445
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)
+"mOOL_main.ml" 127 4164 4166 "mOOL_main.ml" 131 4392 4445
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)
+"mOOL_main.ml" 79 2196 2198 "mOOL_main.ml" 131 4392 4445
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)
+"mOOL_main.ml" 133 4448 4452 "mOOL_main.ml" 133 4448 4459
+type(
+  MOOL_structs.mOOL_program -> unit
+)
+ident(
+  def process "mOOL_main.ml" 179 6574 6574 "mOOL_main.ml" 1 0 -1
+)
+"mOOL_main.ml" 133 4448 4460 "mOOL_main.ml" 133 4448 4464
+type(
+  MOOL_structs.mOOL_program
+)
+ident(
+  def prog "mOOL_main.ml" 134 4468 4470 "mOOL_main.ml" 177 6567 6572
+)
+"mOOL_main.ml" 138 4601 4609 "mOOL_main.ml" 138 4601 4618
+type(
+  MOOL_structs.mOOL_program
+)
+ident(
+  def typedprog "mOOL_main.ml" 141 4824 4828 "mOOL_main.ml" 176 6503 6566
+)
+"mOOL_main.ml" 138 4601 4623 "mOOL_main.ml" 138 4601 4628
+type(
+  bool
+)
+ident(
+  int_ref useTA "mOOL_main.ml" 23 539 543 "mOOL_main.ml" 23 539 548
+)
+"mOOL_main.ml" 138 4601 4635 "mOOL_main.ml" 138 4601 4679
+type(
+  MOOL_structs.mOOL_program -> MOOL_structs.mOOL_program
+)
+ident(
+  ext_ref MOOL_annotatedtyping.type_check_mOOL_program
+)
+"mOOL_main.ml" 138 4601 4680 "mOOL_main.ml" 138 4601 4684
+type(
+  MOOL_structs.mOOL_program
+)
+ident(
+  int_ref prog "mOOL_main.ml" 133 4448 4460 "mOOL_main.ml" 133 4448 4464
+)
+"mOOL_main.ml" 138 4601 4634 "mOOL_main.ml" 138 4601 4685
+call(
+  stack
+)
+type(
+  MOOL_structs.mOOL_program
+)
+"mOOL_main.ml" 139 4686 4698 "mOOL_main.ml" 139 4686 4742
+type(
+  MOOL_structs.mOOL_program -> MOOL_structs.mOOL_program
+)
+ident(
+  ext_ref MOOL_annotatedtyping.type_check_mOOL_program
+)
+"mOOL_main.ml" 139 4686 4743 "mOOL_main.ml" 139 4686 4747
+type(
+  MOOL_structs.mOOL_program
+)
+ident(
+  int_ref prog "mOOL_main.ml" 133 4448 4460 "mOOL_main.ml" 133 4448 4464
+)
+"mOOL_main.ml" 139 4686 4697 "mOOL_main.ml" 139 4686 4748
+call(
+  stack
+)
+type(
+  MOOL_structs.mOOL_program
+)
+"mOOL_main.ml" 138 4601 4620 "mOOL_main.ml" 139 4686 4748
+type(
+  MOOL_structs.mOOL_program
+)
+"mOOL_main.ml" 141 4824 4832 "mOOL_main.ml" 141 4824 4839
+type(
+  Ir3mOOL_structs.ir3_program
+)
+ident(
+  def ir3prog "mOOL_main.ml" 142 4887 4891 "mOOL_main.ml" 176 6503 6566
+)
+"mOOL_main.ml" 141 4824 4843 "mOOL_main.ml" 141 4824 4872
+type(
+  MOOL_structs.mOOL_program -> Ir3mOOL_structs.ir3_program
+)
+ident(
+  ext_ref MOOLtoir3.mOOL_program_to_IR3
+)
+"mOOL_main.ml" 141 4824 4873 "mOOL_main.ml" 141 4824 4882
+type(
+  MOOL_structs.mOOL_program
+)
+ident(
+  int_ref typedprog "mOOL_main.ml" 138 4601 4609 "mOOL_main.ml" 138 4601 4618
+)
+"mOOL_main.ml" 141 4824 4842 "mOOL_main.ml" 141 4824 4883
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_program
+)
+"mOOL_main.ml" 142 4887 4891 "mOOL_main.ml" 142 4887 4905
+type(
+  string -> unit
+)
+ident(
+  int_ref print_endlinev "mOOL_main.ml" 33 748 752 "mOOL_main.ml" 33 748 766
+)
+"mOOL_main.ml" 142 4887 4907 "mOOL_main.ml" 142 4887 4944
+type(
+  Ir3mOOL_structs.ir3_program -> string
+)
+ident(
+  ext_ref Ir3mOOL_structs.string_of_ir3_program
+)
+"mOOL_main.ml" 142 4887 4945 "mOOL_main.ml" 142 4887 4952
+type(
+  Ir3mOOL_structs.ir3_program
+)
+ident(
+  int_ref ir3prog "mOOL_main.ml" 141 4824 4832 "mOOL_main.ml" 141 4824 4839
+)
+"mOOL_main.ml" 142 4887 4906 "mOOL_main.ml" 142 4887 4953
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 142 4887 4891 "mOOL_main.ml" 142 4887 4953
+call(
+  stack
+)
+type(
+  unit
+)
+"mOOL_main.ml" 143 4955 4963 "mOOL_main.ml" 143 4955 4980
+type(
+  Ir3mOOL_structs.ir3_program
+)
+ident(
+  def ir3prog_optimized "mOOL_main.ml" 147 5095 5099 "mOOL_main.ml" 176 6503 6566
+)
+"mOOL_main.ml" 144 4983 4992 "mOOL_main.ml" 144 4983 4993
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 144 4983 4993 "mOOL_main.ml" 144 4983 5024
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_peephole
+)
+"mOOL_main.ml" 144 4983 4992 "mOOL_main.ml" 144 4983 5024
+type(
+  bool
+)
+"mOOL_main.ml" 145 5030 5038 "mOOL_main.ml" 145 5030 5064
+type(
+  Ir3mOOL_structs.ir3_program -> Ir3mOOL_structs.ir3_program
+)
+ident(
+  ext_ref Peephole.peephole_optimize
+)
+"mOOL_main.ml" 145 5030 5065 "mOOL_main.ml" 145 5030 5072
+type(
+  Ir3mOOL_structs.ir3_program
+)
+ident(
+  int_ref ir3prog "mOOL_main.ml" 141 4824 4832 "mOOL_main.ml" 141 4824 4839
+)
+"mOOL_main.ml" 145 5030 5038 "mOOL_main.ml" 145 5030 5072
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_program
+)
+"mOOL_main.ml" 146 5073 5084 "mOOL_main.ml" 146 5073 5091
+type(
+  Ir3mOOL_structs.ir3_program
+)
+ident(
+  int_ref ir3prog "mOOL_main.ml" 141 4824 4832 "mOOL_main.ml" 141 4824 4839
+)
+"mOOL_main.ml" 144 4983 4989 "mOOL_main.ml" 146 5073 5091
+type(
+  Ir3mOOL_structs.ir3_program
+)
+"mOOL_main.ml" 147 5095 5102 "mOOL_main.ml" 147 5095 5103
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 147 5095 5103 "mOOL_main.ml" 147 5095 5134
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_peephole
+)
+"mOOL_main.ml" 147 5095 5102 "mOOL_main.ml" 147 5095 5134
+type(
+  bool
+)
+"mOOL_main.ml" 149 5152 5160 "mOOL_main.ml" 149 5152 5174
+type(
+  string -> unit
+)
+ident(
+  int_ref print_endlinev "mOOL_main.ml" 33 748 752 "mOOL_main.ml" 33 748 766
+)
+"mOOL_main.ml" 149 5152 5175 "mOOL_main.ml" 149 5152 5213
+type(
+  string
+)
+"mOOL_main.ml" 149 5152 5160 "mOOL_main.ml" 149 5152 5213
+call(
+  stack
+)
+type(
+  unit
+)
+"mOOL_main.ml" 150 5215 5223 "mOOL_main.ml" 150 5215 5237
+type(
+  string -> unit
+)
+ident(
+  int_ref print_endlinev "mOOL_main.ml" 33 748 752 "mOOL_main.ml" 33 748 766
+)
+"mOOL_main.ml" 150 5215 5239 "mOOL_main.ml" 150 5215 5276
+type(
+  Ir3mOOL_structs.ir3_program -> string
+)
+ident(
+  ext_ref Ir3mOOL_structs.string_of_ir3_program
+)
+"mOOL_main.ml" 150 5215 5277 "mOOL_main.ml" 150 5215 5294
+type(
+  Ir3mOOL_structs.ir3_program
+)
+ident(
+  int_ref ir3prog_optimized "mOOL_main.ml" 143 4955 4963 "mOOL_main.ml" 143 4955 4980
+)
+"mOOL_main.ml" 150 5215 5238 "mOOL_main.ml" 150 5215 5295
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 150 5215 5223 "mOOL_main.ml" 150 5215 5295
+call(
+  stack
+)
+type(
+  unit
+)
+"mOOL_main.ml" 148 5140 5146 "mOOL_main.ml" 151 5296 5305
+type(
+  unit
+)
+"mOOL_main.ml" 152 5306 5315 "mOOL_main.ml" 152 5306 5329
+type(
+  string -> unit
+)
+ident(
+  int_ref print_endlinev "mOOL_main.ml" 33 748 752 "mOOL_main.ml" 33 748 766
+)
+"mOOL_main.ml" 152 5306 5330 "mOOL_main.ml" 152 5306 5332
+type(
+  string
+)
+"mOOL_main.ml" 152 5306 5315 "mOOL_main.ml" 152 5306 5332
+call(
+  stack
+)
+type(
+  unit
+)
+"mOOL_main.ml" 147 5095 5099 "mOOL_main.ml" 152 5306 5332
+type(
+  unit
+)
+"mOOL_main.ml" 153 5334 5342 "mOOL_main.ml" 153 5334 5358
+type(
+  Ir3mOOL_structs.cdata3 list * Ir3mOOL_structs.md_decl3 *
+  Ir3mOOL_structs.md_decl3 list
+)
+ident(
+  def ir3prog_filtered "mOOL_main.ml" 155 5493 5497 "mOOL_main.ml" 176 6503 6566
+)
+"mOOL_main.ml" 153 5334 5361 "mOOL_main.ml" 153 5334 5390
+type(
+  Ir3mOOL_structs.ir3_program ->
+  Ir3mOOL_structs.cdata3 list * Ir3mOOL_structs.md_decl3 *
+  Ir3mOOL_structs.md_decl3 list
+)
+ident(
+  ext_ref Ir3_filter.ir3_program_filter
+)
+"mOOL_main.ml" 153 5334 5391 "mOOL_main.ml" 153 5334 5408
+type(
+  Ir3mOOL_structs.ir3_program
+)
+ident(
+  int_ref ir3prog_optimized "mOOL_main.ml" 143 4955 4963 "mOOL_main.ml" 143 4955 4980
+)
+"mOOL_main.ml" 153 5334 5361 "mOOL_main.ml" 153 5334 5408
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.cdata3 list * Ir3mOOL_structs.md_decl3 *
+  Ir3mOOL_structs.md_decl3 list
+)
+"mOOL_main.ml" 155 5493 5501 "mOOL_main.ml" 155 5493 5511
+type(
+  Ir3_structs_new.ir3_program_new
+)
+ident(
+  def ir3newprog "mOOL_main.ml" 156 5581 5585 "mOOL_main.ml" 176 6503 6566
+)
+"mOOL_main.ml" 155 5493 5514 "mOOL_main.ml" 155 5493 5560
+type(
+  Ir3mOOL_structs.ir3_program -> Ir3_structs_new.ir3_program_new
+)
+ident(
+  ext_ref Ir3_structs_new.ir3_program_to_ir3_program_new
+)
+"mOOL_main.ml" 155 5493 5561 "mOOL_main.ml" 155 5493 5577
+type(
+  Ir3mOOL_structs.ir3_program
+)
+ident(
+  int_ref ir3prog_filtered "mOOL_main.ml" 153 5334 5342 "mOOL_main.ml" 153 5334 5358
+)
+"mOOL_main.ml" 155 5493 5514 "mOOL_main.ml" 155 5493 5577
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_program_new
+)
+"mOOL_main.ml" 156 5581 5589 "mOOL_main.ml" 156 5581 5599
+type(
+  Ir3_structs_new.ir3_program_new
+)
+ident(
+  def ir3newprog "mOOL_main.ml" 160 5747 5751 "mOOL_main.ml" 176 6503 6566
+)
+"mOOL_main.ml" 156 5581 5605 "mOOL_main.ml" 156 5581 5606
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 156 5581 5606 "mOOL_main.ml" 156 5581 5637
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_deadcode
+)
+"mOOL_main.ml" 156 5581 5605 "mOOL_main.ml" 156 5581 5637
+type(
+  bool
+)
+"mOOL_main.ml" 157 5644 5652 "mOOL_main.ml" 157 5644 5700
+type(
+  Ir3_structs_new.ir3_program_new -> Ir3_structs_new.ir3_program_new
+)
+ident(
+  ext_ref Liveness_analysis.dead_code_elimination_for_prog
+)
+"mOOL_main.ml" 158 5701 5711 "mOOL_main.ml" 158 5701 5721
+type(
+  Ir3_structs_new.ir3_program_new
+)
+ident(
+  int_ref ir3newprog "mOOL_main.ml" 155 5493 5501 "mOOL_main.ml" 155 5493 5511
+)
+"mOOL_main.ml" 157 5644 5652 "mOOL_main.ml" 158 5701 5721
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_program_new
+)
+"mOOL_main.ml" 159 5722 5733 "mOOL_main.ml" 159 5722 5743
+type(
+  Ir3_structs_new.ir3_program_new
+)
+ident(
+  int_ref ir3newprog "mOOL_main.ml" 155 5493 5501 "mOOL_main.ml" 155 5493 5511
+)
+"mOOL_main.ml" 156 5581 5602 "mOOL_main.ml" 159 5722 5743
+type(
+  Ir3_structs_new.ir3_program_new
+)
+"mOOL_main.ml" 160 5747 5755 "mOOL_main.ml" 160 5747 5765
+type(
+  Ir3_structs_new.cdata3_new list * Ir3_structs_new.md_decl3_new *
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  def ir3newprog "mOOL_main.ml" 161 5803 5807 "mOOL_main.ml" 176 6503 6566
+)
+"mOOL_main.ml" 160 5747 5768 "mOOL_main.ml" 160 5747 5788
+type(
+  Ir3_structs_new.ir3_program_new ->
+  Ir3_structs_new.cdata3_new list * Ir3_structs_new.md_decl3_new *
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  int_ref basic_block_optimize "mOOL_main.ml" 78 2156 2160 "mOOL_main.ml" 78 2156 2180
+)
+"mOOL_main.ml" 160 5747 5789 "mOOL_main.ml" 160 5747 5799
+type(
+  Ir3_structs_new.ir3_program_new
+)
+ident(
+  int_ref ir3newprog "mOOL_main.ml" 156 5581 5589 "mOOL_main.ml" 156 5581 5599
+)
+"mOOL_main.ml" 160 5747 5768 "mOOL_main.ml" 160 5747 5799
+call(
+  stack
+)
+type(
+  Ir3_structs_new.cdata3_new list * Ir3_structs_new.md_decl3_new *
+  Ir3_structs_new.md_decl3_new list
+)
+"mOOL_main.ml" 161 5803 5811 "mOOL_main.ml" 161 5803 5829
+type(
+  Ir3_structs_new.cdata3_new list * Ir3_structs_new.md_decl3_new *
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  def updated_ir3newprog "mOOL_main.ml" 162 5862 5866 "mOOL_main.ml" 176 6503 6566
+)
+"mOOL_main.ml" 161 5803 5832 "mOOL_main.ml" 161 5803 5847
+type(
+  Ir3_structs_new.cdata3_new list * Ir3_structs_new.md_decl3_new *
+  Ir3_structs_new.md_decl3_new list ->
+  Ir3_structs_new.cdata3_new list * Ir3_structs_new.md_decl3_new *
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  int_ref analyze_program "mOOL_main.ml" 73 1998 2002 "mOOL_main.ml" 73 1998 2017
+)
+"mOOL_main.ml" 161 5803 5848 "mOOL_main.ml" 161 5803 5858
+type(
+  Ir3_structs_new.cdata3_new list * Ir3_structs_new.md_decl3_new *
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  int_ref ir3newprog "mOOL_main.ml" 160 5747 5755 "mOOL_main.ml" 160 5747 5765
+)
+"mOOL_main.ml" 161 5803 5832 "mOOL_main.ml" 161 5803 5858
+call(
+  stack
+)
+type(
+  Ir3_structs_new.cdata3_new list * Ir3_structs_new.md_decl3_new *
+  Ir3_structs_new.md_decl3_new list
+)
+"mOOL_main.ml" 162 5862 5870 "mOOL_main.ml" 162 5862 5871
+type(
+  unit
+)
+"mOOL_main.ml" 162 5862 5874 "mOOL_main.ml" 162 5862 5888
+type(
+  string -> unit
+)
+ident(
+  int_ref print_endlinev "mOOL_main.ml" 33 748 752 "mOOL_main.ml" 33 748 766
+)
+"mOOL_main.ml" 162 5862 5890 "mOOL_main.ml" 162 5862 5927
+type(
+  string
+)
+"mOOL_main.ml" 162 5862 5927 "mOOL_main.ml" 162 5862 5928
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"mOOL_main.ml" 163 5929 5957 "mOOL_main.ml" 163 5929 5998
+type(
+  Ir3_structs_new.ir3_program_new -> string
+)
+ident(
+  ext_ref Ir3_structs_new.string_of_ir3_program_new
+)
+"mOOL_main.ml" 163 5929 5999 "mOOL_main.ml" 163 5929 6017
+type(
+  Ir3_structs_new.ir3_program_new
+)
+ident(
+  int_ref updated_ir3newprog "mOOL_main.ml" 161 5803 5811 "mOOL_main.ml" 161 5803 5829
+)
+"mOOL_main.ml" 163 5929 5957 "mOOL_main.ml" 163 5929 6017
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 162 5862 5889 "mOOL_main.ml" 163 5929 6018
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 162 5862 5874 "mOOL_main.ml" 163 5929 6018
+call(
+  stack
+)
+type(
+  unit
+)
+"mOOL_main.ml" 164 6022 6030 "mOOL_main.ml" 164 6022 6043
+type(
+  Ir3_structs_new.cdata3_new list * Ir3_structs_new.md_decl3_new *
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  def final_ir3prog "mOOL_main.ml" 170 6232 6236 "mOOL_main.ml" 176 6503 6566
+)
+"mOOL_main.ml" 165 6046 6056 "mOOL_main.ml" 165 6046 6057
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 165 6046 6057 "mOOL_main.ml" 165 6046 6087
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_ldr_str
+)
+"mOOL_main.ml" 165 6046 6055 "mOOL_main.ml" 165 6046 6088
+type(
+  bool
+)
+"mOOL_main.ml" 166 6094 6103 "mOOL_main.ml" 166 6094 6140
+type(
+  Ir3_structs_new.cdata3_new list * Ir3_structs_new.md_decl3_new *
+  Ir3_structs_new.md_decl3_new list ->
+  Ir3_structs_new.cdata3_new list * Ir3_structs_new.md_decl3_new *
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  ext_ref Ldr_str_optimizer.ldr_str_opt_program
+)
+"mOOL_main.ml" 166 6094 6141 "mOOL_main.ml" 166 6094 6159
+type(
+  Ir3_structs_new.cdata3_new list * Ir3_structs_new.md_decl3_new *
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  int_ref updated_ir3newprog "mOOL_main.ml" 161 5803 5811 "mOOL_main.ml" 161 5803 5829
+)
+"mOOL_main.ml" 166 6094 6102 "mOOL_main.ml" 166 6094 6160
+call(
+  stack
+)
+type(
+  Ir3_structs_new.cdata3_new list * Ir3_structs_new.md_decl3_new *
+  Ir3_structs_new.md_decl3_new list
+)
+"mOOL_main.ml" 167 6161 6172 "mOOL_main.ml" 167 6161 6190
+type(
+  Ir3_structs_new.cdata3_new list * Ir3_structs_new.md_decl3_new *
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  int_ref updated_ir3newprog "mOOL_main.ml" 161 5803 5811 "mOOL_main.ml" 161 5803 5829
+)
+"mOOL_main.ml" 165 6046 6052 "mOOL_main.ml" 167 6161 6190
+type(
+  Ir3_structs_new.cdata3_new list * Ir3_structs_new.md_decl3_new *
+  Ir3_structs_new.md_decl3_new list
+)
+"mOOL_main.ml" 170 6232 6240 "mOOL_main.ml" 170 6232 6251
+type(
+  Arm_structs.arm_program
+)
+ident(
+  def arm_program "mOOL_main.ml" 171 6293 6297 "mOOL_main.ml" 176 6503 6566
+)
+"mOOL_main.ml" 170 6232 6254 "mOOL_main.ml" 170 6232 6275
+type(
+  Ir3_structs_new.cdata3_new list * Ir3_structs_new.md_decl3_new *
+  Ir3_structs_new.md_decl3_new list -> Arm_structs.arm_program
+)
+ident(
+  ext_ref Ir3_to_arm.ir3_to_arm
+)
+"mOOL_main.ml" 170 6232 6276 "mOOL_main.ml" 170 6232 6289
+type(
+  Ir3_structs_new.cdata3_new list * Ir3_structs_new.md_decl3_new *
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  int_ref final_ir3prog "mOOL_main.ml" 164 6022 6030 "mOOL_main.ml" 164 6022 6043
+)
+"mOOL_main.ml" 170 6232 6254 "mOOL_main.ml" 170 6232 6289
+call(
+  stack
+)
+type(
+  Arm_structs.arm_program
+)
+"mOOL_main.ml" 171 6293 6301 "mOOL_main.ml" 171 6293 6305
+type(
+  out_channel
+)
+ident(
+  def file "mOOL_main.ml" 172 6333 6337 "mOOL_main.ml" 176 6503 6566
+)
+"mOOL_main.ml" 171 6293 6308 "mOOL_main.ml" 171 6293 6316
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"mOOL_main.ml" 171 6293 6317 "mOOL_main.ml" 171 6293 6318
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 171 6293 6318 "mOOL_main.ml" 171 6293 6329
+type(
+  string ref
+)
+ident(
+  int_ref output_file "mOOL_main.ml" 26 584 588 "mOOL_main.ml" 26 584 599
+)
+"mOOL_main.ml" 171 6293 6317 "mOOL_main.ml" 171 6293 6329
+type(
+  string
+)
+"mOOL_main.ml" 171 6293 6308 "mOOL_main.ml" 171 6293 6329
+call(
+  stack
+)
+type(
+  out_channel
+)
+"mOOL_main.ml" 172 6333 6341 "mOOL_main.ml" 172 6333 6342
+type(
+  unit
+)
+"mOOL_main.ml" 172 6333 6345 "mOOL_main.ml" 172 6333 6359
+type(
+  out_channel -> (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"mOOL_main.ml" 172 6333 6360 "mOOL_main.ml" 172 6333 6364
+type(
+  out_channel
+)
+ident(
+  int_ref file "mOOL_main.ml" 171 6293 6301 "mOOL_main.ml" 171 6293 6305
+)
+"mOOL_main.ml" 172 6333 6365 "mOOL_main.ml" 172 6333 6369
+type(
+  (string -> unit, out_channel, unit) format
+)
+"mOOL_main.ml" 172 6333 6372 "mOOL_main.ml" 172 6333 6402
+type(
+  Arm_structs.arm_program -> string
+)
+ident(
+  ext_ref Arm_structs.string_of_arm_prog
+)
+"mOOL_main.ml" 172 6333 6403 "mOOL_main.ml" 172 6333 6414
+type(
+  Arm_structs.arm_program
+)
+ident(
+  int_ref arm_program "mOOL_main.ml" 170 6232 6240 "mOOL_main.ml" 170 6232 6251
+)
+"mOOL_main.ml" 172 6333 6371 "mOOL_main.ml" 172 6333 6415
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 172 6333 6415 "mOOL_main.ml" 172 6333 6416
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"mOOL_main.ml" 172 6333 6416 "mOOL_main.ml" 172 6333 6420
+type(
+  string
+)
+"mOOL_main.ml" 172 6333 6370 "mOOL_main.ml" 172 6333 6421
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 172 6333 6345 "mOOL_main.ml" 172 6333 6421
+call(
+  stack
+)
+type(
+  unit
+)
+"mOOL_main.ml" 173 6423 6429 "mOOL_main.ml" 173 6423 6438
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"mOOL_main.ml" 173 6423 6439 "mOOL_main.ml" 173 6423 6443
+type(
+  out_channel
+)
+ident(
+  int_ref file "mOOL_main.ml" 171 6293 6301 "mOOL_main.ml" 171 6293 6305
+)
+"mOOL_main.ml" 173 6423 6429 "mOOL_main.ml" 173 6423 6444
+call(
+  stack
+)
+type(
+  unit
+)
+"mOOL_main.ml" 172 6333 6345 "mOOL_main.ml" 173 6423 6444
+type(
+  unit
+)
+"mOOL_main.ml" 175 6452 6456 "mOOL_main.ml" 175 6452 6470
+type(
+  string -> unit
+)
+ident(
+  int_ref print_endlinev "mOOL_main.ml" 33 748 752 "mOOL_main.ml" 33 748 766
+)
+"mOOL_main.ml" 175 6452 6472 "mOOL_main.ml" 175 6452 6501
+type(
+  string
+)
+"mOOL_main.ml" 175 6452 6501 "mOOL_main.ml" 175 6452 6502
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"mOOL_main.ml" 176 6503 6523 "mOOL_main.ml" 176 6503 6553
+type(
+  Arm_structs.arm_program -> string
+)
+ident(
+  ext_ref Arm_structs.string_of_arm_prog
+)
+"mOOL_main.ml" 176 6503 6554 "mOOL_main.ml" 176 6503 6565
+type(
+  Arm_structs.arm_program
+)
+ident(
+  int_ref arm_program "mOOL_main.ml" 170 6232 6240 "mOOL_main.ml" 170 6232 6251
+)
+"mOOL_main.ml" 176 6503 6523 "mOOL_main.ml" 176 6503 6565
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 175 6452 6471 "mOOL_main.ml" 176 6503 6566
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 175 6452 6456 "mOOL_main.ml" 176 6503 6566
+call(
+  tail
+)
+type(
+  unit
+)
+"mOOL_main.ml" 172 6333 6337 "mOOL_main.ml" 176 6503 6566
+type(
+  unit
+)
+"mOOL_main.ml" 171 6293 6297 "mOOL_main.ml" 176 6503 6566
+type(
+  unit
+)
+"mOOL_main.ml" 170 6232 6236 "mOOL_main.ml" 176 6503 6566
+type(
+  unit
+)
+"mOOL_main.ml" 164 6022 6026 "mOOL_main.ml" 176 6503 6566
+type(
+  unit
+)
+"mOOL_main.ml" 162 5862 5866 "mOOL_main.ml" 176 6503 6566
+type(
+  unit
+)
+"mOOL_main.ml" 161 5803 5807 "mOOL_main.ml" 176 6503 6566
+type(
+  unit
+)
+"mOOL_main.ml" 160 5747 5751 "mOOL_main.ml" 176 6503 6566
+type(
+  unit
+)
+"mOOL_main.ml" 156 5581 5585 "mOOL_main.ml" 176 6503 6566
+type(
+  unit
+)
+"mOOL_main.ml" 155 5493 5497 "mOOL_main.ml" 176 6503 6566
+type(
+  unit
+)
+"mOOL_main.ml" 153 5334 5338 "mOOL_main.ml" 176 6503 6566
+type(
+  unit
+)
+"mOOL_main.ml" 147 5095 5099 "mOOL_main.ml" 176 6503 6566
+type(
+  unit
+)
+"mOOL_main.ml" 143 4955 4959 "mOOL_main.ml" 176 6503 6566
+type(
+  unit
+)
+"mOOL_main.ml" 142 4887 4891 "mOOL_main.ml" 176 6503 6566
+type(
+  unit
+)
+"mOOL_main.ml" 141 4824 4828 "mOOL_main.ml" 176 6503 6566
+type(
+  unit
+)
+"mOOL_main.ml" 134 4468 4470 "mOOL_main.ml" 177 6567 6572
+type(
+  unit
+)
+"mOOL_main.ml" 180 6582 6588 "mOOL_main.ml" 180 6582 6595
+type(
+  unit -> unit
+)
+ident(
+  def set_all "mOOL_main.ml" 186 6835 6840 "mOOL_main.ml" 210 8852 8895
+)
+"mOOL_main.ml" 180 6582 6595 "mOOL_main.ml" 180 6582 6597
+type(
+  unit
+)
+"mOOL_main.ml" 181 6601 6605 "mOOL_main.ml" 181 6601 6636
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_deadcode
+)
+"mOOL_main.ml" 181 6601 6636 "mOOL_main.ml" 181 6601 6638
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"mOOL_main.ml" 181 6601 6638 "mOOL_main.ml" 181 6601 6642
+type(
+  bool
+)
+"mOOL_main.ml" 181 6601 6605 "mOOL_main.ml" 181 6601 6642
+type(
+  unit
+)
+"mOOL_main.ml" 182 6644 6648 "mOOL_main.ml" 182 6644 6692
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_common_sub_expression
+)
+"mOOL_main.ml" 182 6644 6692 "mOOL_main.ml" 182 6644 6694
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"mOOL_main.ml" 182 6644 6694 "mOOL_main.ml" 182 6644 6698
+type(
+  bool
+)
+"mOOL_main.ml" 182 6644 6648 "mOOL_main.ml" 182 6644 6698
+type(
+  unit
+)
+"mOOL_main.ml" 183 6700 6704 "mOOL_main.ml" 183 6700 6743
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_copy_propagation
+)
+"mOOL_main.ml" 183 6700 6743 "mOOL_main.ml" 183 6700 6745
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"mOOL_main.ml" 183 6700 6745 "mOOL_main.ml" 183 6700 6749
+type(
+  bool
+)
+"mOOL_main.ml" 183 6700 6704 "mOOL_main.ml" 183 6700 6749
+type(
+  unit
+)
+"mOOL_main.ml" 184 6751 6755 "mOOL_main.ml" 184 6751 6786
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_peephole
+)
+"mOOL_main.ml" 184 6751 6786 "mOOL_main.ml" 184 6751 6788
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"mOOL_main.ml" 184 6751 6788 "mOOL_main.ml" 184 6751 6792
+type(
+  bool
+)
+"mOOL_main.ml" 184 6751 6755 "mOOL_main.ml" 184 6751 6792
+type(
+  unit
+)
+"mOOL_main.ml" 185 6794 6798 "mOOL_main.ml" 185 6794 6828
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_ldr_str
+)
+"mOOL_main.ml" 185 6794 6828 "mOOL_main.ml" 185 6794 6830
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"mOOL_main.ml" 185 6794 6830 "mOOL_main.ml" 185 6794 6834
+type(
+  bool
+)
+"mOOL_main.ml" 185 6794 6798 "mOOL_main.ml" 185 6794 6834
+type(
+  unit
+)
+"mOOL_main.ml" 184 6751 6755 "mOOL_main.ml" 185 6794 6834
+type(
+  unit
+)
+"mOOL_main.ml" 183 6700 6704 "mOOL_main.ml" 185 6794 6834
+type(
+  unit
+)
+"mOOL_main.ml" 182 6644 6648 "mOOL_main.ml" 185 6794 6834
+type(
+  unit
+)
+"mOOL_main.ml" 181 6601 6605 "mOOL_main.ml" 185 6794 6834
+type(
+  unit
+)
+"mOOL_main.ml" 186 6835 6844 "mOOL_main.ml" 186 6835 6852
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  def speclist "mOOL_main.ml" 196 7801 7806 "mOOL_main.ml" 210 8852 8895
+)
+"mOOL_main.ml" 186 6835 6857 "mOOL_main.ml" 186 6835 6861
+type(
+  string
+)
+"mOOL_main.ml" 186 6835 6871 "mOOL_main.ml" 186 6835 6902
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_deadcode
+)
+"mOOL_main.ml" 186 6835 6863 "mOOL_main.ml" 186 6835 6902
+type(
+  Arg.spec
+)
+"mOOL_main.ml" 186 6835 6904 "mOOL_main.ml" 186 6835 6935
+type(
+  string
+)
+"mOOL_main.ml" 186 6835 6856 "mOOL_main.ml" 186 6835 6936
+type(
+  string * Arg.spec * string
+)
+"mOOL_main.ml" 187 6938 6960 "mOOL_main.ml" 187 6938 6966
+type(
+  string
+)
+"mOOL_main.ml" 187 6938 6976 "mOOL_main.ml" 187 6938 7020
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_common_sub_expression
+)
+"mOOL_main.ml" 187 6938 6968 "mOOL_main.ml" 187 6938 7020
+type(
+  Arg.spec
+)
+"mOOL_main.ml" 187 6938 7022 "mOOL_main.ml" 187 6938 7066
+type(
+  string
+)
+"mOOL_main.ml" 187 6938 6959 "mOOL_main.ml" 187 6938 7067
+type(
+  string * Arg.spec * string
+)
+"mOOL_main.ml" 188 7069 7091 "mOOL_main.ml" 188 7069 7098
+type(
+  string
+)
+"mOOL_main.ml" 188 7069 7108 "mOOL_main.ml" 188 7069 7159
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_global_common_sub_expression
+)
+"mOOL_main.ml" 188 7069 7100 "mOOL_main.ml" 188 7069 7159
+type(
+  Arg.spec
+)
+"mOOL_main.ml" 188 7069 7161 "mOOL_main.ml" 188 7069 7212
+type(
+  string
+)
+"mOOL_main.ml" 188 7069 7090 "mOOL_main.ml" 188 7069 7213
+type(
+  string * Arg.spec * string
+)
+"mOOL_main.ml" 189 7215 7237 "mOOL_main.ml" 189 7215 7242
+type(
+  string
+)
+"mOOL_main.ml" 189 7215 7252 "mOOL_main.ml" 189 7215 7291
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_copy_propagation
+)
+"mOOL_main.ml" 189 7215 7244 "mOOL_main.ml" 189 7215 7291
+type(
+  Arg.spec
+)
+"mOOL_main.ml" 189 7215 7293 "mOOL_main.ml" 189 7215 7332
+type(
+  string
+)
+"mOOL_main.ml" 189 7215 7236 "mOOL_main.ml" 189 7215 7333
+type(
+  string * Arg.spec * string
+)
+"mOOL_main.ml" 190 7335 7357 "mOOL_main.ml" 190 7335 7362
+type(
+  string
+)
+"mOOL_main.ml" 190 7335 7372 "mOOL_main.ml" 190 7335 7403
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_peephole
+)
+"mOOL_main.ml" 190 7335 7364 "mOOL_main.ml" 190 7335 7403
+type(
+  Arg.spec
+)
+"mOOL_main.ml" 190 7335 7405 "mOOL_main.ml" 190 7335 7436
+type(
+  string
+)
+"mOOL_main.ml" 190 7335 7356 "mOOL_main.ml" 190 7335 7437
+type(
+  string * Arg.spec * string
+)
+"mOOL_main.ml" 191 7439 7461 "mOOL_main.ml" 191 7439 7466
+type(
+  string
+)
+"mOOL_main.ml" 191 7439 7476 "mOOL_main.ml" 191 7439 7506
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_ldr_str
+)
+"mOOL_main.ml" 191 7439 7468 "mOOL_main.ml" 191 7439 7506
+type(
+  Arg.spec
+)
+"mOOL_main.ml" 191 7439 7508 "mOOL_main.ml" 191 7439 7546
+type(
+  string
+)
+"mOOL_main.ml" 191 7439 7460 "mOOL_main.ml" 191 7439 7547
+type(
+  string * Arg.spec * string
+)
+"mOOL_main.ml" 192 7549 7571 "mOOL_main.ml" 192 7549 7575
+type(
+  string
+)
+"mOOL_main.ml" 192 7549 7592 "mOOL_main.ml" 192 7549 7603
+type(
+  string ref
+)
+ident(
+  int_ref output_file "mOOL_main.ml" 26 584 588 "mOOL_main.ml" 26 584 599
+)
+"mOOL_main.ml" 192 7549 7577 "mOOL_main.ml" 192 7549 7603
+type(
+  Arg.spec
+)
+"mOOL_main.ml" 192 7549 7605 "mOOL_main.ml" 192 7549 7627
+type(
+  string
+)
+"mOOL_main.ml" 192 7549 7570 "mOOL_main.ml" 192 7549 7628
+type(
+  string * Arg.spec * string
+)
+"mOOL_main.ml" 193 7630 7652 "mOOL_main.ml" 193 7630 7656
+type(
+  string
+)
+"mOOL_main.ml" 193 7630 7666 "mOOL_main.ml" 193 7630 7673
+type(
+  bool ref
+)
+ident(
+  int_ref verbose "mOOL_main.ml" 27 609 613 "mOOL_main.ml" 27 609 620
+)
+"mOOL_main.ml" 193 7630 7658 "mOOL_main.ml" 193 7630 7673
+type(
+  Arg.spec
+)
+"mOOL_main.ml" 193 7630 7675 "mOOL_main.ml" 193 7630 7701
+type(
+  string
+)
+"mOOL_main.ml" 193 7630 7651 "mOOL_main.ml" 193 7630 7702
+type(
+  string * Arg.spec * string
+)
+"mOOL_main.ml" 194 7704 7726 "mOOL_main.ml" 194 7704 7730
+type(
+  string
+)
+"mOOL_main.ml" 194 7704 7741 "mOOL_main.ml" 194 7704 7748
+type(
+  unit -> unit
+)
+ident(
+  int_ref set_all "mOOL_main.ml" 180 6582 6588 "mOOL_main.ml" 180 6582 6595
+)
+"mOOL_main.ml" 194 7704 7732 "mOOL_main.ml" 194 7704 7748
+type(
+  Arg.spec
+)
+"mOOL_main.ml" 194 7704 7750 "mOOL_main.ml" 194 7704 7776
+type(
+  string
+)
+"mOOL_main.ml" 194 7704 7725 "mOOL_main.ml" 194 7704 7777
+type(
+  string * Arg.spec * string
+)
+"mOOL_main.ml" 186 6835 6855 "mOOL_main.ml" 195 7779 7800
+type(
+  (string * Arg.spec * string) list
+)
+"mOOL_main.ml" 196 7801 7810 "mOOL_main.ml" 196 7801 7819
+type(
+  string
+)
+ident(
+  def usage_msg "mOOL_main.ml" 198 7871 7873 "mOOL_main.ml" 210 8852 8895
+)
+"mOOL_main.ml" 196 7801 7822 "mOOL_main.ml" 196 7801 7865
+type(
+  string
+)
+"mOOL_main.ml" 198 7871 7873 "mOOL_main.ml" 198 7871 7882
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  ext_ref Arg.parse
+)
+"mOOL_main.ml" 198 7871 7883 "mOOL_main.ml" 198 7871 7891
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref speclist "mOOL_main.ml" 186 6835 6844 "mOOL_main.ml" 186 6835 6852
+)
+"mOOL_main.ml" 198 7871 7897 "mOOL_main.ml" 198 7871 7898
+type(
+  string
+)
+ident(
+  def x "mOOL_main.ml" 198 7871 7902 "mOOL_main.ml" 198 7871 7933
+)
+"mOOL_main.ml" 198 7871 7902 "mOOL_main.ml" 198 7871 7914
+type(
+  string list ref
+)
+ident(
+  int_ref source_files "mOOL_main.ml" 25 558 562 "mOOL_main.ml" 25 558 574
+)
+"mOOL_main.ml" 198 7871 7914 "mOOL_main.ml" 198 7871 7916
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"mOOL_main.ml" 198 7871 7916 "mOOL_main.ml" 198 7871 7917
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 198 7871 7917 "mOOL_main.ml" 198 7871 7929
+type(
+  string list ref
+)
+ident(
+  int_ref source_files "mOOL_main.ml" 25 558 562 "mOOL_main.ml" 25 558 574
+)
+"mOOL_main.ml" 198 7871 7916 "mOOL_main.ml" 198 7871 7929
+type(
+  string list
+)
+"mOOL_main.ml" 198 7871 7929 "mOOL_main.ml" 198 7871 7930
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"mOOL_main.ml" 198 7871 7931 "mOOL_main.ml" 198 7871 7932
+type(
+  string
+)
+ident(
+  int_ref x "mOOL_main.ml" 198 7871 7897 "mOOL_main.ml" 198 7871 7898
+)
+"mOOL_main.ml" 198 7871 7930 "mOOL_main.ml" 198 7871 7933
+type(
+  string list
+)
+"mOOL_main.ml" 198 7871 7916 "mOOL_main.ml" 198 7871 7933
+call(
+  stack
+)
+type(
+  string list
+)
+"mOOL_main.ml" 198 7871 7902 "mOOL_main.ml" 198 7871 7933
+type(
+  unit
+)
+"mOOL_main.ml" 198 7871 7892 "mOOL_main.ml" 198 7871 7934
+type(
+  Arg.anon_fun
+)
+"mOOL_main.ml" 198 7871 7935 "mOOL_main.ml" 198 7871 7944
+type(
+  Arg.usage_msg
+)
+ident(
+  int_ref usage_msg "mOOL_main.ml" 196 7801 7810 "mOOL_main.ml" 196 7801 7819
+)
+"mOOL_main.ml" 198 7871 7873 "mOOL_main.ml" 198 7871 7944
+call(
+  stack
+)
+type(
+  unit
+)
+"mOOL_main.ml" 199 7946 7952 "mOOL_main.ml" 199 7946 7953
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 199 7946 7953 "mOOL_main.ml" 199 7946 7997
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_common_sub_expression
+)
+"mOOL_main.ml" 199 7946 7952 "mOOL_main.ml" 199 7946 7997
+type(
+  bool
+)
+"mOOL_main.ml" 199 7946 7998 "mOOL_main.ml" 199 7946 8000
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"mOOL_main.ml" 199 7946 8001 "mOOL_main.ml" 199 7946 8002
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 199 7946 8002 "mOOL_main.ml" 199 7946 8053
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_global_common_sub_expression
+)
+"mOOL_main.ml" 199 7946 8001 "mOOL_main.ml" 199 7946 8053
+type(
+  bool
+)
+"mOOL_main.ml" 199 7946 7951 "mOOL_main.ml" 199 7946 8054
+type(
+  bool
+)
+"mOOL_main.ml" 200 8060 8064 "mOOL_main.ml" 200 8060 8095
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_deadcode
+)
+"mOOL_main.ml" 200 8060 8096 "mOOL_main.ml" 200 8060 8098
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"mOOL_main.ml" 200 8060 8099 "mOOL_main.ml" 200 8060 8103
+type(
+  bool
+)
+"mOOL_main.ml" 200 8060 8064 "mOOL_main.ml" 200 8060 8103
+type(
+  unit
+)
+"mOOL_main.ml" 200 8060 8109 "mOOL_main.ml" 200 8060 8111
+type(
+  unit
+)
+"mOOL_main.ml" 199 7946 7948 "mOOL_main.ml" 200 8060 8111
+type(
+  unit
+)
+"mOOL_main.ml" 201 8113 8115 "mOOL_main.ml" 201 8113 8129
+type(
+  string -> unit
+)
+ident(
+  int_ref print_endlinev "mOOL_main.ml" 33 748 752 "mOOL_main.ml" 33 748 766
+)
+"mOOL_main.ml" 201 8113 8131 "mOOL_main.ml" 201 8113 8148
+type(
+  string
+)
+"mOOL_main.ml" 201 8113 8149 "mOOL_main.ml" 201 8113 8150
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"mOOL_main.ml" 201 8113 8151 "mOOL_main.ml" 201 8113 8165
+type(
+  bool -> string
+)
+ident(
+  ext_ref Pervasives.string_of_bool
+)
+"mOOL_main.ml" 201 8113 8166 "mOOL_main.ml" 201 8113 8167
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 201 8113 8167 "mOOL_main.ml" 201 8113 8198
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_deadcode
+)
+"mOOL_main.ml" 201 8113 8166 "mOOL_main.ml" 201 8113 8198
+type(
+  bool
+)
+"mOOL_main.ml" 201 8113 8151 "mOOL_main.ml" 201 8113 8198
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 201 8113 8130 "mOOL_main.ml" 201 8113 8199
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 201 8113 8115 "mOOL_main.ml" 201 8113 8199
+call(
+  stack
+)
+type(
+  unit
+)
+"mOOL_main.ml" 202 8201 8203 "mOOL_main.ml" 202 8201 8217
+type(
+  string -> unit
+)
+ident(
+  int_ref print_endlinev "mOOL_main.ml" 33 748 752 "mOOL_main.ml" 33 748 766
+)
+"mOOL_main.ml" 202 8201 8219 "mOOL_main.ml" 202 8201 8249
+type(
+  string
+)
+"mOOL_main.ml" 202 8201 8250 "mOOL_main.ml" 202 8201 8251
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"mOOL_main.ml" 202 8201 8252 "mOOL_main.ml" 202 8201 8266
+type(
+  bool -> string
+)
+ident(
+  ext_ref Pervasives.string_of_bool
+)
+"mOOL_main.ml" 202 8201 8267 "mOOL_main.ml" 202 8201 8268
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 202 8201 8268 "mOOL_main.ml" 202 8201 8312
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_common_sub_expression
+)
+"mOOL_main.ml" 202 8201 8267 "mOOL_main.ml" 202 8201 8312
+type(
+  bool
+)
+"mOOL_main.ml" 202 8201 8252 "mOOL_main.ml" 202 8201 8312
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 202 8201 8218 "mOOL_main.ml" 202 8201 8313
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 202 8201 8203 "mOOL_main.ml" 202 8201 8313
+call(
+  stack
+)
+type(
+  unit
+)
+"mOOL_main.ml" 203 8315 8317 "mOOL_main.ml" 203 8315 8331
+type(
+  string -> unit
+)
+ident(
+  int_ref print_endlinev "mOOL_main.ml" 33 748 752 "mOOL_main.ml" 33 748 766
+)
+"mOOL_main.ml" 203 8315 8333 "mOOL_main.ml" 203 8315 8370
+type(
+  string
+)
+"mOOL_main.ml" 203 8315 8371 "mOOL_main.ml" 203 8315 8372
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"mOOL_main.ml" 203 8315 8373 "mOOL_main.ml" 203 8315 8387
+type(
+  bool -> string
+)
+ident(
+  ext_ref Pervasives.string_of_bool
+)
+"mOOL_main.ml" 203 8315 8388 "mOOL_main.ml" 203 8315 8389
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 203 8315 8389 "mOOL_main.ml" 203 8315 8440
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_global_common_sub_expression
+)
+"mOOL_main.ml" 203 8315 8388 "mOOL_main.ml" 203 8315 8440
+type(
+  bool
+)
+"mOOL_main.ml" 203 8315 8373 "mOOL_main.ml" 203 8315 8440
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 203 8315 8332 "mOOL_main.ml" 203 8315 8441
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 203 8315 8317 "mOOL_main.ml" 203 8315 8441
+call(
+  stack
+)
+type(
+  unit
+)
+"mOOL_main.ml" 204 8443 8445 "mOOL_main.ml" 204 8443 8459
+type(
+  string -> unit
+)
+ident(
+  int_ref print_endlinev "mOOL_main.ml" 33 748 752 "mOOL_main.ml" 33 748 766
+)
+"mOOL_main.ml" 204 8443 8461 "mOOL_main.ml" 204 8443 8486
+type(
+  string
+)
+"mOOL_main.ml" 204 8443 8487 "mOOL_main.ml" 204 8443 8488
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"mOOL_main.ml" 204 8443 8489 "mOOL_main.ml" 204 8443 8503
+type(
+  bool -> string
+)
+ident(
+  ext_ref Pervasives.string_of_bool
+)
+"mOOL_main.ml" 204 8443 8504 "mOOL_main.ml" 204 8443 8505
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 204 8443 8505 "mOOL_main.ml" 204 8443 8544
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_copy_propagation
+)
+"mOOL_main.ml" 204 8443 8504 "mOOL_main.ml" 204 8443 8544
+type(
+  bool
+)
+"mOOL_main.ml" 204 8443 8489 "mOOL_main.ml" 204 8443 8544
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 204 8443 8460 "mOOL_main.ml" 204 8443 8545
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 204 8443 8445 "mOOL_main.ml" 204 8443 8545
+call(
+  stack
+)
+type(
+  unit
+)
+"mOOL_main.ml" 205 8547 8549 "mOOL_main.ml" 205 8547 8563
+type(
+  string -> unit
+)
+ident(
+  int_ref print_endlinev "mOOL_main.ml" 33 748 752 "mOOL_main.ml" 33 748 766
+)
+"mOOL_main.ml" 205 8547 8565 "mOOL_main.ml" 205 8547 8582
+type(
+  string
+)
+"mOOL_main.ml" 205 8547 8583 "mOOL_main.ml" 205 8547 8584
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"mOOL_main.ml" 205 8547 8585 "mOOL_main.ml" 205 8547 8599
+type(
+  bool -> string
+)
+ident(
+  ext_ref Pervasives.string_of_bool
+)
+"mOOL_main.ml" 205 8547 8600 "mOOL_main.ml" 205 8547 8601
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 205 8547 8601 "mOOL_main.ml" 205 8547 8632
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_peephole
+)
+"mOOL_main.ml" 205 8547 8600 "mOOL_main.ml" 205 8547 8632
+type(
+  bool
+)
+"mOOL_main.ml" 205 8547 8585 "mOOL_main.ml" 205 8547 8632
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 205 8547 8564 "mOOL_main.ml" 205 8547 8633
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 205 8547 8549 "mOOL_main.ml" 205 8547 8633
+call(
+  stack
+)
+type(
+  unit
+)
+"mOOL_main.ml" 206 8635 8637 "mOOL_main.ml" 206 8635 8651
+type(
+  string -> unit
+)
+ident(
+  int_ref print_endlinev "mOOL_main.ml" 33 748 752 "mOOL_main.ml" 33 748 766
+)
+"mOOL_main.ml" 206 8635 8653 "mOOL_main.ml" 206 8635 8669
+type(
+  string
+)
+"mOOL_main.ml" 206 8635 8670 "mOOL_main.ml" 206 8635 8671
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"mOOL_main.ml" 206 8635 8672 "mOOL_main.ml" 206 8635 8686
+type(
+  bool -> string
+)
+ident(
+  ext_ref Pervasives.string_of_bool
+)
+"mOOL_main.ml" 206 8635 8687 "mOOL_main.ml" 206 8635 8688
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 206 8635 8688 "mOOL_main.ml" 206 8635 8718
+type(
+  bool ref
+)
+ident(
+  ext_ref Optimization_flags.opt_ldr_str
+)
+"mOOL_main.ml" 206 8635 8687 "mOOL_main.ml" 206 8635 8718
+type(
+  bool
+)
+"mOOL_main.ml" 206 8635 8672 "mOOL_main.ml" 206 8635 8718
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 206 8635 8652 "mOOL_main.ml" 206 8635 8719
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 206 8635 8637 "mOOL_main.ml" 206 8635 8719
+call(
+  stack
+)
+type(
+  unit
+)
+"mOOL_main.ml" 207 8721 8729 "mOOL_main.ml" 207 8721 8730
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 207 8721 8730 "mOOL_main.ml" 207 8721 8742
+type(
+  string list ref
+)
+ident(
+  int_ref source_files "mOOL_main.ml" 25 558 562 "mOOL_main.ml" 25 558 574
+)
+"mOOL_main.ml" 207 8721 8729 "mOOL_main.ml" 207 8721 8742
+type(
+  string list
+)
+"mOOL_main.ml" 208 8748 8752 "mOOL_main.ml" 208 8748 8754
+type(
+  string list
+)
+"mOOL_main.ml" 208 8748 8758 "mOOL_main.ml" 208 8748 8770
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"mOOL_main.ml" 208 8748 8771 "mOOL_main.ml" 208 8748 8792
+type(
+  string
+)
+"mOOL_main.ml" 208 8748 8758 "mOOL_main.ml" 208 8748 8792
+call(
+  stack
+)
+type(
+  unit
+)
+"mOOL_main.ml" 209 8793 8797 "mOOL_main.ml" 209 8793 8798
+type(
+  string
+)
+ident(
+  def x "mOOL_main.ml" 209 8793 8804 "mOOL_main.ml" 210 8852 8895
+)
+"mOOL_main.ml" 209 8793 8800 "mOOL_main.ml" 209 8793 8801
+type(
+  string list
+)
+"mOOL_main.ml" 209 8793 8797 "mOOL_main.ml" 209 8793 8801
+type(
+  string list
+)
+"mOOL_main.ml" 209 8793 8807 "mOOL_main.ml" 209 8793 8808
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOL_main.ml" 209 8793 8808 "mOOL_main.ml" 209 8793 8819
+type(
+  string ref
+)
+ident(
+  int_ref output_file "mOOL_main.ml" 26 584 588 "mOOL_main.ml" 26 584 599
+)
+"mOOL_main.ml" 209 8793 8807 "mOOL_main.ml" 209 8793 8819
+type(
+  string
+)
+"mOOL_main.ml" 209 8793 8820 "mOOL_main.ml" 209 8793 8821
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"mOOL_main.ml" 209 8793 8822 "mOOL_main.ml" 209 8793 8824
+type(
+  string
+)
+"mOOL_main.ml" 209 8793 8807 "mOOL_main.ml" 209 8793 8824
+type(
+  bool
+)
+"mOOL_main.ml" 209 8793 8830 "mOOL_main.ml" 209 8793 8841
+type(
+  string ref
+)
+ident(
+  int_ref output_file "mOOL_main.ml" 26 584 588 "mOOL_main.ml" 26 584 599
+)
+"mOOL_main.ml" 209 8793 8841 "mOOL_main.ml" 209 8793 8843
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"mOOL_main.ml" 209 8793 8844 "mOOL_main.ml" 209 8793 8845
+type(
+  string
+)
+ident(
+  int_ref x "mOOL_main.ml" 209 8793 8797 "mOOL_main.ml" 209 8793 8798
+)
+"mOOL_main.ml" 209 8793 8845 "mOOL_main.ml" 209 8793 8846
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"mOOL_main.ml" 209 8793 8846 "mOOL_main.ml" 209 8793 8850
+type(
+  string
+)
+"mOOL_main.ml" 209 8793 8844 "mOOL_main.ml" 209 8793 8850
+call(
+  stack
+)
+type(
+  string
+)
+"mOOL_main.ml" 209 8793 8830 "mOOL_main.ml" 209 8793 8850
+type(
+  unit
+)
+"mOOL_main.ml" 209 8793 8804 "mOOL_main.ml" 209 8793 8850
+type(
+  unit
+)
+"mOOL_main.ml" 210 8852 8860 "mOOL_main.ml" 210 8852 8864
+type(
+  MOOL_structs.mOOL_program
+)
+ident(
+  def prog "mOOL_main.ml" 210 8852 8883 "mOOL_main.ml" 210 8852 8895
+)
+"mOOL_main.ml" 210 8852 8867 "mOOL_main.ml" 210 8852 8877
+type(
+  string -> MOOL_structs.mOOL_program
+)
+ident(
+  int_ref parse_file "mOOL_main.ml" 36 820 824 "mOOL_main.ml" 36 820 834
+)
+"mOOL_main.ml" 210 8852 8878 "mOOL_main.ml" 210 8852 8879
+type(
+  string
+)
+ident(
+  int_ref x "mOOL_main.ml" 209 8793 8797 "mOOL_main.ml" 209 8793 8798
+)
+"mOOL_main.ml" 210 8852 8867 "mOOL_main.ml" 210 8852 8879
+call(
+  stack
+)
+type(
+  MOOL_structs.mOOL_program
+)
+"mOOL_main.ml" 210 8852 8883 "mOOL_main.ml" 210 8852 8890
+type(
+  MOOL_structs.mOOL_program -> unit
+)
+ident(
+  int_ref process "mOOL_main.ml" 133 4448 4452 "mOOL_main.ml" 133 4448 4459
+)
+"mOOL_main.ml" 210 8852 8891 "mOOL_main.ml" 210 8852 8895
+type(
+  MOOL_structs.mOOL_program
+)
+ident(
+  int_ref prog "mOOL_main.ml" 210 8852 8860 "mOOL_main.ml" 210 8852 8864
+)
+"mOOL_main.ml" 210 8852 8883 "mOOL_main.ml" 210 8852 8895
+call(
+  stack
+)
+type(
+  unit
+)
+"mOOL_main.ml" 210 8852 8856 "mOOL_main.ml" 210 8852 8895
+type(
+  unit
+)
+"mOOL_main.ml" 209 8793 8804 "mOOL_main.ml" 210 8852 8895
+type(
+  unit
+)
+"mOOL_main.ml" 207 8721 8723 "mOOL_main.ml" 210 8852 8895
+type(
+  unit
+)
+"mOOL_main.ml" 206 8635 8637 "mOOL_main.ml" 210 8852 8895
+type(
+  unit
+)
+"mOOL_main.ml" 205 8547 8549 "mOOL_main.ml" 210 8852 8895
+type(
+  unit
+)
+"mOOL_main.ml" 204 8443 8445 "mOOL_main.ml" 210 8852 8895
+type(
+  unit
+)
+"mOOL_main.ml" 203 8315 8317 "mOOL_main.ml" 210 8852 8895
+type(
+  unit
+)
+"mOOL_main.ml" 202 8201 8203 "mOOL_main.ml" 210 8852 8895
+type(
+  unit
+)
+"mOOL_main.ml" 201 8113 8115 "mOOL_main.ml" 210 8852 8895
+type(
+  unit
+)
+"mOOL_main.ml" 199 7946 7948 "mOOL_main.ml" 210 8852 8895
+type(
+  unit
+)
+"mOOL_main.ml" 198 7871 7873 "mOOL_main.ml" 210 8852 8895
+type(
+  unit
+)
+"mOOL_main.ml" 196 7801 7806 "mOOL_main.ml" 210 8852 8895
+type(
+  unit
+)
+"mOOL_main.ml" 186 6835 6840 "mOOL_main.ml" 210 8852 8895
+type(
+  unit
+)
+"mOOL_main.ml" 180 6582 6584 "mOOL_main.ml" 210 8852 8895
+type(
+  unit
+)

@@ -1,0 +1,1488 @@
+"copy_propagation.ml" 3 22 26 "copy_propagation.ml" 3 22 35
+type(
+  'a -> 'a list list -> 'a
+)
+ident(
+  def find_copy "copy_propagation.ml" 13 259 259 "copy_propagation.ml" 1 0 -1
+)
+"copy_propagation.ml" 3 22 36 "copy_propagation.ml" 3 22 44
+type(
+  'a
+)
+ident(
+  def var_name "copy_propagation.ml" 3 22 45 "copy_propagation.ml" 11 237 257
+)
+"copy_propagation.ml" 3 22 45 "copy_propagation.ml" 3 22 60
+type(
+  'a list list
+)
+ident(
+  def table_of_copies "copy_propagation.ml" 4 63 67 "copy_propagation.ml" 11 237 257
+)
+"copy_propagation.ml" 5 71 83 "copy_propagation.ml" 5 71 93
+type(
+  'a list
+)
+ident(
+  def copy_entry "copy_propagation.ml" 8 180 188 "copy_propagation.ml" 8 180 206
+)
+"copy_propagation.ml" 5 71 96 "copy_propagation.ml" 5 71 105
+type(
+  ('a list -> bool) -> 'a list list -> 'a list
+)
+ident(
+  ext_ref List.find
+)
+"copy_propagation.ml" 6 106 123 "copy_propagation.ml" 6 106 124
+type(
+  'a list
+)
+ident(
+  def l "copy_propagation.ml" 6 106 128 "copy_propagation.ml" 6 106 147
+)
+"copy_propagation.ml" 6 106 128 "copy_propagation.ml" 6 106 136
+type(
+  'a -> 'a list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"copy_propagation.ml" 6 106 137 "copy_propagation.ml" 6 106 145
+type(
+  'a
+)
+ident(
+  int_ref var_name "copy_propagation.ml" 3 22 36 "copy_propagation.ml" 3 22 44
+)
+"copy_propagation.ml" 6 106 146 "copy_propagation.ml" 6 106 147
+type(
+  'a list
+)
+ident(
+  int_ref l "copy_propagation.ml" 6 106 123 "copy_propagation.ml" 6 106 124
+)
+"copy_propagation.ml" 6 106 128 "copy_propagation.ml" 6 106 147
+call(
+  tail
+)
+type(
+  bool
+)
+"copy_propagation.ml" 6 106 118 "copy_propagation.ml" 6 106 148
+type(
+  'a list -> bool
+)
+"copy_propagation.ml" 7 149 161 "copy_propagation.ml" 7 149 176
+type(
+  'a list list
+)
+ident(
+  int_ref table_of_copies "copy_propagation.ml" 3 22 45 "copy_propagation.ml" 3 22 60
+)
+"copy_propagation.ml" 5 71 96 "copy_propagation.ml" 7 149 176
+call(
+  stack
+)
+type(
+  'a list
+)
+"copy_propagation.ml" 8 180 188 "copy_propagation.ml" 8 180 195
+type(
+  'a list -> 'a
+)
+ident(
+  ext_ref List.hd
+)
+"copy_propagation.ml" 8 180 196 "copy_propagation.ml" 8 180 206
+type(
+  'a list
+)
+ident(
+  int_ref copy_entry "copy_propagation.ml" 5 71 83 "copy_propagation.ml" 5 71 93
+)
+"copy_propagation.ml" 8 180 188 "copy_propagation.ml" 8 180 206
+call(
+  stack
+)
+type(
+  'a
+)
+"copy_propagation.ml" 5 71 79 "copy_propagation.ml" 8 180 206
+type(
+  'a
+)
+"copy_propagation.ml" 10 216 224 "copy_propagation.ml" 10 216 233
+type(
+  exn
+)
+"copy_propagation.ml" 11 237 249 "copy_propagation.ml" 11 237 257
+type(
+  'a
+)
+ident(
+  int_ref var_name "copy_propagation.ml" 3 22 36 "copy_propagation.ml" 3 22 44
+)
+"copy_propagation.ml" 4 63 67 "copy_propagation.ml" 11 237 257
+type(
+  'a
+)
+"copy_propagation.ml" 13 259 263 "copy_propagation.ml" 13 259 274
+type(
+  Ir3_structs_new.idc3_new -> string list list -> Ir3_structs_new.idc3_new
+)
+ident(
+  def update_idc3 "copy_propagation.ml" 22 520 520 "copy_propagation.ml" 1 0 -1
+)
+"copy_propagation.ml" 13 259 275 "copy_propagation.ml" 13 259 279
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  def idc3 "copy_propagation.ml" 13 259 280 "copy_propagation.ml" 20 500 518
+)
+"copy_propagation.ml" 13 259 280 "copy_propagation.ml" 13 259 295
+type(
+  string list list
+)
+ident(
+  def table_of_copies "copy_propagation.ml" 14 298 302 "copy_propagation.ml" 20 500 518
+)
+"copy_propagation.ml" 14 298 308 "copy_propagation.ml" 14 298 312
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref idc3 "copy_propagation.ml" 13 259 275 "copy_propagation.ml" 13 259 279
+)
+"copy_propagation.ml" 15 318 334 "copy_propagation.ml" 15 318 342
+type(
+  string
+)
+ident(
+  def var_name "copy_propagation.ml" 16 359 367 "copy_propagation.ml" 18 436 479
+)
+"copy_propagation.ml" 15 318 344 "copy_propagation.ml" 15 318 354
+type(
+  Ir3_structs_new.reg_or_mem
+)
+ident(
+  def reg_or_mem "copy_propagation.ml" 16 359 367 "copy_propagation.ml" 18 436 479
+)
+"copy_propagation.ml" 15 318 333 "copy_propagation.ml" 15 318 355
+type(
+  Ir3_structs_new.id3_new
+)
+"copy_propagation.ml" 15 318 324 "copy_propagation.ml" 15 318 355
+type(
+  Ir3_structs_new.idc3_new
+)
+"copy_propagation.ml" 16 359 371 "copy_propagation.ml" 16 359 383
+type(
+  string
+)
+ident(
+  def new_var_name "copy_propagation.ml" 18 436 444 "copy_propagation.ml" 18 436 479
+)
+"copy_propagation.ml" 17 386 398 "copy_propagation.ml" 17 386 407
+type(
+  string -> string list list -> string
+)
+ident(
+  int_ref find_copy "copy_propagation.ml" 3 22 26 "copy_propagation.ml" 3 22 35
+)
+"copy_propagation.ml" 17 386 408 "copy_propagation.ml" 17 386 416
+type(
+  string
+)
+ident(
+  int_ref var_name "copy_propagation.ml" 15 318 334 "copy_propagation.ml" 15 318 342
+)
+"copy_propagation.ml" 17 386 417 "copy_propagation.ml" 17 386 432
+type(
+  string list list
+)
+ident(
+  int_ref table_of_copies "copy_propagation.ml" 13 259 280 "copy_propagation.ml" 13 259 295
+)
+"copy_propagation.ml" 17 386 398 "copy_propagation.ml" 17 386 432
+call(
+  stack
+)
+type(
+  string
+)
+"copy_propagation.ml" 18 436 454 "copy_propagation.ml" 18 436 466
+type(
+  string
+)
+ident(
+  int_ref new_var_name "copy_propagation.ml" 16 359 371 "copy_propagation.ml" 16 359 383
+)
+"copy_propagation.ml" 18 436 468 "copy_propagation.ml" 18 436 478
+type(
+  Ir3_structs_new.reg_or_mem
+)
+ident(
+  int_ref reg_or_mem "copy_propagation.ml" 15 318 344 "copy_propagation.ml" 15 318 354
+)
+"copy_propagation.ml" 18 436 453 "copy_propagation.ml" 18 436 479
+type(
+  Ir3_structs_new.id3_new
+)
+"copy_propagation.ml" 18 436 444 "copy_propagation.ml" 18 436 479
+type(
+  Ir3_structs_new.idc3_new
+)
+"copy_propagation.ml" 16 359 367 "copy_propagation.ml" 18 436 479
+type(
+  Ir3_structs_new.idc3_new
+)
+"copy_propagation.ml" 19 480 486 "copy_propagation.ml" 19 480 496
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  def other_idc3 "copy_propagation.ml" 20 500 508 "copy_propagation.ml" 20 500 518
+)
+"copy_propagation.ml" 20 500 508 "copy_propagation.ml" 20 500 518
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref other_idc3 "copy_propagation.ml" 19 480 486 "copy_propagation.ml" 19 480 496
+)
+"copy_propagation.ml" 14 298 302 "copy_propagation.ml" 20 500 518
+type(
+  Ir3_structs_new.idc3_new
+)
+"copy_propagation.ml" 22 520 524 "copy_propagation.ml" 22 520 534
+type(
+  Ir3_structs_new.ir3_exp_new ->
+  string list list -> Ir3_structs_new.ir3_exp_new
+)
+ident(
+  def update_exp "copy_propagation.ml" 37 1102 1102 "copy_propagation.ml" 1 0 -1
+)
+"copy_propagation.ml" 22 520 535 "copy_propagation.ml" 22 520 538
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  def exp "copy_propagation.ml" 22 520 539 "copy_propagation.ml" 35 1083 1100
+)
+"copy_propagation.ml" 22 520 539 "copy_propagation.ml" 22 520 554
+type(
+  string list list
+)
+ident(
+  def table_of_copies "copy_propagation.ml" 23 557 561 "copy_propagation.ml" 35 1083 1100
+)
+"copy_propagation.ml" 23 557 567 "copy_propagation.ml" 23 557 570
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  int_ref exp "copy_propagation.ml" 22 520 535 "copy_propagation.ml" 22 520 538
+)
+"copy_propagation.ml" 24 576 598 "copy_propagation.ml" 24 576 600
+type(
+  Ir3_structs_new.ir3_op_new
+)
+ident(
+  def op "copy_propagation.ml" 25 621 629 "copy_propagation.ml" 27 747 798
+)
+"copy_propagation.ml" 24 576 602 "copy_propagation.ml" 24 576 608
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  def idc3_1 "copy_propagation.ml" 25 621 629 "copy_propagation.ml" 27 747 798
+)
+"copy_propagation.ml" 24 576 610 "copy_propagation.ml" 24 576 616
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  def idc3_2 "copy_propagation.ml" 25 621 629 "copy_propagation.ml" 27 747 798
+)
+"copy_propagation.ml" 24 576 582 "copy_propagation.ml" 24 576 617
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"copy_propagation.ml" 25 621 633 "copy_propagation.ml" 25 621 643
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  def new_idc3_1 "copy_propagation.ml" 26 684 692 "copy_propagation.ml" 27 747 798
+)
+"copy_propagation.ml" 25 621 646 "copy_propagation.ml" 25 621 657
+type(
+  Ir3_structs_new.idc3_new -> string list list -> Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref update_idc3 "copy_propagation.ml" 13 259 263 "copy_propagation.ml" 13 259 274
+)
+"copy_propagation.ml" 25 621 658 "copy_propagation.ml" 25 621 664
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref idc3_1 "copy_propagation.ml" 24 576 602 "copy_propagation.ml" 24 576 608
+)
+"copy_propagation.ml" 25 621 665 "copy_propagation.ml" 25 621 680
+type(
+  string list list
+)
+ident(
+  int_ref table_of_copies "copy_propagation.ml" 22 520 539 "copy_propagation.ml" 22 520 554
+)
+"copy_propagation.ml" 25 621 646 "copy_propagation.ml" 25 621 680
+call(
+  stack
+)
+type(
+  Ir3_structs_new.idc3_new
+)
+"copy_propagation.ml" 26 684 696 "copy_propagation.ml" 26 684 706
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  def new_idc3_2 "copy_propagation.ml" 27 747 755 "copy_propagation.ml" 27 747 798
+)
+"copy_propagation.ml" 26 684 709 "copy_propagation.ml" 26 684 720
+type(
+  Ir3_structs_new.idc3_new -> string list list -> Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref update_idc3 "copy_propagation.ml" 13 259 263 "copy_propagation.ml" 13 259 274
+)
+"copy_propagation.ml" 26 684 721 "copy_propagation.ml" 26 684 727
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref idc3_2 "copy_propagation.ml" 24 576 610 "copy_propagation.ml" 24 576 616
+)
+"copy_propagation.ml" 26 684 728 "copy_propagation.ml" 26 684 743
+type(
+  string list list
+)
+ident(
+  int_ref table_of_copies "copy_propagation.ml" 22 520 539 "copy_propagation.ml" 22 520 554
+)
+"copy_propagation.ml" 26 684 709 "copy_propagation.ml" 26 684 743
+call(
+  stack
+)
+type(
+  Ir3_structs_new.idc3_new
+)
+"copy_propagation.ml" 27 747 771 "copy_propagation.ml" 27 747 773
+type(
+  Ir3_structs_new.ir3_op_new
+)
+ident(
+  int_ref op "copy_propagation.ml" 24 576 598 "copy_propagation.ml" 24 576 600
+)
+"copy_propagation.ml" 27 747 775 "copy_propagation.ml" 27 747 785
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref new_idc3_1 "copy_propagation.ml" 25 621 633 "copy_propagation.ml" 25 621 643
+)
+"copy_propagation.ml" 27 747 787 "copy_propagation.ml" 27 747 797
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref new_idc3_2 "copy_propagation.ml" 26 684 696 "copy_propagation.ml" 26 684 706
+)
+"copy_propagation.ml" 27 747 755 "copy_propagation.ml" 27 747 798
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"copy_propagation.ml" 26 684 692 "copy_propagation.ml" 27 747 798
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"copy_propagation.ml" 25 621 629 "copy_propagation.ml" 27 747 798
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"copy_propagation.ml" 28 799 820 "copy_propagation.ml" 28 799 822
+type(
+  Ir3_structs_new.ir3_op_new
+)
+ident(
+  def op "copy_propagation.ml" 29 835 843 "copy_propagation.ml" 30 898 935
+)
+"copy_propagation.ml" 28 799 824 "copy_propagation.ml" 28 799 830
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  def idc3_1 "copy_propagation.ml" 29 835 843 "copy_propagation.ml" 30 898 935
+)
+"copy_propagation.ml" 28 799 805 "copy_propagation.ml" 28 799 831
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"copy_propagation.ml" 29 835 847 "copy_propagation.ml" 29 835 857
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  def new_idc3_1 "copy_propagation.ml" 30 898 906 "copy_propagation.ml" 30 898 935
+)
+"copy_propagation.ml" 29 835 860 "copy_propagation.ml" 29 835 871
+type(
+  Ir3_structs_new.idc3_new -> string list list -> Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref update_idc3 "copy_propagation.ml" 13 259 263 "copy_propagation.ml" 13 259 274
+)
+"copy_propagation.ml" 29 835 872 "copy_propagation.ml" 29 835 878
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref idc3_1 "copy_propagation.ml" 28 799 824 "copy_propagation.ml" 28 799 830
+)
+"copy_propagation.ml" 29 835 879 "copy_propagation.ml" 29 835 894
+type(
+  string list list
+)
+ident(
+  int_ref table_of_copies "copy_propagation.ml" 22 520 539 "copy_propagation.ml" 22 520 554
+)
+"copy_propagation.ml" 29 835 860 "copy_propagation.ml" 29 835 894
+call(
+  stack
+)
+type(
+  Ir3_structs_new.idc3_new
+)
+"copy_propagation.ml" 30 898 920 "copy_propagation.ml" 30 898 922
+type(
+  Ir3_structs_new.ir3_op_new
+)
+ident(
+  int_ref op "copy_propagation.ml" 28 799 820 "copy_propagation.ml" 28 799 822
+)
+"copy_propagation.ml" 30 898 924 "copy_propagation.ml" 30 898 934
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref new_idc3_1 "copy_propagation.ml" 29 835 847 "copy_propagation.ml" 29 835 857
+)
+"copy_propagation.ml" 30 898 906 "copy_propagation.ml" 30 898 935
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"copy_propagation.ml" 29 835 843 "copy_propagation.ml" 30 898 935
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"copy_propagation.ml" 31 936 956 "copy_propagation.ml" 31 936 962
+ident(
+  def idc3_1 "copy_propagation.ml" 32 967 975 "copy_propagation.ml" 33 1030 1063
+)
+"copy_propagation.ml" 31 936 955 "copy_propagation.ml" 31 936 963
+type(
+  Ir3_structs_new.idc3_new
+)
+"copy_propagation.ml" 31 936 942 "copy_propagation.ml" 31 936 963
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"copy_propagation.ml" 32 967 979 "copy_propagation.ml" 32 967 989
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  def new_idc3_1 "copy_propagation.ml" 33 1030 1038 "copy_propagation.ml" 33 1030 1063
+)
+"copy_propagation.ml" 32 967 992 "copy_propagation.ml" 32 967 1003
+type(
+  Ir3_structs_new.idc3_new -> string list list -> Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref update_idc3 "copy_propagation.ml" 13 259 263 "copy_propagation.ml" 13 259 274
+)
+"copy_propagation.ml" 32 967 1004 "copy_propagation.ml" 32 967 1010
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref idc3_1 "copy_propagation.ml" 31 936 955 "copy_propagation.ml" 31 936 963
+)
+"copy_propagation.ml" 32 967 1011 "copy_propagation.ml" 32 967 1026
+type(
+  string list list
+)
+ident(
+  int_ref table_of_copies "copy_propagation.ml" 22 520 539 "copy_propagation.ml" 22 520 554
+)
+"copy_propagation.ml" 32 967 992 "copy_propagation.ml" 32 967 1026
+call(
+  stack
+)
+type(
+  Ir3_structs_new.idc3_new
+)
+"copy_propagation.ml" 33 1030 1051 "copy_propagation.ml" 33 1030 1063
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref new_idc3_1 "copy_propagation.ml" 32 967 979 "copy_propagation.ml" 32 967 989
+)
+"copy_propagation.ml" 33 1030 1038 "copy_propagation.ml" 33 1030 1063
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"copy_propagation.ml" 32 967 975 "copy_propagation.ml" 33 1030 1063
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"copy_propagation.ml" 34 1064 1070 "copy_propagation.ml" 34 1064 1079
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  def other_exp "copy_propagation.ml" 35 1083 1091 "copy_propagation.ml" 35 1083 1100
+)
+"copy_propagation.ml" 35 1083 1091 "copy_propagation.ml" 35 1083 1100
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  int_ref other_exp "copy_propagation.ml" 34 1064 1070 "copy_propagation.ml" 34 1064 1079
+)
+"copy_propagation.ml" 23 557 561 "copy_propagation.ml" 35 1083 1100
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"copy_propagation.ml" 37 1102 1106 "copy_propagation.ml" 37 1102 1117
+type(
+  Ir3_structs_new.ir3_stmt_new ->
+  string list list -> Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  def update_stmt "copy_propagation.ml" 45 1352 1352 "copy_propagation.ml" 1 0 -1
+)
+"copy_propagation.ml" 37 1102 1118 "copy_propagation.ml" 37 1102 1122
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  def stmt "copy_propagation.ml" 37 1102 1123 "copy_propagation.ml" 43 1330 1342
+)
+"copy_propagation.ml" 37 1102 1123 "copy_propagation.ml" 37 1102 1138
+type(
+  string list list
+)
+ident(
+  def table_of_copies "copy_propagation.ml" 38 1141 1145 "copy_propagation.ml" 43 1330 1342
+)
+"copy_propagation.ml" 38 1141 1151 "copy_propagation.ml" 38 1141 1155
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "copy_propagation.ml" 37 1102 1118 "copy_propagation.ml" 37 1102 1122
+)
+"copy_propagation.ml" 39 1161 1184 "copy_propagation.ml" 39 1161 1192
+type(
+  Ir3_structs_new.id3_new
+)
+ident(
+  def assignee "copy_propagation.ml" 40 1202 1210 "copy_propagation.ml" 41 1262 1309
+)
+"copy_propagation.ml" 39 1161 1194 "copy_propagation.ml" 39 1161 1197
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  def exp "copy_propagation.ml" 40 1202 1210 "copy_propagation.ml" 41 1262 1309
+)
+"copy_propagation.ml" 39 1161 1167 "copy_propagation.ml" 39 1161 1198
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"copy_propagation.ml" 40 1202 1214 "copy_propagation.ml" 40 1202 1225
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  def updated_exp "copy_propagation.ml" 41 1262 1270 "copy_propagation.ml" 41 1262 1309
+)
+"copy_propagation.ml" 40 1202 1228 "copy_propagation.ml" 40 1202 1238
+type(
+  Ir3_structs_new.ir3_exp_new ->
+  string list list -> Ir3_structs_new.ir3_exp_new
+)
+ident(
+  int_ref update_exp "copy_propagation.ml" 22 520 524 "copy_propagation.ml" 22 520 534
+)
+"copy_propagation.ml" 40 1202 1239 "copy_propagation.ml" 40 1202 1242
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  int_ref exp "copy_propagation.ml" 39 1161 1194 "copy_propagation.ml" 39 1161 1197
+)
+"copy_propagation.ml" 40 1202 1243 "copy_propagation.ml" 40 1202 1258
+type(
+  string list list
+)
+ident(
+  int_ref table_of_copies "copy_propagation.ml" 37 1102 1123 "copy_propagation.ml" 37 1102 1138
+)
+"copy_propagation.ml" 40 1202 1228 "copy_propagation.ml" 40 1202 1258
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"copy_propagation.ml" 41 1262 1287 "copy_propagation.ml" 41 1262 1295
+type(
+  Ir3_structs_new.id3_new
+)
+ident(
+  int_ref assignee "copy_propagation.ml" 39 1161 1184 "copy_propagation.ml" 39 1161 1192
+)
+"copy_propagation.ml" 41 1262 1297 "copy_propagation.ml" 41 1262 1308
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  int_ref updated_exp "copy_propagation.ml" 40 1202 1214 "copy_propagation.ml" 40 1202 1225
+)
+"copy_propagation.ml" 41 1262 1270 "copy_propagation.ml" 41 1262 1309
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"copy_propagation.ml" 40 1202 1210 "copy_propagation.ml" 41 1262 1309
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"copy_propagation.ml" 42 1310 1316 "copy_propagation.ml" 42 1310 1326
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  def other_stmt "copy_propagation.ml" 43 1330 1338 "copy_propagation.ml" 43 1330 1342
+)
+"copy_propagation.ml" 43 1330 1338 "copy_propagation.ml" 43 1330 1342
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "copy_propagation.ml" 37 1102 1118 "copy_propagation.ml" 37 1102 1122
+)
+"copy_propagation.ml" 38 1141 1145 "copy_propagation.ml" 43 1330 1342
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"copy_propagation.ml" 45 1352 1356 "copy_propagation.ml" 45 1352 1378
+type(
+  Ir3_structs_new.ir3_stmt_new -> string list list -> string list list
+)
+ident(
+  def update_table_of_copies "copy_propagation.ml" 81 2651 2651 "copy_propagation.ml" 1 0 -1
+)
+"copy_propagation.ml" 45 1352 1379 "copy_propagation.ml" 45 1352 1383
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  def stmt "copy_propagation.ml" 45 1352 1384 "copy_propagation.ml" 79 2626 2649
+)
+"copy_propagation.ml" 45 1352 1384 "copy_propagation.ml" 45 1352 1399
+type(
+  string list list
+)
+ident(
+  def table_of_copies "copy_propagation.ml" 46 1402 1406 "copy_propagation.ml" 79 2626 2649
+)
+"copy_propagation.ml" 46 1402 1412 "copy_propagation.ml" 46 1402 1416
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "copy_propagation.ml" 45 1352 1379 "copy_propagation.ml" 45 1352 1383
+)
+"copy_propagation.ml" 47 1422 1446 "copy_propagation.ml" 47 1422 1459
+type(
+  string
+)
+ident(
+  def assignee_name "copy_propagation.ml" 48 1474 1482 "copy_propagation.ml" 77 2603 2614
+)
+"copy_propagation.ml" 47 1422 1461 "copy_propagation.ml" 47 1422 1462
+type(
+  Ir3_structs_new.reg_or_mem
+)
+"copy_propagation.ml" 47 1422 1445 "copy_propagation.ml" 47 1422 1463
+type(
+  Ir3_structs_new.id3_new
+)
+"copy_propagation.ml" 47 1422 1465 "copy_propagation.ml" 47 1422 1469
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  def expr "copy_propagation.ml" 48 1474 1482 "copy_propagation.ml" 77 2603 2614
+)
+"copy_propagation.ml" 47 1422 1428 "copy_propagation.ml" 47 1422 1470
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"copy_propagation.ml" 48 1474 1490 "copy_propagation.ml" 48 1474 1503
+type(
+  string list list -> string list list
+)
+ident(
+  def remove_helper "copy_propagation.ml" 48 1474 1482 "copy_propagation.ml" 77 2603 2614
+)
+"copy_propagation.ml" 48 1474 1504 "copy_propagation.ml" 48 1474 1519
+type(
+  string list list
+)
+ident(
+  def table_of_copies "copy_propagation.ml" 49 1522 1534 "copy_propagation.ml" 58 1870 1922
+)
+"copy_propagation.ml" 49 1522 1540 "copy_propagation.ml" 49 1522 1555
+type(
+  string list list
+)
+ident(
+  int_ref table_of_copies "copy_propagation.ml" 48 1474 1504 "copy_propagation.ml" 48 1474 1519
+)
+"copy_propagation.ml" 50 1561 1575 "copy_propagation.ml" 50 1561 1577
+type(
+  string list list
+)
+"copy_propagation.ml" 51 1581 1597 "copy_propagation.ml" 51 1581 1599
+type(
+  string list list
+)
+"copy_propagation.ml" 52 1600 1614 "copy_propagation.ml" 52 1600 1619
+type(
+  string list
+)
+ident(
+  def entry "copy_propagation.ml" 53 1634 1650 "copy_propagation.ml" 58 1870 1922
+)
+"copy_propagation.ml" 52 1600 1621 "copy_propagation.ml" 52 1600 1630
+type(
+  string list list
+)
+ident(
+  def tail_list "copy_propagation.ml" 53 1634 1650 "copy_propagation.ml" 58 1870 1922
+)
+"copy_propagation.ml" 52 1600 1614 "copy_propagation.ml" 52 1600 1630
+type(
+  string list list
+)
+"copy_propagation.ml" 53 1634 1654 "copy_propagation.ml" 53 1634 1662
+type(
+  string -> string list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"copy_propagation.ml" 53 1634 1663 "copy_propagation.ml" 53 1634 1676
+type(
+  string
+)
+ident(
+  int_ref assignee_name "copy_propagation.ml" 47 1422 1446 "copy_propagation.ml" 47 1422 1459
+)
+"copy_propagation.ml" 53 1634 1677 "copy_propagation.ml" 53 1634 1682
+type(
+  string list
+)
+ident(
+  int_ref entry "copy_propagation.ml" 52 1600 1614 "copy_propagation.ml" 52 1600 1619
+)
+"copy_propagation.ml" 53 1634 1653 "copy_propagation.ml" 53 1634 1683
+call(
+  stack
+)
+type(
+  bool
+)
+"copy_propagation.ml" 54 1689 1713 "copy_propagation.ml" 54 1689 1726
+type(
+  string list
+)
+ident(
+  def updated_entry "copy_propagation.ml" 56 1804 1824 "copy_propagation.ml" 56 1804 1848
+)
+"copy_propagation.ml" 55 1729 1753 "copy_propagation.ml" 55 1729 1764
+type(
+  (string -> bool) -> string list -> string list
+)
+ident(
+  ext_ref List.filter
+)
+"copy_propagation.ml" 55 1729 1770 "copy_propagation.ml" 55 1729 1771
+type(
+  string
+)
+ident(
+  def x "copy_propagation.ml" 55 1729 1775 "copy_propagation.ml" 55 1729 1793
+)
+"copy_propagation.ml" 55 1729 1775 "copy_propagation.ml" 55 1729 1776
+type(
+  string
+)
+ident(
+  int_ref x "copy_propagation.ml" 55 1729 1770 "copy_propagation.ml" 55 1729 1771
+)
+"copy_propagation.ml" 55 1729 1777 "copy_propagation.ml" 55 1729 1779
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"copy_propagation.ml" 55 1729 1780 "copy_propagation.ml" 55 1729 1793
+type(
+  string
+)
+ident(
+  int_ref assignee_name "copy_propagation.ml" 47 1422 1446 "copy_propagation.ml" 47 1422 1459
+)
+"copy_propagation.ml" 55 1729 1775 "copy_propagation.ml" 55 1729 1793
+type(
+  bool
+)
+"copy_propagation.ml" 55 1729 1765 "copy_propagation.ml" 55 1729 1794
+type(
+  string -> bool
+)
+"copy_propagation.ml" 55 1729 1795 "copy_propagation.ml" 55 1729 1800
+type(
+  string list
+)
+ident(
+  int_ref entry "copy_propagation.ml" 52 1600 1614 "copy_propagation.ml" 52 1600 1619
+)
+"copy_propagation.ml" 55 1729 1753 "copy_propagation.ml" 55 1729 1800
+call(
+  stack
+)
+type(
+  string list
+)
+"copy_propagation.ml" 56 1804 1824 "copy_propagation.ml" 56 1804 1837
+type(
+  string list
+)
+ident(
+  int_ref updated_entry "copy_propagation.ml" 54 1689 1713 "copy_propagation.ml" 54 1689 1726
+)
+"copy_propagation.ml" 56 1804 1839 "copy_propagation.ml" 56 1804 1848
+type(
+  string list list
+)
+ident(
+  int_ref tail_list "copy_propagation.ml" 52 1600 1621 "copy_propagation.ml" 52 1600 1630
+)
+"copy_propagation.ml" 56 1804 1824 "copy_propagation.ml" 56 1804 1848
+type(
+  string list list
+)
+"copy_propagation.ml" 54 1689 1709 "copy_propagation.ml" 56 1804 1848
+type(
+  string list list
+)
+"copy_propagation.ml" 58 1870 1890 "copy_propagation.ml" 58 1870 1895
+type(
+  string list
+)
+ident(
+  int_ref entry "copy_propagation.ml" 52 1600 1614 "copy_propagation.ml" 52 1600 1619
+)
+"copy_propagation.ml" 58 1870 1898 "copy_propagation.ml" 58 1870 1911
+type(
+  string list list -> string list list
+)
+ident(
+  int_ref remove_helper "copy_propagation.ml" 48 1474 1490 "copy_propagation.ml" 48 1474 1503
+)
+"copy_propagation.ml" 58 1870 1912 "copy_propagation.ml" 58 1870 1921
+type(
+  string list list
+)
+ident(
+  int_ref tail_list "copy_propagation.ml" 52 1600 1621 "copy_propagation.ml" 52 1600 1630
+)
+"copy_propagation.ml" 58 1870 1897 "copy_propagation.ml" 58 1870 1922
+call(
+  stack
+)
+type(
+  string list list
+)
+"copy_propagation.ml" 58 1870 1890 "copy_propagation.ml" 58 1870 1922
+type(
+  string list list
+)
+"copy_propagation.ml" 53 1634 1650 "copy_propagation.ml" 58 1870 1922
+type(
+  string list list
+)
+"copy_propagation.ml" 49 1522 1534 "copy_propagation.ml" 58 1870 1922
+type(
+  string list list
+)
+"copy_propagation.ml" 60 1934 1946 "copy_propagation.ml" 60 1934 1969
+type(
+  string list list
+)
+ident(
+  def updated_table_of_copies "copy_propagation.ml" 61 2005 2013 "copy_propagation.ml" 77 2603 2614
+)
+"copy_propagation.ml" 60 1934 1972 "copy_propagation.ml" 60 1934 1985
+type(
+  string list list -> string list list
+)
+ident(
+  int_ref remove_helper "copy_propagation.ml" 48 1474 1490 "copy_propagation.ml" 48 1474 1503
+)
+"copy_propagation.ml" 60 1934 1986 "copy_propagation.ml" 60 1934 2001
+type(
+  string list list
+)
+ident(
+  int_ref table_of_copies "copy_propagation.ml" 45 1352 1384 "copy_propagation.ml" 45 1352 1399
+)
+"copy_propagation.ml" 60 1934 1972 "copy_propagation.ml" 60 1934 2001
+call(
+  stack
+)
+type(
+  string list list
+)
+"copy_propagation.ml" 62 2019 2033 "copy_propagation.ml" 62 2019 2037
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  int_ref expr "copy_propagation.ml" 47 1422 1465 "copy_propagation.ml" 47 1422 1469
+)
+"copy_propagation.ml" 63 2043 2077 "copy_propagation.ml" 63 2043 2085
+type(
+  string
+)
+ident(
+  def var_name "copy_propagation.ml" 64 2094 2106 "copy_propagation.ml" 74 2505 2551
+)
+"copy_propagation.ml" 63 2043 2087 "copy_propagation.ml" 63 2043 2088
+type(
+  Ir3_structs_new.reg_or_mem
+)
+"copy_propagation.ml" 63 2043 2076 "copy_propagation.ml" 63 2043 2089
+type(
+  Ir3_structs_new.id3_new
+)
+"copy_propagation.ml" 63 2043 2066 "copy_propagation.ml" 63 2043 2090
+type(
+  Ir3_structs_new.idc3_new
+)
+"copy_propagation.ml" 63 2043 2053 "copy_propagation.ml" 63 2043 2090
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"copy_propagation.ml" 64 2094 2114 "copy_propagation.ml" 64 2094 2124
+type(
+  string list list -> string list list
+)
+ident(
+  def add_helper "copy_propagation.ml" 64 2094 2106 "copy_propagation.ml" 74 2505 2551
+)
+"copy_propagation.ml" 64 2094 2125 "copy_propagation.ml" 64 2094 2140
+type(
+  string list list
+)
+ident(
+  def table_of_copies "copy_propagation.ml" 65 2143 2159 "copy_propagation.ml" 72 2436 2489
+)
+"copy_propagation.ml" 65 2143 2165 "copy_propagation.ml" 65 2143 2180
+type(
+  string list list
+)
+ident(
+  int_ref table_of_copies "copy_propagation.ml" 64 2094 2125 "copy_propagation.ml" 64 2094 2140
+)
+"copy_propagation.ml" 66 2186 2204 "copy_propagation.ml" 66 2186 2206
+type(
+  string list list
+)
+"copy_propagation.ml" 67 2210 2232 "copy_propagation.ml" 67 2210 2240
+type(
+  string
+)
+ident(
+  int_ref var_name "copy_propagation.ml" 63 2043 2077 "copy_propagation.ml" 63 2043 2085
+)
+"copy_propagation.ml" 67 2210 2243 "copy_propagation.ml" 67 2210 2256
+type(
+  string
+)
+ident(
+  int_ref assignee_name "copy_propagation.ml" 47 1422 1446 "copy_propagation.ml" 47 1422 1459
+)
+"copy_propagation.ml" 67 2210 2242 "copy_propagation.ml" 67 2210 2257
+type(
+  string list
+)
+"copy_propagation.ml" 67 2210 2231 "copy_propagation.ml" 67 2210 2258
+type(
+  string list
+)
+"copy_propagation.ml" 67 2210 2230 "copy_propagation.ml" 67 2210 2259
+type(
+  string list list
+)
+"copy_propagation.ml" 68 2260 2278 "copy_propagation.ml" 68 2260 2283
+type(
+  string list
+)
+ident(
+  def entry "copy_propagation.ml" 69 2298 2318 "copy_propagation.ml" 72 2436 2489
+)
+"copy_propagation.ml" 68 2260 2285 "copy_propagation.ml" 68 2260 2294
+type(
+  string list list
+)
+ident(
+  def tail_list "copy_propagation.ml" 69 2298 2318 "copy_propagation.ml" 72 2436 2489
+)
+"copy_propagation.ml" 68 2260 2278 "copy_propagation.ml" 68 2260 2294
+type(
+  string list list
+)
+"copy_propagation.ml" 69 2298 2322 "copy_propagation.ml" 69 2298 2330
+type(
+  string -> string list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"copy_propagation.ml" 69 2298 2331 "copy_propagation.ml" 69 2298 2339
+type(
+  string
+)
+ident(
+  int_ref var_name "copy_propagation.ml" 63 2043 2077 "copy_propagation.ml" 63 2043 2085
+)
+"copy_propagation.ml" 69 2298 2340 "copy_propagation.ml" 69 2298 2345
+type(
+  string list
+)
+ident(
+  int_ref entry "copy_propagation.ml" 68 2260 2278 "copy_propagation.ml" 68 2260 2283
+)
+"copy_propagation.ml" 69 2298 2321 "copy_propagation.ml" 69 2298 2346
+call(
+  stack
+)
+type(
+  bool
+)
+"copy_propagation.ml" 70 2352 2377 "copy_propagation.ml" 70 2352 2382
+type(
+  string list
+)
+ident(
+  int_ref entry "copy_propagation.ml" 68 2260 2278 "copy_propagation.ml" 68 2260 2283
+)
+"copy_propagation.ml" 70 2352 2382 "copy_propagation.ml" 70 2352 2383
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"copy_propagation.ml" 70 2352 2384 "copy_propagation.ml" 70 2352 2397
+type(
+  string
+)
+ident(
+  int_ref assignee_name "copy_propagation.ml" 47 1422 1446 "copy_propagation.ml" 47 1422 1459
+)
+"copy_propagation.ml" 70 2352 2383 "copy_propagation.ml" 70 2352 2398
+type(
+  string list
+)
+"copy_propagation.ml" 70 2352 2376 "copy_propagation.ml" 70 2352 2399
+call(
+  stack
+)
+type(
+  string list
+)
+"copy_propagation.ml" 70 2352 2401 "copy_propagation.ml" 70 2352 2410
+type(
+  string list list
+)
+ident(
+  int_ref tail_list "copy_propagation.ml" 68 2260 2285 "copy_propagation.ml" 68 2260 2294
+)
+"copy_propagation.ml" 70 2352 2376 "copy_propagation.ml" 70 2352 2410
+type(
+  string list list
+)
+"copy_propagation.ml" 72 2436 2460 "copy_propagation.ml" 72 2436 2465
+type(
+  string list
+)
+ident(
+  int_ref entry "copy_propagation.ml" 68 2260 2278 "copy_propagation.ml" 68 2260 2283
+)
+"copy_propagation.ml" 72 2436 2468 "copy_propagation.ml" 72 2436 2478
+type(
+  string list list -> string list list
+)
+ident(
+  int_ref add_helper "copy_propagation.ml" 64 2094 2114 "copy_propagation.ml" 64 2094 2124
+)
+"copy_propagation.ml" 72 2436 2479 "copy_propagation.ml" 72 2436 2488
+type(
+  string list list
+)
+ident(
+  int_ref tail_list "copy_propagation.ml" 68 2260 2285 "copy_propagation.ml" 68 2260 2294
+)
+"copy_propagation.ml" 72 2436 2467 "copy_propagation.ml" 72 2436 2489
+call(
+  stack
+)
+type(
+  string list list
+)
+"copy_propagation.ml" 72 2436 2460 "copy_propagation.ml" 72 2436 2489
+type(
+  string list list
+)
+"copy_propagation.ml" 69 2298 2318 "copy_propagation.ml" 72 2436 2489
+type(
+  string list list
+)
+"copy_propagation.ml" 65 2143 2159 "copy_propagation.ml" 72 2436 2489
+type(
+  string list list
+)
+"copy_propagation.ml" 74 2505 2517 "copy_propagation.ml" 74 2505 2527
+type(
+  string list list -> string list list
+)
+ident(
+  int_ref add_helper "copy_propagation.ml" 64 2094 2114 "copy_propagation.ml" 64 2094 2124
+)
+"copy_propagation.ml" 74 2505 2528 "copy_propagation.ml" 74 2505 2551
+type(
+  string list list
+)
+ident(
+  int_ref updated_table_of_copies "copy_propagation.ml" 60 1934 1946 "copy_propagation.ml" 60 1934 1969
+)
+"copy_propagation.ml" 74 2505 2517 "copy_propagation.ml" 74 2505 2551
+call(
+  tail
+)
+type(
+  string list list
+)
+"copy_propagation.ml" 64 2094 2106 "copy_propagation.ml" 74 2505 2551
+type(
+  string list list
+)
+"copy_propagation.ml" 75 2552 2562 "copy_propagation.ml" 75 2552 2563
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"copy_propagation.ml" 76 2567 2579 "copy_propagation.ml" 76 2567 2602
+type(
+  string list list
+)
+ident(
+  int_ref updated_table_of_copies "copy_propagation.ml" 60 1934 1946 "copy_propagation.ml" 60 1934 1969
+)
+"copy_propagation.ml" 61 2005 2013 "copy_propagation.ml" 77 2603 2614
+type(
+  string list list
+)
+"copy_propagation.ml" 60 1934 1942 "copy_propagation.ml" 77 2603 2614
+type(
+  string list list
+)
+"copy_propagation.ml" 48 1474 1482 "copy_propagation.ml" 77 2603 2614
+type(
+  string list list
+)
+"copy_propagation.ml" 78 2615 2621 "copy_propagation.ml" 78 2615 2622
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"copy_propagation.ml" 79 2626 2634 "copy_propagation.ml" 79 2626 2649
+type(
+  string list list
+)
+ident(
+  int_ref table_of_copies "copy_propagation.ml" 45 1352 1384 "copy_propagation.ml" 45 1352 1399
+)
+"copy_propagation.ml" 46 1402 1406 "copy_propagation.ml" 79 2626 2649
+type(
+  string list list
+)
+"copy_propagation.ml" 81 2651 2655 "copy_propagation.ml" 81 2651 2683
+type(
+  Ir3_structs_new.ir3_stmt_new list -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def copy_propagation_elimination "copy_propagation.ml" 94 3115 3138 "copy_propagation.ml" 1 0 -1
+)
+"copy_propagation.ml" 81 2651 2684 "copy_propagation.ml" 81 2651 2689
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def stmts "copy_propagation.ml" 82 2692 2696 "copy_propagation.ml" 94 3115 3138
+)
+"copy_propagation.ml" 82 2692 2704 "copy_propagation.ml" 82 2692 2714
+type(
+  Ir3_structs_new.ir3_stmt_new list ->
+  string list list -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def cpe_helper "copy_propagation.ml" 82 2692 2696 "copy_propagation.ml" 94 3115 3138
+)
+"copy_propagation.ml" 82 2692 2715 "copy_propagation.ml" 82 2692 2720
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def stmts "copy_propagation.ml" 82 2692 2721 "copy_propagation.ml" 92 3069 3107
+)
+"copy_propagation.ml" 82 2692 2721 "copy_propagation.ml" 82 2692 2736
+type(
+  string list list
+)
+ident(
+  def table_of_copies "copy_propagation.ml" 83 2739 2747 "copy_propagation.ml" 92 3069 3107
+)
+"copy_propagation.ml" 83 2739 2753 "copy_propagation.ml" 83 2739 2758
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref stmts "copy_propagation.ml" 82 2692 2715 "copy_propagation.ml" 82 2692 2720
+)
+"copy_propagation.ml" 84 2764 2774 "copy_propagation.ml" 84 2764 2776
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"copy_propagation.ml" 85 2780 2792 "copy_propagation.ml" 85 2780 2794
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"copy_propagation.ml" 86 2795 2805 "copy_propagation.ml" 86 2795 2809
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  def stmt "copy_propagation.ml" 87 2824 2836 "copy_propagation.ml" 92 3069 3107
+)
+"copy_propagation.ml" 86 2795 2811 "copy_propagation.ml" 86 2795 2820
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def tail_list "copy_propagation.ml" 87 2824 2836 "copy_propagation.ml" 92 3069 3107
+)
+"copy_propagation.ml" 86 2795 2805 "copy_propagation.ml" 86 2795 2820
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"copy_propagation.ml" 87 2824 2840 "copy_propagation.ml" 87 2824 2852
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  def updated_stmt "copy_propagation.ml" 89 2907 2919 "copy_propagation.ml" 92 3069 3107
+)
+"copy_propagation.ml" 88 2855 2871 "copy_propagation.ml" 88 2855 2882
+type(
+  Ir3_structs_new.ir3_stmt_new ->
+  string list list -> Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref update_stmt "copy_propagation.ml" 37 1102 1106 "copy_propagation.ml" 37 1102 1117
+)
+"copy_propagation.ml" 88 2855 2883 "copy_propagation.ml" 88 2855 2887
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "copy_propagation.ml" 86 2795 2805 "copy_propagation.ml" 86 2795 2809
+)
+"copy_propagation.ml" 88 2855 2888 "copy_propagation.ml" 88 2855 2903
+type(
+  string list list
+)
+ident(
+  int_ref table_of_copies "copy_propagation.ml" 82 2692 2721 "copy_propagation.ml" 82 2692 2736
+)
+"copy_propagation.ml" 88 2855 2871 "copy_propagation.ml" 88 2855 2903
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"copy_propagation.ml" 89 2907 2923 "copy_propagation.ml" 89 2907 2936
+type(
+  string list list
+)
+ident(
+  def updated_table "copy_propagation.ml" 91 3002 3014 "copy_propagation.ml" 92 3069 3107
+)
+"copy_propagation.ml" 90 2939 2955 "copy_propagation.ml" 90 2939 2977
+type(
+  Ir3_structs_new.ir3_stmt_new -> string list list -> string list list
+)
+ident(
+  int_ref update_table_of_copies "copy_propagation.ml" 45 1352 1356 "copy_propagation.ml" 45 1352 1378
+)
+"copy_propagation.ml" 90 2939 2978 "copy_propagation.ml" 90 2939 2982
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "copy_propagation.ml" 86 2795 2805 "copy_propagation.ml" 86 2795 2809
+)
+"copy_propagation.ml" 90 2939 2983 "copy_propagation.ml" 90 2939 2998
+type(
+  string list list
+)
+ident(
+  int_ref table_of_copies "copy_propagation.ml" 82 2692 2721 "copy_propagation.ml" 82 2692 2736
+)
+"copy_propagation.ml" 90 2939 2955 "copy_propagation.ml" 90 2939 2998
+call(
+  stack
+)
+type(
+  string list list
+)
+"copy_propagation.ml" 91 3002 3018 "copy_propagation.ml" 91 3002 3028
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def tail_stmts "copy_propagation.ml" 92 3069 3081 "copy_propagation.ml" 92 3069 3107
+)
+"copy_propagation.ml" 91 3002 3031 "copy_propagation.ml" 91 3002 3041
+type(
+  Ir3_structs_new.ir3_stmt_new list ->
+  string list list -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref cpe_helper "copy_propagation.ml" 82 2692 2704 "copy_propagation.ml" 82 2692 2714
+)
+"copy_propagation.ml" 91 3002 3042 "copy_propagation.ml" 91 3002 3051
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref tail_list "copy_propagation.ml" 86 2795 2811 "copy_propagation.ml" 86 2795 2820
+)
+"copy_propagation.ml" 91 3002 3052 "copy_propagation.ml" 91 3002 3065
+type(
+  string list list
+)
+ident(
+  int_ref updated_table "copy_propagation.ml" 89 2907 2923 "copy_propagation.ml" 89 2907 2936
+)
+"copy_propagation.ml" 91 3002 3031 "copy_propagation.ml" 91 3002 3065
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"copy_propagation.ml" 92 3069 3082 "copy_propagation.ml" 92 3069 3094
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref updated_stmt "copy_propagation.ml" 87 2824 2840 "copy_propagation.ml" 87 2824 2852
+)
+"copy_propagation.ml" 92 3069 3096 "copy_propagation.ml" 92 3069 3106
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref tail_stmts "copy_propagation.ml" 91 3002 3018 "copy_propagation.ml" 91 3002 3028
+)
+"copy_propagation.ml" 92 3069 3081 "copy_propagation.ml" 92 3069 3107
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"copy_propagation.ml" 91 3002 3014 "copy_propagation.ml" 92 3069 3107
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"copy_propagation.ml" 89 2907 2919 "copy_propagation.ml" 92 3069 3107
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"copy_propagation.ml" 87 2824 2836 "copy_propagation.ml" 92 3069 3107
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"copy_propagation.ml" 83 2739 2747 "copy_propagation.ml" 92 3069 3107
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"copy_propagation.ml" 94 3115 3119 "copy_propagation.ml" 94 3115 3129
+type(
+  Ir3_structs_new.ir3_stmt_new list ->
+  string list list -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref cpe_helper "copy_propagation.ml" 82 2692 2704 "copy_propagation.ml" 82 2692 2714
+)
+"copy_propagation.ml" 94 3115 3130 "copy_propagation.ml" 94 3115 3135
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref stmts "copy_propagation.ml" 81 2651 2684 "copy_propagation.ml" 81 2651 2689
+)
+"copy_propagation.ml" 94 3115 3136 "copy_propagation.ml" 94 3115 3138
+type(
+  string list list
+)
+"copy_propagation.ml" 94 3115 3119 "copy_propagation.ml" 94 3115 3138
+call(
+  tail
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"copy_propagation.ml" 82 2692 2696 "copy_propagation.ml" 94 3115 3138
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)

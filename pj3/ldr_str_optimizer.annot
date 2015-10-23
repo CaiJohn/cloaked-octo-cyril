@@ -1,0 +1,3578 @@
+"ldr_str_optimizer.ml" 6 83 87 "ldr_str_optimizer.ml" 6 83 104
+type(
+  bool ref
+)
+ident(
+  def ldr_str_loop_flag "ldr_str_optimizer.ml" 8 117 117 "ldr_str_optimizer.ml" 1 0 -1
+)
+"ldr_str_optimizer.ml" 6 83 107 "ldr_str_optimizer.ml" 6 83 110
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ldr_str_optimizer.ml" 6 83 111 "ldr_str_optimizer.ml" 6 83 115
+type(
+  bool
+)
+"ldr_str_optimizer.ml" 6 83 107 "ldr_str_optimizer.ml" 6 83 115
+type(
+  bool ref
+)
+"ldr_str_optimizer.ml" 8 117 125 "ldr_str_optimizer.ml" 8 117 135
+type(
+  (string * string) list -> string -> (string * string) list
+)
+ident(
+  def filter_reg "ldr_str_optimizer.ml" 8 117 117 "ldr_str_optimizer.ml" 1 0 -1
+)
+"ldr_str_optimizer.ml" 8 117 136 "ldr_str_optimizer.ml" 8 117 141
+type(
+  (string * string) list
+)
+ident(
+  def inlst "ldr_str_optimizer.ml" 8 117 142 "ldr_str_optimizer.ml" 14 310 345
+)
+"ldr_str_optimizer.ml" 8 117 142 "ldr_str_optimizer.ml" 8 117 145
+type(
+  string
+)
+ident(
+  def reg "ldr_str_optimizer.ml" 8 117 146 "ldr_str_optimizer.ml" 14 310 345
+)
+"ldr_str_optimizer.ml" 9 171 179 "ldr_str_optimizer.ml" 9 171 184
+type(
+  (string * string) list
+)
+ident(
+  int_ref inlst "ldr_str_optimizer.ml" 8 117 136 "ldr_str_optimizer.ml" 8 117 141
+)
+"ldr_str_optimizer.ml" 10 190 194 "ldr_str_optimizer.ml" 10 190 196
+type(
+  (string * string) list
+)
+"ldr_str_optimizer.ml" 10 190 200 "ldr_str_optimizer.ml" 10 190 202
+type(
+  (string * string) list
+)
+"ldr_str_optimizer.ml" 11 203 208 "ldr_str_optimizer.ml" 11 203 214
+type(
+  string
+)
+ident(
+  def in_reg "ldr_str_optimizer.ml" 12 236 240 "ldr_str_optimizer.ml" 14 310 345
+)
+"ldr_str_optimizer.ml" 11 203 215 "ldr_str_optimizer.ml" 11 203 224
+type(
+  string
+)
+ident(
+  def in_offset "ldr_str_optimizer.ml" 12 236 240 "ldr_str_optimizer.ml" 14 310 345
+)
+"ldr_str_optimizer.ml" 11 203 207 "ldr_str_optimizer.ml" 11 203 225
+type(
+  string * string
+)
+"ldr_str_optimizer.ml" 11 203 227 "ldr_str_optimizer.ml" 11 203 231
+type(
+  (string * string) list
+)
+ident(
+  def rest "ldr_str_optimizer.ml" 12 236 240 "ldr_str_optimizer.ml" 14 310 345
+)
+"ldr_str_optimizer.ml" 11 203 207 "ldr_str_optimizer.ml" 11 203 231
+type(
+  (string * string) list
+)
+"ldr_str_optimizer.ml" 12 236 244 "ldr_str_optimizer.ml" 12 236 250
+type(
+  (string * string) list
+)
+ident(
+  def outlst "ldr_str_optimizer.ml" 13 279 283 "ldr_str_optimizer.ml" 14 310 345
+)
+"ldr_str_optimizer.ml" 12 236 253 "ldr_str_optimizer.ml" 12 236 263
+type(
+  (string * string) list -> string -> (string * string) list
+)
+ident(
+  int_ref filter_reg "ldr_str_optimizer.ml" 8 117 125 "ldr_str_optimizer.ml" 8 117 135
+)
+"ldr_str_optimizer.ml" 12 236 264 "ldr_str_optimizer.ml" 12 236 268
+type(
+  (string * string) list
+)
+ident(
+  int_ref rest "ldr_str_optimizer.ml" 11 203 227 "ldr_str_optimizer.ml" 11 203 231
+)
+"ldr_str_optimizer.ml" 12 236 269 "ldr_str_optimizer.ml" 12 236 272
+type(
+  string
+)
+ident(
+  int_ref reg "ldr_str_optimizer.ml" 8 117 142 "ldr_str_optimizer.ml" 8 117 145
+)
+"ldr_str_optimizer.ml" 12 236 253 "ldr_str_optimizer.ml" 12 236 272
+call(
+  stack
+)
+type(
+  (string * string) list
+)
+"ldr_str_optimizer.ml" 13 279 286 "ldr_str_optimizer.ml" 13 279 289
+type(
+  string
+)
+ident(
+  int_ref reg "ldr_str_optimizer.ml" 8 117 142 "ldr_str_optimizer.ml" 8 117 145
+)
+"ldr_str_optimizer.ml" 13 279 289 "ldr_str_optimizer.ml" 13 279 290
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ldr_str_optimizer.ml" 13 279 290 "ldr_str_optimizer.ml" 13 279 296
+type(
+  string
+)
+ident(
+  int_ref in_reg "ldr_str_optimizer.ml" 11 203 208 "ldr_str_optimizer.ml" 11 203 214
+)
+"ldr_str_optimizer.ml" 13 279 286 "ldr_str_optimizer.ml" 13 279 296
+type(
+  bool
+)
+"ldr_str_optimizer.ml" 13 279 302 "ldr_str_optimizer.ml" 13 279 308
+type(
+  (string * string) list
+)
+ident(
+  int_ref outlst "ldr_str_optimizer.ml" 12 236 244 "ldr_str_optimizer.ml" 12 236 250
+)
+"ldr_str_optimizer.ml" 14 310 320 "ldr_str_optimizer.ml" 14 310 326
+type(
+  string
+)
+ident(
+  int_ref in_reg "ldr_str_optimizer.ml" 11 203 208 "ldr_str_optimizer.ml" 11 203 214
+)
+"ldr_str_optimizer.ml" 14 310 327 "ldr_str_optimizer.ml" 14 310 336
+type(
+  string
+)
+ident(
+  int_ref in_offset "ldr_str_optimizer.ml" 11 203 215 "ldr_str_optimizer.ml" 11 203 224
+)
+"ldr_str_optimizer.ml" 14 310 319 "ldr_str_optimizer.ml" 14 310 337
+type(
+  string * string
+)
+"ldr_str_optimizer.ml" 14 310 339 "ldr_str_optimizer.ml" 14 310 345
+type(
+  (string * string) list
+)
+ident(
+  int_ref outlst "ldr_str_optimizer.ml" 12 236 244 "ldr_str_optimizer.ml" 12 236 250
+)
+"ldr_str_optimizer.ml" 14 310 319 "ldr_str_optimizer.ml" 14 310 345
+type(
+  (string * string) list
+)
+"ldr_str_optimizer.ml" 13 279 283 "ldr_str_optimizer.ml" 14 310 345
+type(
+  (string * string) list
+)
+"ldr_str_optimizer.ml" 12 236 240 "ldr_str_optimizer.ml" 14 310 345
+type(
+  (string * string) list
+)
+"ldr_str_optimizer.ml" 9 171 173 "ldr_str_optimizer.ml" 14 310 345
+type(
+  (string * string) list
+)
+type(
+  (string * string) list
+)
+"ldr_str_optimizer.ml" 16 348 356 "ldr_str_optimizer.ml" 16 348 369
+type(
+  (string * string) list -> string -> (string * string) list
+)
+ident(
+  def filter_offset "ldr_str_optimizer.ml" 16 348 348 "ldr_str_optimizer.ml" 1 0 -1
+)
+"ldr_str_optimizer.ml" 16 348 370 "ldr_str_optimizer.ml" 16 348 375
+type(
+  (string * string) list
+)
+ident(
+  def inlst "ldr_str_optimizer.ml" 16 348 376 "ldr_str_optimizer.ml" 22 554 589
+)
+"ldr_str_optimizer.ml" 16 348 376 "ldr_str_optimizer.ml" 16 348 382
+type(
+  string
+)
+ident(
+  def offset "ldr_str_optimizer.ml" 16 348 383 "ldr_str_optimizer.ml" 22 554 589
+)
+"ldr_str_optimizer.ml" 17 408 416 "ldr_str_optimizer.ml" 17 408 421
+type(
+  (string * string) list
+)
+ident(
+  int_ref inlst "ldr_str_optimizer.ml" 16 348 370 "ldr_str_optimizer.ml" 16 348 375
+)
+"ldr_str_optimizer.ml" 18 427 431 "ldr_str_optimizer.ml" 18 427 433
+type(
+  (string * string) list
+)
+"ldr_str_optimizer.ml" 18 427 437 "ldr_str_optimizer.ml" 18 427 439
+type(
+  (string * string) list
+)
+"ldr_str_optimizer.ml" 19 440 445 "ldr_str_optimizer.ml" 19 440 451
+type(
+  string
+)
+ident(
+  def in_reg "ldr_str_optimizer.ml" 20 472 476 "ldr_str_optimizer.ml" 22 554 589
+)
+"ldr_str_optimizer.ml" 19 440 452 "ldr_str_optimizer.ml" 19 440 461
+type(
+  string
+)
+ident(
+  def in_offset "ldr_str_optimizer.ml" 20 472 476 "ldr_str_optimizer.ml" 22 554 589
+)
+"ldr_str_optimizer.ml" 19 440 444 "ldr_str_optimizer.ml" 19 440 462
+type(
+  string * string
+)
+"ldr_str_optimizer.ml" 19 440 464 "ldr_str_optimizer.ml" 19 440 468
+type(
+  (string * string) list
+)
+ident(
+  def rest "ldr_str_optimizer.ml" 20 472 476 "ldr_str_optimizer.ml" 22 554 589
+)
+"ldr_str_optimizer.ml" 19 440 444 "ldr_str_optimizer.ml" 19 440 468
+type(
+  (string * string) list
+)
+"ldr_str_optimizer.ml" 20 472 480 "ldr_str_optimizer.ml" 20 472 486
+type(
+  (string * string) list
+)
+ident(
+  def outlst "ldr_str_optimizer.ml" 21 518 522 "ldr_str_optimizer.ml" 22 554 589
+)
+"ldr_str_optimizer.ml" 20 472 489 "ldr_str_optimizer.ml" 20 472 502
+type(
+  (string * string) list -> string -> (string * string) list
+)
+ident(
+  int_ref filter_offset "ldr_str_optimizer.ml" 16 348 356 "ldr_str_optimizer.ml" 16 348 369
+)
+"ldr_str_optimizer.ml" 20 472 503 "ldr_str_optimizer.ml" 20 472 507
+type(
+  (string * string) list
+)
+ident(
+  int_ref rest "ldr_str_optimizer.ml" 19 440 464 "ldr_str_optimizer.ml" 19 440 468
+)
+"ldr_str_optimizer.ml" 20 472 508 "ldr_str_optimizer.ml" 20 472 514
+type(
+  string
+)
+ident(
+  int_ref offset "ldr_str_optimizer.ml" 16 348 376 "ldr_str_optimizer.ml" 16 348 382
+)
+"ldr_str_optimizer.ml" 20 472 489 "ldr_str_optimizer.ml" 20 472 514
+call(
+  stack
+)
+type(
+  (string * string) list
+)
+"ldr_str_optimizer.ml" 21 518 525 "ldr_str_optimizer.ml" 21 518 531
+type(
+  string
+)
+ident(
+  int_ref offset "ldr_str_optimizer.ml" 16 348 376 "ldr_str_optimizer.ml" 16 348 382
+)
+"ldr_str_optimizer.ml" 21 518 531 "ldr_str_optimizer.ml" 21 518 532
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ldr_str_optimizer.ml" 21 518 532 "ldr_str_optimizer.ml" 21 518 541
+type(
+  string
+)
+ident(
+  int_ref in_offset "ldr_str_optimizer.ml" 19 440 452 "ldr_str_optimizer.ml" 19 440 461
+)
+"ldr_str_optimizer.ml" 21 518 525 "ldr_str_optimizer.ml" 21 518 541
+type(
+  bool
+)
+"ldr_str_optimizer.ml" 21 518 547 "ldr_str_optimizer.ml" 21 518 553
+type(
+  (string * string) list
+)
+ident(
+  int_ref outlst "ldr_str_optimizer.ml" 20 472 480 "ldr_str_optimizer.ml" 20 472 486
+)
+"ldr_str_optimizer.ml" 22 554 564 "ldr_str_optimizer.ml" 22 554 570
+type(
+  string
+)
+ident(
+  int_ref in_reg "ldr_str_optimizer.ml" 19 440 445 "ldr_str_optimizer.ml" 19 440 451
+)
+"ldr_str_optimizer.ml" 22 554 571 "ldr_str_optimizer.ml" 22 554 580
+type(
+  string
+)
+ident(
+  int_ref in_offset "ldr_str_optimizer.ml" 19 440 452 "ldr_str_optimizer.ml" 19 440 461
+)
+"ldr_str_optimizer.ml" 22 554 563 "ldr_str_optimizer.ml" 22 554 581
+type(
+  string * string
+)
+"ldr_str_optimizer.ml" 22 554 583 "ldr_str_optimizer.ml" 22 554 589
+type(
+  (string * string) list
+)
+ident(
+  int_ref outlst "ldr_str_optimizer.ml" 20 472 480 "ldr_str_optimizer.ml" 20 472 486
+)
+"ldr_str_optimizer.ml" 22 554 563 "ldr_str_optimizer.ml" 22 554 589
+type(
+  (string * string) list
+)
+"ldr_str_optimizer.ml" 21 518 522 "ldr_str_optimizer.ml" 22 554 589
+type(
+  (string * string) list
+)
+"ldr_str_optimizer.ml" 20 472 476 "ldr_str_optimizer.ml" 22 554 589
+type(
+  (string * string) list
+)
+"ldr_str_optimizer.ml" 17 408 410 "ldr_str_optimizer.ml" 22 554 589
+type(
+  (string * string) list
+)
+type(
+  (string * string) list
+)
+"ldr_str_optimizer.ml" 24 592 600 "ldr_str_optimizer.ml" 24 592 611
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  def combineLsts "ldr_str_optimizer.ml" 24 592 592 "ldr_str_optimizer.ml" 1 0 -1
+)
+"ldr_str_optimizer.ml" 24 592 612 "ldr_str_optimizer.ml" 24 592 616
+type(
+  'a list
+)
+ident(
+  def lst1 "ldr_str_optimizer.ml" 24 592 617 "ldr_str_optimizer.ml" 30 795 825
+)
+"ldr_str_optimizer.ml" 24 592 617 "ldr_str_optimizer.ml" 24 592 621
+type(
+  'a list
+)
+ident(
+  def lst2 "ldr_str_optimizer.ml" 25 625 627 "ldr_str_optimizer.ml" 30 795 825
+)
+"ldr_str_optimizer.ml" 25 625 633 "ldr_str_optimizer.ml" 25 625 637
+type(
+  'a list
+)
+ident(
+  int_ref lst1 "ldr_str_optimizer.ml" 24 592 612 "ldr_str_optimizer.ml" 24 592 616
+)
+"ldr_str_optimizer.ml" 26 643 647 "ldr_str_optimizer.ml" 26 643 649
+type(
+  'a list
+)
+"ldr_str_optimizer.ml" 26 643 653 "ldr_str_optimizer.ml" 26 643 655
+type(
+  'a list
+)
+"ldr_str_optimizer.ml" 27 657 661 "ldr_str_optimizer.ml" 27 657 666
+type(
+  'a
+)
+ident(
+  def entry "ldr_str_optimizer.ml" 28 677 681 "ldr_str_optimizer.ml" 30 795 825
+)
+"ldr_str_optimizer.ml" 27 657 668 "ldr_str_optimizer.ml" 27 657 672
+type(
+  'a list
+)
+ident(
+  def rest "ldr_str_optimizer.ml" 28 677 681 "ldr_str_optimizer.ml" 30 795 825
+)
+"ldr_str_optimizer.ml" 27 657 661 "ldr_str_optimizer.ml" 27 657 672
+type(
+  'a list
+)
+"ldr_str_optimizer.ml" 28 677 685 "ldr_str_optimizer.ml" 28 677 691
+type(
+  'a -> bool
+)
+ident(
+  def helper "ldr_str_optimizer.ml" 29 709 713 "ldr_str_optimizer.ml" 30 795 825
+)
+"ldr_str_optimizer.ml" 28 677 692 "ldr_str_optimizer.ml" 28 677 693
+type(
+  'a
+)
+ident(
+  def e "ldr_str_optimizer.ml" 28 677 696 "ldr_str_optimizer.ml" 28 677 705
+)
+"ldr_str_optimizer.ml" 28 677 697 "ldr_str_optimizer.ml" 28 677 698
+type(
+  'a
+)
+ident(
+  int_ref e "ldr_str_optimizer.ml" 28 677 692 "ldr_str_optimizer.ml" 28 677 693
+)
+"ldr_str_optimizer.ml" 28 677 698 "ldr_str_optimizer.ml" 28 677 699
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ldr_str_optimizer.ml" 28 677 699 "ldr_str_optimizer.ml" 28 677 704
+type(
+  'a
+)
+ident(
+  int_ref entry "ldr_str_optimizer.ml" 27 657 661 "ldr_str_optimizer.ml" 27 657 666
+)
+"ldr_str_optimizer.ml" 28 677 696 "ldr_str_optimizer.ml" 28 677 705
+type(
+  bool
+)
+"ldr_str_optimizer.ml" 29 709 716 "ldr_str_optimizer.ml" 29 709 727
+type(
+  ('a -> bool) -> 'a list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"ldr_str_optimizer.ml" 29 709 728 "ldr_str_optimizer.ml" 29 709 734
+type(
+  'a -> bool
+)
+ident(
+  int_ref helper "ldr_str_optimizer.ml" 28 677 685 "ldr_str_optimizer.ml" 28 677 691
+)
+"ldr_str_optimizer.ml" 29 709 735 "ldr_str_optimizer.ml" 29 709 739
+type(
+  'a list
+)
+ident(
+  int_ref lst2 "ldr_str_optimizer.ml" 24 592 617 "ldr_str_optimizer.ml" 24 592 621
+)
+"ldr_str_optimizer.ml" 29 709 716 "ldr_str_optimizer.ml" 29 709 739
+call(
+  stack
+)
+type(
+  bool
+)
+"ldr_str_optimizer.ml" 29 709 746 "ldr_str_optimizer.ml" 29 709 755
+type(
+  ('a -> bool) -> 'a list -> 'a
+)
+ident(
+  ext_ref List.find
+)
+"ldr_str_optimizer.ml" 29 709 756 "ldr_str_optimizer.ml" 29 709 762
+type(
+  'a -> bool
+)
+ident(
+  int_ref helper "ldr_str_optimizer.ml" 28 677 685 "ldr_str_optimizer.ml" 28 677 691
+)
+"ldr_str_optimizer.ml" 29 709 763 "ldr_str_optimizer.ml" 29 709 767
+type(
+  'a list
+)
+ident(
+  int_ref lst2 "ldr_str_optimizer.ml" 24 592 617 "ldr_str_optimizer.ml" 24 592 621
+)
+"ldr_str_optimizer.ml" 29 709 745 "ldr_str_optimizer.ml" 29 709 768
+call(
+  stack
+)
+type(
+  'a
+)
+"ldr_str_optimizer.ml" 29 709 771 "ldr_str_optimizer.ml" 29 709 782
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref combineLsts "ldr_str_optimizer.ml" 24 592 600 "ldr_str_optimizer.ml" 24 592 611
+)
+"ldr_str_optimizer.ml" 29 709 783 "ldr_str_optimizer.ml" 29 709 787
+type(
+  'a list
+)
+ident(
+  int_ref rest "ldr_str_optimizer.ml" 27 657 668 "ldr_str_optimizer.ml" 27 657 672
+)
+"ldr_str_optimizer.ml" 29 709 788 "ldr_str_optimizer.ml" 29 709 792
+type(
+  'a list
+)
+ident(
+  int_ref lst2 "ldr_str_optimizer.ml" 24 592 617 "ldr_str_optimizer.ml" 24 592 621
+)
+"ldr_str_optimizer.ml" 29 709 770 "ldr_str_optimizer.ml" 29 709 793
+call(
+  stack
+)
+type(
+  'a list
+)
+"ldr_str_optimizer.ml" 29 709 745 "ldr_str_optimizer.ml" 29 709 793
+type(
+  'a list
+)
+"ldr_str_optimizer.ml" 30 795 804 "ldr_str_optimizer.ml" 30 795 815
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref combineLsts "ldr_str_optimizer.ml" 24 592 600 "ldr_str_optimizer.ml" 24 592 611
+)
+"ldr_str_optimizer.ml" 30 795 816 "ldr_str_optimizer.ml" 30 795 820
+type(
+  'a list
+)
+ident(
+  int_ref rest "ldr_str_optimizer.ml" 27 657 668 "ldr_str_optimizer.ml" 27 657 672
+)
+"ldr_str_optimizer.ml" 30 795 821 "ldr_str_optimizer.ml" 30 795 825
+type(
+  'a list
+)
+ident(
+  int_ref lst2 "ldr_str_optimizer.ml" 24 592 617 "ldr_str_optimizer.ml" 24 592 621
+)
+"ldr_str_optimizer.ml" 30 795 804 "ldr_str_optimizer.ml" 30 795 825
+call(
+  tail
+)
+type(
+  'a list
+)
+"ldr_str_optimizer.ml" 29 709 713 "ldr_str_optimizer.ml" 30 795 825
+type(
+  'a list
+)
+"ldr_str_optimizer.ml" 28 677 681 "ldr_str_optimizer.ml" 30 795 825
+type(
+  'a list
+)
+"ldr_str_optimizer.ml" 25 625 627 "ldr_str_optimizer.ml" 30 795 825
+type(
+  'a list
+)
+"ldr_str_optimizer.ml" 32 828 832 "ldr_str_optimizer.ml" 32 828 847
+type(
+  Ir3_bbl_generator.ir3_bbl ->
+  (string * string) list ->
+  Ir3_bbl_generator.ir3_bbl * (string * string) list
+)
+ident(
+  def ldr_str_opt_bbl "ldr_str_optimizer.ml" 100 3803 3803 "ldr_str_optimizer.ml" 1 0 -1
+)
+"ldr_str_optimizer.ml" 32 828 849 "ldr_str_optimizer.ml" 32 828 852
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  def bbl "ldr_str_optimizer.ml" 32 828 863 "ldr_str_optimizer.ml" 98 3761 3801
+)
+"ldr_str_optimizer.ml" 32 828 864 "ldr_str_optimizer.ml" 32 828 869
+type(
+  (string * string) list
+)
+ident(
+  def inlst "ldr_str_optimizer.ml" 32 828 893 "ldr_str_optimizer.ml" 98 3761 3801
+)
+"ldr_str_optimizer.ml" 33 926 936 "ldr_str_optimizer.ml" 33 926 945
+type(
+  Ir3_structs_new.ir3_stmt_new list ->
+  (Arm_structs.reg * string) list ->
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+ident(
+  def opt_stmts "ldr_str_optimizer.ml" 33 926 928 "ldr_str_optimizer.ml" 98 3761 3801
+)
+"ldr_str_optimizer.ml" 33 926 946 "ldr_str_optimizer.ml" 33 926 951
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def stmts "ldr_str_optimizer.ml" 33 926 952 "ldr_str_optimizer.ml" 96 3691 3700
+)
+"ldr_str_optimizer.ml" 33 926 952 "ldr_str_optimizer.ml" 33 926 957
+type(
+  (Arm_structs.reg * string) list
+)
+ident(
+  def inlst "ldr_str_optimizer.ml" 33 926 958 "ldr_str_optimizer.ml" 96 3691 3700
+)
+"ldr_str_optimizer.ml" 34 1002 1010 "ldr_str_optimizer.ml" 34 1002 1024
+type(
+  Ir3_structs_new.ir3_stmt_new ->
+  Ir3_structs_new.ir3_stmt_new list ->
+  (Arm_structs.reg * string) list ->
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+ident(
+  def opt_rest_stmts "ldr_str_optimizer.ml" 37 1140 1144 "ldr_str_optimizer.ml" 96 3691 3700
+)
+"ldr_str_optimizer.ml" 34 1002 1025 "ldr_str_optimizer.ml" 34 1002 1029
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  def stmt "ldr_str_optimizer.ml" 34 1002 1030 "ldr_str_optimizer.ml" 36 1106 1136
+)
+"ldr_str_optimizer.ml" 34 1002 1030 "ldr_str_optimizer.ml" 34 1002 1034
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def rest "ldr_str_optimizer.ml" 34 1002 1035 "ldr_str_optimizer.ml" 36 1106 1136
+)
+"ldr_str_optimizer.ml" 34 1002 1035 "ldr_str_optimizer.ml" 34 1002 1044
+type(
+  (Arm_structs.reg * string) list
+)
+ident(
+  def new_inlst "ldr_str_optimizer.ml" 35 1047 1053 "ldr_str_optimizer.ml" 36 1106 1136
+)
+"ldr_str_optimizer.ml" 35 1047 1058 "ldr_str_optimizer.ml" 35 1047 1067
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def new_stmts "ldr_str_optimizer.ml" 36 1106 1112 "ldr_str_optimizer.ml" 36 1106 1136
+)
+"ldr_str_optimizer.ml" 35 1047 1068 "ldr_str_optimizer.ml" 35 1047 1074
+type(
+  (string * string) list
+)
+ident(
+  def outlst "ldr_str_optimizer.ml" 36 1106 1112 "ldr_str_optimizer.ml" 36 1106 1136
+)
+"ldr_str_optimizer.ml" 35 1047 1057 "ldr_str_optimizer.ml" 35 1047 1075
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 35 1047 1078 "ldr_str_optimizer.ml" 35 1047 1087
+type(
+  Ir3_structs_new.ir3_stmt_new list ->
+  (Arm_structs.reg * string) list ->
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+ident(
+  int_ref opt_stmts "ldr_str_optimizer.ml" 33 926 936 "ldr_str_optimizer.ml" 33 926 945
+)
+"ldr_str_optimizer.ml" 35 1047 1088 "ldr_str_optimizer.ml" 35 1047 1092
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref rest "ldr_str_optimizer.ml" 34 1002 1030 "ldr_str_optimizer.ml" 34 1002 1034
+)
+"ldr_str_optimizer.ml" 35 1047 1093 "ldr_str_optimizer.ml" 35 1047 1102
+type(
+  (Arm_structs.reg * string) list
+)
+ident(
+  int_ref new_inlst "ldr_str_optimizer.ml" 34 1002 1035 "ldr_str_optimizer.ml" 34 1002 1044
+)
+"ldr_str_optimizer.ml" 35 1047 1078 "ldr_str_optimizer.ml" 35 1047 1102
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 36 1106 1113 "ldr_str_optimizer.ml" 36 1106 1117
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "ldr_str_optimizer.ml" 34 1002 1025 "ldr_str_optimizer.ml" 34 1002 1029
+)
+"ldr_str_optimizer.ml" 36 1106 1119 "ldr_str_optimizer.ml" 36 1106 1128
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref new_stmts "ldr_str_optimizer.ml" 35 1047 1058 "ldr_str_optimizer.ml" 35 1047 1067
+)
+"ldr_str_optimizer.ml" 36 1106 1113 "ldr_str_optimizer.ml" 36 1106 1128
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ldr_str_optimizer.ml" 36 1106 1129 "ldr_str_optimizer.ml" 36 1106 1135
+type(
+  (string * string) list
+)
+ident(
+  int_ref outlst "ldr_str_optimizer.ml" 35 1047 1068 "ldr_str_optimizer.ml" 35 1047 1074
+)
+"ldr_str_optimizer.ml" 36 1106 1112 "ldr_str_optimizer.ml" 36 1106 1136
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 35 1047 1053 "ldr_str_optimizer.ml" 36 1106 1136
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 37 1140 1150 "ldr_str_optimizer.ml" 37 1140 1155
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref stmts "ldr_str_optimizer.ml" 33 926 946 "ldr_str_optimizer.ml" 33 926 951
+)
+"ldr_str_optimizer.ml" 38 1161 1167 "ldr_str_optimizer.ml" 38 1161 1169
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ldr_str_optimizer.ml" 38 1161 1174 "ldr_str_optimizer.ml" 38 1161 1176
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ldr_str_optimizer.ml" 38 1161 1177 "ldr_str_optimizer.ml" 38 1161 1182
+type(
+  (Arm_structs.reg * string) list
+)
+ident(
+  int_ref inlst "ldr_str_optimizer.ml" 33 926 952 "ldr_str_optimizer.ml" 33 926 957
+)
+"ldr_str_optimizer.ml" 38 1161 1173 "ldr_str_optimizer.ml" 38 1161 1183
+type(
+  Ir3_structs_new.ir3_stmt_new list * (Arm_structs.reg * string) list
+)
+"ldr_str_optimizer.ml" 39 1184 1190 "ldr_str_optimizer.ml" 39 1184 1194
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  def stmt "ldr_str_optimizer.ml" 40 1205 1211 "ldr_str_optimizer.ml" 96 3691 3700
+)
+"ldr_str_optimizer.ml" 39 1184 1196 "ldr_str_optimizer.ml" 39 1184 1200
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def rest "ldr_str_optimizer.ml" 40 1205 1211 "ldr_str_optimizer.ml" 96 3691 3700
+)
+"ldr_str_optimizer.ml" 39 1184 1190 "ldr_str_optimizer.ml" 39 1184 1200
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ldr_str_optimizer.ml" 41 1217 1231 "ldr_str_optimizer.ml" 41 1217 1235
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "ldr_str_optimizer.ml" 39 1184 1190 "ldr_str_optimizer.ml" 39 1184 1194
+)
+"ldr_str_optimizer.ml" 42 1241 1255 "ldr_str_optimizer.ml" 42 1241 1256
+type(
+  string
+)
+ident(
+  def r "ldr_str_optimizer.ml" 43 1264 1274 "ldr_str_optimizer.ml" 51 1557 1632
+)
+"ldr_str_optimizer.ml" 42 1241 1257 "ldr_str_optimizer.ml" 42 1241 1258
+type(
+  string
+)
+ident(
+  def m "ldr_str_optimizer.ml" 43 1264 1274 "ldr_str_optimizer.ml" 51 1557 1632
+)
+"ldr_str_optimizer.ml" 42 1241 1251 "ldr_str_optimizer.ml" 42 1241 1259
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"ldr_str_optimizer.ml" 43 1264 1278 "ldr_str_optimizer.ml" 43 1264 1281
+type(
+  string
+)
+ident(
+  def reg "ldr_str_optimizer.ml" 44 1313 1323 "ldr_str_optimizer.ml" 51 1557 1632
+)
+"ldr_str_optimizer.ml" 43 1264 1284 "ldr_str_optimizer.ml" 43 1264 1307
+type(
+  string -> string
+)
+ident(
+  ext_ref Assign_register.convert
+)
+"ldr_str_optimizer.ml" 43 1264 1308 "ldr_str_optimizer.ml" 43 1264 1309
+type(
+  string
+)
+ident(
+  int_ref r "ldr_str_optimizer.ml" 42 1241 1255 "ldr_str_optimizer.ml" 42 1241 1256
+)
+"ldr_str_optimizer.ml" 43 1264 1284 "ldr_str_optimizer.ml" 43 1264 1309
+call(
+  stack
+)
+type(
+  string
+)
+"ldr_str_optimizer.ml" 44 1313 1327 "ldr_str_optimizer.ml" 44 1313 1333
+type(
+  string
+)
+ident(
+  def offset "ldr_str_optimizer.ml" 45 1365 1375 "ldr_str_optimizer.ml" 51 1557 1632
+)
+"ldr_str_optimizer.ml" 44 1313 1336 "ldr_str_optimizer.ml" 44 1313 1359
+type(
+  string -> string
+)
+ident(
+  ext_ref Assign_register.convert
+)
+"ldr_str_optimizer.ml" 44 1313 1360 "ldr_str_optimizer.ml" 44 1313 1361
+type(
+  string
+)
+ident(
+  int_ref m "ldr_str_optimizer.ml" 42 1241 1257 "ldr_str_optimizer.ml" 42 1241 1258
+)
+"ldr_str_optimizer.ml" 44 1313 1336 "ldr_str_optimizer.ml" 44 1313 1361
+call(
+  stack
+)
+type(
+  string
+)
+"ldr_str_optimizer.ml" 45 1365 1378 "ldr_str_optimizer.ml" 45 1365 1389
+type(
+  (Arm_structs.reg * string -> bool) ->
+  (Arm_structs.reg * string) list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"ldr_str_optimizer.ml" 45 1365 1395 "ldr_str_optimizer.ml" 45 1365 1400
+type(
+  Arm_structs.reg * string
+)
+ident(
+  def entry "ldr_str_optimizer.ml" 45 1365 1404 "ldr_str_optimizer.ml" 45 1365 1422
+)
+"ldr_str_optimizer.ml" 45 1365 1404 "ldr_str_optimizer.ml" 45 1365 1409
+type(
+  Arm_structs.reg * string
+)
+ident(
+  int_ref entry "ldr_str_optimizer.ml" 45 1365 1395 "ldr_str_optimizer.ml" 45 1365 1400
+)
+"ldr_str_optimizer.ml" 45 1365 1409 "ldr_str_optimizer.ml" 45 1365 1410
+type(
+  Arm_structs.reg * string -> Arm_structs.reg * string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ldr_str_optimizer.ml" 45 1365 1411 "ldr_str_optimizer.ml" 45 1365 1414
+type(
+  Arm_structs.reg
+)
+ident(
+  int_ref reg "ldr_str_optimizer.ml" 43 1264 1278 "ldr_str_optimizer.ml" 43 1264 1281
+)
+"ldr_str_optimizer.ml" 45 1365 1415 "ldr_str_optimizer.ml" 45 1365 1421
+type(
+  string
+)
+ident(
+  int_ref offset "ldr_str_optimizer.ml" 44 1313 1327 "ldr_str_optimizer.ml" 44 1313 1333
+)
+"ldr_str_optimizer.ml" 45 1365 1410 "ldr_str_optimizer.ml" 45 1365 1422
+type(
+  Arm_structs.reg * string
+)
+"ldr_str_optimizer.ml" 45 1365 1404 "ldr_str_optimizer.ml" 45 1365 1422
+type(
+  bool
+)
+"ldr_str_optimizer.ml" 45 1365 1390 "ldr_str_optimizer.ml" 45 1365 1423
+type(
+  Arm_structs.reg * string -> bool
+)
+"ldr_str_optimizer.ml" 45 1365 1424 "ldr_str_optimizer.ml" 45 1365 1429
+type(
+  (Arm_structs.reg * string) list
+)
+ident(
+  int_ref inlst "ldr_str_optimizer.ml" 33 926 952 "ldr_str_optimizer.ml" 33 926 957
+)
+"ldr_str_optimizer.ml" 45 1365 1378 "ldr_str_optimizer.ml" 45 1365 1429
+call(
+  stack
+)
+type(
+  bool
+)
+"ldr_str_optimizer.ml" 47 1454 1466 "ldr_str_optimizer.ml" 47 1454 1483
+type(
+  bool ref
+)
+ident(
+  int_ref ldr_str_loop_flag "ldr_str_optimizer.ml" 6 83 87 "ldr_str_optimizer.ml" 6 83 104
+)
+"ldr_str_optimizer.ml" 47 1454 1484 "ldr_str_optimizer.ml" 47 1454 1486
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ldr_str_optimizer.ml" 47 1454 1487 "ldr_str_optimizer.ml" 47 1454 1491
+type(
+  bool
+)
+"ldr_str_optimizer.ml" 47 1454 1466 "ldr_str_optimizer.ml" 47 1454 1491
+type(
+  unit
+)
+"ldr_str_optimizer.ml" 48 1493 1505 "ldr_str_optimizer.ml" 48 1493 1514
+type(
+  Ir3_structs_new.ir3_stmt_new list ->
+  (Arm_structs.reg * string) list ->
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+ident(
+  int_ref opt_stmts "ldr_str_optimizer.ml" 33 926 936 "ldr_str_optimizer.ml" 33 926 945
+)
+"ldr_str_optimizer.ml" 48 1493 1515 "ldr_str_optimizer.ml" 48 1493 1519
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref rest "ldr_str_optimizer.ml" 39 1184 1196 "ldr_str_optimizer.ml" 39 1184 1200
+)
+"ldr_str_optimizer.ml" 48 1493 1520 "ldr_str_optimizer.ml" 48 1493 1525
+type(
+  (Arm_structs.reg * string) list
+)
+ident(
+  int_ref inlst "ldr_str_optimizer.ml" 33 926 952 "ldr_str_optimizer.ml" 33 926 957
+)
+"ldr_str_optimizer.ml" 48 1493 1505 "ldr_str_optimizer.ml" 48 1493 1525
+call(
+  tail
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 46 1436 1448 "ldr_str_optimizer.ml" 49 1526 1541
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 51 1557 1569 "ldr_str_optimizer.ml" 51 1557 1583
+type(
+  Ir3_structs_new.ir3_stmt_new ->
+  Ir3_structs_new.ir3_stmt_new list ->
+  (Arm_structs.reg * string) list ->
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+ident(
+  int_ref opt_rest_stmts "ldr_str_optimizer.ml" 34 1002 1010 "ldr_str_optimizer.ml" 34 1002 1024
+)
+"ldr_str_optimizer.ml" 51 1557 1584 "ldr_str_optimizer.ml" 51 1557 1588
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "ldr_str_optimizer.ml" 39 1184 1190 "ldr_str_optimizer.ml" 39 1184 1194
+)
+"ldr_str_optimizer.ml" 51 1557 1589 "ldr_str_optimizer.ml" 51 1557 1593
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref rest "ldr_str_optimizer.ml" 39 1184 1196 "ldr_str_optimizer.ml" 39 1184 1200
+)
+"ldr_str_optimizer.ml" 51 1557 1596 "ldr_str_optimizer.ml" 51 1557 1599
+type(
+  Arm_structs.reg
+)
+ident(
+  int_ref reg "ldr_str_optimizer.ml" 43 1264 1278 "ldr_str_optimizer.ml" 43 1264 1281
+)
+"ldr_str_optimizer.ml" 51 1557 1600 "ldr_str_optimizer.ml" 51 1557 1606
+type(
+  string
+)
+ident(
+  int_ref offset "ldr_str_optimizer.ml" 44 1313 1327 "ldr_str_optimizer.ml" 44 1313 1333
+)
+"ldr_str_optimizer.ml" 51 1557 1595 "ldr_str_optimizer.ml" 51 1557 1607
+type(
+  Arm_structs.reg * string
+)
+"ldr_str_optimizer.ml" 51 1557 1610 "ldr_str_optimizer.ml" 51 1557 1620
+type(
+  (Arm_structs.reg * string) list ->
+  Arm_structs.reg -> (Arm_structs.reg * string) list
+)
+ident(
+  int_ref filter_reg "ldr_str_optimizer.ml" 8 117 125 "ldr_str_optimizer.ml" 8 117 135
+)
+"ldr_str_optimizer.ml" 51 1557 1621 "ldr_str_optimizer.ml" 51 1557 1626
+type(
+  (Arm_structs.reg * string) list
+)
+ident(
+  int_ref inlst "ldr_str_optimizer.ml" 33 926 952 "ldr_str_optimizer.ml" 33 926 957
+)
+"ldr_str_optimizer.ml" 51 1557 1627 "ldr_str_optimizer.ml" 51 1557 1630
+type(
+  Arm_structs.reg
+)
+ident(
+  int_ref reg "ldr_str_optimizer.ml" 43 1264 1278 "ldr_str_optimizer.ml" 43 1264 1281
+)
+"ldr_str_optimizer.ml" 51 1557 1609 "ldr_str_optimizer.ml" 51 1557 1631
+call(
+  stack
+)
+type(
+  (Arm_structs.reg * string) list
+)
+"ldr_str_optimizer.ml" 51 1557 1594 "ldr_str_optimizer.ml" 51 1557 1632
+type(
+  (Arm_structs.reg * string) list
+)
+"ldr_str_optimizer.ml" 51 1557 1569 "ldr_str_optimizer.ml" 51 1557 1632
+call(
+  tail
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 45 1365 1375 "ldr_str_optimizer.ml" 51 1557 1632
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 44 1313 1323 "ldr_str_optimizer.ml" 51 1557 1632
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 43 1264 1274 "ldr_str_optimizer.ml" 51 1557 1632
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 52 1633 1647 "ldr_str_optimizer.ml" 52 1633 1648
+type(
+  string
+)
+ident(
+  def r "ldr_str_optimizer.ml" 53 1655 1665 "ldr_str_optimizer.ml" 61 1948 2029
+)
+"ldr_str_optimizer.ml" 52 1633 1649 "ldr_str_optimizer.ml" 52 1633 1650
+type(
+  string
+)
+ident(
+  def m "ldr_str_optimizer.ml" 53 1655 1665 "ldr_str_optimizer.ml" 61 1948 2029
+)
+"ldr_str_optimizer.ml" 52 1633 1643 "ldr_str_optimizer.ml" 52 1633 1651
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"ldr_str_optimizer.ml" 53 1655 1669 "ldr_str_optimizer.ml" 53 1655 1672
+type(
+  string
+)
+ident(
+  def reg "ldr_str_optimizer.ml" 54 1704 1714 "ldr_str_optimizer.ml" 61 1948 2029
+)
+"ldr_str_optimizer.ml" 53 1655 1675 "ldr_str_optimizer.ml" 53 1655 1698
+type(
+  string -> string
+)
+ident(
+  ext_ref Assign_register.convert
+)
+"ldr_str_optimizer.ml" 53 1655 1699 "ldr_str_optimizer.ml" 53 1655 1700
+type(
+  string
+)
+ident(
+  int_ref r "ldr_str_optimizer.ml" 52 1633 1647 "ldr_str_optimizer.ml" 52 1633 1648
+)
+"ldr_str_optimizer.ml" 53 1655 1675 "ldr_str_optimizer.ml" 53 1655 1700
+call(
+  stack
+)
+type(
+  string
+)
+"ldr_str_optimizer.ml" 54 1704 1718 "ldr_str_optimizer.ml" 54 1704 1724
+type(
+  string
+)
+ident(
+  def offset "ldr_str_optimizer.ml" 55 1756 1766 "ldr_str_optimizer.ml" 61 1948 2029
+)
+"ldr_str_optimizer.ml" 54 1704 1727 "ldr_str_optimizer.ml" 54 1704 1750
+type(
+  string -> string
+)
+ident(
+  ext_ref Assign_register.convert
+)
+"ldr_str_optimizer.ml" 54 1704 1751 "ldr_str_optimizer.ml" 54 1704 1752
+type(
+  string
+)
+ident(
+  int_ref m "ldr_str_optimizer.ml" 52 1633 1649 "ldr_str_optimizer.ml" 52 1633 1650
+)
+"ldr_str_optimizer.ml" 54 1704 1727 "ldr_str_optimizer.ml" 54 1704 1752
+call(
+  stack
+)
+type(
+  string
+)
+"ldr_str_optimizer.ml" 55 1756 1769 "ldr_str_optimizer.ml" 55 1756 1780
+type(
+  (Arm_structs.reg * string -> bool) ->
+  (Arm_structs.reg * string) list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"ldr_str_optimizer.ml" 55 1756 1786 "ldr_str_optimizer.ml" 55 1756 1791
+type(
+  Arm_structs.reg * string
+)
+ident(
+  def entry "ldr_str_optimizer.ml" 55 1756 1795 "ldr_str_optimizer.ml" 55 1756 1813
+)
+"ldr_str_optimizer.ml" 55 1756 1795 "ldr_str_optimizer.ml" 55 1756 1800
+type(
+  Arm_structs.reg * string
+)
+ident(
+  int_ref entry "ldr_str_optimizer.ml" 55 1756 1786 "ldr_str_optimizer.ml" 55 1756 1791
+)
+"ldr_str_optimizer.ml" 55 1756 1800 "ldr_str_optimizer.ml" 55 1756 1801
+type(
+  Arm_structs.reg * string -> Arm_structs.reg * string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ldr_str_optimizer.ml" 55 1756 1802 "ldr_str_optimizer.ml" 55 1756 1805
+type(
+  Arm_structs.reg
+)
+ident(
+  int_ref reg "ldr_str_optimizer.ml" 53 1655 1669 "ldr_str_optimizer.ml" 53 1655 1672
+)
+"ldr_str_optimizer.ml" 55 1756 1806 "ldr_str_optimizer.ml" 55 1756 1812
+type(
+  string
+)
+ident(
+  int_ref offset "ldr_str_optimizer.ml" 54 1704 1718 "ldr_str_optimizer.ml" 54 1704 1724
+)
+"ldr_str_optimizer.ml" 55 1756 1801 "ldr_str_optimizer.ml" 55 1756 1813
+type(
+  Arm_structs.reg * string
+)
+"ldr_str_optimizer.ml" 55 1756 1795 "ldr_str_optimizer.ml" 55 1756 1813
+type(
+  bool
+)
+"ldr_str_optimizer.ml" 55 1756 1781 "ldr_str_optimizer.ml" 55 1756 1814
+type(
+  Arm_structs.reg * string -> bool
+)
+"ldr_str_optimizer.ml" 55 1756 1815 "ldr_str_optimizer.ml" 55 1756 1820
+type(
+  (Arm_structs.reg * string) list
+)
+ident(
+  int_ref inlst "ldr_str_optimizer.ml" 33 926 952 "ldr_str_optimizer.ml" 33 926 957
+)
+"ldr_str_optimizer.ml" 55 1756 1769 "ldr_str_optimizer.ml" 55 1756 1820
+call(
+  stack
+)
+type(
+  bool
+)
+"ldr_str_optimizer.ml" 57 1845 1857 "ldr_str_optimizer.ml" 57 1845 1874
+type(
+  bool ref
+)
+ident(
+  int_ref ldr_str_loop_flag "ldr_str_optimizer.ml" 6 83 87 "ldr_str_optimizer.ml" 6 83 104
+)
+"ldr_str_optimizer.ml" 57 1845 1875 "ldr_str_optimizer.ml" 57 1845 1877
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ldr_str_optimizer.ml" 57 1845 1878 "ldr_str_optimizer.ml" 57 1845 1882
+type(
+  bool
+)
+"ldr_str_optimizer.ml" 57 1845 1857 "ldr_str_optimizer.ml" 57 1845 1882
+type(
+  unit
+)
+"ldr_str_optimizer.ml" 58 1884 1896 "ldr_str_optimizer.ml" 58 1884 1905
+type(
+  Ir3_structs_new.ir3_stmt_new list ->
+  (Arm_structs.reg * string) list ->
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+ident(
+  int_ref opt_stmts "ldr_str_optimizer.ml" 33 926 936 "ldr_str_optimizer.ml" 33 926 945
+)
+"ldr_str_optimizer.ml" 58 1884 1906 "ldr_str_optimizer.ml" 58 1884 1910
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref rest "ldr_str_optimizer.ml" 39 1184 1196 "ldr_str_optimizer.ml" 39 1184 1200
+)
+"ldr_str_optimizer.ml" 58 1884 1911 "ldr_str_optimizer.ml" 58 1884 1916
+type(
+  (Arm_structs.reg * string) list
+)
+ident(
+  int_ref inlst "ldr_str_optimizer.ml" 33 926 952 "ldr_str_optimizer.ml" 33 926 957
+)
+"ldr_str_optimizer.ml" 58 1884 1896 "ldr_str_optimizer.ml" 58 1884 1916
+call(
+  tail
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 56 1827 1839 "ldr_str_optimizer.ml" 59 1917 1932
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 61 1948 1960 "ldr_str_optimizer.ml" 61 1948 1974
+type(
+  Ir3_structs_new.ir3_stmt_new ->
+  Ir3_structs_new.ir3_stmt_new list ->
+  (Arm_structs.reg * string) list ->
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+ident(
+  int_ref opt_rest_stmts "ldr_str_optimizer.ml" 34 1002 1010 "ldr_str_optimizer.ml" 34 1002 1024
+)
+"ldr_str_optimizer.ml" 61 1948 1975 "ldr_str_optimizer.ml" 61 1948 1979
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "ldr_str_optimizer.ml" 39 1184 1190 "ldr_str_optimizer.ml" 39 1184 1194
+)
+"ldr_str_optimizer.ml" 61 1948 1980 "ldr_str_optimizer.ml" 61 1948 1984
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref rest "ldr_str_optimizer.ml" 39 1184 1196 "ldr_str_optimizer.ml" 39 1184 1200
+)
+"ldr_str_optimizer.ml" 61 1948 1987 "ldr_str_optimizer.ml" 61 1948 1990
+type(
+  Arm_structs.reg
+)
+ident(
+  int_ref reg "ldr_str_optimizer.ml" 53 1655 1669 "ldr_str_optimizer.ml" 53 1655 1672
+)
+"ldr_str_optimizer.ml" 61 1948 1991 "ldr_str_optimizer.ml" 61 1948 1997
+type(
+  string
+)
+ident(
+  int_ref offset "ldr_str_optimizer.ml" 54 1704 1718 "ldr_str_optimizer.ml" 54 1704 1724
+)
+"ldr_str_optimizer.ml" 61 1948 1986 "ldr_str_optimizer.ml" 61 1948 1998
+type(
+  Arm_structs.reg * string
+)
+"ldr_str_optimizer.ml" 61 1948 2001 "ldr_str_optimizer.ml" 61 1948 2014
+type(
+  (Arm_structs.reg * string) list ->
+  string -> (Arm_structs.reg * string) list
+)
+ident(
+  int_ref filter_offset "ldr_str_optimizer.ml" 16 348 356 "ldr_str_optimizer.ml" 16 348 369
+)
+"ldr_str_optimizer.ml" 61 1948 2015 "ldr_str_optimizer.ml" 61 1948 2020
+type(
+  (Arm_structs.reg * string) list
+)
+ident(
+  int_ref inlst "ldr_str_optimizer.ml" 33 926 952 "ldr_str_optimizer.ml" 33 926 957
+)
+"ldr_str_optimizer.ml" 61 1948 2021 "ldr_str_optimizer.ml" 61 1948 2027
+type(
+  string
+)
+ident(
+  int_ref offset "ldr_str_optimizer.ml" 54 1704 1718 "ldr_str_optimizer.ml" 54 1704 1724
+)
+"ldr_str_optimizer.ml" 61 1948 2000 "ldr_str_optimizer.ml" 61 1948 2028
+call(
+  stack
+)
+type(
+  (Arm_structs.reg * string) list
+)
+"ldr_str_optimizer.ml" 61 1948 1985 "ldr_str_optimizer.ml" 61 1948 2029
+type(
+  (Arm_structs.reg * string) list
+)
+"ldr_str_optimizer.ml" 61 1948 1960 "ldr_str_optimizer.ml" 61 1948 2029
+call(
+  tail
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 55 1756 1766 "ldr_str_optimizer.ml" 61 1948 2029
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 54 1704 1714 "ldr_str_optimizer.ml" 61 1948 2029
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 53 1655 1665 "ldr_str_optimizer.ml" 61 1948 2029
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 62 2031 2059 "ldr_str_optimizer.ml" 62 2031 2060
+type(
+  string
+)
+"ldr_str_optimizer.ml" 62 2031 2061 "ldr_str_optimizer.ml" 62 2031 2064
+type(
+  Ir3_structs_new.reg_or_mem
+)
+ident(
+  def r_m "ldr_str_optimizer.ml" 63 2075 2085 "ldr_str_optimizer.ml" 72 2457 2470
+)
+"ldr_str_optimizer.ml" 62 2031 2058 "ldr_str_optimizer.ml" 62 2031 2065
+type(
+  Ir3_structs_new.id3_new
+)
+"ldr_str_optimizer.ml" 62 2031 2066 "ldr_str_optimizer.ml" 62 2031 2069
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  def exp "ldr_str_optimizer.ml" 63 2075 2085 "ldr_str_optimizer.ml" 72 2457 2470
+)
+"ldr_str_optimizer.ml" 62 2031 2041 "ldr_str_optimizer.ml" 62 2031 2070
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"ldr_str_optimizer.ml" 64 2091 2109 "ldr_str_optimizer.ml" 64 2091 2112
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  int_ref exp "ldr_str_optimizer.ml" 62 2031 2066 "ldr_str_optimizer.ml" 62 2031 2069
+)
+"ldr_str_optimizer.ml" 65 2119 2145 "ldr_str_optimizer.ml" 65 2119 2146
+type(
+  Ir3_structs_new.idc3_new list
+)
+type(
+  Ir3_structs_new.id3_new
+)
+"ldr_str_optimizer.ml" 65 2119 2133 "ldr_str_optimizer.ml" 65 2119 2146
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"ldr_str_optimizer.ml" 65 2119 2150 "ldr_str_optimizer.ml" 65 2119 2164
+type(
+  Ir3_structs_new.ir3_stmt_new ->
+  Ir3_structs_new.ir3_stmt_new list ->
+  (Arm_structs.reg * string) list ->
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+ident(
+  int_ref opt_rest_stmts "ldr_str_optimizer.ml" 34 1002 1010 "ldr_str_optimizer.ml" 34 1002 1024
+)
+"ldr_str_optimizer.ml" 65 2119 2165 "ldr_str_optimizer.ml" 65 2119 2169
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "ldr_str_optimizer.ml" 39 1184 1190 "ldr_str_optimizer.ml" 39 1184 1194
+)
+"ldr_str_optimizer.ml" 65 2119 2170 "ldr_str_optimizer.ml" 65 2119 2174
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref rest "ldr_str_optimizer.ml" 39 1184 1196 "ldr_str_optimizer.ml" 39 1184 1200
+)
+"ldr_str_optimizer.ml" 65 2119 2175 "ldr_str_optimizer.ml" 65 2119 2177
+type(
+  (Arm_structs.reg * string) list
+)
+"ldr_str_optimizer.ml" 65 2119 2150 "ldr_str_optimizer.ml" 65 2119 2177
+call(
+  tail
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 66 2178 2192 "ldr_str_optimizer.ml" 66 2178 2193
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"ldr_str_optimizer.ml" 67 2198 2218 "ldr_str_optimizer.ml" 67 2198 2221
+type(
+  Ir3_structs_new.reg_or_mem
+)
+ident(
+  int_ref r_m "ldr_str_optimizer.ml" 62 2031 2061 "ldr_str_optimizer.ml" 62 2031 2064
+)
+"ldr_str_optimizer.ml" 68 2227 2247 "ldr_str_optimizer.ml" 68 2227 2248
+type(
+  string
+)
+ident(
+  def r "ldr_str_optimizer.ml" 69 2253 2269 "ldr_str_optimizer.ml" 70 2308 2371
+)
+"ldr_str_optimizer.ml" 68 2227 2243 "ldr_str_optimizer.ml" 68 2227 2248
+type(
+  Ir3_structs_new.reg_or_mem
+)
+"ldr_str_optimizer.ml" 69 2253 2273 "ldr_str_optimizer.ml" 69 2253 2276
+type(
+  string
+)
+ident(
+  def reg "ldr_str_optimizer.ml" 70 2308 2324 "ldr_str_optimizer.ml" 70 2308 2371
+)
+"ldr_str_optimizer.ml" 69 2253 2279 "ldr_str_optimizer.ml" 69 2253 2302
+type(
+  string -> string
+)
+ident(
+  ext_ref Assign_register.convert
+)
+"ldr_str_optimizer.ml" 69 2253 2303 "ldr_str_optimizer.ml" 69 2253 2304
+type(
+  string
+)
+ident(
+  int_ref r "ldr_str_optimizer.ml" 68 2227 2247 "ldr_str_optimizer.ml" 68 2227 2248
+)
+"ldr_str_optimizer.ml" 69 2253 2279 "ldr_str_optimizer.ml" 69 2253 2304
+call(
+  stack
+)
+type(
+  string
+)
+"ldr_str_optimizer.ml" 70 2308 2324 "ldr_str_optimizer.ml" 70 2308 2338
+type(
+  Ir3_structs_new.ir3_stmt_new ->
+  Ir3_structs_new.ir3_stmt_new list ->
+  (Arm_structs.reg * string) list ->
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+ident(
+  int_ref opt_rest_stmts "ldr_str_optimizer.ml" 34 1002 1010 "ldr_str_optimizer.ml" 34 1002 1024
+)
+"ldr_str_optimizer.ml" 70 2308 2339 "ldr_str_optimizer.ml" 70 2308 2343
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "ldr_str_optimizer.ml" 39 1184 1190 "ldr_str_optimizer.ml" 39 1184 1194
+)
+"ldr_str_optimizer.ml" 70 2308 2344 "ldr_str_optimizer.ml" 70 2308 2348
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref rest "ldr_str_optimizer.ml" 39 1184 1196 "ldr_str_optimizer.ml" 39 1184 1200
+)
+"ldr_str_optimizer.ml" 70 2308 2350 "ldr_str_optimizer.ml" 70 2308 2360
+type(
+  (Arm_structs.reg * string) list ->
+  Arm_structs.reg -> (Arm_structs.reg * string) list
+)
+ident(
+  int_ref filter_reg "ldr_str_optimizer.ml" 8 117 125 "ldr_str_optimizer.ml" 8 117 135
+)
+"ldr_str_optimizer.ml" 70 2308 2361 "ldr_str_optimizer.ml" 70 2308 2366
+type(
+  (Arm_structs.reg * string) list
+)
+ident(
+  int_ref inlst "ldr_str_optimizer.ml" 33 926 952 "ldr_str_optimizer.ml" 33 926 957
+)
+"ldr_str_optimizer.ml" 70 2308 2367 "ldr_str_optimizer.ml" 70 2308 2370
+type(
+  Arm_structs.reg
+)
+ident(
+  int_ref reg "ldr_str_optimizer.ml" 69 2253 2273 "ldr_str_optimizer.ml" 69 2253 2276
+)
+"ldr_str_optimizer.ml" 70 2308 2349 "ldr_str_optimizer.ml" 70 2308 2371
+call(
+  stack
+)
+type(
+  (Arm_structs.reg * string) list
+)
+"ldr_str_optimizer.ml" 70 2308 2324 "ldr_str_optimizer.ml" 70 2308 2371
+call(
+  tail
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 69 2253 2269 "ldr_str_optimizer.ml" 70 2308 2371
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 71 2373 2393 "ldr_str_optimizer.ml" 71 2373 2394
+type(
+  string
+)
+"ldr_str_optimizer.ml" 71 2373 2389 "ldr_str_optimizer.ml" 71 2373 2394
+type(
+  Ir3_structs_new.reg_or_mem
+)
+"ldr_str_optimizer.ml" 71 2373 2398 "ldr_str_optimizer.ml" 71 2373 2406
+type(
+  string -> Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ldr_str_optimizer.ml" 71 2373 2407 "ldr_str_optimizer.ml" 71 2373 2456
+type(
+  string
+)
+"ldr_str_optimizer.ml" 71 2373 2398 "ldr_str_optimizer.ml" 71 2373 2456
+call(
+  tail
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 67 2198 2212 "ldr_str_optimizer.ml" 71 2373 2456
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 63 2075 2085 "ldr_str_optimizer.ml" 72 2457 2470
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 73 2471 2497 "ldr_str_optimizer.ml" 73 2471 2506
+type(
+  Arm_structs.arm_instr list
+)
+ident(
+  def arm_stmts "ldr_str_optimizer.ml" 74 2510 2520 "ldr_str_optimizer.ml" 92 3450 3524
+)
+"ldr_str_optimizer.ml" 73 2471 2481 "ldr_str_optimizer.ml" 73 2471 2506
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"ldr_str_optimizer.ml" 74 2510 2528 "ldr_str_optimizer.ml" 74 2510 2544
+type(
+  Arm_structs.arm_instr list ->
+  (Arm_structs.reg * string) list ->
+  Arm_structs.arm_instr list * (string * string) list
+)
+ident(
+  def filter_arm_stmts "ldr_str_optimizer.ml" 74 2510 2520 "ldr_str_optimizer.ml" 92 3450 3524
+)
+"ldr_str_optimizer.ml" 74 2510 2545 "ldr_str_optimizer.ml" 74 2510 2550
+type(
+  Arm_structs.arm_instr list
+)
+ident(
+  def stmts "ldr_str_optimizer.ml" 74 2510 2551 "ldr_str_optimizer.ml" 90 3350 3367
+)
+"ldr_str_optimizer.ml" 74 2510 2551 "ldr_str_optimizer.ml" 74 2510 2556
+type(
+  (Arm_structs.reg * string) list
+)
+ident(
+  def inlst "ldr_str_optimizer.ml" 74 2510 2557 "ldr_str_optimizer.ml" 90 3350 3367
+)
+"ldr_str_optimizer.ml" 75 2597 2615 "ldr_str_optimizer.ml" 75 2597 2620
+type(
+  Arm_structs.arm_instr list
+)
+ident(
+  int_ref stmts "ldr_str_optimizer.ml" 74 2510 2545 "ldr_str_optimizer.ml" 74 2510 2550
+)
+"ldr_str_optimizer.ml" 76 2627 2641 "ldr_str_optimizer.ml" 76 2627 2643
+type(
+  Arm_structs.arm_instr list
+)
+"ldr_str_optimizer.ml" 76 2627 2648 "ldr_str_optimizer.ml" 76 2627 2650
+type(
+  Arm_structs.arm_instr list
+)
+"ldr_str_optimizer.ml" 76 2627 2651 "ldr_str_optimizer.ml" 76 2627 2656
+type(
+  (Arm_structs.reg * string) list
+)
+ident(
+  int_ref inlst "ldr_str_optimizer.ml" 74 2510 2551 "ldr_str_optimizer.ml" 74 2510 2556
+)
+"ldr_str_optimizer.ml" 76 2627 2647 "ldr_str_optimizer.ml" 76 2627 2657
+type(
+  Arm_structs.arm_instr list * (Arm_structs.reg * string) list
+)
+"ldr_str_optimizer.ml" 77 2658 2672 "ldr_str_optimizer.ml" 77 2658 2676
+type(
+  Arm_structs.arm_instr
+)
+ident(
+  def stmt "ldr_str_optimizer.ml" 78 2687 2701 "ldr_str_optimizer.ml" 90 3350 3367
+)
+"ldr_str_optimizer.ml" 77 2658 2678 "ldr_str_optimizer.ml" 77 2658 2682
+type(
+  Arm_structs.arm_instr list
+)
+ident(
+  def rest "ldr_str_optimizer.ml" 78 2687 2701 "ldr_str_optimizer.ml" 90 3350 3367
+)
+"ldr_str_optimizer.ml" 77 2658 2672 "ldr_str_optimizer.ml" 77 2658 2682
+type(
+  Arm_structs.arm_instr list
+)
+"ldr_str_optimizer.ml" 79 2707 2729 "ldr_str_optimizer.ml" 79 2707 2733
+type(
+  Arm_structs.arm_instr
+)
+ident(
+  int_ref stmt "ldr_str_optimizer.ml" 77 2658 2672 "ldr_str_optimizer.ml" 77 2658 2676
+)
+"ldr_str_optimizer.ml" 80 2739 2762 "ldr_str_optimizer.ml" 80 2739 2763
+type(
+  Arm_structs.cond
+)
+"ldr_str_optimizer.ml" 80 2739 2764 "ldr_str_optimizer.ml" 80 2739 2765
+type(
+  Arm_structs.word_type
+)
+"ldr_str_optimizer.ml" 80 2739 2766 "ldr_str_optimizer.ml" 80 2739 2769
+type(
+  Arm_structs.reg
+)
+ident(
+  def reg "ldr_str_optimizer.ml" 81 2806 2824 "ldr_str_optimizer.ml" 88 3200 3244
+)
+"ldr_str_optimizer.ml" 80 2739 2785 "ldr_str_optimizer.ml" 80 2739 2786
+type(
+  Arm_structs.reg
+)
+"ldr_str_optimizer.ml" 80 2739 2787 "ldr_str_optimizer.ml" 80 2739 2797
+type(
+  int
+)
+ident(
+  def offset_int "ldr_str_optimizer.ml" 81 2806 2824 "ldr_str_optimizer.ml" 88 3200 3244
+)
+"ldr_str_optimizer.ml" 80 2739 2798 "ldr_str_optimizer.ml" 80 2739 2799
+type(
+  bool
+)
+"ldr_str_optimizer.ml" 80 2739 2770 "ldr_str_optimizer.ml" 80 2739 2800
+type(
+  Arm_structs.address_type
+)
+"ldr_str_optimizer.ml" 80 2739 2761 "ldr_str_optimizer.ml" 80 2739 2801
+type(
+  Arm_structs.mem_instr_type
+)
+"ldr_str_optimizer.ml" 80 2739 2757 "ldr_str_optimizer.ml" 80 2739 2801
+type(
+  Arm_structs.arm_instr
+)
+"ldr_str_optimizer.ml" 81 2806 2828 "ldr_str_optimizer.ml" 81 2806 2834
+type(
+  string
+)
+ident(
+  def offset "ldr_str_optimizer.ml" 82 2865 2883 "ldr_str_optimizer.ml" 88 3200 3244
+)
+"ldr_str_optimizer.ml" 81 2806 2837 "ldr_str_optimizer.ml" 81 2806 2850
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"ldr_str_optimizer.ml" 81 2806 2851 "ldr_str_optimizer.ml" 81 2806 2861
+type(
+  int
+)
+ident(
+  int_ref offset_int "ldr_str_optimizer.ml" 80 2739 2787 "ldr_str_optimizer.ml" 80 2739 2797
+)
+"ldr_str_optimizer.ml" 81 2806 2837 "ldr_str_optimizer.ml" 81 2806 2861
+call(
+  stack
+)
+type(
+  string
+)
+"ldr_str_optimizer.ml" 82 2865 2886 "ldr_str_optimizer.ml" 82 2865 2897
+type(
+  (Arm_structs.reg * string -> bool) ->
+  (Arm_structs.reg * string) list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"ldr_str_optimizer.ml" 82 2865 2903 "ldr_str_optimizer.ml" 82 2865 2908
+type(
+  Arm_structs.reg * string
+)
+ident(
+  def entry "ldr_str_optimizer.ml" 82 2865 2912 "ldr_str_optimizer.ml" 82 2865 2930
+)
+"ldr_str_optimizer.ml" 82 2865 2912 "ldr_str_optimizer.ml" 82 2865 2917
+type(
+  Arm_structs.reg * string
+)
+ident(
+  int_ref entry "ldr_str_optimizer.ml" 82 2865 2903 "ldr_str_optimizer.ml" 82 2865 2908
+)
+"ldr_str_optimizer.ml" 82 2865 2917 "ldr_str_optimizer.ml" 82 2865 2918
+type(
+  Arm_structs.reg * string -> Arm_structs.reg * string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ldr_str_optimizer.ml" 82 2865 2919 "ldr_str_optimizer.ml" 82 2865 2922
+type(
+  Arm_structs.reg
+)
+ident(
+  int_ref reg "ldr_str_optimizer.ml" 80 2739 2766 "ldr_str_optimizer.ml" 80 2739 2769
+)
+"ldr_str_optimizer.ml" 82 2865 2923 "ldr_str_optimizer.ml" 82 2865 2929
+type(
+  string
+)
+ident(
+  int_ref offset "ldr_str_optimizer.ml" 81 2806 2828 "ldr_str_optimizer.ml" 81 2806 2834
+)
+"ldr_str_optimizer.ml" 82 2865 2918 "ldr_str_optimizer.ml" 82 2865 2930
+type(
+  Arm_structs.reg * string
+)
+"ldr_str_optimizer.ml" 82 2865 2912 "ldr_str_optimizer.ml" 82 2865 2930
+type(
+  bool
+)
+"ldr_str_optimizer.ml" 82 2865 2898 "ldr_str_optimizer.ml" 82 2865 2931
+type(
+  Arm_structs.reg * string -> bool
+)
+"ldr_str_optimizer.ml" 82 2865 2932 "ldr_str_optimizer.ml" 82 2865 2937
+type(
+  (Arm_structs.reg * string) list
+)
+ident(
+  int_ref inlst "ldr_str_optimizer.ml" 74 2510 2551 "ldr_str_optimizer.ml" 74 2510 2556
+)
+"ldr_str_optimizer.ml" 82 2865 2886 "ldr_str_optimizer.ml" 82 2865 2937
+call(
+  stack
+)
+type(
+  bool
+)
+"ldr_str_optimizer.ml" 84 2969 2989 "ldr_str_optimizer.ml" 84 2969 3006
+type(
+  bool ref
+)
+ident(
+  int_ref ldr_str_loop_flag "ldr_str_optimizer.ml" 6 83 87 "ldr_str_optimizer.ml" 6 83 104
+)
+"ldr_str_optimizer.ml" 84 2969 3007 "ldr_str_optimizer.ml" 84 2969 3009
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ldr_str_optimizer.ml" 84 2969 3010 "ldr_str_optimizer.ml" 84 2969 3014
+type(
+  bool
+)
+"ldr_str_optimizer.ml" 84 2969 2989 "ldr_str_optimizer.ml" 84 2969 3014
+type(
+  unit
+)
+"ldr_str_optimizer.ml" 85 3016 3036 "ldr_str_optimizer.ml" 85 3016 3052
+type(
+  Arm_structs.arm_instr list ->
+  (Arm_structs.reg * string) list ->
+  Arm_structs.arm_instr list * (string * string) list
+)
+ident(
+  int_ref filter_arm_stmts "ldr_str_optimizer.ml" 74 2510 2528 "ldr_str_optimizer.ml" 74 2510 2544
+)
+"ldr_str_optimizer.ml" 85 3016 3053 "ldr_str_optimizer.ml" 85 3016 3057
+type(
+  Arm_structs.arm_instr list
+)
+ident(
+  int_ref rest "ldr_str_optimizer.ml" 77 2658 2678 "ldr_str_optimizer.ml" 77 2658 2682
+)
+"ldr_str_optimizer.ml" 85 3016 3058 "ldr_str_optimizer.ml" 85 3016 3063
+type(
+  (Arm_structs.reg * string) list
+)
+ident(
+  int_ref inlst "ldr_str_optimizer.ml" 74 2510 2551 "ldr_str_optimizer.ml" 74 2510 2556
+)
+"ldr_str_optimizer.ml" 85 3016 3036 "ldr_str_optimizer.ml" 85 3016 3063
+call(
+  tail
+)
+type(
+  Arm_structs.arm_instr list * (string * string) list
+)
+"ldr_str_optimizer.ml" 83 2943 2963 "ldr_str_optimizer.ml" 86 3064 3087
+type(
+  Arm_structs.arm_instr list * (string * string) list
+)
+"ldr_str_optimizer.ml" 87 3088 3116 "ldr_str_optimizer.ml" 87 3088 3125
+type(
+  Arm_structs.arm_instr list
+)
+ident(
+  def new_stmts "ldr_str_optimizer.ml" 88 3200 3220 "ldr_str_optimizer.ml" 88 3200 3244
+)
+"ldr_str_optimizer.ml" 87 3088 3126 "ldr_str_optimizer.ml" 87 3088 3132
+type(
+  (string * string) list
+)
+ident(
+  def outlst "ldr_str_optimizer.ml" 88 3200 3220 "ldr_str_optimizer.ml" 88 3200 3244
+)
+"ldr_str_optimizer.ml" 87 3088 3115 "ldr_str_optimizer.ml" 87 3088 3133
+type(
+  Arm_structs.arm_instr list * (string * string) list
+)
+"ldr_str_optimizer.ml" 87 3088 3136 "ldr_str_optimizer.ml" 87 3088 3152
+type(
+  Arm_structs.arm_instr list ->
+  (Arm_structs.reg * string) list ->
+  Arm_structs.arm_instr list * (string * string) list
+)
+ident(
+  int_ref filter_arm_stmts "ldr_str_optimizer.ml" 74 2510 2528 "ldr_str_optimizer.ml" 74 2510 2544
+)
+"ldr_str_optimizer.ml" 87 3088 3153 "ldr_str_optimizer.ml" 87 3088 3157
+type(
+  Arm_structs.arm_instr list
+)
+ident(
+  int_ref rest "ldr_str_optimizer.ml" 77 2658 2678 "ldr_str_optimizer.ml" 77 2658 2682
+)
+"ldr_str_optimizer.ml" 87 3088 3160 "ldr_str_optimizer.ml" 87 3088 3163
+type(
+  Arm_structs.reg
+)
+ident(
+  int_ref reg "ldr_str_optimizer.ml" 80 2739 2766 "ldr_str_optimizer.ml" 80 2739 2769
+)
+"ldr_str_optimizer.ml" 87 3088 3164 "ldr_str_optimizer.ml" 87 3088 3170
+type(
+  string
+)
+ident(
+  int_ref offset "ldr_str_optimizer.ml" 81 2806 2828 "ldr_str_optimizer.ml" 81 2806 2834
+)
+"ldr_str_optimizer.ml" 87 3088 3159 "ldr_str_optimizer.ml" 87 3088 3171
+type(
+  Arm_structs.reg * string
+)
+"ldr_str_optimizer.ml" 87 3088 3174 "ldr_str_optimizer.ml" 87 3088 3184
+type(
+  (Arm_structs.reg * string) list ->
+  Arm_structs.reg -> (Arm_structs.reg * string) list
+)
+ident(
+  int_ref filter_reg "ldr_str_optimizer.ml" 8 117 125 "ldr_str_optimizer.ml" 8 117 135
+)
+"ldr_str_optimizer.ml" 87 3088 3185 "ldr_str_optimizer.ml" 87 3088 3190
+type(
+  (Arm_structs.reg * string) list
+)
+ident(
+  int_ref inlst "ldr_str_optimizer.ml" 74 2510 2551 "ldr_str_optimizer.ml" 74 2510 2556
+)
+"ldr_str_optimizer.ml" 87 3088 3191 "ldr_str_optimizer.ml" 87 3088 3194
+type(
+  Arm_structs.reg
+)
+ident(
+  int_ref reg "ldr_str_optimizer.ml" 80 2739 2766 "ldr_str_optimizer.ml" 80 2739 2769
+)
+"ldr_str_optimizer.ml" 87 3088 3173 "ldr_str_optimizer.ml" 87 3088 3195
+call(
+  stack
+)
+type(
+  (Arm_structs.reg * string) list
+)
+"ldr_str_optimizer.ml" 87 3088 3158 "ldr_str_optimizer.ml" 87 3088 3196
+type(
+  (Arm_structs.reg * string) list
+)
+"ldr_str_optimizer.ml" 87 3088 3136 "ldr_str_optimizer.ml" 87 3088 3196
+call(
+  stack
+)
+type(
+  Arm_structs.arm_instr list * (string * string) list
+)
+"ldr_str_optimizer.ml" 88 3200 3221 "ldr_str_optimizer.ml" 88 3200 3225
+type(
+  Arm_structs.arm_instr
+)
+ident(
+  int_ref stmt "ldr_str_optimizer.ml" 77 2658 2672 "ldr_str_optimizer.ml" 77 2658 2676
+)
+"ldr_str_optimizer.ml" 88 3200 3227 "ldr_str_optimizer.ml" 88 3200 3236
+type(
+  Arm_structs.arm_instr list
+)
+ident(
+  int_ref new_stmts "ldr_str_optimizer.ml" 87 3088 3116 "ldr_str_optimizer.ml" 87 3088 3125
+)
+"ldr_str_optimizer.ml" 88 3200 3221 "ldr_str_optimizer.ml" 88 3200 3236
+type(
+  Arm_structs.arm_instr list
+)
+"ldr_str_optimizer.ml" 88 3200 3237 "ldr_str_optimizer.ml" 88 3200 3243
+type(
+  (string * string) list
+)
+ident(
+  int_ref outlst "ldr_str_optimizer.ml" 87 3088 3126 "ldr_str_optimizer.ml" 87 3088 3132
+)
+"ldr_str_optimizer.ml" 88 3200 3220 "ldr_str_optimizer.ml" 88 3200 3244
+type(
+  Arm_structs.arm_instr list * (string * string) list
+)
+"ldr_str_optimizer.ml" 87 3088 3111 "ldr_str_optimizer.ml" 88 3200 3244
+type(
+  Arm_structs.arm_instr list * (string * string) list
+)
+"ldr_str_optimizer.ml" 82 2865 2883 "ldr_str_optimizer.ml" 88 3200 3244
+type(
+  Arm_structs.arm_instr list * (string * string) list
+)
+"ldr_str_optimizer.ml" 81 2806 2824 "ldr_str_optimizer.ml" 88 3200 3244
+type(
+  Arm_structs.arm_instr list * (string * string) list
+)
+"ldr_str_optimizer.ml" 89 3245 3263 "ldr_str_optimizer.ml" 89 3245 3264
+type(
+  Arm_structs.arm_instr
+)
+"ldr_str_optimizer.ml" 89 3245 3273 "ldr_str_optimizer.ml" 89 3245 3282
+type(
+  Arm_structs.arm_instr list
+)
+ident(
+  def new_stmts "ldr_str_optimizer.ml" 89 3245 3324 "ldr_str_optimizer.ml" 89 3245 3348
+)
+"ldr_str_optimizer.ml" 89 3245 3283 "ldr_str_optimizer.ml" 89 3245 3289
+type(
+  (string * string) list
+)
+ident(
+  def outlst "ldr_str_optimizer.ml" 89 3245 3324 "ldr_str_optimizer.ml" 89 3245 3348
+)
+"ldr_str_optimizer.ml" 89 3245 3272 "ldr_str_optimizer.ml" 89 3245 3290
+type(
+  Arm_structs.arm_instr list * (string * string) list
+)
+"ldr_str_optimizer.ml" 89 3245 3293 "ldr_str_optimizer.ml" 89 3245 3309
+type(
+  Arm_structs.arm_instr list ->
+  (Arm_structs.reg * string) list ->
+  Arm_structs.arm_instr list * (string * string) list
+)
+ident(
+  int_ref filter_arm_stmts "ldr_str_optimizer.ml" 74 2510 2528 "ldr_str_optimizer.ml" 74 2510 2544
+)
+"ldr_str_optimizer.ml" 89 3245 3310 "ldr_str_optimizer.ml" 89 3245 3314
+type(
+  Arm_structs.arm_instr list
+)
+ident(
+  int_ref rest "ldr_str_optimizer.ml" 77 2658 2678 "ldr_str_optimizer.ml" 77 2658 2682
+)
+"ldr_str_optimizer.ml" 89 3245 3315 "ldr_str_optimizer.ml" 89 3245 3320
+type(
+  (Arm_structs.reg * string) list
+)
+ident(
+  int_ref inlst "ldr_str_optimizer.ml" 74 2510 2551 "ldr_str_optimizer.ml" 74 2510 2556
+)
+"ldr_str_optimizer.ml" 89 3245 3293 "ldr_str_optimizer.ml" 89 3245 3320
+call(
+  stack
+)
+type(
+  Arm_structs.arm_instr list * (string * string) list
+)
+"ldr_str_optimizer.ml" 89 3245 3325 "ldr_str_optimizer.ml" 89 3245 3329
+type(
+  Arm_structs.arm_instr
+)
+ident(
+  int_ref stmt "ldr_str_optimizer.ml" 77 2658 2672 "ldr_str_optimizer.ml" 77 2658 2676
+)
+"ldr_str_optimizer.ml" 89 3245 3331 "ldr_str_optimizer.ml" 89 3245 3340
+type(
+  Arm_structs.arm_instr list
+)
+ident(
+  int_ref new_stmts "ldr_str_optimizer.ml" 89 3245 3273 "ldr_str_optimizer.ml" 89 3245 3282
+)
+"ldr_str_optimizer.ml" 89 3245 3325 "ldr_str_optimizer.ml" 89 3245 3340
+type(
+  Arm_structs.arm_instr list
+)
+"ldr_str_optimizer.ml" 89 3245 3341 "ldr_str_optimizer.ml" 89 3245 3347
+type(
+  (string * string) list
+)
+ident(
+  int_ref outlst "ldr_str_optimizer.ml" 89 3245 3283 "ldr_str_optimizer.ml" 89 3245 3289
+)
+"ldr_str_optimizer.ml" 89 3245 3324 "ldr_str_optimizer.ml" 89 3245 3348
+type(
+  Arm_structs.arm_instr list * (string * string) list
+)
+"ldr_str_optimizer.ml" 89 3245 3268 "ldr_str_optimizer.ml" 89 3245 3348
+type(
+  Arm_structs.arm_instr list * (string * string) list
+)
+"ldr_str_optimizer.ml" 78 2687 2701 "ldr_str_optimizer.ml" 90 3350 3367
+type(
+  Arm_structs.arm_instr list * (string * string) list
+)
+"ldr_str_optimizer.ml" 75 2597 2609 "ldr_str_optimizer.ml" 90 3350 3367
+type(
+  Arm_structs.arm_instr list * (string * string) list
+)
+type(
+  Arm_structs.arm_instr list * (string * string) list
+)
+"ldr_str_optimizer.ml" 91 3369 3387 "ldr_str_optimizer.ml" 91 3369 3400
+type(
+  Arm_structs.arm_instr list
+)
+ident(
+  def new_arm_stmts "ldr_str_optimizer.ml" 92 3450 3463 "ldr_str_optimizer.ml" 92 3450 3524
+)
+"ldr_str_optimizer.ml" 91 3369 3401 "ldr_str_optimizer.ml" 91 3369 3410
+type(
+  (string * string) list
+)
+ident(
+  def new_inlst "ldr_str_optimizer.ml" 92 3450 3463 "ldr_str_optimizer.ml" 92 3450 3524
+)
+"ldr_str_optimizer.ml" 91 3369 3386 "ldr_str_optimizer.ml" 91 3369 3411
+type(
+  Arm_structs.arm_instr list * (string * string) list
+)
+"ldr_str_optimizer.ml" 91 3369 3414 "ldr_str_optimizer.ml" 91 3369 3430
+type(
+  Arm_structs.arm_instr list ->
+  (Arm_structs.reg * string) list ->
+  Arm_structs.arm_instr list * (string * string) list
+)
+ident(
+  int_ref filter_arm_stmts "ldr_str_optimizer.ml" 74 2510 2528 "ldr_str_optimizer.ml" 74 2510 2544
+)
+"ldr_str_optimizer.ml" 91 3369 3431 "ldr_str_optimizer.ml" 91 3369 3440
+type(
+  Arm_structs.arm_instr list
+)
+ident(
+  int_ref arm_stmts "ldr_str_optimizer.ml" 73 2471 2497 "ldr_str_optimizer.ml" 73 2471 2506
+)
+"ldr_str_optimizer.ml" 91 3369 3441 "ldr_str_optimizer.ml" 91 3369 3446
+type(
+  (Arm_structs.reg * string) list
+)
+ident(
+  int_ref inlst "ldr_str_optimizer.ml" 33 926 952 "ldr_str_optimizer.ml" 33 926 957
+)
+"ldr_str_optimizer.ml" 91 3369 3414 "ldr_str_optimizer.ml" 91 3369 3446
+call(
+  stack
+)
+type(
+  Arm_structs.arm_instr list * (string * string) list
+)
+"ldr_str_optimizer.ml" 92 3450 3463 "ldr_str_optimizer.ml" 92 3450 3477
+type(
+  Ir3_structs_new.ir3_stmt_new ->
+  Ir3_structs_new.ir3_stmt_new list ->
+  (Arm_structs.reg * string) list ->
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+ident(
+  int_ref opt_rest_stmts "ldr_str_optimizer.ml" 34 1002 1010 "ldr_str_optimizer.ml" 34 1002 1024
+)
+"ldr_str_optimizer.ml" 92 3450 3495 "ldr_str_optimizer.ml" 92 3450 3508
+type(
+  Arm_structs.arm_instr list
+)
+ident(
+  int_ref new_arm_stmts "ldr_str_optimizer.ml" 91 3369 3387 "ldr_str_optimizer.ml" 91 3369 3400
+)
+"ldr_str_optimizer.ml" 92 3450 3478 "ldr_str_optimizer.ml" 92 3450 3509
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"ldr_str_optimizer.ml" 92 3450 3510 "ldr_str_optimizer.ml" 92 3450 3514
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref rest "ldr_str_optimizer.ml" 39 1184 1196 "ldr_str_optimizer.ml" 39 1184 1200
+)
+"ldr_str_optimizer.ml" 92 3450 3515 "ldr_str_optimizer.ml" 92 3450 3524
+type(
+  (Arm_structs.reg * string) list
+)
+ident(
+  int_ref new_inlst "ldr_str_optimizer.ml" 91 3369 3401 "ldr_str_optimizer.ml" 91 3369 3410
+)
+"ldr_str_optimizer.ml" 92 3450 3463 "ldr_str_optimizer.ml" 92 3450 3524
+call(
+  tail
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 91 3369 3382 "ldr_str_optimizer.ml" 92 3450 3524
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 74 2510 2520 "ldr_str_optimizer.ml" 92 3450 3524
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 93 3526 3552 "ldr_str_optimizer.ml" 93 3526 3553
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"ldr_str_optimizer.ml" 93 3526 3536 "ldr_str_optimizer.ml" 93 3526 3553
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"ldr_str_optimizer.ml" 93 3526 3557 "ldr_str_optimizer.ml" 93 3526 3571
+type(
+  Ir3_structs_new.ir3_stmt_new ->
+  Ir3_structs_new.ir3_stmt_new list ->
+  (Arm_structs.reg * string) list ->
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+ident(
+  int_ref opt_rest_stmts "ldr_str_optimizer.ml" 34 1002 1010 "ldr_str_optimizer.ml" 34 1002 1024
+)
+"ldr_str_optimizer.ml" 93 3526 3572 "ldr_str_optimizer.ml" 93 3526 3576
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "ldr_str_optimizer.ml" 39 1184 1190 "ldr_str_optimizer.ml" 39 1184 1194
+)
+"ldr_str_optimizer.ml" 93 3526 3577 "ldr_str_optimizer.ml" 93 3526 3581
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref rest "ldr_str_optimizer.ml" 39 1184 1196 "ldr_str_optimizer.ml" 39 1184 1200
+)
+"ldr_str_optimizer.ml" 93 3526 3582 "ldr_str_optimizer.ml" 93 3526 3584
+type(
+  (Arm_structs.reg * string) list
+)
+"ldr_str_optimizer.ml" 93 3526 3557 "ldr_str_optimizer.ml" 93 3526 3584
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 94 3586 3611 "ldr_str_optimizer.ml" 94 3586 3612
+type(
+  Ir3_structs_new.idc3_new
+)
+"ldr_str_optimizer.ml" 94 3586 3596 "ldr_str_optimizer.ml" 94 3586 3612
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"ldr_str_optimizer.ml" 94 3586 3616 "ldr_str_optimizer.ml" 94 3586 3630
+type(
+  Ir3_structs_new.ir3_stmt_new ->
+  Ir3_structs_new.ir3_stmt_new list ->
+  (Arm_structs.reg * string) list ->
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+ident(
+  int_ref opt_rest_stmts "ldr_str_optimizer.ml" 34 1002 1010 "ldr_str_optimizer.ml" 34 1002 1024
+)
+"ldr_str_optimizer.ml" 94 3586 3631 "ldr_str_optimizer.ml" 94 3586 3635
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "ldr_str_optimizer.ml" 39 1184 1190 "ldr_str_optimizer.ml" 39 1184 1194
+)
+"ldr_str_optimizer.ml" 94 3586 3636 "ldr_str_optimizer.ml" 94 3586 3640
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref rest "ldr_str_optimizer.ml" 39 1184 1196 "ldr_str_optimizer.ml" 39 1184 1200
+)
+"ldr_str_optimizer.ml" 94 3586 3641 "ldr_str_optimizer.ml" 94 3586 3643
+type(
+  (Arm_structs.reg * string) list
+)
+"ldr_str_optimizer.ml" 94 3586 3616 "ldr_str_optimizer.ml" 94 3586 3643
+call(
+  tail
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 95 3645 3655 "ldr_str_optimizer.ml" 95 3645 3656
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"ldr_str_optimizer.ml" 95 3645 3660 "ldr_str_optimizer.ml" 95 3645 3674
+type(
+  Ir3_structs_new.ir3_stmt_new ->
+  Ir3_structs_new.ir3_stmt_new list ->
+  (Arm_structs.reg * string) list ->
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+ident(
+  int_ref opt_rest_stmts "ldr_str_optimizer.ml" 34 1002 1010 "ldr_str_optimizer.ml" 34 1002 1024
+)
+"ldr_str_optimizer.ml" 95 3645 3675 "ldr_str_optimizer.ml" 95 3645 3679
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "ldr_str_optimizer.ml" 39 1184 1190 "ldr_str_optimizer.ml" 39 1184 1194
+)
+"ldr_str_optimizer.ml" 95 3645 3680 "ldr_str_optimizer.ml" 95 3645 3684
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref rest "ldr_str_optimizer.ml" 39 1184 1196 "ldr_str_optimizer.ml" 39 1184 1200
+)
+"ldr_str_optimizer.ml" 95 3645 3685 "ldr_str_optimizer.ml" 95 3645 3690
+type(
+  (Arm_structs.reg * string) list
+)
+ident(
+  int_ref inlst "ldr_str_optimizer.ml" 33 926 952 "ldr_str_optimizer.ml" 33 926 957
+)
+"ldr_str_optimizer.ml" 95 3645 3660 "ldr_str_optimizer.ml" 95 3645 3690
+call(
+  tail
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 40 1205 1211 "ldr_str_optimizer.ml" 96 3691 3700
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 37 1140 1144 "ldr_str_optimizer.ml" 96 3691 3700
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 34 1002 1006 "ldr_str_optimizer.ml" 96 3691 3700
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 97 3701 3711 "ldr_str_optimizer.ml" 97 3701 3720
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def new_stmts "ldr_str_optimizer.ml" 98 3761 3763 "ldr_str_optimizer.ml" 98 3761 3801
+)
+"ldr_str_optimizer.ml" 97 3701 3721 "ldr_str_optimizer.ml" 97 3701 3727
+type(
+  (string * string) list
+)
+ident(
+  def outlst "ldr_str_optimizer.ml" 98 3761 3763 "ldr_str_optimizer.ml" 98 3761 3801
+)
+"ldr_str_optimizer.ml" 97 3701 3710 "ldr_str_optimizer.ml" 97 3701 3728
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 97 3701 3731 "ldr_str_optimizer.ml" 97 3701 3740
+type(
+  Ir3_structs_new.ir3_stmt_new list ->
+  (Arm_structs.reg * string) list ->
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+ident(
+  int_ref opt_stmts "ldr_str_optimizer.ml" 33 926 936 "ldr_str_optimizer.ml" 33 926 945
+)
+"ldr_str_optimizer.ml" 97 3701 3741 "ldr_str_optimizer.ml" 97 3701 3744
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  int_ref bbl "ldr_str_optimizer.ml" 32 828 849 "ldr_str_optimizer.ml" 32 828 852
+)
+"ldr_str_optimizer.ml" 97 3701 3741 "ldr_str_optimizer.ml" 97 3701 3750
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ldr_str_optimizer.ml" 97 3701 3751 "ldr_str_optimizer.ml" 97 3701 3756
+type(
+  (Arm_structs.reg * string) list
+)
+ident(
+  int_ref inlst "ldr_str_optimizer.ml" 32 828 864 "ldr_str_optimizer.ml" 32 828 869
+)
+"ldr_str_optimizer.ml" 97 3701 3731 "ldr_str_optimizer.ml" 97 3701 3756
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list * (string * string) list
+)
+"ldr_str_optimizer.ml" 98 3761 3768 "ldr_str_optimizer.ml" 98 3761 3771
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  int_ref bbl "ldr_str_optimizer.ml" 32 828 849 "ldr_str_optimizer.ml" 32 828 852
+)
+"ldr_str_optimizer.ml" 98 3761 3768 "ldr_str_optimizer.ml" 98 3761 3774
+type(
+  int
+)
+"ldr_str_optimizer.ml" 98 3761 3781 "ldr_str_optimizer.ml" 98 3761 3790
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref new_stmts "ldr_str_optimizer.ml" 97 3701 3711 "ldr_str_optimizer.ml" 97 3701 3720
+)
+"ldr_str_optimizer.ml" 98 3761 3764 "ldr_str_optimizer.ml" 98 3761 3792
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+"ldr_str_optimizer.ml" 98 3761 3794 "ldr_str_optimizer.ml" 98 3761 3800
+type(
+  (string * string) list
+)
+ident(
+  int_ref outlst "ldr_str_optimizer.ml" 97 3701 3721 "ldr_str_optimizer.ml" 97 3701 3727
+)
+"ldr_str_optimizer.ml" 98 3761 3763 "ldr_str_optimizer.ml" 98 3761 3801
+type(
+  Ir3_bbl_generator.ir3_bbl * (string * string) list
+)
+"ldr_str_optimizer.ml" 97 3701 3706 "ldr_str_optimizer.ml" 98 3761 3801
+type(
+  Ir3_bbl_generator.ir3_bbl * (string * string) list
+)
+"ldr_str_optimizer.ml" 33 926 928 "ldr_str_optimizer.ml" 98 3761 3801
+type(
+  Ir3_bbl_generator.ir3_bbl * (string * string) list
+)
+type(
+  Ir3_bbl_generator.ir3_bbl * (string * string) list
+)
+"ldr_str_optimizer.ml" 100 3803 3807 "ldr_str_optimizer.ml" 100 3803 3826
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list ->
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)
+ident(
+  def ldr_str_opt_program "ldr_str_optimizer.ml" 148 5550 5587 "ldr_str_optimizer.ml" 1 0 -1
+)
+"ldr_str_optimizer.ml" 100 3803 3828 "ldr_str_optimizer.ml" 100 3803 3834
+type(
+  'a
+)
+ident(
+  def cdatas "ldr_str_optimizer.ml" 101 3855 3857 "ldr_str_optimizer.ml" 148 5550 5587
+)
+"ldr_str_optimizer.ml" 100 3803 3835 "ldr_str_optimizer.ml" 100 3803 3843
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  def mainDecl "ldr_str_optimizer.ml" 101 3855 3857 "ldr_str_optimizer.ml" 148 5550 5587
+)
+"ldr_str_optimizer.ml" 100 3803 3844 "ldr_str_optimizer.ml" 100 3803 3851
+type(
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  def mdDecls "ldr_str_optimizer.ml" 101 3855 3857 "ldr_str_optimizer.ml" 148 5550 5587
+)
+"ldr_str_optimizer.ml" 100 3803 3827 "ldr_str_optimizer.ml" 100 3803 3852
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)
+"ldr_str_optimizer.ml" 101 3855 3861 "ldr_str_optimizer.ml" 101 3855 3876
+type(
+  Ir3_structs_new.md_decl3_new -> Ir3_structs_new.md_decl3_new
+)
+ident(
+  def opt_ir3_md_decl "ldr_str_optimizer.ml" 146 5443 5445 "ldr_str_optimizer.ml" 148 5550 5587
+)
+"ldr_str_optimizer.ml" 101 3855 3877 "ldr_str_optimizer.ml" 101 3855 3879
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  def md "ldr_str_optimizer.ml" 102 3882 3886 "ldr_str_optimizer.ml" 144 5431 5436
+)
+"ldr_str_optimizer.ml" 102 3882 3890 "ldr_str_optimizer.ml" 102 3882 3903
+type(
+  (int, (string * string) list) Hashtbl.t
+)
+ident(
+  def analysis_htbl "ldr_str_optimizer.ml" 103 3928 3932 "ldr_str_optimizer.ml" 144 5431 5436
+)
+"ldr_str_optimizer.ml" 102 3882 3906 "ldr_str_optimizer.ml" 102 3882 3920
+type(
+  ?random:bool -> int -> (int, (string * string) list) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"ldr_str_optimizer.ml" 102 3882 3921 "ldr_str_optimizer.ml" 102 3882 3923
+type(
+  int
+)
+"ldr_str_optimizer.ml" 102 3882 3906 "ldr_str_optimizer.ml" 102 3882 3923
+call(
+  stack
+)
+type(
+  (int, (string * string) list) Hashtbl.t
+)
+"ldr_str_optimizer.ml" 103 3928 3936 "ldr_str_optimizer.ml" 103 3928 3942
+type(
+  int -> (string * string) list
+)
+ident(
+  def getLst "ldr_str_optimizer.ml" 106 4049 4053 "ldr_str_optimizer.ml" 144 5431 5436
+)
+"ldr_str_optimizer.ml" 103 3928 3943 "ldr_str_optimizer.ml" 103 3928 3945
+type(
+  int
+)
+ident(
+  def id "ldr_str_optimizer.ml" 104 3949 3955 "ldr_str_optimizer.ml" 105 4005 4045
+)
+"ldr_str_optimizer.ml" 104 3949 3959 "ldr_str_optimizer.ml" 104 3949 3970
+type(
+  (int, (string * string) list) Hashtbl.t -> int -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"ldr_str_optimizer.ml" 104 3949 3971 "ldr_str_optimizer.ml" 104 3949 3984
+type(
+  (int, (string * string) list) Hashtbl.t
+)
+ident(
+  int_ref analysis_htbl "ldr_str_optimizer.ml" 102 3882 3890 "ldr_str_optimizer.ml" 102 3882 3903
+)
+"ldr_str_optimizer.ml" 104 3949 3985 "ldr_str_optimizer.ml" 104 3949 3987
+type(
+  int
+)
+ident(
+  int_ref id "ldr_str_optimizer.ml" 103 3928 3943 "ldr_str_optimizer.ml" 103 3928 3945
+)
+"ldr_str_optimizer.ml" 104 3949 3958 "ldr_str_optimizer.ml" 104 3949 3988
+call(
+  stack
+)
+type(
+  bool
+)
+"ldr_str_optimizer.ml" 104 3949 3989 "ldr_str_optimizer.ml" 104 3949 3990
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ldr_str_optimizer.ml" 104 3949 3991 "ldr_str_optimizer.ml" 104 3949 3996
+type(
+  bool
+)
+"ldr_str_optimizer.ml" 104 3949 3958 "ldr_str_optimizer.ml" 104 3949 3996
+type(
+  bool
+)
+"ldr_str_optimizer.ml" 104 3949 4002 "ldr_str_optimizer.ml" 104 3949 4004
+type(
+  (string * string) list
+)
+"ldr_str_optimizer.ml" 105 4005 4016 "ldr_str_optimizer.ml" 105 4005 4028
+type(
+  (int, (string * string) list) Hashtbl.t -> int -> (string * string) list
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"ldr_str_optimizer.ml" 105 4005 4029 "ldr_str_optimizer.ml" 105 4005 4042
+type(
+  (int, (string * string) list) Hashtbl.t
+)
+ident(
+  int_ref analysis_htbl "ldr_str_optimizer.ml" 102 3882 3890 "ldr_str_optimizer.ml" 102 3882 3903
+)
+"ldr_str_optimizer.ml" 105 4005 4043 "ldr_str_optimizer.ml" 105 4005 4045
+type(
+  int
+)
+ident(
+  int_ref id "ldr_str_optimizer.ml" 103 3928 3943 "ldr_str_optimizer.ml" 103 3928 3945
+)
+"ldr_str_optimizer.ml" 105 4005 4016 "ldr_str_optimizer.ml" 105 4005 4045
+call(
+  tail
+)
+type(
+  (string * string) list
+)
+"ldr_str_optimizer.ml" 104 3949 3955 "ldr_str_optimizer.ml" 105 4005 4045
+type(
+  (string * string) list
+)
+"ldr_str_optimizer.ml" 106 4049 4057 "ldr_str_optimizer.ml" 106 4049 4072
+type(
+  Ir3_bbl_generator.md_bbls -> Ir3_bbl_generator.md_bbls
+)
+ident(
+  def process_md_bbls "ldr_str_optimizer.ml" 134 5110 5114 "ldr_str_optimizer.ml" 144 5431 5436
+)
+"ldr_str_optimizer.ml" 106 4049 4074 "ldr_str_optimizer.ml" 106 4049 4080
+type(
+  Ir3_bbl_generator.md_bbls
+)
+ident(
+  def mdbbls "ldr_str_optimizer.ml" 107 4093 4099 "ldr_str_optimizer.ml" 132 5094 5101
+)
+"ldr_str_optimizer.ml" 107 4093 4107 "ldr_str_optimizer.ml" 107 4093 4119
+type(
+  Ir3_bbl_generator.ir3_bbl list -> Ir3_bbl_generator.ir3_bbl list
+)
+ident(
+  def process_bbls "ldr_str_optimizer.ml" 107 4093 4099 "ldr_str_optimizer.ml" 132 5094 5101
+)
+"ldr_str_optimizer.ml" 107 4093 4120 "ldr_str_optimizer.ml" 107 4093 4126
+type(
+  Ir3_bbl_generator.ir3_bbl list
+)
+ident(
+  def bblLst "ldr_str_optimizer.ml" 108 4130 4138 "ldr_str_optimizer.ml" 119 4692 4728
+)
+"ldr_str_optimizer.ml" 108 4130 4144 "ldr_str_optimizer.ml" 108 4130 4150
+type(
+  Ir3_bbl_generator.ir3_bbl list
+)
+ident(
+  int_ref bblLst "ldr_str_optimizer.ml" 107 4093 4120 "ldr_str_optimizer.ml" 107 4093 4126
+)
+"ldr_str_optimizer.ml" 109 4156 4166 "ldr_str_optimizer.ml" 109 4156 4168
+type(
+  Ir3_bbl_generator.ir3_bbl list
+)
+"ldr_str_optimizer.ml" 109 4156 4172 "ldr_str_optimizer.ml" 109 4156 4174
+type(
+  Ir3_bbl_generator.ir3_bbl list
+)
+"ldr_str_optimizer.ml" 110 4176 4186 "ldr_str_optimizer.ml" 110 4176 4189
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  def bbl "ldr_str_optimizer.ml" 111 4200 4210 "ldr_str_optimizer.ml" 119 4692 4728
+)
+"ldr_str_optimizer.ml" 110 4176 4191 "ldr_str_optimizer.ml" 110 4176 4195
+type(
+  Ir3_bbl_generator.ir3_bbl list
+)
+ident(
+  def rest "ldr_str_optimizer.ml" 111 4200 4210 "ldr_str_optimizer.ml" 119 4692 4728
+)
+"ldr_str_optimizer.ml" 110 4176 4186 "ldr_str_optimizer.ml" 110 4176 4195
+type(
+  Ir3_bbl_generator.ir3_bbl list
+)
+"ldr_str_optimizer.ml" 111 4200 4214 "ldr_str_optimizer.ml" 111 4200 4228
+type(
+  int list
+)
+ident(
+  def pre_bbl_id_lst "ldr_str_optimizer.ml" 112 4279 4289 "ldr_str_optimizer.ml" 119 4692 4728
+)
+"ldr_str_optimizer.ml" 111 4200 4231 "ldr_str_optimizer.ml" 111 4200 4247
+type(
+  (int, int) Hashtbl.t -> int -> int list
+)
+ident(
+  ext_ref Hashtbl.find_all
+)
+"ldr_str_optimizer.ml" 111 4200 4248 "ldr_str_optimizer.ml" 111 4200 4254
+type(
+  Ir3_bbl_generator.md_bbls
+)
+ident(
+  int_ref mdbbls "ldr_str_optimizer.ml" 106 4049 4074 "ldr_str_optimizer.ml" 106 4049 4080
+)
+"ldr_str_optimizer.ml" 111 4200 4248 "ldr_str_optimizer.ml" 111 4200 4268
+type(
+  (int, int) Hashtbl.t
+)
+"ldr_str_optimizer.ml" 111 4200 4269 "ldr_str_optimizer.ml" 111 4200 4272
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  int_ref bbl "ldr_str_optimizer.ml" 110 4176 4186 "ldr_str_optimizer.ml" 110 4176 4189
+)
+"ldr_str_optimizer.ml" 111 4200 4269 "ldr_str_optimizer.ml" 111 4200 4275
+type(
+  int
+)
+"ldr_str_optimizer.ml" 111 4200 4231 "ldr_str_optimizer.ml" 111 4200 4275
+call(
+  stack
+)
+type(
+  int list
+)
+"ldr_str_optimizer.ml" 112 4279 4293 "ldr_str_optimizer.ml" 112 4279 4299
+type(
+  (string * string) list list
+)
+ident(
+  def inLsts "ldr_str_optimizer.ml" 113 4336 4346 "ldr_str_optimizer.ml" 119 4692 4728
+)
+"ldr_str_optimizer.ml" 112 4279 4302 "ldr_str_optimizer.ml" 112 4279 4310
+type(
+  (int -> (string * string) list) -> int list -> (string * string) list list
+)
+ident(
+  ext_ref List.map
+)
+"ldr_str_optimizer.ml" 112 4279 4311 "ldr_str_optimizer.ml" 112 4279 4317
+type(
+  int -> (string * string) list
+)
+ident(
+  int_ref getLst "ldr_str_optimizer.ml" 103 3928 3936 "ldr_str_optimizer.ml" 103 3928 3942
+)
+"ldr_str_optimizer.ml" 112 4279 4318 "ldr_str_optimizer.ml" 112 4279 4332
+type(
+  int list
+)
+ident(
+  int_ref pre_bbl_id_lst "ldr_str_optimizer.ml" 111 4200 4214 "ldr_str_optimizer.ml" 111 4200 4228
+)
+"ldr_str_optimizer.ml" 112 4279 4302 "ldr_str_optimizer.ml" 112 4279 4332
+call(
+  stack
+)
+type(
+  (string * string) list list
+)
+"ldr_str_optimizer.ml" 113 4336 4350 "ldr_str_optimizer.ml" 113 4336 4364
+type(
+  (string * string) list
+)
+ident(
+  def combined_inLst "ldr_str_optimizer.ml" 117 4565 4575 "ldr_str_optimizer.ml" 119 4692 4728
+)
+"ldr_str_optimizer.ml" 114 4368 4384 "ldr_str_optimizer.ml" 114 4368 4395
+type(
+  (string * string) list list -> int
+)
+ident(
+  ext_ref List.length
+)
+"ldr_str_optimizer.ml" 114 4368 4396 "ldr_str_optimizer.ml" 114 4368 4402
+type(
+  (string * string) list list
+)
+ident(
+  int_ref inLsts "ldr_str_optimizer.ml" 112 4279 4293 "ldr_str_optimizer.ml" 112 4279 4299
+)
+"ldr_str_optimizer.ml" 114 4368 4383 "ldr_str_optimizer.ml" 114 4368 4403
+call(
+  stack
+)
+type(
+  int
+)
+"ldr_str_optimizer.ml" 114 4368 4404 "ldr_str_optimizer.ml" 114 4368 4406
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ldr_str_optimizer.ml" 114 4368 4407 "ldr_str_optimizer.ml" 114 4368 4408
+type(
+  int
+)
+"ldr_str_optimizer.ml" 114 4368 4383 "ldr_str_optimizer.ml" 114 4368 4408
+type(
+  bool
+)
+"ldr_str_optimizer.ml" 114 4368 4414 "ldr_str_optimizer.ml" 114 4368 4416
+type(
+  (string * string) list
+)
+"ldr_str_optimizer.ml" 115 4417 4438 "ldr_str_optimizer.ml" 115 4417 4449
+type(
+  (string * string) list list -> int
+)
+ident(
+  ext_ref List.length
+)
+"ldr_str_optimizer.ml" 115 4417 4450 "ldr_str_optimizer.ml" 115 4417 4456
+type(
+  (string * string) list list
+)
+ident(
+  int_ref inLsts "ldr_str_optimizer.ml" 112 4279 4293 "ldr_str_optimizer.ml" 112 4279 4299
+)
+"ldr_str_optimizer.ml" 115 4417 4437 "ldr_str_optimizer.ml" 115 4417 4457
+call(
+  stack
+)
+type(
+  int
+)
+"ldr_str_optimizer.ml" 115 4417 4458 "ldr_str_optimizer.ml" 115 4417 4460
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ldr_str_optimizer.ml" 115 4417 4461 "ldr_str_optimizer.ml" 115 4417 4462
+type(
+  int
+)
+"ldr_str_optimizer.ml" 115 4417 4437 "ldr_str_optimizer.ml" 115 4417 4462
+type(
+  bool
+)
+"ldr_str_optimizer.ml" 115 4417 4468 "ldr_str_optimizer.ml" 115 4417 4475
+type(
+  (string * string) list list -> (string * string) list
+)
+ident(
+  ext_ref List.hd
+)
+"ldr_str_optimizer.ml" 115 4417 4476 "ldr_str_optimizer.ml" 115 4417 4482
+type(
+  (string * string) list list
+)
+ident(
+  int_ref inLsts "ldr_str_optimizer.ml" 112 4279 4293 "ldr_str_optimizer.ml" 112 4279 4299
+)
+"ldr_str_optimizer.ml" 115 4417 4468 "ldr_str_optimizer.ml" 115 4417 4482
+call(
+  stack
+)
+type(
+  (string * string) list
+)
+"ldr_str_optimizer.ml" 116 4484 4501 "ldr_str_optimizer.ml" 116 4484 4515
+type(
+  ((string * string) list -> (string * string) list -> (string * string) list) ->
+  (string * string) list ->
+  (string * string) list list -> (string * string) list
+)
+ident(
+  ext_ref List.fold_left
+)
+"ldr_str_optimizer.ml" 116 4484 4516 "ldr_str_optimizer.ml" 116 4484 4527
+type(
+  (string * string) list -> (string * string) list -> (string * string) list
+)
+ident(
+  int_ref combineLsts "ldr_str_optimizer.ml" 24 592 600 "ldr_str_optimizer.ml" 24 592 611
+)
+"ldr_str_optimizer.ml" 116 4484 4529 "ldr_str_optimizer.ml" 116 4484 4536
+type(
+  (string * string) list list -> (string * string) list
+)
+ident(
+  ext_ref List.hd
+)
+"ldr_str_optimizer.ml" 116 4484 4537 "ldr_str_optimizer.ml" 116 4484 4543
+type(
+  (string * string) list list
+)
+ident(
+  int_ref inLsts "ldr_str_optimizer.ml" 112 4279 4293 "ldr_str_optimizer.ml" 112 4279 4299
+)
+"ldr_str_optimizer.ml" 116 4484 4528 "ldr_str_optimizer.ml" 116 4484 4544
+call(
+  stack
+)
+type(
+  (string * string) list
+)
+"ldr_str_optimizer.ml" 116 4484 4546 "ldr_str_optimizer.ml" 116 4484 4553
+type(
+  (string * string) list list -> (string * string) list list
+)
+ident(
+  ext_ref List.tl
+)
+"ldr_str_optimizer.ml" 116 4484 4554 "ldr_str_optimizer.ml" 116 4484 4560
+type(
+  (string * string) list list
+)
+ident(
+  int_ref inLsts "ldr_str_optimizer.ml" 112 4279 4293 "ldr_str_optimizer.ml" 112 4279 4299
+)
+"ldr_str_optimizer.ml" 116 4484 4545 "ldr_str_optimizer.ml" 116 4484 4561
+call(
+  stack
+)
+type(
+  (string * string) list list
+)
+"ldr_str_optimizer.ml" 116 4484 4501 "ldr_str_optimizer.ml" 116 4484 4561
+call(
+  stack
+)
+type(
+  (string * string) list
+)
+"ldr_str_optimizer.ml" 115 4417 4434 "ldr_str_optimizer.ml" 116 4484 4561
+type(
+  (string * string) list
+)
+"ldr_str_optimizer.ml" 114 4368 4380 "ldr_str_optimizer.ml" 116 4484 4561
+type(
+  (string * string) list
+)
+"ldr_str_optimizer.ml" 117 4565 4580 "ldr_str_optimizer.ml" 117 4565 4587
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  def new_bbl "ldr_str_optimizer.ml" 118 4637 4647 "ldr_str_optimizer.ml" 119 4692 4728
+)
+"ldr_str_optimizer.ml" 117 4565 4588 "ldr_str_optimizer.ml" 117 4565 4594
+type(
+  (string * string) list
+)
+ident(
+  def outlst "ldr_str_optimizer.ml" 118 4637 4647 "ldr_str_optimizer.ml" 119 4692 4728
+)
+"ldr_str_optimizer.ml" 117 4565 4579 "ldr_str_optimizer.ml" 117 4565 4595
+type(
+  Ir3_bbl_generator.ir3_bbl * (string * string) list
+)
+"ldr_str_optimizer.ml" 117 4565 4598 "ldr_str_optimizer.ml" 117 4565 4613
+type(
+  Ir3_bbl_generator.ir3_bbl ->
+  (string * string) list ->
+  Ir3_bbl_generator.ir3_bbl * (string * string) list
+)
+ident(
+  int_ref ldr_str_opt_bbl "ldr_str_optimizer.ml" 32 828 832 "ldr_str_optimizer.ml" 32 828 847
+)
+"ldr_str_optimizer.ml" 117 4565 4614 "ldr_str_optimizer.ml" 117 4565 4617
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  int_ref bbl "ldr_str_optimizer.ml" 110 4176 4186 "ldr_str_optimizer.ml" 110 4176 4189
+)
+"ldr_str_optimizer.ml" 117 4565 4618 "ldr_str_optimizer.ml" 117 4565 4632
+type(
+  (string * string) list
+)
+ident(
+  int_ref combined_inLst "ldr_str_optimizer.ml" 113 4336 4350 "ldr_str_optimizer.ml" 113 4336 4364
+)
+"ldr_str_optimizer.ml" 117 4565 4598 "ldr_str_optimizer.ml" 117 4565 4632
+call(
+  stack
+)
+type(
+  Ir3_bbl_generator.ir3_bbl * (string * string) list
+)
+"ldr_str_optimizer.ml" 118 4637 4647 "ldr_str_optimizer.ml" 118 4637 4662
+type(
+  (int, (string * string) list) Hashtbl.t ->
+  int -> (string * string) list -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"ldr_str_optimizer.ml" 118 4637 4663 "ldr_str_optimizer.ml" 118 4637 4676
+type(
+  (int, (string * string) list) Hashtbl.t
+)
+ident(
+  int_ref analysis_htbl "ldr_str_optimizer.ml" 102 3882 3890 "ldr_str_optimizer.ml" 102 3882 3903
+)
+"ldr_str_optimizer.ml" 118 4637 4677 "ldr_str_optimizer.ml" 118 4637 4680
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  int_ref bbl "ldr_str_optimizer.ml" 110 4176 4186 "ldr_str_optimizer.ml" 110 4176 4189
+)
+"ldr_str_optimizer.ml" 118 4637 4677 "ldr_str_optimizer.ml" 118 4637 4683
+type(
+  int
+)
+"ldr_str_optimizer.ml" 118 4637 4684 "ldr_str_optimizer.ml" 118 4637 4690
+type(
+  (string * string) list
+)
+ident(
+  int_ref outlst "ldr_str_optimizer.ml" 117 4565 4588 "ldr_str_optimizer.ml" 117 4565 4594
+)
+"ldr_str_optimizer.ml" 118 4637 4647 "ldr_str_optimizer.ml" 118 4637 4690
+call(
+  stack
+)
+type(
+  unit
+)
+"ldr_str_optimizer.ml" 119 4692 4702 "ldr_str_optimizer.ml" 119 4692 4709
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  int_ref new_bbl "ldr_str_optimizer.ml" 117 4565 4580 "ldr_str_optimizer.ml" 117 4565 4587
+)
+"ldr_str_optimizer.ml" 119 4692 4711 "ldr_str_optimizer.ml" 119 4692 4723
+type(
+  Ir3_bbl_generator.ir3_bbl list -> Ir3_bbl_generator.ir3_bbl list
+)
+ident(
+  int_ref process_bbls "ldr_str_optimizer.ml" 107 4093 4107 "ldr_str_optimizer.ml" 107 4093 4119
+)
+"ldr_str_optimizer.ml" 119 4692 4724 "ldr_str_optimizer.ml" 119 4692 4728
+type(
+  Ir3_bbl_generator.ir3_bbl list
+)
+ident(
+  int_ref rest "ldr_str_optimizer.ml" 110 4176 4191 "ldr_str_optimizer.ml" 110 4176 4195
+)
+"ldr_str_optimizer.ml" 119 4692 4711 "ldr_str_optimizer.ml" 119 4692 4728
+call(
+  stack
+)
+type(
+  Ir3_bbl_generator.ir3_bbl list
+)
+"ldr_str_optimizer.ml" 119 4692 4702 "ldr_str_optimizer.ml" 119 4692 4728
+type(
+  Ir3_bbl_generator.ir3_bbl list
+)
+"ldr_str_optimizer.ml" 118 4637 4647 "ldr_str_optimizer.ml" 119 4692 4728
+type(
+  Ir3_bbl_generator.ir3_bbl list
+)
+"ldr_str_optimizer.ml" 117 4565 4575 "ldr_str_optimizer.ml" 119 4692 4728
+type(
+  Ir3_bbl_generator.ir3_bbl list
+)
+"ldr_str_optimizer.ml" 113 4336 4346 "ldr_str_optimizer.ml" 119 4692 4728
+type(
+  Ir3_bbl_generator.ir3_bbl list
+)
+"ldr_str_optimizer.ml" 112 4279 4289 "ldr_str_optimizer.ml" 119 4692 4728
+type(
+  Ir3_bbl_generator.ir3_bbl list
+)
+"ldr_str_optimizer.ml" 111 4200 4210 "ldr_str_optimizer.ml" 119 4692 4728
+type(
+  Ir3_bbl_generator.ir3_bbl list
+)
+"ldr_str_optimizer.ml" 108 4130 4138 "ldr_str_optimizer.ml" 119 4692 4728
+type(
+  Ir3_bbl_generator.ir3_bbl list
+)
+"ldr_str_optimizer.ml" 121 4740 4750 "ldr_str_optimizer.ml" 121 4740 4754
+type(
+  Ir3_bbl_generator.ir3_bbl list ref
+)
+ident(
+  def bbls "ldr_str_optimizer.ml" 122 4780 4786 "ldr_str_optimizer.ml" 132 5094 5101
+)
+"ldr_str_optimizer.ml" 121 4740 4757 "ldr_str_optimizer.ml" 121 4740 4760
+type(
+  Ir3_bbl_generator.ir3_bbl list -> Ir3_bbl_generator.ir3_bbl list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ldr_str_optimizer.ml" 121 4740 4761 "ldr_str_optimizer.ml" 121 4740 4767
+type(
+  Ir3_bbl_generator.md_bbls
+)
+ident(
+  int_ref mdbbls "ldr_str_optimizer.ml" 106 4049 4074 "ldr_str_optimizer.ml" 106 4049 4080
+)
+"ldr_str_optimizer.ml" 121 4740 4761 "ldr_str_optimizer.ml" 121 4740 4775
+type(
+  Ir3_bbl_generator.ir3_bbl list
+)
+"ldr_str_optimizer.ml" 121 4740 4757 "ldr_str_optimizer.ml" 121 4740 4775
+type(
+  Ir3_bbl_generator.ir3_bbl list ref
+)
+"ldr_str_optimizer.ml" 122 4780 4786 "ldr_str_optimizer.ml" 122 4780 4803
+type(
+  bool ref
+)
+ident(
+  int_ref ldr_str_loop_flag "ldr_str_optimizer.ml" 6 83 87 "ldr_str_optimizer.ml" 6 83 104
+)
+"ldr_str_optimizer.ml" 122 4780 4804 "ldr_str_optimizer.ml" 122 4780 4806
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ldr_str_optimizer.ml" 122 4780 4807 "ldr_str_optimizer.ml" 122 4780 4811
+type(
+  bool
+)
+"ldr_str_optimizer.ml" 122 4780 4786 "ldr_str_optimizer.ml" 122 4780 4811
+type(
+  unit
+)
+"ldr_str_optimizer.ml" 123 4813 4825 "ldr_str_optimizer.ml" 123 4813 4826
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ldr_str_optimizer.ml" 123 4813 4826 "ldr_str_optimizer.ml" 123 4813 4843
+type(
+  bool ref
+)
+ident(
+  int_ref ldr_str_loop_flag "ldr_str_optimizer.ml" 6 83 87 "ldr_str_optimizer.ml" 6 83 104
+)
+"ldr_str_optimizer.ml" 123 4813 4825 "ldr_str_optimizer.ml" 123 4813 4843
+type(
+  bool
+)
+"ldr_str_optimizer.ml" 124 4848 4856 "ldr_str_optimizer.ml" 124 4848 4873
+type(
+  bool ref
+)
+ident(
+  int_ref ldr_str_loop_flag "ldr_str_optimizer.ml" 6 83 87 "ldr_str_optimizer.ml" 6 83 104
+)
+"ldr_str_optimizer.ml" 124 4848 4874 "ldr_str_optimizer.ml" 124 4848 4876
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ldr_str_optimizer.ml" 124 4848 4877 "ldr_str_optimizer.ml" 124 4848 4882
+type(
+  bool
+)
+"ldr_str_optimizer.ml" 124 4848 4856 "ldr_str_optimizer.ml" 124 4848 4882
+type(
+  unit
+)
+"ldr_str_optimizer.ml" 125 4885 4893 "ldr_str_optimizer.ml" 125 4885 4897
+type(
+  Ir3_bbl_generator.ir3_bbl list ref
+)
+ident(
+  int_ref bbls "ldr_str_optimizer.ml" 121 4740 4750 "ldr_str_optimizer.ml" 121 4740 4754
+)
+"ldr_str_optimizer.ml" 125 4885 4898 "ldr_str_optimizer.ml" 125 4885 4900
+type(
+  Ir3_bbl_generator.ir3_bbl list ref ->
+  Ir3_bbl_generator.ir3_bbl list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ldr_str_optimizer.ml" 125 4885 4901 "ldr_str_optimizer.ml" 125 4885 4913
+type(
+  Ir3_bbl_generator.ir3_bbl list -> Ir3_bbl_generator.ir3_bbl list
+)
+ident(
+  int_ref process_bbls "ldr_str_optimizer.ml" 107 4093 4107 "ldr_str_optimizer.ml" 107 4093 4119
+)
+"ldr_str_optimizer.ml" 125 4885 4914 "ldr_str_optimizer.ml" 125 4885 4915
+type(
+  Ir3_bbl_generator.ir3_bbl list ref -> Ir3_bbl_generator.ir3_bbl list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ldr_str_optimizer.ml" 125 4885 4915 "ldr_str_optimizer.ml" 125 4885 4919
+type(
+  Ir3_bbl_generator.ir3_bbl list ref
+)
+ident(
+  int_ref bbls "ldr_str_optimizer.ml" 121 4740 4750 "ldr_str_optimizer.ml" 121 4740 4754
+)
+"ldr_str_optimizer.ml" 125 4885 4914 "ldr_str_optimizer.ml" 125 4885 4919
+type(
+  Ir3_bbl_generator.ir3_bbl list
+)
+"ldr_str_optimizer.ml" 125 4885 4901 "ldr_str_optimizer.ml" 125 4885 4919
+call(
+  stack
+)
+type(
+  Ir3_bbl_generator.ir3_bbl list
+)
+"ldr_str_optimizer.ml" 125 4885 4893 "ldr_str_optimizer.ml" 125 4885 4919
+type(
+  unit
+)
+"ldr_str_optimizer.ml" 124 4848 4856 "ldr_str_optimizer.ml" 125 4885 4919
+type(
+  unit
+)
+"ldr_str_optimizer.ml" 123 4813 4819 "ldr_str_optimizer.ml" 126 4921 4931
+type(
+  unit
+)
+"ldr_str_optimizer.ml" 128 4941 4958 "ldr_str_optimizer.ml" 128 4941 4959
+type(
+  Ir3_bbl_generator.ir3_bbl list ref -> Ir3_bbl_generator.ir3_bbl list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ldr_str_optimizer.ml" 128 4941 4959 "ldr_str_optimizer.ml" 128 4941 4963
+type(
+  Ir3_bbl_generator.ir3_bbl list ref
+)
+ident(
+  int_ref bbls "ldr_str_optimizer.ml" 121 4740 4750 "ldr_str_optimizer.ml" 121 4740 4754
+)
+"ldr_str_optimizer.ml" 128 4941 4957 "ldr_str_optimizer.ml" 128 4941 4964
+type(
+  Ir3_bbl_generator.ir3_bbl list
+)
+"ldr_str_optimizer.ml" 129 4966 4988 "ldr_str_optimizer.ml" 129 4966 4994
+type(
+  Ir3_bbl_generator.md_bbls
+)
+ident(
+  int_ref mdbbls "ldr_str_optimizer.ml" 106 4049 4074 "ldr_str_optimizer.ml" 106 4049 4080
+)
+"ldr_str_optimizer.ml" 129 4966 4988 "ldr_str_optimizer.ml" 129 4966 5008
+type(
+  (int, int) Hashtbl.t
+)
+"ldr_str_optimizer.ml" 130 5010 5033 "ldr_str_optimizer.ml" 130 5010 5039
+type(
+  Ir3_bbl_generator.md_bbls
+)
+ident(
+  int_ref mdbbls "ldr_str_optimizer.ml" 106 4049 4074 "ldr_str_optimizer.ml" 106 4049 4080
+)
+"ldr_str_optimizer.ml" 130 5010 5033 "ldr_str_optimizer.ml" 130 5010 5054
+type(
+  (int, int) Hashtbl.t
+)
+"ldr_str_optimizer.ml" 131 5056 5075 "ldr_str_optimizer.ml" 131 5056 5081
+type(
+  Ir3_bbl_generator.md_bbls
+)
+ident(
+  int_ref mdbbls "ldr_str_optimizer.ml" 106 4049 4074 "ldr_str_optimizer.ml" 106 4049 4080
+)
+"ldr_str_optimizer.ml" 131 5056 5075 "ldr_str_optimizer.ml" 131 5056 5092
+type(
+  int
+)
+"ldr_str_optimizer.ml" 127 4933 4939 "ldr_str_optimizer.ml" 132 5094 5101
+type(
+  Ir3_bbl_generator.md_bbls
+)
+"ldr_str_optimizer.ml" 123 4813 4819 "ldr_str_optimizer.ml" 132 5094 5101
+type(
+  Ir3_bbl_generator.md_bbls
+)
+"ldr_str_optimizer.ml" 122 4780 4786 "ldr_str_optimizer.ml" 132 5094 5101
+type(
+  Ir3_bbl_generator.md_bbls
+)
+"ldr_str_optimizer.ml" 121 4740 4746 "ldr_str_optimizer.ml" 132 5094 5101
+type(
+  Ir3_bbl_generator.md_bbls
+)
+"ldr_str_optimizer.ml" 107 4093 4099 "ldr_str_optimizer.ml" 132 5094 5101
+type(
+  Ir3_bbl_generator.md_bbls
+)
+"ldr_str_optimizer.ml" 134 5110 5118 "ldr_str_optimizer.ml" 134 5110 5126
+type(
+  Ir3_bbl_generator.md_bbls
+)
+ident(
+  def new_bbls "ldr_str_optimizer.ml" 135 5180 5184 "ldr_str_optimizer.ml" 144 5431 5436
+)
+"ldr_str_optimizer.ml" 134 5110 5129 "ldr_str_optimizer.ml" 134 5110 5144
+type(
+  Ir3_bbl_generator.md_bbls -> Ir3_bbl_generator.md_bbls
+)
+ident(
+  int_ref process_md_bbls "ldr_str_optimizer.ml" 106 4049 4057 "ldr_str_optimizer.ml" 106 4049 4072
+)
+"ldr_str_optimizer.ml" 134 5110 5146 "ldr_str_optimizer.ml" 134 5110 5163
+type(
+  Ir3_structs_new.ir3_stmt_new list -> Ir3_bbl_generator.md_bbls
+)
+ident(
+  ext_ref Ir3_bbl_generator.ir3_stmts_to_bbls
+)
+"ldr_str_optimizer.ml" 134 5110 5164 "ldr_str_optimizer.ml" 134 5110 5166
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref md "ldr_str_optimizer.ml" 101 3855 3877 "ldr_str_optimizer.ml" 101 3855 3879
+)
+"ldr_str_optimizer.ml" 134 5110 5164 "ldr_str_optimizer.ml" 134 5110 5175
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ldr_str_optimizer.ml" 134 5110 5145 "ldr_str_optimizer.ml" 134 5110 5176
+call(
+  stack
+)
+type(
+  Ir3_bbl_generator.md_bbls
+)
+"ldr_str_optimizer.ml" 134 5110 5129 "ldr_str_optimizer.ml" 134 5110 5176
+call(
+  stack
+)
+type(
+  Ir3_bbl_generator.md_bbls
+)
+"ldr_str_optimizer.ml" 135 5180 5188 "ldr_str_optimizer.ml" 135 5180 5197
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def new_stmts "ldr_str_optimizer.ml" 136 5230 5234 "ldr_str_optimizer.ml" 144 5431 5436
+)
+"ldr_str_optimizer.ml" 135 5180 5200 "ldr_str_optimizer.ml" 135 5180 5217
+type(
+  Ir3_bbl_generator.md_bbls -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  ext_ref Ir3_bbl_generator.ir3_bbls_to_stmts
+)
+"ldr_str_optimizer.ml" 135 5180 5218 "ldr_str_optimizer.ml" 135 5180 5226
+type(
+  Ir3_bbl_generator.md_bbls
+)
+ident(
+  int_ref new_bbls "ldr_str_optimizer.ml" 134 5110 5118 "ldr_str_optimizer.ml" 134 5110 5126
+)
+"ldr_str_optimizer.ml" 135 5180 5200 "ldr_str_optimizer.ml" 135 5180 5226
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ldr_str_optimizer.ml" 137 5236 5246 "ldr_str_optimizer.ml" 137 5236 5248
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref md "ldr_str_optimizer.ml" 101 3855 3877 "ldr_str_optimizer.ml" 101 3855 3879
+)
+"ldr_str_optimizer.ml" 137 5236 5246 "ldr_str_optimizer.ml" 137 5236 5252
+type(
+  Ir3_structs_new.id3_new
+)
+"ldr_str_optimizer.ml" 138 5254 5269 "ldr_str_optimizer.ml" 138 5254 5271
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref md "ldr_str_optimizer.ml" 101 3855 3877 "ldr_str_optimizer.ml" 101 3855 3879
+)
+"ldr_str_optimizer.ml" 138 5254 5269 "ldr_str_optimizer.ml" 138 5254 5280
+type(
+  Ir3_structs_new.ir3_type_new
+)
+"ldr_str_optimizer.ml" 139 5282 5296 "ldr_str_optimizer.ml" 139 5282 5298
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref md "ldr_str_optimizer.ml" 101 3855 3877 "ldr_str_optimizer.ml" 101 3855 3879
+)
+"ldr_str_optimizer.ml" 139 5282 5296 "ldr_str_optimizer.ml" 139 5282 5306
+type(
+  Ir3_structs_new.var_decl3_new list
+)
+"ldr_str_optimizer.ml" 140 5308 5325 "ldr_str_optimizer.ml" 140 5308 5327
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref md "ldr_str_optimizer.ml" 101 3855 3877 "ldr_str_optimizer.ml" 101 3855 3879
+)
+"ldr_str_optimizer.ml" 140 5308 5325 "ldr_str_optimizer.ml" 140 5308 5338
+type(
+  Ir3_structs_new.var_decl3_new list
+)
+"ldr_str_optimizer.ml" 141 5340 5355 "ldr_str_optimizer.ml" 141 5340 5364
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref new_stmts "ldr_str_optimizer.ml" 135 5180 5188 "ldr_str_optimizer.ml" 135 5180 5197
+)
+"ldr_str_optimizer.ml" 142 5366 5382 "ldr_str_optimizer.ml" 142 5366 5384
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref md "ldr_str_optimizer.ml" 101 3855 3877 "ldr_str_optimizer.ml" 101 3855 3879
+)
+"ldr_str_optimizer.ml" 142 5366 5382 "ldr_str_optimizer.ml" 142 5366 5394
+type(
+  int
+)
+"ldr_str_optimizer.ml" 143 5396 5414 "ldr_str_optimizer.ml" 143 5396 5416
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref md "ldr_str_optimizer.ml" 101 3855 3877 "ldr_str_optimizer.ml" 101 3855 3879
+)
+"ldr_str_optimizer.ml" 143 5396 5414 "ldr_str_optimizer.ml" 143 5396 5428
+type(
+  Ir3_structs_new.reg_or_mem list
+)
+"ldr_str_optimizer.ml" 136 5230 5234 "ldr_str_optimizer.ml" 144 5431 5436
+type(
+  Ir3_structs_new.md_decl3_new
+)
+"ldr_str_optimizer.ml" 135 5180 5184 "ldr_str_optimizer.ml" 144 5431 5436
+type(
+  Ir3_structs_new.md_decl3_new
+)
+"ldr_str_optimizer.ml" 134 5110 5114 "ldr_str_optimizer.ml" 144 5431 5436
+type(
+  Ir3_structs_new.md_decl3_new
+)
+"ldr_str_optimizer.ml" 106 4049 4053 "ldr_str_optimizer.ml" 144 5431 5436
+type(
+  Ir3_structs_new.md_decl3_new
+)
+"ldr_str_optimizer.ml" 103 3928 3932 "ldr_str_optimizer.ml" 144 5431 5436
+type(
+  Ir3_structs_new.md_decl3_new
+)
+"ldr_str_optimizer.ml" 102 3882 3886 "ldr_str_optimizer.ml" 144 5431 5436
+type(
+  Ir3_structs_new.md_decl3_new
+)
+"ldr_str_optimizer.ml" 146 5443 5449 "ldr_str_optimizer.ml" 146 5443 5462
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  def new_main_decl "ldr_str_optimizer.ml" 147 5493 5495 "ldr_str_optimizer.ml" 148 5550 5587
+)
+"ldr_str_optimizer.ml" 146 5443 5465 "ldr_str_optimizer.ml" 146 5443 5480
+type(
+  Ir3_structs_new.md_decl3_new -> Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref opt_ir3_md_decl "ldr_str_optimizer.ml" 101 3855 3861 "ldr_str_optimizer.ml" 101 3855 3876
+)
+"ldr_str_optimizer.ml" 146 5443 5481 "ldr_str_optimizer.ml" 146 5443 5489
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref mainDecl "ldr_str_optimizer.ml" 100 3803 3835 "ldr_str_optimizer.ml" 100 3803 3843
+)
+"ldr_str_optimizer.ml" 146 5443 5465 "ldr_str_optimizer.ml" 146 5443 5489
+call(
+  stack
+)
+type(
+  Ir3_structs_new.md_decl3_new
+)
+"ldr_str_optimizer.ml" 147 5493 5499 "ldr_str_optimizer.ml" 147 5493 5511
+type(
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  def new_md_decls "ldr_str_optimizer.ml" 148 5550 5552 "ldr_str_optimizer.ml" 148 5550 5587
+)
+"ldr_str_optimizer.ml" 147 5493 5514 "ldr_str_optimizer.ml" 147 5493 5522
+type(
+  (Ir3_structs_new.md_decl3_new -> Ir3_structs_new.md_decl3_new) ->
+  Ir3_structs_new.md_decl3_new list -> Ir3_structs_new.md_decl3_new list
+)
+ident(
+  ext_ref List.map
+)
+"ldr_str_optimizer.ml" 147 5493 5523 "ldr_str_optimizer.ml" 147 5493 5538
+type(
+  Ir3_structs_new.md_decl3_new -> Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref opt_ir3_md_decl "ldr_str_optimizer.ml" 101 3855 3861 "ldr_str_optimizer.ml" 101 3855 3876
+)
+"ldr_str_optimizer.ml" 147 5493 5539 "ldr_str_optimizer.ml" 147 5493 5546
+type(
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  int_ref mdDecls "ldr_str_optimizer.ml" 100 3803 3844 "ldr_str_optimizer.ml" 100 3803 3851
+)
+"ldr_str_optimizer.ml" 147 5493 5514 "ldr_str_optimizer.ml" 147 5493 5546
+call(
+  stack
+)
+type(
+  Ir3_structs_new.md_decl3_new list
+)
+"ldr_str_optimizer.ml" 148 5550 5553 "ldr_str_optimizer.ml" 148 5550 5559
+type(
+  'a
+)
+ident(
+  int_ref cdatas "ldr_str_optimizer.ml" 100 3803 3828 "ldr_str_optimizer.ml" 100 3803 3834
+)
+"ldr_str_optimizer.ml" 148 5550 5560 "ldr_str_optimizer.ml" 148 5550 5573
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref new_main_decl "ldr_str_optimizer.ml" 146 5443 5449 "ldr_str_optimizer.ml" 146 5443 5462
+)
+"ldr_str_optimizer.ml" 148 5550 5574 "ldr_str_optimizer.ml" 148 5550 5586
+type(
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  int_ref new_md_decls "ldr_str_optimizer.ml" 147 5493 5499 "ldr_str_optimizer.ml" 147 5493 5511
+)
+"ldr_str_optimizer.ml" 148 5550 5552 "ldr_str_optimizer.ml" 148 5550 5587
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)
+"ldr_str_optimizer.ml" 147 5493 5495 "ldr_str_optimizer.ml" 148 5550 5587
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)
+"ldr_str_optimizer.ml" 146 5443 5445 "ldr_str_optimizer.ml" 148 5550 5587
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)
+"ldr_str_optimizer.ml" 101 3855 3857 "ldr_str_optimizer.ml" 148 5550 5587
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)

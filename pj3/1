@@ -1,0 +1,559 @@
+opt_deadcode = false
+opt_common_sub_expression = false
+opt_global_common_sub_expression = false
+opt_copy_propagation = false
+opt_peephole = false
+opt_ldr_str = false
+Compiling...
+testcases/general_testcases/ex1.txt
+======= IR3 Program =======
+
+======= CData3 ======= 
+
+class Main{
+}
+
+class Dummy{
+  Compute c;
+  Int i;
+  Dummy j;
+}
+
+class Compute{
+  Bool computedSquares;
+  Int chachedValue;
+}
+
+=======  CMtd3 ======= 
+
+void main(Main this,Int i,Int a,Int b,Int d){
+  Int t1;
+  Int t2;
+  Compute help;
+  Int _t1;
+  Int _t2;
+  Bool _t3;
+  help=new Compute();
+  help.chachedValue=[t1,3](*);
+  _t1=[Compute_2(help,a,b)];
+  _t2=[Compute_0(help,i)];
+  t1=[_t1,_t2](+);
+  t2=[Compute_0(help,d)];
+  _t3=[t2,t1](>);
+  If([_t3,false](==)) goto 1;
+  println("Square of d larger than sum of squares");
+  goto 2;
+ Label 1:
+  println("Square of d larger than sum of squares");
+ Label 2:
+ Label 3:
+  If((!)[true]) goto 4;
+  t1=[1,2](*);
+  goto 3;
+ Label 4:
+}
+
+Int Dummy_0(Dummy this){
+  Bool i;
+  Bool j;
+  Bool _t5;
+  Int _t6;
+  Compute _t7;
+  Int _t8;
+  Int _t9;
+  _t5=[i,j](||);
+  If([_t5,false](==)) goto 7;
+  _t6=1;
+  Return _t6;
+  goto 8;
+ Label 7:
+ Label 5:
+  If((!)[i]) goto 6;
+  i=(!)[j];
+  goto 5;
+ Label 6:
+  this.c=[Dummy_1(this)];
+ Label 8:
+  _t7=[Dummy_1(this)];
+  _t8=(-)[3];
+  _t9=[Compute_0(_t7,_t8)];
+  Return _t9;
+}
+
+Compute Dummy_1(Dummy this){
+  Compute _t4;
+  this.c=new Compute();
+  _t4=this.c;
+  Return _t4;
+}
+
+Int Compute_0(Compute this,Int a){
+  Int _t16;
+  _t16=[a,a](*);
+  Return _t16;
+}
+
+Int Compute_1(Compute this,Int a,Int b){
+  Int _t15;
+  _t15=[a,b](+);
+  Return _t15;
+}
+
+Int Compute_2(Compute this,Int a,Int b){
+  Bool _t10;
+  Int _t11;
+  Int _t12;
+  Int _t13;
+  Int _t14;
+  _t10=this.computedSquares;
+  If([_t10,false](==)) goto 9;
+  _t11=this.chachedValue;
+  Return _t11;
+  goto 10;
+ Label 9:
+  this.computedSquares=true;
+  _t12=[Compute_0(this,a)];
+  _t13=[Compute_0(this,b)];
+  _t14=[Compute_1(this,_t12,_t13)];
+  Return _t14;
+ Label 10:
+}
+
+======= End of IR3 Program =======
+
+
+
+====Graph====
+_t-3: t1 i help d b a
+_t1: i help d _t2
+_t2: help d _t1
+b: _t-3 _t-4 t1 i help d a
+d: _t-3 _t-4 _t2 _t1 t1 i help b a
+_t3: 
+help: _t-3 _t-4 _t2 _t1 t1 i d b a
+_t-4: i help d b a
+t1: _t-3 t2 i help d b a
+_t-2: _t-1
+_t-1: _t-2
+t2: t1
+i: _t-3 _t1 _t-4 t1 help d b a
+a: _t-3 _t-4 t1 i help d b
+====Reg Assignment====
+_t1: R2
+_t2: R0
+_t3: R0
+_t-4: R2
+d: R4
+help: R3
+t1: R2
+_t-2: R1
+_t-1: R0
+t2: R0
+i: R1
+a: R0
+====Spill List====
+_t-3, b
+
+====Graph====
+_t-6: this
+_t5: this j i
+_t9: 
+_t-5: _t7
+_t8: _t7
+this: _t-6 _t6 j i _t5
+i: _t6 this j _t5
+_t7: _t-5 _t8
+_t6: this j i
+j: _t6 this i _t5
+====Reg Assignment====
+_t-6: R0
+_t5: R1
+_t9: R0
+_t-5: R1
+_t8: R1
+this: R3
+i: R2
+_t7: R0
+_t6: R1
+j: R0
+====Spill List====
+
+
+====Graph====
+_t4: 
+this: _t-7
+_t-7: this
+====Reg Assignment====
+_t4: R0
+this: R1
+_t-7: R0
+====Spill List====
+
+
+====Graph====
+_t16: 
+_t-8: a
+a: _t-8
+====Reg Assignment====
+_t16: R0
+_t-8: R1
+a: R0
+====Spill List====
+
+
+====Graph====
+b: a
+_t15: 
+a: b
+====Reg Assignment====
+b: R1
+_t15: R0
+a: R0
+====Spill List====
+
+
+====Graph====
+_t13: this _t12
+_t11: this b a
+_t14: 
+_t10: this b a
+b: _t12 _t11 _t-9 this a _t10
+this: _t13 _t12 _t11 _t-9 b a _t10
+_t-9: this b a
+a: _t11 _t-9 this b _t10
+_t12: b this _t13
+====Reg Assignment====
+_t13: R1
+_t11: R1
+_t14: R0
+_t10: R1
+b: R3
+this: R2
+_t-9: R1
+a: R0
+_t12: R0
+====Spill List====
+
+
+======Updated IR3 program========
+======= IR3 Program New =======
+
+======= CData3 New======= 
+
+class Main{
+}
+
+class Dummy{
+  Compute c;
+  Int i;
+  Dummy j;
+}
+
+class Compute{
+  Bool computedSquares;
+  Int chachedValue;
+}
+
+=======  CMtd3 New ======= 
+
+void main(Main this,Int i,Int a,Int b,Int d){
+  Int t1;
+  Int t2;
+  Compute help;
+  Int _t1;
+  Int _t2;
+  Bool _t3;
+   _t-3;
+   _t-4;
+   _t-1;
+   _t-2;
+  help(REG:__R3)=new Compute();
+  _t-3(REG:__A1)=3;
+  ST __A1, __M0;
+  LD __A1, __M0;
+  _t-4(REG:__R2)=[t1(REG:__R2),_t-3(REG:__A1)](*);
+  help(REG:__R3).chachedValue(REG:!!!UNSET)=_t-4(REG:__R2);
+  _t1(REG:__R2)=[Compute_2(help(REG:__R3),a(REG:__R0),b(MEM:__M1))];
+  _t2(REG:__R0)=[Compute_0(help(REG:__R3),i(REG:__R1))];
+  t1(REG:__R2)=[_t1(REG:__R2),_t2(REG:__R0)](+);
+  t2(REG:__R0)=[Compute_0(help(REG:__R3),d(REG:__R4))];
+  _t3(REG:__R0)=[t2(REG:__R0),t1(REG:__R2)](>);
+  cmp v1,#0
+bEQ .0
+  println("Square of d larger than sum of squares");
+  goto 1;
+ Label 0:
+  println("Square of d larger than sum of squares");
+ Label 1:
+  
+  _t-1(REG:__R0)=1;
+  _t-2(REG:__R1)=2;
+  t1(REG:__R2)=[_t-1(REG:__R0),_t-2(REG:__R1)](*);
+  goto 1;
+ Label 2:
+}
+
+Int Dummy_0(Dummy this){
+  Bool i;
+  Bool j;
+  Bool _t5;
+  Int _t6;
+  Compute _t7;
+  Int _t8;
+  Int _t9;
+   _t-6;
+   _t-5;
+  _t5(REG:__R1)=[i(REG:__R2),j(REG:__R0)](||);
+  cmp v2,#0
+bEQ .3
+  _t6(REG:__R1)=1;
+  Return _t6(REG:__R1);
+ Label 3:
+  cmp v3,#0
+bEQ .4
+  i(REG:__R2)=(!)[j(REG:__R0)];
+  goto 3;
+ Label 4:
+  _t-6(REG:__R0)=[Dummy_1(this(REG:__R3))];
+  this(REG:__R3).c(REG:!!!UNSET)=_t-6(REG:__R0);
+ Label 5:
+  _t7(REG:__R0)=[Dummy_1(this(REG:__R3))];
+  _t-5(REG:__R1)=3;
+  _t8(REG:__R1)=(-)[_t-5(REG:__R1)];
+  _t9(REG:__R0)=[Compute_0(_t7(REG:__R0),_t8(REG:__R1))];
+  Return _t9(REG:__R0);
+}
+
+Compute Dummy_1(Dummy this){
+  Compute _t4;
+   _t-7;
+  _t-7(REG:__R0)=new Compute();
+  this(REG:__R1).c(REG:!!!UNSET)=_t-7(REG:__R0);
+  _t4(REG:__R0)=this(REG:__R1).c(REG:!!!UNSET);
+  Return _t4(REG:__R0);
+}
+
+Int Compute_0(Compute this,Int a){
+  Int _t16;
+   _t-8;
+  _t-8(REG:__R1)=a(REG:__R0);
+  _t16(REG:__R0)=[a(REG:__R0),_t-8(REG:__R1)](*);
+  Return _t16(REG:__R0);
+}
+
+Int Compute_1(Compute this,Int a,Int b){
+  Int _t15;
+  _t15(REG:__R0)=[a(REG:__R0),b(REG:__R1)](+);
+  Return _t15(REG:__R0);
+}
+
+Int Compute_2(Compute this,Int a,Int b){
+  Bool _t10;
+  Int _t11;
+  Int _t12;
+  Int _t13;
+  Int _t14;
+   _t-9;
+  _t10(REG:__R1)=this(REG:__R2).computedSquares(REG:!!!UNSET);
+  cmp v2,#0
+bEQ .6
+  _t11(REG:__R1)=this(REG:__R2).chachedValue(REG:!!!UNSET);
+  Return _t11(REG:__R1);
+ Label 6:
+  _t-9(REG:__R1)=true;
+  this(REG:__R2).computedSquares(REG:!!!UNSET)=_t-9(REG:__R1);
+  _t12(REG:__R0)=[Compute_0(this(REG:__R2),a(REG:__R0))];
+  _t13(REG:__R1)=[Compute_0(this(REG:__R2),b(REG:__R3))];
+  _t14(REG:__R0)=[Compute_1(this(REG:__R2),_t12(REG:__R0),_t13(REG:__R1))];
+  Return _t14(REG:__R0);
+}
+
+======= End of IR3 Program New =======
+
+
+======Arm Program========
+.data
+	
+L0:
+	.asciz "Square of d larger than sum of squares\n"
+	.text
+	.global main
+	
+main:
+	stmfd sp!,{v1,v2,v3,v4,v5,fp,lr}
+	add fp,sp,#24
+	sub sp,fp,#32
+	mov v2,a2
+	mov v1,a3
+	str a4,[fp,#-32]
+	ldr v5,[fp,#4]
+	mov a1,#8
+	bl _Znwj(PLT)
+	mov v4,a1
+	mov a1,#3
+	str a1,[fp,#-28]
+	ldr a1,[fp,#-28]
+	mul v3,a1,v3
+	str v3,[v4,#4]
+	ldr a1,[fp,#-32]
+	mov a3,a1
+	mov a2,v1
+	mov a1,v4
+	bl Compute_2
+	mov v3,a1
+	mov a2,v2
+	mov a1,v4
+	bl Compute_0
+	mov v1,a1
+	add v3,v3,v1
+	mov a2,v5
+	mov a1,v4
+	bl Compute_0
+	mov v1,a1
+	cmp v1,v3
+	movgt v1,#1
+	movle v1,#0
+	cmp v1,#0
+	bEQ .0
+	ldr a1,=L0
+	bl printf(PLT)
+	b .1
+	
+.0:
+	ldr a1,=L0
+	bl printf(PLT)
+	
+.1:
+	mov v1,#1
+	mov v2,#2
+	mul v3,v1,v2
+	b .1
+	
+.2:
+	
+.main_exit:
+	sub sp,fp,#24
+	ldmfd sp!,{v1,v2,v3,v4,v5,fp,pc}
+	
+Dummy_0:
+	stmfd sp!,{v1,v2,v3,v4,v5,fp,lr}
+	add fp,sp,#24
+	sub sp,fp,#24
+	mov v4,a1
+	orr v2,v3,v1
+	cmp v2,#0
+	bEQ .3
+	mov v2,#1
+	mov a1,v2
+	b .Dummy_0_exit
+	
+.3:
+	cmp v3,#0
+	bEQ .4
+	rsb v3,v1,#1
+	b .3
+	
+.4:
+	mov a1,v4
+	bl Dummy_1
+	mov v1,a1
+	str v1,[v4,#0]
+	
+.5:
+	mov a1,v4
+	bl Dummy_1
+	mov v1,a1
+	mov v2,#3
+	rsb v2,v2,#0
+	mov a2,v2
+	mov a1,v1
+	bl Compute_0
+	mov v1,a1
+	mov a1,v1
+	b .Dummy_0_exit
+	
+.Dummy_0_exit:
+	sub sp,fp,#24
+	ldmfd sp!,{v1,v2,v3,v4,v5,fp,pc}
+	
+Dummy_1:
+	stmfd sp!,{v1,v2,v3,v4,v5,fp,lr}
+	add fp,sp,#24
+	sub sp,fp,#24
+	mov v2,a1
+	mov a1,#8
+	bl _Znwj(PLT)
+	mov v1,a1
+	str v1,[v2,#0]
+	ldr v1,[v2,#0]
+	mov a1,v1
+	b .Dummy_1_exit
+	
+.Dummy_1_exit:
+	sub sp,fp,#24
+	ldmfd sp!,{v1,v2,v3,v4,v5,fp,pc}
+	
+Compute_0:
+	stmfd sp!,{v1,v2,v3,v4,v5,fp,lr}
+	add fp,sp,#24
+	sub sp,fp,#24
+	mov v1,a2
+	mov v2,v1
+	mul v1,v2,v1
+	mov a1,v1
+	b .Compute_0_exit
+	
+.Compute_0_exit:
+	sub sp,fp,#24
+	ldmfd sp!,{v1,v2,v3,v4,v5,fp,pc}
+	
+Compute_1:
+	stmfd sp!,{v1,v2,v3,v4,v5,fp,lr}
+	add fp,sp,#24
+	sub sp,fp,#24
+	mov v1,a2
+	mov v2,a3
+	add v1,v1,v2
+	mov a1,v1
+	b .Compute_1_exit
+	
+.Compute_1_exit:
+	sub sp,fp,#24
+	ldmfd sp!,{v1,v2,v3,v4,v5,fp,pc}
+	
+Compute_2:
+	stmfd sp!,{v1,v2,v3,v4,v5,fp,lr}
+	add fp,sp,#24
+	sub sp,fp,#24
+	mov v3,a1
+	mov v1,a2
+	mov v4,a3
+	ldr v2,[v3,#0]
+	cmp v2,#0
+	bEQ .6
+	ldr v2,[v3,#4]
+	mov a1,v2
+	b .Compute_2_exit
+	
+.6:
+	mov v2,#1
+	str v2,[v3,#0]
+	mov a2,v1
+	mov a1,v3
+	bl Compute_0
+	mov v1,a1
+	mov a2,v4
+	mov a1,v3
+	bl Compute_0
+	mov v2,a1
+	mov a3,v2
+	mov a2,v1
+	mov a1,v3
+	bl Compute_1
+	mov v1,a1
+	mov a1,v1
+	b .Compute_2_exit
+	
+.Compute_2_exit:
+	sub sp,fp,#24
+	ldmfd sp!,{v1,v2,v3,v4,v5,fp,pc}

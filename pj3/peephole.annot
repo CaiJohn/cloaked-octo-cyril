@@ -1,0 +1,2574 @@
+"peephole.ml" 9 156 160 "peephole.ml" 9 156 172
+type(
+  Ir3mOOL_structs.md_decl3 -> Ir3mOOL_structs.md_decl3
+)
+ident(
+  def peephole_mth "peephole.ml" 71 3618 3618 "peephole.ml" 1 0 -1
+)
+"peephole.ml" 9 156 173 "peephole.ml" 9 156 176
+type(
+  Ir3mOOL_structs.md_decl3
+)
+ident(
+  def mtd "peephole.ml" 10 179 183 "peephole.ml" 69 3611 3616
+)
+"peephole.ml" 10 179 187 "peephole.ml" 10 179 199
+type(
+  Ir3mOOL_structs.ir3_stmt -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def process_stmt "peephole.ml" 58 3295 3302 "peephole.ml" 69 3611 3616
+)
+"peephole.ml" 10 179 200 "peephole.ml" 10 179 204
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  def stmt "peephole.ml" 11 205 209 "peephole.ml" 57 3277 3294
+)
+"peephole.ml" 12 228 238 "peephole.ml" 12 228 242
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  int_ref stmt "peephole.ml" 10 179 200 "peephole.ml" 10 179 204
+)
+"peephole.ml" 14 273 292 "peephole.ml" 14 273 293
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  def v "peephole.ml" 15 361 369 "peephole.ml" 18 614 686
+)
+"peephole.ml" 14 273 319 "peephole.ml" 14 273 321
+type(
+  string
+)
+ident(
+  def op "peephole.ml" 15 361 369 "peephole.ml" 18 614 686
+)
+"peephole.ml" 14 273 307 "peephole.ml" 14 273 321
+type(
+  Ir3mOOL_structs.ir3_op
+)
+"peephole.ml" 14 273 335 "peephole.ml" 14 273 338
+type(
+  int
+)
+ident(
+  def id1 "peephole.ml" 15 361 369 "peephole.ml" 18 614 686
+)
+"peephole.ml" 14 273 323 "peephole.ml" 14 273 338
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 14 273 352 "peephole.ml" 14 273 355
+type(
+  int
+)
+ident(
+  def id2 "peephole.ml" 15 361 369 "peephole.ml" 18 614 686
+)
+"peephole.ml" 14 273 340 "peephole.ml" 14 273 355
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 14 273 295 "peephole.ml" 14 273 356
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"peephole.ml" 14 273 279 "peephole.ml" 14 273 357
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"peephole.ml" 15 361 372 "peephole.ml" 15 361 374
+type(
+  string
+)
+ident(
+  int_ref op "peephole.ml" 14 273 319 "peephole.ml" 14 273 321
+)
+"peephole.ml" 15 361 375 "peephole.ml" 15 361 376
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"peephole.ml" 15 361 377 "peephole.ml" 15 361 380
+type(
+  string
+)
+"peephole.ml" 15 361 372 "peephole.ml" 15 361 380
+type(
+  bool
+)
+"peephole.ml" 15 361 401 "peephole.ml" 15 361 402
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref v "peephole.ml" 14 273 292 "peephole.ml" 14 273 293
+)
+"peephole.ml" 15 361 428 "peephole.ml" 15 361 431
+type(
+  int
+)
+ident(
+  int_ref id1 "peephole.ml" 14 273 335 "peephole.ml" 14 273 338
+)
+"peephole.ml" 15 361 431 "peephole.ml" 15 361 432
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"peephole.ml" 15 361 432 "peephole.ml" 15 361 435
+type(
+  int
+)
+ident(
+  int_ref id2 "peephole.ml" 14 273 352 "peephole.ml" 14 273 355
+)
+"peephole.ml" 15 361 427 "peephole.ml" 15 361 436
+type(
+  int
+)
+"peephole.ml" 15 361 414 "peephole.ml" 15 361 437
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 15 361 404 "peephole.ml" 15 361 438
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"peephole.ml" 15 361 387 "peephole.ml" 15 361 440
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"peephole.ml" 15 361 386 "peephole.ml" 15 361 441
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 16 442 458 "peephole.ml" 16 442 460
+type(
+  string
+)
+ident(
+  int_ref op "peephole.ml" 14 273 319 "peephole.ml" 14 273 321
+)
+"peephole.ml" 16 442 461 "peephole.ml" 16 442 462
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"peephole.ml" 16 442 463 "peephole.ml" 16 442 466
+type(
+  string
+)
+"peephole.ml" 16 442 458 "peephole.ml" 16 442 466
+type(
+  bool
+)
+"peephole.ml" 16 442 487 "peephole.ml" 16 442 488
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref v "peephole.ml" 14 273 292 "peephole.ml" 14 273 293
+)
+"peephole.ml" 16 442 514 "peephole.ml" 16 442 517
+type(
+  int
+)
+ident(
+  int_ref id1 "peephole.ml" 14 273 335 "peephole.ml" 14 273 338
+)
+"peephole.ml" 16 442 517 "peephole.ml" 16 442 518
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"peephole.ml" 16 442 518 "peephole.ml" 16 442 521
+type(
+  int
+)
+ident(
+  int_ref id2 "peephole.ml" 14 273 352 "peephole.ml" 14 273 355
+)
+"peephole.ml" 16 442 513 "peephole.ml" 16 442 522
+type(
+  int
+)
+"peephole.ml" 16 442 500 "peephole.ml" 16 442 523
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 16 442 490 "peephole.ml" 16 442 524
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"peephole.ml" 16 442 473 "peephole.ml" 16 442 526
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"peephole.ml" 16 442 472 "peephole.ml" 16 442 527
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 17 528 544 "peephole.ml" 17 528 546
+type(
+  string
+)
+ident(
+  int_ref op "peephole.ml" 14 273 319 "peephole.ml" 14 273 321
+)
+"peephole.ml" 17 528 547 "peephole.ml" 17 528 548
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"peephole.ml" 17 528 549 "peephole.ml" 17 528 552
+type(
+  string
+)
+"peephole.ml" 17 528 544 "peephole.ml" 17 528 552
+type(
+  bool
+)
+"peephole.ml" 17 528 573 "peephole.ml" 17 528 574
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref v "peephole.ml" 14 273 292 "peephole.ml" 14 273 293
+)
+"peephole.ml" 17 528 600 "peephole.ml" 17 528 603
+type(
+  int
+)
+ident(
+  int_ref id1 "peephole.ml" 14 273 335 "peephole.ml" 14 273 338
+)
+"peephole.ml" 17 528 603 "peephole.ml" 17 528 604
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"peephole.ml" 17 528 604 "peephole.ml" 17 528 607
+type(
+  int
+)
+ident(
+  int_ref id2 "peephole.ml" 14 273 352 "peephole.ml" 14 273 355
+)
+"peephole.ml" 17 528 599 "peephole.ml" 17 528 608
+type(
+  int
+)
+"peephole.ml" 17 528 586 "peephole.ml" 17 528 609
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 17 528 576 "peephole.ml" 17 528 610
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"peephole.ml" 17 528 559 "peephole.ml" 17 528 612
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"peephole.ml" 17 528 558 "peephole.ml" 17 528 613
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 18 614 627 "peephole.ml" 18 614 635
+type(
+  string -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"peephole.ml" 18 614 636 "peephole.ml" 18 614 686
+type(
+  string
+)
+"peephole.ml" 18 614 627 "peephole.ml" 18 614 686
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 17 528 541 "peephole.ml" 18 614 686
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 16 442 455 "peephole.ml" 18 614 686
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 15 361 369 "peephole.ml" 18 614 686
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 19 687 706 "peephole.ml" 19 687 707
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  def v "peephole.ml" 20 776 784 "peephole.ml" 28 1169 1214
+)
+"peephole.ml" 19 687 734 "peephole.ml" 19 687 736
+type(
+  string
+)
+ident(
+  def op "peephole.ml" 20 776 784 "peephole.ml" 28 1169 1214
+)
+"peephole.ml" 19 687 721 "peephole.ml" 19 687 736
+type(
+  Ir3mOOL_structs.ir3_op
+)
+"peephole.ml" 19 687 750 "peephole.ml" 19 687 753
+type(
+  int
+)
+ident(
+  def id1 "peephole.ml" 20 776 784 "peephole.ml" 28 1169 1214
+)
+"peephole.ml" 19 687 738 "peephole.ml" 19 687 753
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 19 687 767 "peephole.ml" 19 687 770
+type(
+  int
+)
+ident(
+  def id2 "peephole.ml" 20 776 784 "peephole.ml" 28 1169 1214
+)
+"peephole.ml" 19 687 755 "peephole.ml" 19 687 770
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 19 687 709 "peephole.ml" 19 687 771
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"peephole.ml" 19 687 693 "peephole.ml" 19 687 772
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"peephole.ml" 20 776 788 "peephole.ml" 20 776 794
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  def helper "peephole.ml" 28 1169 1180 "peephole.ml" 28 1169 1214
+)
+"peephole.ml" 21 798 813 "peephole.ml" 21 798 815
+type(
+  string
+)
+ident(
+  int_ref op "peephole.ml" 19 687 734 "peephole.ml" 19 687 736
+)
+"peephole.ml" 21 798 816 "peephole.ml" 21 798 817
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"peephole.ml" 21 798 818 "peephole.ml" 21 798 822
+type(
+  string
+)
+"peephole.ml" 21 798 813 "peephole.ml" 21 798 822
+type(
+  bool
+)
+"peephole.ml" 21 798 842 "peephole.ml" 21 798 845
+type(
+  int
+)
+ident(
+  int_ref id1 "peephole.ml" 19 687 750 "peephole.ml" 19 687 753
+)
+"peephole.ml" 21 798 846 "peephole.ml" 21 798 847
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"peephole.ml" 21 798 848 "peephole.ml" 21 798 851
+type(
+  int
+)
+ident(
+  int_ref id2 "peephole.ml" 19 687 767 "peephole.ml" 19 687 770
+)
+"peephole.ml" 21 798 841 "peephole.ml" 21 798 852
+type(
+  bool
+)
+"peephole.ml" 21 798 828 "peephole.ml" 21 798 852
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 22 853 873 "peephole.ml" 22 853 875
+type(
+  string
+)
+ident(
+  int_ref op "peephole.ml" 19 687 734 "peephole.ml" 19 687 736
+)
+"peephole.ml" 22 853 876 "peephole.ml" 22 853 877
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"peephole.ml" 22 853 878 "peephole.ml" 22 853 882
+type(
+  string
+)
+"peephole.ml" 22 853 873 "peephole.ml" 22 853 882
+type(
+  bool
+)
+"peephole.ml" 22 853 902 "peephole.ml" 22 853 905
+type(
+  int
+)
+ident(
+  int_ref id1 "peephole.ml" 19 687 750 "peephole.ml" 19 687 753
+)
+"peephole.ml" 22 853 906 "peephole.ml" 22 853 908
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"peephole.ml" 22 853 909 "peephole.ml" 22 853 912
+type(
+  int
+)
+ident(
+  int_ref id2 "peephole.ml" 19 687 767 "peephole.ml" 19 687 770
+)
+"peephole.ml" 22 853 901 "peephole.ml" 22 853 913
+type(
+  bool
+)
+"peephole.ml" 22 853 888 "peephole.ml" 22 853 913
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 23 915 935 "peephole.ml" 23 915 937
+type(
+  string
+)
+ident(
+  int_ref op "peephole.ml" 19 687 734 "peephole.ml" 19 687 736
+)
+"peephole.ml" 23 915 938 "peephole.ml" 23 915 939
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"peephole.ml" 23 915 940 "peephole.ml" 23 915 944
+type(
+  string
+)
+"peephole.ml" 23 915 935 "peephole.ml" 23 915 944
+type(
+  bool
+)
+"peephole.ml" 23 915 964 "peephole.ml" 23 915 967
+type(
+  int
+)
+ident(
+  int_ref id1 "peephole.ml" 19 687 750 "peephole.ml" 19 687 753
+)
+"peephole.ml" 23 915 968 "peephole.ml" 23 915 970
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"peephole.ml" 23 915 971 "peephole.ml" 23 915 974
+type(
+  int
+)
+ident(
+  int_ref id2 "peephole.ml" 19 687 767 "peephole.ml" 19 687 770
+)
+"peephole.ml" 23 915 963 "peephole.ml" 23 915 975
+type(
+  bool
+)
+"peephole.ml" 23 915 950 "peephole.ml" 23 915 975
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 24 977 997 "peephole.ml" 24 977 999
+type(
+  string
+)
+ident(
+  int_ref op "peephole.ml" 19 687 734 "peephole.ml" 19 687 736
+)
+"peephole.ml" 24 977 1000 "peephole.ml" 24 977 1001
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"peephole.ml" 24 977 1002 "peephole.ml" 24 977 1006
+type(
+  string
+)
+"peephole.ml" 24 977 997 "peephole.ml" 24 977 1006
+type(
+  bool
+)
+"peephole.ml" 24 977 1026 "peephole.ml" 24 977 1029
+type(
+  int
+)
+ident(
+  int_ref id1 "peephole.ml" 19 687 750 "peephole.ml" 19 687 753
+)
+"peephole.ml" 24 977 1030 "peephole.ml" 24 977 1032
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"peephole.ml" 24 977 1033 "peephole.ml" 24 977 1036
+type(
+  int
+)
+ident(
+  int_ref id2 "peephole.ml" 19 687 767 "peephole.ml" 19 687 770
+)
+"peephole.ml" 24 977 1025 "peephole.ml" 24 977 1037
+type(
+  bool
+)
+"peephole.ml" 24 977 1012 "peephole.ml" 24 977 1037
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 25 1039 1059 "peephole.ml" 25 1039 1061
+type(
+  string
+)
+ident(
+  int_ref op "peephole.ml" 19 687 734 "peephole.ml" 19 687 736
+)
+"peephole.ml" 25 1039 1062 "peephole.ml" 25 1039 1063
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"peephole.ml" 25 1039 1064 "peephole.ml" 25 1039 1067
+type(
+  string
+)
+"peephole.ml" 25 1039 1059 "peephole.ml" 25 1039 1067
+type(
+  bool
+)
+"peephole.ml" 25 1039 1087 "peephole.ml" 25 1039 1090
+type(
+  int
+)
+ident(
+  int_ref id1 "peephole.ml" 19 687 750 "peephole.ml" 19 687 753
+)
+"peephole.ml" 25 1039 1091 "peephole.ml" 25 1039 1092
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"peephole.ml" 25 1039 1093 "peephole.ml" 25 1039 1096
+type(
+  int
+)
+ident(
+  int_ref id2 "peephole.ml" 19 687 767 "peephole.ml" 19 687 770
+)
+"peephole.ml" 25 1039 1086 "peephole.ml" 25 1039 1097
+type(
+  bool
+)
+"peephole.ml" 25 1039 1073 "peephole.ml" 25 1039 1097
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 27 1126 1157 "peephole.ml" 27 1126 1160
+type(
+  int
+)
+ident(
+  int_ref id1 "peephole.ml" 19 687 750 "peephole.ml" 19 687 753
+)
+"peephole.ml" 27 1126 1161 "peephole.ml" 27 1126 1162
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"peephole.ml" 27 1126 1163 "peephole.ml" 27 1126 1166
+type(
+  int
+)
+ident(
+  int_ref id2 "peephole.ml" 19 687 767 "peephole.ml" 19 687 770
+)
+"peephole.ml" 27 1126 1156 "peephole.ml" 27 1126 1167
+type(
+  bool
+)
+"peephole.ml" 27 1126 1143 "peephole.ml" 27 1126 1167
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 25 1039 1056 "peephole.ml" 27 1126 1167
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 24 977 994 "peephole.ml" 27 1126 1167
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 23 915 932 "peephole.ml" 27 1126 1167
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 22 853 870 "peephole.ml" 27 1126 1167
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 21 798 810 "peephole.ml" 27 1126 1167
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 28 1169 1194 "peephole.ml" 28 1169 1195
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref v "peephole.ml" 19 687 706 "peephole.ml" 19 687 707
+)
+"peephole.ml" 28 1169 1206 "peephole.ml" 28 1169 1212
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  int_ref helper "peephole.ml" 20 776 788 "peephole.ml" 20 776 794
+)
+"peephole.ml" 28 1169 1197 "peephole.ml" 28 1169 1212
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"peephole.ml" 28 1169 1181 "peephole.ml" 28 1169 1213
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"peephole.ml" 28 1169 1180 "peephole.ml" 28 1169 1214
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 20 776 784 "peephole.ml" 28 1169 1214
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 29 1215 1234 "peephole.ml" 29 1215 1235
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  def v "peephole.ml" 30 1303 1311 "peephole.ml" 31 1385 1453
+)
+"peephole.ml" 29 1215 1259 "peephole.ml" 29 1215 1261
+type(
+  string
+)
+ident(
+  def op "peephole.ml" 30 1303 1311 "peephole.ml" 31 1385 1453
+)
+"peephole.ml" 29 1215 1249 "peephole.ml" 29 1215 1261
+type(
+  Ir3mOOL_structs.ir3_op
+)
+"peephole.ml" 29 1215 1276 "peephole.ml" 29 1215 1279
+type(
+  bool
+)
+ident(
+  def id1 "peephole.ml" 30 1303 1311 "peephole.ml" 31 1385 1453
+)
+"peephole.ml" 29 1215 1263 "peephole.ml" 29 1215 1279
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 29 1215 1294 "peephole.ml" 29 1215 1297
+type(
+  bool
+)
+ident(
+  def id2 "peephole.ml" 30 1303 1311 "peephole.ml" 31 1385 1453
+)
+"peephole.ml" 29 1215 1281 "peephole.ml" 29 1215 1297
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 29 1215 1237 "peephole.ml" 29 1215 1298
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"peephole.ml" 29 1215 1221 "peephole.ml" 29 1215 1299
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"peephole.ml" 30 1303 1314 "peephole.ml" 30 1303 1316
+type(
+  string
+)
+ident(
+  int_ref op "peephole.ml" 29 1215 1259 "peephole.ml" 29 1215 1261
+)
+"peephole.ml" 30 1303 1317 "peephole.ml" 30 1303 1318
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"peephole.ml" 30 1303 1319 "peephole.ml" 30 1303 1323
+type(
+  string
+)
+"peephole.ml" 30 1303 1314 "peephole.ml" 30 1303 1323
+type(
+  bool
+)
+"peephole.ml" 30 1303 1343 "peephole.ml" 30 1303 1344
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref v "peephole.ml" 29 1215 1234 "peephole.ml" 29 1215 1235
+)
+"peephole.ml" 30 1303 1370 "peephole.ml" 30 1303 1373
+type(
+  bool
+)
+ident(
+  int_ref id1 "peephole.ml" 29 1215 1276 "peephole.ml" 29 1215 1279
+)
+"peephole.ml" 30 1303 1374 "peephole.ml" 30 1303 1376
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"peephole.ml" 30 1303 1377 "peephole.ml" 30 1303 1380
+type(
+  bool
+)
+ident(
+  int_ref id2 "peephole.ml" 29 1215 1294 "peephole.ml" 29 1215 1297
+)
+"peephole.ml" 30 1303 1369 "peephole.ml" 30 1303 1381
+type(
+  bool
+)
+"peephole.ml" 30 1303 1355 "peephole.ml" 30 1303 1382
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 30 1303 1346 "peephole.ml" 30 1303 1382
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"peephole.ml" 30 1303 1330 "peephole.ml" 30 1303 1383
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"peephole.ml" 30 1303 1329 "peephole.ml" 30 1303 1384
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 31 1385 1412 "peephole.ml" 31 1385 1413
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref v "peephole.ml" 29 1215 1234 "peephole.ml" 29 1215 1235
+)
+"peephole.ml" 31 1385 1439 "peephole.ml" 31 1385 1442
+type(
+  bool
+)
+ident(
+  int_ref id1 "peephole.ml" 29 1215 1276 "peephole.ml" 29 1215 1279
+)
+"peephole.ml" 31 1385 1443 "peephole.ml" 31 1385 1445
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"peephole.ml" 31 1385 1446 "peephole.ml" 31 1385 1449
+type(
+  bool
+)
+ident(
+  int_ref id2 "peephole.ml" 29 1215 1294 "peephole.ml" 29 1215 1297
+)
+"peephole.ml" 31 1385 1438 "peephole.ml" 31 1385 1450
+type(
+  bool
+)
+"peephole.ml" 31 1385 1424 "peephole.ml" 31 1385 1451
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 31 1385 1415 "peephole.ml" 31 1385 1451
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"peephole.ml" 31 1385 1399 "peephole.ml" 31 1385 1452
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"peephole.ml" 31 1385 1398 "peephole.ml" 31 1385 1453
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 30 1303 1311 "peephole.ml" 31 1385 1453
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 32 1454 1473 "peephole.ml" 32 1454 1474
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  def v "peephole.ml" 33 1519 1527 "peephole.ml" 34 1598 1617
+)
+"peephole.ml" 32 1454 1494 "peephole.ml" 32 1454 1496
+type(
+  string
+)
+ident(
+  def op "peephole.ml" 33 1519 1527 "peephole.ml" 34 1598 1617
+)
+"peephole.ml" 32 1454 1486 "peephole.ml" 32 1454 1496
+type(
+  Ir3mOOL_structs.ir3_op
+)
+"peephole.ml" 32 1454 1511 "peephole.ml" 32 1454 1513
+type(
+  bool
+)
+ident(
+  def id "peephole.ml" 33 1519 1527 "peephole.ml" 34 1598 1617
+)
+"peephole.ml" 32 1454 1498 "peephole.ml" 32 1454 1513
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 32 1454 1476 "peephole.ml" 32 1454 1514
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"peephole.ml" 32 1454 1460 "peephole.ml" 32 1454 1515
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"peephole.ml" 33 1519 1530 "peephole.ml" 33 1519 1532
+type(
+  string
+)
+ident(
+  int_ref op "peephole.ml" 32 1454 1494 "peephole.ml" 32 1454 1496
+)
+"peephole.ml" 33 1519 1533 "peephole.ml" 33 1519 1534
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"peephole.ml" 33 1519 1535 "peephole.ml" 33 1519 1538
+type(
+  string
+)
+"peephole.ml" 33 1519 1530 "peephole.ml" 33 1519 1538
+type(
+  bool
+)
+"peephole.ml" 33 1519 1559 "peephole.ml" 33 1519 1560
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref v "peephole.ml" 32 1454 1473 "peephole.ml" 32 1454 1474
+)
+"peephole.ml" 33 1519 1586 "peephole.ml" 33 1519 1589
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"peephole.ml" 33 1519 1590 "peephole.ml" 33 1519 1592
+type(
+  bool
+)
+ident(
+  int_ref id "peephole.ml" 32 1454 1511 "peephole.ml" 32 1454 1513
+)
+"peephole.ml" 33 1519 1585 "peephole.ml" 33 1519 1593
+type(
+  bool
+)
+"peephole.ml" 33 1519 1571 "peephole.ml" 33 1519 1594
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 33 1519 1562 "peephole.ml" 33 1519 1594
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"peephole.ml" 33 1519 1545 "peephole.ml" 33 1519 1596
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"peephole.ml" 33 1519 1544 "peephole.ml" 33 1519 1597
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 34 1598 1612 "peephole.ml" 34 1598 1616
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  int_ref stmt "peephole.ml" 10 179 200 "peephole.ml" 10 179 204
+)
+"peephole.ml" 34 1598 1611 "peephole.ml" 34 1598 1617
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 33 1519 1527 "peephole.ml" 34 1598 1617
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 36 1645 1664 "peephole.ml" 36 1645 1665
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  def v "peephole.ml" 40 1943 1951 "peephole.ml" 56 3257 3276
+)
+"peephole.ml" 36 1645 1691 "peephole.ml" 36 1645 1693
+type(
+  string
+)
+ident(
+  def op "peephole.ml" 40 1943 1951 "peephole.ml" 56 3257 3276
+)
+"peephole.ml" 36 1645 1679 "peephole.ml" 36 1645 1693
+type(
+  Ir3mOOL_structs.ir3_op
+)
+"peephole.ml" 36 1645 1707 "peephole.ml" 36 1645 1710
+type(
+  int
+)
+ident(
+  def id1 "peephole.ml" 40 1943 1951 "peephole.ml" 56 3257 3276
+)
+"peephole.ml" 36 1645 1695 "peephole.ml" 36 1645 1710
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 36 1645 1717 "peephole.ml" 36 1645 1720
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  def id2 "peephole.ml" 40 1943 1951 "peephole.ml" 56 3257 3276
+)
+"peephole.ml" 36 1645 1712 "peephole.ml" 36 1645 1720
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 36 1645 1667 "peephole.ml" 36 1645 1721
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"peephole.ml" 36 1645 1651 "peephole.ml" 36 1645 1722
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"peephole.ml" 37 1723 1742 "peephole.ml" 37 1723 1743
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  def v "peephole.ml" 40 1943 1951 "peephole.ml" 56 3257 3276
+)
+"peephole.ml" 37 1723 1769 "peephole.ml" 37 1723 1771
+type(
+  string
+)
+ident(
+  def op "peephole.ml" 40 1943 1951 "peephole.ml" 56 3257 3276
+)
+"peephole.ml" 37 1723 1757 "peephole.ml" 37 1723 1771
+type(
+  Ir3mOOL_structs.ir3_op
+)
+"peephole.ml" 37 1723 1778 "peephole.ml" 37 1723 1781
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  def id2 "peephole.ml" 40 1943 1951 "peephole.ml" 56 3257 3276
+)
+"peephole.ml" 37 1723 1773 "peephole.ml" 37 1723 1781
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 37 1723 1795 "peephole.ml" 37 1723 1798
+type(
+  int
+)
+ident(
+  def id1 "peephole.ml" 40 1943 1951 "peephole.ml" 56 3257 3276
+)
+"peephole.ml" 37 1723 1783 "peephole.ml" 37 1723 1798
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 37 1723 1745 "peephole.ml" 37 1723 1799
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"peephole.ml" 37 1723 1729 "peephole.ml" 37 1723 1800
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"peephole.ml" 36 1645 1651 "peephole.ml" 37 1723 1800
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"peephole.ml" 40 1943 1954 "peephole.ml" 40 1943 1956
+type(
+  string
+)
+ident(
+  int_ref op "peephole.ml" 36 1645 1691 "peephole.ml" 36 1645 1693
+)
+"peephole.ml" 40 1943 1957 "peephole.ml" 40 1943 1958
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"peephole.ml" 40 1943 1959 "peephole.ml" 40 1943 1962
+type(
+  string
+)
+"peephole.ml" 40 1943 1954 "peephole.ml" 40 1943 1962
+type(
+  bool
+)
+"peephole.ml" 40 1943 1964 "peephole.ml" 40 1943 1966
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"peephole.ml" 40 1943 1967 "peephole.ml" 40 1943 1970
+type(
+  int
+)
+ident(
+  int_ref id1 "peephole.ml" 36 1645 1707 "peephole.ml" 36 1645 1710
+)
+"peephole.ml" 40 1943 1971 "peephole.ml" 40 1943 1972
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"peephole.ml" 40 1943 1973 "peephole.ml" 40 1943 1974
+type(
+  int
+)
+"peephole.ml" 40 1943 1967 "peephole.ml" 40 1943 1974
+type(
+  bool
+)
+"peephole.ml" 40 1943 1954 "peephole.ml" 40 1943 1974
+type(
+  bool
+)
+"peephole.ml" 42 2008 2024 "peephole.ml" 42 2008 2041
+type(
+  Ir3mOOL_structs.id3 -> int -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def generate_addition "peephole.ml" 42 2008 2016 "peephole.ml" 55 3220 3256
+)
+"peephole.ml" 42 2008 2042 "peephole.ml" 42 2008 2045
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  def var "peephole.ml" 42 2008 2046 "peephole.ml" 47 2528 2648
+)
+"peephole.ml" 42 2008 2046 "peephole.ml" 42 2008 2051
+type(
+  int
+)
+ident(
+  def count "peephole.ml" 43 2054 2066 "peephole.ml" 47 2528 2648
+)
+"peephole.ml" 43 2054 2069 "peephole.ml" 43 2054 2074
+type(
+  int
+)
+ident(
+  int_ref count "peephole.ml" 42 2008 2046 "peephole.ml" 42 2008 2051
+)
+"peephole.ml" 43 2054 2075 "peephole.ml" 43 2054 2076
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"peephole.ml" 43 2054 2077 "peephole.ml" 43 2054 2078
+type(
+  int
+)
+"peephole.ml" 43 2054 2069 "peephole.ml" 43 2054 2078
+type(
+  bool
+)
+"peephole.ml" 43 2054 2099 "peephole.ml" 43 2054 2102
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref var "peephole.ml" 42 2008 2042 "peephole.ml" 42 2008 2045
+)
+"peephole.ml" 43 2054 2126 "peephole.ml" 43 2054 2127
+type(
+  int
+)
+"peephole.ml" 43 2054 2113 "peephole.ml" 43 2054 2128
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 43 2054 2104 "peephole.ml" 43 2054 2128
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"peephole.ml" 43 2054 2085 "peephole.ml" 43 2054 2130
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"peephole.ml" 43 2054 2084 "peephole.ml" 43 2054 2131
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 44 2132 2152 "peephole.ml" 44 2132 2157
+type(
+  int
+)
+ident(
+  int_ref count "peephole.ml" 42 2008 2046 "peephole.ml" 42 2008 2051
+)
+"peephole.ml" 44 2132 2158 "peephole.ml" 44 2132 2159
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"peephole.ml" 44 2132 2160 "peephole.ml" 44 2132 2161
+type(
+  int
+)
+"peephole.ml" 44 2132 2152 "peephole.ml" 44 2132 2161
+type(
+  bool
+)
+"peephole.ml" 44 2132 2180 "peephole.ml" 44 2132 2183
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref var "peephole.ml" 42 2008 2042 "peephole.ml" 42 2008 2045
+)
+"peephole.ml" 44 2132 2200 "peephole.ml" 44 2132 2203
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref id2 "peephole.ml" 36 1645 1717 "peephole.ml" 36 1645 1720
+)
+"peephole.ml" 44 2132 2194 "peephole.ml" 44 2132 2204
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 44 2132 2185 "peephole.ml" 44 2132 2204
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"peephole.ml" 44 2132 2168 "peephole.ml" 44 2132 2205
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"peephole.ml" 44 2132 2167 "peephole.ml" 44 2132 2206
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 45 2207 2227 "peephole.ml" 45 2207 2232
+type(
+  int
+)
+ident(
+  int_ref count "peephole.ml" 42 2008 2046 "peephole.ml" 42 2008 2051
+)
+"peephole.ml" 45 2207 2233 "peephole.ml" 45 2207 2234
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"peephole.ml" 45 2207 2235 "peephole.ml" 45 2207 2236
+type(
+  int
+)
+"peephole.ml" 45 2207 2227 "peephole.ml" 45 2207 2236
+type(
+  bool
+)
+"peephole.ml" 45 2207 2255 "peephole.ml" 45 2207 2258
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref var "peephole.ml" 42 2008 2042 "peephole.ml" 42 2008 2045
+)
+"peephole.ml" 45 2207 2284 "peephole.ml" 45 2207 2287
+type(
+  string
+)
+"peephole.ml" 45 2207 2272 "peephole.ml" 45 2207 2287
+type(
+  Ir3mOOL_structs.ir3_op
+)
+"peephole.ml" 45 2207 2294 "peephole.ml" 45 2207 2297
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref id2 "peephole.ml" 36 1645 1717 "peephole.ml" 36 1645 1720
+)
+"peephole.ml" 45 2207 2289 "peephole.ml" 45 2207 2297
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 45 2207 2304 "peephole.ml" 45 2207 2307
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref id2 "peephole.ml" 36 1645 1717 "peephole.ml" 36 1645 1720
+)
+"peephole.ml" 45 2207 2299 "peephole.ml" 45 2207 2307
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 45 2207 2260 "peephole.ml" 45 2207 2308
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"peephole.ml" 45 2207 2243 "peephole.ml" 45 2207 2309
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"peephole.ml" 45 2207 2242 "peephole.ml" 45 2207 2310
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 46 2311 2331 "peephole.ml" 46 2311 2336
+type(
+  int
+)
+ident(
+  int_ref count "peephole.ml" 42 2008 2046 "peephole.ml" 42 2008 2051
+)
+"peephole.ml" 46 2311 2337 "peephole.ml" 46 2311 2340
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"peephole.ml" 46 2311 2341 "peephole.ml" 46 2311 2342
+type(
+  int
+)
+"peephole.ml" 46 2311 2331 "peephole.ml" 46 2311 2342
+type(
+  int
+)
+"peephole.ml" 46 2311 2343 "peephole.ml" 46 2311 2344
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"peephole.ml" 46 2311 2345 "peephole.ml" 46 2311 2346
+type(
+  int
+)
+"peephole.ml" 46 2311 2331 "peephole.ml" 46 2311 2346
+type(
+  bool
+)
+"peephole.ml" 46 2311 2353 "peephole.ml" 46 2311 2370
+type(
+  Ir3mOOL_structs.id3 -> int -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref generate_addition "peephole.ml" 42 2008 2024 "peephole.ml" 42 2008 2041
+)
+"peephole.ml" 46 2311 2371 "peephole.ml" 46 2311 2374
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref var "peephole.ml" 42 2008 2042 "peephole.ml" 42 2008 2045
+)
+"peephole.ml" 46 2311 2377 "peephole.ml" 46 2311 2382
+type(
+  int
+)
+ident(
+  int_ref count "peephole.ml" 42 2008 2046 "peephole.ml" 42 2008 2051
+)
+"peephole.ml" 46 2311 2382 "peephole.ml" 46 2311 2383
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"peephole.ml" 46 2311 2383 "peephole.ml" 46 2311 2384
+type(
+  int
+)
+"peephole.ml" 46 2311 2376 "peephole.ml" 46 2311 2385
+type(
+  int
+)
+"peephole.ml" 46 2311 2385 "peephole.ml" 46 2311 2386
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"peephole.ml" 46 2311 2386 "peephole.ml" 46 2311 2387
+type(
+  int
+)
+"peephole.ml" 46 2311 2375 "peephole.ml" 46 2311 2388
+type(
+  int
+)
+"peephole.ml" 46 2311 2352 "peephole.ml" 46 2311 2389
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 46 2311 2389 "peephole.ml" 46 2311 2390
+type(
+  Ir3mOOL_structs.ir3_stmt list ->
+  Ir3mOOL_structs.ir3_stmt list -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"peephole.ml" 46 2311 2404 "peephole.ml" 46 2311 2407
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref var "peephole.ml" 42 2008 2042 "peephole.ml" 42 2008 2045
+)
+"peephole.ml" 46 2311 2433 "peephole.ml" 46 2311 2436
+type(
+  string
+)
+"peephole.ml" 46 2311 2421 "peephole.ml" 46 2311 2436
+type(
+  Ir3mOOL_structs.ir3_op
+)
+"peephole.ml" 46 2311 2443 "peephole.ml" 46 2311 2446
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref var "peephole.ml" 42 2008 2042 "peephole.ml" 42 2008 2045
+)
+"peephole.ml" 46 2311 2438 "peephole.ml" 46 2311 2446
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 46 2311 2453 "peephole.ml" 46 2311 2456
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref var "peephole.ml" 42 2008 2042 "peephole.ml" 42 2008 2045
+)
+"peephole.ml" 46 2311 2448 "peephole.ml" 46 2311 2456
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 46 2311 2409 "peephole.ml" 46 2311 2457
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"peephole.ml" 46 2311 2391 "peephole.ml" 46 2311 2458
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"peephole.ml" 46 2311 2472 "peephole.ml" 46 2311 2475
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref var "peephole.ml" 42 2008 2042 "peephole.ml" 42 2008 2045
+)
+"peephole.ml" 46 2311 2501 "peephole.ml" 46 2311 2504
+type(
+  string
+)
+"peephole.ml" 46 2311 2489 "peephole.ml" 46 2311 2504
+type(
+  Ir3mOOL_structs.ir3_op
+)
+"peephole.ml" 46 2311 2511 "peephole.ml" 46 2311 2514
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref var "peephole.ml" 42 2008 2042 "peephole.ml" 42 2008 2045
+)
+"peephole.ml" 46 2311 2506 "peephole.ml" 46 2311 2514
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 46 2311 2521 "peephole.ml" 46 2311 2524
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref id2 "peephole.ml" 36 1645 1717 "peephole.ml" 36 1645 1720
+)
+"peephole.ml" 46 2311 2516 "peephole.ml" 46 2311 2524
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 46 2311 2477 "peephole.ml" 46 2311 2525
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"peephole.ml" 46 2311 2459 "peephole.ml" 46 2311 2526
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"peephole.ml" 46 2311 2390 "peephole.ml" 46 2311 2527
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 46 2311 2352 "peephole.ml" 46 2311 2527
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 47 2528 2546 "peephole.ml" 47 2528 2563
+type(
+  Ir3mOOL_structs.id3 -> int -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref generate_addition "peephole.ml" 42 2008 2024 "peephole.ml" 42 2008 2041
+)
+"peephole.ml" 47 2528 2564 "peephole.ml" 47 2528 2567
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref var "peephole.ml" 42 2008 2042 "peephole.ml" 42 2008 2045
+)
+"peephole.ml" 47 2528 2569 "peephole.ml" 47 2528 2574
+type(
+  int
+)
+ident(
+  int_ref count "peephole.ml" 42 2008 2046 "peephole.ml" 42 2008 2051
+)
+"peephole.ml" 47 2528 2574 "peephole.ml" 47 2528 2575
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"peephole.ml" 47 2528 2575 "peephole.ml" 47 2528 2576
+type(
+  int
+)
+"peephole.ml" 47 2528 2568 "peephole.ml" 47 2528 2577
+type(
+  int
+)
+"peephole.ml" 47 2528 2545 "peephole.ml" 47 2528 2578
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 47 2528 2578 "peephole.ml" 47 2528 2579
+type(
+  Ir3mOOL_structs.ir3_stmt list ->
+  Ir3mOOL_structs.ir3_stmt list -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"peephole.ml" 47 2528 2593 "peephole.ml" 47 2528 2596
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref var "peephole.ml" 42 2008 2042 "peephole.ml" 42 2008 2045
+)
+"peephole.ml" 47 2528 2622 "peephole.ml" 47 2528 2625
+type(
+  string
+)
+"peephole.ml" 47 2528 2610 "peephole.ml" 47 2528 2625
+type(
+  Ir3mOOL_structs.ir3_op
+)
+"peephole.ml" 47 2528 2632 "peephole.ml" 47 2528 2635
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref var "peephole.ml" 42 2008 2042 "peephole.ml" 42 2008 2045
+)
+"peephole.ml" 47 2528 2627 "peephole.ml" 47 2528 2635
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 47 2528 2642 "peephole.ml" 47 2528 2645
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref var "peephole.ml" 42 2008 2042 "peephole.ml" 42 2008 2045
+)
+"peephole.ml" 47 2528 2637 "peephole.ml" 47 2528 2645
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 47 2528 2598 "peephole.ml" 47 2528 2646
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"peephole.ml" 47 2528 2580 "peephole.ml" 47 2528 2647
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"peephole.ml" 47 2528 2579 "peephole.ml" 47 2528 2648
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 47 2528 2545 "peephole.ml" 47 2528 2648
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 46 2311 2328 "peephole.ml" 47 2528 2648
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 45 2207 2224 "peephole.ml" 47 2528 2648
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 44 2132 2149 "peephole.ml" 47 2528 2648
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 43 2054 2066 "peephole.ml" 47 2528 2648
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 48 2649 2664 "peephole.ml" 48 2649 2665
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref v "peephole.ml" 36 1645 1664 "peephole.ml" 36 1645 1665
+)
+"peephole.ml" 48 2649 2666 "peephole.ml" 48 2649 2667
+type(
+  Ir3mOOL_structs.id3 -> Ir3mOOL_structs.id3 -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"peephole.ml" 48 2649 2668 "peephole.ml" 48 2649 2671
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref id2 "peephole.ml" 36 1645 1717 "peephole.ml" 36 1645 1720
+)
+"peephole.ml" 48 2649 2664 "peephole.ml" 48 2649 2671
+type(
+  bool
+)
+"peephole.ml" 49 2678 2698 "peephole.ml" 49 2678 2704
+type(
+  string
+)
+ident(
+  def new_id "peephole.ml" 50 2721 2737 "peephole.ml" 54 3090 3219
+)
+"peephole.ml" 49 2678 2707 "peephole.ml" 49 2678 2713
+type(
+  string
+)
+"peephole.ml" 49 2678 2713 "peephole.ml" 49 2678 2714
+type(
+  string -> Ir3mOOL_structs.id3 -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"peephole.ml" 49 2678 2714 "peephole.ml" 49 2678 2717
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref id2 "peephole.ml" 36 1645 1717 "peephole.ml" 36 1645 1720
+)
+"peephole.ml" 49 2678 2707 "peephole.ml" 49 2678 2717
+call(
+  stack
+)
+type(
+  string
+)
+"peephole.ml" 50 2721 2740 "peephole.ml" 50 2721 2743
+type(
+  int
+)
+ident(
+  int_ref id1 "peephole.ml" 36 1645 1707 "peephole.ml" 36 1645 1710
+)
+"peephole.ml" 50 2721 2744 "peephole.ml" 50 2721 2745
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"peephole.ml" 50 2721 2746 "peephole.ml" 50 2721 2747
+type(
+  int
+)
+"peephole.ml" 50 2721 2740 "peephole.ml" 50 2721 2747
+type(
+  bool
+)
+"peephole.ml" 50 2721 2768 "peephole.ml" 50 2721 2769
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref v "peephole.ml" 36 1645 1664 "peephole.ml" 36 1645 1665
+)
+"peephole.ml" 50 2721 2793 "peephole.ml" 50 2721 2794
+type(
+  int
+)
+"peephole.ml" 50 2721 2780 "peephole.ml" 50 2721 2795
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 50 2721 2771 "peephole.ml" 50 2721 2795
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"peephole.ml" 50 2721 2754 "peephole.ml" 50 2721 2797
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"peephole.ml" 50 2721 2753 "peephole.ml" 50 2721 2798
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 51 2799 2823 "peephole.ml" 51 2799 2826
+type(
+  int
+)
+ident(
+  int_ref id1 "peephole.ml" 36 1645 1707 "peephole.ml" 36 1645 1710
+)
+"peephole.ml" 51 2799 2827 "peephole.ml" 51 2799 2828
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"peephole.ml" 51 2799 2829 "peephole.ml" 51 2799 2830
+type(
+  int
+)
+"peephole.ml" 51 2799 2823 "peephole.ml" 51 2799 2830
+type(
+  bool
+)
+"peephole.ml" 51 2799 2836 "peephole.ml" 51 2799 2838
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 52 2839 2863 "peephole.ml" 52 2839 2866
+type(
+  int
+)
+ident(
+  int_ref id1 "peephole.ml" 36 1645 1707 "peephole.ml" 36 1645 1710
+)
+"peephole.ml" 52 2839 2867 "peephole.ml" 52 2839 2868
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"peephole.ml" 52 2839 2869 "peephole.ml" 52 2839 2870
+type(
+  int
+)
+"peephole.ml" 52 2839 2863 "peephole.ml" 52 2839 2870
+type(
+  bool
+)
+"peephole.ml" 52 2839 2889 "peephole.ml" 52 2839 2890
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref v "peephole.ml" 36 1645 1664 "peephole.ml" 36 1645 1665
+)
+"peephole.ml" 52 2839 2916 "peephole.ml" 52 2839 2919
+type(
+  string
+)
+"peephole.ml" 52 2839 2904 "peephole.ml" 52 2839 2919
+type(
+  Ir3mOOL_structs.ir3_op
+)
+"peephole.ml" 52 2839 2926 "peephole.ml" 52 2839 2929
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref id2 "peephole.ml" 36 1645 1717 "peephole.ml" 36 1645 1720
+)
+"peephole.ml" 52 2839 2921 "peephole.ml" 52 2839 2929
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 52 2839 2936 "peephole.ml" 52 2839 2939
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref id2 "peephole.ml" 36 1645 1717 "peephole.ml" 36 1645 1720
+)
+"peephole.ml" 52 2839 2931 "peephole.ml" 52 2839 2939
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 52 2839 2892 "peephole.ml" 52 2839 2940
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"peephole.ml" 52 2839 2877 "peephole.ml" 52 2839 2941
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"peephole.ml" 52 2839 2876 "peephole.ml" 52 2839 2942
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 53 2943 2967 "peephole.ml" 53 2943 2970
+type(
+  int
+)
+ident(
+  int_ref id1 "peephole.ml" 36 1645 1707 "peephole.ml" 36 1645 1710
+)
+"peephole.ml" 53 2943 2971 "peephole.ml" 53 2943 2974
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"peephole.ml" 53 2943 2975 "peephole.ml" 53 2943 2976
+type(
+  int
+)
+"peephole.ml" 53 2943 2967 "peephole.ml" 53 2943 2976
+type(
+  int
+)
+"peephole.ml" 53 2943 2977 "peephole.ml" 53 2943 2978
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"peephole.ml" 53 2943 2979 "peephole.ml" 53 2943 2980
+type(
+  int
+)
+"peephole.ml" 53 2943 2967 "peephole.ml" 53 2943 2980
+type(
+  bool
+)
+"peephole.ml" 53 2943 2987 "peephole.ml" 53 2943 3004
+type(
+  Ir3mOOL_structs.id3 -> int -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref generate_addition "peephole.ml" 42 2008 2024 "peephole.ml" 42 2008 2041
+)
+"peephole.ml" 53 2943 3005 "peephole.ml" 53 2943 3011
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref new_id "peephole.ml" 49 2678 2698 "peephole.ml" 49 2678 2704
+)
+"peephole.ml" 53 2943 3013 "peephole.ml" 53 2943 3016
+type(
+  int
+)
+ident(
+  int_ref id1 "peephole.ml" 36 1645 1707 "peephole.ml" 36 1645 1710
+)
+"peephole.ml" 53 2943 3016 "peephole.ml" 53 2943 3017
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"peephole.ml" 53 2943 3017 "peephole.ml" 53 2943 3018
+type(
+  int
+)
+"peephole.ml" 53 2943 3012 "peephole.ml" 53 2943 3019
+type(
+  int
+)
+"peephole.ml" 53 2943 2986 "peephole.ml" 53 2943 3020
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 53 2943 3020 "peephole.ml" 53 2943 3021
+type(
+  Ir3mOOL_structs.ir3_stmt list ->
+  Ir3mOOL_structs.ir3_stmt list -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"peephole.ml" 53 2943 3035 "peephole.ml" 53 2943 3036
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref v "peephole.ml" 36 1645 1664 "peephole.ml" 36 1645 1665
+)
+"peephole.ml" 53 2943 3062 "peephole.ml" 53 2943 3065
+type(
+  string
+)
+"peephole.ml" 53 2943 3050 "peephole.ml" 53 2943 3065
+type(
+  Ir3mOOL_structs.ir3_op
+)
+"peephole.ml" 53 2943 3072 "peephole.ml" 53 2943 3078
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref new_id "peephole.ml" 49 2678 2698 "peephole.ml" 49 2678 2704
+)
+"peephole.ml" 53 2943 3067 "peephole.ml" 53 2943 3078
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 53 2943 3085 "peephole.ml" 53 2943 3086
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref v "peephole.ml" 36 1645 1664 "peephole.ml" 36 1645 1665
+)
+"peephole.ml" 53 2943 3080 "peephole.ml" 53 2943 3086
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 53 2943 3038 "peephole.ml" 53 2943 3087
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"peephole.ml" 53 2943 3022 "peephole.ml" 53 2943 3088
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"peephole.ml" 53 2943 3021 "peephole.ml" 53 2943 3089
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 53 2943 2986 "peephole.ml" 53 2943 3089
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 54 3090 3112 "peephole.ml" 54 3090 3129
+type(
+  Ir3mOOL_structs.id3 -> int -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref generate_addition "peephole.ml" 42 2008 2024 "peephole.ml" 42 2008 2041
+)
+"peephole.ml" 54 3090 3130 "peephole.ml" 54 3090 3136
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref new_id "peephole.ml" 49 2678 2698 "peephole.ml" 49 2678 2704
+)
+"peephole.ml" 54 3090 3138 "peephole.ml" 54 3090 3141
+type(
+  int
+)
+ident(
+  int_ref id1 "peephole.ml" 36 1645 1707 "peephole.ml" 36 1645 1710
+)
+"peephole.ml" 54 3090 3141 "peephole.ml" 54 3090 3142
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"peephole.ml" 54 3090 3142 "peephole.ml" 54 3090 3143
+type(
+  int
+)
+"peephole.ml" 54 3090 3137 "peephole.ml" 54 3090 3144
+type(
+  int
+)
+"peephole.ml" 54 3090 3111 "peephole.ml" 54 3090 3145
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 54 3090 3145 "peephole.ml" 54 3090 3146
+type(
+  Ir3mOOL_structs.ir3_stmt list ->
+  Ir3mOOL_structs.ir3_stmt list -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"peephole.ml" 54 3090 3160 "peephole.ml" 54 3090 3161
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref v "peephole.ml" 36 1645 1664 "peephole.ml" 36 1645 1665
+)
+"peephole.ml" 54 3090 3187 "peephole.ml" 54 3090 3190
+type(
+  string
+)
+"peephole.ml" 54 3090 3175 "peephole.ml" 54 3090 3190
+type(
+  Ir3mOOL_structs.ir3_op
+)
+"peephole.ml" 54 3090 3197 "peephole.ml" 54 3090 3203
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref new_id "peephole.ml" 49 2678 2698 "peephole.ml" 49 2678 2704
+)
+"peephole.ml" 54 3090 3192 "peephole.ml" 54 3090 3203
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 54 3090 3210 "peephole.ml" 54 3090 3216
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref new_id "peephole.ml" 49 2678 2698 "peephole.ml" 49 2678 2704
+)
+"peephole.ml" 54 3090 3205 "peephole.ml" 54 3090 3216
+type(
+  Ir3mOOL_structs.idc3
+)
+"peephole.ml" 54 3090 3163 "peephole.ml" 54 3090 3217
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"peephole.ml" 54 3090 3147 "peephole.ml" 54 3090 3218
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"peephole.ml" 54 3090 3146 "peephole.ml" 54 3090 3219
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 54 3090 3111 "peephole.ml" 54 3090 3219
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 53 2943 2964 "peephole.ml" 54 3090 3219
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 52 2839 2860 "peephole.ml" 54 3090 3219
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 51 2799 2820 "peephole.ml" 54 3090 3219
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 50 2721 2737 "peephole.ml" 54 3090 3219
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 49 2678 2694 "peephole.ml" 54 3090 3219
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 55 3220 3233 "peephole.ml" 55 3220 3250
+type(
+  Ir3mOOL_structs.id3 -> int -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref generate_addition "peephole.ml" 42 2008 2024 "peephole.ml" 42 2008 2041
+)
+"peephole.ml" 55 3220 3251 "peephole.ml" 55 3220 3252
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref v "peephole.ml" 36 1645 1664 "peephole.ml" 36 1645 1665
+)
+"peephole.ml" 55 3220 3253 "peephole.ml" 55 3220 3256
+type(
+  int
+)
+ident(
+  int_ref id1 "peephole.ml" 36 1645 1707 "peephole.ml" 36 1645 1710
+)
+"peephole.ml" 55 3220 3233 "peephole.ml" 55 3220 3256
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 48 2649 2661 "peephole.ml" 55 3220 3256
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 42 2008 2016 "peephole.ml" 55 3220 3256
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 56 3257 3271 "peephole.ml" 56 3257 3275
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  int_ref stmt "peephole.ml" 10 179 200 "peephole.ml" 10 179 204
+)
+"peephole.ml" 56 3257 3270 "peephole.ml" 56 3257 3276
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 40 1943 1951 "peephole.ml" 56 3257 3276
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 57 3277 3283 "peephole.ml" 57 3277 3284
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"peephole.ml" 57 3277 3289 "peephole.ml" 57 3277 3293
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  int_ref stmt "peephole.ml" 10 179 200 "peephole.ml" 10 179 204
+)
+"peephole.ml" 57 3277 3288 "peephole.ml" 57 3277 3294
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 12 228 232 "peephole.ml" 57 3277 3294
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 58 3295 3310 "peephole.ml" 58 3295 3323
+type(
+  Ir3mOOL_structs.ir3_stmt list -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def process_stmts "peephole.ml" 58 3295 3302 "peephole.ml" 69 3611 3616
+)
+"peephole.ml" 58 3295 3324 "peephole.ml" 58 3295 3327
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def lst "peephole.ml" 59 3330 3336 "peephole.ml" 61 3368 3418
+)
+"peephole.ml" 59 3330 3342 "peephole.ml" 59 3330 3345
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref lst "peephole.ml" 58 3295 3324 "peephole.ml" 58 3295 3327
+)
+"peephole.ml" 60 3351 3359 "peephole.ml" 60 3351 3361
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 60 3351 3365 "peephole.ml" 60 3351 3367
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 61 3368 3376 "peephole.ml" 61 3368 3377
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  def h "peephole.ml" 61 3368 3384 "peephole.ml" 61 3368 3418
+)
+"peephole.ml" 61 3368 3379 "peephole.ml" 61 3368 3380
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def t "peephole.ml" 61 3368 3384 "peephole.ml" 61 3368 3418
+)
+"peephole.ml" 61 3368 3376 "peephole.ml" 61 3368 3380
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 61 3368 3385 "peephole.ml" 61 3368 3397
+type(
+  Ir3mOOL_structs.ir3_stmt -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref process_stmt "peephole.ml" 10 179 187 "peephole.ml" 10 179 199
+)
+"peephole.ml" 61 3368 3398 "peephole.ml" 61 3368 3399
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  int_ref h "peephole.ml" 61 3368 3376 "peephole.ml" 61 3368 3377
+)
+"peephole.ml" 61 3368 3384 "peephole.ml" 61 3368 3400
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 61 3368 3400 "peephole.ml" 61 3368 3401
+type(
+  Ir3mOOL_structs.ir3_stmt list ->
+  Ir3mOOL_structs.ir3_stmt list -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"peephole.ml" 61 3368 3402 "peephole.ml" 61 3368 3415
+type(
+  Ir3mOOL_structs.ir3_stmt list -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref process_stmts "peephole.ml" 58 3295 3310 "peephole.ml" 58 3295 3323
+)
+"peephole.ml" 61 3368 3416 "peephole.ml" 61 3368 3417
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref t "peephole.ml" 61 3368 3379 "peephole.ml" 61 3368 3380
+)
+"peephole.ml" 61 3368 3401 "peephole.ml" 61 3368 3418
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 61 3368 3384 "peephole.ml" 61 3368 3418
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 59 3330 3336 "peephole.ml" 61 3368 3418
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 62 3419 3430 "peephole.ml" 62 3419 3439
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def new_stmts "peephole.ml" 63 3472 3476 "peephole.ml" 69 3611 3616
+)
+"peephole.ml" 62 3419 3442 "peephole.ml" 62 3419 3455
+type(
+  Ir3mOOL_structs.ir3_stmt list -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref process_stmts "peephole.ml" 58 3295 3310 "peephole.ml" 58 3295 3323
+)
+"peephole.ml" 62 3419 3456 "peephole.ml" 62 3419 3459
+type(
+  Ir3mOOL_structs.md_decl3
+)
+ident(
+  int_ref mtd "peephole.ml" 9 156 173 "peephole.ml" 9 156 176
+)
+"peephole.ml" 62 3419 3456 "peephole.ml" 62 3419 3468
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 62 3419 3442 "peephole.ml" 62 3419 3468
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"peephole.ml" 64 3478 3488 "peephole.ml" 64 3478 3491
+type(
+  Ir3mOOL_structs.md_decl3
+)
+ident(
+  int_ref mtd "peephole.ml" 9 156 173 "peephole.ml" 9 156 176
+)
+"peephole.ml" 64 3478 3488 "peephole.ml" 64 3478 3495
+type(
+  Ir3mOOL_structs.id3
+)
+"peephole.ml" 65 3497 3512 "peephole.ml" 65 3497 3515
+type(
+  Ir3mOOL_structs.md_decl3
+)
+ident(
+  int_ref mtd "peephole.ml" 9 156 173 "peephole.ml" 9 156 176
+)
+"peephole.ml" 65 3497 3512 "peephole.ml" 65 3497 3524
+type(
+  Ir3mOOL_structs.ir3_type
+)
+"peephole.ml" 66 3526 3540 "peephole.ml" 66 3526 3543
+type(
+  Ir3mOOL_structs.md_decl3
+)
+ident(
+  int_ref mtd "peephole.ml" 9 156 173 "peephole.ml" 9 156 176
+)
+"peephole.ml" 66 3526 3540 "peephole.ml" 66 3526 3551
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"peephole.ml" 67 3553 3570 "peephole.ml" 67 3553 3573
+type(
+  Ir3mOOL_structs.md_decl3
+)
+ident(
+  int_ref mtd "peephole.ml" 9 156 173 "peephole.ml" 9 156 176
+)
+"peephole.ml" 67 3553 3570 "peephole.ml" 67 3553 3584
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"peephole.ml" 68 3586 3601 "peephole.ml" 68 3586 3610
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref new_stmts "peephole.ml" 62 3419 3430 "peephole.ml" 62 3419 3439
+)
+"peephole.ml" 63 3472 3476 "peephole.ml" 69 3611 3616
+type(
+  Ir3mOOL_structs.md_decl3
+)
+"peephole.ml" 62 3419 3426 "peephole.ml" 69 3611 3616
+type(
+  Ir3mOOL_structs.md_decl3
+)
+"peephole.ml" 58 3295 3302 "peephole.ml" 69 3611 3616
+type(
+  Ir3mOOL_structs.md_decl3
+)
+"peephole.ml" 10 179 183 "peephole.ml" 69 3611 3616
+type(
+  Ir3mOOL_structs.md_decl3
+)
+"peephole.ml" 71 3618 3622 "peephole.ml" 71 3618 3639
+type(
+  'a * Ir3mOOL_structs.md_decl3 * Ir3mOOL_structs.md_decl3 list ->
+  'a * Ir3mOOL_structs.md_decl3 * Ir3mOOL_structs.md_decl3 list
+)
+ident(
+  def peephole_optimize "peephole.ml" 75 3801 3835 "peephole.ml" 1 0 -1
+)
+"peephole.ml" 71 3618 3640 "peephole.ml" 71 3618 3647
+type(
+  'a * Ir3mOOL_structs.md_decl3 * Ir3mOOL_structs.md_decl3 list
+)
+ident(
+  def program "peephole.ml" 72 3650 3652 "peephole.ml" 75 3801 3835
+)
+"peephole.ml" 72 3650 3657 "peephole.ml" 72 3650 3667
+type(
+  'a
+)
+ident(
+  def cdata_list "peephole.ml" 73 3705 3707 "peephole.ml" 75 3801 3835
+)
+"peephole.ml" 72 3650 3669 "peephole.ml" 72 3650 3676
+type(
+  Ir3mOOL_structs.md_decl3
+)
+ident(
+  def ir3Main "peephole.ml" 73 3705 3707 "peephole.ml" 75 3801 3835
+)
+"peephole.ml" 72 3650 3678 "peephole.ml" 72 3650 3690
+type(
+  Ir3mOOL_structs.md_decl3 list
+)
+ident(
+  def ir3Mthd_list "peephole.ml" 73 3705 3707 "peephole.ml" 75 3801 3835
+)
+"peephole.ml" 72 3650 3656 "peephole.ml" 72 3650 3691
+type(
+  'a * Ir3mOOL_structs.md_decl3 * Ir3mOOL_structs.md_decl3 list
+)
+"peephole.ml" 72 3650 3694 "peephole.ml" 72 3650 3701
+type(
+  'a * Ir3mOOL_structs.md_decl3 * Ir3mOOL_structs.md_decl3 list
+)
+ident(
+  int_ref program "peephole.ml" 71 3618 3640 "peephole.ml" 71 3618 3647
+)
+"peephole.ml" 73 3705 3711 "peephole.ml" 73 3705 3719
+type(
+  Ir3mOOL_structs.md_decl3
+)
+ident(
+  def mainDecl "peephole.ml" 74 3746 3748 "peephole.ml" 75 3801 3835
+)
+"peephole.ml" 73 3705 3722 "peephole.ml" 73 3705 3734
+type(
+  Ir3mOOL_structs.md_decl3 -> Ir3mOOL_structs.md_decl3
+)
+ident(
+  int_ref peephole_mth "peephole.ml" 9 156 160 "peephole.ml" 9 156 172
+)
+"peephole.ml" 73 3705 3735 "peephole.ml" 73 3705 3742
+type(
+  Ir3mOOL_structs.md_decl3
+)
+ident(
+  int_ref ir3Main "peephole.ml" 72 3650 3669 "peephole.ml" 72 3650 3676
+)
+"peephole.ml" 73 3705 3722 "peephole.ml" 73 3705 3742
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.md_decl3
+)
+"peephole.ml" 74 3746 3752 "peephole.ml" 74 3746 3760
+type(
+  Ir3mOOL_structs.md_decl3 list
+)
+ident(
+  def mtdDecls "peephole.ml" 75 3801 3803 "peephole.ml" 75 3801 3835
+)
+"peephole.ml" 74 3746 3763 "peephole.ml" 74 3746 3771
+type(
+  (Ir3mOOL_structs.md_decl3 -> Ir3mOOL_structs.md_decl3) ->
+  Ir3mOOL_structs.md_decl3 list -> Ir3mOOL_structs.md_decl3 list
+)
+ident(
+  ext_ref List.map
+)
+"peephole.ml" 74 3746 3772 "peephole.ml" 74 3746 3784
+type(
+  Ir3mOOL_structs.md_decl3 -> Ir3mOOL_structs.md_decl3
+)
+ident(
+  int_ref peephole_mth "peephole.ml" 9 156 160 "peephole.ml" 9 156 172
+)
+"peephole.ml" 74 3746 3785 "peephole.ml" 74 3746 3797
+type(
+  Ir3mOOL_structs.md_decl3 list
+)
+ident(
+  int_ref ir3Mthd_list "peephole.ml" 72 3650 3678 "peephole.ml" 72 3650 3690
+)
+"peephole.ml" 74 3746 3763 "peephole.ml" 74 3746 3797
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.md_decl3 list
+)
+"peephole.ml" 75 3801 3804 "peephole.ml" 75 3801 3814
+type(
+  'a
+)
+ident(
+  int_ref cdata_list "peephole.ml" 72 3650 3657 "peephole.ml" 72 3650 3667
+)
+"peephole.ml" 75 3801 3816 "peephole.ml" 75 3801 3824
+type(
+  Ir3mOOL_structs.md_decl3
+)
+ident(
+  int_ref mainDecl "peephole.ml" 73 3705 3711 "peephole.ml" 73 3705 3719
+)
+"peephole.ml" 75 3801 3826 "peephole.ml" 75 3801 3834
+type(
+  Ir3mOOL_structs.md_decl3 list
+)
+ident(
+  int_ref mtdDecls "peephole.ml" 74 3746 3752 "peephole.ml" 74 3746 3760
+)
+"peephole.ml" 75 3801 3803 "peephole.ml" 75 3801 3835
+type(
+  'a * Ir3mOOL_structs.md_decl3 * Ir3mOOL_structs.md_decl3 list
+)
+"peephole.ml" 74 3746 3748 "peephole.ml" 75 3801 3835
+type(
+  'a * Ir3mOOL_structs.md_decl3 * Ir3mOOL_structs.md_decl3 list
+)
+"peephole.ml" 73 3705 3707 "peephole.ml" 75 3801 3835
+type(
+  'a * Ir3mOOL_structs.md_decl3 * Ir3mOOL_structs.md_decl3 list
+)
+"peephole.ml" 72 3650 3652 "peephole.ml" 75 3801 3835
+type(
+  'a * Ir3mOOL_structs.md_decl3 * Ir3mOOL_structs.md_decl3 list
+)

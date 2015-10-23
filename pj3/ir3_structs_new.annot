@@ -1,0 +1,6881 @@
+"ir3_structs_new.ml" 93 2853 2857 "ir3_structs_new.ml" 93 2853 2871
+type(
+  Ir3mOOL_structs.id3 -> id3_new
+)
+ident(
+  def id3_to_id3_new "ir3_structs_new.ml" 97 2920 2920 "ir3_structs_new.ml" 1 0 -1
+)
+"ir3_structs_new.ml" 94 2873 2875 "ir3_structs_new.ml" 94 2873 2880
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  def input "ir3_structs_new.ml" 94 2873 2885 "ir3_structs_new.ml" 95 2895 2918
+)
+"ir3_structs_new.ml" 95 2895 2897 "ir3_structs_new.ml" 95 2895 2902
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref input "ir3_structs_new.ml" 94 2873 2875 "ir3_structs_new.ml" 94 2873 2880
+)
+"ir3_structs_new.ml" 95 2895 2907 "ir3_structs_new.ml" 95 2895 2917
+type(
+  string
+)
+"ir3_structs_new.ml" 95 2895 2903 "ir3_structs_new.ml" 95 2895 2917
+type(
+  reg_or_mem
+)
+"ir3_structs_new.ml" 95 2895 2896 "ir3_structs_new.ml" 95 2895 2918
+type(
+  id3_new
+)
+type(
+  id3_new
+)
+"ir3_structs_new.ml" 97 2920 2924 "ir3_structs_new.ml" 97 2920 2940
+type(
+  Ir3mOOL_structs.idc3 -> idc3_new
+)
+ident(
+  def idc3_to_idc3_new "ir3_structs_new.ml" 105 3156 3156 "ir3_structs_new.ml" 1 0 -1
+)
+"ir3_structs_new.ml" 98 2941 2943 "ir3_structs_new.ml" 98 2941 2948
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  def input "ir3_structs_new.ml" 98 2941 2954 "ir3_structs_new.ml" 103 3112 3154
+)
+"ir3_structs_new.ml" 99 2968 2975 "ir3_structs_new.ml" 99 2968 2980
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  int_ref input "ir3_structs_new.ml" 98 2941 2943 "ir3_structs_new.ml" 98 2941 2948
+)
+"ir3_structs_new.ml" 100 2986 3001 "ir3_structs_new.ml" 100 2986 3002
+type(
+  int
+)
+ident(
+  def i "ir3_structs_new.ml" 100 2986 3006 "ir3_structs_new.ml" 100 2986 3023
+)
+"ir3_structs_new.ml" 100 2986 2989 "ir3_structs_new.ml" 100 2986 3002
+type(
+  Ir3mOOL_structs.idc3
+)
+"ir3_structs_new.ml" 100 2986 3022 "ir3_structs_new.ml" 100 2986 3023
+type(
+  int
+)
+ident(
+  int_ref i "ir3_structs_new.ml" 100 2986 3001 "ir3_structs_new.ml" 100 2986 3002
+)
+"ir3_structs_new.ml" 100 2986 3006 "ir3_structs_new.ml" 100 2986 3023
+type(
+  idc3_new
+)
+"ir3_structs_new.ml" 101 3024 3042 "ir3_structs_new.ml" 101 3024 3043
+type(
+  bool
+)
+ident(
+  def b "ir3_structs_new.ml" 101 3024 3047 "ir3_structs_new.ml" 101 3024 3065
+)
+"ir3_structs_new.ml" 101 3024 3029 "ir3_structs_new.ml" 101 3024 3043
+type(
+  Ir3mOOL_structs.idc3
+)
+"ir3_structs_new.ml" 101 3024 3064 "ir3_structs_new.ml" 101 3024 3065
+type(
+  bool
+)
+ident(
+  int_ref b "ir3_structs_new.ml" 101 3024 3042 "ir3_structs_new.ml" 101 3024 3043
+)
+"ir3_structs_new.ml" 101 3024 3047 "ir3_structs_new.ml" 101 3024 3065
+type(
+  idc3_new
+)
+"ir3_structs_new.ml" 102 3066 3086 "ir3_structs_new.ml" 102 3066 3087
+type(
+  string
+)
+ident(
+  def s "ir3_structs_new.ml" 102 3066 3091 "ir3_structs_new.ml" 102 3066 3111
+)
+"ir3_structs_new.ml" 102 3066 3071 "ir3_structs_new.ml" 102 3066 3087
+type(
+  Ir3mOOL_structs.idc3
+)
+"ir3_structs_new.ml" 102 3066 3110 "ir3_structs_new.ml" 102 3066 3111
+type(
+  string
+)
+ident(
+  int_ref s "ir3_structs_new.ml" 102 3066 3086 "ir3_structs_new.ml" 102 3066 3087
+)
+"ir3_structs_new.ml" 102 3066 3091 "ir3_structs_new.ml" 102 3066 3111
+type(
+  idc3_new
+)
+"ir3_structs_new.ml" 103 3112 3122 "ir3_structs_new.ml" 103 3112 3123
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  def v "ir3_structs_new.ml" 103 3112 3127 "ir3_structs_new.ml" 103 3112 3154
+)
+"ir3_structs_new.ml" 103 3112 3117 "ir3_structs_new.ml" 103 3112 3123
+type(
+  Ir3mOOL_structs.idc3
+)
+"ir3_structs_new.ml" 103 3112 3137 "ir3_structs_new.ml" 103 3112 3151
+type(
+  Ir3mOOL_structs.id3 -> id3_new
+)
+ident(
+  int_ref id3_to_id3_new "ir3_structs_new.ml" 93 2853 2857 "ir3_structs_new.ml" 93 2853 2871
+)
+"ir3_structs_new.ml" 103 3112 3152 "ir3_structs_new.ml" 103 3112 3153
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref v "ir3_structs_new.ml" 103 3112 3122 "ir3_structs_new.ml" 103 3112 3123
+)
+"ir3_structs_new.ml" 103 3112 3136 "ir3_structs_new.ml" 103 3112 3154
+call(
+  stack
+)
+type(
+  id3_new
+)
+"ir3_structs_new.ml" 103 3112 3127 "ir3_structs_new.ml" 103 3112 3154
+type(
+  idc3_new
+)
+"ir3_structs_new.ml" 99 2968 2969 "ir3_structs_new.ml" 103 3112 3154
+type(
+  idc3_new
+)
+type(
+  idc3_new
+)
+"ir3_structs_new.ml" 105 3156 3160 "ir3_structs_new.ml" 105 3156 3182
+type(
+  Ir3mOOL_structs.ir3_exp -> ir3_exp_new
+)
+ident(
+  def ir3_exp_to_ir3_new_exp "ir3_structs_new.ml" 115 3659 3659 "ir3_structs_new.ml" 1 0 -1
+)
+"ir3_structs_new.ml" 106 3183 3185 "ir3_structs_new.ml" 106 3183 3190
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def input "ir3_structs_new.ml" 106 3183 3199 "ir3_structs_new.ml" 113 3614 3657
+)
+"ir3_structs_new.ml" 107 3213 3220 "ir3_structs_new.ml" 107 3213 3225
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref input "ir3_structs_new.ml" 106 3183 3185 "ir3_structs_new.ml" 106 3183 3190
+)
+"ir3_structs_new.ml" 108 3231 3246 "ir3_structs_new.ml" 108 3231 3247
+type(
+  Ir3mOOL_structs.ir3_op
+)
+ident(
+  def o "ir3_structs_new.ml" 108 3231 3257 "ir3_structs_new.ml" 108 3231 3315
+)
+"ir3_structs_new.ml" 108 3231 3248 "ir3_structs_new.ml" 108 3231 3250
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  def i1 "ir3_structs_new.ml" 108 3231 3257 "ir3_structs_new.ml" 108 3231 3315
+)
+"ir3_structs_new.ml" 108 3231 3251 "ir3_structs_new.ml" 108 3231 3253
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  def i2 "ir3_structs_new.ml" 108 3231 3257 "ir3_structs_new.ml" 108 3231 3315
+)
+"ir3_structs_new.ml" 108 3231 3234 "ir3_structs_new.ml" 108 3231 3254
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"ir3_structs_new.ml" 108 3231 3273 "ir3_structs_new.ml" 108 3231 3274
+type(
+  Ir3mOOL_structs.ir3_op
+)
+ident(
+  int_ref o "ir3_structs_new.ml" 108 3231 3246 "ir3_structs_new.ml" 108 3231 3247
+)
+"ir3_structs_new.ml" 108 3231 3275 "ir3_structs_new.ml" 108 3231 3291
+type(
+  Ir3mOOL_structs.idc3 -> idc3_new
+)
+ident(
+  int_ref idc3_to_idc3_new "ir3_structs_new.ml" 97 2920 2924 "ir3_structs_new.ml" 97 2920 2940
+)
+"ir3_structs_new.ml" 108 3231 3292 "ir3_structs_new.ml" 108 3231 3294
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  int_ref i1 "ir3_structs_new.ml" 108 3231 3248 "ir3_structs_new.ml" 108 3231 3250
+)
+"ir3_structs_new.ml" 108 3231 3275 "ir3_structs_new.ml" 108 3231 3294
+call(
+  stack
+)
+type(
+  idc3_new
+)
+"ir3_structs_new.ml" 108 3231 3295 "ir3_structs_new.ml" 108 3231 3311
+type(
+  Ir3mOOL_structs.idc3 -> idc3_new
+)
+ident(
+  int_ref idc3_to_idc3_new "ir3_structs_new.ml" 97 2920 2924 "ir3_structs_new.ml" 97 2920 2940
+)
+"ir3_structs_new.ml" 108 3231 3312 "ir3_structs_new.ml" 108 3231 3314
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  int_ref i2 "ir3_structs_new.ml" 108 3231 3251 "ir3_structs_new.ml" 108 3231 3253
+)
+"ir3_structs_new.ml" 108 3231 3295 "ir3_structs_new.ml" 108 3231 3314
+call(
+  stack
+)
+type(
+  idc3_new
+)
+"ir3_structs_new.ml" 108 3231 3257 "ir3_structs_new.ml" 108 3231 3315
+type(
+  ir3_exp_new
+)
+"ir3_structs_new.ml" 109 3316 3332 "ir3_structs_new.ml" 109 3316 3333
+type(
+  Ir3mOOL_structs.ir3_op
+)
+ident(
+  def o "ir3_structs_new.ml" 109 3316 3340 "ir3_structs_new.ml" 109 3316 3376
+)
+"ir3_structs_new.ml" 109 3316 3334 "ir3_structs_new.ml" 109 3316 3335
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  def i "ir3_structs_new.ml" 109 3316 3340 "ir3_structs_new.ml" 109 3316 3376
+)
+"ir3_structs_new.ml" 109 3316 3321 "ir3_structs_new.ml" 109 3316 3336
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"ir3_structs_new.ml" 109 3316 3355 "ir3_structs_new.ml" 109 3316 3356
+type(
+  Ir3mOOL_structs.ir3_op
+)
+ident(
+  int_ref o "ir3_structs_new.ml" 109 3316 3332 "ir3_structs_new.ml" 109 3316 3333
+)
+"ir3_structs_new.ml" 109 3316 3357 "ir3_structs_new.ml" 109 3316 3373
+type(
+  Ir3mOOL_structs.idc3 -> idc3_new
+)
+ident(
+  int_ref idc3_to_idc3_new "ir3_structs_new.ml" 97 2920 2924 "ir3_structs_new.ml" 97 2920 2940
+)
+"ir3_structs_new.ml" 109 3316 3374 "ir3_structs_new.ml" 109 3316 3375
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  int_ref i "ir3_structs_new.ml" 109 3316 3334 "ir3_structs_new.ml" 109 3316 3335
+)
+"ir3_structs_new.ml" 109 3316 3357 "ir3_structs_new.ml" 109 3316 3375
+call(
+  stack
+)
+type(
+  idc3_new
+)
+"ir3_structs_new.ml" 109 3316 3340 "ir3_structs_new.ml" 109 3316 3376
+type(
+  ir3_exp_new
+)
+"ir3_structs_new.ml" 110 3377 3395 "ir3_structs_new.ml" 110 3377 3397
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  def i1 "ir3_structs_new.ml" 110 3377 3406 "ir3_structs_new.ml" 110 3377 3460
+)
+"ir3_structs_new.ml" 110 3377 3398 "ir3_structs_new.ml" 110 3377 3400
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  def i2 "ir3_structs_new.ml" 110 3377 3406 "ir3_structs_new.ml" 110 3377 3460
+)
+"ir3_structs_new.ml" 110 3377 3381 "ir3_structs_new.ml" 110 3377 3401
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"ir3_structs_new.ml" 110 3377 3424 "ir3_structs_new.ml" 110 3377 3438
+type(
+  Ir3mOOL_structs.id3 -> id3_new
+)
+ident(
+  int_ref id3_to_id3_new "ir3_structs_new.ml" 93 2853 2857 "ir3_structs_new.ml" 93 2853 2871
+)
+"ir3_structs_new.ml" 110 3377 3439 "ir3_structs_new.ml" 110 3377 3441
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref i1 "ir3_structs_new.ml" 110 3377 3395 "ir3_structs_new.ml" 110 3377 3397
+)
+"ir3_structs_new.ml" 110 3377 3424 "ir3_structs_new.ml" 110 3377 3441
+call(
+  stack
+)
+type(
+  id3_new
+)
+"ir3_structs_new.ml" 110 3377 3442 "ir3_structs_new.ml" 110 3377 3456
+type(
+  Ir3mOOL_structs.id3 -> id3_new
+)
+ident(
+  int_ref id3_to_id3_new "ir3_structs_new.ml" 93 2853 2857 "ir3_structs_new.ml" 93 2853 2871
+)
+"ir3_structs_new.ml" 110 3377 3457 "ir3_structs_new.ml" 110 3377 3459
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref i2 "ir3_structs_new.ml" 110 3377 3398 "ir3_structs_new.ml" 110 3377 3400
+)
+"ir3_structs_new.ml" 110 3377 3442 "ir3_structs_new.ml" 110 3377 3459
+call(
+  stack
+)
+type(
+  id3_new
+)
+"ir3_structs_new.ml" 110 3377 3406 "ir3_structs_new.ml" 110 3377 3460
+type(
+  ir3_exp_new
+)
+"ir3_structs_new.ml" 111 3461 3475 "ir3_structs_new.ml" 111 3461 3476
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  def i "ir3_structs_new.ml" 111 3461 3480 "ir3_structs_new.ml" 111 3461 3513
+)
+"ir3_structs_new.ml" 111 3461 3466 "ir3_structs_new.ml" 111 3461 3476
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"ir3_structs_new.ml" 111 3461 3494 "ir3_structs_new.ml" 111 3461 3510
+type(
+  Ir3mOOL_structs.idc3 -> idc3_new
+)
+ident(
+  int_ref idc3_to_idc3_new "ir3_structs_new.ml" 97 2920 2924 "ir3_structs_new.ml" 97 2920 2940
+)
+"ir3_structs_new.ml" 111 3461 3511 "ir3_structs_new.ml" 111 3461 3512
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  int_ref i "ir3_structs_new.ml" 111 3461 3475 "ir3_structs_new.ml" 111 3461 3476
+)
+"ir3_structs_new.ml" 111 3461 3493 "ir3_structs_new.ml" 111 3461 3513
+call(
+  stack
+)
+type(
+  idc3_new
+)
+"ir3_structs_new.ml" 111 3461 3480 "ir3_structs_new.ml" 111 3461 3513
+type(
+  ir3_exp_new
+)
+"ir3_structs_new.ml" 112 3514 3528 "ir3_structs_new.ml" 112 3514 3529
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  def i "ir3_structs_new.ml" 112 3514 3539 "ir3_structs_new.ml" 112 3514 3613
+)
+"ir3_structs_new.ml" 112 3514 3530 "ir3_structs_new.ml" 112 3514 3534
+type(
+  Ir3mOOL_structs.idc3 list
+)
+ident(
+  def ilst "ir3_structs_new.ml" 112 3514 3539 "ir3_structs_new.ml" 112 3514 3613
+)
+"ir3_structs_new.ml" 112 3514 3519 "ir3_structs_new.ml" 112 3514 3535
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"ir3_structs_new.ml" 112 3514 3552 "ir3_structs_new.ml" 112 3514 3566
+type(
+  Ir3mOOL_structs.id3 -> id3_new
+)
+ident(
+  int_ref id3_to_id3_new "ir3_structs_new.ml" 93 2853 2857 "ir3_structs_new.ml" 93 2853 2871
+)
+"ir3_structs_new.ml" 112 3514 3567 "ir3_structs_new.ml" 112 3514 3568
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref i "ir3_structs_new.ml" 112 3514 3528 "ir3_structs_new.ml" 112 3514 3529
+)
+"ir3_structs_new.ml" 112 3514 3552 "ir3_structs_new.ml" 112 3514 3568
+call(
+  stack
+)
+type(
+  id3_new
+)
+"ir3_structs_new.ml" 112 3514 3569 "ir3_structs_new.ml" 112 3514 3577
+type(
+  (Ir3mOOL_structs.idc3 -> idc3_new) ->
+  Ir3mOOL_structs.idc3 list -> idc3_new list
+)
+ident(
+  ext_ref List.map
+)
+"ir3_structs_new.ml" 112 3514 3583 "ir3_structs_new.ml" 112 3514 3584
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  def i "ir3_structs_new.ml" 112 3514 3588 "ir3_structs_new.ml" 112 3514 3606
+)
+"ir3_structs_new.ml" 112 3514 3588 "ir3_structs_new.ml" 112 3514 3604
+type(
+  Ir3mOOL_structs.idc3 -> idc3_new
+)
+ident(
+  int_ref idc3_to_idc3_new "ir3_structs_new.ml" 97 2920 2924 "ir3_structs_new.ml" 97 2920 2940
+)
+"ir3_structs_new.ml" 112 3514 3605 "ir3_structs_new.ml" 112 3514 3606
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  int_ref i "ir3_structs_new.ml" 112 3514 3583 "ir3_structs_new.ml" 112 3514 3584
+)
+"ir3_structs_new.ml" 112 3514 3588 "ir3_structs_new.ml" 112 3514 3606
+call(
+  tail
+)
+type(
+  idc3_new
+)
+"ir3_structs_new.ml" 112 3514 3578 "ir3_structs_new.ml" 112 3514 3607
+type(
+  Ir3mOOL_structs.idc3 -> idc3_new
+)
+"ir3_structs_new.ml" 112 3514 3608 "ir3_structs_new.ml" 112 3514 3612
+type(
+  Ir3mOOL_structs.idc3 list
+)
+ident(
+  int_ref ilst "ir3_structs_new.ml" 112 3514 3530 "ir3_structs_new.ml" 112 3514 3534
+)
+"ir3_structs_new.ml" 112 3514 3569 "ir3_structs_new.ml" 112 3514 3612
+call(
+  stack
+)
+type(
+  idc3_new list
+)
+"ir3_structs_new.ml" 112 3514 3539 "ir3_structs_new.ml" 112 3514 3613
+type(
+  ir3_exp_new
+)
+"ir3_structs_new.ml" 113 3614 3633 "ir3_structs_new.ml" 113 3614 3634
+type(
+  string
+)
+ident(
+  def s "ir3_structs_new.ml" 113 3614 3638 "ir3_structs_new.ml" 113 3614 3657
+)
+"ir3_structs_new.ml" 113 3614 3619 "ir3_structs_new.ml" 113 3614 3634
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"ir3_structs_new.ml" 113 3614 3656 "ir3_structs_new.ml" 113 3614 3657
+type(
+  string
+)
+ident(
+  int_ref s "ir3_structs_new.ml" 113 3614 3633 "ir3_structs_new.ml" 113 3614 3634
+)
+"ir3_structs_new.ml" 113 3614 3638 "ir3_structs_new.ml" 113 3614 3657
+type(
+  ir3_exp_new
+)
+"ir3_structs_new.ml" 107 3213 3214 "ir3_structs_new.ml" 113 3614 3657
+type(
+  ir3_exp_new
+)
+type(
+  ir3_exp_new
+)
+"ir3_structs_new.ml" 115 3659 3663 "ir3_structs_new.ml" 115 3659 3687
+type(
+  Ir3mOOL_structs.ir3_stmt -> ir3_stmt_new
+)
+ident(
+  def ir3_stmt_to_ir3_stmt_new "ir3_structs_new.ml" 130 4408 4408 "ir3_structs_new.ml" 1 0 -1
+)
+"ir3_structs_new.ml" 116 3688 3690 "ir3_structs_new.ml" 116 3688 3695
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  def input "ir3_structs_new.ml" 116 3688 3705 "ir3_structs_new.ml" 128 4365 4406
+)
+"ir3_structs_new.ml" 117 3720 3727 "ir3_structs_new.ml" 117 3720 3732
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  int_ref input "ir3_structs_new.ml" 116 3688 3690 "ir3_structs_new.ml" 116 3688 3695
+)
+"ir3_structs_new.ml" 118 3738 3748 "ir3_structs_new.ml" 118 3738 3749
+type(
+  Ir3mOOL_structs.label3
+)
+ident(
+  def l "ir3_structs_new.ml" 118 3738 3753 "ir3_structs_new.ml" 118 3738 3765
+)
+"ir3_structs_new.ml" 118 3738 3741 "ir3_structs_new.ml" 118 3738 3749
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"ir3_structs_new.ml" 118 3738 3764 "ir3_structs_new.ml" 118 3738 3765
+type(
+  Ir3mOOL_structs.label3
+)
+ident(
+  int_ref l "ir3_structs_new.ml" 118 3738 3748 "ir3_structs_new.ml" 118 3738 3749
+)
+"ir3_structs_new.ml" 118 3738 3753 "ir3_structs_new.ml" 118 3738 3765
+type(
+  ir3_stmt_new
+)
+"ir3_structs_new.ml" 119 3766 3778 "ir3_structs_new.ml" 119 3766 3779
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def e "ir3_structs_new.ml" 119 3766 3786 "ir3_structs_new.ml" 119 3766 3826
+)
+"ir3_structs_new.ml" 119 3766 3780 "ir3_structs_new.ml" 119 3766 3781
+type(
+  Ir3mOOL_structs.label3
+)
+ident(
+  def l "ir3_structs_new.ml" 119 3766 3786 "ir3_structs_new.ml" 119 3766 3826
+)
+"ir3_structs_new.ml" 119 3766 3769 "ir3_structs_new.ml" 119 3766 3782
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"ir3_structs_new.ml" 119 3766 3799 "ir3_structs_new.ml" 119 3766 3821
+type(
+  Ir3mOOL_structs.ir3_exp -> ir3_exp_new
+)
+ident(
+  int_ref ir3_exp_to_ir3_new_exp "ir3_structs_new.ml" 105 3156 3160 "ir3_structs_new.ml" 105 3156 3182
+)
+"ir3_structs_new.ml" 119 3766 3822 "ir3_structs_new.ml" 119 3766 3823
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref e "ir3_structs_new.ml" 119 3766 3778 "ir3_structs_new.ml" 119 3766 3779
+)
+"ir3_structs_new.ml" 119 3766 3799 "ir3_structs_new.ml" 119 3766 3823
+call(
+  stack
+)
+type(
+  ir3_exp_new
+)
+"ir3_structs_new.ml" 119 3766 3824 "ir3_structs_new.ml" 119 3766 3825
+type(
+  Ir3mOOL_structs.label3
+)
+ident(
+  int_ref l "ir3_structs_new.ml" 119 3766 3780 "ir3_structs_new.ml" 119 3766 3781
+)
+"ir3_structs_new.ml" 119 3766 3786 "ir3_structs_new.ml" 119 3766 3826
+type(
+  ir3_stmt_new
+)
+"ir3_structs_new.ml" 120 3828 3837 "ir3_structs_new.ml" 120 3828 3838
+type(
+  Ir3mOOL_structs.label3
+)
+ident(
+  def l "ir3_structs_new.ml" 120 3828 3842 "ir3_structs_new.ml" 120 3828 3853
+)
+"ir3_structs_new.ml" 120 3828 3831 "ir3_structs_new.ml" 120 3828 3838
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"ir3_structs_new.ml" 120 3828 3852 "ir3_structs_new.ml" 120 3828 3853
+type(
+  Ir3mOOL_structs.label3
+)
+ident(
+  int_ref l "ir3_structs_new.ml" 120 3828 3837 "ir3_structs_new.ml" 120 3828 3838
+)
+"ir3_structs_new.ml" 120 3828 3842 "ir3_structs_new.ml" 120 3828 3853
+type(
+  ir3_stmt_new
+)
+"ir3_structs_new.ml" 121 3855 3868 "ir3_structs_new.ml" 121 3855 3869
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  def i "ir3_structs_new.ml" 121 3855 3873 "ir3_structs_new.ml" 121 3855 3905
+)
+"ir3_structs_new.ml" 121 3855 3858 "ir3_structs_new.ml" 121 3855 3869
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"ir3_structs_new.ml" 121 3855 3888 "ir3_structs_new.ml" 121 3855 3902
+type(
+  Ir3mOOL_structs.id3 -> id3_new
+)
+ident(
+  int_ref id3_to_id3_new "ir3_structs_new.ml" 93 2853 2857 "ir3_structs_new.ml" 93 2853 2871
+)
+"ir3_structs_new.ml" 121 3855 3903 "ir3_structs_new.ml" 121 3855 3904
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref i "ir3_structs_new.ml" 121 3855 3868 "ir3_structs_new.ml" 121 3855 3869
+)
+"ir3_structs_new.ml" 121 3855 3887 "ir3_structs_new.ml" 121 3855 3905
+call(
+  stack
+)
+type(
+  id3_new
+)
+"ir3_structs_new.ml" 121 3855 3873 "ir3_structs_new.ml" 121 3855 3905
+type(
+  ir3_stmt_new
+)
+"ir3_structs_new.ml" 122 3906 3920 "ir3_structs_new.ml" 122 3906 3921
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  def i "ir3_structs_new.ml" 122 3906 3925 "ir3_structs_new.ml" 122 3906 3960
+)
+"ir3_structs_new.ml" 122 3906 3909 "ir3_structs_new.ml" 122 3906 3921
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"ir3_structs_new.ml" 122 3906 3941 "ir3_structs_new.ml" 122 3906 3957
+type(
+  Ir3mOOL_structs.idc3 -> idc3_new
+)
+ident(
+  int_ref idc3_to_idc3_new "ir3_structs_new.ml" 97 2920 2924 "ir3_structs_new.ml" 97 2920 2940
+)
+"ir3_structs_new.ml" 122 3906 3958 "ir3_structs_new.ml" 122 3906 3959
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  int_ref i "ir3_structs_new.ml" 122 3906 3920 "ir3_structs_new.ml" 122 3906 3921
+)
+"ir3_structs_new.ml" 122 3906 3940 "ir3_structs_new.ml" 122 3906 3960
+call(
+  stack
+)
+type(
+  idc3_new
+)
+"ir3_structs_new.ml" 122 3906 3925 "ir3_structs_new.ml" 122 3906 3960
+type(
+  ir3_stmt_new
+)
+"ir3_structs_new.ml" 123 3961 3977 "ir3_structs_new.ml" 123 3961 3978
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  def i "ir3_structs_new.ml" 123 3961 3985 "ir3_structs_new.ml" 123 3961 4044
+)
+"ir3_structs_new.ml" 123 3961 3979 "ir3_structs_new.ml" 123 3961 3980
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def e "ir3_structs_new.ml" 123 3961 3985 "ir3_structs_new.ml" 123 3961 4044
+)
+"ir3_structs_new.ml" 123 3961 3964 "ir3_structs_new.ml" 123 3961 3981
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"ir3_structs_new.ml" 123 3961 4002 "ir3_structs_new.ml" 123 3961 4016
+type(
+  Ir3mOOL_structs.id3 -> id3_new
+)
+ident(
+  int_ref id3_to_id3_new "ir3_structs_new.ml" 93 2853 2857 "ir3_structs_new.ml" 93 2853 2871
+)
+"ir3_structs_new.ml" 123 3961 4017 "ir3_structs_new.ml" 123 3961 4018
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref i "ir3_structs_new.ml" 123 3961 3977 "ir3_structs_new.ml" 123 3961 3978
+)
+"ir3_structs_new.ml" 123 3961 4002 "ir3_structs_new.ml" 123 3961 4018
+call(
+  stack
+)
+type(
+  id3_new
+)
+"ir3_structs_new.ml" 123 3961 4019 "ir3_structs_new.ml" 123 3961 4041
+type(
+  Ir3mOOL_structs.ir3_exp -> ir3_exp_new
+)
+ident(
+  int_ref ir3_exp_to_ir3_new_exp "ir3_structs_new.ml" 105 3156 3160 "ir3_structs_new.ml" 105 3156 3182
+)
+"ir3_structs_new.ml" 123 3961 4042 "ir3_structs_new.ml" 123 3961 4043
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref e "ir3_structs_new.ml" 123 3961 3979 "ir3_structs_new.ml" 123 3961 3980
+)
+"ir3_structs_new.ml" 123 3961 4019 "ir3_structs_new.ml" 123 3961 4043
+call(
+  stack
+)
+type(
+  ir3_exp_new
+)
+"ir3_structs_new.ml" 123 3961 3985 "ir3_structs_new.ml" 123 3961 4044
+type(
+  ir3_stmt_new
+)
+"ir3_structs_new.ml" 124 4045 4065 "ir3_structs_new.ml" 124 4045 4066
+type(
+  Ir3mOOL_structs.ir3_type
+)
+ident(
+  def t "ir3_structs_new.ml" 124 4045 4075 "ir3_structs_new.ml" 124 4045 4140
+)
+"ir3_structs_new.ml" 124 4045 4067 "ir3_structs_new.ml" 124 4045 4068
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  def i "ir3_structs_new.ml" 124 4045 4075 "ir3_structs_new.ml" 124 4045 4140
+)
+"ir3_structs_new.ml" 124 4045 4069 "ir3_structs_new.ml" 124 4045 4070
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def e "ir3_structs_new.ml" 124 4045 4075 "ir3_structs_new.ml" 124 4045 4140
+)
+"ir3_structs_new.ml" 124 4045 4048 "ir3_structs_new.ml" 124 4045 4071
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"ir3_structs_new.ml" 124 4045 4096 "ir3_structs_new.ml" 124 4045 4097
+type(
+  Ir3mOOL_structs.ir3_type
+)
+ident(
+  int_ref t "ir3_structs_new.ml" 124 4045 4065 "ir3_structs_new.ml" 124 4045 4066
+)
+"ir3_structs_new.ml" 124 4045 4098 "ir3_structs_new.ml" 124 4045 4112
+type(
+  Ir3mOOL_structs.id3 -> id3_new
+)
+ident(
+  int_ref id3_to_id3_new "ir3_structs_new.ml" 93 2853 2857 "ir3_structs_new.ml" 93 2853 2871
+)
+"ir3_structs_new.ml" 124 4045 4113 "ir3_structs_new.ml" 124 4045 4114
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref i "ir3_structs_new.ml" 124 4045 4067 "ir3_structs_new.ml" 124 4045 4068
+)
+"ir3_structs_new.ml" 124 4045 4098 "ir3_structs_new.ml" 124 4045 4114
+call(
+  stack
+)
+type(
+  id3_new
+)
+"ir3_structs_new.ml" 124 4045 4115 "ir3_structs_new.ml" 124 4045 4137
+type(
+  Ir3mOOL_structs.ir3_exp -> ir3_exp_new
+)
+ident(
+  int_ref ir3_exp_to_ir3_new_exp "ir3_structs_new.ml" 105 3156 3160 "ir3_structs_new.ml" 105 3156 3182
+)
+"ir3_structs_new.ml" 124 4045 4138 "ir3_structs_new.ml" 124 4045 4139
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref e "ir3_structs_new.ml" 124 4045 4069 "ir3_structs_new.ml" 124 4045 4070
+)
+"ir3_structs_new.ml" 124 4045 4115 "ir3_structs_new.ml" 124 4045 4139
+call(
+  stack
+)
+type(
+  ir3_exp_new
+)
+"ir3_structs_new.ml" 124 4045 4075 "ir3_structs_new.ml" 124 4045 4140
+type(
+  ir3_stmt_new
+)
+"ir3_structs_new.ml" 125 4141 4162 "ir3_structs_new.ml" 125 4141 4164
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def e1 "ir3_structs_new.ml" 125 4141 4172 "ir3_structs_new.ml" 125 4141 4246
+)
+"ir3_structs_new.ml" 125 4141 4165 "ir3_structs_new.ml" 125 4141 4167
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def e2 "ir3_structs_new.ml" 125 4141 4172 "ir3_structs_new.ml" 125 4141 4246
+)
+"ir3_structs_new.ml" 125 4141 4144 "ir3_structs_new.ml" 125 4141 4168
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"ir3_structs_new.ml" 125 4141 4194 "ir3_structs_new.ml" 125 4141 4216
+type(
+  Ir3mOOL_structs.ir3_exp -> ir3_exp_new
+)
+ident(
+  int_ref ir3_exp_to_ir3_new_exp "ir3_structs_new.ml" 105 3156 3160 "ir3_structs_new.ml" 105 3156 3182
+)
+"ir3_structs_new.ml" 125 4141 4217 "ir3_structs_new.ml" 125 4141 4219
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref e1 "ir3_structs_new.ml" 125 4141 4162 "ir3_structs_new.ml" 125 4141 4164
+)
+"ir3_structs_new.ml" 125 4141 4194 "ir3_structs_new.ml" 125 4141 4219
+call(
+  stack
+)
+type(
+  ir3_exp_new
+)
+"ir3_structs_new.ml" 125 4141 4220 "ir3_structs_new.ml" 125 4141 4242
+type(
+  Ir3mOOL_structs.ir3_exp -> ir3_exp_new
+)
+ident(
+  int_ref ir3_exp_to_ir3_new_exp "ir3_structs_new.ml" 105 3156 3160 "ir3_structs_new.ml" 105 3156 3182
+)
+"ir3_structs_new.ml" 125 4141 4243 "ir3_structs_new.ml" 125 4141 4245
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref e2 "ir3_structs_new.ml" 125 4141 4165 "ir3_structs_new.ml" 125 4141 4167
+)
+"ir3_structs_new.ml" 125 4141 4220 "ir3_structs_new.ml" 125 4141 4245
+call(
+  stack
+)
+type(
+  ir3_exp_new
+)
+"ir3_structs_new.ml" 125 4141 4172 "ir3_structs_new.ml" 125 4141 4246
+type(
+  ir3_stmt_new
+)
+"ir3_structs_new.ml" 126 4247 4262 "ir3_structs_new.ml" 126 4247 4263
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def e "ir3_structs_new.ml" 126 4247 4267 "ir3_structs_new.ml" 126 4247 4309
+)
+"ir3_structs_new.ml" 126 4247 4250 "ir3_structs_new.ml" 126 4247 4263
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"ir3_structs_new.ml" 126 4247 4284 "ir3_structs_new.ml" 126 4247 4306
+type(
+  Ir3mOOL_structs.ir3_exp -> ir3_exp_new
+)
+ident(
+  int_ref ir3_exp_to_ir3_new_exp "ir3_structs_new.ml" 105 3156 3160 "ir3_structs_new.ml" 105 3156 3182
+)
+"ir3_structs_new.ml" 126 4247 4307 "ir3_structs_new.ml" 126 4247 4308
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref e "ir3_structs_new.ml" 126 4247 4262 "ir3_structs_new.ml" 126 4247 4263
+)
+"ir3_structs_new.ml" 126 4247 4283 "ir3_structs_new.ml" 126 4247 4309
+call(
+  stack
+)
+type(
+  ir3_exp_new
+)
+"ir3_structs_new.ml" 126 4247 4267 "ir3_structs_new.ml" 126 4247 4309
+type(
+  ir3_stmt_new
+)
+"ir3_structs_new.ml" 127 4310 4325 "ir3_structs_new.ml" 127 4310 4326
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  def i "ir3_structs_new.ml" 127 4310 4330 "ir3_structs_new.ml" 127 4310 4364
+)
+"ir3_structs_new.ml" 127 4310 4313 "ir3_structs_new.ml" 127 4310 4326
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"ir3_structs_new.ml" 127 4310 4347 "ir3_structs_new.ml" 127 4310 4361
+type(
+  Ir3mOOL_structs.id3 -> id3_new
+)
+ident(
+  int_ref id3_to_id3_new "ir3_structs_new.ml" 93 2853 2857 "ir3_structs_new.ml" 93 2853 2871
+)
+"ir3_structs_new.ml" 127 4310 4362 "ir3_structs_new.ml" 127 4310 4363
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref i "ir3_structs_new.ml" 127 4310 4325 "ir3_structs_new.ml" 127 4310 4326
+)
+"ir3_structs_new.ml" 127 4310 4346 "ir3_structs_new.ml" 127 4310 4364
+call(
+  stack
+)
+type(
+  id3_new
+)
+"ir3_structs_new.ml" 127 4310 4330 "ir3_structs_new.ml" 127 4310 4364
+type(
+  ir3_stmt_new
+)
+"ir3_structs_new.ml" 128 4365 4368 "ir3_structs_new.ml" 128 4365 4383
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"ir3_structs_new.ml" 128 4365 4387 "ir3_structs_new.ml" 128 4365 4406
+type(
+  ir3_stmt_new
+)
+"ir3_structs_new.ml" 117 3720 3721 "ir3_structs_new.ml" 128 4365 4406
+type(
+  ir3_stmt_new
+)
+type(
+  ir3_stmt_new
+)
+"ir3_structs_new.ml" 130 4408 4412 "ir3_structs_new.ml" 130 4408 4438
+type(
+  Ir3mOOL_structs.var_decl3 -> var_decl3_new
+)
+ident(
+  def var_decl3_to_var_decl3_new "ir3_structs_new.ml" 135 4525 4525 "ir3_structs_new.ml" 1 0 -1
+)
+"ir3_structs_new.ml" 131 4439 4441 "ir3_structs_new.ml" 131 4439 4446
+type(
+  Ir3mOOL_structs.var_decl3
+)
+ident(
+  def input "ir3_structs_new.ml" 131 4439 4457 "ir3_structs_new.ml" 133 4491 4523
+)
+"ir3_structs_new.ml" 132 4473 4480 "ir3_structs_new.ml" 132 4473 4485
+type(
+  Ir3mOOL_structs.var_decl3
+)
+ident(
+  int_ref input "ir3_structs_new.ml" 131 4439 4441 "ir3_structs_new.ml" 131 4439 4446
+)
+"ir3_structs_new.ml" 133 4491 4495 "ir3_structs_new.ml" 133 4491 4496
+type(
+  Ir3mOOL_structs.ir3_type
+)
+ident(
+  def t "ir3_structs_new.ml" 133 4491 4503 "ir3_structs_new.ml" 133 4491 4523
+)
+"ir3_structs_new.ml" 133 4491 4497 "ir3_structs_new.ml" 133 4491 4498
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  def i "ir3_structs_new.ml" 133 4491 4503 "ir3_structs_new.ml" 133 4491 4523
+)
+"ir3_structs_new.ml" 133 4491 4494 "ir3_structs_new.ml" 133 4491 4499
+type(
+  Ir3mOOL_structs.var_decl3
+)
+"ir3_structs_new.ml" 133 4491 4504 "ir3_structs_new.ml" 133 4491 4505
+type(
+  Ir3mOOL_structs.ir3_type
+)
+ident(
+  int_ref t "ir3_structs_new.ml" 133 4491 4495 "ir3_structs_new.ml" 133 4491 4496
+)
+"ir3_structs_new.ml" 133 4491 4506 "ir3_structs_new.ml" 133 4491 4520
+type(
+  Ir3mOOL_structs.id3 -> id3_new
+)
+ident(
+  int_ref id3_to_id3_new "ir3_structs_new.ml" 93 2853 2857 "ir3_structs_new.ml" 93 2853 2871
+)
+"ir3_structs_new.ml" 133 4491 4521 "ir3_structs_new.ml" 133 4491 4522
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref i "ir3_structs_new.ml" 133 4491 4497 "ir3_structs_new.ml" 133 4491 4498
+)
+"ir3_structs_new.ml" 133 4491 4506 "ir3_structs_new.ml" 133 4491 4522
+call(
+  stack
+)
+type(
+  id3_new
+)
+"ir3_structs_new.ml" 133 4491 4503 "ir3_structs_new.ml" 133 4491 4523
+type(
+  Ir3mOOL_structs.ir3_type * id3_new
+)
+"ir3_structs_new.ml" 132 4473 4474 "ir3_structs_new.ml" 133 4491 4523
+type(
+  var_decl3_new
+)
+type(
+  var_decl3_new
+)
+"ir3_structs_new.ml" 135 4525 4529 "ir3_structs_new.ml" 135 4525 4553
+type(
+  Ir3mOOL_structs.md_decl3 -> md_decl3_new
+)
+ident(
+  def md_decl3_to_md_decl3_new "ir3_structs_new.ml" 149 5049 5049 "ir3_structs_new.ml" 1 0 -1
+)
+"ir3_structs_new.ml" 136 4554 4556 "ir3_structs_new.ml" 136 4554 4561
+type(
+  Ir3mOOL_structs.md_decl3
+)
+ident(
+  def input "ir3_structs_new.ml" 136 4554 4571 "ir3_structs_new.ml" 147 5044 5047
+)
+"ir3_structs_new.ml" 137 4586 4593 "ir3_structs_new.ml" 137 4586 4598
+type(
+  Ir3mOOL_structs.md_decl3
+)
+ident(
+  int_ref input "ir3_structs_new.ml" 136 4554 4556 "ir3_structs_new.ml" 136 4554 4561
+)
+"ir3_structs_new.ml" 138 4604 4629 "ir3_structs_new.ml" 138 4604 4630
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  def i "ir3_structs_new.ml" 139 4764 4766 "ir3_structs_new.ml" 147 5044 5047
+)
+"ir3_structs_new.ml" 138 4604 4657 "ir3_structs_new.ml" 138 4604 4658
+type(
+  Ir3mOOL_structs.ir3_type
+)
+ident(
+  def t "ir3_structs_new.ml" 139 4764 4766 "ir3_structs_new.ml" 147 5044 5047
+)
+"ir3_structs_new.ml" 138 4604 4684 "ir3_structs_new.ml" 138 4604 4688
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def vlst "ir3_structs_new.ml" 139 4764 4766 "ir3_structs_new.ml" 147 5044 5047
+)
+"ir3_structs_new.ml" 138 4604 4717 "ir3_structs_new.ml" 138 4604 4722
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def lvlst "ir3_structs_new.ml" 139 4764 4766 "ir3_structs_new.ml" 147 5044 5047
+)
+"ir3_structs_new.ml" 138 4604 4749 "ir3_structs_new.ml" 138 4604 4759
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def ir3stmtlst "ir3_structs_new.ml" 139 4764 4766 "ir3_structs_new.ml" 147 5044 5047
+)
+"ir3_structs_new.ml" 138 4604 4607 "ir3_structs_new.ml" 138 4604 4761
+type(
+  Ir3mOOL_structs.md_decl3
+)
+"ir3_structs_new.ml" 140 4768 4775 "ir3_structs_new.ml" 140 4768 4789
+type(
+  Ir3mOOL_structs.id3 -> id3_new
+)
+ident(
+  int_ref id3_to_id3_new "ir3_structs_new.ml" 93 2853 2857 "ir3_structs_new.ml" 93 2853 2871
+)
+"ir3_structs_new.ml" 140 4768 4790 "ir3_structs_new.ml" 140 4768 4791
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref i "ir3_structs_new.ml" 138 4604 4629 "ir3_structs_new.ml" 138 4604 4630
+)
+"ir3_structs_new.ml" 140 4768 4775 "ir3_structs_new.ml" 140 4768 4791
+call(
+  stack
+)
+type(
+  id3_new
+)
+"ir3_structs_new.ml" 141 4793 4805 "ir3_structs_new.ml" 141 4793 4806
+type(
+  Ir3mOOL_structs.ir3_type
+)
+ident(
+  int_ref t "ir3_structs_new.ml" 138 4604 4657 "ir3_structs_new.ml" 138 4604 4658
+)
+"ir3_structs_new.ml" 142 4808 4819 "ir3_structs_new.ml" 142 4808 4827
+type(
+  (Ir3mOOL_structs.var_decl3 -> var_decl3_new) ->
+  Ir3mOOL_structs.var_decl3 list -> var_decl3_new list
+)
+ident(
+  ext_ref List.map
+)
+"ir3_structs_new.ml" 142 4808 4833 "ir3_structs_new.ml" 142 4808 4834
+type(
+  Ir3mOOL_structs.var_decl3
+)
+ident(
+  def v "ir3_structs_new.ml" 142 4808 4836 "ir3_structs_new.ml" 142 4808 4864
+)
+"ir3_structs_new.ml" 142 4808 4836 "ir3_structs_new.ml" 142 4808 4862
+type(
+  Ir3mOOL_structs.var_decl3 -> var_decl3_new
+)
+ident(
+  int_ref var_decl3_to_var_decl3_new "ir3_structs_new.ml" 130 4408 4412 "ir3_structs_new.ml" 130 4408 4438
+)
+"ir3_structs_new.ml" 142 4808 4863 "ir3_structs_new.ml" 142 4808 4864
+type(
+  Ir3mOOL_structs.var_decl3
+)
+ident(
+  int_ref v "ir3_structs_new.ml" 142 4808 4833 "ir3_structs_new.ml" 142 4808 4834
+)
+"ir3_structs_new.ml" 142 4808 4836 "ir3_structs_new.ml" 142 4808 4864
+call(
+  tail
+)
+type(
+  var_decl3_new
+)
+"ir3_structs_new.ml" 142 4808 4828 "ir3_structs_new.ml" 142 4808 4865
+type(
+  Ir3mOOL_structs.var_decl3 -> var_decl3_new
+)
+"ir3_structs_new.ml" 142 4808 4866 "ir3_structs_new.ml" 142 4808 4870
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref vlst "ir3_structs_new.ml" 138 4604 4684 "ir3_structs_new.ml" 138 4604 4688
+)
+"ir3_structs_new.ml" 142 4808 4819 "ir3_structs_new.ml" 142 4808 4870
+call(
+  stack
+)
+type(
+  var_decl3_new list
+)
+"ir3_structs_new.ml" 143 4872 4886 "ir3_structs_new.ml" 143 4872 4894
+type(
+  (Ir3mOOL_structs.var_decl3 -> var_decl3_new) ->
+  Ir3mOOL_structs.var_decl3 list -> var_decl3_new list
+)
+ident(
+  ext_ref List.map
+)
+"ir3_structs_new.ml" 143 4872 4900 "ir3_structs_new.ml" 143 4872 4901
+type(
+  Ir3mOOL_structs.var_decl3
+)
+ident(
+  def v "ir3_structs_new.ml" 143 4872 4903 "ir3_structs_new.ml" 143 4872 4931
+)
+"ir3_structs_new.ml" 143 4872 4903 "ir3_structs_new.ml" 143 4872 4929
+type(
+  Ir3mOOL_structs.var_decl3 -> var_decl3_new
+)
+ident(
+  int_ref var_decl3_to_var_decl3_new "ir3_structs_new.ml" 130 4408 4412 "ir3_structs_new.ml" 130 4408 4438
+)
+"ir3_structs_new.ml" 143 4872 4930 "ir3_structs_new.ml" 143 4872 4931
+type(
+  Ir3mOOL_structs.var_decl3
+)
+ident(
+  int_ref v "ir3_structs_new.ml" 143 4872 4900 "ir3_structs_new.ml" 143 4872 4901
+)
+"ir3_structs_new.ml" 143 4872 4903 "ir3_structs_new.ml" 143 4872 4931
+call(
+  tail
+)
+type(
+  var_decl3_new
+)
+"ir3_structs_new.ml" 143 4872 4895 "ir3_structs_new.ml" 143 4872 4932
+type(
+  Ir3mOOL_structs.var_decl3 -> var_decl3_new
+)
+"ir3_structs_new.ml" 143 4872 4933 "ir3_structs_new.ml" 143 4872 4938
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref lvlst "ir3_structs_new.ml" 138 4604 4717 "ir3_structs_new.ml" 138 4604 4722
+)
+"ir3_structs_new.ml" 143 4872 4886 "ir3_structs_new.ml" 143 4872 4938
+call(
+  stack
+)
+type(
+  var_decl3_new list
+)
+"ir3_structs_new.ml" 144 4940 4952 "ir3_structs_new.ml" 144 4940 4960
+type(
+  (Ir3mOOL_structs.ir3_stmt -> ir3_stmt_new) ->
+  Ir3mOOL_structs.ir3_stmt list -> ir3_stmt_new list
+)
+ident(
+  ext_ref List.map
+)
+"ir3_structs_new.ml" 144 4940 4966 "ir3_structs_new.ml" 144 4940 4967
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  def s "ir3_structs_new.ml" 144 4940 4969 "ir3_structs_new.ml" 144 4940 4995
+)
+"ir3_structs_new.ml" 144 4940 4969 "ir3_structs_new.ml" 144 4940 4993
+type(
+  Ir3mOOL_structs.ir3_stmt -> ir3_stmt_new
+)
+ident(
+  int_ref ir3_stmt_to_ir3_stmt_new "ir3_structs_new.ml" 115 3659 3663 "ir3_structs_new.ml" 115 3659 3687
+)
+"ir3_structs_new.ml" 144 4940 4994 "ir3_structs_new.ml" 144 4940 4995
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  int_ref s "ir3_structs_new.ml" 144 4940 4966 "ir3_structs_new.ml" 144 4940 4967
+)
+"ir3_structs_new.ml" 144 4940 4969 "ir3_structs_new.ml" 144 4940 4995
+call(
+  tail
+)
+type(
+  ir3_stmt_new
+)
+"ir3_structs_new.ml" 144 4940 4961 "ir3_structs_new.ml" 144 4940 4996
+type(
+  Ir3mOOL_structs.ir3_stmt -> ir3_stmt_new
+)
+"ir3_structs_new.ml" 144 4940 4997 "ir3_structs_new.ml" 144 4940 5007
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref ir3stmtlst "ir3_structs_new.ml" 138 4604 4749 "ir3_structs_new.ml" 138 4604 4759
+)
+"ir3_structs_new.ml" 144 4940 4952 "ir3_structs_new.ml" 144 4940 5007
+call(
+  stack
+)
+type(
+  ir3_stmt_new list
+)
+"ir3_structs_new.ml" 145 5009 5022 "ir3_structs_new.ml" 145 5009 5023
+type(
+  int
+)
+"ir3_structs_new.ml" 146 5025 5040 "ir3_structs_new.ml" 146 5025 5042
+type(
+  reg_or_mem list
+)
+"ir3_structs_new.ml" 139 4764 4766 "ir3_structs_new.ml" 147 5044 5047
+type(
+  md_decl3_new
+)
+"ir3_structs_new.ml" 137 4586 4587 "ir3_structs_new.ml" 147 5044 5047
+type(
+  md_decl3_new
+)
+type(
+  md_decl3_new
+)
+"ir3_structs_new.ml" 149 5049 5053 "ir3_structs_new.ml" 149 5049 5073
+type(
+  Ir3mOOL_structs.cdata3 -> cdata3_new
+)
+ident(
+  def cdata3_to_cdata3_new "ir3_structs_new.ml" 155 5193 5193 "ir3_structs_new.ml" 1 0 -1
+)
+"ir3_structs_new.ml" 150 5074 5076 "ir3_structs_new.ml" 150 5074 5081
+type(
+  Ir3mOOL_structs.cdata3
+)
+ident(
+  def input "ir3_structs_new.ml" 150 5074 5089 "ir3_structs_new.ml" 152 5120 5190
+)
+"ir3_structs_new.ml" 151 5102 5109 "ir3_structs_new.ml" 151 5102 5114
+type(
+  Ir3mOOL_structs.cdata3
+)
+ident(
+  int_ref input "ir3_structs_new.ml" 150 5074 5076 "ir3_structs_new.ml" 150 5074 5081
+)
+"ir3_structs_new.ml" 152 5120 5124 "ir3_structs_new.ml" 152 5120 5125
+type(
+  Ir3mOOL_structs.cname3
+)
+ident(
+  def c "ir3_structs_new.ml" 152 5120 5135 "ir3_structs_new.ml" 152 5120 5190
+)
+"ir3_structs_new.ml" 152 5120 5126 "ir3_structs_new.ml" 152 5120 5130
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def vlst "ir3_structs_new.ml" 152 5120 5135 "ir3_structs_new.ml" 152 5120 5190
+)
+"ir3_structs_new.ml" 152 5120 5123 "ir3_structs_new.ml" 152 5120 5131
+type(
+  Ir3mOOL_structs.cdata3
+)
+"ir3_structs_new.ml" 152 5120 5136 "ir3_structs_new.ml" 152 5120 5137
+type(
+  Ir3mOOL_structs.cname3
+)
+ident(
+  int_ref c "ir3_structs_new.ml" 152 5120 5124 "ir3_structs_new.ml" 152 5120 5125
+)
+"ir3_structs_new.ml" 152 5120 5138 "ir3_structs_new.ml" 152 5120 5146
+type(
+  (Ir3mOOL_structs.var_decl3 -> var_decl3_new) ->
+  Ir3mOOL_structs.var_decl3 list -> var_decl3_new list
+)
+ident(
+  ext_ref List.map
+)
+"ir3_structs_new.ml" 152 5120 5152 "ir3_structs_new.ml" 152 5120 5153
+type(
+  Ir3mOOL_structs.var_decl3
+)
+ident(
+  def v "ir3_structs_new.ml" 152 5120 5155 "ir3_structs_new.ml" 152 5120 5183
+)
+"ir3_structs_new.ml" 152 5120 5155 "ir3_structs_new.ml" 152 5120 5181
+type(
+  Ir3mOOL_structs.var_decl3 -> var_decl3_new
+)
+ident(
+  int_ref var_decl3_to_var_decl3_new "ir3_structs_new.ml" 130 4408 4412 "ir3_structs_new.ml" 130 4408 4438
+)
+"ir3_structs_new.ml" 152 5120 5182 "ir3_structs_new.ml" 152 5120 5183
+type(
+  Ir3mOOL_structs.var_decl3
+)
+ident(
+  int_ref v "ir3_structs_new.ml" 152 5120 5152 "ir3_structs_new.ml" 152 5120 5153
+)
+"ir3_structs_new.ml" 152 5120 5155 "ir3_structs_new.ml" 152 5120 5183
+call(
+  tail
+)
+type(
+  var_decl3_new
+)
+"ir3_structs_new.ml" 152 5120 5147 "ir3_structs_new.ml" 152 5120 5184
+type(
+  Ir3mOOL_structs.var_decl3 -> var_decl3_new
+)
+"ir3_structs_new.ml" 152 5120 5185 "ir3_structs_new.ml" 152 5120 5189
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref vlst "ir3_structs_new.ml" 152 5120 5126 "ir3_structs_new.ml" 152 5120 5130
+)
+"ir3_structs_new.ml" 152 5120 5138 "ir3_structs_new.ml" 152 5120 5189
+call(
+  stack
+)
+type(
+  var_decl3_new list
+)
+"ir3_structs_new.ml" 152 5120 5135 "ir3_structs_new.ml" 152 5120 5190
+type(
+  Ir3mOOL_structs.cname3 * var_decl3_new list
+)
+"ir3_structs_new.ml" 151 5102 5103 "ir3_structs_new.ml" 152 5120 5190
+type(
+  cdata3_new
+)
+type(
+  cdata3_new
+)
+"ir3_structs_new.ml" 155 5193 5197 "ir3_structs_new.ml" 155 5193 5227
+type(
+  Ir3mOOL_structs.ir3_program -> ir3_program_new
+)
+ident(
+  def ir3_program_to_ir3_program_new "ir3_structs_new.ml" 167 5696 5696 "ir3_structs_new.ml" 1 0 -1
+)
+"ir3_structs_new.ml" 156 5228 5230 "ir3_structs_new.ml" 156 5228 5235
+type(
+  Ir3mOOL_structs.ir3_program
+)
+ident(
+  def input "ir3_structs_new.ml" 156 5228 5248 "ir3_structs_new.ml" 159 5307 5434
+)
+"ir3_structs_new.ml" 157 5268 5275 "ir3_structs_new.ml" 157 5268 5280
+type(
+  Ir3mOOL_structs.ir3_program
+)
+ident(
+  int_ref input "ir3_structs_new.ml" 156 5228 5230 "ir3_structs_new.ml" 156 5228 5235
+)
+"ir3_structs_new.ml" 158 5286 5290 "ir3_structs_new.ml" 158 5286 5294
+type(
+  Ir3mOOL_structs.cdata3 list
+)
+ident(
+  def clst "ir3_structs_new.ml" 159 5307 5309 "ir3_structs_new.ml" 159 5307 5434
+)
+"ir3_structs_new.ml" 158 5286 5295 "ir3_structs_new.ml" 158 5286 5296
+type(
+  Ir3mOOL_structs.md_decl3
+)
+ident(
+  def m "ir3_structs_new.ml" 159 5307 5309 "ir3_structs_new.ml" 159 5307 5434
+)
+"ir3_structs_new.ml" 158 5286 5297 "ir3_structs_new.ml" 158 5286 5302
+type(
+  Ir3mOOL_structs.md_decl3 list
+)
+ident(
+  def mdlst "ir3_structs_new.ml" 159 5307 5309 "ir3_structs_new.ml" 159 5307 5434
+)
+"ir3_structs_new.ml" 158 5286 5289 "ir3_structs_new.ml" 158 5286 5303
+type(
+  Ir3mOOL_structs.ir3_program
+)
+"ir3_structs_new.ml" 159 5307 5310 "ir3_structs_new.ml" 159 5307 5318
+type(
+  (Ir3mOOL_structs.cdata3 -> cdata3_new) ->
+  Ir3mOOL_structs.cdata3 list -> cdata3_new list
+)
+ident(
+  ext_ref List.map
+)
+"ir3_structs_new.ml" 159 5307 5324 "ir3_structs_new.ml" 159 5307 5325
+type(
+  Ir3mOOL_structs.cdata3
+)
+ident(
+  def c "ir3_structs_new.ml" 159 5307 5327 "ir3_structs_new.ml" 159 5307 5349
+)
+"ir3_structs_new.ml" 159 5307 5327 "ir3_structs_new.ml" 159 5307 5347
+type(
+  Ir3mOOL_structs.cdata3 -> cdata3_new
+)
+ident(
+  int_ref cdata3_to_cdata3_new "ir3_structs_new.ml" 149 5049 5053 "ir3_structs_new.ml" 149 5049 5073
+)
+"ir3_structs_new.ml" 159 5307 5348 "ir3_structs_new.ml" 159 5307 5349
+type(
+  Ir3mOOL_structs.cdata3
+)
+ident(
+  int_ref c "ir3_structs_new.ml" 159 5307 5324 "ir3_structs_new.ml" 159 5307 5325
+)
+"ir3_structs_new.ml" 159 5307 5327 "ir3_structs_new.ml" 159 5307 5349
+call(
+  tail
+)
+type(
+  cdata3_new
+)
+"ir3_structs_new.ml" 159 5307 5319 "ir3_structs_new.ml" 159 5307 5350
+type(
+  Ir3mOOL_structs.cdata3 -> cdata3_new
+)
+"ir3_structs_new.ml" 159 5307 5351 "ir3_structs_new.ml" 159 5307 5355
+type(
+  Ir3mOOL_structs.cdata3 list
+)
+ident(
+  int_ref clst "ir3_structs_new.ml" 158 5286 5290 "ir3_structs_new.ml" 158 5286 5294
+)
+"ir3_structs_new.ml" 159 5307 5310 "ir3_structs_new.ml" 159 5307 5355
+call(
+  stack
+)
+type(
+  cdata3_new list
+)
+"ir3_structs_new.ml" 159 5307 5356 "ir3_structs_new.ml" 159 5307 5380
+type(
+  Ir3mOOL_structs.md_decl3 -> md_decl3_new
+)
+ident(
+  int_ref md_decl3_to_md_decl3_new "ir3_structs_new.ml" 135 4525 4529 "ir3_structs_new.ml" 135 4525 4553
+)
+"ir3_structs_new.ml" 159 5307 5381 "ir3_structs_new.ml" 159 5307 5382
+type(
+  Ir3mOOL_structs.md_decl3
+)
+ident(
+  int_ref m "ir3_structs_new.ml" 158 5286 5295 "ir3_structs_new.ml" 158 5286 5296
+)
+"ir3_structs_new.ml" 159 5307 5356 "ir3_structs_new.ml" 159 5307 5382
+call(
+  stack
+)
+type(
+  md_decl3_new
+)
+"ir3_structs_new.ml" 159 5307 5383 "ir3_structs_new.ml" 159 5307 5391
+type(
+  (Ir3mOOL_structs.md_decl3 -> md_decl3_new) ->
+  Ir3mOOL_structs.md_decl3 list -> md_decl3_new list
+)
+ident(
+  ext_ref List.map
+)
+"ir3_structs_new.ml" 159 5307 5397 "ir3_structs_new.ml" 159 5307 5398
+type(
+  Ir3mOOL_structs.md_decl3
+)
+ident(
+  def m "ir3_structs_new.ml" 159 5307 5400 "ir3_structs_new.ml" 159 5307 5426
+)
+"ir3_structs_new.ml" 159 5307 5400 "ir3_structs_new.ml" 159 5307 5424
+type(
+  Ir3mOOL_structs.md_decl3 -> md_decl3_new
+)
+ident(
+  int_ref md_decl3_to_md_decl3_new "ir3_structs_new.ml" 135 4525 4529 "ir3_structs_new.ml" 135 4525 4553
+)
+"ir3_structs_new.ml" 159 5307 5425 "ir3_structs_new.ml" 159 5307 5426
+type(
+  Ir3mOOL_structs.md_decl3
+)
+ident(
+  int_ref m "ir3_structs_new.ml" 159 5307 5397 "ir3_structs_new.ml" 159 5307 5398
+)
+"ir3_structs_new.ml" 159 5307 5400 "ir3_structs_new.ml" 159 5307 5426
+call(
+  tail
+)
+type(
+  md_decl3_new
+)
+"ir3_structs_new.ml" 159 5307 5392 "ir3_structs_new.ml" 159 5307 5427
+type(
+  Ir3mOOL_structs.md_decl3 -> md_decl3_new
+)
+"ir3_structs_new.ml" 159 5307 5428 "ir3_structs_new.ml" 159 5307 5433
+type(
+  Ir3mOOL_structs.md_decl3 list
+)
+ident(
+  int_ref mdlst "ir3_structs_new.ml" 158 5286 5297 "ir3_structs_new.ml" 158 5286 5302
+)
+"ir3_structs_new.ml" 159 5307 5383 "ir3_structs_new.ml" 159 5307 5433
+call(
+  stack
+)
+type(
+  md_decl3_new list
+)
+"ir3_structs_new.ml" 159 5307 5309 "ir3_structs_new.ml" 159 5307 5434
+type(
+  cdata3_new list * md_decl3_new * md_decl3_new list
+)
+"ir3_structs_new.ml" 157 5268 5269 "ir3_structs_new.ml" 159 5307 5434
+type(
+  ir3_program_new
+)
+type(
+  ir3_program_new
+)
+"ir3_structs_new.ml" 167 5696 5700 "ir3_structs_new.ml" 167 5696 5706
+type(
+  int ref
+)
+ident(
+  def indent "ir3_structs_new.ml" 169 5716 5716 "ir3_structs_new.ml" 1 0 -1
+)
+"ir3_structs_new.ml" 167 5696 5709 "ir3_structs_new.ml" 167 5696 5712
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ir3_structs_new.ml" 167 5696 5713 "ir3_structs_new.ml" 167 5696 5714
+type(
+  int
+)
+"ir3_structs_new.ml" 167 5696 5709 "ir3_structs_new.ml" 167 5696 5714
+type(
+  int ref
+)
+"ir3_structs_new.ml" 169 5716 5720 "ir3_structs_new.ml" 169 5716 5730
+type(
+  unit -> string
+)
+ident(
+  def indent_inc "ir3_structs_new.ml" 172 5775 5775 "ir3_structs_new.ml" 1 0 -1
+)
+"ir3_structs_new.ml" 169 5716 5730 "ir3_structs_new.ml" 169 5716 5732
+type(
+  unit
+)
+"ir3_structs_new.ml" 170 5745 5747 "ir3_structs_new.ml" 170 5745 5753
+type(
+  int ref
+)
+ident(
+  int_ref indent "ir3_structs_new.ml" 167 5696 5700 "ir3_structs_new.ml" 167 5696 5706
+)
+"ir3_structs_new.ml" 170 5745 5753 "ir3_structs_new.ml" 170 5745 5755
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ir3_structs_new.ml" 170 5745 5757 "ir3_structs_new.ml" 170 5745 5758
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ir3_structs_new.ml" 170 5745 5758 "ir3_structs_new.ml" 170 5745 5764
+type(
+  int ref
+)
+ident(
+  int_ref indent "ir3_structs_new.ml" 167 5696 5700 "ir3_structs_new.ml" 167 5696 5706
+)
+"ir3_structs_new.ml" 170 5745 5757 "ir3_structs_new.ml" 170 5745 5764
+type(
+  int
+)
+"ir3_structs_new.ml" 170 5745 5765 "ir3_structs_new.ml" 170 5745 5766
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ir3_structs_new.ml" 170 5745 5767 "ir3_structs_new.ml" 170 5745 5768
+type(
+  int
+)
+"ir3_structs_new.ml" 170 5745 5756 "ir3_structs_new.ml" 170 5745 5769
+type(
+  int
+)
+"ir3_structs_new.ml" 170 5745 5747 "ir3_structs_new.ml" 170 5745 5769
+type(
+  unit
+)
+"ir3_structs_new.ml" 170 5745 5770 "ir3_structs_new.ml" 170 5745 5772
+type(
+  string
+)
+"ir3_structs_new.ml" 170 5745 5747 "ir3_structs_new.ml" 170 5745 5772
+type(
+  string
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 172 5775 5779 "ir3_structs_new.ml" 172 5775 5789
+type(
+  unit -> string
+)
+ident(
+  def indent_dec "ir3_structs_new.ml" 176 5881 5881 "ir3_structs_new.ml" 1 0 -1
+)
+"ir3_structs_new.ml" 172 5775 5789 "ir3_structs_new.ml" 172 5775 5791
+type(
+  unit
+)
+"ir3_structs_new.ml" 173 5804 5805 "ir3_structs_new.ml" 173 5804 5811
+type(
+  int ref
+)
+ident(
+  int_ref indent "ir3_structs_new.ml" 167 5696 5700 "ir3_structs_new.ml" 167 5696 5706
+)
+"ir3_structs_new.ml" 173 5804 5812 "ir3_structs_new.ml" 173 5804 5814
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ir3_structs_new.ml" 173 5804 5816 "ir3_structs_new.ml" 173 5804 5817
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ir3_structs_new.ml" 173 5804 5817 "ir3_structs_new.ml" 173 5804 5823
+type(
+  int ref
+)
+ident(
+  int_ref indent "ir3_structs_new.ml" 167 5696 5700 "ir3_structs_new.ml" 167 5696 5706
+)
+"ir3_structs_new.ml" 173 5804 5816 "ir3_structs_new.ml" 173 5804 5823
+type(
+  int
+)
+"ir3_structs_new.ml" 173 5804 5824 "ir3_structs_new.ml" 173 5804 5825
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ir3_structs_new.ml" 173 5804 5826 "ir3_structs_new.ml" 173 5804 5827
+type(
+  int
+)
+"ir3_structs_new.ml" 173 5804 5815 "ir3_structs_new.ml" 173 5804 5828
+type(
+  int
+)
+"ir3_structs_new.ml" 173 5804 5805 "ir3_structs_new.ml" 173 5804 5828
+type(
+  unit
+)
+"ir3_structs_new.ml" 173 5804 5830 "ir3_structs_new.ml" 173 5804 5832
+type(
+  string
+)
+"ir3_structs_new.ml" 173 5804 5805 "ir3_structs_new.ml" 173 5804 5832
+type(
+  string
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 176 5881 5889 "ir3_structs_new.ml" 176 5881 5898
+type(
+  unit -> string
+)
+ident(
+  def print_tab "ir3_structs_new.ml" 176 5881 5881 "ir3_structs_new.ml" 1 0 -1
+)
+"ir3_structs_new.ml" 176 5881 5898 "ir3_structs_new.ml" 176 5881 5900
+type(
+  unit
+)
+"ir3_structs_new.ml" 177 5912 5921 "ir3_structs_new.ml" 177 5912 5932
+type(
+  int -> string
+)
+ident(
+  def helper_func "ir3_structs_new.ml" 177 5912 5913 "ir3_structs_new.ml" 179 6000 6029
+)
+"ir3_structs_new.ml" 177 5912 5933 "ir3_structs_new.ml" 177 5912 5934
+type(
+  int
+)
+ident(
+  def n "ir3_structs_new.ml" 177 5912 5934 "ir3_structs_new.ml" 178 5946 5999
+)
+"ir3_structs_new.ml" 178 5946 5952 "ir3_structs_new.ml" 178 5946 5953
+type(
+  int
+)
+ident(
+  int_ref n "ir3_structs_new.ml" 177 5912 5933 "ir3_structs_new.ml" 177 5912 5934
+)
+"ir3_structs_new.ml" 178 5946 5954 "ir3_structs_new.ml" 178 5946 5956
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"ir3_structs_new.ml" 178 5946 5957 "ir3_structs_new.ml" 178 5946 5958
+type(
+  int
+)
+"ir3_structs_new.ml" 178 5946 5951 "ir3_structs_new.ml" 178 5946 5959
+type(
+  bool
+)
+"ir3_structs_new.ml" 178 5946 5965 "ir3_structs_new.ml" 178 5946 5967
+type(
+  string
+)
+"ir3_structs_new.ml" 178 5946 5973 "ir3_structs_new.ml" 178 5946 5977
+type(
+  string
+)
+"ir3_structs_new.ml" 178 5946 5977 "ir3_structs_new.ml" 178 5946 5978
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 178 5946 5980 "ir3_structs_new.ml" 178 5946 5991
+type(
+  int -> string
+)
+ident(
+  int_ref helper_func "ir3_structs_new.ml" 177 5912 5921 "ir3_structs_new.ml" 177 5912 5932
+)
+"ir3_structs_new.ml" 178 5946 5993 "ir3_structs_new.ml" 178 5946 5994
+type(
+  int
+)
+ident(
+  int_ref n "ir3_structs_new.ml" 177 5912 5933 "ir3_structs_new.ml" 177 5912 5934
+)
+"ir3_structs_new.ml" 178 5946 5995 "ir3_structs_new.ml" 178 5946 5996
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ir3_structs_new.ml" 178 5946 5996 "ir3_structs_new.ml" 178 5946 5997
+type(
+  int
+)
+"ir3_structs_new.ml" 178 5946 5992 "ir3_structs_new.ml" 178 5946 5998
+type(
+  int
+)
+"ir3_structs_new.ml" 178 5946 5979 "ir3_structs_new.ml" 178 5946 5999
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 178 5946 5973 "ir3_structs_new.ml" 178 5946 5999
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 178 5946 5948 "ir3_structs_new.ml" 178 5946 5999
+type(
+  string
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 179 6000 6004 "ir3_structs_new.ml" 179 6000 6015
+type(
+  int -> string
+)
+ident(
+  int_ref helper_func "ir3_structs_new.ml" 177 5912 5921 "ir3_structs_new.ml" 177 5912 5932
+)
+"ir3_structs_new.ml" 179 6000 6017 "ir3_structs_new.ml" 179 6000 6020
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.abs
+)
+"ir3_structs_new.ml" 179 6000 6021 "ir3_structs_new.ml" 179 6000 6022
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ir3_structs_new.ml" 179 6000 6022 "ir3_structs_new.ml" 179 6000 6028
+type(
+  int ref
+)
+ident(
+  int_ref indent "ir3_structs_new.ml" 167 5696 5700 "ir3_structs_new.ml" 167 5696 5706
+)
+"ir3_structs_new.ml" 179 6000 6021 "ir3_structs_new.ml" 179 6000 6028
+type(
+  int
+)
+"ir3_structs_new.ml" 179 6000 6016 "ir3_structs_new.ml" 179 6000 6029
+call(
+  stack
+)
+type(
+  int
+)
+"ir3_structs_new.ml" 179 6000 6004 "ir3_structs_new.ml" 179 6000 6029
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 177 5912 5913 "ir3_structs_new.ml" 179 6000 6029
+type(
+  string
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 183 6145 6149 "ir3_structs_new.ml" 183 6145 6163
+type(
+  'a list -> ('a -> string) -> string -> string
+)
+ident(
+  def string_of_list "ir3_structs_new.ml" 187 6291 6291 "ir3_structs_new.ml" 1 0 -1
+)
+"ir3_structs_new.ml" 183 6145 6164 "ir3_structs_new.ml" 183 6145 6167
+type(
+  'a list
+)
+ident(
+  def lst "ir3_structs_new.ml" 183 6145 6168 "ir3_structs_new.ml" 184 6183 6223
+)
+"ir3_structs_new.ml" 183 6145 6168 "ir3_structs_new.ml" 183 6145 6172
+type(
+  'a -> string
+)
+ident(
+  def func "ir3_structs_new.ml" 183 6145 6173 "ir3_structs_new.ml" 184 6183 6223
+)
+"ir3_structs_new.ml" 183 6145 6173 "ir3_structs_new.ml" 183 6145 6178
+type(
+  string
+)
+ident(
+  def delim "ir3_structs_new.ml" 184 6183 6184 "ir3_structs_new.ml" 184 6183 6223
+)
+"ir3_structs_new.ml" 184 6183 6184 "ir3_structs_new.ml" 184 6183 6197
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"ir3_structs_new.ml" 184 6183 6198 "ir3_structs_new.ml" 184 6183 6203
+type(
+  string
+)
+ident(
+  int_ref delim "ir3_structs_new.ml" 183 6145 6173 "ir3_structs_new.ml" 183 6145 6178
+)
+"ir3_structs_new.ml" 184 6183 6205 "ir3_structs_new.ml" 184 6183 6213
+type(
+  ('a -> string) -> 'a list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"ir3_structs_new.ml" 184 6183 6214 "ir3_structs_new.ml" 184 6183 6218
+type(
+  'a -> string
+)
+ident(
+  int_ref func "ir3_structs_new.ml" 183 6145 6168 "ir3_structs_new.ml" 183 6145 6172
+)
+"ir3_structs_new.ml" 184 6183 6219 "ir3_structs_new.ml" 184 6183 6222
+type(
+  'a list
+)
+ident(
+  int_ref lst "ir3_structs_new.ml" 183 6145 6164 "ir3_structs_new.ml" 183 6145 6167
+)
+"ir3_structs_new.ml" 184 6183 6204 "ir3_structs_new.ml" 184 6183 6223
+call(
+  stack
+)
+type(
+  string list
+)
+"ir3_structs_new.ml" 184 6183 6184 "ir3_structs_new.ml" 184 6183 6223
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 187 6291 6295 "ir3_structs_new.ml" 187 6291 6323
+type(
+  string -> ('a -> string) -> 'a list -> string
+)
+ident(
+  def string_of_indented_stmt_list "ir3_structs_new.ml" 197 6624 6624 "ir3_structs_new.ml" 1 0 -1
+)
+"ir3_structs_new.ml" 187 6291 6324 "ir3_structs_new.ml" 187 6291 6325
+type(
+  string
+)
+ident(
+  def s "ir3_structs_new.ml" 187 6291 6326 "ir3_structs_new.ml" 194 6558 6590
+)
+"ir3_structs_new.ml" 187 6291 6326 "ir3_structs_new.ml" 187 6291 6327
+type(
+  'a -> string
+)
+ident(
+  def f "ir3_structs_new.ml" 187 6291 6328 "ir3_structs_new.ml" 194 6558 6590
+)
+"ir3_structs_new.ml" 187 6291 6328 "ir3_structs_new.ml" 187 6291 6330
+type(
+  'a list
+)
+ident(
+  def xs "ir3_structs_new.ml" 188 6334 6335 "ir3_structs_new.ml" 194 6558 6590
+)
+"ir3_structs_new.ml" 188 6334 6339 "ir3_structs_new.ml" 188 6334 6348
+type(
+  string
+)
+ident(
+  def stmtBegin "ir3_structs_new.ml" 189 6374 6375 "ir3_structs_new.ml" 194 6558 6590
+)
+"ir3_structs_new.ml" 188 6334 6351 "ir3_structs_new.ml" 188 6334 6360
+type(
+  unit -> string
+)
+ident(
+  int_ref print_tab "ir3_structs_new.ml" 176 5881 5889 "ir3_structs_new.ml" 176 5881 5898
+)
+"ir3_structs_new.ml" 188 6334 6360 "ir3_structs_new.ml" 188 6334 6362
+type(
+  unit
+)
+"ir3_structs_new.ml" 188 6334 6351 "ir3_structs_new.ml" 188 6334 6362
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 188 6334 6363 "ir3_structs_new.ml" 188 6334 6364
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 188 6334 6365 "ir3_structs_new.ml" 188 6334 6370
+type(
+  string
+)
+"ir3_structs_new.ml" 188 6334 6351 "ir3_structs_new.ml" 188 6334 6370
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 189 6374 6379 "ir3_structs_new.ml" 189 6374 6386
+type(
+  string
+)
+ident(
+  def indentI "ir3_structs_new.ml" 190 6405 6406 "ir3_structs_new.ml" 194 6558 6590
+)
+"ir3_structs_new.ml" 189 6374 6389 "ir3_structs_new.ml" 189 6374 6399
+type(
+  unit -> string
+)
+ident(
+  int_ref indent_inc "ir3_structs_new.ml" 169 5716 5720 "ir3_structs_new.ml" 169 5716 5730
+)
+"ir3_structs_new.ml" 189 6374 6399 "ir3_structs_new.ml" 189 6374 6401
+type(
+  unit
+)
+"ir3_structs_new.ml" 189 6374 6389 "ir3_structs_new.ml" 189 6374 6401
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 190 6405 6410 "ir3_structs_new.ml" 190 6405 6418
+type(
+  string
+)
+ident(
+  def stmtList "ir3_structs_new.ml" 191 6456 6457 "ir3_structs_new.ml" 194 6558 6590
+)
+"ir3_structs_new.ml" 190 6405 6421 "ir3_structs_new.ml" 190 6405 6434
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"ir3_structs_new.ml" 190 6405 6435 "ir3_structs_new.ml" 190 6405 6436
+type(
+  string
+)
+ident(
+  int_ref s "ir3_structs_new.ml" 187 6291 6324 "ir3_structs_new.ml" 187 6291 6325
+)
+"ir3_structs_new.ml" 190 6405 6438 "ir3_structs_new.ml" 190 6405 6446
+type(
+  ('a -> string) -> 'a list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"ir3_structs_new.ml" 190 6405 6447 "ir3_structs_new.ml" 190 6405 6448
+type(
+  'a -> string
+)
+ident(
+  int_ref f "ir3_structs_new.ml" 187 6291 6326 "ir3_structs_new.ml" 187 6291 6327
+)
+"ir3_structs_new.ml" 190 6405 6449 "ir3_structs_new.ml" 190 6405 6451
+type(
+  'a list
+)
+ident(
+  int_ref xs "ir3_structs_new.ml" 187 6291 6328 "ir3_structs_new.ml" 187 6291 6330
+)
+"ir3_structs_new.ml" 190 6405 6437 "ir3_structs_new.ml" 190 6405 6452
+call(
+  stack
+)
+type(
+  string list
+)
+"ir3_structs_new.ml" 190 6405 6421 "ir3_structs_new.ml" 190 6405 6452
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 191 6456 6461 "ir3_structs_new.ml" 191 6456 6468
+type(
+  string
+)
+ident(
+  def indentD "ir3_structs_new.ml" 192 6488 6489 "ir3_structs_new.ml" 194 6558 6590
+)
+"ir3_structs_new.ml" 191 6456 6471 "ir3_structs_new.ml" 191 6456 6481
+type(
+  unit -> string
+)
+ident(
+  int_ref indent_dec "ir3_structs_new.ml" 172 5775 5779 "ir3_structs_new.ml" 172 5775 5789
+)
+"ir3_structs_new.ml" 191 6456 6481 "ir3_structs_new.ml" 191 6456 6483
+type(
+  unit
+)
+"ir3_structs_new.ml" 191 6456 6471 "ir3_structs_new.ml" 191 6456 6483
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 192 6488 6493 "ir3_structs_new.ml" 192 6488 6500
+type(
+  string
+)
+ident(
+  def stmtEnd "ir3_structs_new.ml" 193 6535 6537 "ir3_structs_new.ml" 194 6558 6590
+)
+"ir3_structs_new.ml" 192 6488 6503 "ir3_structs_new.ml" 192 6488 6507
+type(
+  string
+)
+"ir3_structs_new.ml" 192 6488 6508 "ir3_structs_new.ml" 192 6488 6509
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 192 6488 6510 "ir3_structs_new.ml" 192 6488 6519
+type(
+  unit -> string
+)
+ident(
+  int_ref print_tab "ir3_structs_new.ml" 176 5881 5889 "ir3_structs_new.ml" 176 5881 5898
+)
+"ir3_structs_new.ml" 192 6488 6519 "ir3_structs_new.ml" 192 6488 6521
+type(
+  unit
+)
+"ir3_structs_new.ml" 192 6488 6510 "ir3_structs_new.ml" 192 6488 6521
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 192 6488 6522 "ir3_structs_new.ml" 192 6488 6523
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 192 6488 6524 "ir3_structs_new.ml" 192 6488 6530
+type(
+  string
+)
+"ir3_structs_new.ml" 192 6488 6510 "ir3_structs_new.ml" 192 6488 6530
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 192 6488 6503 "ir3_structs_new.ml" 192 6488 6530
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 193 6535 6537 "ir3_structs_new.ml" 193 6535 6546
+type(
+  string
+)
+ident(
+  int_ref stmtBegin "ir3_structs_new.ml" 188 6334 6339 "ir3_structs_new.ml" 188 6334 6348
+)
+"ir3_structs_new.ml" 193 6535 6547 "ir3_structs_new.ml" 193 6535 6548
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 193 6535 6549 "ir3_structs_new.ml" 193 6535 6556
+type(
+  string
+)
+ident(
+  int_ref indentI "ir3_structs_new.ml" 189 6374 6379 "ir3_structs_new.ml" 189 6374 6386
+)
+"ir3_structs_new.ml" 194 6558 6560 "ir3_structs_new.ml" 194 6558 6561
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 194 6558 6562 "ir3_structs_new.ml" 194 6558 6570
+type(
+  string
+)
+ident(
+  int_ref stmtList "ir3_structs_new.ml" 190 6405 6410 "ir3_structs_new.ml" 190 6405 6418
+)
+"ir3_structs_new.ml" 194 6558 6571 "ir3_structs_new.ml" 194 6558 6572
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 194 6558 6573 "ir3_structs_new.ml" 194 6558 6580
+type(
+  string
+)
+ident(
+  int_ref indentD "ir3_structs_new.ml" 191 6456 6461 "ir3_structs_new.ml" 191 6456 6468
+)
+"ir3_structs_new.ml" 194 6558 6581 "ir3_structs_new.ml" 194 6558 6582
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 194 6558 6583 "ir3_structs_new.ml" 194 6558 6590
+type(
+  string
+)
+ident(
+  int_ref stmtEnd "ir3_structs_new.ml" 192 6488 6493 "ir3_structs_new.ml" 192 6488 6500
+)
+"ir3_structs_new.ml" 194 6558 6573 "ir3_structs_new.ml" 194 6558 6590
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 194 6558 6562 "ir3_structs_new.ml" 194 6558 6590
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 193 6535 6549 "ir3_structs_new.ml" 194 6558 6590
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 193 6535 6537 "ir3_structs_new.ml" 194 6558 6590
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 192 6488 6489 "ir3_structs_new.ml" 194 6558 6590
+type(
+  string
+)
+"ir3_structs_new.ml" 191 6456 6457 "ir3_structs_new.ml" 194 6558 6590
+type(
+  string
+)
+"ir3_structs_new.ml" 190 6405 6406 "ir3_structs_new.ml" 194 6558 6590
+type(
+  string
+)
+"ir3_structs_new.ml" 189 6374 6375 "ir3_structs_new.ml" 194 6558 6590
+type(
+  string
+)
+"ir3_structs_new.ml" 188 6334 6335 "ir3_structs_new.ml" 194 6558 6590
+type(
+  string
+)
+"ir3_structs_new.ml" 197 6624 6628 "ir3_structs_new.ml" 197 6624 6648
+type(
+  ir3_op_new -> string
+)
+ident(
+  def string_of_ir3_op_new "ir3_structs_new.ml" 203 6785 6785 "ir3_structs_new.ml" 1 0 -1
+)
+"ir3_structs_new.ml" 197 6624 6650 "ir3_structs_new.ml" 197 6624 6651
+type(
+  ir3_op_new
+)
+ident(
+  def e "ir3_structs_new.ml" 197 6624 6663 "ir3_structs_new.ml" 200 6722 6756
+)
+"ir3_structs_new.ml" 198 6673 6681 "ir3_structs_new.ml" 198 6673 6682
+type(
+  ir3_op_new
+)
+ident(
+  int_ref e "ir3_structs_new.ml" 197 6624 6650 "ir3_structs_new.ml" 197 6624 6651
+)
+"ir3_structs_new.ml" 199 6688 6704 "ir3_structs_new.ml" 199 6688 6705
+type(
+  string
+)
+ident(
+  def s "ir3_structs_new.ml" 200 6722 6755 "ir3_structs_new.ml" 200 6722 6756
+)
+"ir3_structs_new.ml" 199 6688 6694 "ir3_structs_new.ml" 199 6688 6705
+type(
+  ir3_op_new
+)
+"ir3_structs_new.ml" 199 6688 6720 "ir3_structs_new.ml" 199 6688 6721
+type(
+  string
+)
+ident(
+  def s "ir3_structs_new.ml" 200 6722 6755 "ir3_structs_new.ml" 200 6722 6756
+)
+"ir3_structs_new.ml" 199 6688 6708 "ir3_structs_new.ml" 199 6688 6721
+type(
+  ir3_op_new
+)
+"ir3_structs_new.ml" 199 6688 6694 "ir3_structs_new.ml" 199 6688 6721
+type(
+  ir3_op_new
+)
+"ir3_structs_new.ml" 200 6722 6738 "ir3_structs_new.ml" 200 6722 6739
+type(
+  string
+)
+ident(
+  def s "ir3_structs_new.ml" 200 6722 6755 "ir3_structs_new.ml" 200 6722 6756
+)
+"ir3_structs_new.ml" 200 6722 6725 "ir3_structs_new.ml" 200 6722 6739
+type(
+  ir3_op_new
+)
+"ir3_structs_new.ml" 199 6688 6694 "ir3_structs_new.ml" 200 6722 6739
+type(
+  ir3_op_new
+)
+"ir3_structs_new.ml" 200 6722 6750 "ir3_structs_new.ml" 200 6722 6751
+type(
+  string
+)
+ident(
+  def s "ir3_structs_new.ml" 200 6722 6755 "ir3_structs_new.ml" 200 6722 6756
+)
+"ir3_structs_new.ml" 200 6722 6742 "ir3_structs_new.ml" 200 6722 6751
+type(
+  ir3_op_new
+)
+"ir3_structs_new.ml" 199 6688 6694 "ir3_structs_new.ml" 200 6722 6751
+type(
+  ir3_op_new
+)
+"ir3_structs_new.ml" 200 6722 6755 "ir3_structs_new.ml" 200 6722 6756
+type(
+  string
+)
+ident(
+  int_ref s "ir3_structs_new.ml" 199 6688 6704 "ir3_structs_new.ml" 199 6688 6705
+)
+"ir3_structs_new.ml" 198 6673 6675 "ir3_structs_new.ml" 200 6722 6756
+type(
+  string
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 203 6785 6793 "ir3_structs_new.ml" 203 6785 6815
+type(
+  ir3_type_new -> string
+)
+ident(
+  def string_of_ir3_type_new "ir3_structs_new.ml" 203 6785 6785 "ir3_structs_new.ml" 1 0 -1
+)
+"ir3_structs_new.ml" 203 6785 6817 "ir3_structs_new.ml" 203 6785 6818
+type(
+  ir3_type_new
+)
+ident(
+  def e "ir3_structs_new.ml" 203 6785 6832 "ir3_structs_new.ml" 210 6962 6978
+)
+"ir3_structs_new.ml" 204 6842 6850 "ir3_structs_new.ml" 204 6842 6851
+type(
+  ir3_type_new
+)
+ident(
+  int_ref e "ir3_structs_new.ml" 203 6785 6817 "ir3_structs_new.ml" 203 6785 6818
+)
+"ir3_structs_new.ml" 205 6857 6863 "ir3_structs_new.ml" 205 6857 6868
+type(
+  ir3_type_new
+)
+"ir3_structs_new.ml" 205 6857 6872 "ir3_structs_new.ml" 205 6857 6878
+type(
+  string
+)
+"ir3_structs_new.ml" 206 6879 6885 "ir3_structs_new.ml" 206 6879 6889
+type(
+  ir3_type_new
+)
+"ir3_structs_new.ml" 206 6879 6893 "ir3_structs_new.ml" 206 6879 6898
+type(
+  string
+)
+"ir3_structs_new.ml" 207 6899 6905 "ir3_structs_new.ml" 207 6899 6912
+type(
+  ir3_type_new
+)
+"ir3_structs_new.ml" 207 6899 6916 "ir3_structs_new.ml" 207 6899 6924
+type(
+  string
+)
+"ir3_structs_new.ml" 208 6925 6928 "ir3_structs_new.ml" 208 6925 6933
+type(
+  ir3_type_new
+)
+"ir3_structs_new.ml" 208 6925 6937 "ir3_structs_new.ml" 208 6925 6943
+type(
+  string
+)
+"ir3_structs_new.ml" 209 6944 6955 "ir3_structs_new.ml" 209 6944 6956
+type(
+  MOOL_structs.class_name
+)
+ident(
+  def c "ir3_structs_new.ml" 209 6944 6960 "ir3_structs_new.ml" 209 6944 6961
+)
+"ir3_structs_new.ml" 209 6944 6947 "ir3_structs_new.ml" 209 6944 6956
+type(
+  ir3_type_new
+)
+"ir3_structs_new.ml" 209 6944 6960 "ir3_structs_new.ml" 209 6944 6961
+type(
+  MOOL_structs.class_name
+)
+ident(
+  int_ref c "ir3_structs_new.ml" 209 6944 6955 "ir3_structs_new.ml" 209 6944 6956
+)
+"ir3_structs_new.ml" 210 6962 6965 "ir3_structs_new.ml" 210 6962 6972
+type(
+  ir3_type_new
+)
+"ir3_structs_new.ml" 210 6962 6976 "ir3_structs_new.ml" 210 6962 6978
+type(
+  string
+)
+"ir3_structs_new.ml" 204 6842 6844 "ir3_structs_new.ml" 210 6962 6978
+type(
+  string
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 212 6980 6984 "ir3_structs_new.ml" 212 6980 7004
+type(
+  reg_or_mem -> string
+)
+ident(
+  def string_of_reg_or_mem "ir3_structs_new.ml" 218 7147 7147 "ir3_structs_new.ml" 1 0 -1
+)
+"ir3_structs_new.ml" 212 6980 7006 "ir3_structs_new.ml" 212 6980 7007
+type(
+  reg_or_mem
+)
+ident(
+  def e "ir3_structs_new.ml" 212 6980 7019 "ir3_structs_new.ml" 215 7075 7103
+)
+"ir3_structs_new.ml" 213 7029 7039 "ir3_structs_new.ml" 213 7029 7040
+type(
+  reg_or_mem
+)
+ident(
+  int_ref e "ir3_structs_new.ml" 212 6980 7006 "ir3_structs_new.ml" 212 6980 7007
+)
+"ir3_structs_new.ml" 214 7046 7056 "ir3_structs_new.ml" 214 7046 7057
+type(
+  string
+)
+ident(
+  def r "ir3_structs_new.ml" 214 7046 7061 "ir3_structs_new.ml" 214 7046 7074
+)
+"ir3_structs_new.ml" 214 7046 7052 "ir3_structs_new.ml" 214 7046 7057
+type(
+  reg_or_mem
+)
+"ir3_structs_new.ml" 214 7046 7061 "ir3_structs_new.ml" 214 7046 7068
+type(
+  string
+)
+"ir3_structs_new.ml" 214 7046 7068 "ir3_structs_new.ml" 214 7046 7069
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 214 7046 7069 "ir3_structs_new.ml" 214 7046 7070
+type(
+  string
+)
+ident(
+  int_ref r "ir3_structs_new.ml" 214 7046 7056 "ir3_structs_new.ml" 214 7046 7057
+)
+"ir3_structs_new.ml" 214 7046 7070 "ir3_structs_new.ml" 214 7046 7071
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 214 7046 7071 "ir3_structs_new.ml" 214 7046 7074
+type(
+  string
+)
+"ir3_structs_new.ml" 214 7046 7069 "ir3_structs_new.ml" 214 7046 7074
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 214 7046 7061 "ir3_structs_new.ml" 214 7046 7074
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 215 7075 7085 "ir3_structs_new.ml" 215 7075 7086
+type(
+  string
+)
+ident(
+  def m "ir3_structs_new.ml" 215 7075 7090 "ir3_structs_new.ml" 215 7075 7103
+)
+"ir3_structs_new.ml" 215 7075 7081 "ir3_structs_new.ml" 215 7075 7086
+type(
+  reg_or_mem
+)
+"ir3_structs_new.ml" 215 7075 7090 "ir3_structs_new.ml" 215 7075 7097
+type(
+  string
+)
+"ir3_structs_new.ml" 215 7075 7097 "ir3_structs_new.ml" 215 7075 7098
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 215 7075 7098 "ir3_structs_new.ml" 215 7075 7099
+type(
+  string
+)
+ident(
+  int_ref m "ir3_structs_new.ml" 215 7075 7085 "ir3_structs_new.ml" 215 7075 7086
+)
+"ir3_structs_new.ml" 215 7075 7099 "ir3_structs_new.ml" 215 7075 7100
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 215 7075 7100 "ir3_structs_new.ml" 215 7075 7103
+type(
+  string
+)
+"ir3_structs_new.ml" 215 7075 7098 "ir3_structs_new.ml" 215 7075 7103
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 215 7075 7090 "ir3_structs_new.ml" 215 7075 7103
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 213 7029 7033 "ir3_structs_new.ml" 215 7075 7103
+type(
+  string
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 218 7147 7155 "ir3_structs_new.ml" 218 7147 7173
+type(
+  idc3_new -> string
+)
+ident(
+  def string_of_idc3_new "ir3_structs_new.ml" 218 7147 7147 "ir3_structs_new.ml" 1 0 -1
+)
+"ir3_structs_new.ml" 218 7147 7174 "ir3_structs_new.ml" 218 7147 7175
+type(
+  idc3_new
+)
+ident(
+  def e "ir3_structs_new.ml" 218 7147 7175 "ir3_structs_new.ml" 223 7336 7387
+)
+"ir3_structs_new.ml" 219 7185 7193 "ir3_structs_new.ml" 219 7185 7194
+type(
+  idc3_new
+)
+ident(
+  int_ref e "ir3_structs_new.ml" 218 7147 7174 "ir3_structs_new.ml" 218 7147 7175
+)
+"ir3_structs_new.ml" 220 7200 7223 "ir3_structs_new.ml" 220 7200 7224
+type(
+  bool
+)
+ident(
+  def v "ir3_structs_new.ml" 220 7200 7228 "ir3_structs_new.ml" 220 7200 7246
+)
+"ir3_structs_new.ml" 220 7200 7206 "ir3_structs_new.ml" 220 7200 7224
+type(
+  idc3_new
+)
+"ir3_structs_new.ml" 220 7200 7229 "ir3_structs_new.ml" 220 7200 7243
+type(
+  bool -> string
+)
+ident(
+  ext_ref Pervasives.string_of_bool
+)
+"ir3_structs_new.ml" 220 7200 7244 "ir3_structs_new.ml" 220 7200 7245
+type(
+  bool
+)
+ident(
+  int_ref v "ir3_structs_new.ml" 220 7200 7223 "ir3_structs_new.ml" 220 7200 7224
+)
+"ir3_structs_new.ml" 220 7200 7228 "ir3_structs_new.ml" 220 7200 7246
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 221 7247 7269 "ir3_structs_new.ml" 221 7247 7270
+type(
+  int
+)
+ident(
+  def v "ir3_structs_new.ml" 221 7247 7274 "ir3_structs_new.ml" 221 7247 7291
+)
+"ir3_structs_new.ml" 221 7247 7253 "ir3_structs_new.ml" 221 7247 7270
+type(
+  idc3_new
+)
+"ir3_structs_new.ml" 221 7247 7275 "ir3_structs_new.ml" 221 7247 7288
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"ir3_structs_new.ml" 221 7247 7289 "ir3_structs_new.ml" 221 7247 7290
+type(
+  int
+)
+ident(
+  int_ref v "ir3_structs_new.ml" 221 7247 7269 "ir3_structs_new.ml" 221 7247 7270
+)
+"ir3_structs_new.ml" 221 7247 7274 "ir3_structs_new.ml" 221 7247 7291
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 222 7292 7314 "ir3_structs_new.ml" 222 7292 7315
+type(
+  string
+)
+ident(
+  def v "ir3_structs_new.ml" 222 7292 7319 "ir3_structs_new.ml" 222 7292 7334
+)
+"ir3_structs_new.ml" 222 7292 7295 "ir3_structs_new.ml" 222 7292 7315
+type(
+  idc3_new
+)
+"ir3_structs_new.ml" 222 7292 7319 "ir3_structs_new.ml" 222 7292 7323
+type(
+  string
+)
+"ir3_structs_new.ml" 222 7292 7324 "ir3_structs_new.ml" 222 7292 7325
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 222 7292 7326 "ir3_structs_new.ml" 222 7292 7327
+type(
+  string
+)
+ident(
+  int_ref v "ir3_structs_new.ml" 222 7292 7314 "ir3_structs_new.ml" 222 7292 7315
+)
+"ir3_structs_new.ml" 222 7292 7328 "ir3_structs_new.ml" 222 7292 7329
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 222 7292 7330 "ir3_structs_new.ml" 222 7292 7334
+type(
+  string
+)
+"ir3_structs_new.ml" 222 7292 7326 "ir3_structs_new.ml" 222 7292 7334
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 222 7292 7319 "ir3_structs_new.ml" 222 7292 7334
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 223 7336 7352 "ir3_structs_new.ml" 223 7336 7353
+type(
+  string
+)
+ident(
+  def v "ir3_structs_new.ml" 223 7336 7361 "ir3_structs_new.ml" 223 7336 7387
+)
+"ir3_structs_new.ml" 223 7336 7355 "ir3_structs_new.ml" 223 7336 7356
+type(
+  reg_or_mem
+)
+ident(
+  def m "ir3_structs_new.ml" 223 7336 7361 "ir3_structs_new.ml" 223 7336 7387
+)
+"ir3_structs_new.ml" 223 7336 7351 "ir3_structs_new.ml" 223 7336 7357
+type(
+  id3_new
+)
+"ir3_structs_new.ml" 223 7336 7342 "ir3_structs_new.ml" 223 7336 7357
+type(
+  idc3_new
+)
+"ir3_structs_new.ml" 223 7336 7361 "ir3_structs_new.ml" 223 7336 7362
+type(
+  string
+)
+ident(
+  int_ref v "ir3_structs_new.ml" 223 7336 7352 "ir3_structs_new.ml" 223 7336 7353
+)
+"ir3_structs_new.ml" 223 7336 7363 "ir3_structs_new.ml" 223 7336 7364
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 223 7336 7365 "ir3_structs_new.ml" 223 7336 7385
+type(
+  reg_or_mem -> string
+)
+ident(
+  int_ref string_of_reg_or_mem "ir3_structs_new.ml" 212 6980 6984 "ir3_structs_new.ml" 212 6980 7004
+)
+"ir3_structs_new.ml" 223 7336 7386 "ir3_structs_new.ml" 223 7336 7387
+type(
+  reg_or_mem
+)
+ident(
+  int_ref m "ir3_structs_new.ml" 223 7336 7355 "ir3_structs_new.ml" 223 7336 7356
+)
+"ir3_structs_new.ml" 223 7336 7365 "ir3_structs_new.ml" 223 7336 7387
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 223 7336 7361 "ir3_structs_new.ml" 223 7336 7387
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 219 7185 7187 "ir3_structs_new.ml" 223 7336 7387
+type(
+  string
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 226 7431 7435 "ir3_structs_new.ml" 226 7431 7456
+type(
+  ir3_exp_new -> string
+)
+ident(
+  def string_of_ir3_exp_new "ir3_structs_new.ml" 243 8084 8084 "ir3_structs_new.ml" 1 0 -1
+)
+"ir3_structs_new.ml" 226 7431 7458 "ir3_structs_new.ml" 226 7431 7459
+type(
+  ir3_exp_new
+)
+ident(
+  def e "ir3_structs_new.ml" 226 7431 7472 "ir3_structs_new.ml" 239 8003 8046
+)
+"ir3_structs_new.ml" 227 7482 7490 "ir3_structs_new.ml" 227 7482 7491
+type(
+  ir3_exp_new
+)
+ident(
+  int_ref e "ir3_structs_new.ml" 226 7431 7458 "ir3_structs_new.ml" 226 7431 7459
+)
+"ir3_structs_new.ml" 228 7497 7518 "ir3_structs_new.ml" 228 7497 7520
+type(
+  ir3_op_new
+)
+ident(
+  def op "ir3_structs_new.ml" 229 7530 7532 "ir3_structs_new.ml" 229 7530 7598
+)
+"ir3_structs_new.ml" 228 7497 7521 "ir3_structs_new.ml" 228 7497 7524
+type(
+  idc3_new
+)
+ident(
+  def arg "ir3_structs_new.ml" 229 7530 7532 "ir3_structs_new.ml" 229 7530 7598
+)
+"ir3_structs_new.ml" 228 7497 7503 "ir3_structs_new.ml" 228 7497 7525
+type(
+  ir3_exp_new
+)
+"ir3_structs_new.ml" 229 7530 7532 "ir3_structs_new.ml" 229 7530 7535
+type(
+  string
+)
+"ir3_structs_new.ml" 229 7530 7536 "ir3_structs_new.ml" 229 7530 7537
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 229 7530 7538 "ir3_structs_new.ml" 229 7530 7558
+type(
+  ir3_op_new -> string
+)
+ident(
+  int_ref string_of_ir3_op_new "ir3_structs_new.ml" 197 6624 6628 "ir3_structs_new.ml" 197 6624 6648
+)
+"ir3_structs_new.ml" 229 7530 7559 "ir3_structs_new.ml" 229 7530 7561
+type(
+  ir3_op_new
+)
+ident(
+  int_ref op "ir3_structs_new.ml" 228 7497 7518 "ir3_structs_new.ml" 228 7497 7520
+)
+"ir3_structs_new.ml" 229 7530 7538 "ir3_structs_new.ml" 229 7530 7561
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 229 7530 7562 "ir3_structs_new.ml" 229 7530 7563
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 229 7530 7564 "ir3_structs_new.ml" 229 7530 7568
+type(
+  string
+)
+"ir3_structs_new.ml" 229 7530 7569 "ir3_structs_new.ml" 229 7530 7570
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 229 7530 7571 "ir3_structs_new.ml" 229 7530 7589
+type(
+  idc3_new -> string
+)
+ident(
+  int_ref string_of_idc3_new "ir3_structs_new.ml" 218 7147 7155 "ir3_structs_new.ml" 218 7147 7173
+)
+"ir3_structs_new.ml" 229 7530 7590 "ir3_structs_new.ml" 229 7530 7593
+type(
+  idc3_new
+)
+ident(
+  int_ref arg "ir3_structs_new.ml" 228 7497 7521 "ir3_structs_new.ml" 228 7497 7524
+)
+"ir3_structs_new.ml" 229 7530 7570 "ir3_structs_new.ml" 229 7530 7594
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 229 7530 7594 "ir3_structs_new.ml" 229 7530 7595
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 229 7530 7595 "ir3_structs_new.ml" 229 7530 7598
+type(
+  string
+)
+"ir3_structs_new.ml" 229 7530 7570 "ir3_structs_new.ml" 229 7530 7598
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 229 7530 7564 "ir3_structs_new.ml" 229 7530 7598
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 229 7530 7538 "ir3_structs_new.ml" 229 7530 7598
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 229 7530 7532 "ir3_structs_new.ml" 229 7530 7598
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 230 7599 7621 "ir3_structs_new.ml" 230 7599 7623
+type(
+  ir3_op_new
+)
+ident(
+  def op "ir3_structs_new.ml" 231 7639 7641 "ir3_structs_new.ml" 233 7711 7744
+)
+"ir3_structs_new.ml" 230 7599 7624 "ir3_structs_new.ml" 230 7599 7628
+type(
+  idc3_new
+)
+ident(
+  def arg1 "ir3_structs_new.ml" 231 7639 7641 "ir3_structs_new.ml" 233 7711 7744
+)
+"ir3_structs_new.ml" 230 7599 7629 "ir3_structs_new.ml" 230 7599 7633
+type(
+  idc3_new
+)
+ident(
+  def arg2 "ir3_structs_new.ml" 231 7639 7641 "ir3_structs_new.ml" 233 7711 7744
+)
+"ir3_structs_new.ml" 230 7599 7605 "ir3_structs_new.ml" 230 7599 7634
+type(
+  ir3_exp_new
+)
+"ir3_structs_new.ml" 231 7639 7641 "ir3_structs_new.ml" 231 7639 7644
+type(
+  string
+)
+"ir3_structs_new.ml" 231 7639 7645 "ir3_structs_new.ml" 231 7639 7646
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 231 7639 7647 "ir3_structs_new.ml" 231 7639 7665
+type(
+  idc3_new -> string
+)
+ident(
+  int_ref string_of_idc3_new "ir3_structs_new.ml" 218 7147 7155 "ir3_structs_new.ml" 218 7147 7173
+)
+"ir3_structs_new.ml" 231 7639 7666 "ir3_structs_new.ml" 231 7639 7670
+type(
+  idc3_new
+)
+ident(
+  int_ref arg1 "ir3_structs_new.ml" 230 7599 7624 "ir3_structs_new.ml" 230 7599 7628
+)
+"ir3_structs_new.ml" 231 7639 7646 "ir3_structs_new.ml" 231 7639 7671
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 231 7639 7671 "ir3_structs_new.ml" 231 7639 7672
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 231 7639 7672 "ir3_structs_new.ml" 231 7639 7675
+type(
+  string
+)
+"ir3_structs_new.ml" 232 7676 7678 "ir3_structs_new.ml" 232 7676 7679
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 232 7676 7680 "ir3_structs_new.ml" 232 7676 7698
+type(
+  idc3_new -> string
+)
+ident(
+  int_ref string_of_idc3_new "ir3_structs_new.ml" 218 7147 7155 "ir3_structs_new.ml" 218 7147 7173
+)
+"ir3_structs_new.ml" 232 7676 7699 "ir3_structs_new.ml" 232 7676 7703
+type(
+  idc3_new
+)
+ident(
+  int_ref arg2 "ir3_structs_new.ml" 230 7599 7629 "ir3_structs_new.ml" 230 7599 7633
+)
+"ir3_structs_new.ml" 232 7676 7679 "ir3_structs_new.ml" 232 7676 7704
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 232 7676 7704 "ir3_structs_new.ml" 232 7676 7705
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 232 7676 7705 "ir3_structs_new.ml" 232 7676 7709
+type(
+  string
+)
+"ir3_structs_new.ml" 233 7711 7713 "ir3_structs_new.ml" 233 7711 7714
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 233 7711 7715 "ir3_structs_new.ml" 233 7711 7735
+type(
+  ir3_op_new -> string
+)
+ident(
+  int_ref string_of_ir3_op_new "ir3_structs_new.ml" 197 6624 6628 "ir3_structs_new.ml" 197 6624 6648
+)
+"ir3_structs_new.ml" 233 7711 7736 "ir3_structs_new.ml" 233 7711 7738
+type(
+  ir3_op_new
+)
+ident(
+  int_ref op "ir3_structs_new.ml" 230 7599 7621 "ir3_structs_new.ml" 230 7599 7623
+)
+"ir3_structs_new.ml" 233 7711 7715 "ir3_structs_new.ml" 233 7711 7738
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 233 7711 7739 "ir3_structs_new.ml" 233 7711 7740
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 233 7711 7741 "ir3_structs_new.ml" 233 7711 7744
+type(
+  string
+)
+"ir3_structs_new.ml" 233 7711 7715 "ir3_structs_new.ml" 233 7711 7744
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 232 7676 7705 "ir3_structs_new.ml" 233 7711 7744
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 232 7676 7679 "ir3_structs_new.ml" 233 7711 7744
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 231 7639 7672 "ir3_structs_new.ml" 233 7711 7744
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 231 7639 7646 "ir3_structs_new.ml" 233 7711 7744
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 231 7639 7641 "ir3_structs_new.ml" 233 7711 7744
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 234 7745 7767 "ir3_structs_new.ml" 234 7745 7770
+type(
+  string
+)
+ident(
+  def id1 "ir3_structs_new.ml" 234 7745 7788 "ir3_structs_new.ml" 234 7745 7851
+)
+"ir3_structs_new.ml" 234 7745 7771 "ir3_structs_new.ml" 234 7745 7773
+type(
+  reg_or_mem
+)
+ident(
+  def m1 "ir3_structs_new.ml" 234 7745 7788 "ir3_structs_new.ml" 234 7745 7851
+)
+"ir3_structs_new.ml" 234 7745 7766 "ir3_structs_new.ml" 234 7745 7774
+type(
+  id3_new
+)
+"ir3_structs_new.ml" 234 7745 7776 "ir3_structs_new.ml" 234 7745 7779
+type(
+  string
+)
+ident(
+  def id2 "ir3_structs_new.ml" 234 7745 7788 "ir3_structs_new.ml" 234 7745 7851
+)
+"ir3_structs_new.ml" 234 7745 7780 "ir3_structs_new.ml" 234 7745 7782
+type(
+  reg_or_mem
+)
+ident(
+  def m2 "ir3_structs_new.ml" 234 7745 7788 "ir3_structs_new.ml" 234 7745 7851
+)
+"ir3_structs_new.ml" 234 7745 7775 "ir3_structs_new.ml" 234 7745 7783
+type(
+  id3_new
+)
+"ir3_structs_new.ml" 234 7745 7748 "ir3_structs_new.ml" 234 7745 7784
+type(
+  ir3_exp_new
+)
+"ir3_structs_new.ml" 234 7745 7788 "ir3_structs_new.ml" 234 7745 7791
+type(
+  string
+)
+ident(
+  int_ref id1 "ir3_structs_new.ml" 234 7745 7767 "ir3_structs_new.ml" 234 7745 7770
+)
+"ir3_structs_new.ml" 234 7745 7791 "ir3_structs_new.ml" 234 7745 7792
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 234 7745 7793 "ir3_structs_new.ml" 234 7745 7813
+type(
+  reg_or_mem -> string
+)
+ident(
+  int_ref string_of_reg_or_mem "ir3_structs_new.ml" 212 6980 6984 "ir3_structs_new.ml" 212 6980 7004
+)
+"ir3_structs_new.ml" 234 7745 7814 "ir3_structs_new.ml" 234 7745 7816
+type(
+  reg_or_mem
+)
+ident(
+  int_ref m1 "ir3_structs_new.ml" 234 7745 7771 "ir3_structs_new.ml" 234 7745 7773
+)
+"ir3_structs_new.ml" 234 7745 7792 "ir3_structs_new.ml" 234 7745 7817
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 234 7745 7817 "ir3_structs_new.ml" 234 7745 7818
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 234 7745 7818 "ir3_structs_new.ml" 234 7745 7821
+type(
+  string
+)
+"ir3_structs_new.ml" 234 7745 7821 "ir3_structs_new.ml" 234 7745 7822
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 234 7745 7822 "ir3_structs_new.ml" 234 7745 7825
+type(
+  string
+)
+ident(
+  int_ref id2 "ir3_structs_new.ml" 234 7745 7776 "ir3_structs_new.ml" 234 7745 7779
+)
+"ir3_structs_new.ml" 234 7745 7825 "ir3_structs_new.ml" 234 7745 7826
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 234 7745 7827 "ir3_structs_new.ml" 234 7745 7847
+type(
+  reg_or_mem -> string
+)
+ident(
+  int_ref string_of_reg_or_mem "ir3_structs_new.ml" 212 6980 6984 "ir3_structs_new.ml" 212 6980 7004
+)
+"ir3_structs_new.ml" 234 7745 7848 "ir3_structs_new.ml" 234 7745 7850
+type(
+  reg_or_mem
+)
+ident(
+  int_ref m2 "ir3_structs_new.ml" 234 7745 7780 "ir3_structs_new.ml" 234 7745 7782
+)
+"ir3_structs_new.ml" 234 7745 7826 "ir3_structs_new.ml" 234 7745 7851
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 234 7745 7822 "ir3_structs_new.ml" 234 7745 7851
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 234 7745 7818 "ir3_structs_new.ml" 234 7745 7851
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 234 7745 7792 "ir3_structs_new.ml" 234 7745 7851
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 234 7745 7788 "ir3_structs_new.ml" 234 7745 7851
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 235 7852 7876 "ir3_structs_new.ml" 235 7852 7877
+type(
+  string
+)
+ident(
+  def c "ir3_structs_new.ml" 235 7852 7881 "ir3_structs_new.ml" 235 7852 7898
+)
+"ir3_structs_new.ml" 235 7852 7858 "ir3_structs_new.ml" 235 7852 7877
+type(
+  ir3_exp_new
+)
+"ir3_structs_new.ml" 235 7852 7881 "ir3_structs_new.ml" 235 7852 7887
+type(
+  string
+)
+"ir3_structs_new.ml" 235 7852 7888 "ir3_structs_new.ml" 235 7852 7889
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 235 7852 7890 "ir3_structs_new.ml" 235 7852 7891
+type(
+  string
+)
+ident(
+  int_ref c "ir3_structs_new.ml" 235 7852 7876 "ir3_structs_new.ml" 235 7852 7877
+)
+"ir3_structs_new.ml" 235 7852 7892 "ir3_structs_new.ml" 235 7852 7893
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 235 7852 7894 "ir3_structs_new.ml" 235 7852 7898
+type(
+  string
+)
+"ir3_structs_new.ml" 235 7852 7890 "ir3_structs_new.ml" 235 7852 7898
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 235 7852 7881 "ir3_structs_new.ml" 235 7852 7898
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 236 7899 7919 "ir3_structs_new.ml" 236 7899 7921
+type(
+  string
+)
+ident(
+  def id "ir3_structs_new.ml" 237 7935 7937 "ir3_structs_new.ml" 238 7945 8002
+)
+"ir3_structs_new.ml" 236 7899 7922 "ir3_structs_new.ml" 236 7899 7923
+type(
+  reg_or_mem
+)
+"ir3_structs_new.ml" 236 7899 7918 "ir3_structs_new.ml" 236 7899 7924
+type(
+  id3_new
+)
+"ir3_structs_new.ml" 236 7899 7925 "ir3_structs_new.ml" 236 7899 7929
+type(
+  idc3_new list
+)
+ident(
+  def args "ir3_structs_new.ml" 237 7935 7937 "ir3_structs_new.ml" 238 7945 8002
+)
+"ir3_structs_new.ml" 236 7899 7905 "ir3_structs_new.ml" 236 7899 7930
+type(
+  ir3_exp_new
+)
+"ir3_structs_new.ml" 237 7935 7937 "ir3_structs_new.ml" 237 7935 7940
+type(
+  string
+)
+"ir3_structs_new.ml" 237 7935 7940 "ir3_structs_new.ml" 237 7935 7941
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 237 7935 7942 "ir3_structs_new.ml" 237 7935 7944
+type(
+  string
+)
+ident(
+  int_ref id "ir3_structs_new.ml" 236 7899 7919 "ir3_structs_new.ml" 236 7899 7921
+)
+"ir3_structs_new.ml" 238 7945 7947 "ir3_structs_new.ml" 238 7945 7948
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 238 7945 7948 "ir3_structs_new.ml" 238 7945 7951
+type(
+  string
+)
+"ir3_structs_new.ml" 238 7945 7951 "ir3_structs_new.ml" 238 7945 7952
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 238 7945 7953 "ir3_structs_new.ml" 238 7945 7967
+type(
+  idc3_new list -> (idc3_new -> string) -> string -> string
+)
+ident(
+  int_ref string_of_list "ir3_structs_new.ml" 183 6145 6149 "ir3_structs_new.ml" 183 6145 6163
+)
+"ir3_structs_new.ml" 238 7945 7968 "ir3_structs_new.ml" 238 7945 7972
+type(
+  idc3_new list
+)
+ident(
+  int_ref args "ir3_structs_new.ml" 236 7899 7925 "ir3_structs_new.ml" 236 7899 7929
+)
+"ir3_structs_new.ml" 238 7945 7973 "ir3_structs_new.ml" 238 7945 7991
+type(
+  idc3_new -> string
+)
+ident(
+  int_ref string_of_idc3_new "ir3_structs_new.ml" 218 7147 7155 "ir3_structs_new.ml" 218 7147 7173
+)
+"ir3_structs_new.ml" 238 7945 7992 "ir3_structs_new.ml" 238 7945 7995
+type(
+  string
+)
+"ir3_structs_new.ml" 238 7945 7952 "ir3_structs_new.ml" 238 7945 7996
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 238 7945 7996 "ir3_structs_new.ml" 238 7945 7997
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 238 7945 7998 "ir3_structs_new.ml" 238 7945 8002
+type(
+  string
+)
+"ir3_structs_new.ml" 238 7945 7952 "ir3_structs_new.ml" 238 7945 8002
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 238 7945 7948 "ir3_structs_new.ml" 238 7945 8002
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 237 7935 7942 "ir3_structs_new.ml" 238 7945 8002
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 237 7935 7937 "ir3_structs_new.ml" 238 7945 8002
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 239 8003 8019 "ir3_structs_new.ml" 239 8003 8020
+type(
+  idc3_new
+)
+ident(
+  def e "ir3_structs_new.ml" 239 8003 8024 "ir3_structs_new.ml" 239 8003 8046
+)
+"ir3_structs_new.ml" 239 8003 8006 "ir3_structs_new.ml" 239 8003 8020
+type(
+  ir3_exp_new
+)
+"ir3_structs_new.ml" 239 8003 8025 "ir3_structs_new.ml" 239 8003 8043
+type(
+  idc3_new -> string
+)
+ident(
+  int_ref string_of_idc3_new "ir3_structs_new.ml" 218 7147 7155 "ir3_structs_new.ml" 218 7147 7173
+)
+"ir3_structs_new.ml" 239 8003 8044 "ir3_structs_new.ml" 239 8003 8045
+type(
+  idc3_new
+)
+ident(
+  int_ref e "ir3_structs_new.ml" 239 8003 8019 "ir3_structs_new.ml" 239 8003 8020
+)
+"ir3_structs_new.ml" 239 8003 8024 "ir3_structs_new.ml" 239 8003 8046
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 227 7482 7484 "ir3_structs_new.ml" 239 8003 8046
+type(
+  string
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 243 8084 8088 "ir3_structs_new.ml" 243 8084 8110
+type(
+  ir3_stmt_new -> string
+)
+ident(
+  def string_of_ir3_stmt_new "ir3_structs_new.ml" 276 9465 9465 "ir3_structs_new.ml" 1 0 -1
+)
+"ir3_structs_new.ml" 243 8084 8112 "ir3_structs_new.ml" 243 8084 8113
+type(
+  ir3_stmt_new
+)
+ident(
+  def s "ir3_structs_new.ml" 243 8084 8127 "ir3_structs_new.ml" 273 9357 9421
+)
+"ir3_structs_new.ml" 244 8137 8145 "ir3_structs_new.ml" 244 8137 8146
+type(
+  ir3_stmt_new
+)
+ident(
+  int_ref s "ir3_structs_new.ml" 243 8084 8112 "ir3_structs_new.ml" 243 8084 8113
+)
+"ir3_structs_new.ml" 245 8152 8166 "ir3_structs_new.ml" 245 8152 8167
+type(
+  label3_new
+)
+ident(
+  def l "ir3_structs_new.ml" 245 8152 8171 "ir3_structs_new.ml" 245 8152 8206
+)
+"ir3_structs_new.ml" 245 8152 8155 "ir3_structs_new.ml" 245 8152 8167
+type(
+  ir3_stmt_new
+)
+"ir3_structs_new.ml" 245 8152 8171 "ir3_structs_new.ml" 245 8152 8180
+type(
+  string
+)
+"ir3_structs_new.ml" 245 8152 8181 "ir3_structs_new.ml" 245 8152 8182
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 245 8152 8184 "ir3_structs_new.ml" 245 8152 8197
+type(
+  label3_new -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"ir3_structs_new.ml" 245 8152 8198 "ir3_structs_new.ml" 245 8152 8199
+type(
+  label3_new
+)
+ident(
+  int_ref l "ir3_structs_new.ml" 245 8152 8166 "ir3_structs_new.ml" 245 8152 8167
+)
+"ir3_structs_new.ml" 245 8152 8183 "ir3_structs_new.ml" 245 8152 8200
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 245 8152 8201 "ir3_structs_new.ml" 245 8152 8202
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 245 8152 8203 "ir3_structs_new.ml" 245 8152 8206
+type(
+  string
+)
+"ir3_structs_new.ml" 245 8152 8183 "ir3_structs_new.ml" 245 8152 8206
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 245 8152 8171 "ir3_structs_new.ml" 245 8152 8206
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 246 8207 8226 "ir3_structs_new.ml" 246 8207 8227
+type(
+  ir3_exp_new
+)
+ident(
+  def e "ir3_structs_new.ml" 247 8236 8238 "ir3_structs_new.ml" 248 8287 8324
+)
+"ir3_structs_new.ml" 246 8207 8229 "ir3_structs_new.ml" 246 8207 8230
+type(
+  label3_new
+)
+ident(
+  def l "ir3_structs_new.ml" 247 8236 8238 "ir3_structs_new.ml" 248 8287 8324
+)
+"ir3_structs_new.ml" 246 8207 8213 "ir3_structs_new.ml" 246 8207 8231
+type(
+  ir3_stmt_new
+)
+"ir3_structs_new.ml" 247 8236 8238 "ir3_structs_new.ml" 247 8236 8247
+type(
+  unit -> string
+)
+ident(
+  int_ref print_tab "ir3_structs_new.ml" 176 5881 5889 "ir3_structs_new.ml" 176 5881 5898
+)
+"ir3_structs_new.ml" 247 8236 8247 "ir3_structs_new.ml" 247 8236 8249
+type(
+  unit
+)
+"ir3_structs_new.ml" 247 8236 8238 "ir3_structs_new.ml" 247 8236 8249
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 247 8236 8250 "ir3_structs_new.ml" 247 8236 8251
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 247 8236 8252 "ir3_structs_new.ml" 247 8236 8257
+type(
+  string
+)
+"ir3_structs_new.ml" 247 8236 8258 "ir3_structs_new.ml" 247 8236 8259
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 247 8236 8261 "ir3_structs_new.ml" 247 8236 8282
+type(
+  ir3_exp_new -> string
+)
+ident(
+  int_ref string_of_ir3_exp_new "ir3_structs_new.ml" 226 7431 7435 "ir3_structs_new.ml" 226 7431 7456
+)
+"ir3_structs_new.ml" 247 8236 8283 "ir3_structs_new.ml" 247 8236 8284
+type(
+  ir3_exp_new
+)
+ident(
+  int_ref e "ir3_structs_new.ml" 246 8207 8226 "ir3_structs_new.ml" 246 8207 8227
+)
+"ir3_structs_new.ml" 247 8236 8260 "ir3_structs_new.ml" 247 8236 8285
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 248 8287 8289 "ir3_structs_new.ml" 248 8287 8290
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 248 8287 8290 "ir3_structs_new.ml" 248 8287 8299
+type(
+  string
+)
+"ir3_structs_new.ml" 248 8287 8300 "ir3_structs_new.ml" 248 8287 8301
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 248 8287 8303 "ir3_structs_new.ml" 248 8287 8316
+type(
+  label3_new -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"ir3_structs_new.ml" 248 8287 8317 "ir3_structs_new.ml" 248 8287 8318
+type(
+  label3_new
+)
+ident(
+  int_ref l "ir3_structs_new.ml" 246 8207 8229 "ir3_structs_new.ml" 246 8207 8230
+)
+"ir3_structs_new.ml" 248 8287 8302 "ir3_structs_new.ml" 248 8287 8319
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 248 8287 8320 "ir3_structs_new.ml" 248 8287 8321
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 248 8287 8321 "ir3_structs_new.ml" 248 8287 8324
+type(
+  string
+)
+"ir3_structs_new.ml" 248 8287 8302 "ir3_structs_new.ml" 248 8287 8324
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 248 8287 8290 "ir3_structs_new.ml" 248 8287 8324
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 247 8236 8260 "ir3_structs_new.ml" 248 8287 8324
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 247 8236 8252 "ir3_structs_new.ml" 248 8287 8324
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 247 8236 8238 "ir3_structs_new.ml" 248 8287 8324
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 249 8325 8340 "ir3_structs_new.ml" 249 8325 8341
+ident(
+  def l "ir3_structs_new.ml" 250 8347 8349 "ir3_structs_new.ml" 250 8347 8396
+)
+"ir3_structs_new.ml" 249 8325 8339 "ir3_structs_new.ml" 249 8325 8342
+type(
+  label3_new
+)
+"ir3_structs_new.ml" 249 8325 8328 "ir3_structs_new.ml" 249 8325 8342
+type(
+  ir3_stmt_new
+)
+"ir3_structs_new.ml" 250 8347 8349 "ir3_structs_new.ml" 250 8347 8358
+type(
+  unit -> string
+)
+ident(
+  int_ref print_tab "ir3_structs_new.ml" 176 5881 5889 "ir3_structs_new.ml" 176 5881 5898
+)
+"ir3_structs_new.ml" 250 8347 8358 "ir3_structs_new.ml" 250 8347 8360
+type(
+  unit
+)
+"ir3_structs_new.ml" 250 8347 8349 "ir3_structs_new.ml" 250 8347 8360
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 250 8347 8361 "ir3_structs_new.ml" 250 8347 8362
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 250 8347 8363 "ir3_structs_new.ml" 250 8347 8370
+type(
+  string
+)
+"ir3_structs_new.ml" 250 8347 8371 "ir3_structs_new.ml" 250 8347 8372
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 250 8347 8374 "ir3_structs_new.ml" 250 8347 8387
+type(
+  label3_new -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"ir3_structs_new.ml" 250 8347 8388 "ir3_structs_new.ml" 250 8347 8389
+type(
+  label3_new
+)
+ident(
+  int_ref l "ir3_structs_new.ml" 249 8325 8339 "ir3_structs_new.ml" 249 8325 8342
+)
+"ir3_structs_new.ml" 250 8347 8373 "ir3_structs_new.ml" 250 8347 8390
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 250 8347 8391 "ir3_structs_new.ml" 250 8347 8392
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 250 8347 8393 "ir3_structs_new.ml" 250 8347 8396
+type(
+  string
+)
+"ir3_structs_new.ml" 250 8347 8373 "ir3_structs_new.ml" 250 8347 8396
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 250 8347 8363 "ir3_structs_new.ml" 250 8347 8396
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 250 8347 8349 "ir3_structs_new.ml" 250 8347 8396
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 251 8397 8415 "ir3_structs_new.ml" 251 8397 8418
+type(
+  string
+)
+ident(
+  def idc "ir3_structs_new.ml" 251 8397 8425 "ir3_structs_new.ml" 251 8397 8487
+)
+"ir3_structs_new.ml" 251 8397 8419 "ir3_structs_new.ml" 251 8397 8420
+type(
+  reg_or_mem
+)
+ident(
+  def m "ir3_structs_new.ml" 251 8397 8425 "ir3_structs_new.ml" 251 8397 8487
+)
+"ir3_structs_new.ml" 251 8397 8414 "ir3_structs_new.ml" 251 8397 8421
+type(
+  id3_new
+)
+"ir3_structs_new.ml" 251 8397 8400 "ir3_structs_new.ml" 251 8397 8421
+type(
+  ir3_stmt_new
+)
+"ir3_structs_new.ml" 251 8397 8425 "ir3_structs_new.ml" 251 8397 8434
+type(
+  unit -> string
+)
+ident(
+  int_ref print_tab "ir3_structs_new.ml" 176 5881 5889 "ir3_structs_new.ml" 176 5881 5898
+)
+"ir3_structs_new.ml" 251 8397 8434 "ir3_structs_new.ml" 251 8397 8436
+type(
+  unit
+)
+"ir3_structs_new.ml" 251 8397 8425 "ir3_structs_new.ml" 251 8397 8436
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 251 8397 8437 "ir3_structs_new.ml" 251 8397 8438
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 251 8397 8439 "ir3_structs_new.ml" 251 8397 8448
+type(
+  string
+)
+"ir3_structs_new.ml" 251 8397 8449 "ir3_structs_new.ml" 251 8397 8450
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 251 8397 8451 "ir3_structs_new.ml" 251 8397 8454
+type(
+  string
+)
+ident(
+  int_ref idc "ir3_structs_new.ml" 251 8397 8415 "ir3_structs_new.ml" 251 8397 8418
+)
+"ir3_structs_new.ml" 251 8397 8455 "ir3_structs_new.ml" 251 8397 8456
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 251 8397 8458 "ir3_structs_new.ml" 251 8397 8478
+type(
+  reg_or_mem -> string
+)
+ident(
+  int_ref string_of_reg_or_mem "ir3_structs_new.ml" 212 6980 6984 "ir3_structs_new.ml" 212 6980 7004
+)
+"ir3_structs_new.ml" 251 8397 8479 "ir3_structs_new.ml" 251 8397 8480
+type(
+  reg_or_mem
+)
+ident(
+  int_ref m "ir3_structs_new.ml" 251 8397 8419 "ir3_structs_new.ml" 251 8397 8420
+)
+"ir3_structs_new.ml" 251 8397 8457 "ir3_structs_new.ml" 251 8397 8481
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 251 8397 8482 "ir3_structs_new.ml" 251 8397 8483
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 251 8397 8483 "ir3_structs_new.ml" 251 8397 8487
+type(
+  string
+)
+"ir3_structs_new.ml" 251 8397 8457 "ir3_structs_new.ml" 251 8397 8487
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 251 8397 8451 "ir3_structs_new.ml" 251 8397 8487
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 251 8397 8439 "ir3_structs_new.ml" 251 8397 8487
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 251 8397 8425 "ir3_structs_new.ml" 251 8397 8487
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 252 8488 8506 "ir3_structs_new.ml" 252 8488 8509
+type(
+  idc3_new
+)
+ident(
+  def idc "ir3_structs_new.ml" 252 8488 8513 "ir3_structs_new.ml" 253 8526 8573
+)
+"ir3_structs_new.ml" 252 8488 8491 "ir3_structs_new.ml" 252 8488 8509
+type(
+  ir3_stmt_new
+)
+"ir3_structs_new.ml" 252 8488 8513 "ir3_structs_new.ml" 252 8488 8522
+type(
+  unit -> string
+)
+ident(
+  int_ref print_tab "ir3_structs_new.ml" 176 5881 5889 "ir3_structs_new.ml" 176 5881 5898
+)
+"ir3_structs_new.ml" 252 8488 8522 "ir3_structs_new.ml" 252 8488 8524
+type(
+  unit
+)
+"ir3_structs_new.ml" 252 8488 8513 "ir3_structs_new.ml" 252 8488 8524
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 253 8526 8528 "ir3_structs_new.ml" 253 8526 8529
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 253 8526 8530 "ir3_structs_new.ml" 253 8526 8540
+type(
+  string
+)
+"ir3_structs_new.ml" 253 8526 8541 "ir3_structs_new.ml" 253 8526 8542
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 253 8526 8544 "ir3_structs_new.ml" 253 8526 8562
+type(
+  idc3_new -> string
+)
+ident(
+  int_ref string_of_idc3_new "ir3_structs_new.ml" 218 7147 7155 "ir3_structs_new.ml" 218 7147 7173
+)
+"ir3_structs_new.ml" 253 8526 8563 "ir3_structs_new.ml" 253 8526 8566
+type(
+  idc3_new
+)
+ident(
+  int_ref idc "ir3_structs_new.ml" 252 8488 8506 "ir3_structs_new.ml" 252 8488 8509
+)
+"ir3_structs_new.ml" 253 8526 8543 "ir3_structs_new.ml" 253 8526 8567
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 253 8526 8568 "ir3_structs_new.ml" 253 8526 8569
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 253 8526 8569 "ir3_structs_new.ml" 253 8526 8573
+type(
+  string
+)
+"ir3_structs_new.ml" 253 8526 8543 "ir3_structs_new.ml" 253 8526 8573
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 253 8526 8530 "ir3_structs_new.ml" 253 8526 8573
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 252 8488 8513 "ir3_structs_new.ml" 253 8526 8573
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 254 8574 8598 "ir3_structs_new.ml" 254 8574 8600
+type(
+  string
+)
+ident(
+  def id "ir3_structs_new.ml" 255 8612 8614 "ir3_structs_new.ml" 255 8612 8689
+)
+"ir3_structs_new.ml" 254 8574 8601 "ir3_structs_new.ml" 254 8574 8602
+type(
+  reg_or_mem
+)
+ident(
+  def m "ir3_structs_new.ml" 255 8612 8614 "ir3_structs_new.ml" 255 8612 8689
+)
+"ir3_structs_new.ml" 254 8574 8597 "ir3_structs_new.ml" 254 8574 8603
+type(
+  id3_new
+)
+"ir3_structs_new.ml" 254 8574 8604 "ir3_structs_new.ml" 254 8574 8605
+type(
+  ir3_exp_new
+)
+ident(
+  def e "ir3_structs_new.ml" 255 8612 8614 "ir3_structs_new.ml" 255 8612 8689
+)
+"ir3_structs_new.ml" 254 8574 8580 "ir3_structs_new.ml" 254 8574 8606
+type(
+  ir3_stmt_new
+)
+"ir3_structs_new.ml" 255 8612 8614 "ir3_structs_new.ml" 255 8612 8623
+type(
+  unit -> string
+)
+ident(
+  int_ref print_tab "ir3_structs_new.ml" 176 5881 5889 "ir3_structs_new.ml" 176 5881 5898
+)
+"ir3_structs_new.ml" 255 8612 8623 "ir3_structs_new.ml" 255 8612 8625
+type(
+  unit
+)
+"ir3_structs_new.ml" 255 8612 8614 "ir3_structs_new.ml" 255 8612 8625
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 255 8612 8626 "ir3_structs_new.ml" 255 8612 8627
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 255 8612 8628 "ir3_structs_new.ml" 255 8612 8630
+type(
+  string
+)
+ident(
+  int_ref id "ir3_structs_new.ml" 254 8574 8598 "ir3_structs_new.ml" 254 8574 8600
+)
+"ir3_structs_new.ml" 255 8612 8630 "ir3_structs_new.ml" 255 8612 8631
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 255 8612 8632 "ir3_structs_new.ml" 255 8612 8652
+type(
+  reg_or_mem -> string
+)
+ident(
+  int_ref string_of_reg_or_mem "ir3_structs_new.ml" 212 6980 6984 "ir3_structs_new.ml" 212 6980 7004
+)
+"ir3_structs_new.ml" 255 8612 8653 "ir3_structs_new.ml" 255 8612 8654
+type(
+  reg_or_mem
+)
+ident(
+  int_ref m "ir3_structs_new.ml" 254 8574 8601 "ir3_structs_new.ml" 254 8574 8602
+)
+"ir3_structs_new.ml" 255 8612 8631 "ir3_structs_new.ml" 255 8612 8655
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 255 8612 8655 "ir3_structs_new.ml" 255 8612 8656
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 255 8612 8656 "ir3_structs_new.ml" 255 8612 8659
+type(
+  string
+)
+"ir3_structs_new.ml" 255 8612 8659 "ir3_structs_new.ml" 255 8612 8660
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 255 8612 8661 "ir3_structs_new.ml" 255 8612 8682
+type(
+  ir3_exp_new -> string
+)
+ident(
+  int_ref string_of_ir3_exp_new "ir3_structs_new.ml" 226 7431 7435 "ir3_structs_new.ml" 226 7431 7456
+)
+"ir3_structs_new.ml" 255 8612 8683 "ir3_structs_new.ml" 255 8612 8684
+type(
+  ir3_exp_new
+)
+ident(
+  int_ref e "ir3_structs_new.ml" 254 8574 8604 "ir3_structs_new.ml" 254 8574 8605
+)
+"ir3_structs_new.ml" 255 8612 8660 "ir3_structs_new.ml" 255 8612 8685
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 255 8612 8685 "ir3_structs_new.ml" 255 8612 8686
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 255 8612 8686 "ir3_structs_new.ml" 255 8612 8689
+type(
+  string
+)
+"ir3_structs_new.ml" 255 8612 8660 "ir3_structs_new.ml" 255 8612 8689
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 255 8612 8656 "ir3_structs_new.ml" 255 8612 8689
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 255 8612 8631 "ir3_structs_new.ml" 255 8612 8689
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 255 8612 8628 "ir3_structs_new.ml" 255 8612 8689
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 255 8612 8614 "ir3_structs_new.ml" 255 8612 8689
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 256 8690 8715 "ir3_structs_new.ml" 256 8690 8717
+type(
+  ir3_exp_new
+)
+ident(
+  def id "ir3_structs_new.ml" 257 8726 8728 "ir3_structs_new.ml" 258 8774 8806
+)
+"ir3_structs_new.ml" 256 8690 8718 "ir3_structs_new.ml" 256 8690 8719
+type(
+  ir3_exp_new
+)
+ident(
+  def e "ir3_structs_new.ml" 257 8726 8728 "ir3_structs_new.ml" 258 8774 8806
+)
+"ir3_structs_new.ml" 256 8690 8693 "ir3_structs_new.ml" 256 8690 8720
+type(
+  ir3_stmt_new
+)
+"ir3_structs_new.ml" 257 8726 8728 "ir3_structs_new.ml" 257 8726 8737
+type(
+  unit -> string
+)
+ident(
+  int_ref print_tab "ir3_structs_new.ml" 176 5881 5889 "ir3_structs_new.ml" 176 5881 5898
+)
+"ir3_structs_new.ml" 257 8726 8737 "ir3_structs_new.ml" 257 8726 8739
+type(
+  unit
+)
+"ir3_structs_new.ml" 257 8726 8728 "ir3_structs_new.ml" 257 8726 8739
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 257 8726 8740 "ir3_structs_new.ml" 257 8726 8741
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 257 8726 8743 "ir3_structs_new.ml" 257 8726 8764
+type(
+  ir3_exp_new -> string
+)
+ident(
+  int_ref string_of_ir3_exp_new "ir3_structs_new.ml" 226 7431 7435 "ir3_structs_new.ml" 226 7431 7456
+)
+"ir3_structs_new.ml" 257 8726 8765 "ir3_structs_new.ml" 257 8726 8767
+type(
+  ir3_exp_new
+)
+ident(
+  int_ref id "ir3_structs_new.ml" 256 8690 8715 "ir3_structs_new.ml" 256 8690 8717
+)
+"ir3_structs_new.ml" 257 8726 8742 "ir3_structs_new.ml" 257 8726 8768
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 257 8726 8769 "ir3_structs_new.ml" 257 8726 8770
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 257 8726 8770 "ir3_structs_new.ml" 257 8726 8773
+type(
+  string
+)
+"ir3_structs_new.ml" 258 8774 8776 "ir3_structs_new.ml" 258 8774 8777
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 258 8774 8778 "ir3_structs_new.ml" 258 8774 8799
+type(
+  ir3_exp_new -> string
+)
+ident(
+  int_ref string_of_ir3_exp_new "ir3_structs_new.ml" 226 7431 7435 "ir3_structs_new.ml" 226 7431 7456
+)
+"ir3_structs_new.ml" 258 8774 8800 "ir3_structs_new.ml" 258 8774 8801
+type(
+  ir3_exp_new
+)
+ident(
+  int_ref e "ir3_structs_new.ml" 256 8690 8718 "ir3_structs_new.ml" 256 8690 8719
+)
+"ir3_structs_new.ml" 258 8774 8777 "ir3_structs_new.ml" 258 8774 8802
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 258 8774 8802 "ir3_structs_new.ml" 258 8774 8803
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 258 8774 8803 "ir3_structs_new.ml" 258 8774 8806
+type(
+  string
+)
+"ir3_structs_new.ml" 258 8774 8777 "ir3_structs_new.ml" 258 8774 8806
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 257 8726 8770 "ir3_structs_new.ml" 258 8774 8806
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 257 8726 8742 "ir3_structs_new.ml" 258 8774 8806
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 257 8726 8728 "ir3_structs_new.ml" 258 8774 8806
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 259 8807 8831 "ir3_structs_new.ml" 259 8807 8832
+type(
+  ir3_type_new
+)
+ident(
+  def t "ir3_structs_new.ml" 260 8849 8851 "ir3_structs_new.ml" 261 8929 8961
+)
+"ir3_structs_new.ml" 259 8807 8835 "ir3_structs_new.ml" 259 8807 8837
+type(
+  string
+)
+ident(
+  def id "ir3_structs_new.ml" 260 8849 8851 "ir3_structs_new.ml" 261 8929 8961
+)
+"ir3_structs_new.ml" 259 8807 8838 "ir3_structs_new.ml" 259 8807 8839
+type(
+  reg_or_mem
+)
+ident(
+  def m "ir3_structs_new.ml" 260 8849 8851 "ir3_structs_new.ml" 261 8929 8961
+)
+"ir3_structs_new.ml" 259 8807 8834 "ir3_structs_new.ml" 259 8807 8840
+type(
+  id3_new
+)
+"ir3_structs_new.ml" 259 8807 8842 "ir3_structs_new.ml" 259 8807 8843
+type(
+  ir3_exp_new
+)
+ident(
+  def e "ir3_structs_new.ml" 260 8849 8851 "ir3_structs_new.ml" 261 8929 8961
+)
+"ir3_structs_new.ml" 259 8807 8810 "ir3_structs_new.ml" 259 8807 8844
+type(
+  ir3_stmt_new
+)
+"ir3_structs_new.ml" 260 8849 8851 "ir3_structs_new.ml" 260 8849 8860
+type(
+  unit -> string
+)
+ident(
+  int_ref print_tab "ir3_structs_new.ml" 176 5881 5889 "ir3_structs_new.ml" 176 5881 5898
+)
+"ir3_structs_new.ml" 260 8849 8860 "ir3_structs_new.ml" 260 8849 8862
+type(
+  unit
+)
+"ir3_structs_new.ml" 260 8849 8851 "ir3_structs_new.ml" 260 8849 8862
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 260 8849 8863 "ir3_structs_new.ml" 260 8849 8864
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 260 8849 8866 "ir3_structs_new.ml" 260 8849 8888
+type(
+  ir3_type_new -> string
+)
+ident(
+  int_ref string_of_ir3_type_new "ir3_structs_new.ml" 203 6785 6793 "ir3_structs_new.ml" 203 6785 6815
+)
+"ir3_structs_new.ml" 260 8849 8889 "ir3_structs_new.ml" 260 8849 8890
+type(
+  ir3_type_new
+)
+ident(
+  int_ref t "ir3_structs_new.ml" 259 8807 8831 "ir3_structs_new.ml" 259 8807 8832
+)
+"ir3_structs_new.ml" 260 8849 8865 "ir3_structs_new.ml" 260 8849 8891
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 260 8849 8892 "ir3_structs_new.ml" 260 8849 8893
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 260 8849 8894 "ir3_structs_new.ml" 260 8849 8896
+type(
+  string
+)
+ident(
+  int_ref id "ir3_structs_new.ml" 259 8807 8835 "ir3_structs_new.ml" 259 8807 8837
+)
+"ir3_structs_new.ml" 260 8849 8897 "ir3_structs_new.ml" 260 8849 8898
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 260 8849 8900 "ir3_structs_new.ml" 260 8849 8920
+type(
+  reg_or_mem -> string
+)
+ident(
+  int_ref string_of_reg_or_mem "ir3_structs_new.ml" 212 6980 6984 "ir3_structs_new.ml" 212 6980 7004
+)
+"ir3_structs_new.ml" 260 8849 8921 "ir3_structs_new.ml" 260 8849 8922
+type(
+  reg_or_mem
+)
+ident(
+  int_ref m "ir3_structs_new.ml" 259 8807 8838 "ir3_structs_new.ml" 259 8807 8839
+)
+"ir3_structs_new.ml" 260 8849 8899 "ir3_structs_new.ml" 260 8849 8923
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 260 8849 8923 "ir3_structs_new.ml" 260 8849 8924
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 260 8849 8925 "ir3_structs_new.ml" 260 8849 8928
+type(
+  string
+)
+"ir3_structs_new.ml" 261 8929 8931 "ir3_structs_new.ml" 261 8929 8932
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 261 8929 8933 "ir3_structs_new.ml" 261 8929 8954
+type(
+  ir3_exp_new -> string
+)
+ident(
+  int_ref string_of_ir3_exp_new "ir3_structs_new.ml" 226 7431 7435 "ir3_structs_new.ml" 226 7431 7456
+)
+"ir3_structs_new.ml" 261 8929 8955 "ir3_structs_new.ml" 261 8929 8956
+type(
+  ir3_exp_new
+)
+ident(
+  int_ref e "ir3_structs_new.ml" 259 8807 8842 "ir3_structs_new.ml" 259 8807 8843
+)
+"ir3_structs_new.ml" 261 8929 8932 "ir3_structs_new.ml" 261 8929 8957
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 261 8929 8957 "ir3_structs_new.ml" 261 8929 8958
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 261 8929 8958 "ir3_structs_new.ml" 261 8929 8961
+type(
+  string
+)
+"ir3_structs_new.ml" 261 8929 8932 "ir3_structs_new.ml" 261 8929 8961
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 260 8849 8925 "ir3_structs_new.ml" 261 8929 8961
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 260 8849 8899 "ir3_structs_new.ml" 261 8929 8961
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 260 8849 8894 "ir3_structs_new.ml" 261 8929 8961
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 260 8849 8865 "ir3_structs_new.ml" 261 8929 8961
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 260 8849 8851 "ir3_structs_new.ml" 261 8929 8961
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 262 8962 8982 "ir3_structs_new.ml" 262 8962 8983
+ident(
+  def e "ir3_structs_new.ml" 263 8990 8992 "ir3_structs_new.ml" 263 8990 9035
+)
+"ir3_structs_new.ml" 262 8962 8981 "ir3_structs_new.ml" 262 8962 8984
+type(
+  ir3_exp_new
+)
+"ir3_structs_new.ml" 262 8962 8965 "ir3_structs_new.ml" 262 8962 8984
+type(
+  ir3_stmt_new
+)
+"ir3_structs_new.ml" 263 8990 8992 "ir3_structs_new.ml" 263 8990 9001
+type(
+  unit -> string
+)
+ident(
+  int_ref print_tab "ir3_structs_new.ml" 176 5881 5889 "ir3_structs_new.ml" 176 5881 5898
+)
+"ir3_structs_new.ml" 263 8990 9001 "ir3_structs_new.ml" 263 8990 9003
+type(
+  unit
+)
+"ir3_structs_new.ml" 263 8990 8992 "ir3_structs_new.ml" 263 8990 9003
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 263 8990 9004 "ir3_structs_new.ml" 263 8990 9005
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 263 8990 9007 "ir3_structs_new.ml" 263 8990 9028
+type(
+  ir3_exp_new -> string
+)
+ident(
+  int_ref string_of_ir3_exp_new "ir3_structs_new.ml" 226 7431 7435 "ir3_structs_new.ml" 226 7431 7456
+)
+"ir3_structs_new.ml" 263 8990 9029 "ir3_structs_new.ml" 263 8990 9030
+type(
+  ir3_exp_new
+)
+ident(
+  int_ref e "ir3_structs_new.ml" 262 8962 8981 "ir3_structs_new.ml" 262 8962 8984
+)
+"ir3_structs_new.ml" 263 8990 9006 "ir3_structs_new.ml" 263 8990 9031
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 263 8990 9031 "ir3_structs_new.ml" 263 8990 9032
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 263 8990 9032 "ir3_structs_new.ml" 263 8990 9035
+type(
+  string
+)
+"ir3_structs_new.ml" 263 8990 9006 "ir3_structs_new.ml" 263 8990 9035
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 263 8990 8992 "ir3_structs_new.ml" 263 8990 9035
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 264 9036 9059 "ir3_structs_new.ml" 264 9036 9061
+type(
+  string
+)
+ident(
+  def id "ir3_structs_new.ml" 265 9070 9072 "ir3_structs_new.ml" 265 9070 9129
+)
+"ir3_structs_new.ml" 264 9036 9062 "ir3_structs_new.ml" 264 9036 9063
+type(
+  reg_or_mem
+)
+ident(
+  def m "ir3_structs_new.ml" 265 9070 9072 "ir3_structs_new.ml" 265 9070 9129
+)
+"ir3_structs_new.ml" 264 9036 9058 "ir3_structs_new.ml" 264 9036 9064
+type(
+  id3_new
+)
+"ir3_structs_new.ml" 264 9036 9042 "ir3_structs_new.ml" 264 9036 9064
+type(
+  ir3_stmt_new
+)
+"ir3_structs_new.ml" 265 9070 9072 "ir3_structs_new.ml" 265 9070 9081
+type(
+  unit -> string
+)
+ident(
+  int_ref print_tab "ir3_structs_new.ml" 176 5881 5889 "ir3_structs_new.ml" 176 5881 5898
+)
+"ir3_structs_new.ml" 265 9070 9081 "ir3_structs_new.ml" 265 9070 9083
+type(
+  unit
+)
+"ir3_structs_new.ml" 265 9070 9072 "ir3_structs_new.ml" 265 9070 9083
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 265 9070 9084 "ir3_structs_new.ml" 265 9070 9085
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 265 9070 9086 "ir3_structs_new.ml" 265 9070 9095
+type(
+  string
+)
+"ir3_structs_new.ml" 265 9070 9095 "ir3_structs_new.ml" 265 9070 9096
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 265 9070 9097 "ir3_structs_new.ml" 265 9070 9099
+type(
+  string
+)
+ident(
+  int_ref id "ir3_structs_new.ml" 264 9036 9059 "ir3_structs_new.ml" 264 9036 9061
+)
+"ir3_structs_new.ml" 265 9070 9100 "ir3_structs_new.ml" 265 9070 9101
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 265 9070 9102 "ir3_structs_new.ml" 265 9070 9122
+type(
+  reg_or_mem -> string
+)
+ident(
+  int_ref string_of_reg_or_mem "ir3_structs_new.ml" 212 6980 6984 "ir3_structs_new.ml" 212 6980 7004
+)
+"ir3_structs_new.ml" 265 9070 9123 "ir3_structs_new.ml" 265 9070 9124
+type(
+  reg_or_mem
+)
+ident(
+  int_ref m "ir3_structs_new.ml" 264 9036 9062 "ir3_structs_new.ml" 264 9036 9063
+)
+"ir3_structs_new.ml" 265 9070 9101 "ir3_structs_new.ml" 265 9070 9125
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 265 9070 9125 "ir3_structs_new.ml" 265 9070 9126
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 265 9070 9126 "ir3_structs_new.ml" 265 9070 9129
+type(
+  string
+)
+"ir3_structs_new.ml" 265 9070 9101 "ir3_structs_new.ml" 265 9070 9129
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 265 9070 9097 "ir3_structs_new.ml" 265 9070 9129
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 265 9070 9086 "ir3_structs_new.ml" 265 9070 9129
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 265 9070 9072 "ir3_structs_new.ml" 265 9070 9129
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 266 9130 9133 "ir3_structs_new.ml" 266 9130 9152
+type(
+  ir3_stmt_new
+)
+"ir3_structs_new.ml" 267 9158 9160 "ir3_structs_new.ml" 267 9158 9169
+type(
+  unit -> string
+)
+ident(
+  int_ref print_tab "ir3_structs_new.ml" 176 5881 5889 "ir3_structs_new.ml" 176 5881 5898
+)
+"ir3_structs_new.ml" 267 9158 9169 "ir3_structs_new.ml" 267 9158 9171
+type(
+  unit
+)
+"ir3_structs_new.ml" 267 9158 9160 "ir3_structs_new.ml" 267 9158 9171
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 267 9158 9172 "ir3_structs_new.ml" 267 9158 9173
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 267 9158 9174 "ir3_structs_new.ml" 267 9158 9183
+type(
+  string
+)
+"ir3_structs_new.ml" 267 9158 9160 "ir3_structs_new.ml" 267 9158 9183
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 268 9184 9194 "ir3_structs_new.ml" 268 9184 9198
+type(
+  string
+)
+ident(
+  def str1 "ir3_structs_new.ml" 269 9209 9217 "ir3_structs_new.ml" 269 9209 9255
+)
+"ir3_structs_new.ml" 268 9184 9200 "ir3_structs_new.ml" 268 9184 9204
+type(
+  string
+)
+ident(
+  def str2 "ir3_structs_new.ml" 269 9209 9217 "ir3_structs_new.ml" 269 9209 9255
+)
+"ir3_structs_new.ml" 268 9184 9190 "ir3_structs_new.ml" 268 9184 9205
+type(
+  ir3_stmt_new
+)
+"ir3_structs_new.ml" 269 9209 9217 "ir3_structs_new.ml" 269 9209 9226
+type(
+  unit -> string
+)
+ident(
+  int_ref print_tab "ir3_structs_new.ml" 176 5881 5889 "ir3_structs_new.ml" 176 5881 5898
+)
+"ir3_structs_new.ml" 269 9209 9226 "ir3_structs_new.ml" 269 9209 9228
+type(
+  unit
+)
+"ir3_structs_new.ml" 269 9209 9217 "ir3_structs_new.ml" 269 9209 9228
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 269 9209 9229 "ir3_structs_new.ml" 269 9209 9230
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 269 9209 9231 "ir3_structs_new.ml" 269 9209 9236
+type(
+  string
+)
+"ir3_structs_new.ml" 269 9209 9236 "ir3_structs_new.ml" 269 9209 9237
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 269 9209 9237 "ir3_structs_new.ml" 269 9209 9241
+type(
+  string
+)
+ident(
+  int_ref str1 "ir3_structs_new.ml" 268 9184 9194 "ir3_structs_new.ml" 268 9184 9198
+)
+"ir3_structs_new.ml" 269 9209 9241 "ir3_structs_new.ml" 269 9209 9242
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 269 9209 9242 "ir3_structs_new.ml" 269 9209 9246
+type(
+  string
+)
+"ir3_structs_new.ml" 269 9209 9246 "ir3_structs_new.ml" 269 9209 9247
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 269 9209 9247 "ir3_structs_new.ml" 269 9209 9251
+type(
+  string
+)
+ident(
+  int_ref str2 "ir3_structs_new.ml" 268 9184 9200 "ir3_structs_new.ml" 268 9184 9204
+)
+"ir3_structs_new.ml" 269 9209 9251 "ir3_structs_new.ml" 269 9209 9252
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 269 9209 9252 "ir3_structs_new.ml" 269 9209 9255
+type(
+  string
+)
+"ir3_structs_new.ml" 269 9209 9247 "ir3_structs_new.ml" 269 9209 9255
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 269 9209 9242 "ir3_structs_new.ml" 269 9209 9255
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 269 9209 9237 "ir3_structs_new.ml" 269 9209 9255
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 269 9209 9231 "ir3_structs_new.ml" 269 9209 9255
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 269 9209 9217 "ir3_structs_new.ml" 269 9209 9255
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 270 9256 9266 "ir3_structs_new.ml" 270 9256 9270
+type(
+  string
+)
+ident(
+  def str1 "ir3_structs_new.ml" 271 9281 9289 "ir3_structs_new.ml" 271 9281 9327
+)
+"ir3_structs_new.ml" 270 9256 9272 "ir3_structs_new.ml" 270 9256 9276
+type(
+  string
+)
+ident(
+  def str2 "ir3_structs_new.ml" 271 9281 9289 "ir3_structs_new.ml" 271 9281 9327
+)
+"ir3_structs_new.ml" 270 9256 9262 "ir3_structs_new.ml" 270 9256 9277
+type(
+  ir3_stmt_new
+)
+"ir3_structs_new.ml" 271 9281 9289 "ir3_structs_new.ml" 271 9281 9298
+type(
+  unit -> string
+)
+ident(
+  int_ref print_tab "ir3_structs_new.ml" 176 5881 5889 "ir3_structs_new.ml" 176 5881 5898
+)
+"ir3_structs_new.ml" 271 9281 9298 "ir3_structs_new.ml" 271 9281 9300
+type(
+  unit
+)
+"ir3_structs_new.ml" 271 9281 9289 "ir3_structs_new.ml" 271 9281 9300
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 271 9281 9301 "ir3_structs_new.ml" 271 9281 9302
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 271 9281 9303 "ir3_structs_new.ml" 271 9281 9308
+type(
+  string
+)
+"ir3_structs_new.ml" 271 9281 9308 "ir3_structs_new.ml" 271 9281 9309
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 271 9281 9309 "ir3_structs_new.ml" 271 9281 9313
+type(
+  string
+)
+ident(
+  int_ref str1 "ir3_structs_new.ml" 270 9256 9266 "ir3_structs_new.ml" 270 9256 9270
+)
+"ir3_structs_new.ml" 271 9281 9313 "ir3_structs_new.ml" 271 9281 9314
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 271 9281 9314 "ir3_structs_new.ml" 271 9281 9318
+type(
+  string
+)
+"ir3_structs_new.ml" 271 9281 9318 "ir3_structs_new.ml" 271 9281 9319
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 271 9281 9319 "ir3_structs_new.ml" 271 9281 9323
+type(
+  string
+)
+ident(
+  int_ref str2 "ir3_structs_new.ml" 270 9256 9272 "ir3_structs_new.ml" 270 9256 9276
+)
+"ir3_structs_new.ml" 271 9281 9323 "ir3_structs_new.ml" 271 9281 9324
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 271 9281 9324 "ir3_structs_new.ml" 271 9281 9327
+type(
+  string
+)
+"ir3_structs_new.ml" 271 9281 9319 "ir3_structs_new.ml" 271 9281 9327
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 271 9281 9314 "ir3_structs_new.ml" 271 9281 9327
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 271 9281 9309 "ir3_structs_new.ml" 271 9281 9327
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 271 9281 9303 "ir3_structs_new.ml" 271 9281 9327
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 271 9281 9289 "ir3_structs_new.ml" 271 9281 9327
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 272 9328 9350 "ir3_structs_new.ml" 272 9328 9353
+type(
+  Arm_structs.arm_instr list
+)
+ident(
+  def lst "ir3_structs_new.ml" 273 9357 9365 "ir3_structs_new.ml" 273 9357 9421
+)
+"ir3_structs_new.ml" 272 9328 9334 "ir3_structs_new.ml" 272 9328 9353
+type(
+  ir3_stmt_new
+)
+"ir3_structs_new.ml" 273 9357 9365 "ir3_structs_new.ml" 273 9357 9374
+type(
+  unit -> string
+)
+ident(
+  int_ref print_tab "ir3_structs_new.ml" 176 5881 5889 "ir3_structs_new.ml" 176 5881 5898
+)
+"ir3_structs_new.ml" 273 9357 9374 "ir3_structs_new.ml" 273 9357 9376
+type(
+  unit
+)
+"ir3_structs_new.ml" 273 9357 9365 "ir3_structs_new.ml" 273 9357 9376
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 273 9357 9377 "ir3_structs_new.ml" 273 9357 9378
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 273 9357 9378 "ir3_structs_new.ml" 273 9357 9392
+type(
+  Arm_structs.arm_instr list ->
+  (Arm_structs.arm_instr -> string) -> string -> string
+)
+ident(
+  int_ref string_of_list "ir3_structs_new.ml" 183 6145 6149 "ir3_structs_new.ml" 183 6145 6163
+)
+"ir3_structs_new.ml" 273 9357 9393 "ir3_structs_new.ml" 273 9357 9396
+type(
+  Arm_structs.arm_instr list
+)
+ident(
+  int_ref lst "ir3_structs_new.ml" 272 9328 9350 "ir3_structs_new.ml" 272 9328 9353
+)
+"ir3_structs_new.ml" 273 9357 9397 "ir3_structs_new.ml" 273 9357 9416
+type(
+  Arm_structs.arm_instr -> string
+)
+ident(
+  ext_ref Arm_structs.string_of_arm_instr
+)
+"ir3_structs_new.ml" 273 9357 9417 "ir3_structs_new.ml" 273 9357 9421
+type(
+  string
+)
+"ir3_structs_new.ml" 273 9357 9378 "ir3_structs_new.ml" 273 9357 9421
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 273 9357 9365 "ir3_structs_new.ml" 273 9357 9421
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 244 8137 8139 "ir3_structs_new.ml" 273 9357 9421
+type(
+  string
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 276 9465 9469 "ir3_structs_new.ml" 276 9465 9492
+type(
+  var_decl3_new -> string
+)
+ident(
+  def string_of_var_decl3_new "ir3_structs_new.ml" 280 9637 9637 "ir3_structs_new.ml" 1 0 -1
+)
+"ir3_structs_new.ml" 276 9465 9495 "ir3_structs_new.ml" 276 9465 9496
+type(
+  ir3_type_new
+)
+ident(
+  def t "ir3_structs_new.ml" 276 9465 9520 "ir3_structs_new.ml" 277 9532 9584
+)
+"ir3_structs_new.ml" 276 9465 9498 "ir3_structs_new.ml" 276 9465 9500
+type(
+  string
+)
+ident(
+  def id "ir3_structs_new.ml" 276 9465 9520 "ir3_structs_new.ml" 277 9532 9584
+)
+"ir3_structs_new.ml" 276 9465 9501 "ir3_structs_new.ml" 276 9465 9502
+type(
+  reg_or_mem
+)
+"ir3_structs_new.ml" 276 9465 9497 "ir3_structs_new.ml" 276 9465 9503
+type(
+  id3_new
+)
+"ir3_structs_new.ml" 276 9465 9494 "ir3_structs_new.ml" 276 9465 9504
+type(
+  var_decl3_new
+)
+"ir3_structs_new.ml" 277 9532 9533 "ir3_structs_new.ml" 277 9532 9542
+type(
+  unit -> string
+)
+ident(
+  int_ref print_tab "ir3_structs_new.ml" 176 5881 5889 "ir3_structs_new.ml" 176 5881 5898
+)
+"ir3_structs_new.ml" 277 9532 9542 "ir3_structs_new.ml" 277 9532 9544
+type(
+  unit
+)
+"ir3_structs_new.ml" 277 9532 9533 "ir3_structs_new.ml" 277 9532 9544
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 277 9532 9545 "ir3_structs_new.ml" 277 9532 9546
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 277 9532 9548 "ir3_structs_new.ml" 277 9532 9570
+type(
+  ir3_type_new -> string
+)
+ident(
+  int_ref string_of_ir3_type_new "ir3_structs_new.ml" 203 6785 6793 "ir3_structs_new.ml" 203 6785 6815
+)
+"ir3_structs_new.ml" 277 9532 9571 "ir3_structs_new.ml" 277 9532 9572
+type(
+  ir3_type_new
+)
+ident(
+  int_ref t "ir3_structs_new.ml" 276 9465 9495 "ir3_structs_new.ml" 276 9465 9496
+)
+"ir3_structs_new.ml" 277 9532 9547 "ir3_structs_new.ml" 277 9532 9573
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 277 9532 9574 "ir3_structs_new.ml" 277 9532 9575
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 277 9532 9576 "ir3_structs_new.ml" 277 9532 9579
+type(
+  string
+)
+"ir3_structs_new.ml" 277 9532 9580 "ir3_structs_new.ml" 277 9532 9581
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 277 9532 9582 "ir3_structs_new.ml" 277 9532 9584
+type(
+  string
+)
+ident(
+  int_ref id "ir3_structs_new.ml" 276 9465 9498 "ir3_structs_new.ml" 276 9465 9500
+)
+"ir3_structs_new.ml" 277 9532 9576 "ir3_structs_new.ml" 277 9532 9584
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 277 9532 9547 "ir3_structs_new.ml" 277 9532 9584
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 277 9532 9533 "ir3_structs_new.ml" 277 9532 9584
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 280 9637 9641 "ir3_structs_new.ml" 280 9637 9664
+type(
+  var_decl3_new -> string
+)
+ident(
+  def string_of_arg_decl3_new "ir3_structs_new.ml" 284 9786 9786 "ir3_structs_new.ml" 1 0 -1
+)
+"ir3_structs_new.ml" 280 9637 9667 "ir3_structs_new.ml" 280 9637 9668
+type(
+  ir3_type_new
+)
+ident(
+  def t "ir3_structs_new.ml" 280 9637 9692 "ir3_structs_new.ml" 281 9704 9742
+)
+"ir3_structs_new.ml" 280 9637 9670 "ir3_structs_new.ml" 280 9637 9672
+type(
+  string
+)
+ident(
+  def id "ir3_structs_new.ml" 280 9637 9692 "ir3_structs_new.ml" 281 9704 9742
+)
+"ir3_structs_new.ml" 280 9637 9673 "ir3_structs_new.ml" 280 9637 9674
+type(
+  reg_or_mem
+)
+"ir3_structs_new.ml" 280 9637 9669 "ir3_structs_new.ml" 280 9637 9675
+type(
+  id3_new
+)
+"ir3_structs_new.ml" 280 9637 9666 "ir3_structs_new.ml" 280 9637 9676
+type(
+  var_decl3_new
+)
+"ir3_structs_new.ml" 281 9704 9706 "ir3_structs_new.ml" 281 9704 9728
+type(
+  ir3_type_new -> string
+)
+ident(
+  int_ref string_of_ir3_type_new "ir3_structs_new.ml" 203 6785 6793 "ir3_structs_new.ml" 203 6785 6815
+)
+"ir3_structs_new.ml" 281 9704 9729 "ir3_structs_new.ml" 281 9704 9730
+type(
+  ir3_type_new
+)
+ident(
+  int_ref t "ir3_structs_new.ml" 280 9637 9667 "ir3_structs_new.ml" 280 9637 9668
+)
+"ir3_structs_new.ml" 281 9704 9705 "ir3_structs_new.ml" 281 9704 9731
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 281 9704 9732 "ir3_structs_new.ml" 281 9704 9733
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 281 9704 9734 "ir3_structs_new.ml" 281 9704 9737
+type(
+  string
+)
+"ir3_structs_new.ml" 281 9704 9738 "ir3_structs_new.ml" 281 9704 9739
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 281 9704 9740 "ir3_structs_new.ml" 281 9704 9742
+type(
+  string
+)
+ident(
+  int_ref id "ir3_structs_new.ml" 280 9637 9670 "ir3_structs_new.ml" 280 9637 9672
+)
+"ir3_structs_new.ml" 281 9704 9734 "ir3_structs_new.ml" 281 9704 9742
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 281 9704 9705 "ir3_structs_new.ml" 281 9704 9742
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 284 9786 9790 "ir3_structs_new.ml" 284 9786 9814
+type(
+  md_decl3_new -> string
+)
+ident(
+  def string_of_meth_decl3_new "ir3_structs_new.ml" 305 10562 10562 "ir3_structs_new.ml" 1 0 -1
+)
+"ir3_structs_new.ml" 284 9786 9816 "ir3_structs_new.ml" 284 9786 9817
+type(
+  md_decl3_new
+)
+ident(
+  def m "ir3_structs_new.ml" 284 9786 9832 "ir3_structs_new.ml" 302 10498 10521
+)
+"ir3_structs_new.ml" 285 9843 9849 "ir3_structs_new.ml" 285 9843 9852
+type(
+  string
+)
+ident(
+  def mid "ir3_structs_new.ml" 286 9869 9870 "ir3_structs_new.ml" 302 10498 10521
+)
+"ir3_structs_new.ml" 285 9843 9853 "ir3_structs_new.ml" 285 9843 9856
+type(
+  reg_or_mem
+)
+ident(
+  def reg "ir3_structs_new.ml" 286 9869 9870 "ir3_structs_new.ml" 302 10498 10521
+)
+"ir3_structs_new.ml" 285 9843 9848 "ir3_structs_new.ml" 285 9843 9857
+type(
+  id3_new
+)
+"ir3_structs_new.ml" 285 9843 9860 "ir3_structs_new.ml" 285 9843 9861
+type(
+  md_decl3_new
+)
+ident(
+  int_ref m "ir3_structs_new.ml" 284 9786 9816 "ir3_structs_new.ml" 284 9786 9817
+)
+"ir3_structs_new.ml" 285 9843 9860 "ir3_structs_new.ml" 285 9843 9865
+type(
+  id3_new
+)
+"ir3_structs_new.ml" 286 9869 9874 "ir3_structs_new.ml" 286 9869 9886
+type(
+  string
+)
+ident(
+  def methodHeader "ir3_structs_new.ml" 291 10043 10044 "ir3_structs_new.ml" 302 10498 10521
+)
+"ir3_structs_new.ml" 287 9890 9892 "ir3_structs_new.ml" 287 9890 9901
+type(
+  unit -> string
+)
+ident(
+  int_ref print_tab "ir3_structs_new.ml" 176 5881 5889 "ir3_structs_new.ml" 176 5881 5898
+)
+"ir3_structs_new.ml" 287 9890 9901 "ir3_structs_new.ml" 287 9890 9903
+type(
+  unit
+)
+"ir3_structs_new.ml" 287 9890 9892 "ir3_structs_new.ml" 287 9890 9903
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 287 9890 9904 "ir3_structs_new.ml" 287 9890 9905
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 287 9890 9907 "ir3_structs_new.ml" 287 9890 9929
+type(
+  ir3_type_new -> string
+)
+ident(
+  int_ref string_of_ir3_type_new "ir3_structs_new.ml" 203 6785 6793 "ir3_structs_new.ml" 203 6785 6815
+)
+"ir3_structs_new.ml" 287 9890 9930 "ir3_structs_new.ml" 287 9890 9931
+type(
+  md_decl3_new
+)
+ident(
+  int_ref m "ir3_structs_new.ml" 284 9786 9816 "ir3_structs_new.ml" 284 9786 9817
+)
+"ir3_structs_new.ml" 287 9890 9930 "ir3_structs_new.ml" 287 9890 9940
+type(
+  ir3_type_new
+)
+"ir3_structs_new.ml" 287 9890 9906 "ir3_structs_new.ml" 287 9890 9941
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 288 9943 9945 "ir3_structs_new.ml" 288 9943 9946
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 288 9943 9947 "ir3_structs_new.ml" 288 9943 9950
+type(
+  string
+)
+"ir3_structs_new.ml" 288 9943 9951 "ir3_structs_new.ml" 288 9943 9952
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 288 9943 9953 "ir3_structs_new.ml" 288 9943 9956
+type(
+  string
+)
+ident(
+  int_ref mid "ir3_structs_new.ml" 285 9843 9849 "ir3_structs_new.ml" 285 9843 9852
+)
+"ir3_structs_new.ml" 288 9943 9957 "ir3_structs_new.ml" 288 9943 9958
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 289 9960 9962 "ir3_structs_new.ml" 289 9960 9965
+type(
+  string
+)
+"ir3_structs_new.ml" 289 9960 9966 "ir3_structs_new.ml" 289 9960 9967
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 289 9960 9969 "ir3_structs_new.ml" 289 9960 9983
+type(
+  var_decl3_new list -> (var_decl3_new -> string) -> string -> string
+)
+ident(
+  int_ref string_of_list "ir3_structs_new.ml" 183 6145 6149 "ir3_structs_new.ml" 183 6145 6163
+)
+"ir3_structs_new.ml" 289 9960 9984 "ir3_structs_new.ml" 289 9960 9985
+type(
+  md_decl3_new
+)
+ident(
+  int_ref m "ir3_structs_new.ml" 284 9786 9816 "ir3_structs_new.ml" 284 9786 9817
+)
+"ir3_structs_new.ml" 289 9960 9984 "ir3_structs_new.ml" 289 9960 9993
+type(
+  var_decl3_new list
+)
+"ir3_structs_new.ml" 289 9960 9994 "ir3_structs_new.ml" 289 9960 10017
+type(
+  var_decl3_new -> string
+)
+ident(
+  int_ref string_of_arg_decl3_new "ir3_structs_new.ml" 280 9637 9641 "ir3_structs_new.ml" 280 9637 9664
+)
+"ir3_structs_new.ml" 289 9960 10018 "ir3_structs_new.ml" 289 9960 10021
+type(
+  string
+)
+"ir3_structs_new.ml" 289 9960 9968 "ir3_structs_new.ml" 289 9960 10023
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 289 9960 10024 "ir3_structs_new.ml" 289 9960 10025
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 289 9960 10026 "ir3_structs_new.ml" 289 9960 10029
+type(
+  string
+)
+"ir3_structs_new.ml" 290 10031 10033 "ir3_structs_new.ml" 290 10031 10034
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 290 10031 10034 "ir3_structs_new.ml" 290 10031 10039
+type(
+  string
+)
+"ir3_structs_new.ml" 289 9960 10026 "ir3_structs_new.ml" 290 10031 10039
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 289 9960 9968 "ir3_structs_new.ml" 290 10031 10039
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 289 9960 9962 "ir3_structs_new.ml" 290 10031 10039
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 288 9943 9953 "ir3_structs_new.ml" 290 10031 10039
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 288 9943 9947 "ir3_structs_new.ml" 290 10031 10039
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 287 9890 9906 "ir3_structs_new.ml" 290 10031 10039
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 287 9890 9892 "ir3_structs_new.ml" 290 10031 10039
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 291 10043 10048 "ir3_structs_new.ml" 291 10043 10055
+type(
+  string
+)
+ident(
+  def indentI "ir3_structs_new.ml" 292 10074 10075 "ir3_structs_new.ml" 302 10498 10521
+)
+"ir3_structs_new.ml" 291 10043 10058 "ir3_structs_new.ml" 291 10043 10068
+type(
+  unit -> string
+)
+ident(
+  int_ref indent_inc "ir3_structs_new.ml" 169 5716 5720 "ir3_structs_new.ml" 169 5716 5730
+)
+"ir3_structs_new.ml" 291 10043 10068 "ir3_structs_new.ml" 291 10043 10070
+type(
+  unit
+)
+"ir3_structs_new.ml" 291 10043 10058 "ir3_structs_new.ml" 291 10043 10070
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 292 10074 10079 "ir3_structs_new.ml" 292 10074 10094
+type(
+  string
+)
+ident(
+  def methodVariables "ir3_structs_new.ml" 295 10226 10227 "ir3_structs_new.ml" 302 10498 10521
+)
+"ir3_structs_new.ml" 293 10098 10101 "ir3_structs_new.ml" 293 10098 10115
+type(
+  var_decl3_new list -> (var_decl3_new -> string) -> string -> string
+)
+ident(
+  int_ref string_of_list "ir3_structs_new.ml" 183 6145 6149 "ir3_structs_new.ml" 183 6145 6163
+)
+"ir3_structs_new.ml" 293 10098 10116 "ir3_structs_new.ml" 293 10098 10117
+type(
+  md_decl3_new
+)
+ident(
+  int_ref m "ir3_structs_new.ml" 284 9786 9816 "ir3_structs_new.ml" 284 9786 9817
+)
+"ir3_structs_new.ml" 293 10098 10116 "ir3_structs_new.ml" 293 10098 10128
+type(
+  var_decl3_new list
+)
+"ir3_structs_new.ml" 293 10098 10129 "ir3_structs_new.ml" 293 10098 10152
+type(
+  var_decl3_new -> string
+)
+ident(
+  int_ref string_of_var_decl3_new "ir3_structs_new.ml" 276 9465 9469 "ir3_structs_new.ml" 276 9465 9492
+)
+"ir3_structs_new.ml" 293 10098 10153 "ir3_structs_new.ml" 293 10098 10158
+type(
+  string
+)
+"ir3_structs_new.ml" 293 10098 10100 "ir3_structs_new.ml" 293 10098 10159
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 294 10161 10163 "ir3_structs_new.ml" 294 10161 10164
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 294 10161 10171 "ir3_structs_new.ml" 294 10161 10182
+type(
+  var_decl3_new list -> int
+)
+ident(
+  ext_ref List.length
+)
+"ir3_structs_new.ml" 294 10161 10183 "ir3_structs_new.ml" 294 10161 10184
+type(
+  md_decl3_new
+)
+ident(
+  int_ref m "ir3_structs_new.ml" 284 9786 9816 "ir3_structs_new.ml" 284 9786 9817
+)
+"ir3_structs_new.ml" 294 10161 10183 "ir3_structs_new.ml" 294 10161 10195
+type(
+  var_decl3_new list
+)
+"ir3_structs_new.ml" 294 10161 10170 "ir3_structs_new.ml" 294 10161 10196
+call(
+  stack
+)
+type(
+  int
+)
+"ir3_structs_new.ml" 294 10161 10197 "ir3_structs_new.ml" 294 10161 10198
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"ir3_structs_new.ml" 294 10161 10200 "ir3_structs_new.ml" 294 10161 10201
+type(
+  int
+)
+"ir3_structs_new.ml" 294 10161 10169 "ir3_structs_new.ml" 294 10161 10202
+type(
+  bool
+)
+"ir3_structs_new.ml" 294 10161 10208 "ir3_structs_new.ml" 294 10161 10213
+type(
+  string
+)
+"ir3_structs_new.ml" 294 10161 10219 "ir3_structs_new.ml" 294 10161 10221
+type(
+  string
+)
+"ir3_structs_new.ml" 294 10161 10165 "ir3_structs_new.ml" 294 10161 10222
+type(
+  string
+)
+"ir3_structs_new.ml" 293 10098 10100 "ir3_structs_new.ml" 294 10161 10222
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 295 10226 10231 "ir3_structs_new.ml" 295 10226 10242
+type(
+  string
+)
+ident(
+  def methodStmts "ir3_structs_new.ml" 298 10366 10367 "ir3_structs_new.ml" 302 10498 10521
+)
+"ir3_structs_new.ml" 296 10246 10249 "ir3_structs_new.ml" 296 10246 10263
+type(
+  ir3_stmt_new list -> (ir3_stmt_new -> string) -> string -> string
+)
+ident(
+  int_ref string_of_list "ir3_structs_new.ml" 183 6145 6149 "ir3_structs_new.ml" 183 6145 6163
+)
+"ir3_structs_new.ml" 296 10246 10264 "ir3_structs_new.ml" 296 10246 10265
+type(
+  md_decl3_new
+)
+ident(
+  int_ref m "ir3_structs_new.ml" 284 9786 9816 "ir3_structs_new.ml" 284 9786 9817
+)
+"ir3_structs_new.ml" 296 10246 10264 "ir3_structs_new.ml" 296 10246 10274
+type(
+  ir3_stmt_new list
+)
+"ir3_structs_new.ml" 296 10246 10275 "ir3_structs_new.ml" 296 10246 10297
+type(
+  ir3_stmt_new -> string
+)
+ident(
+  int_ref string_of_ir3_stmt_new "ir3_structs_new.ml" 243 8084 8088 "ir3_structs_new.ml" 243 8084 8110
+)
+"ir3_structs_new.ml" 296 10246 10298 "ir3_structs_new.ml" 296 10246 10302
+type(
+  string
+)
+"ir3_structs_new.ml" 296 10246 10248 "ir3_structs_new.ml" 296 10246 10303
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 297 10304 10306 "ir3_structs_new.ml" 297 10304 10307
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 297 10304 10314 "ir3_structs_new.ml" 297 10304 10325
+type(
+  ir3_stmt_new list -> int
+)
+ident(
+  ext_ref List.length
+)
+"ir3_structs_new.ml" 297 10304 10326 "ir3_structs_new.ml" 297 10304 10327
+type(
+  md_decl3_new
+)
+ident(
+  int_ref m "ir3_structs_new.ml" 284 9786 9816 "ir3_structs_new.ml" 284 9786 9817
+)
+"ir3_structs_new.ml" 297 10304 10326 "ir3_structs_new.ml" 297 10304 10336
+type(
+  ir3_stmt_new list
+)
+"ir3_structs_new.ml" 297 10304 10313 "ir3_structs_new.ml" 297 10304 10337
+call(
+  stack
+)
+type(
+  int
+)
+"ir3_structs_new.ml" 297 10304 10338 "ir3_structs_new.ml" 297 10304 10339
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"ir3_structs_new.ml" 297 10304 10341 "ir3_structs_new.ml" 297 10304 10342
+type(
+  int
+)
+"ir3_structs_new.ml" 297 10304 10312 "ir3_structs_new.ml" 297 10304 10343
+type(
+  bool
+)
+"ir3_structs_new.ml" 297 10304 10349 "ir3_structs_new.ml" 297 10304 10353
+type(
+  string
+)
+"ir3_structs_new.ml" 297 10304 10359 "ir3_structs_new.ml" 297 10304 10361
+type(
+  string
+)
+"ir3_structs_new.ml" 297 10304 10308 "ir3_structs_new.ml" 297 10304 10362
+type(
+  string
+)
+"ir3_structs_new.ml" 296 10246 10248 "ir3_structs_new.ml" 297 10304 10362
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 298 10366 10371 "ir3_structs_new.ml" 298 10366 10378
+type(
+  string
+)
+ident(
+  def indentD "ir3_structs_new.ml" 299 10397 10398 "ir3_structs_new.ml" 302 10498 10521
+)
+"ir3_structs_new.ml" 298 10366 10381 "ir3_structs_new.ml" 298 10366 10391
+type(
+  unit -> string
+)
+ident(
+  int_ref indent_dec "ir3_structs_new.ml" 172 5775 5779 "ir3_structs_new.ml" 172 5775 5789
+)
+"ir3_structs_new.ml" 298 10366 10391 "ir3_structs_new.ml" 298 10366 10393
+type(
+  unit
+)
+"ir3_structs_new.ml" 298 10366 10381 "ir3_structs_new.ml" 298 10366 10393
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 299 10397 10402 "ir3_structs_new.ml" 299 10397 10411
+type(
+  string
+)
+ident(
+  def methodEnd "ir3_structs_new.ml" 300 10437 10439 "ir3_structs_new.ml" 302 10498 10521
+)
+"ir3_structs_new.ml" 299 10397 10414 "ir3_structs_new.ml" 299 10397 10423
+type(
+  unit -> string
+)
+ident(
+  int_ref print_tab "ir3_structs_new.ml" 176 5881 5889 "ir3_structs_new.ml" 176 5881 5898
+)
+"ir3_structs_new.ml" 299 10397 10423 "ir3_structs_new.ml" 299 10397 10425
+type(
+  unit
+)
+"ir3_structs_new.ml" 299 10397 10414 "ir3_structs_new.ml" 299 10397 10425
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 299 10397 10426 "ir3_structs_new.ml" 299 10397 10427
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 299 10397 10428 "ir3_structs_new.ml" 299 10397 10433
+type(
+  string
+)
+"ir3_structs_new.ml" 299 10397 10414 "ir3_structs_new.ml" 299 10397 10433
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 300 10437 10439 "ir3_structs_new.ml" 300 10437 10451
+type(
+  string
+)
+ident(
+  int_ref methodHeader "ir3_structs_new.ml" 286 9869 9874 "ir3_structs_new.ml" 286 9869 9886
+)
+"ir3_structs_new.ml" 300 10437 10452 "ir3_structs_new.ml" 300 10437 10453
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 300 10437 10454 "ir3_structs_new.ml" 300 10437 10461
+type(
+  string
+)
+ident(
+  int_ref indentI "ir3_structs_new.ml" 291 10043 10048 "ir3_structs_new.ml" 291 10043 10055
+)
+"ir3_structs_new.ml" 301 10463 10465 "ir3_structs_new.ml" 301 10463 10466
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 301 10463 10467 "ir3_structs_new.ml" 301 10463 10482
+type(
+  string
+)
+ident(
+  int_ref methodVariables "ir3_structs_new.ml" 292 10074 10079 "ir3_structs_new.ml" 292 10074 10094
+)
+"ir3_structs_new.ml" 301 10463 10483 "ir3_structs_new.ml" 301 10463 10484
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 301 10463 10485 "ir3_structs_new.ml" 301 10463 10496
+type(
+  string
+)
+ident(
+  int_ref methodStmts "ir3_structs_new.ml" 295 10226 10231 "ir3_structs_new.ml" 295 10226 10242
+)
+"ir3_structs_new.ml" 302 10498 10500 "ir3_structs_new.ml" 302 10498 10501
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 302 10498 10502 "ir3_structs_new.ml" 302 10498 10509
+type(
+  string
+)
+ident(
+  int_ref indentD "ir3_structs_new.ml" 298 10366 10371 "ir3_structs_new.ml" 298 10366 10378
+)
+"ir3_structs_new.ml" 302 10498 10510 "ir3_structs_new.ml" 302 10498 10511
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 302 10498 10512 "ir3_structs_new.ml" 302 10498 10521
+type(
+  string
+)
+ident(
+  int_ref methodEnd "ir3_structs_new.ml" 299 10397 10402 "ir3_structs_new.ml" 299 10397 10411
+)
+"ir3_structs_new.ml" 302 10498 10502 "ir3_structs_new.ml" 302 10498 10521
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 301 10463 10485 "ir3_structs_new.ml" 302 10498 10521
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 301 10463 10467 "ir3_structs_new.ml" 302 10498 10521
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 300 10437 10454 "ir3_structs_new.ml" 302 10498 10521
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 300 10437 10439 "ir3_structs_new.ml" 302 10498 10521
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 299 10397 10398 "ir3_structs_new.ml" 302 10498 10521
+type(
+  string
+)
+"ir3_structs_new.ml" 298 10366 10367 "ir3_structs_new.ml" 302 10498 10521
+type(
+  string
+)
+"ir3_structs_new.ml" 295 10226 10227 "ir3_structs_new.ml" 302 10498 10521
+type(
+  string
+)
+"ir3_structs_new.ml" 292 10074 10075 "ir3_structs_new.ml" 302 10498 10521
+type(
+  string
+)
+"ir3_structs_new.ml" 291 10043 10044 "ir3_structs_new.ml" 302 10498 10521
+type(
+  string
+)
+"ir3_structs_new.ml" 286 9869 9870 "ir3_structs_new.ml" 302 10498 10521
+type(
+  string
+)
+"ir3_structs_new.ml" 285 9843 9844 "ir3_structs_new.ml" 302 10498 10521
+type(
+  string
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 305 10562 10566 "ir3_structs_new.ml" 305 10562 10586
+type(
+  cdata3_new -> string
+)
+ident(
+  def string_of_cdata3_new "ir3_structs_new.ml" 316 10938 10938 "ir3_structs_new.ml" 1 0 -1
+)
+"ir3_structs_new.ml" 306 10587 10590 "ir3_structs_new.ml" 306 10587 10591
+type(
+  cname3_new
+)
+ident(
+  def c "ir3_structs_new.ml" 306 10587 10614 "ir3_structs_new.ml" 313 10864 10901
+)
+"ir3_structs_new.ml" 306 10587 10592 "ir3_structs_new.ml" 306 10587 10600
+type(
+  var_decl3_new list
+)
+ident(
+  def var_list "ir3_structs_new.ml" 306 10587 10614 "ir3_structs_new.ml" 313 10864 10901
+)
+"ir3_structs_new.ml" 306 10587 10589 "ir3_structs_new.ml" 306 10587 10601
+type(
+  cdata3_new
+)
+"ir3_structs_new.ml" 307 10626 10631 "ir3_structs_new.ml" 307 10626 10642
+type(
+  string
+)
+ident(
+  def classHeader "ir3_structs_new.ml" 309 10687 10688 "ir3_structs_new.ml" 313 10864 10901
+)
+"ir3_structs_new.ml" 308 10646 10648 "ir3_structs_new.ml" 308 10646 10656
+type(
+  string
+)
+"ir3_structs_new.ml" 308 10646 10657 "ir3_structs_new.ml" 308 10646 10658
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 308 10646 10659 "ir3_structs_new.ml" 308 10646 10660
+type(
+  cname3_new
+)
+ident(
+  int_ref c "ir3_structs_new.ml" 306 10587 10590 "ir3_structs_new.ml" 306 10587 10591
+)
+"ir3_structs_new.ml" 308 10646 10661 "ir3_structs_new.ml" 308 10646 10662
+type(
+  cname3_new -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 308 10646 10663 "ir3_structs_new.ml" 308 10646 10668
+type(
+  string
+)
+"ir3_structs_new.ml" 308 10646 10669 "ir3_structs_new.ml" 308 10646 10670
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 308 10646 10671 "ir3_structs_new.ml" 308 10646 10681
+type(
+  unit -> string
+)
+ident(
+  int_ref indent_inc "ir3_structs_new.ml" 169 5716 5720 "ir3_structs_new.ml" 169 5716 5730
+)
+"ir3_structs_new.ml" 308 10646 10681 "ir3_structs_new.ml" 308 10646 10683
+type(
+  unit
+)
+"ir3_structs_new.ml" 308 10646 10671 "ir3_structs_new.ml" 308 10646 10683
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 308 10646 10663 "ir3_structs_new.ml" 308 10646 10683
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 308 10646 10659 "ir3_structs_new.ml" 308 10646 10683
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 308 10646 10648 "ir3_structs_new.ml" 308 10646 10683
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 309 10687 10692 "ir3_structs_new.ml" 309 10687 10701
+type(
+  string
+)
+ident(
+  def classBody "ir3_structs_new.ml" 312 10824 10828 "ir3_structs_new.ml" 313 10864 10901
+)
+"ir3_structs_new.ml" 310 10705 10708 "ir3_structs_new.ml" 310 10705 10722
+type(
+  var_decl3_new list -> (var_decl3_new -> string) -> string -> string
+)
+ident(
+  int_ref string_of_list "ir3_structs_new.ml" 183 6145 6149 "ir3_structs_new.ml" 183 6145 6163
+)
+"ir3_structs_new.ml" 310 10705 10723 "ir3_structs_new.ml" 310 10705 10731
+type(
+  var_decl3_new list
+)
+ident(
+  int_ref var_list "ir3_structs_new.ml" 306 10587 10592 "ir3_structs_new.ml" 306 10587 10600
+)
+"ir3_structs_new.ml" 310 10705 10732 "ir3_structs_new.ml" 310 10705 10755
+type(
+  var_decl3_new -> string
+)
+ident(
+  int_ref string_of_var_decl3_new "ir3_structs_new.ml" 276 9465 9469 "ir3_structs_new.ml" 276 9465 9492
+)
+"ir3_structs_new.ml" 310 10705 10756 "ir3_structs_new.ml" 310 10705 10761
+type(
+  string
+)
+"ir3_structs_new.ml" 310 10705 10707 "ir3_structs_new.ml" 310 10705 10762
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 311 10765 10767 "ir3_structs_new.ml" 311 10765 10768
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 311 10765 10775 "ir3_structs_new.ml" 311 10765 10786
+type(
+  var_decl3_new list -> int
+)
+ident(
+  ext_ref List.length
+)
+"ir3_structs_new.ml" 311 10765 10787 "ir3_structs_new.ml" 311 10765 10795
+type(
+  var_decl3_new list
+)
+ident(
+  int_ref var_list "ir3_structs_new.ml" 306 10587 10592 "ir3_structs_new.ml" 306 10587 10600
+)
+"ir3_structs_new.ml" 311 10765 10774 "ir3_structs_new.ml" 311 10765 10796
+call(
+  stack
+)
+type(
+  int
+)
+"ir3_structs_new.ml" 311 10765 10797 "ir3_structs_new.ml" 311 10765 10798
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"ir3_structs_new.ml" 311 10765 10800 "ir3_structs_new.ml" 311 10765 10801
+type(
+  int
+)
+"ir3_structs_new.ml" 311 10765 10773 "ir3_structs_new.ml" 311 10765 10802
+type(
+  bool
+)
+"ir3_structs_new.ml" 311 10765 10808 "ir3_structs_new.ml" 311 10765 10813
+type(
+  string
+)
+"ir3_structs_new.ml" 311 10765 10819 "ir3_structs_new.ml" 311 10765 10821
+type(
+  string
+)
+"ir3_structs_new.ml" 311 10765 10769 "ir3_structs_new.ml" 311 10765 10822
+type(
+  string
+)
+"ir3_structs_new.ml" 310 10705 10707 "ir3_structs_new.ml" 311 10765 10822
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 312 10824 10832 "ir3_structs_new.ml" 312 10824 10840
+type(
+  string
+)
+ident(
+  def classEnd "ir3_structs_new.ml" 313 10864 10866 "ir3_structs_new.ml" 313 10864 10901
+)
+"ir3_structs_new.ml" 312 10824 10843 "ir3_structs_new.ml" 312 10824 10853
+type(
+  unit -> string
+)
+ident(
+  int_ref indent_dec "ir3_structs_new.ml" 172 5775 5779 "ir3_structs_new.ml" 172 5775 5789
+)
+"ir3_structs_new.ml" 312 10824 10853 "ir3_structs_new.ml" 312 10824 10855
+type(
+  unit
+)
+"ir3_structs_new.ml" 312 10824 10843 "ir3_structs_new.ml" 312 10824 10855
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 312 10824 10855 "ir3_structs_new.ml" 312 10824 10856
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 312 10824 10857 "ir3_structs_new.ml" 312 10824 10860
+type(
+  string
+)
+"ir3_structs_new.ml" 312 10824 10843 "ir3_structs_new.ml" 312 10824 10860
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 313 10864 10866 "ir3_structs_new.ml" 313 10864 10877
+type(
+  string
+)
+ident(
+  int_ref classHeader "ir3_structs_new.ml" 307 10626 10631 "ir3_structs_new.ml" 307 10626 10642
+)
+"ir3_structs_new.ml" 313 10864 10878 "ir3_structs_new.ml" 313 10864 10879
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 313 10864 10880 "ir3_structs_new.ml" 313 10864 10889
+type(
+  string
+)
+ident(
+  int_ref classBody "ir3_structs_new.ml" 309 10687 10692 "ir3_structs_new.ml" 309 10687 10701
+)
+"ir3_structs_new.ml" 313 10864 10891 "ir3_structs_new.ml" 313 10864 10892
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 313 10864 10893 "ir3_structs_new.ml" 313 10864 10901
+type(
+  string
+)
+ident(
+  int_ref classEnd "ir3_structs_new.ml" 312 10824 10832 "ir3_structs_new.ml" 312 10824 10840
+)
+"ir3_structs_new.ml" 313 10864 10880 "ir3_structs_new.ml" 313 10864 10901
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 313 10864 10866 "ir3_structs_new.ml" 313 10864 10901
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 312 10824 10828 "ir3_structs_new.ml" 313 10864 10901
+type(
+  string
+)
+"ir3_structs_new.ml" 309 10687 10688 "ir3_structs_new.ml" 313 10864 10901
+type(
+  string
+)
+"ir3_structs_new.ml" 307 10626 10627 "ir3_structs_new.ml" 313 10864 10901
+type(
+  string
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 316 10938 10942 "ir3_structs_new.ml" 316 10938 10967
+type(
+  ir3_program_new -> string
+)
+ident(
+  def string_of_ir3_program_new "ir3_structs_new.ml" 324 11317 11366 "ir3_structs_new.ml" 1 0 -1
+)
+"ir3_structs_new.ml" 317 10969 10972 "ir3_structs_new.ml" 317 10969 10981
+type(
+  cdata3_new list
+)
+ident(
+  def cdata3lst "ir3_structs_new.ml" 317 10969 11017 "ir3_structs_new.ml" 324 11317 11366
+)
+"ir3_structs_new.ml" 317 10969 10983 "ir3_structs_new.ml" 317 10969 10990
+type(
+  md_decl3_new
+)
+ident(
+  def mainmd3 "ir3_structs_new.ml" 317 10969 11017 "ir3_structs_new.ml" 324 11317 11366
+)
+"ir3_structs_new.ml" 317 10969 10992 "ir3_structs_new.ml" 317 10969 10998
+type(
+  md_decl3_new list
+)
+ident(
+  def md3lst "ir3_structs_new.ml" 317 10969 11017 "ir3_structs_new.ml" 324 11317 11366
+)
+"ir3_structs_new.ml" 317 10969 10971 "ir3_structs_new.ml" 317 10969 10999
+type(
+  ir3_program_new
+)
+"ir3_structs_new.ml" 318 11029 11030 "ir3_structs_new.ml" 318 11029 11067
+type(
+  string
+)
+"ir3_structs_new.ml" 319 11069 11070 "ir3_structs_new.ml" 319 11069 11071
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 319 11069 11072 "ir3_structs_new.ml" 319 11069 11104
+type(
+  string
+)
+"ir3_structs_new.ml" 319 11069 11105 "ir3_structs_new.ml" 319 11069 11106
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 320 11108 11111 "ir3_structs_new.ml" 320 11108 11125
+type(
+  cdata3_new list -> (cdata3_new -> string) -> string -> string
+)
+ident(
+  int_ref string_of_list "ir3_structs_new.ml" 183 6145 6149 "ir3_structs_new.ml" 183 6145 6163
+)
+"ir3_structs_new.ml" 320 11108 11126 "ir3_structs_new.ml" 320 11108 11135
+type(
+  cdata3_new list
+)
+ident(
+  int_ref cdata3lst "ir3_structs_new.ml" 317 10969 10972 "ir3_structs_new.ml" 317 10969 10981
+)
+"ir3_structs_new.ml" 320 11108 11136 "ir3_structs_new.ml" 320 11108 11156
+type(
+  cdata3_new -> string
+)
+ident(
+  int_ref string_of_cdata3_new "ir3_structs_new.ml" 305 10562 10566 "ir3_structs_new.ml" 305 10562 10586
+)
+"ir3_structs_new.ml" 320 11108 11157 "ir3_structs_new.ml" 320 11108 11163
+type(
+  string
+)
+"ir3_structs_new.ml" 320 11108 11110 "ir3_structs_new.ml" 320 11108 11165
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 321 11166 11167 "ir3_structs_new.ml" 321 11166 11168
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 321 11166 11169 "ir3_structs_new.ml" 321 11166 11175
+type(
+  string
+)
+"ir3_structs_new.ml" 321 11166 11176 "ir3_structs_new.ml" 321 11166 11177
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 321 11166 11178 "ir3_structs_new.ml" 321 11166 11211
+type(
+  string
+)
+"ir3_structs_new.ml" 322 11212 11214 "ir3_structs_new.ml" 322 11212 11215
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 322 11212 11217 "ir3_structs_new.ml" 322 11212 11241
+type(
+  md_decl3_new -> string
+)
+ident(
+  int_ref string_of_meth_decl3_new "ir3_structs_new.ml" 284 9786 9790 "ir3_structs_new.ml" 284 9786 9814
+)
+"ir3_structs_new.ml" 322 11212 11242 "ir3_structs_new.ml" 322 11212 11249
+type(
+  md_decl3_new
+)
+ident(
+  int_ref mainmd3 "ir3_structs_new.ml" 317 10969 10983 "ir3_structs_new.ml" 317 10969 10990
+)
+"ir3_structs_new.ml" 322 11212 11216 "ir3_structs_new.ml" 322 11212 11250
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 322 11212 11251 "ir3_structs_new.ml" 322 11212 11252
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 322 11212 11253 "ir3_structs_new.ml" 322 11212 11257
+type(
+  string
+)
+"ir3_structs_new.ml" 323 11258 11260 "ir3_structs_new.ml" 323 11258 11261
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 323 11258 11263 "ir3_structs_new.ml" 323 11258 11277
+type(
+  md_decl3_new list -> (md_decl3_new -> string) -> string -> string
+)
+ident(
+  int_ref string_of_list "ir3_structs_new.ml" 183 6145 6149 "ir3_structs_new.ml" 183 6145 6163
+)
+"ir3_structs_new.ml" 323 11258 11278 "ir3_structs_new.ml" 323 11258 11284
+type(
+  md_decl3_new list
+)
+ident(
+  int_ref md3lst "ir3_structs_new.ml" 317 10969 10992 "ir3_structs_new.ml" 317 10969 10998
+)
+"ir3_structs_new.ml" 323 11258 11285 "ir3_structs_new.ml" 323 11258 11309
+type(
+  md_decl3_new -> string
+)
+ident(
+  int_ref string_of_meth_decl3_new "ir3_structs_new.ml" 284 9786 9790 "ir3_structs_new.ml" 284 9786 9814
+)
+"ir3_structs_new.ml" 323 11258 11310 "ir3_structs_new.ml" 323 11258 11314
+type(
+  string
+)
+"ir3_structs_new.ml" 323 11258 11262 "ir3_structs_new.ml" 323 11258 11316
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 324 11317 11318 "ir3_structs_new.ml" 324 11317 11319
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_structs_new.ml" 324 11317 11320 "ir3_structs_new.ml" 324 11317 11366
+type(
+  string
+)
+"ir3_structs_new.ml" 323 11258 11262 "ir3_structs_new.ml" 324 11317 11366
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 322 11212 11253 "ir3_structs_new.ml" 324 11317 11366
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 322 11212 11216 "ir3_structs_new.ml" 324 11317 11366
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 321 11166 11178 "ir3_structs_new.ml" 324 11317 11366
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 321 11166 11169 "ir3_structs_new.ml" 324 11317 11366
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 320 11108 11110 "ir3_structs_new.ml" 324 11317 11366
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 319 11069 11072 "ir3_structs_new.ml" 324 11317 11366
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_structs_new.ml" 318 11029 11030 "ir3_structs_new.ml" 324 11317 11366
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)

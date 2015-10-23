@@ -1,0 +1,2930 @@
+"register_allocation.ml" 7 135 139 "register_allocation.ml" 7 135 151
+type(
+  ('a * 'a list) list -> 'a list -> 'a -> 'a -> bool
+)
+ident(
+  def is_connected "register_allocation.ml" 16 428 428 "register_allocation.ml" 1 0 -1
+)
+"register_allocation.ml" 7 135 152 "register_allocation.ml" 7 135 157
+type(
+  ('a * 'a list) list
+)
+ident(
+  def edges "register_allocation.ml" 7 135 158 "register_allocation.ml" 14 413 426
+)
+"register_allocation.ml" 7 135 158 "register_allocation.ml" 7 135 163
+type(
+  'a list
+)
+ident(
+  def nodes "register_allocation.ml" 7 135 164 "register_allocation.ml" 14 413 426
+)
+"register_allocation.ml" 7 135 164 "register_allocation.ml" 7 135 169
+type(
+  'a
+)
+ident(
+  def node1 "register_allocation.ml" 7 135 170 "register_allocation.ml" 14 413 426
+)
+"register_allocation.ml" 7 135 170 "register_allocation.ml" 7 135 175
+type(
+  'a
+)
+ident(
+  def node2 "register_allocation.ml" 8 178 182 "register_allocation.ml" 14 413 426
+)
+"register_allocation.ml" 8 178 186 "register_allocation.ml" 8 178 194
+type(
+  'a -> 'a list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"register_allocation.ml" 8 178 195 "register_allocation.ml" 8 178 200
+type(
+  'a
+)
+ident(
+  int_ref node1 "register_allocation.ml" 7 135 164 "register_allocation.ml" 7 135 169
+)
+"register_allocation.ml" 8 178 201 "register_allocation.ml" 8 178 206
+type(
+  'a list
+)
+ident(
+  int_ref nodes "register_allocation.ml" 7 135 158 "register_allocation.ml" 7 135 163
+)
+"register_allocation.ml" 8 178 185 "register_allocation.ml" 8 178 207
+call(
+  stack
+)
+type(
+  bool
+)
+"register_allocation.ml" 8 178 208 "register_allocation.ml" 8 178 210
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"register_allocation.ml" 8 178 212 "register_allocation.ml" 8 178 220
+type(
+  'a -> 'a list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"register_allocation.ml" 8 178 221 "register_allocation.ml" 8 178 226
+type(
+  'a
+)
+ident(
+  int_ref node2 "register_allocation.ml" 7 135 170 "register_allocation.ml" 7 135 175
+)
+"register_allocation.ml" 8 178 227 "register_allocation.ml" 8 178 232
+type(
+  'a list
+)
+ident(
+  int_ref nodes "register_allocation.ml" 7 135 158 "register_allocation.ml" 7 135 163
+)
+"register_allocation.ml" 8 178 211 "register_allocation.ml" 8 178 233
+call(
+  stack
+)
+type(
+  bool
+)
+"register_allocation.ml" 9 234 242 "register_allocation.ml" 9 234 244
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"register_allocation.ml" 9 234 246 "register_allocation.ml" 9 234 251
+type(
+  'a
+)
+ident(
+  int_ref node1 "register_allocation.ml" 7 135 164 "register_allocation.ml" 7 135 169
+)
+"register_allocation.ml" 9 234 252 "register_allocation.ml" 9 234 254
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"register_allocation.ml" 9 234 255 "register_allocation.ml" 9 234 260
+type(
+  'a
+)
+ident(
+  int_ref node2 "register_allocation.ml" 7 135 170 "register_allocation.ml" 7 135 175
+)
+"register_allocation.ml" 9 234 245 "register_allocation.ml" 9 234 261
+type(
+  bool
+)
+"register_allocation.ml" 8 178 211 "register_allocation.ml" 9 234 261
+type(
+  bool
+)
+"register_allocation.ml" 8 178 185 "register_allocation.ml" 9 234 261
+type(
+  bool
+)
+"register_allocation.ml" 10 267 280 "register_allocation.ml" 10 267 281
+type(
+  'a
+)
+"register_allocation.ml" 10 267 283 "register_allocation.ml" 10 267 298
+type(
+  'a list
+)
+ident(
+  def connected_nodes "register_allocation.ml" 12 365 373 "register_allocation.ml" 12 365 403
+)
+"register_allocation.ml" 10 267 279 "register_allocation.ml" 10 267 299
+type(
+  'a * 'a list
+)
+"register_allocation.ml" 10 267 302 "register_allocation.ml" 10 267 311
+type(
+  ('a * 'a list -> bool) -> ('a * 'a list) list -> 'a * 'a list
+)
+ident(
+  ext_ref List.find
+)
+"register_allocation.ml" 11 312 330 "register_allocation.ml" 11 312 334
+type(
+  'a
+)
+ident(
+  def node "register_allocation.ml" 11 312 342 "register_allocation.ml" 11 312 354
+)
+"register_allocation.ml" 11 312 336 "register_allocation.ml" 11 312 337
+type(
+  'a list
+)
+"register_allocation.ml" 11 312 329 "register_allocation.ml" 11 312 338
+type(
+  'a * 'a list
+)
+"register_allocation.ml" 11 312 342 "register_allocation.ml" 11 312 346
+type(
+  'a
+)
+ident(
+  int_ref node "register_allocation.ml" 11 312 330 "register_allocation.ml" 11 312 334
+)
+"register_allocation.ml" 11 312 347 "register_allocation.ml" 11 312 348
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"register_allocation.ml" 11 312 349 "register_allocation.ml" 11 312 354
+type(
+  'a
+)
+ident(
+  int_ref node1 "register_allocation.ml" 7 135 164 "register_allocation.ml" 7 135 169
+)
+"register_allocation.ml" 11 312 342 "register_allocation.ml" 11 312 354
+type(
+  bool
+)
+"register_allocation.ml" 11 312 324 "register_allocation.ml" 11 312 355
+type(
+  'a * 'a list -> bool
+)
+"register_allocation.ml" 11 312 356 "register_allocation.ml" 11 312 361
+type(
+  ('a * 'a list) list
+)
+ident(
+  int_ref edges "register_allocation.ml" 7 135 152 "register_allocation.ml" 7 135 157
+)
+"register_allocation.ml" 10 267 302 "register_allocation.ml" 11 312 361
+call(
+  stack
+)
+type(
+  'a * 'a list
+)
+"register_allocation.ml" 12 365 373 "register_allocation.ml" 12 365 381
+type(
+  'a -> 'a list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"register_allocation.ml" 12 365 382 "register_allocation.ml" 12 365 387
+type(
+  'a
+)
+ident(
+  int_ref node2 "register_allocation.ml" 7 135 170 "register_allocation.ml" 7 135 175
+)
+"register_allocation.ml" 12 365 388 "register_allocation.ml" 12 365 403
+type(
+  'a list
+)
+ident(
+  int_ref connected_nodes "register_allocation.ml" 10 267 283 "register_allocation.ml" 10 267 298
+)
+"register_allocation.ml" 12 365 373 "register_allocation.ml" 12 365 403
+call(
+  tail
+)
+type(
+  bool
+)
+"register_allocation.ml" 10 267 275 "register_allocation.ml" 12 365 403
+type(
+  bool
+)
+"register_allocation.ml" 14 413 421 "register_allocation.ml" 14 413 426
+type(
+  bool
+)
+"register_allocation.ml" 8 178 182 "register_allocation.ml" 14 413 426
+type(
+  bool
+)
+"register_allocation.ml" 16 428 432 "register_allocation.ml" 16 428 446
+type(
+  ('a * 'a list) list -> 'a list -> 'a -> 'a list
+)
+ident(
+  def get_neighbours "register_allocation.ml" 21 558 558 "register_allocation.ml" 1 0 -1
+)
+"register_allocation.ml" 16 428 447 "register_allocation.ml" 16 428 452
+type(
+  ('a * 'a list) list
+)
+ident(
+  def edges "register_allocation.ml" 16 428 453 "register_allocation.ml" 19 543 556
+)
+"register_allocation.ml" 16 428 453 "register_allocation.ml" 16 428 458
+type(
+  'a list
+)
+ident(
+  def nodes "register_allocation.ml" 16 428 459 "register_allocation.ml" 19 543 556
+)
+"register_allocation.ml" 16 428 459 "register_allocation.ml" 16 428 463
+type(
+  'a
+)
+ident(
+  def node "register_allocation.ml" 17 466 470 "register_allocation.ml" 19 543 556
+)
+"register_allocation.ml" 17 466 470 "register_allocation.ml" 17 466 483
+type(
+  ('a -> bool) -> 'a list -> 'a list
+)
+ident(
+  ext_ref List.find_all
+)
+"register_allocation.ml" 18 484 497 "register_allocation.ml" 18 484 502
+type(
+  'a
+)
+ident(
+  def node2 "register_allocation.ml" 18 484 506 "register_allocation.ml" 18 484 541
+)
+"register_allocation.ml" 18 484 506 "register_allocation.ml" 18 484 518
+type(
+  ('a * 'a list) list -> 'a list -> 'a -> 'a -> bool
+)
+ident(
+  int_ref is_connected "register_allocation.ml" 7 135 139 "register_allocation.ml" 7 135 151
+)
+"register_allocation.ml" 18 484 519 "register_allocation.ml" 18 484 524
+type(
+  ('a * 'a list) list
+)
+ident(
+  int_ref edges "register_allocation.ml" 16 428 447 "register_allocation.ml" 16 428 452
+)
+"register_allocation.ml" 18 484 525 "register_allocation.ml" 18 484 530
+type(
+  'a list
+)
+ident(
+  int_ref nodes "register_allocation.ml" 16 428 453 "register_allocation.ml" 16 428 458
+)
+"register_allocation.ml" 18 484 531 "register_allocation.ml" 18 484 535
+type(
+  'a
+)
+ident(
+  int_ref node "register_allocation.ml" 16 428 459 "register_allocation.ml" 16 428 463
+)
+"register_allocation.ml" 18 484 536 "register_allocation.ml" 18 484 541
+type(
+  'a
+)
+ident(
+  int_ref node2 "register_allocation.ml" 18 484 497 "register_allocation.ml" 18 484 502
+)
+"register_allocation.ml" 18 484 506 "register_allocation.ml" 18 484 541
+call(
+  tail
+)
+type(
+  bool
+)
+"register_allocation.ml" 18 484 492 "register_allocation.ml" 18 484 542
+type(
+  'a -> bool
+)
+"register_allocation.ml" 19 543 551 "register_allocation.ml" 19 543 556
+type(
+  'a list
+)
+ident(
+  int_ref nodes "register_allocation.ml" 16 428 453 "register_allocation.ml" 16 428 458
+)
+"register_allocation.ml" 17 466 470 "register_allocation.ml" 19 543 556
+call(
+  tail
+)
+type(
+  'a list
+)
+"register_allocation.ml" 21 558 562 "register_allocation.ml" 21 558 576
+type(
+  ('a * 'a list) list -> 'a list -> 'a -> int
+)
+ident(
+  def compute_degree "register_allocation.ml" 25 680 680 "register_allocation.ml" 1 0 -1
+)
+"register_allocation.ml" 21 558 577 "register_allocation.ml" 21 558 582
+type(
+  ('a * 'a list) list
+)
+ident(
+  def edges "register_allocation.ml" 21 558 583 "register_allocation.ml" 23 652 678
+)
+"register_allocation.ml" 21 558 583 "register_allocation.ml" 21 558 588
+type(
+  'a list
+)
+ident(
+  def nodes "register_allocation.ml" 21 558 589 "register_allocation.ml" 23 652 678
+)
+"register_allocation.ml" 21 558 589 "register_allocation.ml" 21 558 593
+type(
+  'a
+)
+ident(
+  def node "register_allocation.ml" 22 596 600 "register_allocation.ml" 23 652 678
+)
+"register_allocation.ml" 22 596 604 "register_allocation.ml" 22 596 614
+type(
+  'a list
+)
+ident(
+  def neighbours "register_allocation.ml" 23 652 656 "register_allocation.ml" 23 652 678
+)
+"register_allocation.ml" 22 596 617 "register_allocation.ml" 22 596 631
+type(
+  ('a * 'a list) list -> 'a list -> 'a -> 'a list
+)
+ident(
+  int_ref get_neighbours "register_allocation.ml" 16 428 432 "register_allocation.ml" 16 428 446
+)
+"register_allocation.ml" 22 596 632 "register_allocation.ml" 22 596 637
+type(
+  ('a * 'a list) list
+)
+ident(
+  int_ref edges "register_allocation.ml" 21 558 577 "register_allocation.ml" 21 558 582
+)
+"register_allocation.ml" 22 596 638 "register_allocation.ml" 22 596 643
+type(
+  'a list
+)
+ident(
+  int_ref nodes "register_allocation.ml" 21 558 583 "register_allocation.ml" 21 558 588
+)
+"register_allocation.ml" 22 596 644 "register_allocation.ml" 22 596 648
+type(
+  'a
+)
+ident(
+  int_ref node "register_allocation.ml" 21 558 589 "register_allocation.ml" 21 558 593
+)
+"register_allocation.ml" 22 596 617 "register_allocation.ml" 22 596 648
+call(
+  stack
+)
+type(
+  'a list
+)
+"register_allocation.ml" 23 652 656 "register_allocation.ml" 23 652 667
+type(
+  'a list -> int
+)
+ident(
+  ext_ref List.length
+)
+"register_allocation.ml" 23 652 668 "register_allocation.ml" 23 652 678
+type(
+  'a list
+)
+ident(
+  int_ref neighbours "register_allocation.ml" 22 596 604 "register_allocation.ml" 22 596 614
+)
+"register_allocation.ml" 23 652 656 "register_allocation.ml" 23 652 678
+call(
+  tail
+)
+type(
+  int
+)
+"register_allocation.ml" 22 596 600 "register_allocation.ml" 23 652 678
+type(
+  int
+)
+"register_allocation.ml" 25 680 684 "register_allocation.ml" 25 680 692
+type(
+  int -> ('a * 'a list) list -> 'a list -> 'a list
+)
+ident(
+  def simplify "register_allocation.ml" 50 1444 1444 "register_allocation.ml" 1 0 -1
+)
+"register_allocation.ml" 25 680 693 "register_allocation.ml" 25 680 700
+type(
+  int
+)
+ident(
+  def num_reg "register_allocation.ml" 25 680 701 "register_allocation.ml" 48 1411 1442
+)
+"register_allocation.ml" 25 680 701 "register_allocation.ml" 25 680 706
+type(
+  ('a * 'a list) list
+)
+ident(
+  def edges "register_allocation.ml" 25 680 707 "register_allocation.ml" 48 1411 1442
+)
+"register_allocation.ml" 25 680 707 "register_allocation.ml" 25 680 712
+type(
+  'a list
+)
+ident(
+  def nodes "register_allocation.ml" 26 715 719 "register_allocation.ml" 48 1411 1442
+)
+"register_allocation.ml" 26 715 727 "register_allocation.ml" 26 715 742
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  def simplify_helper "register_allocation.ml" 26 715 719 "register_allocation.ml" 48 1411 1442
+)
+"register_allocation.ml" 26 715 743 "register_allocation.ml" 26 715 748
+type(
+  'a list
+)
+ident(
+  def nodes "register_allocation.ml" 26 715 749 "register_allocation.ml" 45 1334 1381
+)
+"register_allocation.ml" 26 715 749 "register_allocation.ml" 26 715 754
+type(
+  'a list
+)
+ident(
+  def stack "register_allocation.ml" 27 757 765 "register_allocation.ml" 45 1334 1381
+)
+"register_allocation.ml" 27 757 771 "register_allocation.ml" 27 757 776
+type(
+  'a list
+)
+ident(
+  int_ref nodes "register_allocation.ml" 26 715 743 "register_allocation.ml" 26 715 748
+)
+"register_allocation.ml" 28 782 792 "register_allocation.ml" 28 782 794
+type(
+  'a list
+)
+"register_allocation.ml" 29 798 810 "register_allocation.ml" 29 798 815
+type(
+  'a list
+)
+ident(
+  int_ref stack "register_allocation.ml" 26 715 749 "register_allocation.ml" 26 715 754
+)
+"register_allocation.ml" 30 816 826 "register_allocation.ml" 30 816 830
+type(
+  'a
+)
+ident(
+  def head "register_allocation.ml" 31 837 849 "register_allocation.ml" 45 1334 1381
+)
+"register_allocation.ml" 30 816 832 "register_allocation.ml" 30 816 833
+type(
+  'a list
+)
+"register_allocation.ml" 30 816 826 "register_allocation.ml" 30 816 833
+type(
+  'a list
+)
+"register_allocation.ml" 31 837 853 "register_allocation.ml" 31 837 857
+type(
+  'a
+)
+ident(
+  def node "register_allocation.ml" 42 1197 1209 "register_allocation.ml" 45 1334 1381
+)
+"register_allocation.ml" 33 880 900 "register_allocation.ml" 33 880 909
+type(
+  ('a -> bool) -> 'a list -> 'a
+)
+ident(
+  ext_ref List.find
+)
+"register_allocation.ml" 34 910 939 "register_allocation.ml" 34 910 943
+type(
+  'a
+)
+ident(
+  def node "register_allocation.ml" 34 910 947 "register_allocation.ml" 35 968 1016
+)
+"register_allocation.ml" 34 910 947 "register_allocation.ml" 34 910 961
+type(
+  ('a * 'a list) list -> 'a list -> 'a -> int
+)
+ident(
+  int_ref compute_degree "register_allocation.ml" 21 558 562 "register_allocation.ml" 21 558 576
+)
+"register_allocation.ml" 34 910 962 "register_allocation.ml" 34 910 967
+type(
+  ('a * 'a list) list
+)
+ident(
+  int_ref edges "register_allocation.ml" 25 680 701 "register_allocation.ml" 25 680 706
+)
+"register_allocation.ml" 35 968 996 "register_allocation.ml" 35 968 1001
+type(
+  'a list
+)
+ident(
+  int_ref nodes "register_allocation.ml" 26 715 743 "register_allocation.ml" 26 715 748
+)
+"register_allocation.ml" 35 968 1002 "register_allocation.ml" 35 968 1006
+type(
+  'a
+)
+ident(
+  int_ref node "register_allocation.ml" 34 910 939 "register_allocation.ml" 34 910 943
+)
+"register_allocation.ml" 34 910 947 "register_allocation.ml" 35 968 1006
+call(
+  stack
+)
+type(
+  int
+)
+"register_allocation.ml" 35 968 1007 "register_allocation.ml" 35 968 1008
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"register_allocation.ml" 35 968 1009 "register_allocation.ml" 35 968 1016
+type(
+  int
+)
+ident(
+  int_ref num_reg "register_allocation.ml" 25 680 693 "register_allocation.ml" 25 680 700
+)
+"register_allocation.ml" 34 910 947 "register_allocation.ml" 35 968 1016
+type(
+  bool
+)
+"register_allocation.ml" 34 910 934 "register_allocation.ml" 35 968 1017
+type(
+  'a -> bool
+)
+"register_allocation.ml" 36 1018 1042 "register_allocation.ml" 36 1018 1047
+type(
+  'a list
+)
+ident(
+  int_ref nodes "register_allocation.ml" 26 715 743 "register_allocation.ml" 26 715 748
+)
+"register_allocation.ml" 33 880 900 "register_allocation.ml" 36 1018 1047
+call(
+  stack
+)
+type(
+  'a
+)
+"register_allocation.ml" 38 1069 1089 "register_allocation.ml" 38 1069 1098
+type(
+  exn
+)
+"register_allocation.ml" 40 1153 1177 "register_allocation.ml" 40 1153 1181
+type(
+  'a
+)
+ident(
+  int_ref head "register_allocation.ml" 30 816 826 "register_allocation.ml" 30 816 830
+)
+"register_allocation.ml" 32 860 876 "register_allocation.ml" 40 1153 1181
+type(
+  'a
+)
+"register_allocation.ml" 42 1197 1213 "register_allocation.ml" 42 1197 1222
+type(
+  'a list
+)
+ident(
+  def new_stack "register_allocation.ml" 43 1240 1252 "register_allocation.ml" 45 1334 1381
+)
+"register_allocation.ml" 42 1197 1225 "register_allocation.ml" 42 1197 1229
+type(
+  'a
+)
+ident(
+  int_ref node "register_allocation.ml" 31 837 853 "register_allocation.ml" 31 837 857
+)
+"register_allocation.ml" 42 1197 1231 "register_allocation.ml" 42 1197 1236
+type(
+  'a list
+)
+ident(
+  int_ref stack "register_allocation.ml" 26 715 749 "register_allocation.ml" 26 715 754
+)
+"register_allocation.ml" 42 1197 1225 "register_allocation.ml" 42 1197 1236
+type(
+  'a list
+)
+"register_allocation.ml" 43 1240 1256 "register_allocation.ml" 43 1240 1265
+type(
+  'a list
+)
+ident(
+  def new_nodes "register_allocation.ml" 45 1334 1346 "register_allocation.ml" 45 1334 1381
+)
+"register_allocation.ml" 43 1240 1268 "register_allocation.ml" 43 1240 1279
+type(
+  ('a -> bool) -> 'a list -> 'a list
+)
+ident(
+  ext_ref List.filter
+)
+"register_allocation.ml" 44 1280 1301 "register_allocation.ml" 44 1280 1306
+type(
+  'a
+)
+ident(
+  def node2 "register_allocation.ml" 44 1280 1310 "register_allocation.ml" 44 1280 1323
+)
+"register_allocation.ml" 44 1280 1310 "register_allocation.ml" 44 1280 1314
+type(
+  'a
+)
+ident(
+  int_ref node "register_allocation.ml" 31 837 853 "register_allocation.ml" 31 837 857
+)
+"register_allocation.ml" 44 1280 1315 "register_allocation.ml" 44 1280 1317
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"register_allocation.ml" 44 1280 1318 "register_allocation.ml" 44 1280 1323
+type(
+  'a
+)
+ident(
+  int_ref node2 "register_allocation.ml" 44 1280 1301 "register_allocation.ml" 44 1280 1306
+)
+"register_allocation.ml" 44 1280 1310 "register_allocation.ml" 44 1280 1323
+type(
+  bool
+)
+"register_allocation.ml" 44 1280 1296 "register_allocation.ml" 44 1280 1324
+type(
+  'a -> bool
+)
+"register_allocation.ml" 44 1280 1325 "register_allocation.ml" 44 1280 1330
+type(
+  'a list
+)
+ident(
+  int_ref nodes "register_allocation.ml" 26 715 743 "register_allocation.ml" 26 715 748
+)
+"register_allocation.ml" 43 1240 1268 "register_allocation.ml" 44 1280 1330
+call(
+  stack
+)
+type(
+  'a list
+)
+"register_allocation.ml" 45 1334 1346 "register_allocation.ml" 45 1334 1361
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref simplify_helper "register_allocation.ml" 26 715 727 "register_allocation.ml" 26 715 742
+)
+"register_allocation.ml" 45 1334 1362 "register_allocation.ml" 45 1334 1371
+type(
+  'a list
+)
+ident(
+  int_ref new_nodes "register_allocation.ml" 43 1240 1256 "register_allocation.ml" 43 1240 1265
+)
+"register_allocation.ml" 45 1334 1372 "register_allocation.ml" 45 1334 1381
+type(
+  'a list
+)
+ident(
+  int_ref new_stack "register_allocation.ml" 42 1197 1213 "register_allocation.ml" 42 1197 1222
+)
+"register_allocation.ml" 45 1334 1346 "register_allocation.ml" 45 1334 1381
+call(
+  tail
+)
+type(
+  'a list
+)
+"register_allocation.ml" 43 1240 1252 "register_allocation.ml" 45 1334 1381
+type(
+  'a list
+)
+"register_allocation.ml" 42 1197 1209 "register_allocation.ml" 45 1334 1381
+type(
+  'a list
+)
+"register_allocation.ml" 31 837 849 "register_allocation.ml" 45 1334 1381
+type(
+  'a list
+)
+"register_allocation.ml" 27 757 765 "register_allocation.ml" 45 1334 1381
+type(
+  'a list
+)
+"register_allocation.ml" 47 1389 1397 "register_allocation.ml" 47 1389 1402
+type(
+  'b list
+)
+ident(
+  def stack "register_allocation.ml" 48 1411 1415 "register_allocation.ml" 48 1411 1442
+)
+"register_allocation.ml" 47 1389 1405 "register_allocation.ml" 47 1389 1407
+type(
+  'b list
+)
+"register_allocation.ml" 48 1411 1415 "register_allocation.ml" 48 1411 1430
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref simplify_helper "register_allocation.ml" 26 715 727 "register_allocation.ml" 26 715 742
+)
+"register_allocation.ml" 48 1411 1431 "register_allocation.ml" 48 1411 1436
+type(
+  'a list
+)
+ident(
+  int_ref nodes "register_allocation.ml" 25 680 707 "register_allocation.ml" 25 680 712
+)
+"register_allocation.ml" 48 1411 1437 "register_allocation.ml" 48 1411 1442
+type(
+  'a list
+)
+ident(
+  int_ref stack "register_allocation.ml" 47 1389 1397 "register_allocation.ml" 47 1389 1402
+)
+"register_allocation.ml" 48 1411 1415 "register_allocation.ml" 48 1411 1442
+call(
+  tail
+)
+type(
+  'a list
+)
+"register_allocation.ml" 47 1389 1393 "register_allocation.ml" 48 1411 1442
+type(
+  'a list
+)
+"register_allocation.ml" 26 715 719 "register_allocation.ml" 48 1411 1442
+type(
+  'a list
+)
+"register_allocation.ml" 50 1444 1452 "register_allocation.ml" 50 1444 1468
+type(
+  'a -> ('a * int) list -> int
+)
+ident(
+  def get_assigned_reg "register_allocation.ml" 50 1444 1444 "register_allocation.ml" 1 0 -1
+)
+"register_allocation.ml" 50 1444 1469 "register_allocation.ml" 50 1444 1473
+type(
+  'a
+)
+ident(
+  def node "register_allocation.ml" 50 1444 1474 "register_allocation.ml" 58 1652 1695
+)
+"register_allocation.ml" 50 1444 1474 "register_allocation.ml" 50 1444 1487
+type(
+  ('a * int) list
+)
+ident(
+  def assign_result "register_allocation.ml" 51 1490 1494 "register_allocation.ml" 58 1652 1695
+)
+"register_allocation.ml" 51 1490 1500 "register_allocation.ml" 51 1490 1513
+type(
+  ('a * int) list
+)
+ident(
+  int_ref assign_result "register_allocation.ml" 50 1444 1474 "register_allocation.ml" 50 1444 1487
+)
+"register_allocation.ml" 52 1519 1525 "register_allocation.ml" 52 1519 1527
+type(
+  ('a * int) list
+)
+"register_allocation.ml" 53 1531 1539 "register_allocation.ml" 53 1531 1543
+type(
+  int
+)
+"register_allocation.ml" 54 1544 1551 "register_allocation.ml" 54 1544 1563
+type(
+  'a
+)
+ident(
+  def node_in_list "register_allocation.ml" 55 1584 1592 "register_allocation.ml" 58 1652 1695
+)
+"register_allocation.ml" 54 1544 1565 "register_allocation.ml" 54 1544 1568
+type(
+  int
+)
+ident(
+  def reg "register_allocation.ml" 55 1584 1592 "register_allocation.ml" 58 1652 1695
+)
+"register_allocation.ml" 54 1544 1550 "register_allocation.ml" 54 1544 1569
+type(
+  'a * int
+)
+"register_allocation.ml" 54 1544 1571 "register_allocation.ml" 54 1544 1580
+type(
+  ('a * int) list
+)
+ident(
+  def tail_list "register_allocation.ml" 55 1584 1592 "register_allocation.ml" 58 1652 1695
+)
+"register_allocation.ml" 54 1544 1550 "register_allocation.ml" 54 1544 1580
+type(
+  ('a * int) list
+)
+"register_allocation.ml" 55 1584 1597 "register_allocation.ml" 55 1584 1601
+type(
+  'a
+)
+ident(
+  int_ref node "register_allocation.ml" 50 1444 1469 "register_allocation.ml" 50 1444 1473
+)
+"register_allocation.ml" 55 1584 1602 "register_allocation.ml" 55 1584 1603
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"register_allocation.ml" 55 1584 1604 "register_allocation.ml" 55 1584 1616
+type(
+  'a
+)
+ident(
+  int_ref node_in_list "register_allocation.ml" 54 1544 1551 "register_allocation.ml" 54 1544 1563
+)
+"register_allocation.ml" 55 1584 1595 "register_allocation.ml" 55 1584 1617
+type(
+  bool
+)
+"register_allocation.ml" 56 1623 1635 "register_allocation.ml" 56 1623 1638
+type(
+  int
+)
+ident(
+  int_ref reg "register_allocation.ml" 54 1544 1565 "register_allocation.ml" 54 1544 1568
+)
+"register_allocation.ml" 58 1652 1664 "register_allocation.ml" 58 1652 1680
+type(
+  'a -> ('a * int) list -> int
+)
+ident(
+  int_ref get_assigned_reg "register_allocation.ml" 50 1444 1452 "register_allocation.ml" 50 1444 1468
+)
+"register_allocation.ml" 58 1652 1681 "register_allocation.ml" 58 1652 1685
+type(
+  'a
+)
+ident(
+  int_ref node "register_allocation.ml" 50 1444 1469 "register_allocation.ml" 50 1444 1473
+)
+"register_allocation.ml" 58 1652 1686 "register_allocation.ml" 58 1652 1695
+type(
+  ('a * int) list
+)
+ident(
+  int_ref tail_list "register_allocation.ml" 54 1544 1571 "register_allocation.ml" 54 1544 1580
+)
+"register_allocation.ml" 58 1652 1664 "register_allocation.ml" 58 1652 1695
+call(
+  tail
+)
+type(
+  int
+)
+"register_allocation.ml" 55 1584 1592 "register_allocation.ml" 58 1652 1695
+type(
+  int
+)
+"register_allocation.ml" 51 1490 1494 "register_allocation.ml" 58 1652 1695
+type(
+  int
+)
+"register_allocation.ml" 60 1697 1701 "register_allocation.ml" 60 1697 1716
+type(
+  int -> ('a * 'a list) list -> 'a list -> 'a -> ('a * int) list -> int
+)
+ident(
+  def assign_register "register_allocation.ml" 77 2283 2283 "register_allocation.ml" 1 0 -1
+)
+"register_allocation.ml" 60 1697 1717 "register_allocation.ml" 60 1697 1724
+type(
+  int
+)
+ident(
+  def num_reg "register_allocation.ml" 60 1697 1725 "register_allocation.ml" 75 2255 2281
+)
+"register_allocation.ml" 60 1697 1725 "register_allocation.ml" 60 1697 1730
+type(
+  ('a * 'a list) list
+)
+ident(
+  def edges "register_allocation.ml" 60 1697 1731 "register_allocation.ml" 75 2255 2281
+)
+"register_allocation.ml" 60 1697 1731 "register_allocation.ml" 60 1697 1736
+type(
+  'a list
+)
+ident(
+  def nodes "register_allocation.ml" 60 1697 1737 "register_allocation.ml" 75 2255 2281
+)
+"register_allocation.ml" 60 1697 1737 "register_allocation.ml" 60 1697 1741
+type(
+  'a
+)
+ident(
+  def node "register_allocation.ml" 60 1697 1742 "register_allocation.ml" 75 2255 2281
+)
+"register_allocation.ml" 60 1697 1742 "register_allocation.ml" 60 1697 1755
+type(
+  ('a * int) list
+)
+ident(
+  def assign_result "register_allocation.ml" 61 1758 1762 "register_allocation.ml" 75 2255 2281
+)
+"register_allocation.ml" 61 1758 1766 "register_allocation.ml" 61 1758 1775
+type(
+  'a list
+)
+ident(
+  def new_nodes "register_allocation.ml" 62 1793 1797 "register_allocation.ml" 75 2255 2281
+)
+"register_allocation.ml" 61 1758 1778 "register_allocation.ml" 61 1758 1782
+type(
+  'a
+)
+ident(
+  int_ref node "register_allocation.ml" 60 1697 1737 "register_allocation.ml" 60 1697 1741
+)
+"register_allocation.ml" 61 1758 1784 "register_allocation.ml" 61 1758 1789
+type(
+  'a list
+)
+ident(
+  int_ref nodes "register_allocation.ml" 60 1697 1731 "register_allocation.ml" 60 1697 1736
+)
+"register_allocation.ml" 61 1758 1778 "register_allocation.ml" 61 1758 1789
+type(
+  'a list
+)
+"register_allocation.ml" 62 1793 1801 "register_allocation.ml" 62 1793 1811
+type(
+  'a list
+)
+ident(
+  def neighbours "register_allocation.ml" 63 1853 1857 "register_allocation.ml" 75 2255 2281
+)
+"register_allocation.ml" 62 1793 1814 "register_allocation.ml" 62 1793 1828
+type(
+  ('a * 'a list) list -> 'a list -> 'a -> 'a list
+)
+ident(
+  int_ref get_neighbours "register_allocation.ml" 16 428 432 "register_allocation.ml" 16 428 446
+)
+"register_allocation.ml" 62 1793 1829 "register_allocation.ml" 62 1793 1834
+type(
+  ('a * 'a list) list
+)
+ident(
+  int_ref edges "register_allocation.ml" 60 1697 1725 "register_allocation.ml" 60 1697 1730
+)
+"register_allocation.ml" 62 1793 1835 "register_allocation.ml" 62 1793 1844
+type(
+  'a list
+)
+ident(
+  int_ref new_nodes "register_allocation.ml" 61 1758 1766 "register_allocation.ml" 61 1758 1775
+)
+"register_allocation.ml" 62 1793 1845 "register_allocation.ml" 62 1793 1849
+type(
+  'a
+)
+ident(
+  int_ref node "register_allocation.ml" 60 1697 1737 "register_allocation.ml" 60 1697 1741
+)
+"register_allocation.ml" 62 1793 1814 "register_allocation.ml" 62 1793 1849
+call(
+  stack
+)
+type(
+  'a list
+)
+"register_allocation.ml" 63 1853 1861 "register_allocation.ml" 63 1853 1870
+type(
+  int list
+)
+ident(
+  def used_regs "register_allocation.ml" 66 1962 1966 "register_allocation.ml" 75 2255 2281
+)
+"register_allocation.ml" 63 1853 1873 "register_allocation.ml" 63 1853 1881
+type(
+  ('a -> int) -> 'a list -> int list
+)
+ident(
+  ext_ref List.map
+)
+"register_allocation.ml" 64 1882 1895 "register_allocation.ml" 64 1882 1899
+type(
+  'a
+)
+ident(
+  def node "register_allocation.ml" 64 1882 1903 "register_allocation.ml" 64 1882 1938
+)
+"register_allocation.ml" 64 1882 1903 "register_allocation.ml" 64 1882 1919
+type(
+  'a -> ('a * int) list -> int
+)
+ident(
+  int_ref get_assigned_reg "register_allocation.ml" 50 1444 1452 "register_allocation.ml" 50 1444 1468
+)
+"register_allocation.ml" 64 1882 1920 "register_allocation.ml" 64 1882 1924
+type(
+  'a
+)
+ident(
+  int_ref node "register_allocation.ml" 64 1882 1895 "register_allocation.ml" 64 1882 1899
+)
+"register_allocation.ml" 64 1882 1925 "register_allocation.ml" 64 1882 1938
+type(
+  ('a * int) list
+)
+ident(
+  int_ref assign_result "register_allocation.ml" 60 1697 1742 "register_allocation.ml" 60 1697 1755
+)
+"register_allocation.ml" 64 1882 1903 "register_allocation.ml" 64 1882 1938
+call(
+  tail
+)
+type(
+  int
+)
+"register_allocation.ml" 64 1882 1890 "register_allocation.ml" 64 1882 1939
+type(
+  'a -> int
+)
+"register_allocation.ml" 65 1940 1948 "register_allocation.ml" 65 1940 1958
+type(
+  'a list
+)
+ident(
+  int_ref neighbours "register_allocation.ml" 62 1793 1801 "register_allocation.ml" 62 1793 1811
+)
+"register_allocation.ml" 63 1853 1873 "register_allocation.ml" 65 1940 1958
+call(
+  stack
+)
+type(
+  int list
+)
+"register_allocation.ml" 66 1962 1974 "register_allocation.ml" 66 1962 1994
+type(
+  int -> int
+)
+ident(
+  def find_free_reg_helper "register_allocation.ml" 66 1962 1966 "register_allocation.ml" 75 2255 2281
+)
+"register_allocation.ml" 66 1962 1995 "register_allocation.ml" 66 1962 2010
+type(
+  int
+)
+ident(
+  def current_attempt "register_allocation.ml" 67 2013 2021 "register_allocation.ml" 73 2216 2247
+)
+"register_allocation.ml" 67 2013 2024 "register_allocation.ml" 67 2013 2039
+type(
+  int
+)
+ident(
+  int_ref current_attempt "register_allocation.ml" 66 1962 1995 "register_allocation.ml" 66 1962 2010
+)
+"register_allocation.ml" 67 2013 2040 "register_allocation.ml" 67 2013 2041
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"register_allocation.ml" 67 2013 2042 "register_allocation.ml" 67 2013 2049
+type(
+  int
+)
+ident(
+  int_ref num_reg "register_allocation.ml" 60 1697 1717 "register_allocation.ml" 60 1697 1724
+)
+"register_allocation.ml" 67 2013 2024 "register_allocation.ml" 67 2013 2049
+type(
+  bool
+)
+"register_allocation.ml" 68 2055 2067 "register_allocation.ml" 68 2055 2071
+type(
+  int
+)
+"register_allocation.ml" 70 2085 2100 "register_allocation.ml" 70 2085 2108
+type(
+  int -> int list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"register_allocation.ml" 70 2085 2109 "register_allocation.ml" 70 2085 2124
+type(
+  int
+)
+ident(
+  int_ref current_attempt "register_allocation.ml" 66 1962 1995 "register_allocation.ml" 66 1962 2010
+)
+"register_allocation.ml" 70 2085 2125 "register_allocation.ml" 70 2085 2134
+type(
+  int list
+)
+ident(
+  int_ref used_regs "register_allocation.ml" 63 1853 1861 "register_allocation.ml" 63 1853 1870
+)
+"register_allocation.ml" 70 2085 2100 "register_allocation.ml" 70 2085 2134
+call(
+  stack
+)
+type(
+  bool
+)
+"register_allocation.ml" 71 2140 2156 "register_allocation.ml" 71 2140 2176
+type(
+  int -> int
+)
+ident(
+  int_ref find_free_reg_helper "register_allocation.ml" 66 1962 1974 "register_allocation.ml" 66 1962 1994
+)
+"register_allocation.ml" 71 2140 2178 "register_allocation.ml" 71 2140 2193
+type(
+  int
+)
+ident(
+  int_ref current_attempt "register_allocation.ml" 66 1962 1995 "register_allocation.ml" 66 1962 2010
+)
+"register_allocation.ml" 71 2140 2194 "register_allocation.ml" 71 2140 2195
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"register_allocation.ml" 71 2140 2196 "register_allocation.ml" 71 2140 2197
+type(
+  int
+)
+"register_allocation.ml" 71 2140 2177 "register_allocation.ml" 71 2140 2198
+type(
+  int
+)
+"register_allocation.ml" 71 2140 2156 "register_allocation.ml" 71 2140 2198
+call(
+  tail
+)
+type(
+  int
+)
+"register_allocation.ml" 73 2216 2232 "register_allocation.ml" 73 2216 2247
+type(
+  int
+)
+ident(
+  int_ref current_attempt "register_allocation.ml" 66 1962 1995 "register_allocation.ml" 66 1962 2010
+)
+"register_allocation.ml" 70 2085 2097 "register_allocation.ml" 73 2216 2247
+type(
+  int
+)
+"register_allocation.ml" 67 2013 2021 "register_allocation.ml" 73 2216 2247
+type(
+  int
+)
+"register_allocation.ml" 75 2255 2259 "register_allocation.ml" 75 2255 2279
+type(
+  int -> int
+)
+ident(
+  int_ref find_free_reg_helper "register_allocation.ml" 66 1962 1974 "register_allocation.ml" 66 1962 1994
+)
+"register_allocation.ml" 75 2255 2280 "register_allocation.ml" 75 2255 2281
+type(
+  int
+)
+"register_allocation.ml" 75 2255 2259 "register_allocation.ml" 75 2255 2281
+call(
+  tail
+)
+type(
+  int
+)
+"register_allocation.ml" 66 1962 1966 "register_allocation.ml" 75 2255 2281
+type(
+  int
+)
+"register_allocation.ml" 63 1853 1857 "register_allocation.ml" 75 2255 2281
+type(
+  int
+)
+"register_allocation.ml" 62 1793 1797 "register_allocation.ml" 75 2255 2281
+type(
+  int
+)
+"register_allocation.ml" 61 1758 1762 "register_allocation.ml" 75 2255 2281
+type(
+  int
+)
+"register_allocation.ml" 77 2283 2287 "register_allocation.ml" 77 2283 2293
+type(
+  int -> ('a * 'a list) list -> 'a list -> ('a * int) list * 'a list
+)
+ident(
+  def select "register_allocation.ml" 99 3188 3188 "register_allocation.ml" 1 0 -1
+)
+"register_allocation.ml" 77 2283 2294 "register_allocation.ml" 77 2283 2301
+type(
+  int
+)
+ident(
+  def num_reg "register_allocation.ml" 77 2283 2302 "register_allocation.ml" 97 3127 3186
+)
+"register_allocation.ml" 77 2283 2302 "register_allocation.ml" 77 2283 2307
+type(
+  ('a * 'a list) list
+)
+ident(
+  def edges "register_allocation.ml" 77 2283 2308 "register_allocation.ml" 97 3127 3186
+)
+"register_allocation.ml" 77 2283 2308 "register_allocation.ml" 77 2283 2313
+type(
+  'a list
+)
+ident(
+  def stack "register_allocation.ml" 78 2316 2320 "register_allocation.ml" 97 3127 3186
+)
+"register_allocation.ml" 78 2316 2328 "register_allocation.ml" 78 2316 2341
+type(
+  'a list ->
+  'a list -> ('a * int) list -> 'a list -> ('a * int) list * 'a list
+)
+ident(
+  def select_helper "register_allocation.ml" 78 2316 2320 "register_allocation.ml" 97 3127 3186
+)
+"register_allocation.ml" 78 2316 2342 "register_allocation.ml" 78 2316 2347
+type(
+  'a list
+)
+ident(
+  def nodes "register_allocation.ml" 78 2316 2348 "register_allocation.ml" 92 2956 3035
+)
+"register_allocation.ml" 78 2316 2348 "register_allocation.ml" 78 2316 2353
+type(
+  'a list
+)
+ident(
+  def stack "register_allocation.ml" 78 2316 2354 "register_allocation.ml" 92 2956 3035
+)
+"register_allocation.ml" 78 2316 2354 "register_allocation.ml" 78 2316 2367
+type(
+  ('a * int) list
+)
+ident(
+  def assign_result "register_allocation.ml" 78 2316 2368 "register_allocation.ml" 92 2956 3035
+)
+"register_allocation.ml" 78 2316 2368 "register_allocation.ml" 78 2316 2383
+type(
+  'a list
+)
+ident(
+  def spill_candidate "register_allocation.ml" 79 2385 2393 "register_allocation.ml" 92 2956 3035
+)
+"register_allocation.ml" 79 2385 2399 "register_allocation.ml" 79 2385 2404
+type(
+  'a list
+)
+ident(
+  int_ref stack "register_allocation.ml" 78 2316 2348 "register_allocation.ml" 78 2316 2353
+)
+"register_allocation.ml" 80 2410 2420 "register_allocation.ml" 80 2410 2422
+type(
+  'a list
+)
+"register_allocation.ml" 81 2426 2439 "register_allocation.ml" 81 2426 2452
+type(
+  ('a * int) list
+)
+ident(
+  int_ref assign_result "register_allocation.ml" 78 2316 2354 "register_allocation.ml" 78 2316 2367
+)
+"register_allocation.ml" 81 2426 2454 "register_allocation.ml" 81 2426 2469
+type(
+  'a list
+)
+ident(
+  int_ref spill_candidate "register_allocation.ml" 78 2316 2368 "register_allocation.ml" 78 2316 2383
+)
+"register_allocation.ml" 81 2426 2438 "register_allocation.ml" 81 2426 2470
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 82 2471 2481 "register_allocation.ml" 82 2471 2485
+type(
+  'a
+)
+ident(
+  def node "register_allocation.ml" 83 2500 2512 "register_allocation.ml" 92 2956 3035
+)
+"register_allocation.ml" 82 2471 2487 "register_allocation.ml" 82 2471 2496
+type(
+  'a list
+)
+ident(
+  def tail_list "register_allocation.ml" 83 2500 2512 "register_allocation.ml" 92 2956 3035
+)
+"register_allocation.ml" 82 2471 2481 "register_allocation.ml" 82 2471 2496
+type(
+  'a list
+)
+"register_allocation.ml" 83 2500 2516 "register_allocation.ml" 83 2500 2519
+type(
+  int
+)
+ident(
+  def reg "register_allocation.ml" 85 2596 2608 "register_allocation.ml" 92 2956 3035
+)
+"register_allocation.ml" 83 2500 2522 "register_allocation.ml" 83 2500 2537
+type(
+  int -> ('a * 'a list) list -> 'a list -> 'a -> ('a * int) list -> int
+)
+ident(
+  int_ref assign_register "register_allocation.ml" 60 1697 1701 "register_allocation.ml" 60 1697 1716
+)
+"register_allocation.ml" 83 2500 2538 "register_allocation.ml" 83 2500 2545
+type(
+  int
+)
+ident(
+  int_ref num_reg "register_allocation.ml" 77 2283 2294 "register_allocation.ml" 77 2283 2301
+)
+"register_allocation.ml" 83 2500 2546 "register_allocation.ml" 83 2500 2551
+type(
+  ('a * 'a list) list
+)
+ident(
+  int_ref edges "register_allocation.ml" 77 2283 2302 "register_allocation.ml" 77 2283 2307
+)
+"register_allocation.ml" 84 2552 2568 "register_allocation.ml" 84 2552 2573
+type(
+  'a list
+)
+ident(
+  int_ref nodes "register_allocation.ml" 78 2316 2342 "register_allocation.ml" 78 2316 2347
+)
+"register_allocation.ml" 84 2552 2574 "register_allocation.ml" 84 2552 2578
+type(
+  'a
+)
+ident(
+  int_ref node "register_allocation.ml" 82 2471 2481 "register_allocation.ml" 82 2471 2485
+)
+"register_allocation.ml" 84 2552 2579 "register_allocation.ml" 84 2552 2592
+type(
+  ('a * int) list
+)
+ident(
+  int_ref assign_result "register_allocation.ml" 78 2316 2354 "register_allocation.ml" 78 2316 2367
+)
+"register_allocation.ml" 83 2500 2522 "register_allocation.ml" 84 2552 2592
+call(
+  stack
+)
+type(
+  int
+)
+"register_allocation.ml" 85 2596 2612 "register_allocation.ml" 85 2596 2621
+type(
+  'a list
+)
+ident(
+  def new_stack "register_allocation.ml" 86 2637 2649 "register_allocation.ml" 92 2956 3035
+)
+"register_allocation.ml" 85 2596 2624 "register_allocation.ml" 85 2596 2633
+type(
+  'a list
+)
+ident(
+  int_ref tail_list "register_allocation.ml" 82 2471 2487 "register_allocation.ml" 82 2471 2496
+)
+"register_allocation.ml" 86 2637 2654 "register_allocation.ml" 86 2637 2657
+type(
+  int
+)
+ident(
+  int_ref reg "register_allocation.ml" 83 2500 2516 "register_allocation.ml" 83 2500 2519
+)
+"register_allocation.ml" 86 2637 2658 "register_allocation.ml" 86 2637 2660
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"register_allocation.ml" 86 2637 2661 "register_allocation.ml" 86 2637 2663
+type(
+  int
+)
+"register_allocation.ml" 86 2637 2652 "register_allocation.ml" 86 2637 2665
+type(
+  bool
+)
+"register_allocation.ml" 87 2671 2691 "register_allocation.ml" 87 2671 2700
+type(
+  'a list
+)
+ident(
+  def new_nodes "register_allocation.ml" 88 2718 2734 "register_allocation.ml" 89 2788 2871
+)
+"register_allocation.ml" 87 2671 2703 "register_allocation.ml" 87 2671 2707
+type(
+  'a
+)
+ident(
+  int_ref node "register_allocation.ml" 82 2471 2481 "register_allocation.ml" 82 2471 2485
+)
+"register_allocation.ml" 87 2671 2709 "register_allocation.ml" 87 2671 2714
+type(
+  'a list
+)
+ident(
+  int_ref nodes "register_allocation.ml" 78 2316 2342 "register_allocation.ml" 78 2316 2347
+)
+"register_allocation.ml" 87 2671 2703 "register_allocation.ml" 87 2671 2714
+type(
+  'a list
+)
+"register_allocation.ml" 88 2718 2738 "register_allocation.ml" 88 2718 2755
+type(
+  ('a * int) list
+)
+ident(
+  def new_assign_result "register_allocation.ml" 89 2788 2804 "register_allocation.ml" 89 2788 2871
+)
+"register_allocation.ml" 88 2718 2759 "register_allocation.ml" 88 2718 2763
+type(
+  'a
+)
+ident(
+  int_ref node "register_allocation.ml" 82 2471 2481 "register_allocation.ml" 82 2471 2485
+)
+"register_allocation.ml" 88 2718 2765 "register_allocation.ml" 88 2718 2768
+type(
+  int
+)
+ident(
+  int_ref reg "register_allocation.ml" 83 2500 2516 "register_allocation.ml" 83 2500 2519
+)
+"register_allocation.ml" 88 2718 2758 "register_allocation.ml" 88 2718 2769
+type(
+  'a * int
+)
+"register_allocation.ml" 88 2718 2771 "register_allocation.ml" 88 2718 2784
+type(
+  ('a * int) list
+)
+ident(
+  int_ref assign_result "register_allocation.ml" 78 2316 2354 "register_allocation.ml" 78 2316 2367
+)
+"register_allocation.ml" 88 2718 2758 "register_allocation.ml" 88 2718 2784
+type(
+  ('a * int) list
+)
+"register_allocation.ml" 89 2788 2804 "register_allocation.ml" 89 2788 2817
+type(
+  'a list ->
+  'a list -> ('a * int) list -> 'a list -> ('a * int) list * 'a list
+)
+ident(
+  int_ref select_helper "register_allocation.ml" 78 2316 2328 "register_allocation.ml" 78 2316 2341
+)
+"register_allocation.ml" 89 2788 2818 "register_allocation.ml" 89 2788 2827
+type(
+  'a list
+)
+ident(
+  int_ref new_nodes "register_allocation.ml" 87 2671 2691 "register_allocation.ml" 87 2671 2700
+)
+"register_allocation.ml" 89 2788 2828 "register_allocation.ml" 89 2788 2837
+type(
+  'a list
+)
+ident(
+  int_ref new_stack "register_allocation.ml" 85 2596 2612 "register_allocation.ml" 85 2596 2621
+)
+"register_allocation.ml" 89 2788 2838 "register_allocation.ml" 89 2788 2855
+type(
+  ('a * int) list
+)
+ident(
+  int_ref new_assign_result "register_allocation.ml" 88 2718 2738 "register_allocation.ml" 88 2718 2755
+)
+"register_allocation.ml" 89 2788 2856 "register_allocation.ml" 89 2788 2871
+type(
+  'a list
+)
+ident(
+  int_ref spill_candidate "register_allocation.ml" 78 2316 2368 "register_allocation.ml" 78 2316 2383
+)
+"register_allocation.ml" 89 2788 2804 "register_allocation.ml" 89 2788 2871
+call(
+  tail
+)
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 88 2718 2734 "register_allocation.ml" 89 2788 2871
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 87 2671 2687 "register_allocation.ml" 89 2788 2871
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 91 2889 2909 "register_allocation.ml" 91 2889 2928
+type(
+  'a list
+)
+ident(
+  def new_spill_candidate "register_allocation.ml" 92 2956 2972 "register_allocation.ml" 92 2956 3035
+)
+"register_allocation.ml" 91 2889 2931 "register_allocation.ml" 91 2889 2935
+type(
+  'a
+)
+ident(
+  int_ref node "register_allocation.ml" 82 2471 2481 "register_allocation.ml" 82 2471 2485
+)
+"register_allocation.ml" 91 2889 2937 "register_allocation.ml" 91 2889 2952
+type(
+  'a list
+)
+ident(
+  int_ref spill_candidate "register_allocation.ml" 78 2316 2368 "register_allocation.ml" 78 2316 2383
+)
+"register_allocation.ml" 91 2889 2931 "register_allocation.ml" 91 2889 2952
+type(
+  'a list
+)
+"register_allocation.ml" 92 2956 2972 "register_allocation.ml" 92 2956 2985
+type(
+  'a list ->
+  'a list -> ('a * int) list -> 'a list -> ('a * int) list * 'a list
+)
+ident(
+  int_ref select_helper "register_allocation.ml" 78 2316 2328 "register_allocation.ml" 78 2316 2341
+)
+"register_allocation.ml" 92 2956 2986 "register_allocation.ml" 92 2956 2991
+type(
+  'a list
+)
+ident(
+  int_ref nodes "register_allocation.ml" 78 2316 2342 "register_allocation.ml" 78 2316 2347
+)
+"register_allocation.ml" 92 2956 2992 "register_allocation.ml" 92 2956 3001
+type(
+  'a list
+)
+ident(
+  int_ref new_stack "register_allocation.ml" 85 2596 2612 "register_allocation.ml" 85 2596 2621
+)
+"register_allocation.ml" 92 2956 3002 "register_allocation.ml" 92 2956 3015
+type(
+  ('a * int) list
+)
+ident(
+  int_ref assign_result "register_allocation.ml" 78 2316 2354 "register_allocation.ml" 78 2316 2367
+)
+"register_allocation.ml" 92 2956 3016 "register_allocation.ml" 92 2956 3035
+type(
+  'a list
+)
+ident(
+  int_ref new_spill_candidate "register_allocation.ml" 91 2889 2909 "register_allocation.ml" 91 2889 2928
+)
+"register_allocation.ml" 92 2956 2972 "register_allocation.ml" 92 2956 3035
+call(
+  tail
+)
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 91 2889 2905 "register_allocation.ml" 92 2956 3035
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 86 2637 2649 "register_allocation.ml" 92 2956 3035
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 85 2596 2608 "register_allocation.ml" 92 2956 3035
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 83 2500 2512 "register_allocation.ml" 92 2956 3035
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 79 2385 2393 "register_allocation.ml" 92 2956 3035
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 94 3043 3051 "register_allocation.ml" 94 3043 3056
+type(
+  'b list
+)
+ident(
+  def nodes "register_allocation.ml" 95 3065 3069 "register_allocation.ml" 97 3127 3186
+)
+"register_allocation.ml" 94 3043 3059 "register_allocation.ml" 94 3043 3061
+type(
+  'b list
+)
+"register_allocation.ml" 95 3065 3073 "register_allocation.ml" 95 3065 3086
+type(
+  'c list
+)
+ident(
+  def assign_result "register_allocation.ml" 96 3095 3099 "register_allocation.ml" 97 3127 3186
+)
+"register_allocation.ml" 95 3065 3089 "register_allocation.ml" 95 3065 3091
+type(
+  'c list
+)
+"register_allocation.ml" 96 3095 3103 "register_allocation.ml" 96 3095 3118
+type(
+  'd list
+)
+ident(
+  def spill_candidate "register_allocation.ml" 97 3127 3131 "register_allocation.ml" 97 3127 3186
+)
+"register_allocation.ml" 96 3095 3121 "register_allocation.ml" 96 3095 3123
+type(
+  'd list
+)
+"register_allocation.ml" 97 3127 3131 "register_allocation.ml" 97 3127 3144
+type(
+  'a list ->
+  'a list -> ('a * int) list -> 'a list -> ('a * int) list * 'a list
+)
+ident(
+  int_ref select_helper "register_allocation.ml" 78 2316 2328 "register_allocation.ml" 78 2316 2341
+)
+"register_allocation.ml" 97 3127 3145 "register_allocation.ml" 97 3127 3150
+type(
+  'a list
+)
+ident(
+  int_ref nodes "register_allocation.ml" 94 3043 3051 "register_allocation.ml" 94 3043 3056
+)
+"register_allocation.ml" 97 3127 3151 "register_allocation.ml" 97 3127 3156
+type(
+  'a list
+)
+ident(
+  int_ref stack "register_allocation.ml" 77 2283 2308 "register_allocation.ml" 77 2283 2313
+)
+"register_allocation.ml" 97 3127 3157 "register_allocation.ml" 97 3127 3170
+type(
+  ('a * int) list
+)
+ident(
+  int_ref assign_result "register_allocation.ml" 95 3065 3073 "register_allocation.ml" 95 3065 3086
+)
+"register_allocation.ml" 97 3127 3171 "register_allocation.ml" 97 3127 3186
+type(
+  'a list
+)
+ident(
+  int_ref spill_candidate "register_allocation.ml" 96 3095 3103 "register_allocation.ml" 96 3095 3118
+)
+"register_allocation.ml" 97 3127 3131 "register_allocation.ml" 97 3127 3186
+call(
+  tail
+)
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 96 3095 3099 "register_allocation.ml" 97 3127 3186
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 95 3065 3069 "register_allocation.ml" 97 3127 3186
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 94 3043 3047 "register_allocation.ml" 97 3127 3186
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 78 2316 2320 "register_allocation.ml" 97 3127 3186
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 99 3188 3192 "register_allocation.ml" 99 3188 3197
+type(
+  'a list -> 'a list -> ('a * 'b) list -> 'a * 'a list
+)
+ident(
+  def spill "register_allocation.ml" 133 4270 4270 "register_allocation.ml" 1 0 -1
+)
+"register_allocation.ml" 99 3188 3198 "register_allocation.ml" 99 3188 3203
+type(
+  'a list
+)
+ident(
+  def nodes "register_allocation.ml" 99 3188 3204 "register_allocation.ml" 125 4095 4125
+)
+"register_allocation.ml" 99 3188 3204 "register_allocation.ml" 99 3188 3219
+type(
+  'a list
+)
+ident(
+  def spill_candidate "register_allocation.ml" 99 3188 3220 "register_allocation.ml" 125 4095 4125
+)
+"register_allocation.ml" 99 3188 3220 "register_allocation.ml" 99 3188 3225
+type(
+  ('a * 'b) list
+)
+ident(
+  def costs "register_allocation.ml" 100 3228 3232 "register_allocation.ml" 125 4095 4125
+)
+"register_allocation.ml" 100 3228 3236 "register_allocation.ml" 100 3228 3256
+type(
+  'a -> 'b
+)
+ident(
+  def get_node_cost_helper "register_allocation.ml" 106 3398 3402 "register_allocation.ml" 125 4095 4125
+)
+"register_allocation.ml" 100 3228 3257 "register_allocation.ml" 100 3228 3261
+type(
+  'a
+)
+ident(
+  def node "register_allocation.ml" 101 3264 3272 "register_allocation.ml" 104 3378 3390
+)
+"register_allocation.ml" 101 3264 3277 "register_allocation.ml" 101 3264 3278
+type(
+  'a
+)
+"register_allocation.ml" 101 3264 3280 "register_allocation.ml" 101 3264 3284
+type(
+  'b
+)
+ident(
+  def cost "register_allocation.ml" 104 3378 3386 "register_allocation.ml" 104 3378 3390
+)
+"register_allocation.ml" 101 3264 3276 "register_allocation.ml" 101 3264 3285
+type(
+  'a * 'b
+)
+"register_allocation.ml" 101 3264 3288 "register_allocation.ml" 101 3264 3297
+type(
+  ('a * 'b -> bool) -> ('a * 'b) list -> 'a * 'b
+)
+ident(
+  ext_ref List.find
+)
+"register_allocation.ml" 102 3298 3316 "register_allocation.ml" 102 3298 3328
+type(
+  'a
+)
+ident(
+  def node_in_list "register_allocation.ml" 102 3298 3336 "register_allocation.ml" 102 3298 3355
+)
+"register_allocation.ml" 102 3298 3330 "register_allocation.ml" 102 3298 3331
+type(
+  'b
+)
+"register_allocation.ml" 102 3298 3315 "register_allocation.ml" 102 3298 3332
+type(
+  'a * 'b
+)
+"register_allocation.ml" 102 3298 3336 "register_allocation.ml" 102 3298 3340
+type(
+  'a
+)
+ident(
+  int_ref node "register_allocation.ml" 100 3228 3257 "register_allocation.ml" 100 3228 3261
+)
+"register_allocation.ml" 102 3298 3341 "register_allocation.ml" 102 3298 3342
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"register_allocation.ml" 102 3298 3343 "register_allocation.ml" 102 3298 3355
+type(
+  'a
+)
+ident(
+  int_ref node_in_list "register_allocation.ml" 102 3298 3316 "register_allocation.ml" 102 3298 3328
+)
+"register_allocation.ml" 102 3298 3336 "register_allocation.ml" 102 3298 3355
+type(
+  bool
+)
+"register_allocation.ml" 102 3298 3310 "register_allocation.ml" 102 3298 3356
+type(
+  'a * 'b -> bool
+)
+"register_allocation.ml" 103 3357 3369 "register_allocation.ml" 103 3357 3374
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref costs "register_allocation.ml" 99 3188 3220 "register_allocation.ml" 99 3188 3225
+)
+"register_allocation.ml" 101 3264 3288 "register_allocation.ml" 103 3357 3374
+call(
+  stack
+)
+type(
+  'a * 'b
+)
+"register_allocation.ml" 104 3378 3386 "register_allocation.ml" 104 3378 3390
+type(
+  'b
+)
+ident(
+  int_ref cost "register_allocation.ml" 101 3264 3280 "register_allocation.ml" 101 3264 3284
+)
+"register_allocation.ml" 101 3264 3272 "register_allocation.ml" 104 3378 3390
+type(
+  'b
+)
+"register_allocation.ml" 106 3398 3410 "register_allocation.ml" 106 3398 3438
+type(
+  'a list -> 'a
+)
+ident(
+  def get_minimum_cost_node_helper "register_allocation.ml" 106 3398 3402 "register_allocation.ml" 125 4095 4125
+)
+"register_allocation.ml" 106 3398 3439 "register_allocation.ml" 106 3398 3448
+type(
+  'a list
+)
+ident(
+  def node_list "register_allocation.ml" 107 3451 3459 "register_allocation.ml" 119 3888 3922
+)
+"register_allocation.ml" 107 3451 3465 "register_allocation.ml" 107 3451 3474
+type(
+  'a list
+)
+ident(
+  int_ref node_list "register_allocation.ml" 106 3398 3439 "register_allocation.ml" 106 3398 3448
+)
+"register_allocation.ml" 108 3480 3490 "register_allocation.ml" 108 3480 3492
+type(
+  'a list
+)
+"register_allocation.ml" 109 3496 3508 "register_allocation.ml" 109 3496 3516
+type(
+  string -> 'a
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"register_allocation.ml" 109 3496 3517 "register_allocation.ml" 109 3496 3568
+type(
+  string
+)
+"register_allocation.ml" 109 3496 3508 "register_allocation.ml" 109 3496 3568
+call(
+  tail
+)
+type(
+  'a
+)
+"register_allocation.ml" 110 3569 3579 "register_allocation.ml" 110 3569 3588
+type(
+  'a
+)
+ident(
+  def last_node "register_allocation.ml" 111 3596 3608 "register_allocation.ml" 111 3596 3617
+)
+"register_allocation.ml" 110 3569 3590 "register_allocation.ml" 110 3569 3592
+type(
+  'a list
+)
+"register_allocation.ml" 110 3569 3579 "register_allocation.ml" 110 3569 3592
+type(
+  'a list
+)
+"register_allocation.ml" 111 3596 3608 "register_allocation.ml" 111 3596 3617
+type(
+  'a
+)
+ident(
+  int_ref last_node "register_allocation.ml" 110 3569 3579 "register_allocation.ml" 110 3569 3588
+)
+"register_allocation.ml" 112 3618 3628 "register_allocation.ml" 112 3618 3632
+type(
+  'a
+)
+ident(
+  def node "register_allocation.ml" 113 3647 3659 "register_allocation.ml" 119 3888 3922
+)
+"register_allocation.ml" 112 3618 3634 "register_allocation.ml" 112 3618 3643
+type(
+  'a list
+)
+ident(
+  def tail_list "register_allocation.ml" 113 3647 3659 "register_allocation.ml" 119 3888 3922
+)
+"register_allocation.ml" 112 3618 3628 "register_allocation.ml" 112 3618 3643
+type(
+  'a list
+)
+"register_allocation.ml" 113 3647 3663 "register_allocation.ml" 113 3647 3681
+type(
+  'a
+)
+ident(
+  def min_cost_node_tail "register_allocation.ml" 115 3742 3754 "register_allocation.ml" 119 3888 3922
+)
+"register_allocation.ml" 114 3684 3700 "register_allocation.ml" 114 3684 3728
+type(
+  'a list -> 'a
+)
+ident(
+  int_ref get_minimum_cost_node_helper "register_allocation.ml" 106 3398 3410 "register_allocation.ml" 106 3398 3438
+)
+"register_allocation.ml" 114 3684 3729 "register_allocation.ml" 114 3684 3738
+type(
+  'a list
+)
+ident(
+  int_ref tail_list "register_allocation.ml" 112 3618 3634 "register_allocation.ml" 112 3618 3643
+)
+"register_allocation.ml" 114 3684 3700 "register_allocation.ml" 114 3684 3738
+call(
+  stack
+)
+type(
+  'a
+)
+"register_allocation.ml" 115 3742 3758 "register_allocation.ml" 115 3742 3778
+type(
+  'a -> 'b
+)
+ident(
+  int_ref get_node_cost_helper "register_allocation.ml" 100 3228 3236 "register_allocation.ml" 100 3228 3256
+)
+"register_allocation.ml" 115 3742 3779 "register_allocation.ml" 115 3742 3783
+type(
+  'a
+)
+ident(
+  int_ref node "register_allocation.ml" 112 3618 3628 "register_allocation.ml" 112 3618 3632
+)
+"register_allocation.ml" 115 3742 3757 "register_allocation.ml" 115 3742 3784
+call(
+  stack
+)
+type(
+  'b
+)
+"register_allocation.ml" 116 3785 3801 "register_allocation.ml" 116 3785 3802
+type(
+  'b -> 'b -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"register_allocation.ml" 116 3785 3804 "register_allocation.ml" 116 3785 3824
+type(
+  'a -> 'b
+)
+ident(
+  int_ref get_node_cost_helper "register_allocation.ml" 100 3228 3236 "register_allocation.ml" 100 3228 3256
+)
+"register_allocation.ml" 116 3785 3825 "register_allocation.ml" 116 3785 3843
+type(
+  'a
+)
+ident(
+  int_ref min_cost_node_tail "register_allocation.ml" 113 3647 3663 "register_allocation.ml" 113 3647 3681
+)
+"register_allocation.ml" 116 3785 3803 "register_allocation.ml" 116 3785 3844
+call(
+  stack
+)
+type(
+  'b
+)
+"register_allocation.ml" 115 3742 3757 "register_allocation.ml" 116 3785 3844
+type(
+  bool
+)
+"register_allocation.ml" 117 3850 3866 "register_allocation.ml" 117 3850 3870
+type(
+  'a
+)
+ident(
+  int_ref node "register_allocation.ml" 112 3618 3628 "register_allocation.ml" 112 3618 3632
+)
+"register_allocation.ml" 119 3888 3904 "register_allocation.ml" 119 3888 3922
+type(
+  'a
+)
+ident(
+  int_ref min_cost_node_tail "register_allocation.ml" 113 3647 3663 "register_allocation.ml" 113 3647 3681
+)
+"register_allocation.ml" 115 3742 3754 "register_allocation.ml" 119 3888 3922
+type(
+  'a
+)
+"register_allocation.ml" 113 3647 3659 "register_allocation.ml" 119 3888 3922
+type(
+  'a
+)
+"register_allocation.ml" 107 3451 3459 "register_allocation.ml" 119 3888 3922
+type(
+  'a
+)
+"register_allocation.ml" 121 3930 3938 "register_allocation.ml" 121 3930 3951
+type(
+  'a
+)
+ident(
+  def node_to_spill "register_allocation.ml" 122 4002 4006 "register_allocation.ml" 125 4095 4125
+)
+"register_allocation.ml" 121 3930 3954 "register_allocation.ml" 121 3930 3982
+type(
+  'a list -> 'a
+)
+ident(
+  int_ref get_minimum_cost_node_helper "register_allocation.ml" 106 3398 3410 "register_allocation.ml" 106 3398 3438
+)
+"register_allocation.ml" 121 3930 3983 "register_allocation.ml" 121 3930 3998
+type(
+  'a list
+)
+ident(
+  int_ref spill_candidate "register_allocation.ml" 99 3188 3204 "register_allocation.ml" 99 3188 3219
+)
+"register_allocation.ml" 121 3930 3954 "register_allocation.ml" 121 3930 3998
+call(
+  stack
+)
+type(
+  'a
+)
+"register_allocation.ml" 122 4002 4010 "register_allocation.ml" 122 4002 4019
+type(
+  'a list
+)
+ident(
+  def new_nodes "register_allocation.ml" 125 4095 4099 "register_allocation.ml" 125 4095 4125
+)
+"register_allocation.ml" 122 4002 4022 "register_allocation.ml" 122 4002 4033
+type(
+  ('a -> bool) -> 'a list -> 'a list
+)
+ident(
+  ext_ref List.filter
+)
+"register_allocation.ml" 123 4034 4047 "register_allocation.ml" 123 4034 4051
+type(
+  'a
+)
+ident(
+  def node "register_allocation.ml" 123 4034 4055 "register_allocation.ml" 123 4034 4076
+)
+"register_allocation.ml" 123 4034 4055 "register_allocation.ml" 123 4034 4059
+type(
+  'a
+)
+ident(
+  int_ref node "register_allocation.ml" 123 4034 4047 "register_allocation.ml" 123 4034 4051
+)
+"register_allocation.ml" 123 4034 4060 "register_allocation.ml" 123 4034 4062
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"register_allocation.ml" 123 4034 4063 "register_allocation.ml" 123 4034 4076
+type(
+  'a
+)
+ident(
+  int_ref node_to_spill "register_allocation.ml" 121 3930 3938 "register_allocation.ml" 121 3930 3951
+)
+"register_allocation.ml" 123 4034 4055 "register_allocation.ml" 123 4034 4076
+type(
+  bool
+)
+"register_allocation.ml" 123 4034 4042 "register_allocation.ml" 123 4034 4077
+type(
+  'a -> bool
+)
+"register_allocation.ml" 124 4078 4086 "register_allocation.ml" 124 4078 4091
+type(
+  'a list
+)
+ident(
+  int_ref nodes "register_allocation.ml" 99 3188 3198 "register_allocation.ml" 99 3188 3203
+)
+"register_allocation.ml" 122 4002 4022 "register_allocation.ml" 124 4078 4091
+call(
+  stack
+)
+type(
+  'a list
+)
+"register_allocation.ml" 125 4095 4100 "register_allocation.ml" 125 4095 4113
+type(
+  'a
+)
+ident(
+  int_ref node_to_spill "register_allocation.ml" 121 3930 3938 "register_allocation.ml" 121 3930 3951
+)
+"register_allocation.ml" 125 4095 4115 "register_allocation.ml" 125 4095 4124
+type(
+  'a list
+)
+ident(
+  int_ref new_nodes "register_allocation.ml" 122 4002 4010 "register_allocation.ml" 122 4002 4019
+)
+"register_allocation.ml" 125 4095 4099 "register_allocation.ml" 125 4095 4125
+type(
+  'a * 'a list
+)
+"register_allocation.ml" 122 4002 4006 "register_allocation.ml" 125 4095 4125
+type(
+  'a * 'a list
+)
+"register_allocation.ml" 121 3930 3934 "register_allocation.ml" 125 4095 4125
+type(
+  'a * 'a list
+)
+"register_allocation.ml" 106 3398 3402 "register_allocation.ml" 125 4095 4125
+type(
+  'a * 'a list
+)
+"register_allocation.ml" 100 3228 3232 "register_allocation.ml" 125 4095 4125
+type(
+  'a * 'a list
+)
+"register_allocation.ml" 133 4270 4274 "register_allocation.ml" 133 4270 4293
+type(
+  int -> ('a * 'a list) list -> ('a * 'b) list -> ('a * int) list * 'a list
+)
+ident(
+  def register_allocation "register_allocation.ml" 152 5029 5029 "register_allocation.ml" 1 0 -1
+)
+"register_allocation.ml" 133 4270 4294 "register_allocation.ml" 133 4270 4301
+type(
+  int
+)
+ident(
+  def num_reg "register_allocation.ml" 133 4270 4302 "register_allocation.ml" 149 4947 4998
+)
+"register_allocation.ml" 133 4270 4302 "register_allocation.ml" 133 4270 4307
+type(
+  ('a * 'a list) list
+)
+ident(
+  def edges "register_allocation.ml" 133 4270 4308 "register_allocation.ml" 149 4947 4998
+)
+"register_allocation.ml" 133 4270 4308 "register_allocation.ml" 133 4270 4313
+type(
+  ('a * 'b) list
+)
+ident(
+  def costs "register_allocation.ml" 134 4316 4320 "register_allocation.ml" 149 4947 4998
+)
+"register_allocation.ml" 134 4316 4328 "register_allocation.ml" 134 4316 4354
+type(
+  'a list -> 'a list -> ('a * int) list * 'a list
+)
+ident(
+  def register_allocation_helper "register_allocation.ml" 134 4316 4320 "register_allocation.ml" 149 4947 4998
+)
+"register_allocation.ml" 134 4316 4355 "register_allocation.ml" 134 4316 4360
+type(
+  'a list
+)
+ident(
+  def nodes "register_allocation.ml" 134 4316 4361 "register_allocation.ml" 145 4779 4842
+)
+"register_allocation.ml" 134 4316 4361 "register_allocation.ml" 134 4316 4371
+type(
+  'a list
+)
+ident(
+  def spill_list "register_allocation.ml" 135 4374 4382 "register_allocation.ml" 145 4779 4842
+)
+"register_allocation.ml" 135 4374 4386 "register_allocation.ml" 135 4374 4391
+type(
+  'a list
+)
+ident(
+  def stack "register_allocation.ml" 136 4426 4434 "register_allocation.ml" 145 4779 4842
+)
+"register_allocation.ml" 135 4374 4394 "register_allocation.ml" 135 4374 4402
+type(
+  int -> ('a * 'a list) list -> 'a list -> 'a list
+)
+ident(
+  int_ref simplify "register_allocation.ml" 25 680 684 "register_allocation.ml" 25 680 692
+)
+"register_allocation.ml" 135 4374 4403 "register_allocation.ml" 135 4374 4410
+type(
+  int
+)
+ident(
+  int_ref num_reg "register_allocation.ml" 133 4270 4294 "register_allocation.ml" 133 4270 4301
+)
+"register_allocation.ml" 135 4374 4411 "register_allocation.ml" 135 4374 4416
+type(
+  ('a * 'a list) list
+)
+ident(
+  int_ref edges "register_allocation.ml" 133 4270 4302 "register_allocation.ml" 133 4270 4307
+)
+"register_allocation.ml" 135 4374 4417 "register_allocation.ml" 135 4374 4422
+type(
+  'a list
+)
+ident(
+  int_ref nodes "register_allocation.ml" 134 4316 4355 "register_allocation.ml" 134 4316 4360
+)
+"register_allocation.ml" 135 4374 4394 "register_allocation.ml" 135 4374 4422
+call(
+  stack
+)
+type(
+  'a list
+)
+"register_allocation.ml" 136 4426 4439 "register_allocation.ml" 136 4426 4452
+type(
+  ('a * int) list
+)
+ident(
+  def assign_result "register_allocation.ml" 138 4515 4523 "register_allocation.ml" 145 4779 4842
+)
+"register_allocation.ml" 136 4426 4454 "register_allocation.ml" 136 4426 4469
+type(
+  'a list
+)
+ident(
+  def spill_candidate "register_allocation.ml" 138 4515 4523 "register_allocation.ml" 145 4779 4842
+)
+"register_allocation.ml" 136 4426 4438 "register_allocation.ml" 136 4426 4470
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 137 4473 4485 "register_allocation.ml" 137 4473 4491
+type(
+  int -> ('a * 'a list) list -> 'a list -> ('a * int) list * 'a list
+)
+ident(
+  int_ref select "register_allocation.ml" 77 2283 2287 "register_allocation.ml" 77 2283 2293
+)
+"register_allocation.ml" 137 4473 4492 "register_allocation.ml" 137 4473 4499
+type(
+  int
+)
+ident(
+  int_ref num_reg "register_allocation.ml" 133 4270 4294 "register_allocation.ml" 133 4270 4301
+)
+"register_allocation.ml" 137 4473 4500 "register_allocation.ml" 137 4473 4505
+type(
+  ('a * 'a list) list
+)
+ident(
+  int_ref edges "register_allocation.ml" 133 4270 4302 "register_allocation.ml" 133 4270 4307
+)
+"register_allocation.ml" 137 4473 4506 "register_allocation.ml" 137 4473 4511
+type(
+  'a list
+)
+ident(
+  int_ref stack "register_allocation.ml" 135 4374 4386 "register_allocation.ml" 135 4374 4391
+)
+"register_allocation.ml" 137 4473 4485 "register_allocation.ml" 137 4473 4511
+call(
+  stack
+)
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 138 4515 4529 "register_allocation.ml" 138 4515 4544
+type(
+  'a list
+)
+ident(
+  int_ref spill_candidate "register_allocation.ml" 136 4426 4454 "register_allocation.ml" 136 4426 4469
+)
+"register_allocation.ml" 139 4550 4560 "register_allocation.ml" 139 4550 4562
+type(
+  'a list
+)
+"register_allocation.ml" 140 4566 4579 "register_allocation.ml" 140 4566 4592
+type(
+  ('a * int) list
+)
+ident(
+  int_ref assign_result "register_allocation.ml" 136 4426 4439 "register_allocation.ml" 136 4426 4452
+)
+"register_allocation.ml" 140 4566 4594 "register_allocation.ml" 140 4566 4604
+type(
+  'a list
+)
+ident(
+  int_ref spill_list "register_allocation.ml" 134 4316 4361 "register_allocation.ml" 134 4316 4371
+)
+"register_allocation.ml" 140 4566 4578 "register_allocation.ml" 140 4566 4605
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 141 4606 4616 "register_allocation.ml" 141 4606 4617
+type(
+  'a list
+)
+"register_allocation.ml" 142 4621 4638 "register_allocation.ml" 142 4621 4650
+type(
+  'a
+)
+ident(
+  def spilled_node "register_allocation.ml" 144 4718 4730 "register_allocation.ml" 145 4779 4842
+)
+"register_allocation.ml" 142 4621 4652 "register_allocation.ml" 142 4621 4661
+type(
+  'a list
+)
+ident(
+  def new_nodes "register_allocation.ml" 144 4718 4730 "register_allocation.ml" 145 4779 4842
+)
+"register_allocation.ml" 142 4621 4637 "register_allocation.ml" 142 4621 4662
+type(
+  'a * 'a list
+)
+"register_allocation.ml" 143 4665 4681 "register_allocation.ml" 143 4665 4686
+type(
+  'a list -> 'a list -> ('a * 'b) list -> 'a * 'a list
+)
+ident(
+  int_ref spill "register_allocation.ml" 99 3188 3192 "register_allocation.ml" 99 3188 3197
+)
+"register_allocation.ml" 143 4665 4687 "register_allocation.ml" 143 4665 4692
+type(
+  'a list
+)
+ident(
+  int_ref nodes "register_allocation.ml" 134 4316 4355 "register_allocation.ml" 134 4316 4360
+)
+"register_allocation.ml" 143 4665 4693 "register_allocation.ml" 143 4665 4708
+type(
+  'a list
+)
+ident(
+  int_ref spill_candidate "register_allocation.ml" 136 4426 4454 "register_allocation.ml" 136 4426 4469
+)
+"register_allocation.ml" 143 4665 4709 "register_allocation.ml" 143 4665 4714
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref costs "register_allocation.ml" 133 4270 4308 "register_allocation.ml" 133 4270 4313
+)
+"register_allocation.ml" 143 4665 4681 "register_allocation.ml" 143 4665 4714
+call(
+  stack
+)
+type(
+  'a * 'a list
+)
+"register_allocation.ml" 144 4718 4734 "register_allocation.ml" 144 4718 4748
+type(
+  'a list
+)
+ident(
+  def new_spill_list "register_allocation.ml" 145 4779 4791 "register_allocation.ml" 145 4779 4842
+)
+"register_allocation.ml" 144 4718 4751 "register_allocation.ml" 144 4718 4763
+type(
+  'a
+)
+ident(
+  int_ref spilled_node "register_allocation.ml" 142 4621 4638 "register_allocation.ml" 142 4621 4650
+)
+"register_allocation.ml" 144 4718 4765 "register_allocation.ml" 144 4718 4775
+type(
+  'a list
+)
+ident(
+  int_ref spill_list "register_allocation.ml" 134 4316 4361 "register_allocation.ml" 134 4316 4371
+)
+"register_allocation.ml" 144 4718 4751 "register_allocation.ml" 144 4718 4775
+type(
+  'a list
+)
+"register_allocation.ml" 145 4779 4791 "register_allocation.ml" 145 4779 4817
+type(
+  'a list -> 'a list -> ('a * int) list * 'a list
+)
+ident(
+  int_ref register_allocation_helper "register_allocation.ml" 134 4316 4328 "register_allocation.ml" 134 4316 4354
+)
+"register_allocation.ml" 145 4779 4818 "register_allocation.ml" 145 4779 4827
+type(
+  'a list
+)
+ident(
+  int_ref new_nodes "register_allocation.ml" 142 4621 4652 "register_allocation.ml" 142 4621 4661
+)
+"register_allocation.ml" 145 4779 4828 "register_allocation.ml" 145 4779 4842
+type(
+  'a list
+)
+ident(
+  int_ref new_spill_list "register_allocation.ml" 144 4718 4734 "register_allocation.ml" 144 4718 4748
+)
+"register_allocation.ml" 145 4779 4791 "register_allocation.ml" 145 4779 4842
+call(
+  tail
+)
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 144 4718 4730 "register_allocation.ml" 145 4779 4842
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 142 4621 4633 "register_allocation.ml" 145 4779 4842
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 138 4515 4523 "register_allocation.ml" 145 4779 4842
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 136 4426 4434 "register_allocation.ml" 145 4779 4842
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 135 4374 4382 "register_allocation.ml" 145 4779 4842
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 147 4854 4866 "register_allocation.ml" 147 4854 4871
+type(
+  'a list
+)
+ident(
+  def nodes "register_allocation.ml" 148 4916 4924 "register_allocation.ml" 149 4947 4998
+)
+"register_allocation.ml" 147 4854 4874 "register_allocation.ml" 147 4854 4882
+type(
+  ('a * 'a list -> 'a) -> ('a * 'a list) list -> 'a list
+)
+ident(
+  ext_ref List.map
+)
+"register_allocation.ml" 147 4854 4889 "register_allocation.ml" 147 4854 4893
+type(
+  'a
+)
+ident(
+  def node "register_allocation.ml" 147 4854 4901 "register_allocation.ml" 147 4854 4905
+)
+"register_allocation.ml" 147 4854 4895 "register_allocation.ml" 147 4854 4896
+type(
+  'a list
+)
+"register_allocation.ml" 147 4854 4888 "register_allocation.ml" 147 4854 4897
+type(
+  'a * 'a list
+)
+"register_allocation.ml" 147 4854 4901 "register_allocation.ml" 147 4854 4905
+type(
+  'a
+)
+ident(
+  int_ref node "register_allocation.ml" 147 4854 4889 "register_allocation.ml" 147 4854 4893
+)
+"register_allocation.ml" 147 4854 4883 "register_allocation.ml" 147 4854 4906
+type(
+  'a * 'a list -> 'a
+)
+"register_allocation.ml" 147 4854 4907 "register_allocation.ml" 147 4854 4912
+type(
+  ('a * 'a list) list
+)
+ident(
+  int_ref edges "register_allocation.ml" 133 4270 4302 "register_allocation.ml" 133 4270 4307
+)
+"register_allocation.ml" 147 4854 4874 "register_allocation.ml" 147 4854 4912
+call(
+  stack
+)
+type(
+  'a list
+)
+"register_allocation.ml" 148 4916 4928 "register_allocation.ml" 148 4916 4938
+type(
+  'c list
+)
+ident(
+  def spill_list "register_allocation.ml" 149 4947 4955 "register_allocation.ml" 149 4947 4998
+)
+"register_allocation.ml" 148 4916 4941 "register_allocation.ml" 148 4916 4943
+type(
+  'c list
+)
+"register_allocation.ml" 149 4947 4955 "register_allocation.ml" 149 4947 4981
+type(
+  'a list -> 'a list -> ('a * int) list * 'a list
+)
+ident(
+  int_ref register_allocation_helper "register_allocation.ml" 134 4316 4328 "register_allocation.ml" 134 4316 4354
+)
+"register_allocation.ml" 149 4947 4982 "register_allocation.ml" 149 4947 4987
+type(
+  'a list
+)
+ident(
+  int_ref nodes "register_allocation.ml" 147 4854 4866 "register_allocation.ml" 147 4854 4871
+)
+"register_allocation.ml" 149 4947 4988 "register_allocation.ml" 149 4947 4998
+type(
+  'a list
+)
+ident(
+  int_ref spill_list "register_allocation.ml" 148 4916 4928 "register_allocation.ml" 148 4916 4938
+)
+"register_allocation.ml" 149 4947 4955 "register_allocation.ml" 149 4947 4998
+call(
+  tail
+)
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 148 4916 4924 "register_allocation.ml" 149 4947 4998
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 147 4854 4862 "register_allocation.ml" 149 4947 4998
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 134 4316 4320 "register_allocation.ml" 149 4947 4998
+type(
+  ('a * int) list * 'a list
+)
+"register_allocation.ml" 152 5029 5033 "register_allocation.ml" 152 5029 5046
+type(
+  int
+)
+ident(
+  def num_reg_input "register_allocation.ml" 154 5052 5052 "register_allocation.ml" 1 0 -1
+)
+"register_allocation.ml" 152 5029 5049 "register_allocation.ml" 152 5029 5050
+type(
+  int
+)
+"register_allocation.ml" 154 5052 5056 "register_allocation.ml" 154 5052 5067
+type(
+  (int * int list) list
+)
+ident(
+  def edges_input "register_allocation.ml" 161 5276 5276 "register_allocation.ml" 1 0 -1
+)
+"register_allocation.ml" 154 5052 5072 "register_allocation.ml" 154 5052 5073
+type(
+  int
+)
+"register_allocation.ml" 154 5052 5076 "register_allocation.ml" 154 5052 5077
+type(
+  int
+)
+"register_allocation.ml" 154 5052 5078 "register_allocation.ml" 154 5052 5079
+type(
+  int
+)
+"register_allocation.ml" 154 5052 5080 "register_allocation.ml" 154 5052 5081
+type(
+  int
+)
+"register_allocation.ml" 154 5052 5082 "register_allocation.ml" 154 5052 5083
+type(
+  int
+)
+"register_allocation.ml" 154 5052 5084 "register_allocation.ml" 154 5052 5085
+type(
+  int
+)
+"register_allocation.ml" 154 5052 5075 "register_allocation.ml" 154 5052 5086
+type(
+  int list
+)
+"register_allocation.ml" 154 5052 5071 "register_allocation.ml" 154 5052 5087
+type(
+  int * int list
+)
+"register_allocation.ml" 155 5089 5109 "register_allocation.ml" 155 5089 5110
+type(
+  int
+)
+"register_allocation.ml" 155 5089 5113 "register_allocation.ml" 155 5089 5114
+type(
+  int
+)
+"register_allocation.ml" 155 5089 5115 "register_allocation.ml" 155 5089 5116
+type(
+  int
+)
+"register_allocation.ml" 155 5089 5117 "register_allocation.ml" 155 5089 5118
+type(
+  int
+)
+"register_allocation.ml" 155 5089 5119 "register_allocation.ml" 155 5089 5120
+type(
+  int
+)
+"register_allocation.ml" 155 5089 5112 "register_allocation.ml" 155 5089 5121
+type(
+  int list
+)
+"register_allocation.ml" 155 5089 5108 "register_allocation.ml" 155 5089 5122
+type(
+  int * int list
+)
+"register_allocation.ml" 156 5126 5146 "register_allocation.ml" 156 5126 5147
+type(
+  int
+)
+"register_allocation.ml" 156 5126 5150 "register_allocation.ml" 156 5126 5151
+type(
+  int
+)
+"register_allocation.ml" 156 5126 5152 "register_allocation.ml" 156 5126 5153
+type(
+  int
+)
+"register_allocation.ml" 156 5126 5154 "register_allocation.ml" 156 5126 5155
+type(
+  int
+)
+"register_allocation.ml" 156 5126 5156 "register_allocation.ml" 156 5126 5157
+type(
+  int
+)
+"register_allocation.ml" 156 5126 5158 "register_allocation.ml" 156 5126 5159
+type(
+  int
+)
+"register_allocation.ml" 156 5126 5149 "register_allocation.ml" 156 5126 5160
+type(
+  int list
+)
+"register_allocation.ml" 156 5126 5145 "register_allocation.ml" 156 5126 5161
+type(
+  int * int list
+)
+"register_allocation.ml" 157 5163 5183 "register_allocation.ml" 157 5163 5184
+type(
+  int
+)
+"register_allocation.ml" 157 5163 5187 "register_allocation.ml" 157 5163 5188
+type(
+  int
+)
+"register_allocation.ml" 157 5163 5189 "register_allocation.ml" 157 5163 5190
+type(
+  int
+)
+"register_allocation.ml" 157 5163 5191 "register_allocation.ml" 157 5163 5192
+type(
+  int
+)
+"register_allocation.ml" 157 5163 5193 "register_allocation.ml" 157 5163 5194
+type(
+  int
+)
+"register_allocation.ml" 157 5163 5195 "register_allocation.ml" 157 5163 5196
+type(
+  int
+)
+"register_allocation.ml" 157 5163 5186 "register_allocation.ml" 157 5163 5197
+type(
+  int list
+)
+"register_allocation.ml" 157 5163 5182 "register_allocation.ml" 157 5163 5198
+type(
+  int * int list
+)
+"register_allocation.ml" 158 5200 5220 "register_allocation.ml" 158 5200 5221
+type(
+  int
+)
+"register_allocation.ml" 158 5200 5224 "register_allocation.ml" 158 5200 5225
+type(
+  int
+)
+"register_allocation.ml" 158 5200 5226 "register_allocation.ml" 158 5200 5227
+type(
+  int
+)
+"register_allocation.ml" 158 5200 5228 "register_allocation.ml" 158 5200 5229
+type(
+  int
+)
+"register_allocation.ml" 158 5200 5230 "register_allocation.ml" 158 5200 5231
+type(
+  int
+)
+"register_allocation.ml" 158 5200 5223 "register_allocation.ml" 158 5200 5232
+type(
+  int list
+)
+"register_allocation.ml" 158 5200 5219 "register_allocation.ml" 158 5200 5233
+type(
+  int * int list
+)
+"register_allocation.ml" 159 5237 5257 "register_allocation.ml" 159 5237 5258
+type(
+  int
+)
+"register_allocation.ml" 159 5237 5261 "register_allocation.ml" 159 5237 5262
+type(
+  int
+)
+"register_allocation.ml" 159 5237 5263 "register_allocation.ml" 159 5237 5264
+type(
+  int
+)
+"register_allocation.ml" 159 5237 5265 "register_allocation.ml" 159 5237 5266
+type(
+  int
+)
+"register_allocation.ml" 159 5237 5267 "register_allocation.ml" 159 5237 5268
+type(
+  int
+)
+"register_allocation.ml" 159 5237 5269 "register_allocation.ml" 159 5237 5270
+type(
+  int
+)
+"register_allocation.ml" 159 5237 5260 "register_allocation.ml" 159 5237 5271
+type(
+  int list
+)
+"register_allocation.ml" 159 5237 5256 "register_allocation.ml" 159 5237 5272
+type(
+  int * int list
+)
+"register_allocation.ml" 154 5052 5070 "register_allocation.ml" 159 5237 5274
+type(
+  (int * int list) list
+)
+"register_allocation.ml" 161 5276 5280 "register_allocation.ml" 161 5276 5291
+type(
+  (int * float) list
+)
+ident(
+  def costs_input "register_allocation.ml" 166 5426 5456 "register_allocation.ml" 1 0 -1
+)
+"register_allocation.ml" 161 5276 5296 "register_allocation.ml" 161 5276 5297
+type(
+  int
+)
+"register_allocation.ml" 161 5276 5299 "register_allocation.ml" 161 5276 5303
+type(
+  float
+)
+"register_allocation.ml" 161 5276 5295 "register_allocation.ml" 161 5276 5304
+type(
+  int * float
+)
+"register_allocation.ml" 162 5306 5326 "register_allocation.ml" 162 5306 5327
+type(
+  int
+)
+"register_allocation.ml" 162 5306 5329 "register_allocation.ml" 162 5306 5332
+type(
+  float
+)
+"register_allocation.ml" 162 5306 5325 "register_allocation.ml" 162 5306 5334
+type(
+  int * float
+)
+"register_allocation.ml" 163 5336 5356 "register_allocation.ml" 163 5336 5357
+type(
+  int
+)
+"register_allocation.ml" 163 5336 5359 "register_allocation.ml" 163 5336 5363
+type(
+  float
+)
+"register_allocation.ml" 163 5336 5355 "register_allocation.ml" 163 5336 5364
+type(
+  int * float
+)
+"register_allocation.ml" 164 5366 5386 "register_allocation.ml" 164 5366 5387
+type(
+  int
+)
+"register_allocation.ml" 164 5366 5389 "register_allocation.ml" 164 5366 5393
+type(
+  float
+)
+"register_allocation.ml" 164 5366 5385 "register_allocation.ml" 164 5366 5394
+type(
+  int * float
+)
+"register_allocation.ml" 165 5396 5416 "register_allocation.ml" 165 5396 5417
+type(
+  int
+)
+"register_allocation.ml" 165 5396 5419 "register_allocation.ml" 165 5396 5423
+type(
+  float
+)
+"register_allocation.ml" 165 5396 5415 "register_allocation.ml" 165 5396 5424
+type(
+  int * float
+)
+"register_allocation.ml" 166 5426 5446 "register_allocation.ml" 166 5426 5447
+type(
+  int
+)
+"register_allocation.ml" 166 5426 5449 "register_allocation.ml" 166 5426 5452
+type(
+  float
+)
+"register_allocation.ml" 166 5426 5445 "register_allocation.ml" 166 5426 5454
+type(
+  int * float
+)
+"register_allocation.ml" 161 5276 5294 "register_allocation.ml" 166 5426 5456
+type(
+  (int * float) list
+)

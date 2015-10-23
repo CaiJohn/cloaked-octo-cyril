@@ -1,0 +1,3636 @@
+"global_common_subexpression.ml" 4 46 50 "global_common_subexpression.ml" 4 46 62
+type(
+  int ref
+)
+ident(
+  def cse_varcount "global_common_subexpression.ml" 7 135 135 "global_common_subexpression.ml" 1 0 -1
+)
+"global_common_subexpression.ml" 4 46 65 "global_common_subexpression.ml" 4 46 68
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"global_common_subexpression.ml" 4 46 69 "global_common_subexpression.ml" 4 46 70
+type(
+  int
+)
+"global_common_subexpression.ml" 4 46 65 "global_common_subexpression.ml" 4 46 70
+type(
+  int ref
+)
+"global_common_subexpression.ml" 7 135 139 "global_common_subexpression.ml" 7 135 152
+type(
+  unit -> string
+)
+ident(
+  def fresh_cse_var "global_common_subexpression.ml" 11 229 229 "global_common_subexpression.ml" 1 0 -1
+)
+"global_common_subexpression.ml" 7 135 152 "global_common_subexpression.ml" 7 135 154
+type(
+  unit
+)
+"global_common_subexpression.ml" 8 157 162 "global_common_subexpression.ml" 8 157 174
+type(
+  int ref
+)
+ident(
+  int_ref cse_varcount "global_common_subexpression.ml" 4 46 50 "global_common_subexpression.ml" 4 46 62
+)
+"global_common_subexpression.ml" 8 157 174 "global_common_subexpression.ml" 8 157 176
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"global_common_subexpression.ml" 8 157 176 "global_common_subexpression.ml" 8 157 177
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"global_common_subexpression.ml" 8 157 177 "global_common_subexpression.ml" 8 157 189
+type(
+  int ref
+)
+ident(
+  int_ref cse_varcount "global_common_subexpression.ml" 4 46 50 "global_common_subexpression.ml" 4 46 62
+)
+"global_common_subexpression.ml" 8 157 176 "global_common_subexpression.ml" 8 157 189
+type(
+  int
+)
+"global_common_subexpression.ml" 8 157 189 "global_common_subexpression.ml" 8 157 190
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"global_common_subexpression.ml" 8 157 190 "global_common_subexpression.ml" 8 157 191
+type(
+  int
+)
+"global_common_subexpression.ml" 8 157 176 "global_common_subexpression.ml" 8 157 191
+type(
+  int
+)
+"global_common_subexpression.ml" 8 157 162 "global_common_subexpression.ml" 8 157 191
+type(
+  unit
+)
+"global_common_subexpression.ml" 9 193 198 "global_common_subexpression.ml" 9 193 211
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"global_common_subexpression.ml" 9 193 212 "global_common_subexpression.ml" 9 193 213
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"global_common_subexpression.ml" 9 193 213 "global_common_subexpression.ml" 9 193 225
+type(
+  int ref
+)
+ident(
+  int_ref cse_varcount "global_common_subexpression.ml" 4 46 50 "global_common_subexpression.ml" 4 46 62
+)
+"global_common_subexpression.ml" 9 193 212 "global_common_subexpression.ml" 9 193 225
+type(
+  int
+)
+"global_common_subexpression.ml" 9 193 197 "global_common_subexpression.ml" 9 193 226
+call(
+  tail
+)
+type(
+  string
+)
+"global_common_subexpression.ml" 8 157 161 "global_common_subexpression.ml" 9 193 227
+type(
+  string
+)
+"global_common_subexpression.ml" 11 229 233 "global_common_subexpression.ml" 11 229 247
+type(
+  (int, Ir3_bbl_generator.ir3_bbl) Hashtbl.t
+)
+ident(
+  def bbl_lookup_tbl "global_common_subexpression.ml" 12 268 268 "global_common_subexpression.ml" 1 0 -1
+)
+"global_common_subexpression.ml" 11 229 250 "global_common_subexpression.ml" 11 229 264
+type(
+  ?random:bool -> int -> (int, Ir3_bbl_generator.ir3_bbl) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"global_common_subexpression.ml" 11 229 265 "global_common_subexpression.ml" 11 229 267
+type(
+  int
+)
+"global_common_subexpression.ml" 11 229 250 "global_common_subexpression.ml" 11 229 267
+call(
+  stack
+)
+type(
+  (int, Ir3_bbl_generator.ir3_bbl) Hashtbl.t
+)
+"global_common_subexpression.ml" 12 268 272 "global_common_subexpression.ml" 12 268 294
+type(
+  (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t
+)
+ident(
+  def in_common_exp_list_tbl "global_common_subexpression.ml" 13 315 315 "global_common_subexpression.ml" 1 0 -1
+)
+"global_common_subexpression.ml" 12 268 297 "global_common_subexpression.ml" 12 268 311
+type(
+  ?random:bool -> int -> (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"global_common_subexpression.ml" 12 268 312 "global_common_subexpression.ml" 12 268 314
+type(
+  int
+)
+"global_common_subexpression.ml" 12 268 297 "global_common_subexpression.ml" 12 268 314
+call(
+  stack
+)
+type(
+  (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t
+)
+"global_common_subexpression.ml" 13 315 319 "global_common_subexpression.ml" 13 315 342
+type(
+  (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t
+)
+ident(
+  def out_common_exp_list_tbl "global_common_subexpression.ml" 14 363 363 "global_common_subexpression.ml" 1 0 -1
+)
+"global_common_subexpression.ml" 13 315 345 "global_common_subexpression.ml" 13 315 359
+type(
+  ?random:bool -> int -> (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"global_common_subexpression.ml" 13 315 360 "global_common_subexpression.ml" 13 315 362
+type(
+  int
+)
+"global_common_subexpression.ml" 13 315 345 "global_common_subexpression.ml" 13 315 362
+call(
+  stack
+)
+type(
+  (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t
+)
+"global_common_subexpression.ml" 14 363 367 "global_common_subexpression.ml" 14 363 385
+type(
+  (Ir3_structs_new.ir3_exp_new, Ir3_structs_new.id3_new) Hashtbl.t
+)
+ident(
+  def common_exp_var_tbl "global_common_subexpression.ml" 16 408 408 "global_common_subexpression.ml" 1 0 -1
+)
+"global_common_subexpression.ml" 14 363 388 "global_common_subexpression.ml" 14 363 402
+type(
+  ?random:bool ->
+  int -> (Ir3_structs_new.ir3_exp_new, Ir3_structs_new.id3_new) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"global_common_subexpression.ml" 14 363 403 "global_common_subexpression.ml" 14 363 406
+type(
+  int
+)
+"global_common_subexpression.ml" 14 363 388 "global_common_subexpression.ml" 14 363 406
+call(
+  stack
+)
+type(
+  (Ir3_structs_new.ir3_exp_new, Ir3_structs_new.id3_new) Hashtbl.t
+)
+"global_common_subexpression.ml" 16 408 412 "global_common_subexpression.ml" 16 408 434
+type(
+  Ir3_structs_new.ir3_exp_new -> string -> Ir3_structs_new.id3_new
+)
+ident(
+  def get_var_for_common_exp "global_common_subexpression.ml" 26 744 744 "global_common_subexpression.ml" 1 0 -1
+)
+"global_common_subexpression.ml" 16 408 435 "global_common_subexpression.ml" 16 408 438
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  def exp "global_common_subexpression.ml" 16 408 439 "global_common_subexpression.ml" 24 722 742
+)
+"global_common_subexpression.ml" 16 408 439 "global_common_subexpression.ml" 16 408 445
+type(
+  string
+)
+ident(
+  def prefix "global_common_subexpression.ml" 17 449 453 "global_common_subexpression.ml" 24 722 742
+)
+"global_common_subexpression.ml" 18 457 465 "global_common_subexpression.ml" 18 457 477
+type(
+  (Ir3_structs_new.ir3_exp_new, Ir3_structs_new.id3_new) Hashtbl.t ->
+  Ir3_structs_new.ir3_exp_new -> Ir3_structs_new.id3_new
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"global_common_subexpression.ml" 18 457 478 "global_common_subexpression.ml" 18 457 496
+type(
+  (Ir3_structs_new.ir3_exp_new, Ir3_structs_new.id3_new) Hashtbl.t
+)
+ident(
+  int_ref common_exp_var_tbl "global_common_subexpression.ml" 14 363 367 "global_common_subexpression.ml" 14 363 385
+)
+"global_common_subexpression.ml" 18 457 497 "global_common_subexpression.ml" 18 457 500
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  int_ref exp "global_common_subexpression.ml" 16 408 435 "global_common_subexpression.ml" 16 408 438
+)
+"global_common_subexpression.ml" 18 457 465 "global_common_subexpression.ml" 18 457 500
+call(
+  stack
+)
+type(
+  Ir3_structs_new.id3_new
+)
+"global_common_subexpression.ml" 20 510 518 "global_common_subexpression.ml" 20 510 527
+type(
+  exn
+)
+"global_common_subexpression.ml" 21 531 547 "global_common_subexpression.ml" 21 531 560
+type(
+  string
+)
+ident(
+  def variable_name "global_common_subexpression.ml" 22 591 603 "global_common_subexpression.ml" 24 722 742
+)
+"global_common_subexpression.ml" 21 531 563 "global_common_subexpression.ml" 21 531 569
+type(
+  string
+)
+ident(
+  int_ref prefix "global_common_subexpression.ml" 16 408 439 "global_common_subexpression.ml" 16 408 445
+)
+"global_common_subexpression.ml" 21 531 570 "global_common_subexpression.ml" 21 531 571
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"global_common_subexpression.ml" 21 531 572 "global_common_subexpression.ml" 21 531 585
+type(
+  unit -> string
+)
+ident(
+  int_ref fresh_cse_var "global_common_subexpression.ml" 7 135 139 "global_common_subexpression.ml" 7 135 152
+)
+"global_common_subexpression.ml" 21 531 585 "global_common_subexpression.ml" 21 531 587
+type(
+  unit
+)
+"global_common_subexpression.ml" 21 531 572 "global_common_subexpression.ml" 21 531 587
+call(
+  stack
+)
+type(
+  string
+)
+"global_common_subexpression.ml" 21 531 563 "global_common_subexpression.ml" 21 531 587
+call(
+  stack
+)
+type(
+  string
+)
+"global_common_subexpression.ml" 22 591 607 "global_common_subexpression.ml" 22 591 615
+type(
+  string * Ir3_structs_new.reg_or_mem
+)
+ident(
+  def variable "global_common_subexpression.ml" 23 655 667 "global_common_subexpression.ml" 24 722 742
+)
+"global_common_subexpression.ml" 22 591 619 "global_common_subexpression.ml" 22 591 632
+type(
+  string
+)
+ident(
+  int_ref variable_name "global_common_subexpression.ml" 21 531 547 "global_common_subexpression.ml" 21 531 560
+)
+"global_common_subexpression.ml" 22 591 639 "global_common_subexpression.ml" 22 591 649
+type(
+  string
+)
+"global_common_subexpression.ml" 22 591 634 "global_common_subexpression.ml" 22 591 650
+type(
+  Ir3_structs_new.reg_or_mem
+)
+"global_common_subexpression.ml" 22 591 618 "global_common_subexpression.ml" 22 591 651
+type(
+  string * Ir3_structs_new.reg_or_mem
+)
+"global_common_subexpression.ml" 23 655 671 "global_common_subexpression.ml" 23 655 672
+type(
+  unit
+)
+"global_common_subexpression.ml" 23 655 675 "global_common_subexpression.ml" 23 655 686
+type(
+  (Ir3_structs_new.ir3_exp_new, Ir3_structs_new.id3_new) Hashtbl.t ->
+  Ir3_structs_new.ir3_exp_new -> Ir3_structs_new.id3_new -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"global_common_subexpression.ml" 23 655 687 "global_common_subexpression.ml" 23 655 705
+type(
+  (Ir3_structs_new.ir3_exp_new, Ir3_structs_new.id3_new) Hashtbl.t
+)
+ident(
+  int_ref common_exp_var_tbl "global_common_subexpression.ml" 14 363 367 "global_common_subexpression.ml" 14 363 385
+)
+"global_common_subexpression.ml" 23 655 706 "global_common_subexpression.ml" 23 655 709
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  int_ref exp "global_common_subexpression.ml" 16 408 435 "global_common_subexpression.ml" 16 408 438
+)
+"global_common_subexpression.ml" 23 655 710 "global_common_subexpression.ml" 23 655 718
+type(
+  Ir3_structs_new.id3_new
+)
+ident(
+  int_ref variable "global_common_subexpression.ml" 22 591 607 "global_common_subexpression.ml" 22 591 615
+)
+"global_common_subexpression.ml" 23 655 675 "global_common_subexpression.ml" 23 655 718
+call(
+  stack
+)
+type(
+  unit
+)
+"global_common_subexpression.ml" 24 722 734 "global_common_subexpression.ml" 24 722 742
+type(
+  Ir3_structs_new.id3_new
+)
+ident(
+  int_ref variable "global_common_subexpression.ml" 22 591 607 "global_common_subexpression.ml" 22 591 615
+)
+"global_common_subexpression.ml" 23 655 667 "global_common_subexpression.ml" 24 722 742
+type(
+  Ir3_structs_new.id3_new
+)
+"global_common_subexpression.ml" 22 591 603 "global_common_subexpression.ml" 24 722 742
+type(
+  Ir3_structs_new.id3_new
+)
+"global_common_subexpression.ml" 21 531 543 "global_common_subexpression.ml" 24 722 742
+type(
+  Ir3_structs_new.id3_new
+)
+"global_common_subexpression.ml" 17 449 453 "global_common_subexpression.ml" 24 722 742
+type(
+  Ir3_structs_new.id3_new
+)
+"global_common_subexpression.ml" 26 744 748 "global_common_subexpression.ml" 26 744 767
+type(
+  Ir3_structs_new.ir3_exp_new list ->
+  Ir3_structs_new.ir3_exp_new ->
+  bool * Ir3_structs_new.ir3_exp_new list * bool
+)
+ident(
+  def add_new_exp_to_list "global_common_subexpression.ml" 38 1093 1093 "global_common_subexpression.ml" 1 0 -1
+)
+"global_common_subexpression.ml" 26 744 768 "global_common_subexpression.ml" 26 744 776
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  def exp_list "global_common_subexpression.ml" 26 744 777 "global_common_subexpression.ml" 36 1051 1083
+)
+"global_common_subexpression.ml" 26 744 777 "global_common_subexpression.ml" 26 744 780
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  def exp "global_common_subexpression.ml" 27 783 787 "global_common_subexpression.ml" 36 1051 1083
+)
+"global_common_subexpression.ml" 27 783 793 "global_common_subexpression.ml" 27 783 796
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  int_ref exp "global_common_subexpression.ml" 26 744 777 "global_common_subexpression.ml" 26 744 780
+)
+"global_common_subexpression.ml" 28 802 823 "global_common_subexpression.ml" 28 802 824
+type(
+  Ir3_structs_new.idc3_new
+)
+type(
+  Ir3_structs_new.idc3_new
+)
+type(
+  Ir3_structs_new.ir3_op_new
+)
+"global_common_subexpression.ml" 28 802 808 "global_common_subexpression.ml" 28 802 824
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"global_common_subexpression.ml" 29 825 845 "global_common_subexpression.ml" 29 825 846
+type(
+  Ir3_structs_new.idc3_new
+)
+type(
+  Ir3_structs_new.ir3_op_new
+)
+"global_common_subexpression.ml" 29 825 831 "global_common_subexpression.ml" 29 825 846
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"global_common_subexpression.ml" 28 802 808 "global_common_subexpression.ml" 29 825 846
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"global_common_subexpression.ml" 30 850 862 "global_common_subexpression.ml" 30 850 870
+type(
+  Ir3_structs_new.ir3_exp_new -> Ir3_structs_new.ir3_exp_new list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"global_common_subexpression.ml" 30 850 871 "global_common_subexpression.ml" 30 850 874
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  int_ref exp "global_common_subexpression.ml" 26 744 777 "global_common_subexpression.ml" 26 744 780
+)
+"global_common_subexpression.ml" 30 850 875 "global_common_subexpression.ml" 30 850 883
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref exp_list "global_common_subexpression.ml" 26 744 768 "global_common_subexpression.ml" 26 744 776
+)
+"global_common_subexpression.ml" 30 850 861 "global_common_subexpression.ml" 30 850 884
+call(
+  stack
+)
+type(
+  bool
+)
+"global_common_subexpression.ml" 31 890 903 "global_common_subexpression.ml" 31 890 907
+type(
+  bool
+)
+"global_common_subexpression.ml" 31 890 909 "global_common_subexpression.ml" 31 890 917
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref exp_list "global_common_subexpression.ml" 26 744 768 "global_common_subexpression.ml" 26 744 776
+)
+"global_common_subexpression.ml" 31 890 919 "global_common_subexpression.ml" 31 890 924
+type(
+  bool
+)
+"global_common_subexpression.ml" 31 890 902 "global_common_subexpression.ml" 31 890 925
+type(
+  bool * Ir3_structs_new.ir3_exp_new list * bool
+)
+"global_common_subexpression.ml" 33 939 955 "global_common_subexpression.ml" 33 939 974
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  def new_common_exp_list "global_common_subexpression.ml" 34 994 1006 "global_common_subexpression.ml" 34 994 1039
+)
+"global_common_subexpression.ml" 33 939 977 "global_common_subexpression.ml" 33 939 980
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  int_ref exp "global_common_subexpression.ml" 26 744 777 "global_common_subexpression.ml" 26 744 780
+)
+"global_common_subexpression.ml" 33 939 982 "global_common_subexpression.ml" 33 939 990
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref exp_list "global_common_subexpression.ml" 26 744 768 "global_common_subexpression.ml" 26 744 776
+)
+"global_common_subexpression.ml" 33 939 977 "global_common_subexpression.ml" 33 939 990
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 34 994 1007 "global_common_subexpression.ml" 34 994 1011
+type(
+  bool
+)
+"global_common_subexpression.ml" 34 994 1013 "global_common_subexpression.ml" 34 994 1032
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref new_common_exp_list "global_common_subexpression.ml" 33 939 955 "global_common_subexpression.ml" 33 939 974
+)
+"global_common_subexpression.ml" 34 994 1034 "global_common_subexpression.ml" 34 994 1038
+type(
+  bool
+)
+"global_common_subexpression.ml" 34 994 1006 "global_common_subexpression.ml" 34 994 1039
+type(
+  bool * Ir3_structs_new.ir3_exp_new list * bool
+)
+"global_common_subexpression.ml" 33 939 951 "global_common_subexpression.ml" 34 994 1039
+type(
+  bool * Ir3_structs_new.ir3_exp_new list * bool
+)
+"global_common_subexpression.ml" 30 850 858 "global_common_subexpression.ml" 34 994 1039
+type(
+  bool * Ir3_structs_new.ir3_exp_new list * bool
+)
+"global_common_subexpression.ml" 35 1040 1046 "global_common_subexpression.ml" 35 1040 1047
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"global_common_subexpression.ml" 36 1051 1060 "global_common_subexpression.ml" 36 1051 1065
+type(
+  bool
+)
+"global_common_subexpression.ml" 36 1051 1067 "global_common_subexpression.ml" 36 1051 1075
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref exp_list "global_common_subexpression.ml" 26 744 768 "global_common_subexpression.ml" 26 744 776
+)
+"global_common_subexpression.ml" 36 1051 1077 "global_common_subexpression.ml" 36 1051 1082
+type(
+  bool
+)
+"global_common_subexpression.ml" 36 1051 1059 "global_common_subexpression.ml" 36 1051 1083
+type(
+  bool * Ir3_structs_new.ir3_exp_new list * bool
+)
+"global_common_subexpression.ml" 27 783 787 "global_common_subexpression.ml" 36 1051 1083
+type(
+  bool * Ir3_structs_new.ir3_exp_new list * bool
+)
+"global_common_subexpression.ml" 38 1093 1097 "global_common_subexpression.ml" 38 1093 1108
+type(
+  'a -> 'a -> bool
+)
+ident(
+  def is_same_var "global_common_subexpression.ml" 41 1150 1150 "global_common_subexpression.ml" 1 0 -1
+)
+"global_common_subexpression.ml" 38 1093 1109 "global_common_subexpression.ml" 38 1093 1113
+type(
+  'a
+)
+ident(
+  def var1 "global_common_subexpression.ml" 38 1093 1114 "global_common_subexpression.ml" 39 1121 1136
+)
+"global_common_subexpression.ml" 38 1093 1114 "global_common_subexpression.ml" 38 1093 1118
+type(
+  'a
+)
+ident(
+  def var2 "global_common_subexpression.ml" 39 1121 1125 "global_common_subexpression.ml" 39 1121 1136
+)
+"global_common_subexpression.ml" 39 1121 1125 "global_common_subexpression.ml" 39 1121 1129
+type(
+  'a
+)
+ident(
+  int_ref var1 "global_common_subexpression.ml" 38 1093 1109 "global_common_subexpression.ml" 38 1093 1113
+)
+"global_common_subexpression.ml" 39 1121 1130 "global_common_subexpression.ml" 39 1121 1131
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"global_common_subexpression.ml" 39 1121 1132 "global_common_subexpression.ml" 39 1121 1136
+type(
+  'a
+)
+ident(
+  int_ref var2 "global_common_subexpression.ml" 38 1093 1114 "global_common_subexpression.ml" 38 1093 1118
+)
+"global_common_subexpression.ml" 39 1121 1125 "global_common_subexpression.ml" 39 1121 1136
+type(
+  bool
+)
+"global_common_subexpression.ml" 41 1150 1154 "global_common_subexpression.ml" 41 1150 1172
+type(
+  Ir3_structs_new.idc3_new -> Ir3_structs_new.ir3_exp_new -> bool
+)
+ident(
+  def is_var_used_in_exp "global_common_subexpression.ml" 56 1579 1579 "global_common_subexpression.ml" 1 0 -1
+)
+"global_common_subexpression.ml" 41 1150 1173 "global_common_subexpression.ml" 41 1150 1181
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  def var_idc3 "global_common_subexpression.ml" 41 1150 1182 "global_common_subexpression.ml" 54 1508 1569
+)
+"global_common_subexpression.ml" 41 1150 1182 "global_common_subexpression.ml" 41 1150 1185
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  def exp "global_common_subexpression.ml" 42 1188 1192 "global_common_subexpression.ml" 54 1508 1569
+)
+"global_common_subexpression.ml" 42 1188 1198 "global_common_subexpression.ml" 42 1188 1201
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  int_ref exp "global_common_subexpression.ml" 41 1150 1182 "global_common_subexpression.ml" 41 1150 1185
+)
+"global_common_subexpression.ml" 43 1207 1229 "global_common_subexpression.ml" 43 1207 1230
+type(
+  Ir3_structs_new.ir3_op_new
+)
+"global_common_subexpression.ml" 43 1207 1232 "global_common_subexpression.ml" 43 1207 1236
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  def var1 "global_common_subexpression.ml" 44 1247 1255 "global_common_subexpression.ml" 47 1354 1371
+)
+"global_common_subexpression.ml" 43 1207 1238 "global_common_subexpression.ml" 43 1207 1242
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  def var2 "global_common_subexpression.ml" 44 1247 1255 "global_common_subexpression.ml" 47 1354 1371
+)
+"global_common_subexpression.ml" 43 1207 1213 "global_common_subexpression.ml" 43 1207 1243
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"global_common_subexpression.ml" 44 1247 1260 "global_common_subexpression.ml" 44 1247 1271
+type(
+  Ir3_structs_new.idc3_new -> Ir3_structs_new.idc3_new -> bool
+)
+ident(
+  int_ref is_same_var "global_common_subexpression.ml" 38 1093 1097 "global_common_subexpression.ml" 38 1093 1108
+)
+"global_common_subexpression.ml" 44 1247 1272 "global_common_subexpression.ml" 44 1247 1280
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref var_idc3 "global_common_subexpression.ml" 41 1150 1173 "global_common_subexpression.ml" 41 1150 1181
+)
+"global_common_subexpression.ml" 44 1247 1281 "global_common_subexpression.ml" 44 1247 1285
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref var1 "global_common_subexpression.ml" 43 1207 1232 "global_common_subexpression.ml" 43 1207 1236
+)
+"global_common_subexpression.ml" 44 1247 1259 "global_common_subexpression.ml" 44 1247 1286
+call(
+  stack
+)
+type(
+  bool
+)
+"global_common_subexpression.ml" 44 1247 1287 "global_common_subexpression.ml" 44 1247 1289
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"global_common_subexpression.ml" 44 1247 1291 "global_common_subexpression.ml" 44 1247 1302
+type(
+  Ir3_structs_new.idc3_new -> Ir3_structs_new.idc3_new -> bool
+)
+ident(
+  int_ref is_same_var "global_common_subexpression.ml" 38 1093 1097 "global_common_subexpression.ml" 38 1093 1108
+)
+"global_common_subexpression.ml" 44 1247 1303 "global_common_subexpression.ml" 44 1247 1311
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref var_idc3 "global_common_subexpression.ml" 41 1150 1173 "global_common_subexpression.ml" 41 1150 1181
+)
+"global_common_subexpression.ml" 44 1247 1312 "global_common_subexpression.ml" 44 1247 1316
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref var2 "global_common_subexpression.ml" 43 1207 1238 "global_common_subexpression.ml" 43 1207 1242
+)
+"global_common_subexpression.ml" 44 1247 1290 "global_common_subexpression.ml" 44 1247 1317
+call(
+  stack
+)
+type(
+  bool
+)
+"global_common_subexpression.ml" 44 1247 1258 "global_common_subexpression.ml" 44 1247 1318
+type(
+  bool
+)
+"global_common_subexpression.ml" 45 1324 1336 "global_common_subexpression.ml" 45 1324 1340
+type(
+  bool
+)
+"global_common_subexpression.ml" 47 1354 1366 "global_common_subexpression.ml" 47 1354 1371
+type(
+  bool
+)
+"global_common_subexpression.ml" 44 1247 1255 "global_common_subexpression.ml" 47 1354 1371
+type(
+  bool
+)
+"global_common_subexpression.ml" 48 1372 1393 "global_common_subexpression.ml" 48 1372 1394
+type(
+  Ir3_structs_new.ir3_op_new
+)
+"global_common_subexpression.ml" 48 1372 1396 "global_common_subexpression.ml" 48 1372 1400
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  def var1 "global_common_subexpression.ml" 49 1405 1413 "global_common_subexpression.ml" 52 1479 1496
+)
+"global_common_subexpression.ml" 48 1372 1378 "global_common_subexpression.ml" 48 1372 1401
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"global_common_subexpression.ml" 49 1405 1417 "global_common_subexpression.ml" 49 1405 1428
+type(
+  Ir3_structs_new.idc3_new -> Ir3_structs_new.idc3_new -> bool
+)
+ident(
+  int_ref is_same_var "global_common_subexpression.ml" 38 1093 1097 "global_common_subexpression.ml" 38 1093 1108
+)
+"global_common_subexpression.ml" 49 1405 1429 "global_common_subexpression.ml" 49 1405 1437
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref var_idc3 "global_common_subexpression.ml" 41 1150 1173 "global_common_subexpression.ml" 41 1150 1181
+)
+"global_common_subexpression.ml" 49 1405 1438 "global_common_subexpression.ml" 49 1405 1442
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref var1 "global_common_subexpression.ml" 48 1372 1396 "global_common_subexpression.ml" 48 1372 1400
+)
+"global_common_subexpression.ml" 49 1405 1416 "global_common_subexpression.ml" 49 1405 1443
+call(
+  stack
+)
+type(
+  bool
+)
+"global_common_subexpression.ml" 50 1449 1461 "global_common_subexpression.ml" 50 1449 1465
+type(
+  bool
+)
+"global_common_subexpression.ml" 52 1479 1491 "global_common_subexpression.ml" 52 1479 1496
+type(
+  bool
+)
+"global_common_subexpression.ml" 49 1405 1413 "global_common_subexpression.ml" 52 1479 1496
+type(
+  bool
+)
+"global_common_subexpression.ml" 53 1497 1503 "global_common_subexpression.ml" 53 1497 1504
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"global_common_subexpression.ml" 54 1508 1516 "global_common_subexpression.ml" 54 1508 1524
+type(
+  string -> bool
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"global_common_subexpression.ml" 54 1508 1525 "global_common_subexpression.ml" 54 1508 1569
+type(
+  string
+)
+"global_common_subexpression.ml" 54 1508 1516 "global_common_subexpression.ml" 54 1508 1569
+call(
+  tail
+)
+type(
+  bool
+)
+"global_common_subexpression.ml" 42 1188 1192 "global_common_subexpression.ml" 54 1508 1569
+type(
+  bool
+)
+"global_common_subexpression.ml" 56 1579 1583 "global_common_subexpression.ml" 56 1579 1603
+type(
+  Ir3_structs_new.ir3_exp_new list ->
+  Ir3_structs_new.id3_new -> Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  def remove_exp_from_list "global_common_subexpression.ml" 62 1785 1785 "global_common_subexpression.ml" 1 0 -1
+)
+"global_common_subexpression.ml" 56 1579 1604 "global_common_subexpression.ml" 56 1579 1612
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  def exp_list "global_common_subexpression.ml" 56 1579 1613 "global_common_subexpression.ml" 60 1759 1775
+)
+"global_common_subexpression.ml" 56 1579 1613 "global_common_subexpression.ml" 56 1579 1624
+type(
+  Ir3_structs_new.id3_new
+)
+ident(
+  def defined_var "global_common_subexpression.ml" 57 1627 1631 "global_common_subexpression.ml" 60 1759 1775
+)
+"global_common_subexpression.ml" 57 1627 1635 "global_common_subexpression.ml" 57 1627 1651
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  def defined_var_idc3 "global_common_subexpression.ml" 58 1678 1682 "global_common_subexpression.ml" 60 1759 1775
+)
+"global_common_subexpression.ml" 57 1627 1663 "global_common_subexpression.ml" 57 1627 1674
+type(
+  Ir3_structs_new.id3_new
+)
+ident(
+  int_ref defined_var "global_common_subexpression.ml" 56 1579 1613 "global_common_subexpression.ml" 56 1579 1624
+)
+"global_common_subexpression.ml" 57 1627 1654 "global_common_subexpression.ml" 57 1627 1674
+type(
+  Ir3_structs_new.idc3_new
+)
+"global_common_subexpression.ml" 58 1678 1682 "global_common_subexpression.ml" 58 1678 1693
+type(
+  (Ir3_structs_new.ir3_exp_new -> bool) ->
+  Ir3_structs_new.ir3_exp_new list -> Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  ext_ref List.filter
+)
+"global_common_subexpression.ml" 59 1694 1707 "global_common_subexpression.ml" 59 1694 1708
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  def x "global_common_subexpression.ml" 59 1694 1712 "global_common_subexpression.ml" 59 1694 1757
+)
+"global_common_subexpression.ml" 59 1694 1712 "global_common_subexpression.ml" 59 1694 1730
+type(
+  Ir3_structs_new.idc3_new -> Ir3_structs_new.ir3_exp_new -> bool
+)
+ident(
+  int_ref is_var_used_in_exp "global_common_subexpression.ml" 41 1150 1154 "global_common_subexpression.ml" 41 1150 1172
+)
+"global_common_subexpression.ml" 59 1694 1731 "global_common_subexpression.ml" 59 1694 1747
+type(
+  Ir3_structs_new.idc3_new
+)
+ident(
+  int_ref defined_var_idc3 "global_common_subexpression.ml" 57 1627 1635 "global_common_subexpression.ml" 57 1627 1651
+)
+"global_common_subexpression.ml" 59 1694 1748 "global_common_subexpression.ml" 59 1694 1749
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  int_ref x "global_common_subexpression.ml" 59 1694 1707 "global_common_subexpression.ml" 59 1694 1708
+)
+"global_common_subexpression.ml" 59 1694 1712 "global_common_subexpression.ml" 59 1694 1749
+call(
+  stack
+)
+type(
+  bool
+)
+"global_common_subexpression.ml" 59 1694 1750 "global_common_subexpression.ml" 59 1694 1751
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"global_common_subexpression.ml" 59 1694 1752 "global_common_subexpression.ml" 59 1694 1757
+type(
+  bool
+)
+"global_common_subexpression.ml" 59 1694 1712 "global_common_subexpression.ml" 59 1694 1757
+type(
+  bool
+)
+"global_common_subexpression.ml" 59 1694 1702 "global_common_subexpression.ml" 59 1694 1758
+type(
+  Ir3_structs_new.ir3_exp_new -> bool
+)
+"global_common_subexpression.ml" 60 1759 1767 "global_common_subexpression.ml" 60 1759 1775
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref exp_list "global_common_subexpression.ml" 56 1579 1604 "global_common_subexpression.ml" 56 1579 1612
+)
+"global_common_subexpression.ml" 58 1678 1682 "global_common_subexpression.ml" 60 1759 1775
+call(
+  tail
+)
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 57 1627 1631 "global_common_subexpression.ml" 60 1759 1775
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 62 1785 1789 "global_common_subexpression.ml" 62 1785 1796
+type(
+  int -> Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  def get_bbl "global_common_subexpression.ml" 65 1838 1838 "global_common_subexpression.ml" 1 0 -1
+)
+"global_common_subexpression.ml" 62 1785 1797 "global_common_subexpression.ml" 62 1785 1799
+type(
+  int
+)
+ident(
+  def id "global_common_subexpression.ml" 63 1802 1806 "global_common_subexpression.ml" 63 1802 1836
+)
+"global_common_subexpression.ml" 63 1802 1806 "global_common_subexpression.ml" 63 1802 1818
+type(
+  (int, Ir3_bbl_generator.ir3_bbl) Hashtbl.t ->
+  int -> Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"global_common_subexpression.ml" 63 1802 1819 "global_common_subexpression.ml" 63 1802 1833
+type(
+  (int, Ir3_bbl_generator.ir3_bbl) Hashtbl.t
+)
+ident(
+  int_ref bbl_lookup_tbl "global_common_subexpression.ml" 11 229 233 "global_common_subexpression.ml" 11 229 247
+)
+"global_common_subexpression.ml" 63 1802 1834 "global_common_subexpression.ml" 63 1802 1836
+type(
+  int
+)
+ident(
+  int_ref id "global_common_subexpression.ml" 62 1785 1797 "global_common_subexpression.ml" 62 1785 1799
+)
+"global_common_subexpression.ml" 63 1802 1806 "global_common_subexpression.ml" 63 1802 1836
+call(
+  tail
+)
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+"global_common_subexpression.ml" 65 1838 1842 "global_common_subexpression.ml" 65 1838 1862
+type(
+  'a -> unit
+)
+ident(
+  def initialize_hash_tbls "global_common_subexpression.ml" 74 2060 2060 "global_common_subexpression.ml" 1 0 -1
+)
+"global_common_subexpression.ml" 65 1838 1863 "global_common_subexpression.ml" 65 1838 1864
+type(
+  'a
+)
+ident(
+  def t "global_common_subexpression.ml" 66 1867 1871 "global_common_subexpression.ml" 71 2050 2057
+)
+"global_common_subexpression.ml" 67 1877 1885 "global_common_subexpression.ml" 67 1877 1898
+type(
+  (int, Ir3_bbl_generator.ir3_bbl) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.reset
+)
+"global_common_subexpression.ml" 67 1877 1899 "global_common_subexpression.ml" 67 1877 1913
+type(
+  (int, Ir3_bbl_generator.ir3_bbl) Hashtbl.t
+)
+ident(
+  int_ref bbl_lookup_tbl "global_common_subexpression.ml" 11 229 233 "global_common_subexpression.ml" 11 229 247
+)
+"global_common_subexpression.ml" 67 1877 1885 "global_common_subexpression.ml" 67 1877 1913
+call(
+  stack
+)
+type(
+  unit
+)
+"global_common_subexpression.ml" 68 1915 1923 "global_common_subexpression.ml" 68 1915 1936
+type(
+  (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.reset
+)
+"global_common_subexpression.ml" 68 1915 1937 "global_common_subexpression.ml" 68 1915 1959
+type(
+  (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t
+)
+ident(
+  int_ref in_common_exp_list_tbl "global_common_subexpression.ml" 12 268 272 "global_common_subexpression.ml" 12 268 294
+)
+"global_common_subexpression.ml" 68 1915 1923 "global_common_subexpression.ml" 68 1915 1959
+call(
+  stack
+)
+type(
+  unit
+)
+"global_common_subexpression.ml" 69 1961 1969 "global_common_subexpression.ml" 69 1961 1982
+type(
+  (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.reset
+)
+"global_common_subexpression.ml" 69 1961 1983 "global_common_subexpression.ml" 69 1961 2006
+type(
+  (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t
+)
+ident(
+  int_ref out_common_exp_list_tbl "global_common_subexpression.ml" 13 315 319 "global_common_subexpression.ml" 13 315 342
+)
+"global_common_subexpression.ml" 69 1961 1969 "global_common_subexpression.ml" 69 1961 2006
+call(
+  stack
+)
+type(
+  unit
+)
+"global_common_subexpression.ml" 70 2008 2016 "global_common_subexpression.ml" 70 2008 2029
+type(
+  (Ir3_structs_new.ir3_exp_new, Ir3_structs_new.id3_new) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.clear
+)
+"global_common_subexpression.ml" 70 2008 2030 "global_common_subexpression.ml" 70 2008 2048
+type(
+  (Ir3_structs_new.ir3_exp_new, Ir3_structs_new.id3_new) Hashtbl.t
+)
+ident(
+  int_ref common_exp_var_tbl "global_common_subexpression.ml" 14 363 367 "global_common_subexpression.ml" 14 363 385
+)
+"global_common_subexpression.ml" 70 2008 2016 "global_common_subexpression.ml" 70 2008 2049
+call(
+  tail
+)
+type(
+  unit
+)
+"global_common_subexpression.ml" 69 1961 1969 "global_common_subexpression.ml" 70 2008 2049
+type(
+  unit
+)
+"global_common_subexpression.ml" 68 1915 1923 "global_common_subexpression.ml" 70 2008 2049
+type(
+  unit
+)
+"global_common_subexpression.ml" 66 1867 1871 "global_common_subexpression.ml" 71 2050 2057
+type(
+  unit
+)
+"global_common_subexpression.ml" 74 2060 2064 "global_common_subexpression.ml" 74 2060 2088
+type(
+  int -> Ir3_bbl_generator.ir3_bbl -> unit
+)
+ident(
+  def initialize_block_mapping "global_common_subexpression.ml" 77 2141 2141 "global_common_subexpression.ml" 1 0 -1
+)
+"global_common_subexpression.ml" 74 2060 2089 "global_common_subexpression.ml" 74 2060 2091
+type(
+  int
+)
+ident(
+  def id "global_common_subexpression.ml" 74 2060 2092 "global_common_subexpression.ml" 75 2098 2139
+)
+"global_common_subexpression.ml" 74 2060 2092 "global_common_subexpression.ml" 74 2060 2095
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  def bbl "global_common_subexpression.ml" 75 2098 2106 "global_common_subexpression.ml" 75 2098 2139
+)
+"global_common_subexpression.ml" 75 2098 2106 "global_common_subexpression.ml" 75 2098 2117
+type(
+  (int, Ir3_bbl_generator.ir3_bbl) Hashtbl.t ->
+  int -> Ir3_bbl_generator.ir3_bbl -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"global_common_subexpression.ml" 75 2098 2118 "global_common_subexpression.ml" 75 2098 2132
+type(
+  (int, Ir3_bbl_generator.ir3_bbl) Hashtbl.t
+)
+ident(
+  int_ref bbl_lookup_tbl "global_common_subexpression.ml" 11 229 233 "global_common_subexpression.ml" 11 229 247
+)
+"global_common_subexpression.ml" 75 2098 2133 "global_common_subexpression.ml" 75 2098 2135
+type(
+  int
+)
+ident(
+  int_ref id "global_common_subexpression.ml" 74 2060 2089 "global_common_subexpression.ml" 74 2060 2091
+)
+"global_common_subexpression.ml" 75 2098 2136 "global_common_subexpression.ml" 75 2098 2139
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  int_ref bbl "global_common_subexpression.ml" 74 2060 2092 "global_common_subexpression.ml" 74 2060 2095
+)
+"global_common_subexpression.ml" 75 2098 2106 "global_common_subexpression.ml" 75 2098 2139
+call(
+  tail
+)
+type(
+  unit
+)
+"global_common_subexpression.ml" 77 2141 2145 "global_common_subexpression.ml" 77 2141 2159
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  def list_intersect "global_common_subexpression.ml" 80 2217 2217 "global_common_subexpression.ml" 1 0 -1
+)
+"global_common_subexpression.ml" 77 2141 2160 "global_common_subexpression.ml" 77 2141 2162
+type(
+  'a list
+)
+ident(
+  def l1 "global_common_subexpression.ml" 77 2141 2163 "global_common_subexpression.ml" 78 2168 2211
+)
+"global_common_subexpression.ml" 77 2141 2163 "global_common_subexpression.ml" 77 2141 2165
+type(
+  'a list
+)
+ident(
+  def l2 "global_common_subexpression.ml" 78 2168 2172 "global_common_subexpression.ml" 78 2168 2211
+)
+"global_common_subexpression.ml" 78 2168 2172 "global_common_subexpression.ml" 78 2168 2183
+type(
+  ('a -> bool) -> 'a list -> 'a list
+)
+ident(
+  ext_ref List.filter
+)
+"global_common_subexpression.ml" 78 2168 2189 "global_common_subexpression.ml" 78 2168 2190
+type(
+  'a
+)
+ident(
+  def x "global_common_subexpression.ml" 78 2168 2194 "global_common_subexpression.ml" 78 2168 2207
+)
+"global_common_subexpression.ml" 78 2168 2194 "global_common_subexpression.ml" 78 2168 2202
+type(
+  'a -> 'a list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"global_common_subexpression.ml" 78 2168 2203 "global_common_subexpression.ml" 78 2168 2204
+type(
+  'a
+)
+ident(
+  int_ref x "global_common_subexpression.ml" 78 2168 2189 "global_common_subexpression.ml" 78 2168 2190
+)
+"global_common_subexpression.ml" 78 2168 2205 "global_common_subexpression.ml" 78 2168 2207
+type(
+  'a list
+)
+ident(
+  int_ref l2 "global_common_subexpression.ml" 77 2141 2163 "global_common_subexpression.ml" 77 2141 2165
+)
+"global_common_subexpression.ml" 78 2168 2194 "global_common_subexpression.ml" 78 2168 2207
+call(
+  tail
+)
+type(
+  bool
+)
+"global_common_subexpression.ml" 78 2168 2184 "global_common_subexpression.ml" 78 2168 2208
+type(
+  'a -> bool
+)
+"global_common_subexpression.ml" 78 2168 2209 "global_common_subexpression.ml" 78 2168 2211
+type(
+  'a list
+)
+ident(
+  int_ref l1 "global_common_subexpression.ml" 77 2141 2160 "global_common_subexpression.ml" 77 2141 2162
+)
+"global_common_subexpression.ml" 78 2168 2172 "global_common_subexpression.ml" 78 2168 2211
+call(
+  tail
+)
+type(
+  'a list
+)
+"global_common_subexpression.ml" 80 2217 2221 "global_common_subexpression.ml" 80 2217 2235
+type(
+  Ir3_structs_new.ir3_exp_new list ->
+  Ir3_structs_new.ir3_stmt_new list -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def optimize_stmts "global_common_subexpression.ml" 110 3652 3652 "global_common_subexpression.ml" 1 0 -1
+)
+"global_common_subexpression.ml" 80 2217 2236 "global_common_subexpression.ml" 80 2217 2251
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  def common_exp_list "global_common_subexpression.ml" 80 2217 2252 "global_common_subexpression.ml" 108 3614 3646
+)
+"global_common_subexpression.ml" 80 2217 2252 "global_common_subexpression.ml" 80 2217 2257
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def stmts "global_common_subexpression.ml" 81 2260 2264 "global_common_subexpression.ml" 108 3614 3646
+)
+"global_common_subexpression.ml" 81 2260 2272 "global_common_subexpression.ml" 81 2260 2278
+type(
+  Ir3_structs_new.ir3_exp_new list ->
+  Ir3_structs_new.ir3_stmt_new list -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def helper "global_common_subexpression.ml" 81 2260 2264 "global_common_subexpression.ml" 108 3614 3646
+)
+"global_common_subexpression.ml" 81 2260 2279 "global_common_subexpression.ml" 81 2260 2294
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  def common_exp_list "global_common_subexpression.ml" 81 2260 2295 "global_common_subexpression.ml" 106 3570 3606
+)
+"global_common_subexpression.ml" 81 2260 2295 "global_common_subexpression.ml" 81 2260 2300
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def stmts "global_common_subexpression.ml" 82 2303 2311 "global_common_subexpression.ml" 106 3570 3606
+)
+"global_common_subexpression.ml" 82 2303 2317 "global_common_subexpression.ml" 82 2303 2322
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref stmts "global_common_subexpression.ml" 81 2260 2295 "global_common_subexpression.ml" 81 2260 2300
+)
+"global_common_subexpression.ml" 83 2328 2338 "global_common_subexpression.ml" 83 2328 2340
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 84 2344 2356 "global_common_subexpression.ml" 84 2344 2358
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 85 2359 2369 "global_common_subexpression.ml" 85 2359 2373
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  def stmt "global_common_subexpression.ml" 86 2388 2400 "global_common_subexpression.ml" 106 3570 3606
+)
+"global_common_subexpression.ml" 85 2359 2375 "global_common_subexpression.ml" 85 2359 2384
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def tail_list "global_common_subexpression.ml" 86 2388 2400 "global_common_subexpression.ml" 106 3570 3606
+)
+"global_common_subexpression.ml" 85 2359 2369 "global_common_subexpression.ml" 85 2359 2384
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 86 2388 2405 "global_common_subexpression.ml" 86 2388 2418
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def updated_stmts "global_common_subexpression.ml" 105 3497 3509 "global_common_subexpression.ml" 106 3570 3606
+)
+"global_common_subexpression.ml" 86 2388 2420 "global_common_subexpression.ml" 86 2388 2443
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  def updated_common_exp_list "global_common_subexpression.ml" 105 3497 3509 "global_common_subexpression.ml" 106 3570 3606
+)
+"global_common_subexpression.ml" 86 2388 2404 "global_common_subexpression.ml" 86 2388 2444
+type(
+  Ir3_structs_new.ir3_stmt_new list * Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 87 2447 2469 "global_common_subexpression.ml" 87 2447 2473
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "global_common_subexpression.ml" 85 2359 2369 "global_common_subexpression.ml" 85 2359 2373
+)
+"global_common_subexpression.ml" 88 2479 2514 "global_common_subexpression.ml" 88 2479 2522
+type(
+  Ir3_structs_new.id3_new
+)
+ident(
+  def assignee "global_common_subexpression.ml" 89 2532 2552 "global_common_subexpression.ml" 101 3366 3414
+)
+"global_common_subexpression.ml" 88 2479 2524 "global_common_subexpression.ml" 88 2479 2527
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  def exp "global_common_subexpression.ml" 89 2532 2552 "global_common_subexpression.ml" 101 3366 3414
+)
+"global_common_subexpression.ml" 88 2479 2497 "global_common_subexpression.ml" 88 2479 2528
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"global_common_subexpression.ml" 89 2532 2557 "global_common_subexpression.ml" 89 2532 2565
+type(
+  bool
+)
+ident(
+  def is_valid "global_common_subexpression.ml" 90 2642 2662 "global_common_subexpression.ml" 101 3366 3414
+)
+"global_common_subexpression.ml" 89 2532 2567 "global_common_subexpression.ml" 89 2532 2583
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  def updated_exp_list "global_common_subexpression.ml" 90 2642 2662 "global_common_subexpression.ml" 101 3366 3414
+)
+"global_common_subexpression.ml" 89 2532 2585 "global_common_subexpression.ml" 89 2532 2595
+type(
+  bool
+)
+ident(
+  def is_new_exp "global_common_subexpression.ml" 90 2642 2662 "global_common_subexpression.ml" 101 3366 3414
+)
+"global_common_subexpression.ml" 89 2532 2556 "global_common_subexpression.ml" 89 2532 2596
+type(
+  bool * Ir3_structs_new.ir3_exp_new list * bool
+)
+"global_common_subexpression.ml" 89 2532 2599 "global_common_subexpression.ml" 89 2532 2618
+type(
+  Ir3_structs_new.ir3_exp_new list ->
+  Ir3_structs_new.ir3_exp_new ->
+  bool * Ir3_structs_new.ir3_exp_new list * bool
+)
+ident(
+  int_ref add_new_exp_to_list "global_common_subexpression.ml" 26 744 748 "global_common_subexpression.ml" 26 744 767
+)
+"global_common_subexpression.ml" 89 2532 2619 "global_common_subexpression.ml" 89 2532 2634
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref common_exp_list "global_common_subexpression.ml" 81 2260 2279 "global_common_subexpression.ml" 81 2260 2294
+)
+"global_common_subexpression.ml" 89 2532 2635 "global_common_subexpression.ml" 89 2532 2638
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  int_ref exp "global_common_subexpression.ml" 88 2479 2524 "global_common_subexpression.ml" 88 2479 2527
+)
+"global_common_subexpression.ml" 89 2532 2599 "global_common_subexpression.ml" 89 2532 2638
+call(
+  stack
+)
+type(
+  bool * Ir3_structs_new.ir3_exp_new list * bool
+)
+"global_common_subexpression.ml" 90 2642 2666 "global_common_subexpression.ml" 90 2642 2682
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  def updated_exp_list "global_common_subexpression.ml" 91 2735 2755 "global_common_subexpression.ml" 101 3366 3414
+)
+"global_common_subexpression.ml" 90 2642 2685 "global_common_subexpression.ml" 90 2642 2705
+type(
+  Ir3_structs_new.ir3_exp_new list ->
+  Ir3_structs_new.id3_new -> Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref remove_exp_from_list "global_common_subexpression.ml" 56 1579 1583 "global_common_subexpression.ml" 56 1579 1603
+)
+"global_common_subexpression.ml" 90 2642 2706 "global_common_subexpression.ml" 90 2642 2722
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref updated_exp_list "global_common_subexpression.ml" 89 2532 2567 "global_common_subexpression.ml" 89 2532 2583
+)
+"global_common_subexpression.ml" 90 2642 2723 "global_common_subexpression.ml" 90 2642 2731
+type(
+  Ir3_structs_new.id3_new
+)
+ident(
+  int_ref assignee "global_common_subexpression.ml" 88 2479 2514 "global_common_subexpression.ml" 88 2479 2522
+)
+"global_common_subexpression.ml" 90 2642 2685 "global_common_subexpression.ml" 90 2642 2731
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 91 2735 2758 "global_common_subexpression.ml" 91 2735 2768
+type(
+  bool
+)
+ident(
+  int_ref is_valid "global_common_subexpression.ml" 89 2532 2557 "global_common_subexpression.ml" 89 2532 2565
+)
+"global_common_subexpression.ml" 92 2774 2802 "global_common_subexpression.ml" 92 2774 2810
+type(
+  Ir3_structs_new.id3_new
+)
+ident(
+  def variable "global_common_subexpression.ml" 93 2852 2876 "global_common_subexpression.ml" 99 3278 3340
+)
+"global_common_subexpression.ml" 92 2774 2813 "global_common_subexpression.ml" 92 2774 2835
+type(
+  Ir3_structs_new.ir3_exp_new -> string -> Ir3_structs_new.id3_new
+)
+ident(
+  int_ref get_var_for_common_exp "global_common_subexpression.ml" 16 408 412 "global_common_subexpression.ml" 16 408 434
+)
+"global_common_subexpression.ml" 92 2774 2836 "global_common_subexpression.ml" 92 2774 2839
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  int_ref exp "global_common_subexpression.ml" 88 2479 2524 "global_common_subexpression.ml" 88 2479 2527
+)
+"global_common_subexpression.ml" 92 2774 2840 "global_common_subexpression.ml" 92 2774 2848
+type(
+  string
+)
+"global_common_subexpression.ml" 92 2774 2813 "global_common_subexpression.ml" 92 2774 2848
+call(
+  stack
+)
+type(
+  Ir3_structs_new.id3_new
+)
+"global_common_subexpression.ml" 93 2852 2879 "global_common_subexpression.ml" 93 2852 2891
+type(
+  bool
+)
+ident(
+  int_ref is_new_exp "global_common_subexpression.ml" 89 2532 2585 "global_common_subexpression.ml" 89 2532 2595
+)
+"global_common_subexpression.ml" 94 2897 2929 "global_common_subexpression.ml" 94 2897 2941
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  def assignee_exp "global_common_subexpression.ml" 95 2980 3008 "global_common_subexpression.ml" 96 3070 3137
+)
+"global_common_subexpression.ml" 94 2897 2967 "global_common_subexpression.ml" 94 2897 2975
+type(
+  Ir3_structs_new.id3_new
+)
+ident(
+  int_ref assignee "global_common_subexpression.ml" 88 2479 2514 "global_common_subexpression.ml" 88 2479 2522
+)
+"global_common_subexpression.ml" 94 2897 2957 "global_common_subexpression.ml" 94 2897 2976
+type(
+  Ir3_structs_new.idc3_new
+)
+"global_common_subexpression.ml" 94 2897 2944 "global_common_subexpression.ml" 94 2897 2976
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"global_common_subexpression.ml" 95 2980 3012 "global_common_subexpression.ml" 95 2980 3023
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  def assign_stmt "global_common_subexpression.ml" 96 3070 3098 "global_common_subexpression.ml" 96 3070 3137
+)
+"global_common_subexpression.ml" 95 2980 3043 "global_common_subexpression.ml" 95 2980 3051
+type(
+  Ir3_structs_new.id3_new
+)
+ident(
+  int_ref variable "global_common_subexpression.ml" 92 2774 2802 "global_common_subexpression.ml" 92 2774 2810
+)
+"global_common_subexpression.ml" 95 2980 3053 "global_common_subexpression.ml" 95 2980 3065
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  int_ref assignee_exp "global_common_subexpression.ml" 94 2897 2929 "global_common_subexpression.ml" 94 2897 2941
+)
+"global_common_subexpression.ml" 95 2980 3026 "global_common_subexpression.ml" 95 2980 3066
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"global_common_subexpression.ml" 96 3070 3099 "global_common_subexpression.ml" 96 3070 3103
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "global_common_subexpression.ml" 85 2359 2369 "global_common_subexpression.ml" 85 2359 2373
+)
+"global_common_subexpression.ml" 96 3070 3106 "global_common_subexpression.ml" 96 3070 3117
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref assign_stmt "global_common_subexpression.ml" 95 2980 3012 "global_common_subexpression.ml" 95 2980 3023
+)
+"global_common_subexpression.ml" 96 3070 3105 "global_common_subexpression.ml" 96 3070 3118
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 96 3070 3099 "global_common_subexpression.ml" 96 3070 3118
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 96 3070 3120 "global_common_subexpression.ml" 96 3070 3136
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref updated_exp_list "global_common_subexpression.ml" 90 2642 2666 "global_common_subexpression.ml" 90 2642 2682
+)
+"global_common_subexpression.ml" 96 3070 3098 "global_common_subexpression.ml" 96 3070 3137
+type(
+  Ir3_structs_new.ir3_stmt_new list * Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 95 2980 3008 "global_common_subexpression.ml" 96 3070 3137
+type(
+  Ir3_structs_new.ir3_stmt_new list * Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 94 2897 2925 "global_common_subexpression.ml" 96 3070 3137
+type(
+  Ir3_structs_new.ir3_stmt_new list * Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 98 3167 3199 "global_common_subexpression.ml" 98 3167 3211
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  def updated_stmt "global_common_subexpression.ml" 99 3278 3306 "global_common_subexpression.ml" 99 3278 3340
+)
+"global_common_subexpression.ml" 98 3167 3231 "global_common_subexpression.ml" 98 3167 3239
+type(
+  Ir3_structs_new.id3_new
+)
+ident(
+  int_ref assignee "global_common_subexpression.ml" 88 2479 2514 "global_common_subexpression.ml" 88 2479 2522
+)
+"global_common_subexpression.ml" 98 3167 3264 "global_common_subexpression.ml" 98 3167 3272
+type(
+  Ir3_structs_new.id3_new
+)
+ident(
+  int_ref variable "global_common_subexpression.ml" 92 2774 2802 "global_common_subexpression.ml" 92 2774 2810
+)
+"global_common_subexpression.ml" 98 3167 3254 "global_common_subexpression.ml" 98 3167 3273
+type(
+  Ir3_structs_new.idc3_new
+)
+"global_common_subexpression.ml" 98 3167 3241 "global_common_subexpression.ml" 98 3167 3273
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"global_common_subexpression.ml" 98 3167 3214 "global_common_subexpression.ml" 98 3167 3274
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"global_common_subexpression.ml" 99 3278 3308 "global_common_subexpression.ml" 99 3278 3320
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref updated_stmt "global_common_subexpression.ml" 98 3167 3199 "global_common_subexpression.ml" 98 3167 3211
+)
+"global_common_subexpression.ml" 99 3278 3307 "global_common_subexpression.ml" 99 3278 3321
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 99 3278 3323 "global_common_subexpression.ml" 99 3278 3339
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref updated_exp_list "global_common_subexpression.ml" 90 2642 2666 "global_common_subexpression.ml" 90 2642 2682
+)
+"global_common_subexpression.ml" 99 3278 3306 "global_common_subexpression.ml" 99 3278 3340
+type(
+  Ir3_structs_new.ir3_stmt_new list * Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 98 3167 3195 "global_common_subexpression.ml" 99 3278 3340
+type(
+  Ir3_structs_new.ir3_stmt_new list * Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 93 2852 2876 "global_common_subexpression.ml" 99 3278 3340
+type(
+  Ir3_structs_new.ir3_stmt_new list * Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 92 2774 2798 "global_common_subexpression.ml" 99 3278 3340
+type(
+  Ir3_structs_new.ir3_stmt_new list * Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 101 3366 3391 "global_common_subexpression.ml" 101 3366 3395
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "global_common_subexpression.ml" 85 2359 2369 "global_common_subexpression.ml" 85 2359 2373
+)
+"global_common_subexpression.ml" 101 3366 3390 "global_common_subexpression.ml" 101 3366 3396
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 101 3366 3398 "global_common_subexpression.ml" 101 3366 3414
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref updated_exp_list "global_common_subexpression.ml" 90 2642 2666 "global_common_subexpression.ml" 90 2642 2682
+)
+"global_common_subexpression.ml" 101 3366 3390 "global_common_subexpression.ml" 101 3366 3414
+type(
+  Ir3_structs_new.ir3_stmt_new list * Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 91 2735 2755 "global_common_subexpression.ml" 101 3366 3414
+type(
+  Ir3_structs_new.ir3_stmt_new list * Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 90 2642 2662 "global_common_subexpression.ml" 101 3366 3414
+type(
+  Ir3_structs_new.ir3_stmt_new list * Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 89 2532 2552 "global_common_subexpression.ml" 101 3366 3414
+type(
+  Ir3_structs_new.ir3_stmt_new list * Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 102 3415 3433 "global_common_subexpression.ml" 102 3415 3434
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"global_common_subexpression.ml" 103 3438 3459 "global_common_subexpression.ml" 103 3438 3463
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "global_common_subexpression.ml" 85 2359 2369 "global_common_subexpression.ml" 85 2359 2373
+)
+"global_common_subexpression.ml" 103 3438 3458 "global_common_subexpression.ml" 103 3438 3464
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 103 3438 3466 "global_common_subexpression.ml" 103 3438 3481
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref common_exp_list "global_common_subexpression.ml" 81 2260 2279 "global_common_subexpression.ml" 81 2260 2294
+)
+"global_common_subexpression.ml" 103 3438 3458 "global_common_subexpression.ml" 103 3438 3481
+type(
+  Ir3_structs_new.ir3_stmt_new list * Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 87 2447 2463 "global_common_subexpression.ml" 103 3438 3481
+type(
+  Ir3_structs_new.ir3_stmt_new list * Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 105 3497 3513 "global_common_subexpression.ml" 105 3497 3523
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def tail_stmts "global_common_subexpression.ml" 106 3570 3582 "global_common_subexpression.ml" 106 3570 3606
+)
+"global_common_subexpression.ml" 105 3497 3526 "global_common_subexpression.ml" 105 3497 3532
+type(
+  Ir3_structs_new.ir3_exp_new list ->
+  Ir3_structs_new.ir3_stmt_new list -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref helper "global_common_subexpression.ml" 81 2260 2272 "global_common_subexpression.ml" 81 2260 2278
+)
+"global_common_subexpression.ml" 105 3497 3533 "global_common_subexpression.ml" 105 3497 3556
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref updated_common_exp_list "global_common_subexpression.ml" 86 2388 2420 "global_common_subexpression.ml" 86 2388 2443
+)
+"global_common_subexpression.ml" 105 3497 3557 "global_common_subexpression.ml" 105 3497 3566
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref tail_list "global_common_subexpression.ml" 85 2359 2375 "global_common_subexpression.ml" 85 2359 2384
+)
+"global_common_subexpression.ml" 105 3497 3526 "global_common_subexpression.ml" 105 3497 3566
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 106 3570 3582 "global_common_subexpression.ml" 106 3570 3595
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref updated_stmts "global_common_subexpression.ml" 86 2388 2405 "global_common_subexpression.ml" 86 2388 2418
+)
+"global_common_subexpression.ml" 106 3570 3595 "global_common_subexpression.ml" 106 3570 3596
+type(
+  Ir3_structs_new.ir3_stmt_new list ->
+  Ir3_structs_new.ir3_stmt_new list -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"global_common_subexpression.ml" 106 3570 3596 "global_common_subexpression.ml" 106 3570 3606
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref tail_stmts "global_common_subexpression.ml" 105 3497 3513 "global_common_subexpression.ml" 105 3497 3523
+)
+"global_common_subexpression.ml" 106 3570 3582 "global_common_subexpression.ml" 106 3570 3606
+call(
+  tail
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 105 3497 3509 "global_common_subexpression.ml" 106 3570 3606
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 86 2388 2400 "global_common_subexpression.ml" 106 3570 3606
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 82 2303 2311 "global_common_subexpression.ml" 106 3570 3606
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 108 3614 3618 "global_common_subexpression.ml" 108 3614 3624
+type(
+  Ir3_structs_new.ir3_exp_new list ->
+  Ir3_structs_new.ir3_stmt_new list -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref helper "global_common_subexpression.ml" 81 2260 2272 "global_common_subexpression.ml" 81 2260 2278
+)
+"global_common_subexpression.ml" 108 3614 3625 "global_common_subexpression.ml" 108 3614 3640
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref common_exp_list "global_common_subexpression.ml" 80 2217 2236 "global_common_subexpression.ml" 80 2217 2251
+)
+"global_common_subexpression.ml" 108 3614 3641 "global_common_subexpression.ml" 108 3614 3646
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref stmts "global_common_subexpression.ml" 80 2217 2252 "global_common_subexpression.ml" 80 2217 2257
+)
+"global_common_subexpression.ml" 108 3614 3618 "global_common_subexpression.ml" 108 3614 3646
+call(
+  tail
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 81 2260 2264 "global_common_subexpression.ml" 108 3614 3646
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 110 3652 3656 "global_common_subexpression.ml" 110 3652 3668
+type(
+  Ir3_bbl_generator.ir3_bbl -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def optimize_bbl "global_common_subexpression.ml" 120 3882 3882 "global_common_subexpression.ml" 1 0 -1
+)
+"global_common_subexpression.ml" 110 3652 3669 "global_common_subexpression.ml" 110 3652 3672
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  def bbl "global_common_subexpression.ml" 111 3675 3679 "global_common_subexpression.ml" 118 3832 3876
+)
+"global_common_subexpression.ml" 111 3675 3683 "global_common_subexpression.ml" 111 3675 3698
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  def common_exp_list "global_common_subexpression.ml" 118 3832 3836 "global_common_subexpression.ml" 118 3832 3876
+)
+"global_common_subexpression.ml" 113 3713 3725 "global_common_subexpression.ml" 113 3713 3737
+type(
+  (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t ->
+  int -> Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"global_common_subexpression.ml" 113 3713 3738 "global_common_subexpression.ml" 113 3713 3760
+type(
+  (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t
+)
+ident(
+  int_ref in_common_exp_list_tbl "global_common_subexpression.ml" 12 268 272 "global_common_subexpression.ml" 12 268 294
+)
+"global_common_subexpression.ml" 113 3713 3761 "global_common_subexpression.ml" 113 3713 3764
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  int_ref bbl "global_common_subexpression.ml" 110 3652 3669 "global_common_subexpression.ml" 110 3652 3672
+)
+"global_common_subexpression.ml" 113 3713 3761 "global_common_subexpression.ml" 113 3713 3767
+type(
+  int
+)
+"global_common_subexpression.ml" 113 3713 3725 "global_common_subexpression.ml" 113 3713 3767
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 115 3781 3793 "global_common_subexpression.ml" 115 3781 3802
+type(
+  exn
+)
+"global_common_subexpression.ml" 116 3806 3822 "global_common_subexpression.ml" 116 3806 3824
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 112 3701 3709 "global_common_subexpression.ml" 116 3806 3824
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 118 3832 3836 "global_common_subexpression.ml" 118 3832 3850
+type(
+  Ir3_structs_new.ir3_exp_new list ->
+  Ir3_structs_new.ir3_stmt_new list -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref optimize_stmts "global_common_subexpression.ml" 80 2217 2221 "global_common_subexpression.ml" 80 2217 2235
+)
+"global_common_subexpression.ml" 118 3832 3851 "global_common_subexpression.ml" 118 3832 3866
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref common_exp_list "global_common_subexpression.ml" 111 3675 3683 "global_common_subexpression.ml" 111 3675 3698
+)
+"global_common_subexpression.ml" 118 3832 3867 "global_common_subexpression.ml" 118 3832 3870
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  int_ref bbl "global_common_subexpression.ml" 110 3652 3669 "global_common_subexpression.ml" 110 3652 3672
+)
+"global_common_subexpression.ml" 118 3832 3867 "global_common_subexpression.ml" 118 3832 3876
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 118 3832 3836 "global_common_subexpression.ml" 118 3832 3876
+call(
+  tail
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 111 3675 3679 "global_common_subexpression.ml" 118 3832 3876
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 120 3882 3890 "global_common_subexpression.ml" 120 3882 3902
+type(
+  Ir3_bbl_generator.md_bbls ->
+  Ir3_bbl_generator.ir3_bbl -> Ir3_structs_new.ir3_exp_new list -> unit
+)
+ident(
+  def discover_bbl "global_common_subexpression.ml" 120 3882 3882 "global_common_subexpression.ml" 1 0 -1
+)
+"global_common_subexpression.ml" 120 3882 3904 "global_common_subexpression.ml" 120 3882 3908
+type(
+  Ir3_bbl_generator.md_bbls
+)
+ident(
+  def bbls "global_common_subexpression.ml" 120 3882 3936 "global_common_subexpression.ml" 164 6056 6066
+)
+"global_common_subexpression.ml" 120 3882 3936 "global_common_subexpression.ml" 120 3882 3939
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  def bbl "global_common_subexpression.ml" 120 3882 3940 "global_common_subexpression.ml" 164 6056 6066
+)
+"global_common_subexpression.ml" 120 3882 3940 "global_common_subexpression.ml" 120 3882 3958
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  def in_common_exp_list "global_common_subexpression.ml" 121 3961 3965 "global_common_subexpression.ml" 164 6056 6066
+)
+"global_common_subexpression.ml" 121 3961 3970 "global_common_subexpression.ml" 121 3961 3985
+type(
+  bool
+)
+ident(
+  def update_required "global_common_subexpression.ml" 134 4690 4694 "global_common_subexpression.ml" 164 6056 6066
+)
+"global_common_subexpression.ml" 121 3961 3987 "global_common_subexpression.ml" 121 3961 4002
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  def common_exp_list "global_common_subexpression.ml" 134 4690 4694 "global_common_subexpression.ml" 164 6056 6066
+)
+"global_common_subexpression.ml" 121 3961 3969 "global_common_subexpression.ml" 121 3961 4003
+type(
+  bool * Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 122 4006 4018 "global_common_subexpression.ml" 122 4006 4029
+type(
+  (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t -> int -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"global_common_subexpression.ml" 122 4006 4030 "global_common_subexpression.ml" 122 4006 4052
+type(
+  (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t
+)
+ident(
+  int_ref in_common_exp_list_tbl "global_common_subexpression.ml" 12 268 272 "global_common_subexpression.ml" 12 268 294
+)
+"global_common_subexpression.ml" 122 4006 4053 "global_common_subexpression.ml" 122 4006 4056
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  int_ref bbl "global_common_subexpression.ml" 120 3882 3936 "global_common_subexpression.ml" 120 3882 3939
+)
+"global_common_subexpression.ml" 122 4006 4053 "global_common_subexpression.ml" 122 4006 4059
+type(
+  int
+)
+"global_common_subexpression.ml" 122 4006 4017 "global_common_subexpression.ml" 122 4006 4060
+call(
+  stack
+)
+type(
+  bool
+)
+"global_common_subexpression.ml" 123 4066 4082 "global_common_subexpression.ml" 123 4066 4109
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  def original_in_common_exp_list "global_common_subexpression.ml" 124 4158 4170 "global_common_subexpression.ml" 129 4503 4546
+)
+"global_common_subexpression.ml" 123 4066 4112 "global_common_subexpression.ml" 123 4066 4124
+type(
+  (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t ->
+  int -> Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"global_common_subexpression.ml" 123 4066 4125 "global_common_subexpression.ml" 123 4066 4147
+type(
+  (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t
+)
+ident(
+  int_ref in_common_exp_list_tbl "global_common_subexpression.ml" 12 268 272 "global_common_subexpression.ml" 12 268 294
+)
+"global_common_subexpression.ml" 123 4066 4148 "global_common_subexpression.ml" 123 4066 4151
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  int_ref bbl "global_common_subexpression.ml" 120 3882 3936 "global_common_subexpression.ml" 120 3882 3939
+)
+"global_common_subexpression.ml" 123 4066 4148 "global_common_subexpression.ml" 123 4066 4154
+type(
+  int
+)
+"global_common_subexpression.ml" 123 4066 4112 "global_common_subexpression.ml" 123 4066 4154
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 124 4158 4174 "global_common_subexpression.ml" 124 4158 4192
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref in_common_exp_list "global_common_subexpression.ml" 120 3882 3940 "global_common_subexpression.ml" 120 3882 3958
+)
+"global_common_subexpression.ml" 124 4158 4193 "global_common_subexpression.ml" 124 4158 4195
+type(
+  Ir3_structs_new.ir3_exp_new list ->
+  Ir3_structs_new.ir3_exp_new list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"global_common_subexpression.ml" 124 4158 4196 "global_common_subexpression.ml" 124 4158 4223
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref original_in_common_exp_list "global_common_subexpression.ml" 123 4066 4082 "global_common_subexpression.ml" 123 4066 4109
+)
+"global_common_subexpression.ml" 124 4158 4173 "global_common_subexpression.ml" 124 4158 4224
+type(
+  bool
+)
+"global_common_subexpression.ml" 125 4230 4250 "global_common_subexpression.ml" 125 4230 4273
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  def updated_common_exp_list "global_common_subexpression.ml" 126 4341 4357 "global_common_subexpression.ml" 127 4438 4485
+)
+"global_common_subexpression.ml" 125 4230 4276 "global_common_subexpression.ml" 125 4230 4290
+type(
+  Ir3_structs_new.ir3_exp_new list ->
+  Ir3_structs_new.ir3_exp_new list -> Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref list_intersect "global_common_subexpression.ml" 77 2141 2145 "global_common_subexpression.ml" 77 2141 2159
+)
+"global_common_subexpression.ml" 125 4230 4291 "global_common_subexpression.ml" 125 4230 4309
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref in_common_exp_list "global_common_subexpression.ml" 120 3882 3940 "global_common_subexpression.ml" 120 3882 3958
+)
+"global_common_subexpression.ml" 125 4230 4310 "global_common_subexpression.ml" 125 4230 4337
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref original_in_common_exp_list "global_common_subexpression.ml" 123 4066 4082 "global_common_subexpression.ml" 123 4066 4109
+)
+"global_common_subexpression.ml" 125 4230 4276 "global_common_subexpression.ml" 125 4230 4337
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 126 4341 4361 "global_common_subexpression.ml" 126 4341 4362
+type(
+  unit
+)
+"global_common_subexpression.ml" 126 4341 4365 "global_common_subexpression.ml" 126 4341 4380
+type(
+  (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t ->
+  int -> Ir3_structs_new.ir3_exp_new list -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"global_common_subexpression.ml" 126 4341 4381 "global_common_subexpression.ml" 126 4341 4403
+type(
+  (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t
+)
+ident(
+  int_ref in_common_exp_list_tbl "global_common_subexpression.ml" 12 268 272 "global_common_subexpression.ml" 12 268 294
+)
+"global_common_subexpression.ml" 126 4341 4404 "global_common_subexpression.ml" 126 4341 4407
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  int_ref bbl "global_common_subexpression.ml" 120 3882 3936 "global_common_subexpression.ml" 120 3882 3939
+)
+"global_common_subexpression.ml" 126 4341 4404 "global_common_subexpression.ml" 126 4341 4410
+type(
+  int
+)
+"global_common_subexpression.ml" 126 4341 4411 "global_common_subexpression.ml" 126 4341 4434
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref updated_common_exp_list "global_common_subexpression.ml" 125 4230 4250 "global_common_subexpression.ml" 125 4230 4273
+)
+"global_common_subexpression.ml" 126 4341 4365 "global_common_subexpression.ml" 126 4341 4434
+call(
+  stack
+)
+type(
+  unit
+)
+"global_common_subexpression.ml" 127 4438 4455 "global_common_subexpression.ml" 127 4438 4459
+type(
+  bool
+)
+"global_common_subexpression.ml" 127 4438 4461 "global_common_subexpression.ml" 127 4438 4484
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref updated_common_exp_list "global_common_subexpression.ml" 125 4230 4250 "global_common_subexpression.ml" 125 4230 4273
+)
+"global_common_subexpression.ml" 127 4438 4454 "global_common_subexpression.ml" 127 4438 4485
+type(
+  bool * Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 126 4341 4357 "global_common_subexpression.ml" 127 4438 4485
+type(
+  bool * Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 125 4230 4246 "global_common_subexpression.ml" 127 4438 4485
+type(
+  bool * Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 129 4503 4520 "global_common_subexpression.ml" 129 4503 4525
+type(
+  bool
+)
+"global_common_subexpression.ml" 129 4503 4527 "global_common_subexpression.ml" 129 4503 4545
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref in_common_exp_list "global_common_subexpression.ml" 120 3882 3940 "global_common_subexpression.ml" 120 3882 3958
+)
+"global_common_subexpression.ml" 129 4503 4519 "global_common_subexpression.ml" 129 4503 4546
+type(
+  bool * Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 124 4158 4170 "global_common_subexpression.ml" 129 4503 4546
+type(
+  bool * Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 123 4066 4078 "global_common_subexpression.ml" 129 4503 4546
+type(
+  bool * Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 131 4560 4576 "global_common_subexpression.ml" 131 4560 4577
+type(
+  unit
+)
+"global_common_subexpression.ml" 131 4560 4580 "global_common_subexpression.ml" 131 4560 4591
+type(
+  (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t ->
+  int -> Ir3_structs_new.ir3_exp_new list -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"global_common_subexpression.ml" 131 4560 4592 "global_common_subexpression.ml" 131 4560 4614
+type(
+  (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t
+)
+ident(
+  int_ref in_common_exp_list_tbl "global_common_subexpression.ml" 12 268 272 "global_common_subexpression.ml" 12 268 294
+)
+"global_common_subexpression.ml" 131 4560 4615 "global_common_subexpression.ml" 131 4560 4618
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  int_ref bbl "global_common_subexpression.ml" 120 3882 3936 "global_common_subexpression.ml" 120 3882 3939
+)
+"global_common_subexpression.ml" 131 4560 4615 "global_common_subexpression.ml" 131 4560 4621
+type(
+  int
+)
+"global_common_subexpression.ml" 131 4560 4622 "global_common_subexpression.ml" 131 4560 4640
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref in_common_exp_list "global_common_subexpression.ml" 120 3882 3940 "global_common_subexpression.ml" 120 3882 3958
+)
+"global_common_subexpression.ml" 131 4560 4580 "global_common_subexpression.ml" 131 4560 4640
+call(
+  stack
+)
+type(
+  unit
+)
+"global_common_subexpression.ml" 132 4644 4657 "global_common_subexpression.ml" 132 4644 4661
+type(
+  bool
+)
+"global_common_subexpression.ml" 132 4644 4663 "global_common_subexpression.ml" 132 4644 4681
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref in_common_exp_list "global_common_subexpression.ml" 120 3882 3940 "global_common_subexpression.ml" 120 3882 3958
+)
+"global_common_subexpression.ml" 132 4644 4656 "global_common_subexpression.ml" 132 4644 4682
+type(
+  bool * Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 131 4560 4572 "global_common_subexpression.ml" 132 4644 4682
+type(
+  bool * Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 122 4006 4014 "global_common_subexpression.ml" 132 4644 4682
+type(
+  bool * Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 134 4690 4697 "global_common_subexpression.ml" 134 4690 4714
+type(
+  bool
+)
+ident(
+  int_ref update_required "global_common_subexpression.ml" 121 3961 3970 "global_common_subexpression.ml" 121 3961 3985
+)
+"global_common_subexpression.ml" 135 4720 4736 "global_common_subexpression.ml" 135 4720 4755
+type(
+  Ir3_structs_new.ir3_exp_new list ->
+  Ir3_structs_new.ir3_stmt_new list -> Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  def discover_bbl_helper "global_common_subexpression.ml" 135 4720 4728 "global_common_subexpression.ml" 162 6032 6046
+)
+"global_common_subexpression.ml" 135 4720 4756 "global_common_subexpression.ml" 135 4720 4771
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  def common_exp_list "global_common_subexpression.ml" 135 4720 4772 "global_common_subexpression.ml" 146 5256 5321
+)
+"global_common_subexpression.ml" 135 4720 4772 "global_common_subexpression.ml" 135 4720 4777
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def stmts "global_common_subexpression.ml" 136 4780 4792 "global_common_subexpression.ml" 146 5256 5321
+)
+"global_common_subexpression.ml" 136 4780 4798 "global_common_subexpression.ml" 136 4780 4803
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref stmts "global_common_subexpression.ml" 135 4720 4772 "global_common_subexpression.ml" 135 4720 4777
+)
+"global_common_subexpression.ml" 137 4809 4823 "global_common_subexpression.ml" 137 4809 4825
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 138 4829 4845 "global_common_subexpression.ml" 138 4829 4860
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref common_exp_list "global_common_subexpression.ml" 135 4720 4756 "global_common_subexpression.ml" 135 4720 4771
+)
+"global_common_subexpression.ml" 139 4861 4875 "global_common_subexpression.ml" 139 4861 4879
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  def stmt "global_common_subexpression.ml" 140 4894 4910 "global_common_subexpression.ml" 146 5256 5321
+)
+"global_common_subexpression.ml" 139 4861 4881 "global_common_subexpression.ml" 139 4861 4890
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def tail_list "global_common_subexpression.ml" 140 4894 4910 "global_common_subexpression.ml" 146 5256 5321
+)
+"global_common_subexpression.ml" 139 4861 4875 "global_common_subexpression.ml" 139 4861 4890
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 140 4894 4916 "global_common_subexpression.ml" 140 4894 4920
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "global_common_subexpression.ml" 139 4861 4875 "global_common_subexpression.ml" 139 4861 4879
+)
+"global_common_subexpression.ml" 141 4926 4961 "global_common_subexpression.ml" 141 4926 4969
+type(
+  Ir3_structs_new.id3_new
+)
+ident(
+  def assignee "global_common_subexpression.ml" 142 4979 4999 "global_common_subexpression.ml" 144 5166 5232
+)
+"global_common_subexpression.ml" 141 4926 4971 "global_common_subexpression.ml" 141 4926 4974
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  def exp "global_common_subexpression.ml" 142 4979 4999 "global_common_subexpression.ml" 144 5166 5232
+)
+"global_common_subexpression.ml" 141 4926 4944 "global_common_subexpression.ml" 141 4926 4975
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"global_common_subexpression.ml" 142 4979 5004 "global_common_subexpression.ml" 142 4979 5005
+type(
+  bool
+)
+"global_common_subexpression.ml" 142 4979 5007 "global_common_subexpression.ml" 142 4979 5023
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  def updated_exp_list "global_common_subexpression.ml" 143 5073 5093 "global_common_subexpression.ml" 144 5166 5232
+)
+"global_common_subexpression.ml" 142 4979 5025 "global_common_subexpression.ml" 142 4979 5026
+type(
+  bool
+)
+"global_common_subexpression.ml" 142 4979 5003 "global_common_subexpression.ml" 142 4979 5027
+type(
+  bool * Ir3_structs_new.ir3_exp_new list * bool
+)
+"global_common_subexpression.ml" 142 4979 5030 "global_common_subexpression.ml" 142 4979 5049
+type(
+  Ir3_structs_new.ir3_exp_new list ->
+  Ir3_structs_new.ir3_exp_new ->
+  bool * Ir3_structs_new.ir3_exp_new list * bool
+)
+ident(
+  int_ref add_new_exp_to_list "global_common_subexpression.ml" 26 744 748 "global_common_subexpression.ml" 26 744 767
+)
+"global_common_subexpression.ml" 142 4979 5050 "global_common_subexpression.ml" 142 4979 5065
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref common_exp_list "global_common_subexpression.ml" 135 4720 4756 "global_common_subexpression.ml" 135 4720 4771
+)
+"global_common_subexpression.ml" 142 4979 5066 "global_common_subexpression.ml" 142 4979 5069
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  int_ref exp "global_common_subexpression.ml" 141 4926 4971 "global_common_subexpression.ml" 141 4926 4974
+)
+"global_common_subexpression.ml" 142 4979 5030 "global_common_subexpression.ml" 142 4979 5069
+call(
+  stack
+)
+type(
+  bool * Ir3_structs_new.ir3_exp_new list * bool
+)
+"global_common_subexpression.ml" 143 5073 5097 "global_common_subexpression.ml" 143 5073 5113
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  def updated_exp_list "global_common_subexpression.ml" 144 5166 5186 "global_common_subexpression.ml" 144 5166 5232
+)
+"global_common_subexpression.ml" 143 5073 5116 "global_common_subexpression.ml" 143 5073 5136
+type(
+  Ir3_structs_new.ir3_exp_new list ->
+  Ir3_structs_new.id3_new -> Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref remove_exp_from_list "global_common_subexpression.ml" 56 1579 1583 "global_common_subexpression.ml" 56 1579 1603
+)
+"global_common_subexpression.ml" 143 5073 5137 "global_common_subexpression.ml" 143 5073 5153
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref updated_exp_list "global_common_subexpression.ml" 142 4979 5007 "global_common_subexpression.ml" 142 4979 5023
+)
+"global_common_subexpression.ml" 143 5073 5154 "global_common_subexpression.ml" 143 5073 5162
+type(
+  Ir3_structs_new.id3_new
+)
+ident(
+  int_ref assignee "global_common_subexpression.ml" 141 4926 4961 "global_common_subexpression.ml" 141 4926 4969
+)
+"global_common_subexpression.ml" 143 5073 5116 "global_common_subexpression.ml" 143 5073 5162
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 144 5166 5186 "global_common_subexpression.ml" 144 5166 5205
+type(
+  Ir3_structs_new.ir3_exp_new list ->
+  Ir3_structs_new.ir3_stmt_new list -> Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref discover_bbl_helper "global_common_subexpression.ml" 135 4720 4736 "global_common_subexpression.ml" 135 4720 4755
+)
+"global_common_subexpression.ml" 144 5166 5206 "global_common_subexpression.ml" 144 5166 5222
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref updated_exp_list "global_common_subexpression.ml" 143 5073 5097 "global_common_subexpression.ml" 143 5073 5113
+)
+"global_common_subexpression.ml" 144 5166 5223 "global_common_subexpression.ml" 144 5166 5232
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref tail_list "global_common_subexpression.ml" 139 4861 4881 "global_common_subexpression.ml" 139 4861 4890
+)
+"global_common_subexpression.ml" 144 5166 5186 "global_common_subexpression.ml" 144 5166 5232
+call(
+  tail
+)
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 143 5073 5093 "global_common_subexpression.ml" 144 5166 5232
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 142 4979 4999 "global_common_subexpression.ml" 144 5166 5232
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 145 5233 5251 "global_common_subexpression.ml" 145 5233 5252
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"global_common_subexpression.ml" 146 5256 5276 "global_common_subexpression.ml" 146 5256 5295
+type(
+  Ir3_structs_new.ir3_exp_new list ->
+  Ir3_structs_new.ir3_stmt_new list -> Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref discover_bbl_helper "global_common_subexpression.ml" 135 4720 4736 "global_common_subexpression.ml" 135 4720 4755
+)
+"global_common_subexpression.ml" 146 5256 5296 "global_common_subexpression.ml" 146 5256 5311
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref common_exp_list "global_common_subexpression.ml" 135 4720 4756 "global_common_subexpression.ml" 135 4720 4771
+)
+"global_common_subexpression.ml" 146 5256 5312 "global_common_subexpression.ml" 146 5256 5321
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref tail_list "global_common_subexpression.ml" 139 4861 4881 "global_common_subexpression.ml" 139 4861 4890
+)
+"global_common_subexpression.ml" 146 5256 5276 "global_common_subexpression.ml" 146 5256 5321
+call(
+  tail
+)
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 140 4894 4910 "global_common_subexpression.ml" 146 5256 5321
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 136 4780 4792 "global_common_subexpression.ml" 146 5256 5321
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 148 5333 5345 "global_common_subexpression.ml" 148 5333 5364
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  def out_common_exp_list "global_common_subexpression.ml" 149 5416 5424 "global_common_subexpression.ml" 162 6032 6046
+)
+"global_common_subexpression.ml" 148 5333 5367 "global_common_subexpression.ml" 148 5333 5386
+type(
+  Ir3_structs_new.ir3_exp_new list ->
+  Ir3_structs_new.ir3_stmt_new list -> Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref discover_bbl_helper "global_common_subexpression.ml" 135 4720 4736 "global_common_subexpression.ml" 135 4720 4755
+)
+"global_common_subexpression.ml" 148 5333 5387 "global_common_subexpression.ml" 148 5333 5402
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref common_exp_list "global_common_subexpression.ml" 121 3961 3987 "global_common_subexpression.ml" 121 3961 4002
+)
+"global_common_subexpression.ml" 148 5333 5403 "global_common_subexpression.ml" 148 5333 5406
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  int_ref bbl "global_common_subexpression.ml" 120 3882 3936 "global_common_subexpression.ml" 120 3882 3939
+)
+"global_common_subexpression.ml" 148 5333 5403 "global_common_subexpression.ml" 148 5333 5412
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 148 5333 5367 "global_common_subexpression.ml" 148 5333 5412
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 149 5416 5428 "global_common_subexpression.ml" 149 5416 5450
+type(
+  bool
+)
+ident(
+  def out_common_exp_changed "global_common_subexpression.ml" 157 5720 5728 "global_common_subexpression.ml" 162 6032 6046
+)
+"global_common_subexpression.ml" 151 5471 5491 "global_common_subexpression.ml" 151 5471 5519
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  def original_out_common_exp_list "global_common_subexpression.ml" 152 5569 5585 "global_common_subexpression.ml" 152 5569 5636
+)
+"global_common_subexpression.ml" 151 5471 5522 "global_common_subexpression.ml" 151 5471 5534
+type(
+  (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t ->
+  int -> Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"global_common_subexpression.ml" 151 5471 5535 "global_common_subexpression.ml" 151 5471 5558
+type(
+  (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t
+)
+ident(
+  int_ref out_common_exp_list_tbl "global_common_subexpression.ml" 13 315 319 "global_common_subexpression.ml" 13 315 342
+)
+"global_common_subexpression.ml" 151 5471 5559 "global_common_subexpression.ml" 151 5471 5562
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  int_ref bbl "global_common_subexpression.ml" 120 3882 3936 "global_common_subexpression.ml" 120 3882 3939
+)
+"global_common_subexpression.ml" 151 5471 5559 "global_common_subexpression.ml" 151 5471 5565
+type(
+  int
+)
+"global_common_subexpression.ml" 151 5471 5522 "global_common_subexpression.ml" 151 5471 5565
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 152 5569 5585 "global_common_subexpression.ml" 152 5569 5604
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref out_common_exp_list "global_common_subexpression.ml" 148 5333 5345 "global_common_subexpression.ml" 148 5333 5364
+)
+"global_common_subexpression.ml" 152 5569 5605 "global_common_subexpression.ml" 152 5569 5607
+type(
+  Ir3_structs_new.ir3_exp_new list ->
+  Ir3_structs_new.ir3_exp_new list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"global_common_subexpression.ml" 152 5569 5608 "global_common_subexpression.ml" 152 5569 5636
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref original_out_common_exp_list "global_common_subexpression.ml" 151 5471 5491 "global_common_subexpression.ml" 151 5471 5519
+)
+"global_common_subexpression.ml" 152 5569 5585 "global_common_subexpression.ml" 152 5569 5636
+type(
+  bool
+)
+"global_common_subexpression.ml" 151 5471 5487 "global_common_subexpression.ml" 152 5569 5636
+type(
+  bool
+)
+"global_common_subexpression.ml" 154 5655 5671 "global_common_subexpression.ml" 154 5655 5680
+type(
+  exn
+)
+"global_common_subexpression.ml" 155 5684 5704 "global_common_subexpression.ml" 155 5684 5708
+type(
+  bool
+)
+"global_common_subexpression.ml" 150 5454 5466 "global_common_subexpression.ml" 155 5684 5708
+type(
+  bool
+)
+"global_common_subexpression.ml" 157 5720 5731 "global_common_subexpression.ml" 157 5720 5755
+type(
+  bool
+)
+ident(
+  int_ref out_common_exp_changed "global_common_subexpression.ml" 149 5416 5428 "global_common_subexpression.ml" 149 5416 5450
+)
+"global_common_subexpression.ml" 158 5761 5777 "global_common_subexpression.ml" 158 5761 5778
+type(
+  unit
+)
+"global_common_subexpression.ml" 158 5761 5781 "global_common_subexpression.ml" 158 5761 5796
+type(
+  (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t ->
+  int -> Ir3_structs_new.ir3_exp_new list -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"global_common_subexpression.ml" 158 5761 5797 "global_common_subexpression.ml" 158 5761 5820
+type(
+  (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t
+)
+ident(
+  int_ref out_common_exp_list_tbl "global_common_subexpression.ml" 13 315 319 "global_common_subexpression.ml" 13 315 342
+)
+"global_common_subexpression.ml" 158 5761 5821 "global_common_subexpression.ml" 158 5761 5824
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  int_ref bbl "global_common_subexpression.ml" 120 3882 3936 "global_common_subexpression.ml" 120 3882 3939
+)
+"global_common_subexpression.ml" 158 5761 5821 "global_common_subexpression.ml" 158 5761 5827
+type(
+  int
+)
+"global_common_subexpression.ml" 158 5761 5828 "global_common_subexpression.ml" 158 5761 5847
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref out_common_exp_list "global_common_subexpression.ml" 148 5333 5345 "global_common_subexpression.ml" 148 5333 5364
+)
+"global_common_subexpression.ml" 158 5761 5781 "global_common_subexpression.ml" 158 5761 5847
+call(
+  stack
+)
+type(
+  unit
+)
+"global_common_subexpression.ml" 159 5851 5867 "global_common_subexpression.ml" 159 5851 5876
+type(
+  int list
+)
+ident(
+  def next_bbls "global_common_subexpression.ml" 160 5926 5938 "global_common_subexpression.ml" 160 5926 6018
+)
+"global_common_subexpression.ml" 159 5851 5879 "global_common_subexpression.ml" 159 5851 5895
+type(
+  (int, int) Hashtbl.t -> int -> int list
+)
+ident(
+  ext_ref Hashtbl.find_all
+)
+"global_common_subexpression.ml" 159 5851 5896 "global_common_subexpression.ml" 159 5851 5900
+type(
+  Ir3_bbl_generator.md_bbls
+)
+ident(
+  int_ref bbls "global_common_subexpression.ml" 120 3882 3904 "global_common_subexpression.ml" 120 3882 3908
+)
+"global_common_subexpression.ml" 159 5851 5896 "global_common_subexpression.ml" 159 5851 5915
+type(
+  (int, int) Hashtbl.t
+)
+"global_common_subexpression.ml" 159 5851 5916 "global_common_subexpression.ml" 159 5851 5919
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  int_ref bbl "global_common_subexpression.ml" 120 3882 3936 "global_common_subexpression.ml" 120 3882 3939
+)
+"global_common_subexpression.ml" 159 5851 5916 "global_common_subexpression.ml" 159 5851 5922
+type(
+  int
+)
+"global_common_subexpression.ml" 159 5851 5879 "global_common_subexpression.ml" 159 5851 5922
+call(
+  stack
+)
+type(
+  int list
+)
+"global_common_subexpression.ml" 160 5926 5938 "global_common_subexpression.ml" 160 5926 5947
+type(
+  (int -> unit) -> int list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"global_common_subexpression.ml" 160 5926 5953 "global_common_subexpression.ml" 160 5926 5954
+type(
+  int
+)
+ident(
+  def x "global_common_subexpression.ml" 160 5926 5958 "global_common_subexpression.ml" 160 5926 6007
+)
+"global_common_subexpression.ml" 160 5926 5958 "global_common_subexpression.ml" 160 5926 5970
+type(
+  Ir3_bbl_generator.md_bbls ->
+  Ir3_bbl_generator.ir3_bbl -> Ir3_structs_new.ir3_exp_new list -> unit
+)
+ident(
+  int_ref discover_bbl "global_common_subexpression.ml" 120 3882 3890 "global_common_subexpression.ml" 120 3882 3902
+)
+"global_common_subexpression.ml" 160 5926 5971 "global_common_subexpression.ml" 160 5926 5975
+type(
+  Ir3_bbl_generator.md_bbls
+)
+ident(
+  int_ref bbls "global_common_subexpression.ml" 120 3882 3904 "global_common_subexpression.ml" 120 3882 3908
+)
+"global_common_subexpression.ml" 160 5926 5977 "global_common_subexpression.ml" 160 5926 5984
+type(
+  int -> Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  int_ref get_bbl "global_common_subexpression.ml" 62 1785 1789 "global_common_subexpression.ml" 62 1785 1796
+)
+"global_common_subexpression.ml" 160 5926 5985 "global_common_subexpression.ml" 160 5926 5986
+type(
+  int
+)
+ident(
+  int_ref x "global_common_subexpression.ml" 160 5926 5953 "global_common_subexpression.ml" 160 5926 5954
+)
+"global_common_subexpression.ml" 160 5926 5976 "global_common_subexpression.ml" 160 5926 5987
+call(
+  stack
+)
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+"global_common_subexpression.ml" 160 5926 5988 "global_common_subexpression.ml" 160 5926 6007
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref out_common_exp_list "global_common_subexpression.ml" 148 5333 5345 "global_common_subexpression.ml" 148 5333 5364
+)
+"global_common_subexpression.ml" 160 5926 5958 "global_common_subexpression.ml" 160 5926 6007
+call(
+  tail
+)
+type(
+  unit
+)
+"global_common_subexpression.ml" 160 5926 5948 "global_common_subexpression.ml" 160 5926 6008
+type(
+  int -> unit
+)
+"global_common_subexpression.ml" 160 5926 6009 "global_common_subexpression.ml" 160 5926 6018
+type(
+  int list
+)
+ident(
+  int_ref next_bbls "global_common_subexpression.ml" 159 5851 5867 "global_common_subexpression.ml" 159 5851 5876
+)
+"global_common_subexpression.ml" 160 5926 5938 "global_common_subexpression.ml" 160 5926 6018
+call(
+  tail
+)
+type(
+  unit
+)
+"global_common_subexpression.ml" 159 5851 5863 "global_common_subexpression.ml" 160 5926 6018
+type(
+  unit
+)
+"global_common_subexpression.ml" 158 5761 5773 "global_common_subexpression.ml" 160 5926 6018
+type(
+  unit
+)
+"global_common_subexpression.ml" 162 6032 6044 "global_common_subexpression.ml" 162 6032 6046
+type(
+  unit
+)
+"global_common_subexpression.ml" 157 5720 5728 "global_common_subexpression.ml" 162 6032 6046
+type(
+  unit
+)
+"global_common_subexpression.ml" 149 5416 5424 "global_common_subexpression.ml" 162 6032 6046
+type(
+  unit
+)
+"global_common_subexpression.ml" 148 5333 5341 "global_common_subexpression.ml" 162 6032 6046
+type(
+  unit
+)
+"global_common_subexpression.ml" 135 4720 4728 "global_common_subexpression.ml" 162 6032 6046
+type(
+  unit
+)
+"global_common_subexpression.ml" 164 6056 6064 "global_common_subexpression.ml" 164 6056 6066
+type(
+  unit
+)
+"global_common_subexpression.ml" 134 4690 4694 "global_common_subexpression.ml" 164 6056 6066
+type(
+  unit
+)
+"global_common_subexpression.ml" 121 3961 3965 "global_common_subexpression.ml" 164 6056 6066
+type(
+  unit
+)
+"global_common_subexpression.ml" 167 6077 6081 "global_common_subexpression.ml" 167 6077 6094
+type(
+  Ir3_bbl_generator.md_bbls -> unit
+)
+ident(
+  def discover_bbls "global_common_subexpression.ml" 172 6303 6303 "global_common_subexpression.ml" 1 0 -1
+)
+"global_common_subexpression.ml" 167 6077 6096 "global_common_subexpression.ml" 167 6077 6100
+type(
+  Ir3_bbl_generator.md_bbls
+)
+ident(
+  def bbls "global_common_subexpression.ml" 168 6130 6134 "global_common_subexpression.ml" 170 6250 6297
+)
+"global_common_subexpression.ml" 168 6130 6138 "global_common_subexpression.ml" 168 6130 6139
+type(
+  unit
+)
+"global_common_subexpression.ml" 168 6130 6142 "global_common_subexpression.ml" 168 6130 6162
+type(
+  unit -> unit
+)
+ident(
+  int_ref initialize_hash_tbls "global_common_subexpression.ml" 65 1838 1842 "global_common_subexpression.ml" 65 1838 1862
+)
+"global_common_subexpression.ml" 168 6130 6163 "global_common_subexpression.ml" 168 6130 6165
+type(
+  unit
+)
+"global_common_subexpression.ml" 168 6130 6142 "global_common_subexpression.ml" 168 6130 6165
+call(
+  stack
+)
+type(
+  unit
+)
+"global_common_subexpression.ml" 169 6169 6177 "global_common_subexpression.ml" 169 6169 6178
+type(
+  unit
+)
+"global_common_subexpression.ml" 169 6169 6181 "global_common_subexpression.ml" 169 6169 6190
+type(
+  (Ir3_bbl_generator.ir3_bbl -> unit) ->
+  Ir3_bbl_generator.ir3_bbl list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"global_common_subexpression.ml" 169 6169 6196 "global_common_subexpression.ml" 169 6169 6197
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  def x "global_common_subexpression.ml" 169 6169 6201 "global_common_subexpression.ml" 169 6169 6232
+)
+"global_common_subexpression.ml" 169 6169 6201 "global_common_subexpression.ml" 169 6169 6225
+type(
+  int -> Ir3_bbl_generator.ir3_bbl -> unit
+)
+ident(
+  int_ref initialize_block_mapping "global_common_subexpression.ml" 74 2060 2064 "global_common_subexpression.ml" 74 2060 2088
+)
+"global_common_subexpression.ml" 169 6169 6226 "global_common_subexpression.ml" 169 6169 6227
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  int_ref x "global_common_subexpression.ml" 169 6169 6196 "global_common_subexpression.ml" 169 6169 6197
+)
+"global_common_subexpression.ml" 169 6169 6226 "global_common_subexpression.ml" 169 6169 6230
+type(
+  int
+)
+"global_common_subexpression.ml" 169 6169 6231 "global_common_subexpression.ml" 169 6169 6232
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  int_ref x "global_common_subexpression.ml" 169 6169 6196 "global_common_subexpression.ml" 169 6169 6197
+)
+"global_common_subexpression.ml" 169 6169 6201 "global_common_subexpression.ml" 169 6169 6232
+call(
+  tail
+)
+type(
+  unit
+)
+"global_common_subexpression.ml" 169 6169 6191 "global_common_subexpression.ml" 169 6169 6233
+type(
+  Ir3_bbl_generator.ir3_bbl -> unit
+)
+"global_common_subexpression.ml" 169 6169 6234 "global_common_subexpression.ml" 169 6169 6238
+type(
+  Ir3_bbl_generator.md_bbls
+)
+ident(
+  int_ref bbls "global_common_subexpression.ml" 167 6077 6096 "global_common_subexpression.ml" 167 6077 6100
+)
+"global_common_subexpression.ml" 169 6169 6234 "global_common_subexpression.ml" 169 6169 6246
+type(
+  Ir3_bbl_generator.ir3_bbl list
+)
+"global_common_subexpression.ml" 169 6169 6181 "global_common_subexpression.ml" 169 6169 6246
+call(
+  stack
+)
+type(
+  unit
+)
+"global_common_subexpression.ml" 170 6250 6254 "global_common_subexpression.ml" 170 6250 6266
+type(
+  Ir3_bbl_generator.md_bbls ->
+  Ir3_bbl_generator.ir3_bbl -> Ir3_structs_new.ir3_exp_new list -> unit
+)
+ident(
+  int_ref discover_bbl "global_common_subexpression.ml" 120 3882 3890 "global_common_subexpression.ml" 120 3882 3902
+)
+"global_common_subexpression.ml" 170 6250 6267 "global_common_subexpression.ml" 170 6250 6271
+type(
+  Ir3_bbl_generator.md_bbls
+)
+ident(
+  int_ref bbls "global_common_subexpression.ml" 167 6077 6096 "global_common_subexpression.ml" 167 6077 6100
+)
+"global_common_subexpression.ml" 170 6250 6273 "global_common_subexpression.ml" 170 6250 6280
+type(
+  Ir3_bbl_generator.ir3_bbl list -> Ir3_bbl_generator.ir3_bbl
+)
+ident(
+  ext_ref List.hd
+)
+"global_common_subexpression.ml" 170 6250 6281 "global_common_subexpression.ml" 170 6250 6285
+type(
+  Ir3_bbl_generator.md_bbls
+)
+ident(
+  int_ref bbls "global_common_subexpression.ml" 167 6077 6096 "global_common_subexpression.ml" 167 6077 6100
+)
+"global_common_subexpression.ml" 170 6250 6281 "global_common_subexpression.ml" 170 6250 6293
+type(
+  Ir3_bbl_generator.ir3_bbl list
+)
+"global_common_subexpression.ml" 170 6250 6272 "global_common_subexpression.ml" 170 6250 6294
+call(
+  stack
+)
+type(
+  Ir3_bbl_generator.ir3_bbl
+)
+"global_common_subexpression.ml" 170 6250 6295 "global_common_subexpression.ml" 170 6250 6297
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+"global_common_subexpression.ml" 170 6250 6254 "global_common_subexpression.ml" 170 6250 6297
+call(
+  tail
+)
+type(
+  unit
+)
+"global_common_subexpression.ml" 169 6169 6173 "global_common_subexpression.ml" 170 6250 6297
+type(
+  unit
+)
+"global_common_subexpression.ml" 168 6130 6134 "global_common_subexpression.ml" 170 6250 6297
+type(
+  unit
+)
+"global_common_subexpression.ml" 172 6303 6307 "global_common_subexpression.ml" 172 6303 6339
+type(
+  Ir3_structs_new.ir3_stmt_new list -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def global_common_subexp_elimination "global_common_subexpression.ml" 231 8315 8315 "global_common_subexpression.ml" 1 0 -1
+)
+"global_common_subexpression.ml" 172 6303 6340 "global_common_subexpression.ml" 172 6303 6345
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def stmts "global_common_subexpression.ml" 174 6405 6409 "global_common_subexpression.ml" 228 8240 8267
+)
+"global_common_subexpression.ml" 174 6405 6413 "global_common_subexpression.ml" 174 6405 6417
+type(
+  Ir3_bbl_generator.md_bbls
+)
+ident(
+  def bbls "global_common_subexpression.ml" 175 6447 6451 "global_common_subexpression.ml" 228 8240 8267
+)
+"global_common_subexpression.ml" 174 6405 6420 "global_common_subexpression.ml" 174 6405 6437
+type(
+  Ir3_structs_new.ir3_stmt_new list -> Ir3_bbl_generator.md_bbls
+)
+ident(
+  ext_ref Ir3_bbl_generator.ir3_stmts_to_bbls
+)
+"global_common_subexpression.ml" 174 6405 6438 "global_common_subexpression.ml" 174 6405 6443
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref stmts "global_common_subexpression.ml" 172 6303 6340 "global_common_subexpression.ml" 172 6303 6345
+)
+"global_common_subexpression.ml" 174 6405 6420 "global_common_subexpression.ml" 174 6405 6443
+call(
+  stack
+)
+type(
+  Ir3_bbl_generator.md_bbls
+)
+"global_common_subexpression.ml" 175 6447 6455 "global_common_subexpression.ml" 175 6447 6456
+type(
+  unit
+)
+"global_common_subexpression.ml" 175 6447 6459 "global_common_subexpression.ml" 175 6447 6472
+type(
+  Ir3_bbl_generator.md_bbls -> unit
+)
+ident(
+  int_ref discover_bbls "global_common_subexpression.ml" 167 6077 6081 "global_common_subexpression.ml" 167 6077 6094
+)
+"global_common_subexpression.ml" 175 6447 6473 "global_common_subexpression.ml" 175 6447 6477
+type(
+  Ir3_bbl_generator.md_bbls
+)
+ident(
+  int_ref bbls "global_common_subexpression.ml" 174 6405 6413 "global_common_subexpression.ml" 174 6405 6417
+)
+"global_common_subexpression.ml" 175 6447 6459 "global_common_subexpression.ml" 175 6447 6477
+call(
+  stack
+)
+type(
+  unit
+)
+"global_common_subexpression.ml" 176 6481 6489 "global_common_subexpression.ml" 176 6481 6512
+type(
+  Ir3_structs_new.ir3_exp_new list -> string -> unit
+)
+ident(
+  def assign_new_cse_var_list "global_common_subexpression.ml" 184 6675 6679 "global_common_subexpression.ml" 228 8240 8267
+)
+"global_common_subexpression.ml" 176 6481 6513 "global_common_subexpression.ml" 176 6481 6521
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  def exp_list "global_common_subexpression.ml" 176 6481 6522 "global_common_subexpression.ml" 182 6651 6667
+)
+"global_common_subexpression.ml" 176 6481 6522 "global_common_subexpression.ml" 176 6481 6528
+type(
+  string
+)
+ident(
+  def prefix "global_common_subexpression.ml" 177 6531 6539 "global_common_subexpression.ml" 182 6651 6667
+)
+"global_common_subexpression.ml" 177 6531 6539 "global_common_subexpression.ml" 177 6531 6548
+type(
+  (Ir3_structs_new.ir3_exp_new -> unit) ->
+  Ir3_structs_new.ir3_exp_new list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"global_common_subexpression.ml" 178 6549 6562 "global_common_subexpression.ml" 178 6549 6565
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  def exp "global_common_subexpression.ml" 179 6569 6581 "global_common_subexpression.ml" 180 6626 6640
+)
+"global_common_subexpression.ml" 179 6569 6585 "global_common_subexpression.ml" 179 6569 6586
+type(
+  Ir3_structs_new.id3_new
+)
+"global_common_subexpression.ml" 179 6569 6589 "global_common_subexpression.ml" 179 6569 6611
+type(
+  Ir3_structs_new.ir3_exp_new -> string -> Ir3_structs_new.id3_new
+)
+ident(
+  int_ref get_var_for_common_exp "global_common_subexpression.ml" 16 408 412 "global_common_subexpression.ml" 16 408 434
+)
+"global_common_subexpression.ml" 179 6569 6612 "global_common_subexpression.ml" 179 6569 6615
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+ident(
+  int_ref exp "global_common_subexpression.ml" 178 6549 6562 "global_common_subexpression.ml" 178 6549 6565
+)
+"global_common_subexpression.ml" 179 6569 6616 "global_common_subexpression.ml" 179 6569 6622
+type(
+  string
+)
+ident(
+  int_ref prefix "global_common_subexpression.ml" 176 6481 6522 "global_common_subexpression.ml" 176 6481 6528
+)
+"global_common_subexpression.ml" 179 6569 6589 "global_common_subexpression.ml" 179 6569 6622
+call(
+  stack
+)
+type(
+  Ir3_structs_new.id3_new
+)
+"global_common_subexpression.ml" 180 6626 6638 "global_common_subexpression.ml" 180 6626 6640
+type(
+  unit
+)
+"global_common_subexpression.ml" 179 6569 6581 "global_common_subexpression.ml" 180 6626 6640
+type(
+  unit
+)
+"global_common_subexpression.ml" 178 6549 6557 "global_common_subexpression.ml" 181 6641 6650
+type(
+  Ir3_structs_new.ir3_exp_new -> unit
+)
+"global_common_subexpression.ml" 182 6651 6659 "global_common_subexpression.ml" 182 6651 6667
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref exp_list "global_common_subexpression.ml" 176 6481 6513 "global_common_subexpression.ml" 176 6481 6521
+)
+"global_common_subexpression.ml" 177 6531 6539 "global_common_subexpression.ml" 182 6651 6667
+call(
+  tail
+)
+type(
+  unit
+)
+"global_common_subexpression.ml" 184 6675 6683 "global_common_subexpression.ml" 184 6675 6684
+type(
+  unit
+)
+"global_common_subexpression.ml" 184 6675 6687 "global_common_subexpression.ml" 184 6675 6699
+type(
+  (int -> Ir3_structs_new.ir3_exp_new list -> unit) ->
+  (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.iter
+)
+"global_common_subexpression.ml" 185 6700 6713 "global_common_subexpression.ml" 185 6700 6714
+type(
+  int
+)
+"global_common_subexpression.ml" 185 6700 6715 "global_common_subexpression.ml" 185 6700 6723
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  def exp_list "global_common_subexpression.ml" 185 6700 6727 "global_common_subexpression.ml" 185 6700 6768
+)
+"global_common_subexpression.ml" 185 6700 6727 "global_common_subexpression.ml" 185 6700 6750
+type(
+  Ir3_structs_new.ir3_exp_new list -> string -> unit
+)
+ident(
+  int_ref assign_new_cse_var_list "global_common_subexpression.ml" 176 6481 6489 "global_common_subexpression.ml" 176 6481 6512
+)
+"global_common_subexpression.ml" 185 6700 6751 "global_common_subexpression.ml" 185 6700 6759
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref exp_list "global_common_subexpression.ml" 185 6700 6715 "global_common_subexpression.ml" 185 6700 6723
+)
+"global_common_subexpression.ml" 185 6700 6760 "global_common_subexpression.ml" 185 6700 6768
+type(
+  string
+)
+"global_common_subexpression.ml" 185 6700 6727 "global_common_subexpression.ml" 185 6700 6768
+call(
+  tail
+)
+type(
+  unit
+)
+"global_common_subexpression.ml" 185 6700 6708 "global_common_subexpression.ml" 185 6700 6769
+type(
+  int -> Ir3_structs_new.ir3_exp_new list -> unit
+)
+"global_common_subexpression.ml" 186 6770 6778 "global_common_subexpression.ml" 186 6770 6800
+type(
+  (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t
+)
+ident(
+  int_ref in_common_exp_list_tbl "global_common_subexpression.ml" 12 268 272 "global_common_subexpression.ml" 12 268 294
+)
+"global_common_subexpression.ml" 184 6675 6687 "global_common_subexpression.ml" 186 6770 6800
+call(
+  stack
+)
+type(
+  unit
+)
+"global_common_subexpression.ml" 188 6809 6817 "global_common_subexpression.ml" 188 6809 6818
+type(
+  unit
+)
+"global_common_subexpression.ml" 188 6809 6821 "global_common_subexpression.ml" 188 6809 6833
+type(
+  (int -> Ir3_structs_new.ir3_exp_new list -> unit) ->
+  (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.iter
+)
+"global_common_subexpression.ml" 189 6834 6847 "global_common_subexpression.ml" 189 6834 6848
+type(
+  int
+)
+"global_common_subexpression.ml" 189 6834 6849 "global_common_subexpression.ml" 189 6834 6857
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  def exp_list "global_common_subexpression.ml" 189 6834 6861 "global_common_subexpression.ml" 189 6834 6902
+)
+"global_common_subexpression.ml" 189 6834 6861 "global_common_subexpression.ml" 189 6834 6884
+type(
+  Ir3_structs_new.ir3_exp_new list -> string -> unit
+)
+ident(
+  int_ref assign_new_cse_var_list "global_common_subexpression.ml" 176 6481 6489 "global_common_subexpression.ml" 176 6481 6512
+)
+"global_common_subexpression.ml" 189 6834 6885 "global_common_subexpression.ml" 189 6834 6893
+type(
+  Ir3_structs_new.ir3_exp_new list
+)
+ident(
+  int_ref exp_list "global_common_subexpression.ml" 189 6834 6849 "global_common_subexpression.ml" 189 6834 6857
+)
+"global_common_subexpression.ml" 189 6834 6894 "global_common_subexpression.ml" 189 6834 6902
+type(
+  string
+)
+"global_common_subexpression.ml" 189 6834 6861 "global_common_subexpression.ml" 189 6834 6902
+call(
+  tail
+)
+type(
+  unit
+)
+"global_common_subexpression.ml" 189 6834 6842 "global_common_subexpression.ml" 189 6834 6903
+type(
+  int -> Ir3_structs_new.ir3_exp_new list -> unit
+)
+"global_common_subexpression.ml" 190 6904 6912 "global_common_subexpression.ml" 190 6904 6935
+type(
+  (int, Ir3_structs_new.ir3_exp_new list) Hashtbl.t
+)
+ident(
+  int_ref out_common_exp_list_tbl "global_common_subexpression.ml" 13 315 319 "global_common_subexpression.ml" 13 315 342
+)
+"global_common_subexpression.ml" 188 6809 6821 "global_common_subexpression.ml" 190 6904 6935
+call(
+  stack
+)
+type(
+  unit
+)
+"global_common_subexpression.ml" 227 8181 8189 "global_common_subexpression.ml" 227 8181 8199
+type(
+  Ir3_structs_new.ir3_stmt_new list list
+)
+ident(
+  def stmts_list "global_common_subexpression.ml" 228 8240 8244 "global_common_subexpression.ml" 228 8240 8267
+)
+"global_common_subexpression.ml" 227 8181 8202 "global_common_subexpression.ml" 227 8181 8210
+type(
+  (Ir3_bbl_generator.ir3_bbl -> Ir3_structs_new.ir3_stmt_new list) ->
+  Ir3_bbl_generator.ir3_bbl list -> Ir3_structs_new.ir3_stmt_new list list
+)
+ident(
+  ext_ref List.map
+)
+"global_common_subexpression.ml" 227 8181 8211 "global_common_subexpression.ml" 227 8181 8223
+type(
+  Ir3_bbl_generator.ir3_bbl -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref optimize_bbl "global_common_subexpression.ml" 110 3652 3656 "global_common_subexpression.ml" 110 3652 3668
+)
+"global_common_subexpression.ml" 227 8181 8224 "global_common_subexpression.ml" 227 8181 8228
+type(
+  Ir3_bbl_generator.md_bbls
+)
+ident(
+  int_ref bbls "global_common_subexpression.ml" 174 6405 6413 "global_common_subexpression.ml" 174 6405 6417
+)
+"global_common_subexpression.ml" 227 8181 8224 "global_common_subexpression.ml" 227 8181 8236
+type(
+  Ir3_bbl_generator.ir3_bbl list
+)
+"global_common_subexpression.ml" 227 8181 8202 "global_common_subexpression.ml" 227 8181 8236
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list list
+)
+"global_common_subexpression.ml" 228 8240 8244 "global_common_subexpression.ml" 228 8240 8256
+type(
+  Ir3_structs_new.ir3_stmt_new list list -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  ext_ref List.flatten
+)
+"global_common_subexpression.ml" 228 8240 8257 "global_common_subexpression.ml" 228 8240 8267
+type(
+  Ir3_structs_new.ir3_stmt_new list list
+)
+ident(
+  int_ref stmts_list "global_common_subexpression.ml" 227 8181 8189 "global_common_subexpression.ml" 227 8181 8199
+)
+"global_common_subexpression.ml" 228 8240 8244 "global_common_subexpression.ml" 228 8240 8267
+call(
+  tail
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 227 8181 8185 "global_common_subexpression.ml" 228 8240 8267
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 188 6809 6813 "global_common_subexpression.ml" 228 8240 8267
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 184 6675 6679 "global_common_subexpression.ml" 228 8240 8267
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 176 6481 6485 "global_common_subexpression.ml" 228 8240 8267
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 175 6447 6451 "global_common_subexpression.ml" 228 8240 8267
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 174 6405 6409 "global_common_subexpression.ml" 228 8240 8267
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 231 8315 8319 "global_common_subexpression.ml" 231 8315 8356
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list ->
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)
+ident(
+  def global_common_subexp_elimination_prog "global_common_subexpression.ml" 235 8681 8736 "global_common_subexpression.ml" 1 0 -1
+)
+"global_common_subexpression.ml" 231 8315 8357 "global_common_subexpression.ml" 231 8315 8369
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)
+ident(
+  def ir3_prog_new "global_common_subexpression.ml" 232 8372 8376 "global_common_subexpression.ml" 235 8681 8736
+)
+"global_common_subexpression.ml" 232 8372 8381 "global_common_subexpression.ml" 232 8372 8386
+type(
+  'a
+)
+ident(
+  def cdata "global_common_subexpression.ml" 233 8430 8434 "global_common_subexpression.ml" 235 8681 8736
+)
+"global_common_subexpression.ml" 232 8372 8388 "global_common_subexpression.ml" 232 8372 8400
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  def main_md_decl "global_common_subexpression.ml" 233 8430 8434 "global_common_subexpression.ml" 235 8681 8736
+)
+"global_common_subexpression.ml" 232 8372 8402 "global_common_subexpression.ml" 232 8372 8410
+type(
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  def md_decls "global_common_subexpression.ml" 233 8430 8434 "global_common_subexpression.ml" 235 8681 8736
+)
+"global_common_subexpression.ml" 232 8372 8380 "global_common_subexpression.ml" 232 8372 8411
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)
+"global_common_subexpression.ml" 232 8372 8414 "global_common_subexpression.ml" 232 8372 8426
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)
+ident(
+  int_ref ir3_prog_new "global_common_subexpression.ml" 231 8315 8357 "global_common_subexpression.ml" 231 8315 8369
+)
+"global_common_subexpression.ml" 233 8430 8438 "global_common_subexpression.ml" 233 8430 8460
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  def optimized_main_md_decl "global_common_subexpression.ml" 234 8554 8558 "global_common_subexpression.ml" 235 8681 8736
+)
+"global_common_subexpression.ml" 233 8430 8464 "global_common_subexpression.ml" 233 8430 8476
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref main_md_decl "global_common_subexpression.ml" 232 8372 8388 "global_common_subexpression.ml" 232 8372 8400
+)
+"global_common_subexpression.ml" 233 8430 8494 "global_common_subexpression.ml" 233 8430 8526
+type(
+  Ir3_structs_new.ir3_stmt_new list -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref global_common_subexp_elimination "global_common_subexpression.ml" 172 6303 6307 "global_common_subexpression.ml" 172 6303 6339
+)
+"global_common_subexpression.ml" 233 8430 8527 "global_common_subexpression.ml" 233 8430 8539
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref main_md_decl "global_common_subexpression.ml" 232 8372 8388 "global_common_subexpression.ml" 232 8372 8400
+)
+"global_common_subexpression.ml" 233 8430 8527 "global_common_subexpression.ml" 233 8430 8548
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 233 8430 8493 "global_common_subexpression.ml" 233 8430 8549
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 233 8430 8463 "global_common_subexpression.ml" 233 8430 8550
+type(
+  Ir3_structs_new.md_decl3_new
+)
+"global_common_subexpression.ml" 234 8554 8562 "global_common_subexpression.ml" 234 8554 8580
+type(
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  def optimized_md_decls "global_common_subexpression.ml" 235 8681 8685 "global_common_subexpression.ml" 235 8681 8736
+)
+"global_common_subexpression.ml" 234 8554 8583 "global_common_subexpression.ml" 234 8554 8591
+type(
+  (Ir3_structs_new.md_decl3_new -> Ir3_structs_new.md_decl3_new) ->
+  Ir3_structs_new.md_decl3_new list -> Ir3_structs_new.md_decl3_new list
+)
+ident(
+  ext_ref List.map
+)
+"global_common_subexpression.ml" 234 8554 8597 "global_common_subexpression.ml" 234 8554 8598
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  def x "global_common_subexpression.ml" 234 8554 8602 "global_common_subexpression.ml" 234 8554 8667
+)
+"global_common_subexpression.ml" 234 8554 8603 "global_common_subexpression.ml" 234 8554 8604
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref x "global_common_subexpression.ml" 234 8554 8597 "global_common_subexpression.ml" 234 8554 8598
+)
+"global_common_subexpression.ml" 234 8554 8622 "global_common_subexpression.ml" 234 8554 8654
+type(
+  Ir3_structs_new.ir3_stmt_new list -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref global_common_subexp_elimination "global_common_subexpression.ml" 172 6303 6307 "global_common_subexpression.ml" 172 6303 6339
+)
+"global_common_subexpression.ml" 234 8554 8655 "global_common_subexpression.ml" 234 8554 8656
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref x "global_common_subexpression.ml" 234 8554 8597 "global_common_subexpression.ml" 234 8554 8598
+)
+"global_common_subexpression.ml" 234 8554 8655 "global_common_subexpression.ml" 234 8554 8665
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 234 8554 8621 "global_common_subexpression.ml" 234 8554 8666
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"global_common_subexpression.ml" 234 8554 8602 "global_common_subexpression.ml" 234 8554 8667
+type(
+  Ir3_structs_new.md_decl3_new
+)
+"global_common_subexpression.ml" 234 8554 8592 "global_common_subexpression.ml" 234 8554 8668
+type(
+  Ir3_structs_new.md_decl3_new -> Ir3_structs_new.md_decl3_new
+)
+"global_common_subexpression.ml" 234 8554 8669 "global_common_subexpression.ml" 234 8554 8677
+type(
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  int_ref md_decls "global_common_subexpression.ml" 232 8372 8402 "global_common_subexpression.ml" 232 8372 8410
+)
+"global_common_subexpression.ml" 234 8554 8583 "global_common_subexpression.ml" 234 8554 8677
+call(
+  stack
+)
+type(
+  Ir3_structs_new.md_decl3_new list
+)
+"global_common_subexpression.ml" 235 8681 8686 "global_common_subexpression.ml" 235 8681 8691
+type(
+  'a
+)
+ident(
+  int_ref cdata "global_common_subexpression.ml" 232 8372 8381 "global_common_subexpression.ml" 232 8372 8386
+)
+"global_common_subexpression.ml" 235 8681 8693 "global_common_subexpression.ml" 235 8681 8715
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref optimized_main_md_decl "global_common_subexpression.ml" 233 8430 8438 "global_common_subexpression.ml" 233 8430 8460
+)
+"global_common_subexpression.ml" 235 8681 8717 "global_common_subexpression.ml" 235 8681 8735
+type(
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  int_ref optimized_md_decls "global_common_subexpression.ml" 234 8554 8562 "global_common_subexpression.ml" 234 8554 8580
+)
+"global_common_subexpression.ml" 235 8681 8685 "global_common_subexpression.ml" 235 8681 8736
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)
+"global_common_subexpression.ml" 234 8554 8558 "global_common_subexpression.ml" 235 8681 8736
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)
+"global_common_subexpression.ml" 233 8430 8434 "global_common_subexpression.ml" 235 8681 8736
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)
+"global_common_subexpression.ml" 232 8372 8376 "global_common_subexpression.ml" 235 8681 8736
+type(
+  'a * Ir3_structs_new.md_decl3_new * Ir3_structs_new.md_decl3_new list
+)

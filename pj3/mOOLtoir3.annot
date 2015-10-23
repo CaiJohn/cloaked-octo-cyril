@@ -1,0 +1,7106 @@
+"mOOLtoir3.ml" 10 290 294 "mOOLtoir3.ml" 10 290 304
+type(
+  Ir3mOOL_structs.label3 ref
+)
+ident(
+  def labelcount "mOOLtoir3.ml" 11 315 315 "mOOLtoir3.ml" 1 0 -1
+)
+"mOOLtoir3.ml" 10 290 307 "mOOLtoir3.ml" 10 290 310
+type(
+  Ir3mOOL_structs.label3 -> Ir3mOOL_structs.label3 ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"mOOLtoir3.ml" 10 290 311 "mOOLtoir3.ml" 10 290 312
+type(
+  Ir3mOOL_structs.label3
+)
+"mOOLtoir3.ml" 10 290 307 "mOOLtoir3.ml" 10 290 312
+type(
+  Ir3mOOL_structs.label3 ref
+)
+"mOOLtoir3.ml" 11 315 319 "mOOLtoir3.ml" 11 315 330
+type(
+  unit -> Ir3mOOL_structs.label3
+)
+ident(
+  def fresh_label "mOOLtoir3.ml" 14 383 383 "mOOLtoir3.ml" 1 0 -1
+)
+"mOOLtoir3.ml" 11 315 331 "mOOLtoir3.ml" 11 315 333
+type(
+  unit
+)
+"mOOLtoir3.ml" 12 338 340 "mOOLtoir3.ml" 12 338 350
+type(
+  Ir3mOOL_structs.label3 ref
+)
+ident(
+  int_ref labelcount "mOOLtoir3.ml" 10 290 294 "mOOLtoir3.ml" 10 290 304
+)
+"mOOLtoir3.ml" 12 338 350 "mOOLtoir3.ml" 12 338 352
+type(
+  Ir3mOOL_structs.label3 ref -> Ir3mOOL_structs.label3 -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"mOOLtoir3.ml" 12 338 352 "mOOLtoir3.ml" 12 338 353
+type(
+  Ir3mOOL_structs.label3 ref -> Ir3mOOL_structs.label3
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOLtoir3.ml" 12 338 353 "mOOLtoir3.ml" 12 338 363
+type(
+  Ir3mOOL_structs.label3 ref
+)
+ident(
+  int_ref labelcount "mOOLtoir3.ml" 10 290 294 "mOOLtoir3.ml" 10 290 304
+)
+"mOOLtoir3.ml" 12 338 352 "mOOLtoir3.ml" 12 338 363
+type(
+  Ir3mOOL_structs.label3
+)
+"mOOLtoir3.ml" 12 338 363 "mOOLtoir3.ml" 12 338 364
+type(
+  Ir3mOOL_structs.label3 -> int -> Ir3mOOL_structs.label3
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"mOOLtoir3.ml" 12 338 364 "mOOLtoir3.ml" 12 338 365
+type(
+  int
+)
+"mOOLtoir3.ml" 12 338 352 "mOOLtoir3.ml" 12 338 365
+type(
+  Ir3mOOL_structs.label3
+)
+"mOOLtoir3.ml" 12 338 340 "mOOLtoir3.ml" 12 338 365
+type(
+  unit
+)
+"mOOLtoir3.ml" 12 338 367 "mOOLtoir3.ml" 12 338 368
+type(
+  Ir3mOOL_structs.label3 ref -> Ir3mOOL_structs.label3
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOLtoir3.ml" 12 338 368 "mOOLtoir3.ml" 12 338 378
+type(
+  Ir3mOOL_structs.label3 ref
+)
+ident(
+  int_ref labelcount "mOOLtoir3.ml" 10 290 294 "mOOLtoir3.ml" 10 290 304
+)
+"mOOLtoir3.ml" 12 338 367 "mOOLtoir3.ml" 12 338 378
+type(
+  Ir3mOOL_structs.label3
+)
+"mOOLtoir3.ml" 12 338 339 "mOOLtoir3.ml" 12 338 379
+type(
+  Ir3mOOL_structs.label3
+)
+"mOOLtoir3.ml" 14 383 387 "mOOLtoir3.ml" 14 383 395
+type(
+  int ref
+)
+ident(
+  def varcount "mOOLtoir3.ml" 15 406 406 "mOOLtoir3.ml" 1 0 -1
+)
+"mOOLtoir3.ml" 14 383 398 "mOOLtoir3.ml" 14 383 401
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"mOOLtoir3.ml" 14 383 402 "mOOLtoir3.ml" 14 383 403
+type(
+  int
+)
+"mOOLtoir3.ml" 14 383 398 "mOOLtoir3.ml" 14 383 403
+type(
+  int ref
+)
+"mOOLtoir3.ml" 15 406 410 "mOOLtoir3.ml" 15 406 419
+type(
+  unit -> string
+)
+ident(
+  def fresh_var "mOOLtoir3.ml" 18 483 483 "mOOLtoir3.ml" 1 0 -1
+)
+"mOOLtoir3.ml" 15 406 420 "mOOLtoir3.ml" 15 406 422
+type(
+  unit
+)
+"mOOLtoir3.ml" 16 427 429 "mOOLtoir3.ml" 16 427 437
+type(
+  int ref
+)
+ident(
+  int_ref varcount "mOOLtoir3.ml" 14 383 387 "mOOLtoir3.ml" 14 383 395
+)
+"mOOLtoir3.ml" 16 427 437 "mOOLtoir3.ml" 16 427 439
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"mOOLtoir3.ml" 16 427 439 "mOOLtoir3.ml" 16 427 440
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOLtoir3.ml" 16 427 440 "mOOLtoir3.ml" 16 427 448
+type(
+  int ref
+)
+ident(
+  int_ref varcount "mOOLtoir3.ml" 14 383 387 "mOOLtoir3.ml" 14 383 395
+)
+"mOOLtoir3.ml" 16 427 439 "mOOLtoir3.ml" 16 427 448
+type(
+  int
+)
+"mOOLtoir3.ml" 16 427 448 "mOOLtoir3.ml" 16 427 449
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"mOOLtoir3.ml" 16 427 449 "mOOLtoir3.ml" 16 427 450
+type(
+  int
+)
+"mOOLtoir3.ml" 16 427 439 "mOOLtoir3.ml" 16 427 450
+type(
+  int
+)
+"mOOLtoir3.ml" 16 427 429 "mOOLtoir3.ml" 16 427 450
+type(
+  unit
+)
+"mOOLtoir3.ml" 16 427 453 "mOOLtoir3.ml" 16 427 466
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"mOOLtoir3.ml" 16 427 467 "mOOLtoir3.ml" 16 427 468
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"mOOLtoir3.ml" 16 427 468 "mOOLtoir3.ml" 16 427 476
+type(
+  int ref
+)
+ident(
+  int_ref varcount "mOOLtoir3.ml" 14 383 387 "mOOLtoir3.ml" 14 383 395
+)
+"mOOLtoir3.ml" 16 427 467 "mOOLtoir3.ml" 16 427 476
+type(
+  int
+)
+"mOOLtoir3.ml" 16 427 452 "mOOLtoir3.ml" 16 427 477
+call(
+  tail
+)
+type(
+  string
+)
+"mOOLtoir3.ml" 16 427 428 "mOOLtoir3.ml" 16 427 478
+type(
+  string
+)
+"mOOLtoir3.ml" 18 483 487 "mOOLtoir3.ml" 18 483 503
+type(
+  Ir3mOOL_structs.ir3_exp -> Ir3mOOL_structs.idc3
+)
+ident(
+  def iR3Expr_get_idc3 "mOOLtoir3.ml" 23 600 600 "mOOLtoir3.ml" 1 0 -1
+)
+"mOOLtoir3.ml" 18 483 505 "mOOLtoir3.ml" 18 483 508
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def exp "mOOLtoir3.ml" 19 521 522 "mOOLtoir3.ml" 21 558 594
+)
+"mOOLtoir3.ml" 19 521 528 "mOOLtoir3.ml" 19 521 531
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref exp "mOOLtoir3.ml" 18 483 505 "mOOLtoir3.ml" 18 483 508
+)
+"mOOLtoir3.ml" 20 538 550 "mOOLtoir3.ml" 20 538 551
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  def e "mOOLtoir3.ml" 20 538 555 "mOOLtoir3.ml" 20 538 556
+)
+"mOOLtoir3.ml" 20 538 541 "mOOLtoir3.ml" 20 538 551
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 20 538 555 "mOOLtoir3.ml" 20 538 556
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  int_ref e "mOOLtoir3.ml" 20 538 550 "mOOLtoir3.ml" 20 538 551
+)
+"mOOLtoir3.ml" 21 558 561 "mOOLtoir3.ml" 21 558 562
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 21 558 566 "mOOLtoir3.ml" 21 558 574
+type(
+  string -> Ir3mOOL_structs.idc3
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"mOOLtoir3.ml" 21 558 575 "mOOLtoir3.ml" 21 558 594
+type(
+  string
+)
+"mOOLtoir3.ml" 21 558 566 "mOOLtoir3.ml" 21 558 594
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.idc3
+)
+"mOOLtoir3.ml" 19 521 522 "mOOLtoir3.ml" 21 558 594
+type(
+  Ir3mOOL_structs.idc3
+)
+"mOOLtoir3.ml" 23 600 604 "mOOLtoir3.ml" 23 600 619
+type(
+  Ir3mOOL_structs.ir3_exp -> Ir3mOOL_structs.id3
+)
+ident(
+  def iR3Expr_get_id3 "mOOLtoir3.ml" 33 802 802 "mOOLtoir3.ml" 1 0 -1
+)
+"mOOLtoir3.ml" 23 600 621 "mOOLtoir3.ml" 23 600 624
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def exp "mOOLtoir3.ml" 24 637 638 "mOOLtoir3.ml" 31 764 798
+)
+"mOOLtoir3.ml" 24 637 644 "mOOLtoir3.ml" 24 637 647
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref exp "mOOLtoir3.ml" 23 600 621 "mOOLtoir3.ml" 23 600 624
+)
+"mOOLtoir3.ml" 25 654 666 "mOOLtoir3.ml" 25 654 667
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  def e "mOOLtoir3.ml" 26 674 676 "mOOLtoir3.ml" 30 757 762
+)
+"mOOLtoir3.ml" 25 654 657 "mOOLtoir3.ml" 25 654 667
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 27 683 691 "mOOLtoir3.ml" 27 683 692
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  int_ref e "mOOLtoir3.ml" 25 654 666 "mOOLtoir3.ml" 25 654 667
+)
+"mOOLtoir3.ml" 28 700 709 "mOOLtoir3.ml" 28 700 711
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  def id "mOOLtoir3.ml" 28 700 715 "mOOLtoir3.ml" 28 700 717
+)
+"mOOLtoir3.ml" 28 700 704 "mOOLtoir3.ml" 28 700 711
+type(
+  Ir3mOOL_structs.idc3
+)
+"mOOLtoir3.ml" 28 700 715 "mOOLtoir3.ml" 28 700 717
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref id "mOOLtoir3.ml" 28 700 709 "mOOLtoir3.ml" 28 700 711
+)
+"mOOLtoir3.ml" 29 719 723 "mOOLtoir3.ml" 29 719 724
+type(
+  Ir3mOOL_structs.idc3
+)
+"mOOLtoir3.ml" 29 719 728 "mOOLtoir3.ml" 29 719 736
+type(
+  string -> Ir3mOOL_structs.id3
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"mOOLtoir3.ml" 29 719 737 "mOOLtoir3.ml" 29 719 755
+type(
+  string
+)
+"mOOLtoir3.ml" 29 719 728 "mOOLtoir3.ml" 29 719 755
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.id3
+)
+"mOOLtoir3.ml" 26 674 676 "mOOLtoir3.ml" 30 757 762
+type(
+  Ir3mOOL_structs.id3
+)
+"mOOLtoir3.ml" 31 764 767 "mOOLtoir3.ml" 31 764 768
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 31 764 772 "mOOLtoir3.ml" 31 764 780
+type(
+  string -> Ir3mOOL_structs.id3
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"mOOLtoir3.ml" 31 764 781 "mOOLtoir3.ml" 31 764 798
+type(
+  string
+)
+"mOOLtoir3.ml" 31 764 772 "mOOLtoir3.ml" 31 764 798
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.id3
+)
+"mOOLtoir3.ml" 24 637 638 "mOOLtoir3.ml" 31 764 798
+type(
+  Ir3mOOL_structs.id3
+)
+"mOOLtoir3.ml" 33 802 806 "mOOLtoir3.ml" 33 802 820
+type(
+  Ir3mOOL_structs.ir3_exp ->
+  MOOL_structs.mOOL_type ->
+  Ir3mOOL_structs.var_decl3 list ->
+  Ir3mOOL_structs.ir3_stmt list ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def iR3Expr_to_id3 "mOOLtoir3.ml" 46 1298 1298 "mOOLtoir3.ml" 1 0 -1
+)
+"mOOLtoir3.ml" 33 802 822 "mOOLtoir3.ml" 33 802 825
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def exp "mOOLtoir3.ml" 33 802 835 "mOOLtoir3.ml" 43 1188 1219
+)
+"mOOLtoir3.ml" 33 802 836 "mOOLtoir3.ml" 33 802 839
+type(
+  MOOL_structs.mOOL_type
+)
+ident(
+  def typ "mOOLtoir3.ml" 34 853 854 "mOOLtoir3.ml" 43 1188 1219
+)
+"mOOLtoir3.ml" 34 853 854 "mOOLtoir3.ml" 34 853 858
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def vars "mOOLtoir3.ml" 34 853 859 "mOOLtoir3.ml" 43 1188 1219
+)
+"mOOLtoir3.ml" 34 853 859 "mOOLtoir3.ml" 34 853 864
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def stmts "mOOLtoir3.ml" 34 853 865 "mOOLtoir3.ml" 43 1188 1219
+)
+"mOOLtoir3.ml" 34 853 866 "mOOLtoir3.ml" 34 853 872
+type(
+  bool
+)
+ident(
+  def toidc3 "mOOLtoir3.ml" 35 881 882 "mOOLtoir3.ml" 43 1188 1219
+)
+"mOOLtoir3.ml" 36 931 936 "mOOLtoir3.ml" 36 931 942
+type(
+  bool
+)
+ident(
+  int_ref toidc3 "mOOLtoir3.ml" 34 853 866 "mOOLtoir3.ml" 34 853 872
+)
+"mOOLtoir3.ml" 36 931 943 "mOOLtoir3.ml" 36 931 945
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"mOOLtoir3.ml" 36 931 946 "mOOLtoir3.ml" 36 931 951
+type(
+  bool
+)
+"mOOLtoir3.ml" 36 931 935 "mOOLtoir3.ml" 36 931 952
+type(
+  bool
+)
+"mOOLtoir3.ml" 36 931 959 "mOOLtoir3.ml" 36 931 962
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref exp "mOOLtoir3.ml" 33 802 822 "mOOLtoir3.ml" 33 802 825
+)
+"mOOLtoir3.ml" 36 931 963 "mOOLtoir3.ml" 36 931 967
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref vars "mOOLtoir3.ml" 34 853 854 "mOOLtoir3.ml" 34 853 858
+)
+"mOOLtoir3.ml" 36 931 968 "mOOLtoir3.ml" 36 931 973
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref stmts "mOOLtoir3.ml" 34 853 859 "mOOLtoir3.ml" 34 853 864
+)
+"mOOLtoir3.ml" 36 931 958 "mOOLtoir3.ml" 36 931 974
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 38 983 988 "mOOLtoir3.ml" 38 983 999
+type(
+  string
+)
+ident(
+  def new_varname "mOOLtoir3.ml" 39 1025 1026 "mOOLtoir3.ml" 43 1188 1219
+)
+"mOOLtoir3.ml" 38 983 1002 "mOOLtoir3.ml" 38 983 1006
+type(
+  string
+)
+"mOOLtoir3.ml" 38 983 1007 "mOOLtoir3.ml" 38 983 1008
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"mOOLtoir3.ml" 38 983 1009 "mOOLtoir3.ml" 38 983 1018
+type(
+  unit -> string
+)
+ident(
+  int_ref fresh_var "mOOLtoir3.ml" 15 406 410 "mOOLtoir3.ml" 15 406 419
+)
+"mOOLtoir3.ml" 38 983 1018 "mOOLtoir3.ml" 38 983 1020
+type(
+  unit
+)
+"mOOLtoir3.ml" 38 983 1009 "mOOLtoir3.ml" 38 983 1020
+call(
+  stack
+)
+type(
+  string
+)
+"mOOLtoir3.ml" 38 983 1002 "mOOLtoir3.ml" 38 983 1020
+call(
+  stack
+)
+type(
+  string
+)
+"mOOLtoir3.ml" 39 1025 1030 "mOOLtoir3.ml" 39 1025 1041
+type(
+  MOOL_structs.mOOL_type * string
+)
+ident(
+  def new_vardecl "mOOLtoir3.ml" 40 1068 1069 "mOOLtoir3.ml" 43 1188 1219
+)
+"mOOLtoir3.ml" 39 1025 1045 "mOOLtoir3.ml" 39 1025 1048
+type(
+  MOOL_structs.mOOL_type
+)
+ident(
+  int_ref typ "mOOLtoir3.ml" 33 802 836 "mOOLtoir3.ml" 33 802 839
+)
+"mOOLtoir3.ml" 39 1025 1050 "mOOLtoir3.ml" 39 1025 1061
+type(
+  string
+)
+ident(
+  int_ref new_varname "mOOLtoir3.ml" 38 983 988 "mOOLtoir3.ml" 38 983 999
+)
+"mOOLtoir3.ml" 39 1025 1044 "mOOLtoir3.ml" 39 1025 1062
+type(
+  MOOL_structs.mOOL_type * string
+)
+"mOOLtoir3.ml" 40 1068 1073 "mOOLtoir3.ml" 40 1068 1081
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  def new_stmt "mOOLtoir3.ml" 41 1119 1120 "mOOLtoir3.ml" 43 1188 1219
+)
+"mOOLtoir3.ml" 40 1068 1097 "mOOLtoir3.ml" 40 1068 1108
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref new_varname "mOOLtoir3.ml" 38 983 988 "mOOLtoir3.ml" 38 983 999
+)
+"mOOLtoir3.ml" 40 1068 1110 "mOOLtoir3.ml" 40 1068 1113
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref exp "mOOLtoir3.ml" 33 802 822 "mOOLtoir3.ml" 33 802 825
+)
+"mOOLtoir3.ml" 40 1068 1084 "mOOLtoir3.ml" 40 1068 1114
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"mOOLtoir3.ml" 41 1119 1136 "mOOLtoir3.ml" 41 1119 1147
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref new_varname "mOOLtoir3.ml" 38 983 988 "mOOLtoir3.ml" 38 983 999
+)
+"mOOLtoir3.ml" 41 1119 1130 "mOOLtoir3.ml" 41 1119 1148
+type(
+  Ir3mOOL_structs.idc3
+)
+"mOOLtoir3.ml" 41 1119 1121 "mOOLtoir3.ml" 41 1119 1148
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 42 1152 1154 "mOOLtoir3.ml" 42 1152 1165
+type(
+  Ir3mOOL_structs.var_decl3 list ->
+  Ir3mOOL_structs.var_decl3 list -> Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  ext_ref List.append
+)
+"mOOLtoir3.ml" 42 1152 1166 "mOOLtoir3.ml" 42 1152 1170
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref vars "mOOLtoir3.ml" 34 853 854 "mOOLtoir3.ml" 34 853 858
+)
+"mOOLtoir3.ml" 42 1152 1172 "mOOLtoir3.ml" 42 1152 1183
+type(
+  Ir3mOOL_structs.var_decl3
+)
+ident(
+  int_ref new_vardecl "mOOLtoir3.ml" 39 1025 1030 "mOOLtoir3.ml" 39 1025 1041
+)
+"mOOLtoir3.ml" 42 1152 1171 "mOOLtoir3.ml" 42 1152 1184
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 42 1152 1154 "mOOLtoir3.ml" 42 1152 1184
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 43 1188 1190 "mOOLtoir3.ml" 43 1188 1201
+type(
+  Ir3mOOL_structs.ir3_stmt list ->
+  Ir3mOOL_structs.ir3_stmt list -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  ext_ref List.append
+)
+"mOOLtoir3.ml" 43 1188 1202 "mOOLtoir3.ml" 43 1188 1207
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref stmts "mOOLtoir3.ml" 34 853 859 "mOOLtoir3.ml" 34 853 864
+)
+"mOOLtoir3.ml" 43 1188 1209 "mOOLtoir3.ml" 43 1188 1217
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  int_ref new_stmt "mOOLtoir3.ml" 40 1068 1073 "mOOLtoir3.ml" 40 1068 1081
+)
+"mOOLtoir3.ml" 43 1188 1208 "mOOLtoir3.ml" 43 1188 1218
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 43 1188 1190 "mOOLtoir3.ml" 43 1188 1218
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 41 1119 1120 "mOOLtoir3.ml" 43 1188 1219
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 40 1068 1069 "mOOLtoir3.ml" 43 1188 1219
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 39 1025 1026 "mOOLtoir3.ml" 43 1188 1219
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 38 983 984 "mOOLtoir3.ml" 43 1188 1219
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 36 931 932 "mOOLtoir3.ml" 43 1188 1219
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 46 1298 1302 "mOOLtoir3.ml" 46 1298 1322
+type(
+  MOOL_structs.class_name ->
+  MOOL_structs.var_id ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def mOOLvarid_to_IR3Expr "mOOLtoir3.ml" 63 1768 1768 "mOOLtoir3.ml" 1 0 -1
+)
+"mOOLtoir3.ml" 47 1324 1326 "mOOLtoir3.ml" 47 1324 1333
+type(
+  MOOL_structs.class_name
+)
+ident(
+  def classid "mOOLtoir3.ml" 48 1349 1350 "mOOLtoir3.ml" 60 1704 1723
+)
+"mOOLtoir3.ml" 48 1349 1351 "mOOLtoir3.ml" 48 1349 1352
+type(
+  MOOL_structs.var_id
+)
+ident(
+  def v "mOOLtoir3.ml" 48 1349 1361 "mOOLtoir3.ml" 60 1704 1723
+)
+"mOOLtoir3.ml" 48 1349 1362 "mOOLtoir3.ml" 48 1349 1367
+type(
+  bool
+)
+ident(
+  def toid3 "mOOLtoir3.ml" 49 1375 1376 "mOOLtoir3.ml" 60 1704 1723
+)
+"mOOLtoir3.ml" 50 1423 1430 "mOOLtoir3.ml" 50 1423 1431
+type(
+  MOOL_structs.var_id
+)
+ident(
+  int_ref v "mOOLtoir3.ml" 48 1349 1351 "mOOLtoir3.ml" 48 1349 1352
+)
+"mOOLtoir3.ml" 51 1438 1453 "mOOLtoir3.ml" 51 1438 1455
+type(
+  string
+)
+ident(
+  def id "mOOLtoir3.ml" 51 1438 1459 "mOOLtoir3.ml" 51 1438 1485
+)
+"mOOLtoir3.ml" 51 1438 1441 "mOOLtoir3.ml" 51 1438 1455
+type(
+  MOOL_structs.var_id
+)
+"mOOLtoir3.ml" 51 1438 1475 "mOOLtoir3.ml" 51 1438 1477
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref id "mOOLtoir3.ml" 51 1438 1453 "mOOLtoir3.ml" 51 1438 1455
+)
+"mOOLtoir3.ml" 51 1438 1469 "mOOLtoir3.ml" 51 1438 1478
+type(
+  Ir3mOOL_structs.idc3
+)
+"mOOLtoir3.ml" 51 1438 1460 "mOOLtoir3.ml" 51 1438 1478
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 51 1438 1479 "mOOLtoir3.ml" 51 1438 1481
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 51 1438 1482 "mOOLtoir3.ml" 51 1438 1484
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 51 1438 1459 "mOOLtoir3.ml" 51 1438 1485
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 52 1487 1502 "mOOLtoir3.ml" 52 1487 1504
+type(
+  string
+)
+ident(
+  def id "mOOLtoir3.ml" 53 1515 1517 "mOOLtoir3.ml" 60 1704 1723
+)
+"mOOLtoir3.ml" 52 1487 1505 "mOOLtoir3.ml" 52 1487 1506
+type(
+  MOOL_structs.mOOL_type
+)
+ident(
+  def t "mOOLtoir3.ml" 53 1515 1517 "mOOLtoir3.ml" 60 1704 1723
+)
+"mOOLtoir3.ml" 52 1487 1507 "mOOLtoir3.ml" 52 1487 1508
+type(
+  int
+)
+ident(
+  def s "mOOLtoir3.ml" 53 1515 1517 "mOOLtoir3.ml" 60 1704 1723
+)
+"mOOLtoir3.ml" 52 1487 1501 "mOOLtoir3.ml" 52 1487 1509
+type(
+  MOOL_structs.typed_var_id
+)
+"mOOLtoir3.ml" 52 1487 1490 "mOOLtoir3.ml" 52 1487 1509
+type(
+  MOOL_structs.var_id
+)
+"mOOLtoir3.ml" 53 1515 1521 "mOOLtoir3.ml" 53 1515 1522
+type(
+  int
+)
+ident(
+  int_ref s "mOOLtoir3.ml" 52 1487 1507 "mOOLtoir3.ml" 52 1487 1508
+)
+"mOOLtoir3.ml" 53 1515 1523 "mOOLtoir3.ml" 53 1515 1525
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"mOOLtoir3.ml" 53 1515 1526 "mOOLtoir3.ml" 53 1515 1527
+type(
+  int
+)
+"mOOLtoir3.ml" 53 1515 1520 "mOOLtoir3.ml" 53 1515 1528
+type(
+  bool
+)
+"mOOLtoir3.ml" 55 1557 1564 "mOOLtoir3.ml" 55 1557 1572
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def thisExpr "mOOLtoir3.ml" 57 1611 1615 "mOOLtoir3.ml" 57 1611 1654
+)
+"mOOLtoir3.ml" 56 1577 1595 "mOOLtoir3.ml" 56 1577 1601
+type(
+  Ir3mOOL_structs.id3
+)
+"mOOLtoir3.ml" 56 1577 1602 "mOOLtoir3.ml" 56 1577 1604
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref id "mOOLtoir3.ml" 52 1487 1502 "mOOLtoir3.ml" 52 1487 1504
+)
+"mOOLtoir3.ml" 56 1577 1581 "mOOLtoir3.ml" 56 1577 1605
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 57 1611 1616 "mOOLtoir3.ml" 57 1611 1630
+type(
+  Ir3mOOL_structs.ir3_exp ->
+  MOOL_structs.mOOL_type ->
+  Ir3mOOL_structs.var_decl3 list ->
+  Ir3mOOL_structs.ir3_stmt list ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref iR3Expr_to_id3 "mOOLtoir3.ml" 33 802 806 "mOOLtoir3.ml" 33 802 820
+)
+"mOOLtoir3.ml" 57 1611 1631 "mOOLtoir3.ml" 57 1611 1639
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref thisExpr "mOOLtoir3.ml" 55 1557 1564 "mOOLtoir3.ml" 55 1557 1572
+)
+"mOOLtoir3.ml" 57 1611 1640 "mOOLtoir3.ml" 57 1611 1641
+type(
+  MOOL_structs.mOOL_type
+)
+ident(
+  int_ref t "mOOLtoir3.ml" 52 1487 1505 "mOOLtoir3.ml" 52 1487 1506
+)
+"mOOLtoir3.ml" 57 1611 1642 "mOOLtoir3.ml" 57 1611 1644
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 57 1611 1645 "mOOLtoir3.ml" 57 1611 1647
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 57 1611 1648 "mOOLtoir3.ml" 57 1611 1653
+type(
+  bool
+)
+ident(
+  int_ref toid3 "mOOLtoir3.ml" 48 1349 1362 "mOOLtoir3.ml" 48 1349 1367
+)
+"mOOLtoir3.ml" 57 1611 1615 "mOOLtoir3.ml" 57 1611 1654
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 55 1557 1560 "mOOLtoir3.ml" 57 1611 1654
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 59 1664 1671 "mOOLtoir3.ml" 59 1664 1678
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def newExpr "mOOLtoir3.ml" 60 1704 1707 "mOOLtoir3.ml" 60 1704 1723
+)
+"mOOLtoir3.ml" 59 1664 1696 "mOOLtoir3.ml" 59 1664 1698
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref id "mOOLtoir3.ml" 52 1487 1502 "mOOLtoir3.ml" 52 1487 1504
+)
+"mOOLtoir3.ml" 59 1664 1690 "mOOLtoir3.ml" 59 1664 1699
+type(
+  Ir3mOOL_structs.idc3
+)
+"mOOLtoir3.ml" 59 1664 1681 "mOOLtoir3.ml" 59 1664 1699
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 60 1704 1708 "mOOLtoir3.ml" 60 1704 1715
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref newExpr "mOOLtoir3.ml" 59 1664 1671 "mOOLtoir3.ml" 59 1664 1678
+)
+"mOOLtoir3.ml" 60 1704 1716 "mOOLtoir3.ml" 60 1704 1718
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 60 1704 1720 "mOOLtoir3.ml" 60 1704 1722
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 60 1704 1707 "mOOLtoir3.ml" 60 1704 1723
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 59 1664 1667 "mOOLtoir3.ml" 60 1704 1723
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 53 1515 1517 "mOOLtoir3.ml" 60 1704 1723
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 50 1423 1424 "mOOLtoir3.ml" 60 1704 1723
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 63 1768 1776 "mOOLtoir3.ml" 63 1768 1795
+type(
+  MOOL_structs.class_name ->
+  MOOL_structs.mOOL_exp ->
+  bool ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def mOOLexpr_to_IR3Expr "mOOLtoir3.ml" 63 1768 1768 "mOOLtoir3.ml" 1 0 -1
+)
+"mOOLtoir3.ml" 64 1797 1799 "mOOLtoir3.ml" 64 1797 1806
+type(
+  MOOL_structs.class_name
+)
+ident(
+  def classid "mOOLtoir3.ml" 65 1822 1823 "mOOLtoir3.ml" 117 3889 3919
+)
+"mOOLtoir3.ml" 65 1822 1824 "mOOLtoir3.ml" 65 1822 1828
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  def jexp "mOOLtoir3.ml" 65 1822 1839 "mOOLtoir3.ml" 117 3889 3919
+)
+"mOOLtoir3.ml" 65 1822 1840 "mOOLtoir3.ml" 65 1822 1846
+type(
+  bool
+)
+ident(
+  def toidc3 "mOOLtoir3.ml" 65 1822 1853 "mOOLtoir3.ml" 117 3889 3919
+)
+"mOOLtoir3.ml" 65 1822 1854 "mOOLtoir3.ml" 65 1822 1859
+type(
+  bool
+)
+ident(
+  def toid3 "mOOLtoir3.ml" 66 1867 1868 "mOOLtoir3.ml" 117 3889 3919
+)
+"mOOLtoir3.ml" 67 1915 1924 "mOOLtoir3.ml" 67 1915 1930
+type(
+  MOOL_structs.mOOL_exp ->
+  bool ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def helper "mOOLtoir3.ml" 67 1915 1916 "mOOLtoir3.ml" 117 3889 3919
+)
+"mOOLtoir3.ml" 68 1933 1936 "mOOLtoir3.ml" 68 1933 1938
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  def je "mOOLtoir3.ml" 68 1933 1949 "mOOLtoir3.ml" 116 3842 3887
+)
+"mOOLtoir3.ml" 68 1933 1950 "mOOLtoir3.ml" 68 1933 1956
+type(
+  bool
+)
+ident(
+  def toidc3 "mOOLtoir3.ml" 68 1933 1963 "mOOLtoir3.ml" 116 3842 3887
+)
+"mOOLtoir3.ml" 68 1933 1964 "mOOLtoir3.ml" 68 1933 1969
+type(
+  bool
+)
+ident(
+  def toid3 "mOOLtoir3.ml" 69 1978 1980 "mOOLtoir3.ml" 116 3842 3887
+)
+"mOOLtoir3.ml" 69 1978 1986 "mOOLtoir3.ml" 69 1978 1988
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  int_ref je "mOOLtoir3.ml" 68 1933 1936 "mOOLtoir3.ml" 68 1933 1938
+)
+"mOOLtoir3.ml" 70 1995 2011 "mOOLtoir3.ml" 70 1995 2012
+type(
+  bool
+)
+ident(
+  def v "mOOLtoir3.ml" 71 2018 2021 "mOOLtoir3.ml" 72 2066 2111
+)
+"mOOLtoir3.ml" 70 1995 1999 "mOOLtoir3.ml" 70 1995 2012
+type(
+  MOOL_structs.mOOL_exp
+)
+"mOOLtoir3.ml" 71 2018 2025 "mOOLtoir3.ml" 71 2018 2032
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def newExpr "mOOLtoir3.ml" 72 2066 2069 "mOOLtoir3.ml" 72 2066 2111
+)
+"mOOLtoir3.ml" 71 2018 2058 "mOOLtoir3.ml" 71 2018 2059
+type(
+  bool
+)
+ident(
+  int_ref v "mOOLtoir3.ml" 70 1995 2011 "mOOLtoir3.ml" 70 1995 2012
+)
+"mOOLtoir3.ml" 71 2018 2044 "mOOLtoir3.ml" 71 2018 2060
+type(
+  Ir3mOOL_structs.idc3
+)
+"mOOLtoir3.ml" 71 2018 2035 "mOOLtoir3.ml" 71 2018 2060
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 72 2066 2070 "mOOLtoir3.ml" 72 2066 2084
+type(
+  Ir3mOOL_structs.ir3_exp ->
+  MOOL_structs.mOOL_type ->
+  Ir3mOOL_structs.var_decl3 list ->
+  Ir3mOOL_structs.ir3_stmt list ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref iR3Expr_to_id3 "mOOLtoir3.ml" 33 802 806 "mOOLtoir3.ml" 33 802 820
+)
+"mOOLtoir3.ml" 72 2066 2085 "mOOLtoir3.ml" 72 2066 2092
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref newExpr "mOOLtoir3.ml" 71 2018 2025 "mOOLtoir3.ml" 71 2018 2032
+)
+"mOOLtoir3.ml" 72 2066 2093 "mOOLtoir3.ml" 72 2066 2098
+type(
+  MOOL_structs.mOOL_type
+)
+"mOOLtoir3.ml" 72 2066 2099 "mOOLtoir3.ml" 72 2066 2101
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 72 2066 2102 "mOOLtoir3.ml" 72 2066 2104
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 72 2066 2105 "mOOLtoir3.ml" 72 2066 2110
+type(
+  bool
+)
+ident(
+  int_ref toid3 "mOOLtoir3.ml" 68 1933 1964 "mOOLtoir3.ml" 68 1933 1969
+)
+"mOOLtoir3.ml" 72 2066 2069 "mOOLtoir3.ml" 72 2066 2111
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 71 2018 2021 "mOOLtoir3.ml" 72 2066 2111
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 73 2113 2128 "mOOLtoir3.ml" 73 2113 2129
+type(
+  int
+)
+ident(
+  def v "mOOLtoir3.ml" 74 2135 2138 "mOOLtoir3.ml" 75 2181 2225
+)
+"mOOLtoir3.ml" 73 2113 2117 "mOOLtoir3.ml" 73 2113 2129
+type(
+  MOOL_structs.mOOL_exp
+)
+"mOOLtoir3.ml" 74 2135 2142 "mOOLtoir3.ml" 74 2135 2149
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def newExpr "mOOLtoir3.ml" 75 2181 2184 "mOOLtoir3.ml" 75 2181 2225
+)
+"mOOLtoir3.ml" 74 2135 2174 "mOOLtoir3.ml" 74 2135 2175
+type(
+  int
+)
+ident(
+  int_ref v "mOOLtoir3.ml" 73 2113 2128 "mOOLtoir3.ml" 73 2113 2129
+)
+"mOOLtoir3.ml" 74 2135 2161 "mOOLtoir3.ml" 74 2135 2176
+type(
+  Ir3mOOL_structs.idc3
+)
+"mOOLtoir3.ml" 74 2135 2152 "mOOLtoir3.ml" 74 2135 2176
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 75 2181 2185 "mOOLtoir3.ml" 75 2181 2199
+type(
+  Ir3mOOL_structs.ir3_exp ->
+  MOOL_structs.mOOL_type ->
+  Ir3mOOL_structs.var_decl3 list ->
+  Ir3mOOL_structs.ir3_stmt list ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref iR3Expr_to_id3 "mOOLtoir3.ml" 33 802 806 "mOOLtoir3.ml" 33 802 820
+)
+"mOOLtoir3.ml" 75 2181 2200 "mOOLtoir3.ml" 75 2181 2207
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref newExpr "mOOLtoir3.ml" 74 2135 2142 "mOOLtoir3.ml" 74 2135 2149
+)
+"mOOLtoir3.ml" 75 2181 2208 "mOOLtoir3.ml" 75 2181 2212
+type(
+  MOOL_structs.mOOL_type
+)
+"mOOLtoir3.ml" 75 2181 2213 "mOOLtoir3.ml" 75 2181 2215
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 75 2181 2216 "mOOLtoir3.ml" 75 2181 2218
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 75 2181 2219 "mOOLtoir3.ml" 75 2181 2224
+type(
+  bool
+)
+ident(
+  int_ref toid3 "mOOLtoir3.ml" 68 1933 1964 "mOOLtoir3.ml" 68 1933 1969
+)
+"mOOLtoir3.ml" 75 2181 2184 "mOOLtoir3.ml" 75 2181 2225
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 74 2135 2138 "mOOLtoir3.ml" 75 2181 2225
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 76 2227 2245 "mOOLtoir3.ml" 76 2227 2246
+type(
+  string
+)
+ident(
+  def v "mOOLtoir3.ml" 77 2252 2255 "mOOLtoir3.ml" 78 2302 2349
+)
+"mOOLtoir3.ml" 76 2227 2231 "mOOLtoir3.ml" 76 2227 2246
+type(
+  MOOL_structs.mOOL_exp
+)
+"mOOLtoir3.ml" 77 2252 2259 "mOOLtoir3.ml" 77 2252 2266
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def newExpr "mOOLtoir3.ml" 78 2302 2305 "mOOLtoir3.ml" 78 2302 2349
+)
+"mOOLtoir3.ml" 77 2252 2294 "mOOLtoir3.ml" 77 2252 2295
+type(
+  string
+)
+ident(
+  int_ref v "mOOLtoir3.ml" 76 2227 2245 "mOOLtoir3.ml" 76 2227 2246
+)
+"mOOLtoir3.ml" 77 2252 2278 "mOOLtoir3.ml" 77 2252 2296
+type(
+  Ir3mOOL_structs.idc3
+)
+"mOOLtoir3.ml" 77 2252 2269 "mOOLtoir3.ml" 77 2252 2296
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 78 2302 2306 "mOOLtoir3.ml" 78 2302 2320
+type(
+  Ir3mOOL_structs.ir3_exp ->
+  MOOL_structs.mOOL_type ->
+  Ir3mOOL_structs.var_decl3 list ->
+  Ir3mOOL_structs.ir3_stmt list ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref iR3Expr_to_id3 "mOOLtoir3.ml" 33 802 806 "mOOLtoir3.ml" 33 802 820
+)
+"mOOLtoir3.ml" 78 2302 2321 "mOOLtoir3.ml" 78 2302 2328
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref newExpr "mOOLtoir3.ml" 77 2252 2259 "mOOLtoir3.ml" 77 2252 2266
+)
+"mOOLtoir3.ml" 78 2302 2329 "mOOLtoir3.ml" 78 2302 2336
+type(
+  MOOL_structs.mOOL_type
+)
+"mOOLtoir3.ml" 78 2302 2337 "mOOLtoir3.ml" 78 2302 2339
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 78 2302 2340 "mOOLtoir3.ml" 78 2302 2342
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 78 2302 2343 "mOOLtoir3.ml" 78 2302 2348
+type(
+  bool
+)
+ident(
+  int_ref toid3 "mOOLtoir3.ml" 68 1933 1964 "mOOLtoir3.ml" 68 1933 1969
+)
+"mOOLtoir3.ml" 78 2302 2305 "mOOLtoir3.ml" 78 2302 2349
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 77 2252 2255 "mOOLtoir3.ml" 78 2302 2349
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 79 2351 2365 "mOOLtoir3.ml" 79 2351 2367
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  def te "mOOLtoir3.ml" 80 2376 2379 "mOOLtoir3.ml" 115 3834 3840
+)
+"mOOLtoir3.ml" 79 2351 2368 "mOOLtoir3.ml" 79 2351 2369
+type(
+  MOOL_structs.mOOL_type
+)
+ident(
+  def t "mOOLtoir3.ml" 80 2376 2379 "mOOLtoir3.ml" 115 3834 3840
+)
+"mOOLtoir3.ml" 79 2351 2355 "mOOLtoir3.ml" 79 2351 2370
+type(
+  MOOL_structs.mOOL_exp
+)
+"mOOLtoir3.ml" 81 2387 2396 "mOOLtoir3.ml" 81 2387 2398
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  int_ref te "mOOLtoir3.ml" 79 2351 2365 "mOOLtoir3.ml" 79 2351 2367
+)
+"mOOLtoir3.ml" 82 2405 2414 "mOOLtoir3.ml" 82 2405 2415
+type(
+  MOOL_structs.var_id
+)
+ident(
+  def v "mOOLtoir3.ml" 83 2421 2425 "mOOLtoir3.ml" 83 2421 2464
+)
+"mOOLtoir3.ml" 82 2405 2410 "mOOLtoir3.ml" 82 2405 2415
+type(
+  MOOL_structs.mOOL_exp
+)
+"mOOLtoir3.ml" 83 2421 2426 "mOOLtoir3.ml" 83 2421 2446
+type(
+  MOOL_structs.class_name ->
+  MOOL_structs.var_id ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref mOOLvarid_to_IR3Expr "mOOLtoir3.ml" 46 1298 1302 "mOOLtoir3.ml" 46 1298 1322
+)
+"mOOLtoir3.ml" 83 2421 2447 "mOOLtoir3.ml" 83 2421 2454
+type(
+  MOOL_structs.class_name
+)
+ident(
+  int_ref classid "mOOLtoir3.ml" 64 1797 1799 "mOOLtoir3.ml" 64 1797 1806
+)
+"mOOLtoir3.ml" 83 2421 2455 "mOOLtoir3.ml" 83 2421 2456
+type(
+  MOOL_structs.var_id
+)
+ident(
+  int_ref v "mOOLtoir3.ml" 82 2405 2414 "mOOLtoir3.ml" 82 2405 2415
+)
+"mOOLtoir3.ml" 83 2421 2457 "mOOLtoir3.ml" 83 2421 2463
+type(
+  bool
+)
+ident(
+  int_ref toidc3 "mOOLtoir3.ml" 68 1933 1950 "mOOLtoir3.ml" 68 1933 1956
+)
+"mOOLtoir3.ml" 83 2421 2425 "mOOLtoir3.ml" 83 2421 2464
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 84 2466 2471 "mOOLtoir3.ml" 84 2466 2479
+type(
+  MOOL_structs.mOOL_exp
+)
+"mOOLtoir3.ml" 84 2466 2499 "mOOLtoir3.ml" 84 2466 2505
+type(
+  Ir3mOOL_structs.id3
+)
+"mOOLtoir3.ml" 84 2466 2493 "mOOLtoir3.ml" 84 2466 2506
+type(
+  Ir3mOOL_structs.idc3
+)
+"mOOLtoir3.ml" 84 2466 2484 "mOOLtoir3.ml" 84 2466 2506
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 84 2466 2507 "mOOLtoir3.ml" 84 2466 2509
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 84 2466 2510 "mOOLtoir3.ml" 84 2466 2512
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 84 2466 2483 "mOOLtoir3.ml" 84 2466 2513
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 85 2515 2520 "mOOLtoir3.ml" 85 2515 2528
+type(
+  MOOL_structs.mOOL_exp
+)
+"mOOLtoir3.ml" 86 2534 2542 "mOOLtoir3.ml" 86 2534 2549
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def newExpr "mOOLtoir3.ml" 87 2584 2588 "mOOLtoir3.ml" 87 2584 2626
+)
+"mOOLtoir3.ml" 86 2534 2575 "mOOLtoir3.ml" 86 2534 2576
+type(
+  int
+)
+"mOOLtoir3.ml" 86 2534 2562 "mOOLtoir3.ml" 86 2534 2577
+type(
+  Ir3mOOL_structs.idc3
+)
+"mOOLtoir3.ml" 86 2534 2552 "mOOLtoir3.ml" 86 2534 2578
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 87 2584 2589 "mOOLtoir3.ml" 87 2584 2603
+type(
+  Ir3mOOL_structs.ir3_exp ->
+  MOOL_structs.mOOL_type ->
+  Ir3mOOL_structs.var_decl3 list ->
+  Ir3mOOL_structs.ir3_stmt list ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref iR3Expr_to_id3 "mOOLtoir3.ml" 33 802 806 "mOOLtoir3.ml" 33 802 820
+)
+"mOOLtoir3.ml" 87 2584 2604 "mOOLtoir3.ml" 87 2584 2611
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref newExpr "mOOLtoir3.ml" 86 2534 2542 "mOOLtoir3.ml" 86 2534 2549
+)
+"mOOLtoir3.ml" 87 2584 2612 "mOOLtoir3.ml" 87 2584 2613
+type(
+  MOOL_structs.mOOL_type
+)
+ident(
+  int_ref t "mOOLtoir3.ml" 79 2351 2368 "mOOLtoir3.ml" 79 2351 2369
+)
+"mOOLtoir3.ml" 87 2584 2614 "mOOLtoir3.ml" 87 2584 2616
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 87 2584 2617 "mOOLtoir3.ml" 87 2584 2619
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 87 2584 2620 "mOOLtoir3.ml" 87 2584 2625
+type(
+  bool
+)
+ident(
+  int_ref toid3 "mOOLtoir3.ml" 68 1933 1964 "mOOLtoir3.ml" 68 1933 1969
+)
+"mOOLtoir3.ml" 87 2584 2588 "mOOLtoir3.ml" 87 2584 2626
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 86 2534 2538 "mOOLtoir3.ml" 87 2584 2626
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 88 2628 2643 "mOOLtoir3.ml" 88 2628 2645
+type(
+  MOOL_structs.mOOL_op
+)
+ident(
+  def op "mOOLtoir3.ml" 89 2656 2660 "mOOLtoir3.ml" 92 2809 2857
+)
+"mOOLtoir3.ml" 88 2628 2646 "mOOLtoir3.ml" 88 2628 2649
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  def arg "mOOLtoir3.ml" 89 2656 2660 "mOOLtoir3.ml" 92 2809 2857
+)
+"mOOLtoir3.ml" 88 2628 2633 "mOOLtoir3.ml" 88 2628 2650
+type(
+  MOOL_structs.mOOL_exp
+)
+"mOOLtoir3.ml" 89 2656 2665 "mOOLtoir3.ml" 89 2656 2671
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def argIR3 "mOOLtoir3.ml" 90 2714 2718 "mOOLtoir3.ml" 92 2809 2857
+)
+"mOOLtoir3.ml" 89 2656 2672 "mOOLtoir3.ml" 89 2656 2676
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def vars "mOOLtoir3.ml" 90 2714 2718 "mOOLtoir3.ml" 92 2809 2857
+)
+"mOOLtoir3.ml" 89 2656 2677 "mOOLtoir3.ml" 89 2656 2682
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def stmts "mOOLtoir3.ml" 90 2714 2718 "mOOLtoir3.ml" 92 2809 2857
+)
+"mOOLtoir3.ml" 89 2656 2664 "mOOLtoir3.ml" 89 2656 2683
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 89 2656 2687 "mOOLtoir3.ml" 89 2656 2693
+type(
+  MOOL_structs.mOOL_exp ->
+  bool ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref helper "mOOLtoir3.ml" 67 1915 1924 "mOOLtoir3.ml" 67 1915 1930
+)
+"mOOLtoir3.ml" 89 2656 2694 "mOOLtoir3.ml" 89 2656 2697
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  int_ref arg "mOOLtoir3.ml" 88 2628 2646 "mOOLtoir3.ml" 88 2628 2649
+)
+"mOOLtoir3.ml" 89 2656 2698 "mOOLtoir3.ml" 89 2656 2702
+type(
+  bool
+)
+"mOOLtoir3.ml" 89 2656 2703 "mOOLtoir3.ml" 89 2656 2708
+type(
+  bool
+)
+"mOOLtoir3.ml" 89 2656 2686 "mOOLtoir3.ml" 89 2656 2709
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 90 2714 2722 "mOOLtoir3.ml" 90 2714 2729
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  def argIdc3 "mOOLtoir3.ml" 91 2763 2767 "mOOLtoir3.ml" 92 2809 2857
+)
+"mOOLtoir3.ml" 90 2714 2733 "mOOLtoir3.ml" 90 2714 2749
+type(
+  Ir3mOOL_structs.ir3_exp -> Ir3mOOL_structs.idc3
+)
+ident(
+  int_ref iR3Expr_get_idc3 "mOOLtoir3.ml" 18 483 487 "mOOLtoir3.ml" 18 483 503
+)
+"mOOLtoir3.ml" 90 2714 2750 "mOOLtoir3.ml" 90 2714 2756
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref argIR3 "mOOLtoir3.ml" 89 2656 2665 "mOOLtoir3.ml" 89 2656 2671
+)
+"mOOLtoir3.ml" 90 2714 2732 "mOOLtoir3.ml" 90 2714 2757
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.idc3
+)
+"mOOLtoir3.ml" 91 2763 2771 "mOOLtoir3.ml" 91 2763 2778
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def newExpr "mOOLtoir3.ml" 92 2809 2813 "mOOLtoir3.ml" 92 2809 2857
+)
+"mOOLtoir3.ml" 91 2763 2792 "mOOLtoir3.ml" 91 2763 2794
+type(
+  Ir3mOOL_structs.ir3_op
+)
+ident(
+  int_ref op "mOOLtoir3.ml" 88 2628 2643 "mOOLtoir3.ml" 88 2628 2645
+)
+"mOOLtoir3.ml" 91 2763 2795 "mOOLtoir3.ml" 91 2763 2802
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  int_ref argIdc3 "mOOLtoir3.ml" 90 2714 2722 "mOOLtoir3.ml" 90 2714 2729
+)
+"mOOLtoir3.ml" 91 2763 2781 "mOOLtoir3.ml" 91 2763 2803
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 92 2809 2814 "mOOLtoir3.ml" 92 2809 2828
+type(
+  Ir3mOOL_structs.ir3_exp ->
+  MOOL_structs.mOOL_type ->
+  Ir3mOOL_structs.var_decl3 list ->
+  Ir3mOOL_structs.ir3_stmt list ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref iR3Expr_to_id3 "mOOLtoir3.ml" 33 802 806 "mOOLtoir3.ml" 33 802 820
+)
+"mOOLtoir3.ml" 92 2809 2829 "mOOLtoir3.ml" 92 2809 2836
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref newExpr "mOOLtoir3.ml" 91 2763 2771 "mOOLtoir3.ml" 91 2763 2778
+)
+"mOOLtoir3.ml" 92 2809 2837 "mOOLtoir3.ml" 92 2809 2838
+type(
+  MOOL_structs.mOOL_type
+)
+ident(
+  int_ref t "mOOLtoir3.ml" 79 2351 2368 "mOOLtoir3.ml" 79 2351 2369
+)
+"mOOLtoir3.ml" 92 2809 2839 "mOOLtoir3.ml" 92 2809 2843
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref vars "mOOLtoir3.ml" 89 2656 2672 "mOOLtoir3.ml" 89 2656 2676
+)
+"mOOLtoir3.ml" 92 2809 2844 "mOOLtoir3.ml" 92 2809 2849
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref stmts "mOOLtoir3.ml" 89 2656 2677 "mOOLtoir3.ml" 89 2656 2682
+)
+"mOOLtoir3.ml" 92 2809 2850 "mOOLtoir3.ml" 92 2809 2856
+type(
+  bool
+)
+ident(
+  int_ref toidc3 "mOOLtoir3.ml" 68 1933 1950 "mOOLtoir3.ml" 68 1933 1956
+)
+"mOOLtoir3.ml" 92 2809 2813 "mOOLtoir3.ml" 92 2809 2857
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 91 2763 2767 "mOOLtoir3.ml" 92 2809 2857
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 90 2714 2718 "mOOLtoir3.ml" 92 2809 2857
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 89 2656 2660 "mOOLtoir3.ml" 92 2809 2857
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 93 2859 2875 "mOOLtoir3.ml" 93 2859 2877
+type(
+  MOOL_structs.mOOL_op
+)
+ident(
+  def op "mOOLtoir3.ml" 94 2894 2898 "mOOLtoir3.ml" 101 3232 3260
+)
+"mOOLtoir3.ml" 93 2859 2878 "mOOLtoir3.ml" 93 2859 2882
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  def arg1 "mOOLtoir3.ml" 94 2894 2898 "mOOLtoir3.ml" 101 3232 3260
+)
+"mOOLtoir3.ml" 93 2859 2883 "mOOLtoir3.ml" 93 2859 2887
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  def arg2 "mOOLtoir3.ml" 94 2894 2898 "mOOLtoir3.ml" 101 3232 3260
+)
+"mOOLtoir3.ml" 93 2859 2864 "mOOLtoir3.ml" 93 2859 2888
+type(
+  MOOL_structs.mOOL_exp
+)
+"mOOLtoir3.ml" 94 2894 2903 "mOOLtoir3.ml" 94 2894 2910
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def arg1IR3 "mOOLtoir3.ml" 95 2956 2960 "mOOLtoir3.ml" 101 3232 3260
+)
+"mOOLtoir3.ml" 94 2894 2911 "mOOLtoir3.ml" 94 2894 2916
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def vars1 "mOOLtoir3.ml" 95 2956 2960 "mOOLtoir3.ml" 101 3232 3260
+)
+"mOOLtoir3.ml" 94 2894 2917 "mOOLtoir3.ml" 94 2894 2923
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def stmts1 "mOOLtoir3.ml" 95 2956 2960 "mOOLtoir3.ml" 101 3232 3260
+)
+"mOOLtoir3.ml" 94 2894 2902 "mOOLtoir3.ml" 94 2894 2924
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 94 2894 2928 "mOOLtoir3.ml" 94 2894 2934
+type(
+  MOOL_structs.mOOL_exp ->
+  bool ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref helper "mOOLtoir3.ml" 67 1915 1924 "mOOLtoir3.ml" 67 1915 1930
+)
+"mOOLtoir3.ml" 94 2894 2935 "mOOLtoir3.ml" 94 2894 2939
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  int_ref arg1 "mOOLtoir3.ml" 93 2859 2878 "mOOLtoir3.ml" 93 2859 2882
+)
+"mOOLtoir3.ml" 94 2894 2940 "mOOLtoir3.ml" 94 2894 2944
+type(
+  bool
+)
+"mOOLtoir3.ml" 94 2894 2945 "mOOLtoir3.ml" 94 2894 2950
+type(
+  bool
+)
+"mOOLtoir3.ml" 94 2894 2927 "mOOLtoir3.ml" 94 2894 2951
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 95 2956 2965 "mOOLtoir3.ml" 95 2956 2972
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def arg2IR3 "mOOLtoir3.ml" 96 3018 3022 "mOOLtoir3.ml" 101 3232 3260
+)
+"mOOLtoir3.ml" 95 2956 2973 "mOOLtoir3.ml" 95 2956 2978
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def vars2 "mOOLtoir3.ml" 96 3018 3022 "mOOLtoir3.ml" 101 3232 3260
+)
+"mOOLtoir3.ml" 95 2956 2979 "mOOLtoir3.ml" 95 2956 2985
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def stmts2 "mOOLtoir3.ml" 96 3018 3022 "mOOLtoir3.ml" 101 3232 3260
+)
+"mOOLtoir3.ml" 95 2956 2964 "mOOLtoir3.ml" 95 2956 2986
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 95 2956 2990 "mOOLtoir3.ml" 95 2956 2996
+type(
+  MOOL_structs.mOOL_exp ->
+  bool ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref helper "mOOLtoir3.ml" 67 1915 1924 "mOOLtoir3.ml" 67 1915 1930
+)
+"mOOLtoir3.ml" 95 2956 2997 "mOOLtoir3.ml" 95 2956 3001
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  int_ref arg2 "mOOLtoir3.ml" 93 2859 2883 "mOOLtoir3.ml" 93 2859 2887
+)
+"mOOLtoir3.ml" 95 2956 3002 "mOOLtoir3.ml" 95 2956 3006
+type(
+  bool
+)
+"mOOLtoir3.ml" 95 2956 3007 "mOOLtoir3.ml" 95 2956 3012
+type(
+  bool
+)
+"mOOLtoir3.ml" 95 2956 2989 "mOOLtoir3.ml" 95 2956 3013
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 96 3018 3026 "mOOLtoir3.ml" 96 3018 3034
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  def arg1Idc3 "mOOLtoir3.ml" 97 3069 3073 "mOOLtoir3.ml" 101 3232 3260
+)
+"mOOLtoir3.ml" 96 3018 3038 "mOOLtoir3.ml" 96 3018 3054
+type(
+  Ir3mOOL_structs.ir3_exp -> Ir3mOOL_structs.idc3
+)
+ident(
+  int_ref iR3Expr_get_idc3 "mOOLtoir3.ml" 18 483 487 "mOOLtoir3.ml" 18 483 503
+)
+"mOOLtoir3.ml" 96 3018 3055 "mOOLtoir3.ml" 96 3018 3062
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref arg1IR3 "mOOLtoir3.ml" 94 2894 2903 "mOOLtoir3.ml" 94 2894 2910
+)
+"mOOLtoir3.ml" 96 3018 3037 "mOOLtoir3.ml" 96 3018 3063
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.idc3
+)
+"mOOLtoir3.ml" 97 3069 3077 "mOOLtoir3.ml" 97 3069 3085
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  def arg2Idc3 "mOOLtoir3.ml" 98 3120 3124 "mOOLtoir3.ml" 101 3232 3260
+)
+"mOOLtoir3.ml" 97 3069 3089 "mOOLtoir3.ml" 97 3069 3105
+type(
+  Ir3mOOL_structs.ir3_exp -> Ir3mOOL_structs.idc3
+)
+ident(
+  int_ref iR3Expr_get_idc3 "mOOLtoir3.ml" 18 483 487 "mOOLtoir3.ml" 18 483 503
+)
+"mOOLtoir3.ml" 97 3069 3106 "mOOLtoir3.ml" 97 3069 3113
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref arg2IR3 "mOOLtoir3.ml" 95 2956 2965 "mOOLtoir3.ml" 95 2956 2972
+)
+"mOOLtoir3.ml" 97 3069 3088 "mOOLtoir3.ml" 97 3069 3114
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.idc3
+)
+"mOOLtoir3.ml" 98 3120 3128 "mOOLtoir3.ml" 98 3120 3135
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def newExpr "mOOLtoir3.ml" 99 3179 3183 "mOOLtoir3.ml" 101 3232 3260
+)
+"mOOLtoir3.ml" 98 3120 3150 "mOOLtoir3.ml" 98 3120 3152
+type(
+  Ir3mOOL_structs.ir3_op
+)
+ident(
+  int_ref op "mOOLtoir3.ml" 93 2859 2875 "mOOLtoir3.ml" 93 2859 2877
+)
+"mOOLtoir3.ml" 98 3120 3154 "mOOLtoir3.ml" 98 3120 3162
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  int_ref arg1Idc3 "mOOLtoir3.ml" 96 3018 3026 "mOOLtoir3.ml" 96 3018 3034
+)
+"mOOLtoir3.ml" 98 3120 3164 "mOOLtoir3.ml" 98 3120 3172
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  int_ref arg2Idc3 "mOOLtoir3.ml" 97 3069 3077 "mOOLtoir3.ml" 97 3069 3085
+)
+"mOOLtoir3.ml" 98 3120 3138 "mOOLtoir3.ml" 98 3120 3173
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 99 3179 3184 "mOOLtoir3.ml" 99 3179 3198
+type(
+  Ir3mOOL_structs.ir3_exp ->
+  MOOL_structs.mOOL_type ->
+  Ir3mOOL_structs.var_decl3 list ->
+  Ir3mOOL_structs.ir3_stmt list ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref iR3Expr_to_id3 "mOOLtoir3.ml" 33 802 806 "mOOLtoir3.ml" 33 802 820
+)
+"mOOLtoir3.ml" 99 3179 3199 "mOOLtoir3.ml" 99 3179 3206
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref newExpr "mOOLtoir3.ml" 98 3120 3128 "mOOLtoir3.ml" 98 3120 3135
+)
+"mOOLtoir3.ml" 99 3179 3207 "mOOLtoir3.ml" 99 3179 3208
+type(
+  MOOL_structs.mOOL_type
+)
+ident(
+  int_ref t "mOOLtoir3.ml" 79 2351 2368 "mOOLtoir3.ml" 79 2351 2369
+)
+"mOOLtoir3.ml" 100 3211 3217 "mOOLtoir3.ml" 100 3211 3222
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref vars1 "mOOLtoir3.ml" 94 2894 2911 "mOOLtoir3.ml" 94 2894 2916
+)
+"mOOLtoir3.ml" 100 3211 3222 "mOOLtoir3.ml" 100 3211 3223
+type(
+  Ir3mOOL_structs.var_decl3 list ->
+  Ir3mOOL_structs.var_decl3 list -> Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"mOOLtoir3.ml" 100 3211 3223 "mOOLtoir3.ml" 100 3211 3228
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref vars2 "mOOLtoir3.ml" 95 2956 2973 "mOOLtoir3.ml" 95 2956 2978
+)
+"mOOLtoir3.ml" 100 3211 3216 "mOOLtoir3.ml" 100 3211 3229
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 101 3232 3238 "mOOLtoir3.ml" 101 3232 3244
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref stmts1 "mOOLtoir3.ml" 94 2894 2917 "mOOLtoir3.ml" 94 2894 2923
+)
+"mOOLtoir3.ml" 101 3232 3244 "mOOLtoir3.ml" 101 3232 3245
+type(
+  Ir3mOOL_structs.ir3_stmt list ->
+  Ir3mOOL_structs.ir3_stmt list -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"mOOLtoir3.ml" 101 3232 3245 "mOOLtoir3.ml" 101 3232 3251
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref stmts2 "mOOLtoir3.ml" 95 2956 2979 "mOOLtoir3.ml" 95 2956 2985
+)
+"mOOLtoir3.ml" 101 3232 3237 "mOOLtoir3.ml" 101 3232 3252
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 101 3232 3253 "mOOLtoir3.ml" 101 3232 3259
+type(
+  bool
+)
+ident(
+  int_ref toidc3 "mOOLtoir3.ml" 68 1933 1950 "mOOLtoir3.ml" 68 1933 1956
+)
+"mOOLtoir3.ml" 99 3179 3183 "mOOLtoir3.ml" 101 3232 3260
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 98 3120 3124 "mOOLtoir3.ml" 101 3232 3260
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 97 3069 3073 "mOOLtoir3.ml" 101 3232 3260
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 96 3018 3022 "mOOLtoir3.ml" 101 3232 3260
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 95 2956 2960 "mOOLtoir3.ml" 101 3232 3260
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 94 2894 2898 "mOOLtoir3.ml" 101 3232 3260
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 102 3262 3280 "mOOLtoir3.ml" 102 3262 3283
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  def arg "mOOLtoir3.ml" 103 3293 3297 "mOOLtoir3.ml" 106 3462 3510
+)
+"mOOLtoir3.ml" 102 3262 3284 "mOOLtoir3.ml" 102 3262 3286
+type(
+  MOOL_structs.var_id
+)
+ident(
+  def id "mOOLtoir3.ml" 103 3293 3297 "mOOLtoir3.ml" 106 3462 3510
+)
+"mOOLtoir3.ml" 102 3262 3267 "mOOLtoir3.ml" 102 3262 3287
+type(
+  MOOL_structs.mOOL_exp
+)
+"mOOLtoir3.ml" 103 3293 3302 "mOOLtoir3.ml" 103 3293 3308
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def argIR3 "mOOLtoir3.ml" 104 3350 3354 "mOOLtoir3.ml" 106 3462 3510
+)
+"mOOLtoir3.ml" 103 3293 3309 "mOOLtoir3.ml" 103 3293 3313
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def vars "mOOLtoir3.ml" 104 3350 3354 "mOOLtoir3.ml" 106 3462 3510
+)
+"mOOLtoir3.ml" 103 3293 3314 "mOOLtoir3.ml" 103 3293 3319
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def stmts "mOOLtoir3.ml" 104 3350 3354 "mOOLtoir3.ml" 106 3462 3510
+)
+"mOOLtoir3.ml" 103 3293 3301 "mOOLtoir3.ml" 103 3293 3320
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 103 3293 3324 "mOOLtoir3.ml" 103 3293 3330
+type(
+  MOOL_structs.mOOL_exp ->
+  bool ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref helper "mOOLtoir3.ml" 67 1915 1924 "mOOLtoir3.ml" 67 1915 1930
+)
+"mOOLtoir3.ml" 103 3293 3331 "mOOLtoir3.ml" 103 3293 3334
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  int_ref arg "mOOLtoir3.ml" 102 3262 3280 "mOOLtoir3.ml" 102 3262 3283
+)
+"mOOLtoir3.ml" 103 3293 3335 "mOOLtoir3.ml" 103 3293 3339
+type(
+  bool
+)
+"mOOLtoir3.ml" 103 3293 3340 "mOOLtoir3.ml" 103 3293 3344
+type(
+  bool
+)
+"mOOLtoir3.ml" 103 3293 3323 "mOOLtoir3.ml" 103 3293 3345
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 104 3350 3358 "mOOLtoir3.ml" 104 3350 3364
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  def argId3 "mOOLtoir3.ml" 105 3397 3401 "mOOLtoir3.ml" 106 3462 3510
+)
+"mOOLtoir3.ml" 104 3350 3368 "mOOLtoir3.ml" 104 3350 3383
+type(
+  Ir3mOOL_structs.ir3_exp -> Ir3mOOL_structs.id3
+)
+ident(
+  int_ref iR3Expr_get_id3 "mOOLtoir3.ml" 23 600 604 "mOOLtoir3.ml" 23 600 619
+)
+"mOOLtoir3.ml" 104 3350 3384 "mOOLtoir3.ml" 104 3350 3390
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref argIR3 "mOOLtoir3.ml" 103 3293 3302 "mOOLtoir3.ml" 103 3293 3308
+)
+"mOOLtoir3.ml" 104 3350 3367 "mOOLtoir3.ml" 104 3350 3391
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.id3
+)
+"mOOLtoir3.ml" 105 3397 3405 "mOOLtoir3.ml" 105 3397 3412
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def newExpr "mOOLtoir3.ml" 106 3462 3466 "mOOLtoir3.ml" 106 3462 3510
+)
+"mOOLtoir3.ml" 105 3397 3429 "mOOLtoir3.ml" 105 3397 3435
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref argId3 "mOOLtoir3.ml" 104 3350 3358 "mOOLtoir3.ml" 104 3350 3364
+)
+"mOOLtoir3.ml" 105 3397 3437 "mOOLtoir3.ml" 105 3397 3453
+type(
+  MOOL_structs.var_id -> Ir3mOOL_structs.id3
+)
+ident(
+  ext_ref MOOL_structs.string_of_var_id
+)
+"mOOLtoir3.ml" 105 3397 3454 "mOOLtoir3.ml" 105 3397 3456
+type(
+  MOOL_structs.var_id
+)
+ident(
+  int_ref id "mOOLtoir3.ml" 102 3262 3284 "mOOLtoir3.ml" 102 3262 3286
+)
+"mOOLtoir3.ml" 105 3397 3437 "mOOLtoir3.ml" 105 3397 3456
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.id3
+)
+"mOOLtoir3.ml" 105 3397 3415 "mOOLtoir3.ml" 105 3397 3457
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 106 3462 3467 "mOOLtoir3.ml" 106 3462 3481
+type(
+  Ir3mOOL_structs.ir3_exp ->
+  MOOL_structs.mOOL_type ->
+  Ir3mOOL_structs.var_decl3 list ->
+  Ir3mOOL_structs.ir3_stmt list ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref iR3Expr_to_id3 "mOOLtoir3.ml" 33 802 806 "mOOLtoir3.ml" 33 802 820
+)
+"mOOLtoir3.ml" 106 3462 3482 "mOOLtoir3.ml" 106 3462 3489
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref newExpr "mOOLtoir3.ml" 105 3397 3405 "mOOLtoir3.ml" 105 3397 3412
+)
+"mOOLtoir3.ml" 106 3462 3490 "mOOLtoir3.ml" 106 3462 3491
+type(
+  MOOL_structs.mOOL_type
+)
+ident(
+  int_ref t "mOOLtoir3.ml" 79 2351 2368 "mOOLtoir3.ml" 79 2351 2369
+)
+"mOOLtoir3.ml" 106 3462 3492 "mOOLtoir3.ml" 106 3462 3496
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref vars "mOOLtoir3.ml" 103 3293 3309 "mOOLtoir3.ml" 103 3293 3313
+)
+"mOOLtoir3.ml" 106 3462 3497 "mOOLtoir3.ml" 106 3462 3502
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref stmts "mOOLtoir3.ml" 103 3293 3314 "mOOLtoir3.ml" 103 3293 3319
+)
+"mOOLtoir3.ml" 106 3462 3503 "mOOLtoir3.ml" 106 3462 3509
+type(
+  bool
+)
+ident(
+  int_ref toidc3 "mOOLtoir3.ml" 68 1933 1950 "mOOLtoir3.ml" 68 1933 1956
+)
+"mOOLtoir3.ml" 106 3462 3466 "mOOLtoir3.ml" 106 3462 3510
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 105 3397 3401 "mOOLtoir3.ml" 106 3462 3510
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 104 3350 3354 "mOOLtoir3.ml" 106 3462 3510
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 103 3293 3297 "mOOLtoir3.ml" 106 3462 3510
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 107 3512 3530 "mOOLtoir3.ml" 107 3512 3531
+type(
+  MOOL_structs.class_name
+)
+ident(
+  def c "mOOLtoir3.ml" 108 3537 3541 "mOOLtoir3.ml" 109 3575 3618
+)
+"mOOLtoir3.ml" 107 3512 3517 "mOOLtoir3.ml" 107 3512 3531
+type(
+  MOOL_structs.mOOL_exp
+)
+"mOOLtoir3.ml" 108 3537 3545 "mOOLtoir3.ml" 108 3537 3552
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def newExpr "mOOLtoir3.ml" 109 3575 3579 "mOOLtoir3.ml" 109 3575 3618
+)
+"mOOLtoir3.ml" 108 3537 3569 "mOOLtoir3.ml" 108 3537 3570
+type(
+  MOOL_structs.class_name
+)
+ident(
+  int_ref c "mOOLtoir3.ml" 107 3512 3530 "mOOLtoir3.ml" 107 3512 3531
+)
+"mOOLtoir3.ml" 108 3537 3555 "mOOLtoir3.ml" 108 3537 3570
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 109 3575 3580 "mOOLtoir3.ml" 109 3575 3594
+type(
+  Ir3mOOL_structs.ir3_exp ->
+  MOOL_structs.mOOL_type ->
+  Ir3mOOL_structs.var_decl3 list ->
+  Ir3mOOL_structs.ir3_stmt list ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref iR3Expr_to_id3 "mOOLtoir3.ml" 33 802 806 "mOOLtoir3.ml" 33 802 820
+)
+"mOOLtoir3.ml" 109 3575 3595 "mOOLtoir3.ml" 109 3575 3602
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref newExpr "mOOLtoir3.ml" 108 3537 3545 "mOOLtoir3.ml" 108 3537 3552
+)
+"mOOLtoir3.ml" 109 3575 3603 "mOOLtoir3.ml" 109 3575 3604
+type(
+  MOOL_structs.mOOL_type
+)
+ident(
+  int_ref t "mOOLtoir3.ml" 79 2351 2368 "mOOLtoir3.ml" 79 2351 2369
+)
+"mOOLtoir3.ml" 109 3575 3605 "mOOLtoir3.ml" 109 3575 3607
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 109 3575 3608 "mOOLtoir3.ml" 109 3575 3610
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 109 3575 3611 "mOOLtoir3.ml" 109 3575 3617
+type(
+  bool
+)
+ident(
+  int_ref toidc3 "mOOLtoir3.ml" 68 1933 1950 "mOOLtoir3.ml" 68 1933 1956
+)
+"mOOLtoir3.ml" 109 3575 3579 "mOOLtoir3.ml" 109 3575 3618
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 108 3537 3541 "mOOLtoir3.ml" 109 3575 3618
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 110 3620 3633 "mOOLtoir3.ml" 110 3620 3634
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  def e "mOOLtoir3.ml" 111 3646 3650 "mOOLtoir3.ml" 113 3736 3784
+)
+"mOOLtoir3.ml" 110 3620 3635 "mOOLtoir3.ml" 110 3620 3639
+type(
+  MOOL_structs.mOOL_exp list
+)
+ident(
+  def args "mOOLtoir3.ml" 111 3646 3650 "mOOLtoir3.ml" 113 3736 3784
+)
+"mOOLtoir3.ml" 110 3620 3625 "mOOLtoir3.ml" 110 3620 3640
+type(
+  MOOL_structs.mOOL_exp
+)
+"mOOLtoir3.ml" 111 3646 3655 "mOOLtoir3.ml" 111 3646 3662
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def newExpr "mOOLtoir3.ml" 113 3736 3740 "mOOLtoir3.ml" 113 3736 3784
+)
+"mOOLtoir3.ml" 111 3646 3663 "mOOLtoir3.ml" 111 3646 3667
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def vars "mOOLtoir3.ml" 113 3736 3740 "mOOLtoir3.ml" 113 3736 3784
+)
+"mOOLtoir3.ml" 111 3646 3668 "mOOLtoir3.ml" 111 3646 3673
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def stmts "mOOLtoir3.ml" 113 3736 3740 "mOOLtoir3.ml" 113 3736 3784
+)
+"mOOLtoir3.ml" 111 3646 3654 "mOOLtoir3.ml" 111 3646 3674
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 112 3679 3685 "mOOLtoir3.ml" 112 3679 3706
+type(
+  MOOL_structs.class_name ->
+  MOOL_structs.mOOL_exp * MOOL_structs.mOOL_exp list ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref mOOLmdcall_to_IR3Expr "mOOLtoir3.ml" 121 3979 3983 "mOOLtoir3.ml" 121 3979 4004
+)
+"mOOLtoir3.ml" 112 3679 3707 "mOOLtoir3.ml" 112 3679 3714
+type(
+  MOOL_structs.class_name
+)
+ident(
+  int_ref classid "mOOLtoir3.ml" 64 1797 1799 "mOOLtoir3.ml" 64 1797 1806
+)
+"mOOLtoir3.ml" 112 3679 3716 "mOOLtoir3.ml" 112 3679 3717
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  int_ref e "mOOLtoir3.ml" 110 3620 3633 "mOOLtoir3.ml" 110 3620 3634
+)
+"mOOLtoir3.ml" 112 3679 3718 "mOOLtoir3.ml" 112 3679 3722
+type(
+  MOOL_structs.mOOL_exp list
+)
+ident(
+  int_ref args "mOOLtoir3.ml" 110 3620 3635 "mOOLtoir3.ml" 110 3620 3639
+)
+"mOOLtoir3.ml" 112 3679 3715 "mOOLtoir3.ml" 112 3679 3723
+type(
+  MOOL_structs.mOOL_exp * MOOL_structs.mOOL_exp list
+)
+"mOOLtoir3.ml" 112 3679 3724 "mOOLtoir3.ml" 112 3679 3730
+type(
+  bool
+)
+ident(
+  int_ref toidc3 "mOOLtoir3.ml" 68 1933 1950 "mOOLtoir3.ml" 68 1933 1956
+)
+"mOOLtoir3.ml" 112 3679 3684 "mOOLtoir3.ml" 112 3679 3731
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 113 3736 3741 "mOOLtoir3.ml" 113 3736 3755
+type(
+  Ir3mOOL_structs.ir3_exp ->
+  MOOL_structs.mOOL_type ->
+  Ir3mOOL_structs.var_decl3 list ->
+  Ir3mOOL_structs.ir3_stmt list ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref iR3Expr_to_id3 "mOOLtoir3.ml" 33 802 806 "mOOLtoir3.ml" 33 802 820
+)
+"mOOLtoir3.ml" 113 3736 3756 "mOOLtoir3.ml" 113 3736 3763
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref newExpr "mOOLtoir3.ml" 111 3646 3655 "mOOLtoir3.ml" 111 3646 3662
+)
+"mOOLtoir3.ml" 113 3736 3764 "mOOLtoir3.ml" 113 3736 3765
+type(
+  MOOL_structs.mOOL_type
+)
+ident(
+  int_ref t "mOOLtoir3.ml" 79 2351 2368 "mOOLtoir3.ml" 79 2351 2369
+)
+"mOOLtoir3.ml" 113 3736 3766 "mOOLtoir3.ml" 113 3736 3770
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref vars "mOOLtoir3.ml" 111 3646 3663 "mOOLtoir3.ml" 111 3646 3667
+)
+"mOOLtoir3.ml" 113 3736 3771 "mOOLtoir3.ml" 113 3736 3776
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref stmts "mOOLtoir3.ml" 111 3646 3668 "mOOLtoir3.ml" 111 3646 3673
+)
+"mOOLtoir3.ml" 113 3736 3777 "mOOLtoir3.ml" 113 3736 3783
+type(
+  bool
+)
+ident(
+  int_ref toidc3 "mOOLtoir3.ml" 68 1933 1950 "mOOLtoir3.ml" 68 1933 1956
+)
+"mOOLtoir3.ml" 113 3736 3740 "mOOLtoir3.ml" 113 3736 3784
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 111 3646 3650 "mOOLtoir3.ml" 113 3736 3784
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 114 3786 3791 "mOOLtoir3.ml" 114 3786 3792
+type(
+  MOOL_structs.mOOL_exp
+)
+"mOOLtoir3.ml" 114 3786 3796 "mOOLtoir3.ml" 114 3786 3804
+type(
+  string ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"mOOLtoir3.ml" 114 3786 3805 "mOOLtoir3.ml" 114 3786 3832
+type(
+  string
+)
+"mOOLtoir3.ml" 114 3786 3796 "mOOLtoir3.ml" 114 3786 3832
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 80 2376 2379 "mOOLtoir3.ml" 115 3834 3840
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 116 3842 3846 "mOOLtoir3.ml" 116 3842 3847
+type(
+  MOOL_structs.mOOL_exp
+)
+"mOOLtoir3.ml" 116 3842 3851 "mOOLtoir3.ml" 116 3842 3859
+type(
+  string ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"mOOLtoir3.ml" 116 3842 3860 "mOOLtoir3.ml" 116 3842 3887
+type(
+  string
+)
+"mOOLtoir3.ml" 116 3842 3851 "mOOLtoir3.ml" 116 3842 3887
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 69 1978 1980 "mOOLtoir3.ml" 116 3842 3887
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 117 3889 3895 "mOOLtoir3.ml" 117 3889 3901
+type(
+  MOOL_structs.mOOL_exp ->
+  bool ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref helper "mOOLtoir3.ml" 67 1915 1924 "mOOLtoir3.ml" 67 1915 1930
+)
+"mOOLtoir3.ml" 117 3889 3902 "mOOLtoir3.ml" 117 3889 3906
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  int_ref jexp "mOOLtoir3.ml" 65 1822 1824 "mOOLtoir3.ml" 65 1822 1828
+)
+"mOOLtoir3.ml" 117 3889 3907 "mOOLtoir3.ml" 117 3889 3913
+type(
+  bool
+)
+ident(
+  int_ref toidc3 "mOOLtoir3.ml" 65 1822 1840 "mOOLtoir3.ml" 65 1822 1846
+)
+"mOOLtoir3.ml" 117 3889 3914 "mOOLtoir3.ml" 117 3889 3919
+type(
+  bool
+)
+ident(
+  int_ref toid3 "mOOLtoir3.ml" 65 1822 1854 "mOOLtoir3.ml" 65 1822 1859
+)
+"mOOLtoir3.ml" 117 3889 3895 "mOOLtoir3.ml" 117 3889 3919
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 67 1915 1916 "mOOLtoir3.ml" 117 3889 3919
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 121 3979 3983 "mOOLtoir3.ml" 121 3979 4004
+type(
+  MOOL_structs.class_name ->
+  MOOL_structs.mOOL_exp * MOOL_structs.mOOL_exp list ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def mOOLmdcall_to_IR3Expr "mOOLtoir3.ml" 63 1768 1768 "mOOLtoir3.ml" 1 0 -1
+)
+"mOOLtoir3.ml" 122 4006 4008 "mOOLtoir3.ml" 122 4006 4015
+type(
+  MOOL_structs.class_name
+)
+ident(
+  def classid "mOOLtoir3.ml" 123 4031 4032 "mOOLtoir3.ml" 146 4898 4940
+)
+"mOOLtoir3.ml" 123 4031 4033 "mOOLtoir3.ml" 123 4031 4036
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  def exp "mOOLtoir3.ml" 123 4031 4043 "mOOLtoir3.ml" 146 4898 4940
+)
+"mOOLtoir3.ml" 123 4031 4037 "mOOLtoir3.ml" 123 4031 4041
+type(
+  MOOL_structs.mOOL_exp list
+)
+ident(
+  def args "mOOLtoir3.ml" 123 4031 4043 "mOOLtoir3.ml" 146 4898 4940
+)
+"mOOLtoir3.ml" 123 4031 4032 "mOOLtoir3.ml" 123 4031 4042
+type(
+  MOOL_structs.mOOL_exp * MOOL_structs.mOOL_exp list
+)
+"mOOLtoir3.ml" 123 4031 4044 "mOOLtoir3.ml" 123 4031 4050
+type(
+  bool
+)
+ident(
+  def toidc3 "mOOLtoir3.ml" 124 4061 4062 "mOOLtoir3.ml" 146 4898 4940
+)
+"mOOLtoir3.ml" 124 4061 4067 "mOOLtoir3.ml" 124 4061 4075
+type(
+  MOOL_structs.var_id
+)
+ident(
+  def calleeid "mOOLtoir3.ml" 133 4379 4380 "mOOLtoir3.ml" 146 4898 4940
+)
+"mOOLtoir3.ml" 124 4061 4077 "mOOLtoir3.ml" 124 4061 4083
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  def caller "mOOLtoir3.ml" 133 4379 4380 "mOOLtoir3.ml" 146 4898 4940
+)
+"mOOLtoir3.ml" 124 4061 4085 "mOOLtoir3.ml" 124 4061 4092
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def expVars "mOOLtoir3.ml" 133 4379 4380 "mOOLtoir3.ml" 146 4898 4940
+)
+"mOOLtoir3.ml" 124 4061 4094 "mOOLtoir3.ml" 124 4061 4102
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def expStmts "mOOLtoir3.ml" 133 4379 4380 "mOOLtoir3.ml" 146 4898 4940
+)
+"mOOLtoir3.ml" 124 4061 4066 "mOOLtoir3.ml" 124 4061 4103
+type(
+  MOOL_structs.var_id * Ir3mOOL_structs.id3 *
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 125 4107 4114 "mOOLtoir3.ml" 125 4107 4117
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  int_ref exp "mOOLtoir3.ml" 123 4031 4033 "mOOLtoir3.ml" 123 4031 4036
+)
+"mOOLtoir3.ml" 126 4124 4132 "mOOLtoir3.ml" 126 4124 4133
+type(
+  MOOL_structs.var_id
+)
+ident(
+  def v "mOOLtoir3.ml" 126 4124 4137 "mOOLtoir3.ml" 126 4124 4156
+)
+"mOOLtoir3.ml" 126 4124 4128 "mOOLtoir3.ml" 126 4124 4133
+type(
+  MOOL_structs.mOOL_exp
+)
+"mOOLtoir3.ml" 126 4124 4138 "mOOLtoir3.ml" 126 4124 4139
+type(
+  MOOL_structs.var_id
+)
+ident(
+  int_ref v "mOOLtoir3.ml" 126 4124 4132 "mOOLtoir3.ml" 126 4124 4133
+)
+"mOOLtoir3.ml" 126 4124 4141 "mOOLtoir3.ml" 126 4124 4147
+type(
+  Ir3mOOL_structs.id3
+)
+"mOOLtoir3.ml" 126 4124 4149 "mOOLtoir3.ml" 126 4124 4151
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 126 4124 4153 "mOOLtoir3.ml" 126 4124 4155
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 126 4124 4137 "mOOLtoir3.ml" 126 4124 4156
+type(
+  MOOL_structs.var_id * Ir3mOOL_structs.id3 *
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 127 4158 4175 "mOOLtoir3.ml" 127 4158 4176
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  def e "mOOLtoir3.ml" 128 4186 4189 "mOOLtoir3.ml" 130 4269 4315
+)
+"mOOLtoir3.ml" 127 4158 4177 "mOOLtoir3.ml" 127 4158 4179
+type(
+  MOOL_structs.var_id
+)
+ident(
+  def id "mOOLtoir3.ml" 128 4186 4189 "mOOLtoir3.ml" 130 4269 4315
+)
+"mOOLtoir3.ml" 127 4158 4162 "mOOLtoir3.ml" 127 4158 4180
+type(
+  MOOL_structs.mOOL_exp
+)
+"mOOLtoir3.ml" 128 4186 4194 "mOOLtoir3.ml" 128 4186 4200
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def expIR3 "mOOLtoir3.ml" 130 4269 4272 "mOOLtoir3.ml" 130 4269 4315
+)
+"mOOLtoir3.ml" 128 4186 4202 "mOOLtoir3.ml" 128 4186 4206
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def vars "mOOLtoir3.ml" 130 4269 4272 "mOOLtoir3.ml" 130 4269 4315
+)
+"mOOLtoir3.ml" 128 4186 4208 "mOOLtoir3.ml" 128 4186 4213
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def stmts "mOOLtoir3.ml" 130 4269 4272 "mOOLtoir3.ml" 130 4269 4315
+)
+"mOOLtoir3.ml" 128 4186 4193 "mOOLtoir3.ml" 128 4186 4214
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 129 4219 4224 "mOOLtoir3.ml" 129 4219 4243
+type(
+  MOOL_structs.class_name ->
+  MOOL_structs.mOOL_exp ->
+  bool ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref mOOLexpr_to_IR3Expr "mOOLtoir3.ml" 63 1768 1776 "mOOLtoir3.ml" 63 1768 1795
+)
+"mOOLtoir3.ml" 129 4219 4244 "mOOLtoir3.ml" 129 4219 4251
+type(
+  MOOL_structs.class_name
+)
+ident(
+  int_ref classid "mOOLtoir3.ml" 122 4006 4008 "mOOLtoir3.ml" 122 4006 4015
+)
+"mOOLtoir3.ml" 129 4219 4252 "mOOLtoir3.ml" 129 4219 4253
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  int_ref e "mOOLtoir3.ml" 127 4158 4175 "mOOLtoir3.ml" 127 4158 4176
+)
+"mOOLtoir3.ml" 129 4219 4254 "mOOLtoir3.ml" 129 4219 4258
+type(
+  bool
+)
+"mOOLtoir3.ml" 129 4219 4259 "mOOLtoir3.ml" 129 4219 4263
+type(
+  bool
+)
+"mOOLtoir3.ml" 129 4219 4223 "mOOLtoir3.ml" 129 4219 4264
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 130 4269 4273 "mOOLtoir3.ml" 130 4269 4275
+type(
+  MOOL_structs.var_id
+)
+ident(
+  int_ref id "mOOLtoir3.ml" 127 4158 4177 "mOOLtoir3.ml" 127 4158 4179
+)
+"mOOLtoir3.ml" 130 4269 4278 "mOOLtoir3.ml" 130 4269 4293
+type(
+  Ir3mOOL_structs.ir3_exp -> Ir3mOOL_structs.id3
+)
+ident(
+  int_ref iR3Expr_get_id3 "mOOLtoir3.ml" 23 600 604 "mOOLtoir3.ml" 23 600 619
+)
+"mOOLtoir3.ml" 130 4269 4294 "mOOLtoir3.ml" 130 4269 4300
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref expIR3 "mOOLtoir3.ml" 128 4186 4194 "mOOLtoir3.ml" 128 4186 4200
+)
+"mOOLtoir3.ml" 130 4269 4277 "mOOLtoir3.ml" 130 4269 4301
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.id3
+)
+"mOOLtoir3.ml" 130 4269 4303 "mOOLtoir3.ml" 130 4269 4307
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref vars "mOOLtoir3.ml" 128 4186 4202 "mOOLtoir3.ml" 128 4186 4206
+)
+"mOOLtoir3.ml" 130 4269 4309 "mOOLtoir3.ml" 130 4269 4314
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref stmts "mOOLtoir3.ml" 128 4186 4208 "mOOLtoir3.ml" 128 4186 4213
+)
+"mOOLtoir3.ml" 130 4269 4272 "mOOLtoir3.ml" 130 4269 4315
+type(
+  MOOL_structs.var_id * Ir3mOOL_structs.id3 *
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 128 4186 4189 "mOOLtoir3.ml" 130 4269 4315
+type(
+  MOOL_structs.var_id * Ir3mOOL_structs.id3 *
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 131 4318 4322 "mOOLtoir3.ml" 131 4318 4323
+type(
+  MOOL_structs.mOOL_exp
+)
+"mOOLtoir3.ml" 131 4318 4327 "mOOLtoir3.ml" 131 4318 4335
+type(
+  string ->
+  MOOL_structs.var_id * Ir3mOOL_structs.id3 *
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"mOOLtoir3.ml" 131 4318 4336 "mOOLtoir3.ml" 131 4318 4371
+type(
+  string
+)
+"mOOLtoir3.ml" 131 4318 4327 "mOOLtoir3.ml" 131 4318 4371
+call(
+  stack
+)
+type(
+  MOOL_structs.var_id * Ir3mOOL_structs.id3 *
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 125 4107 4108 "mOOLtoir3.ml" 131 4318 4371
+type(
+  MOOL_structs.var_id * Ir3mOOL_structs.id3 *
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 133 4379 4388 "mOOLtoir3.ml" 133 4379 4394
+type(
+  MOOL_structs.mOOL_exp list ->
+  (Ir3mOOL_structs.idc3 *
+   (Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list))
+  list
+)
+ident(
+  def helper "mOOLtoir3.ml" 133 4379 4380 "mOOLtoir3.ml" 146 4898 4940
+)
+"mOOLtoir3.ml" 133 4379 4395 "mOOLtoir3.ml" 133 4379 4401
+type(
+  MOOL_structs.mOOL_exp list
+)
+ident(
+  def explst "mOOLtoir3.ml" 134 4405 4407 "mOOLtoir3.ml" 140 4594 4640
+)
+"mOOLtoir3.ml" 134 4405 4413 "mOOLtoir3.ml" 134 4405 4419
+type(
+  MOOL_structs.mOOL_exp list
+)
+ident(
+  int_ref explst "mOOLtoir3.ml" 133 4379 4395 "mOOLtoir3.ml" 133 4379 4401
+)
+"mOOLtoir3.ml" 135 4426 4430 "mOOLtoir3.ml" 135 4426 4432
+type(
+  MOOL_structs.mOOL_exp list
+)
+"mOOLtoir3.ml" 135 4426 4436 "mOOLtoir3.ml" 135 4426 4438
+type(
+  (Ir3mOOL_structs.idc3 *
+   (Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list))
+  list
+)
+"mOOLtoir3.ml" 136 4440 4444 "mOOLtoir3.ml" 136 4440 4447
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  def arg "mOOLtoir3.ml" 137 4463 4466 "mOOLtoir3.ml" 140 4594 4640
+)
+"mOOLtoir3.ml" 136 4440 4449 "mOOLtoir3.ml" 136 4440 4457
+type(
+  MOOL_structs.mOOL_exp list
+)
+ident(
+  def tail_lst "mOOLtoir3.ml" 137 4463 4466 "mOOLtoir3.ml" 140 4594 4640
+)
+"mOOLtoir3.ml" 136 4440 4444 "mOOLtoir3.ml" 136 4440 4457
+type(
+  MOOL_structs.mOOL_exp list
+)
+"mOOLtoir3.ml" 137 4463 4471 "mOOLtoir3.ml" 137 4463 4477
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def argIR3 "mOOLtoir3.ml" 139 4547 4550 "mOOLtoir3.ml" 140 4594 4640
+)
+"mOOLtoir3.ml" 137 4463 4478 "mOOLtoir3.ml" 137 4463 4482
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def vars "mOOLtoir3.ml" 139 4547 4550 "mOOLtoir3.ml" 140 4594 4640
+)
+"mOOLtoir3.ml" 137 4463 4483 "mOOLtoir3.ml" 137 4463 4488
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def stmts "mOOLtoir3.ml" 139 4547 4550 "mOOLtoir3.ml" 140 4594 4640
+)
+"mOOLtoir3.ml" 137 4463 4470 "mOOLtoir3.ml" 137 4463 4489
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 138 4494 4499 "mOOLtoir3.ml" 138 4494 4518
+type(
+  MOOL_structs.class_name ->
+  MOOL_structs.mOOL_exp ->
+  bool ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref mOOLexpr_to_IR3Expr "mOOLtoir3.ml" 63 1768 1776 "mOOLtoir3.ml" 63 1768 1795
+)
+"mOOLtoir3.ml" 138 4494 4519 "mOOLtoir3.ml" 138 4494 4526
+type(
+  MOOL_structs.class_name
+)
+ident(
+  int_ref classid "mOOLtoir3.ml" 122 4006 4008 "mOOLtoir3.ml" 122 4006 4015
+)
+"mOOLtoir3.ml" 138 4494 4527 "mOOLtoir3.ml" 138 4494 4530
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  int_ref arg "mOOLtoir3.ml" 136 4440 4444 "mOOLtoir3.ml" 136 4440 4447
+)
+"mOOLtoir3.ml" 138 4494 4531 "mOOLtoir3.ml" 138 4494 4535
+type(
+  bool
+)
+"mOOLtoir3.ml" 138 4494 4536 "mOOLtoir3.ml" 138 4494 4541
+type(
+  bool
+)
+"mOOLtoir3.ml" 138 4494 4498 "mOOLtoir3.ml" 138 4494 4542
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 139 4547 4554 "mOOLtoir3.ml" 139 4547 4561
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  def argIdc3 "mOOLtoir3.ml" 140 4594 4598 "mOOLtoir3.ml" 140 4594 4640
+)
+"mOOLtoir3.ml" 139 4547 4565 "mOOLtoir3.ml" 139 4547 4581
+type(
+  Ir3mOOL_structs.ir3_exp -> Ir3mOOL_structs.idc3
+)
+ident(
+  int_ref iR3Expr_get_idc3 "mOOLtoir3.ml" 18 483 487 "mOOLtoir3.ml" 18 483 503
+)
+"mOOLtoir3.ml" 139 4547 4582 "mOOLtoir3.ml" 139 4547 4588
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref argIR3 "mOOLtoir3.ml" 137 4463 4471 "mOOLtoir3.ml" 137 4463 4477
+)
+"mOOLtoir3.ml" 139 4547 4564 "mOOLtoir3.ml" 139 4547 4589
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.idc3
+)
+"mOOLtoir3.ml" 140 4594 4599 "mOOLtoir3.ml" 140 4594 4606
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  int_ref argIdc3 "mOOLtoir3.ml" 139 4547 4554 "mOOLtoir3.ml" 139 4547 4561
+)
+"mOOLtoir3.ml" 140 4594 4608 "mOOLtoir3.ml" 140 4594 4612
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref vars "mOOLtoir3.ml" 137 4463 4478 "mOOLtoir3.ml" 137 4463 4482
+)
+"mOOLtoir3.ml" 140 4594 4613 "mOOLtoir3.ml" 140 4594 4618
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref stmts "mOOLtoir3.ml" 137 4463 4483 "mOOLtoir3.ml" 137 4463 4488
+)
+"mOOLtoir3.ml" 140 4594 4607 "mOOLtoir3.ml" 140 4594 4619
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 140 4594 4598 "mOOLtoir3.ml" 140 4594 4620
+type(
+  Ir3mOOL_structs.idc3 *
+  (Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list)
+)
+"mOOLtoir3.ml" 140 4594 4625 "mOOLtoir3.ml" 140 4594 4631
+type(
+  MOOL_structs.mOOL_exp list ->
+  (Ir3mOOL_structs.idc3 *
+   (Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list))
+  list
+)
+ident(
+  int_ref helper "mOOLtoir3.ml" 133 4379 4388 "mOOLtoir3.ml" 133 4379 4394
+)
+"mOOLtoir3.ml" 140 4594 4632 "mOOLtoir3.ml" 140 4594 4640
+type(
+  MOOL_structs.mOOL_exp list
+)
+ident(
+  int_ref tail_lst "mOOLtoir3.ml" 136 4440 4449 "mOOLtoir3.ml" 136 4440 4457
+)
+"mOOLtoir3.ml" 140 4594 4625 "mOOLtoir3.ml" 140 4594 4640
+call(
+  stack
+)
+type(
+  (Ir3mOOL_structs.idc3 *
+   (Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list))
+  list
+)
+"mOOLtoir3.ml" 140 4594 4598 "mOOLtoir3.ml" 140 4594 4640
+type(
+  (Ir3mOOL_structs.idc3 *
+   (Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list))
+  list
+)
+"mOOLtoir3.ml" 139 4547 4550 "mOOLtoir3.ml" 140 4594 4640
+type(
+  (Ir3mOOL_structs.idc3 *
+   (Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list))
+  list
+)
+"mOOLtoir3.ml" 137 4463 4466 "mOOLtoir3.ml" 140 4594 4640
+type(
+  (Ir3mOOL_structs.idc3 *
+   (Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list))
+  list
+)
+"mOOLtoir3.ml" 134 4405 4407 "mOOLtoir3.ml" 140 4594 4640
+type(
+  (Ir3mOOL_structs.idc3 *
+   (Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list))
+  list
+)
+"mOOLtoir3.ml" 141 4642 4650 "mOOLtoir3.ml" 141 4642 4653
+type(
+  (Ir3mOOL_structs.idc3 *
+   (Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list))
+  list
+)
+ident(
+  def res "mOOLtoir3.ml" 142 4676 4677 "mOOLtoir3.ml" 146 4898 4940
+)
+"mOOLtoir3.ml" 141 4642 4658 "mOOLtoir3.ml" 141 4642 4664
+type(
+  MOOL_structs.mOOL_exp list ->
+  (Ir3mOOL_structs.idc3 *
+   (Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list))
+  list
+)
+ident(
+  int_ref helper "mOOLtoir3.ml" 133 4379 4388 "mOOLtoir3.ml" 133 4379 4394
+)
+"mOOLtoir3.ml" 141 4642 4665 "mOOLtoir3.ml" 141 4642 4669
+type(
+  MOOL_structs.mOOL_exp list
+)
+ident(
+  int_ref args "mOOLtoir3.ml" 123 4031 4037 "mOOLtoir3.ml" 123 4031 4041
+)
+"mOOLtoir3.ml" 141 4642 4656 "mOOLtoir3.ml" 141 4642 4670
+call(
+  stack
+)
+type(
+  (Ir3mOOL_structs.idc3 *
+   (Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list))
+  list
+)
+"mOOLtoir3.ml" 142 4676 4682 "mOOLtoir3.ml" 142 4676 4691
+type(
+  Ir3mOOL_structs.idc3 list
+)
+ident(
+  def paramsIR3 "mOOLtoir3.ml" 143 4725 4726 "mOOLtoir3.ml" 146 4898 4940
+)
+"mOOLtoir3.ml" 142 4676 4693 "mOOLtoir3.ml" 142 4676 4702
+type(
+  (Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list) list
+)
+ident(
+  def varsstmts "mOOLtoir3.ml" 143 4725 4726 "mOOLtoir3.ml" 146 4898 4940
+)
+"mOOLtoir3.ml" 142 4676 4681 "mOOLtoir3.ml" 142 4676 4703
+type(
+  Ir3mOOL_structs.idc3 list *
+  (Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list) list
+)
+"mOOLtoir3.ml" 142 4676 4706 "mOOLtoir3.ml" 142 4676 4716
+type(
+  (Ir3mOOL_structs.idc3 *
+   (Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list))
+  list ->
+  Ir3mOOL_structs.idc3 list *
+  (Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list) list
+)
+ident(
+  ext_ref List.split
+)
+"mOOLtoir3.ml" 142 4676 4717 "mOOLtoir3.ml" 142 4676 4720
+type(
+  (Ir3mOOL_structs.idc3 *
+   (Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list))
+  list
+)
+ident(
+  int_ref res "mOOLtoir3.ml" 141 4642 4650 "mOOLtoir3.ml" 141 4642 4653
+)
+"mOOLtoir3.ml" 142 4676 4706 "mOOLtoir3.ml" 142 4676 4720
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.idc3 list *
+  (Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list) list
+)
+"mOOLtoir3.ml" 143 4725 4731 "mOOLtoir3.ml" 143 4725 4744
+type(
+  Ir3mOOL_structs.var_decl3 list list
+)
+ident(
+  def paramsNewVars "mOOLtoir3.ml" 144 4789 4791 "mOOLtoir3.ml" 146 4898 4940
+)
+"mOOLtoir3.ml" 143 4725 4746 "mOOLtoir3.ml" 143 4725 4760
+type(
+  Ir3mOOL_structs.ir3_stmt list list
+)
+ident(
+  def paramsNewStmts "mOOLtoir3.ml" 144 4789 4791 "mOOLtoir3.ml" 146 4898 4940
+)
+"mOOLtoir3.ml" 143 4725 4730 "mOOLtoir3.ml" 143 4725 4761
+type(
+  Ir3mOOL_structs.var_decl3 list list * Ir3mOOL_structs.ir3_stmt list list
+)
+"mOOLtoir3.ml" 143 4725 4764 "mOOLtoir3.ml" 143 4725 4774
+type(
+  (Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list) list ->
+  Ir3mOOL_structs.var_decl3 list list * Ir3mOOL_structs.ir3_stmt list list
+)
+ident(
+  ext_ref List.split
+)
+"mOOLtoir3.ml" 143 4725 4775 "mOOLtoir3.ml" 143 4725 4784
+type(
+  (Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list) list
+)
+ident(
+  int_ref varsstmts "mOOLtoir3.ml" 142 4676 4693 "mOOLtoir3.ml" 142 4676 4702
+)
+"mOOLtoir3.ml" 143 4725 4764 "mOOLtoir3.ml" 143 4725 4784
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.var_decl3 list list * Ir3mOOL_structs.ir3_stmt list list
+)
+"mOOLtoir3.ml" 144 4789 4801 "mOOLtoir3.ml" 144 4789 4817
+type(
+  MOOL_structs.var_id -> Ir3mOOL_structs.id3
+)
+ident(
+  ext_ref MOOL_structs.string_of_var_id
+)
+"mOOLtoir3.ml" 144 4789 4818 "mOOLtoir3.ml" 144 4789 4826
+type(
+  MOOL_structs.var_id
+)
+ident(
+  int_ref calleeid "mOOLtoir3.ml" 124 4061 4067 "mOOLtoir3.ml" 124 4061 4075
+)
+"mOOLtoir3.ml" 144 4789 4801 "mOOLtoir3.ml" 144 4789 4826
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.id3
+)
+"mOOLtoir3.ml" 144 4789 4834 "mOOLtoir3.ml" 144 4789 4840
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref caller "mOOLtoir3.ml" 124 4061 4077 "mOOLtoir3.ml" 124 4061 4083
+)
+"mOOLtoir3.ml" 144 4789 4828 "mOOLtoir3.ml" 144 4789 4841
+type(
+  Ir3mOOL_structs.idc3
+)
+"mOOLtoir3.ml" 144 4789 4843 "mOOLtoir3.ml" 144 4789 4852
+type(
+  Ir3mOOL_structs.idc3 list
+)
+ident(
+  int_ref paramsIR3 "mOOLtoir3.ml" 142 4676 4682 "mOOLtoir3.ml" 142 4676 4691
+)
+"mOOLtoir3.ml" 144 4789 4828 "mOOLtoir3.ml" 144 4789 4852
+type(
+  Ir3mOOL_structs.idc3 list
+)
+"mOOLtoir3.ml" 144 4789 4792 "mOOLtoir3.ml" 144 4789 4853
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 145 4856 4859 "mOOLtoir3.ml" 145 4856 4866
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref expVars "mOOLtoir3.ml" 124 4061 4085 "mOOLtoir3.ml" 124 4061 4092
+)
+"mOOLtoir3.ml" 145 4856 4866 "mOOLtoir3.ml" 145 4856 4867
+type(
+  Ir3mOOL_structs.var_decl3 list ->
+  Ir3mOOL_structs.var_decl3 list -> Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"mOOLtoir3.ml" 145 4856 4868 "mOOLtoir3.ml" 145 4856 4880
+type(
+  Ir3mOOL_structs.var_decl3 list list -> Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  ext_ref List.flatten
+)
+"mOOLtoir3.ml" 145 4856 4881 "mOOLtoir3.ml" 145 4856 4894
+type(
+  Ir3mOOL_structs.var_decl3 list list
+)
+ident(
+  int_ref paramsNewVars "mOOLtoir3.ml" 143 4725 4731 "mOOLtoir3.ml" 143 4725 4744
+)
+"mOOLtoir3.ml" 145 4856 4867 "mOOLtoir3.ml" 145 4856 4895
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 145 4856 4859 "mOOLtoir3.ml" 145 4856 4895
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 146 4898 4901 "mOOLtoir3.ml" 146 4898 4909
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref expStmts "mOOLtoir3.ml" 124 4061 4094 "mOOLtoir3.ml" 124 4061 4102
+)
+"mOOLtoir3.ml" 146 4898 4909 "mOOLtoir3.ml" 146 4898 4910
+type(
+  Ir3mOOL_structs.ir3_stmt list ->
+  Ir3mOOL_structs.ir3_stmt list -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"mOOLtoir3.ml" 146 4898 4911 "mOOLtoir3.ml" 146 4898 4923
+type(
+  Ir3mOOL_structs.ir3_stmt list list -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  ext_ref List.flatten
+)
+"mOOLtoir3.ml" 146 4898 4924 "mOOLtoir3.ml" 146 4898 4938
+type(
+  Ir3mOOL_structs.ir3_stmt list list
+)
+ident(
+  int_ref paramsNewStmts "mOOLtoir3.ml" 143 4725 4746 "mOOLtoir3.ml" 143 4725 4760
+)
+"mOOLtoir3.ml" 146 4898 4910 "mOOLtoir3.ml" 146 4898 4939
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 146 4898 4901 "mOOLtoir3.ml" 146 4898 4939
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 144 4789 4791 "mOOLtoir3.ml" 146 4898 4940
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 143 4725 4726 "mOOLtoir3.ml" 146 4898 4940
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 142 4676 4677 "mOOLtoir3.ml" 146 4898 4940
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 141 4642 4646 "mOOLtoir3.ml" 146 4898 4940
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 133 4379 4380 "mOOLtoir3.ml" 146 4898 4940
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 124 4061 4062 "mOOLtoir3.ml" 146 4898 4940
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 148 4945 4949 "mOOLtoir3.ml" 148 4945 4972
+type(
+  MOOL_structs.var_decl list -> Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def mOOLvar_decl_lst_to_ID3 "mOOLtoir3.ml" 153 5080 5080 "mOOLtoir3.ml" 1 0 -1
+)
+"mOOLtoir3.ml" 149 4975 4977 "mOOLtoir3.ml" 149 4975 4981
+type(
+  MOOL_structs.var_decl list
+)
+ident(
+  def vlst "mOOLtoir3.ml" 150 4999 5000 "mOOLtoir3.ml" 151 5021 5076
+)
+"mOOLtoir3.ml" 151 5021 5022 "mOOLtoir3.ml" 151 5021 5030
+type(
+  (MOOL_structs.var_decl -> Ir3mOOL_structs.var_decl3) ->
+  MOOL_structs.var_decl list -> Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  ext_ref List.map
+)
+"mOOLtoir3.ml" 151 5021 5037 "mOOLtoir3.ml" 151 5021 5038
+type(
+  Ir3mOOL_structs.ir3_type
+)
+ident(
+  def t "mOOLtoir3.ml" 151 5021 5046 "mOOLtoir3.ml" 151 5021 5070
+)
+"mOOLtoir3.ml" 151 5021 5039 "mOOLtoir3.ml" 151 5021 5041
+type(
+  MOOL_structs.var_id
+)
+ident(
+  def id "mOOLtoir3.ml" 151 5021 5046 "mOOLtoir3.ml" 151 5021 5070
+)
+"mOOLtoir3.ml" 151 5021 5036 "mOOLtoir3.ml" 151 5021 5042
+type(
+  MOOL_structs.var_decl
+)
+"mOOLtoir3.ml" 151 5021 5047 "mOOLtoir3.ml" 151 5021 5048
+type(
+  Ir3mOOL_structs.ir3_type
+)
+ident(
+  int_ref t "mOOLtoir3.ml" 151 5021 5037 "mOOLtoir3.ml" 151 5021 5038
+)
+"mOOLtoir3.ml" 151 5021 5050 "mOOLtoir3.ml" 151 5021 5066
+type(
+  MOOL_structs.var_id -> Ir3mOOL_structs.id3
+)
+ident(
+  ext_ref MOOL_structs.string_of_var_id
+)
+"mOOLtoir3.ml" 151 5021 5067 "mOOLtoir3.ml" 151 5021 5069
+type(
+  MOOL_structs.var_id
+)
+ident(
+  int_ref id "mOOLtoir3.ml" 151 5021 5039 "mOOLtoir3.ml" 151 5021 5041
+)
+"mOOLtoir3.ml" 151 5021 5050 "mOOLtoir3.ml" 151 5021 5069
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.id3
+)
+"mOOLtoir3.ml" 151 5021 5046 "mOOLtoir3.ml" 151 5021 5070
+type(
+  Ir3mOOL_structs.ir3_type * Ir3mOOL_structs.id3
+)
+"mOOLtoir3.ml" 151 5021 5031 "mOOLtoir3.ml" 151 5021 5071
+type(
+  MOOL_structs.var_decl -> Ir3mOOL_structs.var_decl3
+)
+"mOOLtoir3.ml" 151 5021 5072 "mOOLtoir3.ml" 151 5021 5076
+type(
+  MOOL_structs.var_decl list
+)
+ident(
+  int_ref vlst "mOOLtoir3.ml" 149 4975 4977 "mOOLtoir3.ml" 149 4975 4981
+)
+"mOOLtoir3.ml" 151 5021 5022 "mOOLtoir3.ml" 151 5021 5076
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 153 5080 5084 "mOOLtoir3.ml" 153 5080 5104
+type(
+  string -> string
+)
+ident(
+  def negate_relational_op "mOOLtoir3.ml" 163 5241 5241 "mOOLtoir3.ml" 1 0 -1
+)
+"mOOLtoir3.ml" 153 5080 5105 "mOOLtoir3.ml" 153 5080 5107
+type(
+  string
+)
+ident(
+  def op "mOOLtoir3.ml" 154 5111 5112 "mOOLtoir3.ml" 161 5226 5236
+)
+"mOOLtoir3.ml" 154 5111 5118 "mOOLtoir3.ml" 154 5111 5120
+type(
+  string
+)
+ident(
+  int_ref op "mOOLtoir3.ml" 153 5080 5105 "mOOLtoir3.ml" 153 5080 5107
+)
+"mOOLtoir3.ml" 155 5128 5131 "mOOLtoir3.ml" 155 5128 5134
+type(
+  string
+)
+"mOOLtoir3.ml" 155 5128 5138 "mOOLtoir3.ml" 155 5128 5142
+type(
+  string
+)
+"mOOLtoir3.ml" 156 5144 5147 "mOOLtoir3.ml" 156 5144 5151
+type(
+  string
+)
+"mOOLtoir3.ml" 156 5144 5155 "mOOLtoir3.ml" 156 5144 5158
+type(
+  string
+)
+"mOOLtoir3.ml" 157 5160 5163 "mOOLtoir3.ml" 157 5160 5166
+type(
+  string
+)
+"mOOLtoir3.ml" 157 5160 5170 "mOOLtoir3.ml" 157 5160 5174
+type(
+  string
+)
+"mOOLtoir3.ml" 158 5176 5179 "mOOLtoir3.ml" 158 5176 5183
+type(
+  string
+)
+"mOOLtoir3.ml" 158 5176 5187 "mOOLtoir3.ml" 158 5176 5190
+type(
+  string
+)
+"mOOLtoir3.ml" 159 5192 5195 "mOOLtoir3.ml" 159 5192 5199
+type(
+  string
+)
+"mOOLtoir3.ml" 159 5192 5203 "mOOLtoir3.ml" 159 5192 5207
+type(
+  string
+)
+"mOOLtoir3.ml" 160 5209 5212 "mOOLtoir3.ml" 160 5209 5216
+type(
+  string
+)
+"mOOLtoir3.ml" 160 5209 5220 "mOOLtoir3.ml" 160 5209 5224
+type(
+  string
+)
+"mOOLtoir3.ml" 161 5226 5229 "mOOLtoir3.ml" 161 5226 5230
+type(
+  string
+)
+"mOOLtoir3.ml" 161 5226 5234 "mOOLtoir3.ml" 161 5226 5236
+type(
+  string
+)
+ident(
+  int_ref op "mOOLtoir3.ml" 153 5080 5105 "mOOLtoir3.ml" 153 5080 5107
+)
+"mOOLtoir3.ml" 154 5111 5112 "mOOLtoir3.ml" 161 5226 5236
+type(
+  string
+)
+"mOOLtoir3.ml" 163 5241 5245 "mOOLtoir3.ml" 163 5241 5266
+type(
+  Ir3mOOL_structs.ir3_exp -> Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def negate_relational_exp "mOOLtoir3.ml" 186 5999 5999 "mOOLtoir3.ml" 1 0 -1
+)
+"mOOLtoir3.ml" 164 5269 5270 "mOOLtoir3.ml" 164 5269 5271
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def e "mOOLtoir3.ml" 165 5275 5276 "mOOLtoir3.ml" 182 5890 5943
+)
+"mOOLtoir3.ml" 165 5275 5282 "mOOLtoir3.ml" 165 5275 5283
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref e "mOOLtoir3.ml" 164 5269 5270 "mOOLtoir3.ml" 164 5269 5271
+)
+"mOOLtoir3.ml" 166 5291 5303 "mOOLtoir3.ml" 166 5291 5305
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  def ie "mOOLtoir3.ml" 167 5310 5312 "mOOLtoir3.ml" 173 5599 5604
+)
+"mOOLtoir3.ml" 166 5291 5294 "mOOLtoir3.ml" 166 5291 5305
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 168 5319 5327 "mOOLtoir3.ml" 168 5319 5329
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  int_ref ie "mOOLtoir3.ml" 166 5291 5303 "mOOLtoir3.ml" 166 5291 5305
+)
+"mOOLtoir3.ml" 169 5336 5353 "mOOLtoir3.ml" 169 5336 5357
+type(
+  bool
+)
+"mOOLtoir3.ml" 169 5336 5340 "mOOLtoir3.ml" 169 5336 5357
+type(
+  Ir3mOOL_structs.idc3
+)
+"mOOLtoir3.ml" 169 5336 5384 "mOOLtoir3.ml" 169 5336 5389
+type(
+  bool
+)
+"mOOLtoir3.ml" 169 5336 5370 "mOOLtoir3.ml" 169 5336 5390
+type(
+  Ir3mOOL_structs.idc3
+)
+"mOOLtoir3.ml" 169 5336 5361 "mOOLtoir3.ml" 169 5336 5390
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 170 5392 5409 "mOOLtoir3.ml" 170 5392 5414
+type(
+  bool
+)
+"mOOLtoir3.ml" 170 5392 5396 "mOOLtoir3.ml" 170 5392 5414
+type(
+  Ir3mOOL_structs.idc3
+)
+"mOOLtoir3.ml" 170 5392 5441 "mOOLtoir3.ml" 170 5392 5445
+type(
+  bool
+)
+"mOOLtoir3.ml" 170 5392 5427 "mOOLtoir3.ml" 170 5392 5446
+type(
+  Ir3mOOL_structs.idc3
+)
+"mOOLtoir3.ml" 170 5392 5418 "mOOLtoir3.ml" 170 5392 5446
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 171 5448 5457 "mOOLtoir3.ml" 171 5448 5458
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  def v "mOOLtoir3.ml" 171 5448 5463 "mOOLtoir3.ml" 171 5448 5521
+)
+"mOOLtoir3.ml" 171 5448 5452 "mOOLtoir3.ml" 171 5448 5458
+type(
+  Ir3mOOL_structs.idc3
+)
+"mOOLtoir3.ml" 171 5448 5488 "mOOLtoir3.ml" 171 5448 5492
+type(
+  string
+)
+"mOOLtoir3.ml" 171 5448 5476 "mOOLtoir3.ml" 171 5448 5492
+type(
+  Ir3mOOL_structs.ir3_op
+)
+"mOOLtoir3.ml" 171 5448 5499 "mOOLtoir3.ml" 171 5448 5500
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref v "mOOLtoir3.ml" 171 5448 5457 "mOOLtoir3.ml" 171 5448 5458
+)
+"mOOLtoir3.ml" 171 5448 5494 "mOOLtoir3.ml" 171 5448 5500
+type(
+  Ir3mOOL_structs.idc3
+)
+"mOOLtoir3.ml" 171 5448 5514 "mOOLtoir3.ml" 171 5448 5519
+type(
+  bool
+)
+"mOOLtoir3.ml" 171 5448 5501 "mOOLtoir3.ml" 171 5448 5519
+type(
+  Ir3mOOL_structs.idc3
+)
+"mOOLtoir3.ml" 171 5448 5463 "mOOLtoir3.ml" 171 5448 5521
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 172 5523 5527 "mOOLtoir3.ml" 172 5523 5528
+type(
+  Ir3mOOL_structs.idc3
+)
+"mOOLtoir3.ml" 172 5523 5532 "mOOLtoir3.ml" 172 5523 5540
+type(
+  string -> Ir3mOOL_structs.ir3_exp
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"mOOLtoir3.ml" 172 5523 5541 "mOOLtoir3.ml" 172 5523 5596
+type(
+  string
+)
+"mOOLtoir3.ml" 172 5523 5532 "mOOLtoir3.ml" 172 5523 5596
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 167 5310 5312 "mOOLtoir3.ml" 173 5599 5604
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 174 5606 5621 "mOOLtoir3.ml" 174 5606 5623
+type(
+  Ir3mOOL_structs.ir3_op
+)
+ident(
+  def op "mOOLtoir3.ml" 175 5642 5644 "mOOLtoir3.ml" 181 5883 5888
+)
+"mOOLtoir3.ml" 174 5606 5624 "mOOLtoir3.ml" 174 5606 5628
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  def idc1 "mOOLtoir3.ml" 175 5642 5644 "mOOLtoir3.ml" 181 5883 5888
+)
+"mOOLtoir3.ml" 174 5606 5629 "mOOLtoir3.ml" 174 5606 5633
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  def idc2 "mOOLtoir3.ml" 175 5642 5644 "mOOLtoir3.ml" 181 5883 5888
+)
+"mOOLtoir3.ml" 174 5606 5609 "mOOLtoir3.ml" 174 5606 5634
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 176 5651 5660 "mOOLtoir3.ml" 176 5651 5662
+type(
+  Ir3mOOL_structs.ir3_op
+)
+ident(
+  int_ref op "mOOLtoir3.ml" 174 5606 5621 "mOOLtoir3.ml" 174 5606 5623
+)
+"mOOLtoir3.ml" 177 5670 5688 "mOOLtoir3.ml" 177 5670 5692
+type(
+  string
+)
+ident(
+  def opid "mOOLtoir3.ml" 178 5698 5702 "mOOLtoir3.ml" 179 5760 5792
+)
+"mOOLtoir3.ml" 177 5670 5675 "mOOLtoir3.ml" 177 5670 5692
+type(
+  Ir3mOOL_structs.ir3_op
+)
+"mOOLtoir3.ml" 178 5698 5706 "mOOLtoir3.ml" 178 5698 5711
+type(
+  MOOL_structs.mOOL_op
+)
+ident(
+  def negop "mOOLtoir3.ml" 179 5760 5764 "mOOLtoir3.ml" 179 5760 5792
+)
+"mOOLtoir3.ml" 178 5698 5729 "mOOLtoir3.ml" 178 5698 5749
+type(
+  string -> string
+)
+ident(
+  int_ref negate_relational_op "mOOLtoir3.ml" 153 5080 5084 "mOOLtoir3.ml" 153 5080 5104
+)
+"mOOLtoir3.ml" 178 5698 5750 "mOOLtoir3.ml" 178 5698 5754
+type(
+  string
+)
+ident(
+  int_ref opid "mOOLtoir3.ml" 177 5670 5688 "mOOLtoir3.ml" 177 5670 5692
+)
+"mOOLtoir3.ml" 178 5698 5728 "mOOLtoir3.ml" 178 5698 5755
+call(
+  stack
+)
+type(
+  string
+)
+"mOOLtoir3.ml" 178 5698 5715 "mOOLtoir3.ml" 178 5698 5755
+type(
+  MOOL_structs.mOOL_op
+)
+"mOOLtoir3.ml" 179 5760 5776 "mOOLtoir3.ml" 179 5760 5781
+type(
+  Ir3mOOL_structs.ir3_op
+)
+ident(
+  int_ref negop "mOOLtoir3.ml" 178 5698 5706 "mOOLtoir3.ml" 178 5698 5711
+)
+"mOOLtoir3.ml" 179 5760 5782 "mOOLtoir3.ml" 179 5760 5786
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  int_ref idc1 "mOOLtoir3.ml" 174 5606 5624 "mOOLtoir3.ml" 174 5606 5628
+)
+"mOOLtoir3.ml" 179 5760 5787 "mOOLtoir3.ml" 179 5760 5791
+type(
+  Ir3mOOL_structs.idc3
+)
+ident(
+  int_ref idc2 "mOOLtoir3.ml" 174 5606 5629 "mOOLtoir3.ml" 174 5606 5633
+)
+"mOOLtoir3.ml" 179 5760 5764 "mOOLtoir3.ml" 179 5760 5792
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 178 5698 5702 "mOOLtoir3.ml" 179 5760 5792
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 180 5794 5799 "mOOLtoir3.ml" 180 5794 5800
+type(
+  Ir3mOOL_structs.ir3_op
+)
+"mOOLtoir3.ml" 180 5794 5804 "mOOLtoir3.ml" 180 5794 5812
+type(
+  string -> Ir3mOOL_structs.ir3_exp
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"mOOLtoir3.ml" 180 5794 5813 "mOOLtoir3.ml" 180 5794 5880
+type(
+  string
+)
+"mOOLtoir3.ml" 180 5794 5804 "mOOLtoir3.ml" 180 5794 5880
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 175 5642 5644 "mOOLtoir3.ml" 181 5883 5888
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 182 5890 5893 "mOOLtoir3.ml" 182 5890 5894
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 182 5890 5898 "mOOLtoir3.ml" 182 5890 5906
+type(
+  string -> Ir3mOOL_structs.ir3_exp
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"mOOLtoir3.ml" 182 5890 5907 "mOOLtoir3.ml" 182 5890 5943
+type(
+  string
+)
+"mOOLtoir3.ml" 182 5890 5898 "mOOLtoir3.ml" 182 5890 5943
+call(
+  tail
+)
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 165 5275 5276 "mOOLtoir3.ml" 182 5890 5943
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 186 5999 6007 "mOOLtoir3.ml" 186 5999 6028
+type(
+  MOOL_structs.class_name ->
+  MOOL_structs.md_decl ->
+  MOOL_structs.mOOL_stmt list ->
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def mOOLstmts_to_IR3Stmts "mOOLtoir3.ml" 186 5999 5999 "mOOLtoir3.ml" 1 0 -1
+)
+"mOOLtoir3.ml" 187 6031 6033 "mOOLtoir3.ml" 187 6031 6040
+type(
+  MOOL_structs.class_name
+)
+ident(
+  def classid "mOOLtoir3.ml" 188 6056 6057 "mOOLtoir3.ml" 274 9331 9365
+)
+"mOOLtoir3.ml" 188 6056 6058 "mOOLtoir3.ml" 188 6056 6062
+type(
+  MOOL_structs.md_decl
+)
+ident(
+  def mthd "mOOLtoir3.ml" 189 6075 6076 "mOOLtoir3.ml" 274 9331 9365
+)
+"mOOLtoir3.ml" 189 6075 6077 "mOOLtoir3.ml" 189 6075 6084
+type(
+  MOOL_structs.mOOL_stmt list
+)
+ident(
+  def stmtlst "mOOLtoir3.ml" 190 6102 6103 "mOOLtoir3.ml" 274 9331 9365
+)
+"mOOLtoir3.ml" 191 6141 6148 "mOOLtoir3.ml" 191 6141 6155
+type(
+  MOOL_structs.mOOL_stmt list
+)
+ident(
+  int_ref stmtlst "mOOLtoir3.ml" 189 6075 6077 "mOOLtoir3.ml" 189 6075 6084
+)
+"mOOLtoir3.ml" 192 6162 6166 "mOOLtoir3.ml" 192 6162 6168
+type(
+  MOOL_structs.mOOL_stmt list
+)
+"mOOLtoir3.ml" 192 6162 6173 "mOOLtoir3.ml" 192 6162 6175
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 192 6162 6176 "mOOLtoir3.ml" 192 6162 6178
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 192 6162 6172 "mOOLtoir3.ml" 192 6162 6179
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 193 6181 6185 "mOOLtoir3.ml" 193 6181 6186
+type(
+  MOOL_structs.mOOL_stmt
+)
+ident(
+  def s "mOOLtoir3.ml" 194 6202 6205 "mOOLtoir3.ml" 274 9331 9365
+)
+"mOOLtoir3.ml" 193 6181 6188 "mOOLtoir3.ml" 193 6181 6196
+type(
+  MOOL_structs.mOOL_stmt list
+)
+ident(
+  def tail_lst "mOOLtoir3.ml" 194 6202 6205 "mOOLtoir3.ml" 274 9331 9365
+)
+"mOOLtoir3.ml" 193 6181 6185 "mOOLtoir3.ml" 193 6181 6196
+type(
+  MOOL_structs.mOOL_stmt list
+)
+"mOOLtoir3.ml" 194 6202 6213 "mOOLtoir3.ml" 194 6202 6219
+type(
+  MOOL_structs.mOOL_stmt ->
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def helper "mOOLtoir3.ml" 194 6202 6205 "mOOLtoir3.ml" 274 9331 9365
+)
+"mOOLtoir3.ml" 194 6202 6220 "mOOLtoir3.ml" 194 6202 6221
+type(
+  MOOL_structs.mOOL_stmt
+)
+ident(
+  def s "mOOLtoir3.ml" 195 6224 6227 "mOOLtoir3.ml" 269 9162 9197
+)
+"mOOLtoir3.ml" 196 6265 6274 "mOOLtoir3.ml" 196 6265 6275
+type(
+  MOOL_structs.mOOL_stmt
+)
+ident(
+  int_ref s "mOOLtoir3.ml" 194 6202 6220 "mOOLtoir3.ml" 194 6202 6221
+)
+"mOOLtoir3.ml" 197 6282 6295 "mOOLtoir3.ml" 197 6282 6296
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  def e "mOOLtoir3.ml" 198 6319 6323 "mOOLtoir3.ml" 213 6958 6964
+)
+"mOOLtoir3.ml" 197 6282 6298 "mOOLtoir3.ml" 197 6282 6304
+type(
+  MOOL_structs.mOOL_stmt list
+)
+ident(
+  def stmts1 "mOOLtoir3.ml" 198 6319 6323 "mOOLtoir3.ml" 213 6958 6964
+)
+"mOOLtoir3.ml" 197 6282 6306 "mOOLtoir3.ml" 197 6282 6312
+type(
+  MOOL_structs.mOOL_stmt list
+)
+ident(
+  def stmts2 "mOOLtoir3.ml" 198 6319 6323 "mOOLtoir3.ml" 213 6958 6964
+)
+"mOOLtoir3.ml" 197 6282 6287 "mOOLtoir3.ml" 197 6282 6313
+type(
+  MOOL_structs.mOOL_stmt
+)
+"mOOLtoir3.ml" 198 6319 6328 "mOOLtoir3.ml" 198 6319 6333
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def expr3 "mOOLtoir3.ml" 200 6409 6413 "mOOLtoir3.ml" 213 6958 6964
+)
+"mOOLtoir3.ml" 198 6319 6334 "mOOLtoir3.ml" 198 6319 6342
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def exprvars "mOOLtoir3.ml" 200 6409 6413 "mOOLtoir3.ml" 213 6958 6964
+)
+"mOOLtoir3.ml" 198 6319 6343 "mOOLtoir3.ml" 198 6319 6352
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def exprstmts "mOOLtoir3.ml" 200 6409 6413 "mOOLtoir3.ml" 213 6958 6964
+)
+"mOOLtoir3.ml" 198 6319 6327 "mOOLtoir3.ml" 198 6319 6353
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 199 6358 6364 "mOOLtoir3.ml" 199 6358 6383
+type(
+  MOOL_structs.class_name ->
+  MOOL_structs.mOOL_exp ->
+  bool ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref mOOLexpr_to_IR3Expr "mOOLtoir3.ml" 63 1768 1776 "mOOLtoir3.ml" 63 1768 1795
+)
+"mOOLtoir3.ml" 199 6358 6384 "mOOLtoir3.ml" 199 6358 6391
+type(
+  MOOL_structs.class_name
+)
+ident(
+  int_ref classid "mOOLtoir3.ml" 187 6031 6033 "mOOLtoir3.ml" 187 6031 6040
+)
+"mOOLtoir3.ml" 199 6358 6392 "mOOLtoir3.ml" 199 6358 6393
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  int_ref e "mOOLtoir3.ml" 197 6282 6295 "mOOLtoir3.ml" 197 6282 6296
+)
+"mOOLtoir3.ml" 199 6358 6394 "mOOLtoir3.ml" 199 6358 6398
+type(
+  bool
+)
+"mOOLtoir3.ml" 199 6358 6399 "mOOLtoir3.ml" 199 6358 6403
+type(
+  bool
+)
+"mOOLtoir3.ml" 199 6358 6363 "mOOLtoir3.ml" 199 6358 6404
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 200 6409 6417 "mOOLtoir3.ml" 200 6409 6427
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def negatedExp "mOOLtoir3.ml" 201 6465 6469 "mOOLtoir3.ml" 213 6958 6964
+)
+"mOOLtoir3.ml" 200 6409 6431 "mOOLtoir3.ml" 200 6409 6452
+type(
+  Ir3mOOL_structs.ir3_exp -> Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref negate_relational_exp "mOOLtoir3.ml" 163 5241 5245 "mOOLtoir3.ml" 163 5241 5266
+)
+"mOOLtoir3.ml" 200 6409 6453 "mOOLtoir3.ml" 200 6409 6458
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref expr3 "mOOLtoir3.ml" 198 6319 6328 "mOOLtoir3.ml" 198 6319 6333
+)
+"mOOLtoir3.ml" 200 6409 6430 "mOOLtoir3.ml" 200 6409 6459
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 201 6465 6474 "mOOLtoir3.ml" 201 6465 6482
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def thenvars "mOOLtoir3.ml" 203 6552 6556 "mOOLtoir3.ml" 213 6958 6964
+)
+"mOOLtoir3.ml" 201 6465 6483 "mOOLtoir3.ml" 201 6465 6492
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def thenstmst "mOOLtoir3.ml" 203 6552 6556 "mOOLtoir3.ml" 213 6958 6964
+)
+"mOOLtoir3.ml" 201 6465 6473 "mOOLtoir3.ml" 201 6465 6493
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 202 6498 6504 "mOOLtoir3.ml" 202 6498 6525
+type(
+  MOOL_structs.class_name ->
+  MOOL_structs.md_decl ->
+  MOOL_structs.mOOL_stmt list ->
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref mOOLstmts_to_IR3Stmts "mOOLtoir3.ml" 186 5999 6007 "mOOLtoir3.ml" 186 5999 6028
+)
+"mOOLtoir3.ml" 202 6498 6526 "mOOLtoir3.ml" 202 6498 6533
+type(
+  MOOL_structs.class_name
+)
+ident(
+  int_ref classid "mOOLtoir3.ml" 187 6031 6033 "mOOLtoir3.ml" 187 6031 6040
+)
+"mOOLtoir3.ml" 202 6498 6534 "mOOLtoir3.ml" 202 6498 6538
+type(
+  MOOL_structs.md_decl
+)
+ident(
+  int_ref mthd "mOOLtoir3.ml" 188 6056 6058 "mOOLtoir3.ml" 188 6056 6062
+)
+"mOOLtoir3.ml" 202 6498 6539 "mOOLtoir3.ml" 202 6498 6545
+type(
+  MOOL_structs.mOOL_stmt list
+)
+ident(
+  int_ref stmts1 "mOOLtoir3.ml" 197 6282 6298 "mOOLtoir3.ml" 197 6282 6304
+)
+"mOOLtoir3.ml" 202 6498 6503 "mOOLtoir3.ml" 202 6498 6546
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 203 6552 6561 "mOOLtoir3.ml" 203 6552 6569
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def elsevars "mOOLtoir3.ml" 205 6638 6642 "mOOLtoir3.ml" 213 6958 6964
+)
+"mOOLtoir3.ml" 203 6552 6570 "mOOLtoir3.ml" 203 6552 6579
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def elsestmts "mOOLtoir3.ml" 205 6638 6642 "mOOLtoir3.ml" 213 6958 6964
+)
+"mOOLtoir3.ml" 203 6552 6560 "mOOLtoir3.ml" 203 6552 6580
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 204 6585 6591 "mOOLtoir3.ml" 204 6585 6612
+type(
+  MOOL_structs.class_name ->
+  MOOL_structs.md_decl ->
+  MOOL_structs.mOOL_stmt list ->
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref mOOLstmts_to_IR3Stmts "mOOLtoir3.ml" 186 5999 6007 "mOOLtoir3.ml" 186 5999 6028
+)
+"mOOLtoir3.ml" 204 6585 6613 "mOOLtoir3.ml" 204 6585 6620
+type(
+  MOOL_structs.class_name
+)
+ident(
+  int_ref classid "mOOLtoir3.ml" 187 6031 6033 "mOOLtoir3.ml" 187 6031 6040
+)
+"mOOLtoir3.ml" 204 6585 6621 "mOOLtoir3.ml" 204 6585 6625
+type(
+  MOOL_structs.md_decl
+)
+ident(
+  int_ref mthd "mOOLtoir3.ml" 188 6056 6058 "mOOLtoir3.ml" 188 6056 6062
+)
+"mOOLtoir3.ml" 204 6585 6626 "mOOLtoir3.ml" 204 6585 6632
+type(
+  MOOL_structs.mOOL_stmt list
+)
+ident(
+  int_ref stmts2 "mOOLtoir3.ml" 197 6282 6306 "mOOLtoir3.ml" 197 6282 6312
+)
+"mOOLtoir3.ml" 204 6585 6590 "mOOLtoir3.ml" 204 6585 6633
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 205 6638 6646 "mOOLtoir3.ml" 205 6638 6655
+type(
+  Ir3mOOL_structs.label3
+)
+ident(
+  def gotolabel "mOOLtoir3.ml" 206 6676 6680 "mOOLtoir3.ml" 213 6958 6964
+)
+"mOOLtoir3.ml" 205 6638 6658 "mOOLtoir3.ml" 205 6638 6669
+type(
+  unit -> Ir3mOOL_structs.label3
+)
+ident(
+  int_ref fresh_label "mOOLtoir3.ml" 11 315 319 "mOOLtoir3.ml" 11 315 330
+)
+"mOOLtoir3.ml" 205 6638 6669 "mOOLtoir3.ml" 205 6638 6671
+type(
+  unit
+)
+"mOOLtoir3.ml" 205 6638 6658 "mOOLtoir3.ml" 205 6638 6671
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.label3
+)
+"mOOLtoir3.ml" 206 6676 6684 "mOOLtoir3.ml" 206 6676 6692
+type(
+  Ir3mOOL_structs.label3
+)
+ident(
+  def endlabel "mOOLtoir3.ml" 207 6714 6718 "mOOLtoir3.ml" 213 6958 6964
+)
+"mOOLtoir3.ml" 206 6676 6696 "mOOLtoir3.ml" 206 6676 6707
+type(
+  unit -> Ir3mOOL_structs.label3
+)
+ident(
+  int_ref fresh_label "mOOLtoir3.ml" 11 315 319 "mOOLtoir3.ml" 11 315 330
+)
+"mOOLtoir3.ml" 206 6676 6707 "mOOLtoir3.ml" 206 6676 6709
+type(
+  unit
+)
+"mOOLtoir3.ml" 206 6676 6696 "mOOLtoir3.ml" 206 6676 6709
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.label3
+)
+"mOOLtoir3.ml" 207 6714 6722 "mOOLtoir3.ml" 207 6714 6727
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  def ifIR3 "mOOLtoir3.ml" 208 6768 6772 "mOOLtoir3.ml" 213 6958 6964
+)
+"mOOLtoir3.ml" 207 6714 6740 "mOOLtoir3.ml" 207 6714 6750
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref negatedExp "mOOLtoir3.ml" 200 6409 6417 "mOOLtoir3.ml" 200 6409 6427
+)
+"mOOLtoir3.ml" 207 6714 6752 "mOOLtoir3.ml" 207 6714 6761
+type(
+  Ir3mOOL_structs.label3
+)
+ident(
+  int_ref gotolabel "mOOLtoir3.ml" 205 6638 6646 "mOOLtoir3.ml" 205 6638 6655
+)
+"mOOLtoir3.ml" 207 6714 6730 "mOOLtoir3.ml" 207 6714 6763
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"mOOLtoir3.ml" 208 6768 6776 "mOOLtoir3.ml" 208 6768 6786
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  def gotoEndIR3 "mOOLtoir3.ml" 209 6811 6815 "mOOLtoir3.ml" 213 6958 6964
+)
+"mOOLtoir3.ml" 208 6768 6796 "mOOLtoir3.ml" 208 6768 6804
+type(
+  Ir3mOOL_structs.label3
+)
+ident(
+  int_ref endlabel "mOOLtoir3.ml" 206 6676 6684 "mOOLtoir3.ml" 206 6676 6692
+)
+"mOOLtoir3.ml" 208 6768 6789 "mOOLtoir3.ml" 208 6768 6805
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"mOOLtoir3.ml" 209 6811 6816 "mOOLtoir3.ml" 209 6811 6824
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref exprvars "mOOLtoir3.ml" 198 6319 6334 "mOOLtoir3.ml" 198 6319 6342
+)
+"mOOLtoir3.ml" 209 6811 6824 "mOOLtoir3.ml" 209 6811 6825
+type(
+  Ir3mOOL_structs.var_decl3 list ->
+  Ir3mOOL_structs.var_decl3 list -> Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"mOOLtoir3.ml" 209 6811 6825 "mOOLtoir3.ml" 209 6811 6833
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref thenvars "mOOLtoir3.ml" 201 6465 6474 "mOOLtoir3.ml" 201 6465 6482
+)
+"mOOLtoir3.ml" 209 6811 6833 "mOOLtoir3.ml" 209 6811 6834
+type(
+  Ir3mOOL_structs.var_decl3 list ->
+  Ir3mOOL_structs.var_decl3 list -> Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"mOOLtoir3.ml" 209 6811 6834 "mOOLtoir3.ml" 209 6811 6842
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref elsevars "mOOLtoir3.ml" 203 6552 6561 "mOOLtoir3.ml" 203 6552 6569
+)
+"mOOLtoir3.ml" 209 6811 6825 "mOOLtoir3.ml" 209 6811 6842
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 209 6811 6816 "mOOLtoir3.ml" 209 6811 6842
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 210 6845 6850 "mOOLtoir3.ml" 210 6845 6859
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref exprstmts "mOOLtoir3.ml" 198 6319 6343 "mOOLtoir3.ml" 198 6319 6352
+)
+"mOOLtoir3.ml" 210 6845 6859 "mOOLtoir3.ml" 210 6845 6860
+type(
+  Ir3mOOL_structs.ir3_stmt list ->
+  Ir3mOOL_structs.ir3_stmt list -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"mOOLtoir3.ml" 210 6845 6861 "mOOLtoir3.ml" 210 6845 6866
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  int_ref ifIR3 "mOOLtoir3.ml" 207 6714 6722 "mOOLtoir3.ml" 207 6714 6727
+)
+"mOOLtoir3.ml" 210 6845 6868 "mOOLtoir3.ml" 210 6845 6877
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref thenstmst "mOOLtoir3.ml" 201 6465 6483 "mOOLtoir3.ml" 201 6465 6492
+)
+"mOOLtoir3.ml" 210 6845 6860 "mOOLtoir3.ml" 210 6845 6878
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 211 6880 6885 "mOOLtoir3.ml" 211 6880 6886
+type(
+  Ir3mOOL_structs.ir3_stmt list ->
+  Ir3mOOL_structs.ir3_stmt list -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"mOOLtoir3.ml" 211 6880 6887 "mOOLtoir3.ml" 211 6880 6897
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  int_ref gotoEndIR3 "mOOLtoir3.ml" 208 6768 6776 "mOOLtoir3.ml" 208 6768 6786
+)
+"mOOLtoir3.ml" 211 6880 6908 "mOOLtoir3.ml" 211 6880 6917
+type(
+  Ir3mOOL_structs.label3
+)
+ident(
+  int_ref gotolabel "mOOLtoir3.ml" 205 6638 6646 "mOOLtoir3.ml" 205 6638 6655
+)
+"mOOLtoir3.ml" 211 6880 6900 "mOOLtoir3.ml" 211 6880 6918
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"mOOLtoir3.ml" 211 6880 6920 "mOOLtoir3.ml" 211 6880 6929
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref elsestmts "mOOLtoir3.ml" 203 6552 6570 "mOOLtoir3.ml" 203 6552 6579
+)
+"mOOLtoir3.ml" 211 6880 6899 "mOOLtoir3.ml" 211 6880 6930
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 211 6880 6886 "mOOLtoir3.ml" 211 6880 6931
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 212 6933 6938 "mOOLtoir3.ml" 212 6933 6939
+type(
+  Ir3mOOL_structs.ir3_stmt list ->
+  Ir3mOOL_structs.ir3_stmt list -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"mOOLtoir3.ml" 212 6933 6947 "mOOLtoir3.ml" 212 6933 6955
+type(
+  Ir3mOOL_structs.label3
+)
+ident(
+  int_ref endlabel "mOOLtoir3.ml" 206 6676 6684 "mOOLtoir3.ml" 206 6676 6692
+)
+"mOOLtoir3.ml" 212 6933 6940 "mOOLtoir3.ml" 212 6933 6955
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"mOOLtoir3.ml" 212 6933 6939 "mOOLtoir3.ml" 212 6933 6956
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 211 6880 6886 "mOOLtoir3.ml" 212 6933 6956
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 210 6845 6860 "mOOLtoir3.ml" 212 6933 6956
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 210 6845 6850 "mOOLtoir3.ml" 212 6933 6956
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 209 6811 6815 "mOOLtoir3.ml" 213 6958 6964
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 208 6768 6772 "mOOLtoir3.ml" 213 6958 6964
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 207 6714 6718 "mOOLtoir3.ml" 213 6958 6964
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 206 6676 6680 "mOOLtoir3.ml" 213 6958 6964
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 205 6638 6642 "mOOLtoir3.ml" 213 6958 6964
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 203 6552 6556 "mOOLtoir3.ml" 213 6958 6964
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 201 6465 6469 "mOOLtoir3.ml" 213 6958 6964
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 200 6409 6413 "mOOLtoir3.ml" 213 6958 6964
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 198 6319 6323 "mOOLtoir3.ml" 213 6958 6964
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 214 6966 6982 "mOOLtoir3.ml" 214 6966 6983
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  def e "mOOLtoir3.ml" 215 6997 7001 "mOOLtoir3.ml" 228 7533 7539
+)
+"mOOLtoir3.ml" 214 6966 6985 "mOOLtoir3.ml" 214 6966 6990
+type(
+  MOOL_structs.mOOL_stmt list
+)
+ident(
+  def stmts "mOOLtoir3.ml" 215 6997 7001 "mOOLtoir3.ml" 228 7533 7539
+)
+"mOOLtoir3.ml" 214 6966 6971 "mOOLtoir3.ml" 214 6966 6991
+type(
+  MOOL_structs.mOOL_stmt
+)
+"mOOLtoir3.ml" 215 6997 7005 "mOOLtoir3.ml" 215 6997 7015
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  def negatedexp "mOOLtoir3.ml" 217 7072 7076 "mOOLtoir3.ml" 228 7533 7539
+)
+"mOOLtoir3.ml" 216 7020 7053 "mOOLtoir3.ml" 216 7020 7056
+type(
+  string
+)
+"mOOLtoir3.ml" 216 7020 7045 "mOOLtoir3.ml" 216 7020 7056
+type(
+  MOOL_structs.mOOL_op
+)
+"mOOLtoir3.ml" 216 7020 7057 "mOOLtoir3.ml" 216 7020 7058
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  int_ref e "mOOLtoir3.ml" 214 6966 6982 "mOOLtoir3.ml" 214 6966 6983
+)
+"mOOLtoir3.ml" 216 7020 7035 "mOOLtoir3.ml" 216 7020 7059
+type(
+  MOOL_structs.mOOL_exp
+)
+"mOOLtoir3.ml" 216 7020 7061 "mOOLtoir3.ml" 216 7020 7066
+type(
+  MOOL_structs.mOOL_type
+)
+"mOOLtoir3.ml" 216 7020 7025 "mOOLtoir3.ml" 216 7020 7067
+type(
+  MOOL_structs.mOOL_exp
+)
+"mOOLtoir3.ml" 217 7072 7081 "mOOLtoir3.ml" 217 7072 7086
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def expr3 "mOOLtoir3.ml" 219 7173 7177 "mOOLtoir3.ml" 228 7533 7539
+)
+"mOOLtoir3.ml" 217 7072 7087 "mOOLtoir3.ml" 217 7072 7095
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def exprvars "mOOLtoir3.ml" 219 7173 7177 "mOOLtoir3.ml" 228 7533 7539
+)
+"mOOLtoir3.ml" 217 7072 7096 "mOOLtoir3.ml" 217 7072 7105
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def exprstmts "mOOLtoir3.ml" 219 7173 7177 "mOOLtoir3.ml" 228 7533 7539
+)
+"mOOLtoir3.ml" 217 7072 7080 "mOOLtoir3.ml" 217 7072 7106
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 218 7111 7117 "mOOLtoir3.ml" 218 7111 7136
+type(
+  MOOL_structs.class_name ->
+  MOOL_structs.mOOL_exp ->
+  bool ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref mOOLexpr_to_IR3Expr "mOOLtoir3.ml" 63 1768 1776 "mOOLtoir3.ml" 63 1768 1795
+)
+"mOOLtoir3.ml" 218 7111 7137 "mOOLtoir3.ml" 218 7111 7144
+type(
+  MOOL_structs.class_name
+)
+ident(
+  int_ref classid "mOOLtoir3.ml" 187 6031 6033 "mOOLtoir3.ml" 187 6031 6040
+)
+"mOOLtoir3.ml" 218 7111 7145 "mOOLtoir3.ml" 218 7111 7155
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  int_ref negatedexp "mOOLtoir3.ml" 215 6997 7005 "mOOLtoir3.ml" 215 6997 7015
+)
+"mOOLtoir3.ml" 218 7111 7156 "mOOLtoir3.ml" 218 7111 7161
+type(
+  bool
+)
+"mOOLtoir3.ml" 218 7111 7162 "mOOLtoir3.ml" 218 7111 7167
+type(
+  bool
+)
+"mOOLtoir3.ml" 218 7111 7116 "mOOLtoir3.ml" 218 7111 7168
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 219 7173 7182 "mOOLtoir3.ml" 219 7173 7186
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def vars "mOOLtoir3.ml" 221 7251 7255 "mOOLtoir3.ml" 228 7533 7539
+)
+"mOOLtoir3.ml" 219 7173 7187 "mOOLtoir3.ml" 219 7173 7192
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def stmst "mOOLtoir3.ml" 221 7251 7255 "mOOLtoir3.ml" 228 7533 7539
+)
+"mOOLtoir3.ml" 219 7173 7181 "mOOLtoir3.ml" 219 7173 7193
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 220 7198 7204 "mOOLtoir3.ml" 220 7198 7225
+type(
+  MOOL_structs.class_name ->
+  MOOL_structs.md_decl ->
+  MOOL_structs.mOOL_stmt list ->
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref mOOLstmts_to_IR3Stmts "mOOLtoir3.ml" 186 5999 6007 "mOOLtoir3.ml" 186 5999 6028
+)
+"mOOLtoir3.ml" 220 7198 7226 "mOOLtoir3.ml" 220 7198 7233
+type(
+  MOOL_structs.class_name
+)
+ident(
+  int_ref classid "mOOLtoir3.ml" 187 6031 6033 "mOOLtoir3.ml" 187 6031 6040
+)
+"mOOLtoir3.ml" 220 7198 7234 "mOOLtoir3.ml" 220 7198 7238
+type(
+  MOOL_structs.md_decl
+)
+ident(
+  int_ref mthd "mOOLtoir3.ml" 188 6056 6058 "mOOLtoir3.ml" 188 6056 6062
+)
+"mOOLtoir3.ml" 220 7198 7239 "mOOLtoir3.ml" 220 7198 7244
+type(
+  MOOL_structs.mOOL_stmt list
+)
+ident(
+  int_ref stmts "mOOLtoir3.ml" 214 6966 6985 "mOOLtoir3.ml" 214 6966 6990
+)
+"mOOLtoir3.ml" 220 7198 7203 "mOOLtoir3.ml" 220 7198 7245
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 221 7251 7259 "mOOLtoir3.ml" 221 7251 7268
+type(
+  Ir3mOOL_structs.label3
+)
+ident(
+  def looplabel "mOOLtoir3.ml" 222 7289 7293 "mOOLtoir3.ml" 228 7533 7539
+)
+"mOOLtoir3.ml" 221 7251 7271 "mOOLtoir3.ml" 221 7251 7282
+type(
+  unit -> Ir3mOOL_structs.label3
+)
+ident(
+  int_ref fresh_label "mOOLtoir3.ml" 11 315 319 "mOOLtoir3.ml" 11 315 330
+)
+"mOOLtoir3.ml" 221 7251 7282 "mOOLtoir3.ml" 221 7251 7284
+type(
+  unit
+)
+"mOOLtoir3.ml" 221 7251 7271 "mOOLtoir3.ml" 221 7251 7284
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.label3
+)
+"mOOLtoir3.ml" 222 7289 7297 "mOOLtoir3.ml" 222 7289 7305
+type(
+  Ir3mOOL_structs.label3
+)
+ident(
+  def endlabel "mOOLtoir3.ml" 223 7327 7331 "mOOLtoir3.ml" 228 7533 7539
+)
+"mOOLtoir3.ml" 222 7289 7309 "mOOLtoir3.ml" 222 7289 7320
+type(
+  unit -> Ir3mOOL_structs.label3
+)
+ident(
+  int_ref fresh_label "mOOLtoir3.ml" 11 315 319 "mOOLtoir3.ml" 11 315 330
+)
+"mOOLtoir3.ml" 222 7289 7320 "mOOLtoir3.ml" 222 7289 7322
+type(
+  unit
+)
+"mOOLtoir3.ml" 222 7289 7309 "mOOLtoir3.ml" 222 7289 7322
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.label3
+)
+"mOOLtoir3.ml" 223 7327 7335 "mOOLtoir3.ml" 223 7327 7340
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  def ifIR3 "mOOLtoir3.ml" 224 7375 7379 "mOOLtoir3.ml" 228 7533 7539
+)
+"mOOLtoir3.ml" 223 7327 7353 "mOOLtoir3.ml" 223 7327 7358
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref expr3 "mOOLtoir3.ml" 217 7072 7081 "mOOLtoir3.ml" 217 7072 7086
+)
+"mOOLtoir3.ml" 223 7327 7360 "mOOLtoir3.ml" 223 7327 7368
+type(
+  Ir3mOOL_structs.label3
+)
+ident(
+  int_ref endlabel "mOOLtoir3.ml" 222 7289 7297 "mOOLtoir3.ml" 222 7289 7305
+)
+"mOOLtoir3.ml" 223 7327 7343 "mOOLtoir3.ml" 223 7327 7370
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"mOOLtoir3.ml" 224 7375 7383 "mOOLtoir3.ml" 224 7375 7394
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  def gotoLoopIR3 "mOOLtoir3.ml" 225 7420 7424 "mOOLtoir3.ml" 228 7533 7539
+)
+"mOOLtoir3.ml" 224 7375 7404 "mOOLtoir3.ml" 224 7375 7413
+type(
+  Ir3mOOL_structs.label3
+)
+ident(
+  int_ref looplabel "mOOLtoir3.ml" 221 7251 7259 "mOOLtoir3.ml" 221 7251 7268
+)
+"mOOLtoir3.ml" 224 7375 7397 "mOOLtoir3.ml" 224 7375 7414
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"mOOLtoir3.ml" 225 7420 7425 "mOOLtoir3.ml" 225 7420 7433
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref exprvars "mOOLtoir3.ml" 217 7072 7087 "mOOLtoir3.ml" 217 7072 7095
+)
+"mOOLtoir3.ml" 225 7420 7433 "mOOLtoir3.ml" 225 7420 7434
+type(
+  Ir3mOOL_structs.var_decl3 list ->
+  Ir3mOOL_structs.var_decl3 list -> Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"mOOLtoir3.ml" 225 7420 7434 "mOOLtoir3.ml" 225 7420 7438
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref vars "mOOLtoir3.ml" 219 7173 7182 "mOOLtoir3.ml" 219 7173 7186
+)
+"mOOLtoir3.ml" 225 7420 7425 "mOOLtoir3.ml" 225 7420 7438
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 226 7441 7454 "mOOLtoir3.ml" 226 7441 7463
+type(
+  Ir3mOOL_structs.label3
+)
+ident(
+  int_ref looplabel "mOOLtoir3.ml" 221 7251 7259 "mOOLtoir3.ml" 221 7251 7268
+)
+"mOOLtoir3.ml" 226 7441 7447 "mOOLtoir3.ml" 226 7441 7463
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"mOOLtoir3.ml" 226 7441 7465 "mOOLtoir3.ml" 226 7441 7474
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref exprstmts "mOOLtoir3.ml" 217 7072 7096 "mOOLtoir3.ml" 217 7072 7105
+)
+"mOOLtoir3.ml" 226 7441 7446 "mOOLtoir3.ml" 226 7441 7475
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 226 7441 7475 "mOOLtoir3.ml" 226 7441 7476
+type(
+  Ir3mOOL_structs.ir3_stmt list ->
+  Ir3mOOL_structs.ir3_stmt list -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"mOOLtoir3.ml" 226 7441 7477 "mOOLtoir3.ml" 226 7441 7482
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  int_ref ifIR3 "mOOLtoir3.ml" 223 7327 7335 "mOOLtoir3.ml" 223 7327 7340
+)
+"mOOLtoir3.ml" 226 7441 7484 "mOOLtoir3.ml" 226 7441 7489
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref stmst "mOOLtoir3.ml" 219 7173 7187 "mOOLtoir3.ml" 219 7173 7192
+)
+"mOOLtoir3.ml" 226 7441 7476 "mOOLtoir3.ml" 226 7441 7490
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 227 7492 7497 "mOOLtoir3.ml" 227 7492 7498
+type(
+  Ir3mOOL_structs.ir3_stmt list ->
+  Ir3mOOL_structs.ir3_stmt list -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"mOOLtoir3.ml" 227 7492 7499 "mOOLtoir3.ml" 227 7492 7510
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  int_ref gotoLoopIR3 "mOOLtoir3.ml" 224 7375 7383 "mOOLtoir3.ml" 224 7375 7394
+)
+"mOOLtoir3.ml" 227 7492 7498 "mOOLtoir3.ml" 227 7492 7511
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 227 7492 7511 "mOOLtoir3.ml" 227 7492 7512
+type(
+  Ir3mOOL_structs.ir3_stmt list ->
+  Ir3mOOL_structs.ir3_stmt list -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"mOOLtoir3.ml" 227 7492 7521 "mOOLtoir3.ml" 227 7492 7529
+type(
+  Ir3mOOL_structs.label3
+)
+ident(
+  int_ref endlabel "mOOLtoir3.ml" 222 7289 7297 "mOOLtoir3.ml" 222 7289 7305
+)
+"mOOLtoir3.ml" 227 7492 7513 "mOOLtoir3.ml" 227 7492 7530
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"mOOLtoir3.ml" 227 7492 7512 "mOOLtoir3.ml" 227 7492 7531
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 227 7492 7498 "mOOLtoir3.ml" 227 7492 7531
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 226 7441 7476 "mOOLtoir3.ml" 227 7492 7531
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 226 7441 7446 "mOOLtoir3.ml" 227 7492 7531
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 225 7420 7424 "mOOLtoir3.ml" 228 7533 7539
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 224 7375 7379 "mOOLtoir3.ml" 228 7533 7539
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 223 7327 7331 "mOOLtoir3.ml" 228 7533 7539
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 222 7289 7293 "mOOLtoir3.ml" 228 7533 7539
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 221 7251 7255 "mOOLtoir3.ml" 228 7533 7539
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 219 7173 7177 "mOOLtoir3.ml" 228 7533 7539
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 217 7072 7076 "mOOLtoir3.ml" 228 7533 7539
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 215 6997 7001 "mOOLtoir3.ml" 228 7533 7539
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 229 7541 7557 "mOOLtoir3.ml" 229 7541 7558
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  def e "mOOLtoir3.ml" 230 7565 7569 "mOOLtoir3.ml" 233 7716 7749
+)
+"mOOLtoir3.ml" 229 7541 7546 "mOOLtoir3.ml" 229 7541 7558
+type(
+  MOOL_structs.mOOL_stmt
+)
+"mOOLtoir3.ml" 230 7565 7574 "mOOLtoir3.ml" 230 7565 7579
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def expr3 "mOOLtoir3.ml" 232 7656 7660 "mOOLtoir3.ml" 233 7716 7749
+)
+"mOOLtoir3.ml" 230 7565 7580 "mOOLtoir3.ml" 230 7565 7588
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def exprvars "mOOLtoir3.ml" 232 7656 7660 "mOOLtoir3.ml" 233 7716 7749
+)
+"mOOLtoir3.ml" 230 7565 7589 "mOOLtoir3.ml" 230 7565 7598
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def exprstmts "mOOLtoir3.ml" 232 7656 7660 "mOOLtoir3.ml" 233 7716 7749
+)
+"mOOLtoir3.ml" 230 7565 7573 "mOOLtoir3.ml" 230 7565 7599
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 231 7604 7610 "mOOLtoir3.ml" 231 7604 7629
+type(
+  MOOL_structs.class_name ->
+  MOOL_structs.mOOL_exp ->
+  bool ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref mOOLexpr_to_IR3Expr "mOOLtoir3.ml" 63 1768 1776 "mOOLtoir3.ml" 63 1768 1795
+)
+"mOOLtoir3.ml" 231 7604 7630 "mOOLtoir3.ml" 231 7604 7637
+type(
+  MOOL_structs.class_name
+)
+ident(
+  int_ref classid "mOOLtoir3.ml" 187 6031 6033 "mOOLtoir3.ml" 187 6031 6040
+)
+"mOOLtoir3.ml" 231 7604 7638 "mOOLtoir3.ml" 231 7604 7639
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  int_ref e "mOOLtoir3.ml" 229 7541 7557 "mOOLtoir3.ml" 229 7541 7558
+)
+"mOOLtoir3.ml" 231 7604 7640 "mOOLtoir3.ml" 231 7604 7644
+type(
+  bool
+)
+"mOOLtoir3.ml" 231 7604 7645 "mOOLtoir3.ml" 231 7604 7649
+type(
+  bool
+)
+"mOOLtoir3.ml" 231 7604 7609 "mOOLtoir3.ml" 231 7604 7650
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 232 7656 7664 "mOOLtoir3.ml" 232 7656 7670
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  def retIR3 "mOOLtoir3.ml" 233 7716 7720 "mOOLtoir3.ml" 233 7716 7749
+)
+"mOOLtoir3.ml" 232 7656 7687 "mOOLtoir3.ml" 232 7656 7702
+type(
+  Ir3mOOL_structs.ir3_exp -> Ir3mOOL_structs.id3
+)
+ident(
+  int_ref iR3Expr_get_id3 "mOOLtoir3.ml" 23 600 604 "mOOLtoir3.ml" 23 600 619
+)
+"mOOLtoir3.ml" 232 7656 7703 "mOOLtoir3.ml" 232 7656 7708
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref expr3 "mOOLtoir3.ml" 230 7565 7574 "mOOLtoir3.ml" 230 7565 7579
+)
+"mOOLtoir3.ml" 232 7656 7686 "mOOLtoir3.ml" 232 7656 7709
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.id3
+)
+"mOOLtoir3.ml" 232 7656 7673 "mOOLtoir3.ml" 232 7656 7710
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"mOOLtoir3.ml" 233 7716 7721 "mOOLtoir3.ml" 233 7716 7729
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref exprvars "mOOLtoir3.ml" 230 7565 7580 "mOOLtoir3.ml" 230 7565 7588
+)
+"mOOLtoir3.ml" 233 7716 7730 "mOOLtoir3.ml" 233 7716 7739
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref exprstmts "mOOLtoir3.ml" 230 7565 7589 "mOOLtoir3.ml" 230 7565 7598
+)
+"mOOLtoir3.ml" 233 7716 7739 "mOOLtoir3.ml" 233 7716 7740
+type(
+  Ir3mOOL_structs.ir3_stmt list ->
+  Ir3mOOL_structs.ir3_stmt list -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"mOOLtoir3.ml" 233 7716 7741 "mOOLtoir3.ml" 233 7716 7747
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  int_ref retIR3 "mOOLtoir3.ml" 232 7656 7664 "mOOLtoir3.ml" 232 7656 7670
+)
+"mOOLtoir3.ml" 233 7716 7740 "mOOLtoir3.ml" 233 7716 7748
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 233 7716 7730 "mOOLtoir3.ml" 233 7716 7748
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 233 7716 7720 "mOOLtoir3.ml" 233 7716 7749
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 232 7656 7660 "mOOLtoir3.ml" 233 7716 7749
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 230 7565 7569 "mOOLtoir3.ml" 233 7716 7749
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 234 7751 7756 "mOOLtoir3.ml" 234 7751 7770
+type(
+  MOOL_structs.mOOL_stmt
+)
+"mOOLtoir3.ml" 235 7777 7782 "mOOLtoir3.ml" 235 7777 7784
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 235 7777 7787 "mOOLtoir3.ml" 235 7777 7802
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"mOOLtoir3.ml" 235 7777 7786 "mOOLtoir3.ml" 235 7777 7803
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 235 7777 7781 "mOOLtoir3.ml" 235 7777 7804
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 236 7806 7823 "mOOLtoir3.ml" 236 7806 7825
+type(
+  MOOL_structs.var_id
+)
+ident(
+  def id "mOOLtoir3.ml" 237 7835 7839 "mOOLtoir3.ml" 247 8249 8256
+)
+"mOOLtoir3.ml" 236 7806 7826 "mOOLtoir3.ml" 236 7806 7827
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  def e "mOOLtoir3.ml" 237 7835 7839 "mOOLtoir3.ml" 247 8249 8256
+)
+"mOOLtoir3.ml" 236 7806 7811 "mOOLtoir3.ml" 236 7806 7828
+type(
+  MOOL_structs.mOOL_stmt
+)
+"mOOLtoir3.ml" 237 7835 7844 "mOOLtoir3.ml" 237 7835 7849
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def expr3 "mOOLtoir3.ml" 239 7928 7932 "mOOLtoir3.ml" 247 8249 8256
+)
+"mOOLtoir3.ml" 237 7835 7850 "mOOLtoir3.ml" 237 7835 7858
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def exprvars "mOOLtoir3.ml" 239 7928 7932 "mOOLtoir3.ml" 247 8249 8256
+)
+"mOOLtoir3.ml" 237 7835 7859 "mOOLtoir3.ml" 237 7835 7868
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def exprstmts "mOOLtoir3.ml" 239 7928 7932 "mOOLtoir3.ml" 247 8249 8256
+)
+"mOOLtoir3.ml" 237 7835 7843 "mOOLtoir3.ml" 237 7835 7869
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 238 7874 7880 "mOOLtoir3.ml" 238 7874 7899
+type(
+  MOOL_structs.class_name ->
+  MOOL_structs.mOOL_exp ->
+  bool ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref mOOLexpr_to_IR3Expr "mOOLtoir3.ml" 63 1768 1776 "mOOLtoir3.ml" 63 1768 1795
+)
+"mOOLtoir3.ml" 238 7874 7900 "mOOLtoir3.ml" 238 7874 7907
+type(
+  MOOL_structs.class_name
+)
+ident(
+  int_ref classid "mOOLtoir3.ml" 187 6031 6033 "mOOLtoir3.ml" 187 6031 6040
+)
+"mOOLtoir3.ml" 238 7874 7908 "mOOLtoir3.ml" 238 7874 7909
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  int_ref e "mOOLtoir3.ml" 236 7806 7826 "mOOLtoir3.ml" 236 7806 7827
+)
+"mOOLtoir3.ml" 238 7874 7910 "mOOLtoir3.ml" 238 7874 7915
+type(
+  bool
+)
+"mOOLtoir3.ml" 238 7874 7916 "mOOLtoir3.ml" 238 7874 7921
+type(
+  bool
+)
+"mOOLtoir3.ml" 238 7874 7879 "mOOLtoir3.ml" 238 7874 7922
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 240 7939 7947 "mOOLtoir3.ml" 240 7939 7956
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  def assignIR3 "mOOLtoir3.ml" 246 8206 8213 "mOOLtoir3.ml" 246 8206 8246
+)
+"mOOLtoir3.ml" 240 7939 7965 "mOOLtoir3.ml" 240 7939 7967
+type(
+  MOOL_structs.var_id
+)
+ident(
+  int_ref id "mOOLtoir3.ml" 236 7806 7823 "mOOLtoir3.ml" 236 7806 7825
+)
+"mOOLtoir3.ml" 241 7974 7992 "mOOLtoir3.ml" 241 7974 7995
+type(
+  string
+)
+ident(
+  def id1 "mOOLtoir3.ml" 242 8006 8011 "mOOLtoir3.ml" 242 8006 8062
+)
+"mOOLtoir3.ml" 241 7974 7996 "mOOLtoir3.ml" 241 7974 7997
+type(
+  MOOL_structs.mOOL_type
+)
+ident(
+  def t "mOOLtoir3.ml" 242 8006 8011 "mOOLtoir3.ml" 242 8006 8062
+)
+"mOOLtoir3.ml" 241 7974 7998 "mOOLtoir3.ml" 241 7974 7999
+type(
+  int
+)
+"mOOLtoir3.ml" 241 7974 7991 "mOOLtoir3.ml" 241 7974 8000
+type(
+  MOOL_structs.typed_var_id
+)
+"mOOLtoir3.ml" 241 7974 7980 "mOOLtoir3.ml" 241 7974 8000
+type(
+  MOOL_structs.var_id
+)
+"mOOLtoir3.ml" 242 8006 8043 "mOOLtoir3.ml" 242 8006 8049
+type(
+  Ir3mOOL_structs.id3
+)
+"mOOLtoir3.ml" 242 8006 8050 "mOOLtoir3.ml" 242 8006 8053
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref id1 "mOOLtoir3.ml" 241 7974 7992 "mOOLtoir3.ml" 241 7974 7995
+)
+"mOOLtoir3.ml" 242 8006 8029 "mOOLtoir3.ml" 242 8006 8054
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+"mOOLtoir3.ml" 242 8006 8056 "mOOLtoir3.ml" 242 8006 8061
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref expr3 "mOOLtoir3.ml" 237 7835 7844 "mOOLtoir3.ml" 237 7835 7849
+)
+"mOOLtoir3.ml" 242 8006 8011 "mOOLtoir3.ml" 242 8006 8062
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"mOOLtoir3.ml" 243 8064 8082 "mOOLtoir3.ml" 243 8064 8085
+type(
+  string
+)
+ident(
+  def id1 "mOOLtoir3.ml" 244 8114 8119 "mOOLtoir3.ml" 244 8114 8145
+)
+"mOOLtoir3.ml" 243 8064 8086 "mOOLtoir3.ml" 243 8064 8087
+type(
+  MOOL_structs.mOOL_type
+)
+"mOOLtoir3.ml" 243 8064 8088 "mOOLtoir3.ml" 243 8064 8089
+type(
+  int
+)
+"mOOLtoir3.ml" 243 8064 8081 "mOOLtoir3.ml" 243 8064 8090
+type(
+  MOOL_structs.typed_var_id
+)
+"mOOLtoir3.ml" 243 8064 8070 "mOOLtoir3.ml" 243 8064 8090
+type(
+  MOOL_structs.var_id
+)
+"mOOLtoir3.ml" 243 8064 8105 "mOOLtoir3.ml" 243 8064 8108
+type(
+  string
+)
+ident(
+  def id1 "mOOLtoir3.ml" 244 8114 8119 "mOOLtoir3.ml" 244 8114 8145
+)
+"mOOLtoir3.ml" 243 8064 8093 "mOOLtoir3.ml" 243 8064 8108
+type(
+  MOOL_structs.var_id
+)
+"mOOLtoir3.ml" 243 8064 8070 "mOOLtoir3.ml" 243 8064 8108
+type(
+  MOOL_structs.var_id
+)
+"mOOLtoir3.ml" 244 8114 8133 "mOOLtoir3.ml" 244 8114 8136
+type(
+  Ir3mOOL_structs.id3
+)
+ident(
+  int_ref id1 "mOOLtoir3.ml" 243 8064 8082 "mOOLtoir3.ml" 243 8064 8085
+)
+"mOOLtoir3.ml" 244 8114 8138 "mOOLtoir3.ml" 244 8114 8143
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref expr3 "mOOLtoir3.ml" 237 7835 7844 "mOOLtoir3.ml" 237 7835 7849
+)
+"mOOLtoir3.ml" 244 8114 8119 "mOOLtoir3.ml" 244 8114 8145
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"mOOLtoir3.ml" 245 8147 8153 "mOOLtoir3.ml" 245 8147 8154
+type(
+  MOOL_structs.var_id
+)
+"mOOLtoir3.ml" 245 8147 8158 "mOOLtoir3.ml" 245 8147 8166
+type(
+  string -> Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"mOOLtoir3.ml" 245 8147 8167 "mOOLtoir3.ml" 245 8147 8203
+type(
+  string
+)
+"mOOLtoir3.ml" 245 8147 8158 "mOOLtoir3.ml" 245 8147 8203
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"mOOLtoir3.ml" 240 7939 7959 "mOOLtoir3.ml" 245 8147 8203
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"mOOLtoir3.ml" 246 8206 8214 "mOOLtoir3.ml" 246 8206 8222
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref exprvars "mOOLtoir3.ml" 237 7835 7850 "mOOLtoir3.ml" 237 7835 7858
+)
+"mOOLtoir3.ml" 246 8206 8224 "mOOLtoir3.ml" 246 8206 8233
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref exprstmts "mOOLtoir3.ml" 237 7835 7859 "mOOLtoir3.ml" 237 7835 7868
+)
+"mOOLtoir3.ml" 246 8206 8233 "mOOLtoir3.ml" 246 8206 8234
+type(
+  Ir3mOOL_structs.ir3_stmt list ->
+  Ir3mOOL_structs.ir3_stmt list -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"mOOLtoir3.ml" 246 8206 8235 "mOOLtoir3.ml" 246 8206 8244
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  int_ref assignIR3 "mOOLtoir3.ml" 240 7939 7947 "mOOLtoir3.ml" 240 7939 7956
+)
+"mOOLtoir3.ml" 246 8206 8234 "mOOLtoir3.ml" 246 8206 8245
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 246 8206 8224 "mOOLtoir3.ml" 246 8206 8245
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 246 8206 8213 "mOOLtoir3.ml" 246 8206 8246
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 239 7928 7932 "mOOLtoir3.ml" 247 8249 8256
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 237 7835 7839 "mOOLtoir3.ml" 247 8249 8256
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 248 8258 8280 "mOOLtoir3.ml" 248 8258 8282
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  def id "mOOLtoir3.ml" 249 8292 8296 "mOOLtoir3.ml" 254 8534 8586
+)
+"mOOLtoir3.ml" 248 8258 8283 "mOOLtoir3.ml" 248 8258 8284
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  def e "mOOLtoir3.ml" 249 8292 8296 "mOOLtoir3.ml" 254 8534 8586
+)
+"mOOLtoir3.ml" 248 8258 8263 "mOOLtoir3.ml" 248 8258 8285
+type(
+  MOOL_structs.mOOL_stmt
+)
+"mOOLtoir3.ml" 249 8292 8301 "mOOLtoir3.ml" 249 8292 8306
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def idIR3 "mOOLtoir3.ml" 251 8382 8386 "mOOLtoir3.ml" 254 8534 8586
+)
+"mOOLtoir3.ml" 249 8292 8307 "mOOLtoir3.ml" 249 8292 8313
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def idvars "mOOLtoir3.ml" 251 8382 8386 "mOOLtoir3.ml" 254 8534 8586
+)
+"mOOLtoir3.ml" 249 8292 8314 "mOOLtoir3.ml" 249 8292 8321
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def idstmts "mOOLtoir3.ml" 251 8382 8386 "mOOLtoir3.ml" 254 8534 8586
+)
+"mOOLtoir3.ml" 249 8292 8300 "mOOLtoir3.ml" 249 8292 8322
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 250 8327 8333 "mOOLtoir3.ml" 250 8327 8352
+type(
+  MOOL_structs.class_name ->
+  MOOL_structs.mOOL_exp ->
+  bool ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref mOOLexpr_to_IR3Expr "mOOLtoir3.ml" 63 1768 1776 "mOOLtoir3.ml" 63 1768 1795
+)
+"mOOLtoir3.ml" 250 8327 8353 "mOOLtoir3.ml" 250 8327 8360
+type(
+  MOOL_structs.class_name
+)
+ident(
+  int_ref classid "mOOLtoir3.ml" 187 6031 6033 "mOOLtoir3.ml" 187 6031 6040
+)
+"mOOLtoir3.ml" 250 8327 8361 "mOOLtoir3.ml" 250 8327 8363
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  int_ref id "mOOLtoir3.ml" 248 8258 8280 "mOOLtoir3.ml" 248 8258 8282
+)
+"mOOLtoir3.ml" 250 8327 8364 "mOOLtoir3.ml" 250 8327 8369
+type(
+  bool
+)
+"mOOLtoir3.ml" 250 8327 8370 "mOOLtoir3.ml" 250 8327 8375
+type(
+  bool
+)
+"mOOLtoir3.ml" 250 8327 8332 "mOOLtoir3.ml" 250 8327 8376
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 251 8382 8391 "mOOLtoir3.ml" 251 8382 8396
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def expr3 "mOOLtoir3.ml" 253 8475 8479 "mOOLtoir3.ml" 254 8534 8586
+)
+"mOOLtoir3.ml" 251 8382 8397 "mOOLtoir3.ml" 251 8382 8405
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def exprvars "mOOLtoir3.ml" 253 8475 8479 "mOOLtoir3.ml" 254 8534 8586
+)
+"mOOLtoir3.ml" 251 8382 8406 "mOOLtoir3.ml" 251 8382 8415
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def exprstmts "mOOLtoir3.ml" 253 8475 8479 "mOOLtoir3.ml" 254 8534 8586
+)
+"mOOLtoir3.ml" 251 8382 8390 "mOOLtoir3.ml" 251 8382 8416
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 252 8421 8427 "mOOLtoir3.ml" 252 8421 8446
+type(
+  MOOL_structs.class_name ->
+  MOOL_structs.mOOL_exp ->
+  bool ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref mOOLexpr_to_IR3Expr "mOOLtoir3.ml" 63 1768 1776 "mOOLtoir3.ml" 63 1768 1795
+)
+"mOOLtoir3.ml" 252 8421 8447 "mOOLtoir3.ml" 252 8421 8454
+type(
+  MOOL_structs.class_name
+)
+ident(
+  int_ref classid "mOOLtoir3.ml" 187 6031 6033 "mOOLtoir3.ml" 187 6031 6040
+)
+"mOOLtoir3.ml" 252 8421 8455 "mOOLtoir3.ml" 252 8421 8456
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  int_ref e "mOOLtoir3.ml" 248 8258 8283 "mOOLtoir3.ml" 248 8258 8284
+)
+"mOOLtoir3.ml" 252 8421 8457 "mOOLtoir3.ml" 252 8421 8462
+type(
+  bool
+)
+"mOOLtoir3.ml" 252 8421 8463 "mOOLtoir3.ml" 252 8421 8468
+type(
+  bool
+)
+"mOOLtoir3.ml" 252 8421 8426 "mOOLtoir3.ml" 252 8421 8469
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 253 8475 8483 "mOOLtoir3.ml" 253 8475 8492
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  def assignIR3 "mOOLtoir3.ml" 254 8534 8538 "mOOLtoir3.ml" 254 8534 8586
+)
+"mOOLtoir3.ml" 253 8475 8514 "mOOLtoir3.ml" 253 8475 8519
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref idIR3 "mOOLtoir3.ml" 249 8292 8301 "mOOLtoir3.ml" 249 8292 8306
+)
+"mOOLtoir3.ml" 253 8475 8521 "mOOLtoir3.ml" 253 8475 8526
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref expr3 "mOOLtoir3.ml" 251 8382 8391 "mOOLtoir3.ml" 251 8382 8396
+)
+"mOOLtoir3.ml" 253 8475 8495 "mOOLtoir3.ml" 253 8475 8528
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"mOOLtoir3.ml" 254 8534 8539 "mOOLtoir3.ml" 254 8534 8545
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref idvars "mOOLtoir3.ml" 249 8292 8307 "mOOLtoir3.ml" 249 8292 8313
+)
+"mOOLtoir3.ml" 254 8534 8545 "mOOLtoir3.ml" 254 8534 8546
+type(
+  Ir3mOOL_structs.var_decl3 list ->
+  Ir3mOOL_structs.var_decl3 list -> Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"mOOLtoir3.ml" 254 8534 8546 "mOOLtoir3.ml" 254 8534 8554
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref exprvars "mOOLtoir3.ml" 251 8382 8397 "mOOLtoir3.ml" 251 8382 8405
+)
+"mOOLtoir3.ml" 254 8534 8539 "mOOLtoir3.ml" 254 8534 8554
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 254 8534 8556 "mOOLtoir3.ml" 254 8534 8563
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref idstmts "mOOLtoir3.ml" 249 8292 8314 "mOOLtoir3.ml" 249 8292 8321
+)
+"mOOLtoir3.ml" 254 8534 8563 "mOOLtoir3.ml" 254 8534 8564
+type(
+  Ir3mOOL_structs.ir3_stmt list ->
+  Ir3mOOL_structs.ir3_stmt list -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"mOOLtoir3.ml" 254 8534 8564 "mOOLtoir3.ml" 254 8534 8573
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref exprstmts "mOOLtoir3.ml" 251 8382 8406 "mOOLtoir3.ml" 251 8382 8415
+)
+"mOOLtoir3.ml" 254 8534 8573 "mOOLtoir3.ml" 254 8534 8574
+type(
+  Ir3mOOL_structs.ir3_stmt list ->
+  Ir3mOOL_structs.ir3_stmt list -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"mOOLtoir3.ml" 254 8534 8575 "mOOLtoir3.ml" 254 8534 8584
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  int_ref assignIR3 "mOOLtoir3.ml" 253 8475 8483 "mOOLtoir3.ml" 253 8475 8492
+)
+"mOOLtoir3.ml" 254 8534 8574 "mOOLtoir3.ml" 254 8534 8585
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 254 8534 8564 "mOOLtoir3.ml" 254 8534 8585
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 254 8534 8556 "mOOLtoir3.ml" 254 8534 8585
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 254 8534 8538 "mOOLtoir3.ml" 254 8534 8586
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 253 8475 8479 "mOOLtoir3.ml" 254 8534 8586
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 251 8382 8386 "mOOLtoir3.ml" 254 8534 8586
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 249 8292 8296 "mOOLtoir3.ml" 254 8534 8586
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 255 8589 8603 "mOOLtoir3.ml" 255 8589 8605
+type(
+  MOOL_structs.var_id
+)
+ident(
+  def id "mOOLtoir3.ml" 256 8611 8615 "mOOLtoir3.ml" 259 8755 8785
+)
+"mOOLtoir3.ml" 255 8589 8594 "mOOLtoir3.ml" 255 8589 8605
+type(
+  MOOL_structs.mOOL_stmt
+)
+"mOOLtoir3.ml" 256 8611 8620 "mOOLtoir3.ml" 256 8611 8625
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def idir3 "mOOLtoir3.ml" 258 8696 8700 "mOOLtoir3.ml" 259 8755 8785
+)
+"mOOLtoir3.ml" 256 8611 8626 "mOOLtoir3.ml" 256 8611 8632
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def idvars "mOOLtoir3.ml" 258 8696 8700 "mOOLtoir3.ml" 259 8755 8785
+)
+"mOOLtoir3.ml" 256 8611 8633 "mOOLtoir3.ml" 256 8611 8640
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def idstmts "mOOLtoir3.ml" 258 8696 8700 "mOOLtoir3.ml" 259 8755 8785
+)
+"mOOLtoir3.ml" 256 8611 8619 "mOOLtoir3.ml" 256 8611 8641
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 257 8646 8652 "mOOLtoir3.ml" 257 8646 8672
+type(
+  MOOL_structs.class_name ->
+  MOOL_structs.var_id ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref mOOLvarid_to_IR3Expr "mOOLtoir3.ml" 46 1298 1302 "mOOLtoir3.ml" 46 1298 1322
+)
+"mOOLtoir3.ml" 257 8646 8673 "mOOLtoir3.ml" 257 8646 8680
+type(
+  MOOL_structs.class_name
+)
+ident(
+  int_ref classid "mOOLtoir3.ml" 187 6031 6033 "mOOLtoir3.ml" 187 6031 6040
+)
+"mOOLtoir3.ml" 257 8646 8681 "mOOLtoir3.ml" 257 8646 8683
+type(
+  MOOL_structs.var_id
+)
+ident(
+  int_ref id "mOOLtoir3.ml" 255 8589 8603 "mOOLtoir3.ml" 255 8589 8605
+)
+"mOOLtoir3.ml" 257 8646 8684 "mOOLtoir3.ml" 257 8646 8688
+type(
+  bool
+)
+"mOOLtoir3.ml" 257 8646 8651 "mOOLtoir3.ml" 257 8646 8689
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 258 8696 8704 "mOOLtoir3.ml" 258 8696 8711
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  def readIR3 "mOOLtoir3.ml" 259 8755 8759 "mOOLtoir3.ml" 259 8755 8785
+)
+"mOOLtoir3.ml" 258 8696 8726 "mOOLtoir3.ml" 258 8696 8741
+type(
+  Ir3mOOL_structs.ir3_exp -> Ir3mOOL_structs.id3
+)
+ident(
+  int_ref iR3Expr_get_id3 "mOOLtoir3.ml" 23 600 604 "mOOLtoir3.ml" 23 600 619
+)
+"mOOLtoir3.ml" 258 8696 8742 "mOOLtoir3.ml" 258 8696 8747
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref idir3 "mOOLtoir3.ml" 256 8611 8620 "mOOLtoir3.ml" 256 8611 8625
+)
+"mOOLtoir3.ml" 258 8696 8725 "mOOLtoir3.ml" 258 8696 8748
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.id3
+)
+"mOOLtoir3.ml" 258 8696 8714 "mOOLtoir3.ml" 258 8696 8749
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"mOOLtoir3.ml" 259 8755 8760 "mOOLtoir3.ml" 259 8755 8766
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref idvars "mOOLtoir3.ml" 256 8611 8626 "mOOLtoir3.ml" 256 8611 8632
+)
+"mOOLtoir3.ml" 259 8755 8767 "mOOLtoir3.ml" 259 8755 8774
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref idstmts "mOOLtoir3.ml" 256 8611 8633 "mOOLtoir3.ml" 256 8611 8640
+)
+"mOOLtoir3.ml" 259 8755 8774 "mOOLtoir3.ml" 259 8755 8775
+type(
+  Ir3mOOL_structs.ir3_stmt list ->
+  Ir3mOOL_structs.ir3_stmt list -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"mOOLtoir3.ml" 259 8755 8776 "mOOLtoir3.ml" 259 8755 8783
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  int_ref readIR3 "mOOLtoir3.ml" 258 8696 8704 "mOOLtoir3.ml" 258 8696 8711
+)
+"mOOLtoir3.ml" 259 8755 8775 "mOOLtoir3.ml" 259 8755 8784
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 259 8755 8767 "mOOLtoir3.ml" 259 8755 8784
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 259 8755 8759 "mOOLtoir3.ml" 259 8755 8785
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 258 8696 8700 "mOOLtoir3.ml" 259 8755 8785
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 256 8611 8615 "mOOLtoir3.ml" 259 8755 8785
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 260 8787 8802 "mOOLtoir3.ml" 260 8787 8803
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  def e "mOOLtoir3.ml" 261 8810 8814 "mOOLtoir3.ml" 264 8964 8999
+)
+"mOOLtoir3.ml" 260 8787 8792 "mOOLtoir3.ml" 260 8787 8803
+type(
+  MOOL_structs.mOOL_stmt
+)
+"mOOLtoir3.ml" 261 8810 8819 "mOOLtoir3.ml" 261 8810 8824
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def expr3 "mOOLtoir3.ml" 263 8902 8906 "mOOLtoir3.ml" 264 8964 8999
+)
+"mOOLtoir3.ml" 261 8810 8825 "mOOLtoir3.ml" 261 8810 8833
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def exprvars "mOOLtoir3.ml" 263 8902 8906 "mOOLtoir3.ml" 264 8964 8999
+)
+"mOOLtoir3.ml" 261 8810 8834 "mOOLtoir3.ml" 261 8810 8843
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def exprstmts "mOOLtoir3.ml" 263 8902 8906 "mOOLtoir3.ml" 264 8964 8999
+)
+"mOOLtoir3.ml" 261 8810 8818 "mOOLtoir3.ml" 261 8810 8844
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 262 8849 8855 "mOOLtoir3.ml" 262 8849 8874
+type(
+  MOOL_structs.class_name ->
+  MOOL_structs.mOOL_exp ->
+  bool ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref mOOLexpr_to_IR3Expr "mOOLtoir3.ml" 63 1768 1776 "mOOLtoir3.ml" 63 1768 1795
+)
+"mOOLtoir3.ml" 262 8849 8875 "mOOLtoir3.ml" 262 8849 8882
+type(
+  MOOL_structs.class_name
+)
+ident(
+  int_ref classid "mOOLtoir3.ml" 187 6031 6033 "mOOLtoir3.ml" 187 6031 6040
+)
+"mOOLtoir3.ml" 262 8849 8883 "mOOLtoir3.ml" 262 8849 8884
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  int_ref e "mOOLtoir3.ml" 260 8787 8802 "mOOLtoir3.ml" 260 8787 8803
+)
+"mOOLtoir3.ml" 262 8849 8885 "mOOLtoir3.ml" 262 8849 8889
+type(
+  bool
+)
+"mOOLtoir3.ml" 262 8849 8890 "mOOLtoir3.ml" 262 8849 8895
+type(
+  bool
+)
+"mOOLtoir3.ml" 262 8849 8854 "mOOLtoir3.ml" 262 8849 8896
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 263 8902 8910 "mOOLtoir3.ml" 263 8902 8918
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  def printIR3 "mOOLtoir3.ml" 264 8964 8968 "mOOLtoir3.ml" 264 8964 8999
+)
+"mOOLtoir3.ml" 263 8902 8934 "mOOLtoir3.ml" 263 8902 8950
+type(
+  Ir3mOOL_structs.ir3_exp -> Ir3mOOL_structs.idc3
+)
+ident(
+  int_ref iR3Expr_get_idc3 "mOOLtoir3.ml" 18 483 487 "mOOLtoir3.ml" 18 483 503
+)
+"mOOLtoir3.ml" 263 8902 8951 "mOOLtoir3.ml" 263 8902 8956
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref expr3 "mOOLtoir3.ml" 261 8810 8819 "mOOLtoir3.ml" 261 8810 8824
+)
+"mOOLtoir3.ml" 263 8902 8933 "mOOLtoir3.ml" 263 8902 8957
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.idc3
+)
+"mOOLtoir3.ml" 263 8902 8921 "mOOLtoir3.ml" 263 8902 8958
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"mOOLtoir3.ml" 264 8964 8969 "mOOLtoir3.ml" 264 8964 8977
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref exprvars "mOOLtoir3.ml" 261 8810 8825 "mOOLtoir3.ml" 261 8810 8833
+)
+"mOOLtoir3.ml" 264 8964 8978 "mOOLtoir3.ml" 264 8964 8987
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref exprstmts "mOOLtoir3.ml" 261 8810 8834 "mOOLtoir3.ml" 261 8810 8843
+)
+"mOOLtoir3.ml" 264 8964 8987 "mOOLtoir3.ml" 264 8964 8988
+type(
+  Ir3mOOL_structs.ir3_stmt list ->
+  Ir3mOOL_structs.ir3_stmt list -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"mOOLtoir3.ml" 264 8964 8989 "mOOLtoir3.ml" 264 8964 8997
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  int_ref printIR3 "mOOLtoir3.ml" 263 8902 8910 "mOOLtoir3.ml" 263 8902 8918
+)
+"mOOLtoir3.ml" 264 8964 8988 "mOOLtoir3.ml" 264 8964 8998
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 264 8964 8978 "mOOLtoir3.ml" 264 8964 8998
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 264 8964 8968 "mOOLtoir3.ml" 264 8964 8999
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 263 8902 8906 "mOOLtoir3.ml" 264 8964 8999
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 261 8810 8814 "mOOLtoir3.ml" 264 8964 8999
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 265 9001 9017 "mOOLtoir3.ml" 265 9001 9018
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  def e "mOOLtoir3.ml" 266 9025 9029 "mOOLtoir3.ml" 269 9162 9197
+)
+"mOOLtoir3.ml" 265 9001 9006 "mOOLtoir3.ml" 265 9001 9018
+type(
+  MOOL_structs.mOOL_stmt
+)
+"mOOLtoir3.ml" 266 9025 9034 "mOOLtoir3.ml" 266 9025 9039
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  def expr3 "mOOLtoir3.ml" 268 9118 9122 "mOOLtoir3.ml" 269 9162 9197
+)
+"mOOLtoir3.ml" 266 9025 9040 "mOOLtoir3.ml" 266 9025 9048
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def exprvars "mOOLtoir3.ml" 268 9118 9122 "mOOLtoir3.ml" 269 9162 9197
+)
+"mOOLtoir3.ml" 266 9025 9049 "mOOLtoir3.ml" 266 9025 9058
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def exprstmts "mOOLtoir3.ml" 268 9118 9122 "mOOLtoir3.ml" 269 9162 9197
+)
+"mOOLtoir3.ml" 266 9025 9033 "mOOLtoir3.ml" 266 9025 9059
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 267 9064 9070 "mOOLtoir3.ml" 267 9064 9089
+type(
+  MOOL_structs.class_name ->
+  MOOL_structs.mOOL_exp ->
+  bool ->
+  bool ->
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref mOOLexpr_to_IR3Expr "mOOLtoir3.ml" 63 1768 1776 "mOOLtoir3.ml" 63 1768 1795
+)
+"mOOLtoir3.ml" 267 9064 9090 "mOOLtoir3.ml" 267 9064 9097
+type(
+  MOOL_structs.class_name
+)
+ident(
+  int_ref classid "mOOLtoir3.ml" 187 6031 6033 "mOOLtoir3.ml" 187 6031 6040
+)
+"mOOLtoir3.ml" 267 9064 9098 "mOOLtoir3.ml" 267 9064 9099
+type(
+  MOOL_structs.mOOL_exp
+)
+ident(
+  int_ref e "mOOLtoir3.ml" 265 9001 9017 "mOOLtoir3.ml" 265 9001 9018
+)
+"mOOLtoir3.ml" 267 9064 9100 "mOOLtoir3.ml" 267 9064 9105
+type(
+  bool
+)
+"mOOLtoir3.ml" 267 9064 9106 "mOOLtoir3.ml" 267 9064 9111
+type(
+  bool
+)
+"mOOLtoir3.ml" 267 9064 9069 "mOOLtoir3.ml" 267 9064 9112
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_exp * Ir3mOOL_structs.var_decl3 list *
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 268 9118 9126 "mOOLtoir3.ml" 268 9118 9134
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  def printIR3 "mOOLtoir3.ml" 269 9162 9166 "mOOLtoir3.ml" 269 9162 9197
+)
+"mOOLtoir3.ml" 268 9118 9150 "mOOLtoir3.ml" 268 9118 9155
+type(
+  Ir3mOOL_structs.ir3_exp
+)
+ident(
+  int_ref expr3 "mOOLtoir3.ml" 266 9025 9034 "mOOLtoir3.ml" 266 9025 9039
+)
+"mOOLtoir3.ml" 268 9118 9137 "mOOLtoir3.ml" 268 9118 9156
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+"mOOLtoir3.ml" 269 9162 9167 "mOOLtoir3.ml" 269 9162 9175
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref exprvars "mOOLtoir3.ml" 266 9025 9040 "mOOLtoir3.ml" 266 9025 9048
+)
+"mOOLtoir3.ml" 269 9162 9176 "mOOLtoir3.ml" 269 9162 9185
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref exprstmts "mOOLtoir3.ml" 266 9025 9049 "mOOLtoir3.ml" 266 9025 9058
+)
+"mOOLtoir3.ml" 269 9162 9185 "mOOLtoir3.ml" 269 9162 9186
+type(
+  Ir3mOOL_structs.ir3_stmt list ->
+  Ir3mOOL_structs.ir3_stmt list -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"mOOLtoir3.ml" 269 9162 9187 "mOOLtoir3.ml" 269 9162 9195
+type(
+  Ir3mOOL_structs.ir3_stmt
+)
+ident(
+  int_ref printIR3 "mOOLtoir3.ml" 268 9118 9126 "mOOLtoir3.ml" 268 9118 9134
+)
+"mOOLtoir3.ml" 269 9162 9186 "mOOLtoir3.ml" 269 9162 9196
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 269 9162 9176 "mOOLtoir3.ml" 269 9162 9196
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 269 9162 9166 "mOOLtoir3.ml" 269 9162 9197
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 268 9118 9122 "mOOLtoir3.ml" 269 9162 9197
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 266 9025 9029 "mOOLtoir3.ml" 269 9162 9197
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 196 6265 6268 "mOOLtoir3.ml" 269 9162 9197
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 271 9204 9216 "mOOLtoir3.ml" 271 9204 9220
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def vars "mOOLtoir3.ml" 272 9245 9249 "mOOLtoir3.ml" 274 9331 9365
+)
+"mOOLtoir3.ml" 271 9204 9221 "mOOLtoir3.ml" 271 9204 9226
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def stmts "mOOLtoir3.ml" 272 9245 9249 "mOOLtoir3.ml" 274 9331 9365
+)
+"mOOLtoir3.ml" 271 9204 9215 "mOOLtoir3.ml" 271 9204 9227
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 271 9204 9231 "mOOLtoir3.ml" 271 9204 9237
+type(
+  MOOL_structs.mOOL_stmt ->
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref helper "mOOLtoir3.ml" 194 6202 6213 "mOOLtoir3.ml" 194 6202 6219
+)
+"mOOLtoir3.ml" 271 9204 9238 "mOOLtoir3.ml" 271 9204 9239
+type(
+  MOOL_structs.mOOL_stmt
+)
+ident(
+  int_ref s "mOOLtoir3.ml" 193 6181 6185 "mOOLtoir3.ml" 193 6181 6186
+)
+"mOOLtoir3.ml" 271 9204 9230 "mOOLtoir3.ml" 271 9204 9240
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 272 9245 9254 "mOOLtoir3.ml" 272 9245 9262
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def tailvars "mOOLtoir3.ml" 274 9331 9334 "mOOLtoir3.ml" 274 9331 9365
+)
+"mOOLtoir3.ml" 272 9245 9263 "mOOLtoir3.ml" 272 9245 9272
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def tailstmts "mOOLtoir3.ml" 274 9331 9334 "mOOLtoir3.ml" 274 9331 9365
+)
+"mOOLtoir3.ml" 272 9245 9253 "mOOLtoir3.ml" 272 9245 9273
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 273 9278 9282 "mOOLtoir3.ml" 273 9278 9303
+type(
+  MOOL_structs.class_name ->
+  MOOL_structs.md_decl ->
+  MOOL_structs.mOOL_stmt list ->
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref mOOLstmts_to_IR3Stmts "mOOLtoir3.ml" 186 5999 6007 "mOOLtoir3.ml" 186 5999 6028
+)
+"mOOLtoir3.ml" 273 9278 9304 "mOOLtoir3.ml" 273 9278 9311
+type(
+  MOOL_structs.class_name
+)
+ident(
+  int_ref classid "mOOLtoir3.ml" 187 6031 6033 "mOOLtoir3.ml" 187 6031 6040
+)
+"mOOLtoir3.ml" 273 9278 9312 "mOOLtoir3.ml" 273 9278 9316
+type(
+  MOOL_structs.md_decl
+)
+ident(
+  int_ref mthd "mOOLtoir3.ml" 188 6056 6058 "mOOLtoir3.ml" 188 6056 6062
+)
+"mOOLtoir3.ml" 273 9278 9317 "mOOLtoir3.ml" 273 9278 9325
+type(
+  MOOL_structs.mOOL_stmt list
+)
+ident(
+  int_ref tail_lst "mOOLtoir3.ml" 193 6181 6188 "mOOLtoir3.ml" 193 6181 6196
+)
+"mOOLtoir3.ml" 273 9278 9281 "mOOLtoir3.ml" 273 9278 9326
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 274 9331 9335 "mOOLtoir3.ml" 274 9331 9339
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref vars "mOOLtoir3.ml" 271 9204 9216 "mOOLtoir3.ml" 271 9204 9220
+)
+"mOOLtoir3.ml" 274 9331 9339 "mOOLtoir3.ml" 274 9331 9340
+type(
+  Ir3mOOL_structs.var_decl3 list ->
+  Ir3mOOL_structs.var_decl3 list -> Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"mOOLtoir3.ml" 274 9331 9340 "mOOLtoir3.ml" 274 9331 9348
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref tailvars "mOOLtoir3.ml" 272 9245 9254 "mOOLtoir3.ml" 272 9245 9262
+)
+"mOOLtoir3.ml" 274 9331 9335 "mOOLtoir3.ml" 274 9331 9348
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 274 9331 9349 "mOOLtoir3.ml" 274 9331 9354
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref stmts "mOOLtoir3.ml" 271 9204 9221 "mOOLtoir3.ml" 271 9204 9226
+)
+"mOOLtoir3.ml" 274 9331 9354 "mOOLtoir3.ml" 274 9331 9355
+type(
+  Ir3mOOL_structs.ir3_stmt list ->
+  Ir3mOOL_structs.ir3_stmt list -> Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"mOOLtoir3.ml" 274 9331 9355 "mOOLtoir3.ml" 274 9331 9364
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref tailstmts "mOOLtoir3.ml" 272 9245 9263 "mOOLtoir3.ml" 272 9245 9272
+)
+"mOOLtoir3.ml" 274 9331 9349 "mOOLtoir3.ml" 274 9331 9364
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 274 9331 9334 "mOOLtoir3.ml" 274 9331 9365
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 272 9245 9249 "mOOLtoir3.ml" 274 9331 9365
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 271 9204 9211 "mOOLtoir3.ml" 274 9331 9365
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 194 6202 6205 "mOOLtoir3.ml" 274 9331 9365
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 191 6141 6142 "mOOLtoir3.ml" 274 9331 9365
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 277 9405 9409 "mOOLtoir3.ml" 277 9405 9427
+type(
+  MOOL_structs.class_name -> MOOL_structs.md_decl -> Ir3mOOL_structs.md_decl3
+)
+ident(
+  def mOOL_mddecl_to_IR3 "mOOLtoir3.ml" 290 9791 9791 "mOOLtoir3.ml" 1 0 -1
+)
+"mOOLtoir3.ml" 277 9405 9428 "mOOLtoir3.ml" 277 9405 9433
+type(
+  MOOL_structs.class_name
+)
+ident(
+  def cname "mOOLtoir3.ml" 277 9405 9434 "mOOLtoir3.ml" 287 9744 9747
+)
+"mOOLtoir3.ml" 277 9405 9434 "mOOLtoir3.ml" 277 9405 9435
+type(
+  MOOL_structs.md_decl
+)
+ident(
+  def m "mOOLtoir3.ml" 278 9441 9442 "mOOLtoir3.ml" 287 9744 9747
+)
+"mOOLtoir3.ml" 278 9441 9447 "mOOLtoir3.ml" 278 9441 9454
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  def newvars "mOOLtoir3.ml" 280 9512 9516 "mOOLtoir3.ml" 287 9744 9747
+)
+"mOOLtoir3.ml" 278 9441 9455 "mOOLtoir3.ml" 278 9441 9463
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  def newstmts "mOOLtoir3.ml" 280 9512 9516 "mOOLtoir3.ml" 287 9744 9747
+)
+"mOOLtoir3.ml" 278 9441 9446 "mOOLtoir3.ml" 278 9441 9464
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 279 9469 9472 "mOOLtoir3.ml" 279 9469 9493
+type(
+  MOOL_structs.class_name ->
+  MOOL_structs.md_decl ->
+  MOOL_structs.mOOL_stmt list ->
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref mOOLstmts_to_IR3Stmts "mOOLtoir3.ml" 186 5999 6007 "mOOLtoir3.ml" 186 5999 6028
+)
+"mOOLtoir3.ml" 279 9469 9494 "mOOLtoir3.ml" 279 9469 9499
+type(
+  MOOL_structs.class_name
+)
+ident(
+  int_ref cname "mOOLtoir3.ml" 277 9405 9428 "mOOLtoir3.ml" 277 9405 9433
+)
+"mOOLtoir3.ml" 279 9469 9500 "mOOLtoir3.ml" 279 9469 9501
+type(
+  MOOL_structs.md_decl
+)
+ident(
+  int_ref m "mOOLtoir3.ml" 277 9405 9434 "mOOLtoir3.ml" 277 9405 9435
+)
+"mOOLtoir3.ml" 279 9469 9502 "mOOLtoir3.ml" 279 9469 9503
+type(
+  MOOL_structs.md_decl
+)
+ident(
+  int_ref m "mOOLtoir3.ml" 277 9405 9434 "mOOLtoir3.ml" 277 9405 9435
+)
+"mOOLtoir3.ml" 279 9469 9502 "mOOLtoir3.ml" 279 9469 9509
+type(
+  MOOL_structs.mOOL_stmt list
+)
+"mOOLtoir3.ml" 279 9469 9471 "mOOLtoir3.ml" 279 9469 9510
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.var_decl3 list * Ir3mOOL_structs.ir3_stmt list
+)
+"mOOLtoir3.ml" 280 9512 9523 "mOOLtoir3.ml" 280 9512 9539
+type(
+  MOOL_structs.var_id -> Ir3mOOL_structs.id3
+)
+ident(
+  ext_ref MOOL_structs.string_of_var_id
+)
+"mOOLtoir3.ml" 280 9512 9540 "mOOLtoir3.ml" 280 9512 9541
+type(
+  MOOL_structs.md_decl
+)
+ident(
+  int_ref m "mOOLtoir3.ml" 277 9405 9434 "mOOLtoir3.ml" 277 9405 9435
+)
+"mOOLtoir3.ml" 280 9512 9540 "mOOLtoir3.ml" 280 9512 9547
+type(
+  MOOL_structs.var_id
+)
+"mOOLtoir3.ml" 280 9512 9523 "mOOLtoir3.ml" 280 9512 9547
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.id3
+)
+"mOOLtoir3.ml" 281 9550 9562 "mOOLtoir3.ml" 281 9550 9563
+type(
+  MOOL_structs.md_decl
+)
+ident(
+  int_ref m "mOOLtoir3.ml" 277 9405 9434 "mOOLtoir3.ml" 277 9405 9435
+)
+"mOOLtoir3.ml" 281 9550 9562 "mOOLtoir3.ml" 281 9550 9571
+type(
+  Ir3mOOL_structs.ir3_type
+)
+"mOOLtoir3.ml" 282 9575 9595 "mOOLtoir3.ml" 282 9575 9600
+type(
+  MOOL_structs.class_name
+)
+ident(
+  int_ref cname "mOOLtoir3.ml" 277 9405 9428 "mOOLtoir3.ml" 277 9405 9433
+)
+"mOOLtoir3.ml" 282 9575 9587 "mOOLtoir3.ml" 282 9575 9600
+type(
+  Ir3mOOL_structs.ir3_type
+)
+"mOOLtoir3.ml" 282 9575 9602 "mOOLtoir3.ml" 282 9575 9608
+type(
+  Ir3mOOL_structs.id3
+)
+"mOOLtoir3.ml" 282 9575 9586 "mOOLtoir3.ml" 282 9575 9609
+type(
+  Ir3mOOL_structs.var_decl3
+)
+"mOOLtoir3.ml" 283 9613 9617 "mOOLtoir3.ml" 283 9613 9640
+type(
+  MOOL_structs.var_decl list -> Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref mOOLvar_decl_lst_to_ID3 "mOOLtoir3.ml" 148 4945 4949 "mOOLtoir3.ml" 148 4945 4972
+)
+"mOOLtoir3.ml" 283 9613 9641 "mOOLtoir3.ml" 283 9613 9642
+type(
+  MOOL_structs.md_decl
+)
+ident(
+  int_ref m "mOOLtoir3.ml" 277 9405 9434 "mOOLtoir3.ml" 277 9405 9435
+)
+"mOOLtoir3.ml" 283 9613 9641 "mOOLtoir3.ml" 283 9613 9649
+type(
+  MOOL_structs.var_decl list
+)
+"mOOLtoir3.ml" 283 9613 9616 "mOOLtoir3.ml" 283 9613 9650
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 282 9575 9586 "mOOLtoir3.ml" 283 9613 9650
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 285 9669 9673 "mOOLtoir3.ml" 285 9669 9696
+type(
+  MOOL_structs.var_decl list -> Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref mOOLvar_decl_lst_to_ID3 "mOOLtoir3.ml" 148 4945 4949 "mOOLtoir3.ml" 148 4945 4972
+)
+"mOOLtoir3.ml" 285 9669 9697 "mOOLtoir3.ml" 285 9669 9698
+type(
+  MOOL_structs.md_decl
+)
+ident(
+  int_ref m "mOOLtoir3.ml" 277 9405 9434 "mOOLtoir3.ml" 277 9405 9435
+)
+"mOOLtoir3.ml" 285 9669 9697 "mOOLtoir3.ml" 285 9669 9708
+type(
+  MOOL_structs.var_decl list
+)
+"mOOLtoir3.ml" 285 9669 9672 "mOOLtoir3.ml" 285 9669 9709
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 285 9669 9709 "mOOLtoir3.ml" 285 9669 9710
+type(
+  Ir3mOOL_structs.var_decl3 list ->
+  Ir3mOOL_structs.var_decl3 list -> Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"mOOLtoir3.ml" 285 9669 9710 "mOOLtoir3.ml" 285 9669 9717
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref newvars "mOOLtoir3.ml" 278 9441 9447 "mOOLtoir3.ml" 278 9441 9454
+)
+"mOOLtoir3.ml" 285 9669 9672 "mOOLtoir3.ml" 285 9669 9717
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 286 9721 9733 "mOOLtoir3.ml" 286 9721 9741
+type(
+  Ir3mOOL_structs.ir3_stmt list
+)
+ident(
+  int_ref newstmts "mOOLtoir3.ml" 278 9441 9455 "mOOLtoir3.ml" 278 9441 9463
+)
+"mOOLtoir3.ml" 280 9512 9516 "mOOLtoir3.ml" 287 9744 9747
+type(
+  Ir3mOOL_structs.md_decl3
+)
+"mOOLtoir3.ml" 278 9441 9442 "mOOLtoir3.ml" 287 9744 9747
+type(
+  Ir3mOOL_structs.md_decl3
+)
+"mOOLtoir3.ml" 290 9791 9795 "mOOLtoir3.ml" 290 9791 9814
+type(
+  MOOL_structs.mOOL_program -> Ir3mOOL_structs.ir3_program
+)
+ident(
+  def mOOL_program_to_IR3 "mOOLtoir3.ml" 317 10615 10619 "mOOLtoir3.ml" 1 0 -1
+)
+"mOOLtoir3.ml" 290 9791 9816 "mOOLtoir3.ml" 290 9791 9817
+type(
+  MOOL_structs.mOOL_program
+)
+ident(
+  def p "mOOLtoir3.ml" 290 9791 9831 "mOOLtoir3.ml" 317 10615 10619
+)
+"mOOLtoir3.ml" 291 9846 9851 "mOOLtoir3.ml" 291 9846 9873
+type(
+  MOOL_structs.class_main ->
+  (MOOL_structs.class_name * 'a list) * Ir3mOOL_structs.md_decl3
+)
+ident(
+  def mOOL_class_main_to_IR3 "mOOLtoir3.ml" 295 9968 9969 "mOOLtoir3.ml" 317 10615 10619
+)
+"mOOLtoir3.ml" 292 9876 9880 "mOOLtoir3.ml" 292 9876 9885
+type(
+  MOOL_structs.class_name
+)
+ident(
+  def cname "mOOLtoir3.ml" 293 9909 9912 "mOOLtoir3.ml" 294 9926 9963
+)
+"mOOLtoir3.ml" 292 9876 9886 "mOOLtoir3.ml" 292 9876 9891
+type(
+  MOOL_structs.md_decl
+)
+ident(
+  def mmthd "mOOLtoir3.ml" 293 9909 9912 "mOOLtoir3.ml" 294 9926 9963
+)
+"mOOLtoir3.ml" 292 9876 9879 "mOOLtoir3.ml" 292 9876 9892
+type(
+  MOOL_structs.class_main
+)
+"mOOLtoir3.ml" 293 9909 9914 "mOOLtoir3.ml" 293 9909 9919
+type(
+  MOOL_structs.class_name
+)
+ident(
+  int_ref cname "mOOLtoir3.ml" 292 9876 9880 "mOOLtoir3.ml" 292 9876 9885
+)
+"mOOLtoir3.ml" 293 9909 9920 "mOOLtoir3.ml" 293 9909 9922
+type(
+  'a list
+)
+"mOOLtoir3.ml" 293 9909 9913 "mOOLtoir3.ml" 293 9909 9923
+type(
+  MOOL_structs.class_name * 'a list
+)
+"mOOLtoir3.ml" 294 9926 9930 "mOOLtoir3.ml" 294 9926 9948
+type(
+  MOOL_structs.class_name -> MOOL_structs.md_decl -> Ir3mOOL_structs.md_decl3
+)
+ident(
+  int_ref mOOL_mddecl_to_IR3 "mOOLtoir3.ml" 277 9405 9409 "mOOLtoir3.ml" 277 9405 9427
+)
+"mOOLtoir3.ml" 294 9926 9949 "mOOLtoir3.ml" 294 9926 9954
+type(
+  MOOL_structs.class_name
+)
+ident(
+  int_ref cname "mOOLtoir3.ml" 292 9876 9880 "mOOLtoir3.ml" 292 9876 9885
+)
+"mOOLtoir3.ml" 294 9926 9955 "mOOLtoir3.ml" 294 9926 9960
+type(
+  MOOL_structs.md_decl
+)
+ident(
+  int_ref mmthd "mOOLtoir3.ml" 292 9876 9886 "mOOLtoir3.ml" 292 9876 9891
+)
+"mOOLtoir3.ml" 294 9926 9929 "mOOLtoir3.ml" 294 9926 9962
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.md_decl3
+)
+"mOOLtoir3.ml" 293 9909 9912 "mOOLtoir3.ml" 294 9926 9963
+type(
+  (MOOL_structs.class_name * 'a list) * Ir3mOOL_structs.md_decl3
+)
+"mOOLtoir3.ml" 295 9968 9977 "mOOLtoir3.ml" 295 9968 9999
+type(
+  MOOL_structs.class_decl ->
+  (MOOL_structs.class_name * Ir3mOOL_structs.var_decl3 list) *
+  Ir3mOOL_structs.md_decl3 list
+)
+ident(
+  def mOOL_class_decl_to_IR3 "mOOLtoir3.ml" 295 9968 9969 "mOOLtoir3.ml" 317 10615 10619
+)
+"mOOLtoir3.ml" 296 10002 10006 "mOOLtoir3.ml" 296 10002 10011
+type(
+  MOOL_structs.class_name
+)
+ident(
+  def cname "mOOLtoir3.ml" 297 10041 10043 "mOOLtoir3.ml" 305 10246 10265
+)
+"mOOLtoir3.ml" 296 10002 10012 "mOOLtoir3.ml" 296 10002 10017
+type(
+  MOOL_structs.var_decl list
+)
+ident(
+  def cvars "mOOLtoir3.ml" 297 10041 10043 "mOOLtoir3.ml" 305 10246 10265
+)
+"mOOLtoir3.ml" 296 10002 10018 "mOOLtoir3.ml" 296 10002 10024
+type(
+  MOOL_structs.md_decl list
+)
+ident(
+  def cmthds "mOOLtoir3.ml" 297 10041 10043 "mOOLtoir3.ml" 305 10246 10265
+)
+"mOOLtoir3.ml" 296 10002 10005 "mOOLtoir3.ml" 296 10002 10025
+type(
+  MOOL_structs.class_decl
+)
+"mOOLtoir3.ml" 297 10041 10051 "mOOLtoir3.ml" 297 10041 10057
+type(
+  MOOL_structs.md_decl list -> Ir3mOOL_structs.md_decl3 list
+)
+ident(
+  def helper "mOOLtoir3.ml" 297 10041 10043 "mOOLtoir3.ml" 305 10246 10265
+)
+"mOOLtoir3.ml" 297 10041 10058 "mOOLtoir3.ml" 297 10041 10065
+type(
+  MOOL_structs.md_decl list
+)
+ident(
+  def mthdlst "mOOLtoir3.ml" 298 10069 10072 "mOOLtoir3.ml" 302 10167 10191
+)
+"mOOLtoir3.ml" 298 10069 10078 "mOOLtoir3.ml" 298 10069 10085
+type(
+  MOOL_structs.md_decl list
+)
+ident(
+  int_ref mthdlst "mOOLtoir3.ml" 297 10041 10058 "mOOLtoir3.ml" 297 10041 10065
+)
+"mOOLtoir3.ml" 299 10093 10098 "mOOLtoir3.ml" 299 10093 10100
+type(
+  MOOL_structs.md_decl list
+)
+"mOOLtoir3.ml" 299 10093 10104 "mOOLtoir3.ml" 299 10093 10106
+type(
+  Ir3mOOL_structs.md_decl3 list
+)
+"mOOLtoir3.ml" 300 10108 10113 "mOOLtoir3.ml" 300 10108 10114
+type(
+  MOOL_structs.md_decl
+)
+ident(
+  def m "mOOLtoir3.ml" 301 10131 10135 "mOOLtoir3.ml" 302 10167 10191
+)
+"mOOLtoir3.ml" 300 10108 10116 "mOOLtoir3.ml" 300 10108 10125
+type(
+  MOOL_structs.md_decl list
+)
+ident(
+  def tail_rest "mOOLtoir3.ml" 301 10131 10135 "mOOLtoir3.ml" 302 10167 10191
+)
+"mOOLtoir3.ml" 300 10108 10113 "mOOLtoir3.ml" 300 10108 10125
+type(
+  MOOL_structs.md_decl list
+)
+"mOOLtoir3.ml" 301 10131 10136 "mOOLtoir3.ml" 301 10131 10154
+type(
+  MOOL_structs.class_name -> MOOL_structs.md_decl -> Ir3mOOL_structs.md_decl3
+)
+ident(
+  int_ref mOOL_mddecl_to_IR3 "mOOLtoir3.ml" 277 9405 9409 "mOOLtoir3.ml" 277 9405 9427
+)
+"mOOLtoir3.ml" 301 10131 10155 "mOOLtoir3.ml" 301 10131 10160
+type(
+  MOOL_structs.class_name
+)
+ident(
+  int_ref cname "mOOLtoir3.ml" 296 10002 10006 "mOOLtoir3.ml" 296 10002 10011
+)
+"mOOLtoir3.ml" 301 10131 10161 "mOOLtoir3.ml" 301 10131 10162
+type(
+  MOOL_structs.md_decl
+)
+ident(
+  int_ref m "mOOLtoir3.ml" 300 10108 10113 "mOOLtoir3.ml" 300 10108 10114
+)
+"mOOLtoir3.ml" 301 10131 10135 "mOOLtoir3.ml" 301 10131 10163
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.md_decl3
+)
+"mOOLtoir3.ml" 302 10167 10174 "mOOLtoir3.ml" 302 10167 10180
+type(
+  MOOL_structs.md_decl list -> Ir3mOOL_structs.md_decl3 list
+)
+ident(
+  int_ref helper "mOOLtoir3.ml" 297 10041 10051 "mOOLtoir3.ml" 297 10041 10057
+)
+"mOOLtoir3.ml" 302 10167 10181 "mOOLtoir3.ml" 302 10167 10190
+type(
+  MOOL_structs.md_decl list
+)
+ident(
+  int_ref tail_rest "mOOLtoir3.ml" 300 10108 10116 "mOOLtoir3.ml" 300 10108 10125
+)
+"mOOLtoir3.ml" 302 10167 10172 "mOOLtoir3.ml" 302 10167 10191
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.md_decl3 list
+)
+"mOOLtoir3.ml" 301 10131 10135 "mOOLtoir3.ml" 302 10167 10191
+type(
+  Ir3mOOL_structs.md_decl3 list
+)
+"mOOLtoir3.ml" 298 10069 10072 "mOOLtoir3.ml" 302 10167 10191
+type(
+  Ir3mOOL_structs.md_decl3 list
+)
+"mOOLtoir3.ml" 303 10193 10200 "mOOLtoir3.ml" 303 10193 10205
+type(
+  MOOL_structs.class_name
+)
+ident(
+  int_ref cname "mOOLtoir3.ml" 296 10002 10006 "mOOLtoir3.ml" 296 10002 10011
+)
+"mOOLtoir3.ml" 304 10208 10212 "mOOLtoir3.ml" 304 10208 10235
+type(
+  MOOL_structs.var_decl list -> Ir3mOOL_structs.var_decl3 list
+)
+ident(
+  int_ref mOOLvar_decl_lst_to_ID3 "mOOLtoir3.ml" 148 4945 4949 "mOOLtoir3.ml" 148 4945 4972
+)
+"mOOLtoir3.ml" 304 10208 10236 "mOOLtoir3.ml" 304 10208 10241
+type(
+  MOOL_structs.var_decl list
+)
+ident(
+  int_ref cvars "mOOLtoir3.ml" 296 10002 10012 "mOOLtoir3.ml" 296 10002 10017
+)
+"mOOLtoir3.ml" 304 10208 10211 "mOOLtoir3.ml" 304 10208 10242
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 303 10193 10199 "mOOLtoir3.ml" 304 10208 10243
+type(
+  MOOL_structs.class_name * Ir3mOOL_structs.var_decl3 list
+)
+"mOOLtoir3.ml" 305 10246 10250 "mOOLtoir3.ml" 305 10246 10256
+type(
+  MOOL_structs.md_decl list -> Ir3mOOL_structs.md_decl3 list
+)
+ident(
+  int_ref helper "mOOLtoir3.ml" 297 10041 10051 "mOOLtoir3.ml" 297 10041 10057
+)
+"mOOLtoir3.ml" 305 10246 10257 "mOOLtoir3.ml" 305 10246 10263
+type(
+  MOOL_structs.md_decl list
+)
+ident(
+  int_ref cmthds "mOOLtoir3.ml" 296 10002 10018 "mOOLtoir3.ml" 296 10002 10024
+)
+"mOOLtoir3.ml" 305 10246 10249 "mOOLtoir3.ml" 305 10246 10264
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.md_decl3 list
+)
+"mOOLtoir3.ml" 303 10193 10198 "mOOLtoir3.ml" 305 10246 10265
+type(
+  (MOOL_structs.class_name * Ir3mOOL_structs.var_decl3 list) *
+  Ir3mOOL_structs.md_decl3 list
+)
+"mOOLtoir3.ml" 297 10041 10043 "mOOLtoir3.ml" 305 10246 10265
+type(
+  (MOOL_structs.class_name * Ir3mOOL_structs.var_decl3 list) *
+  Ir3mOOL_structs.md_decl3 list
+)
+"mOOLtoir3.ml" 308 10281 10288 "mOOLtoir3.ml" 308 10281 10297
+type(
+  MOOL_structs.class_main
+)
+ident(
+  def mainclass "mOOLtoir3.ml" 309 10317 10319 "mOOLtoir3.ml" 316 10584 10613
+)
+"mOOLtoir3.ml" 308 10281 10299 "mOOLtoir3.ml" 308 10281 10306
+type(
+  MOOL_structs.class_decl list
+)
+ident(
+  def classes "mOOLtoir3.ml" 309 10317 10319 "mOOLtoir3.ml" 316 10584 10613
+)
+"mOOLtoir3.ml" 308 10281 10287 "mOOLtoir3.ml" 308 10281 10307
+type(
+  MOOL_structs.mOOL_program
+)
+"mOOLtoir3.ml" 308 10281 10310 "mOOLtoir3.ml" 308 10281 10311
+type(
+  MOOL_structs.mOOL_program
+)
+ident(
+  int_ref p "mOOLtoir3.ml" 290 9791 9816 "mOOLtoir3.ml" 290 9791 9817
+)
+"mOOLtoir3.ml" 309 10317 10324 "mOOLtoir3.ml" 309 10317 10334
+type(
+  MOOL_structs.class_name * 'b list
+)
+ident(
+  def newmainir3 "mOOLtoir3.ml" 311 10395 10397 "mOOLtoir3.ml" 316 10584 10613
+)
+"mOOLtoir3.ml" 309 10317 10336 "mOOLtoir3.ml" 309 10317 10348
+type(
+  Ir3mOOL_structs.md_decl3
+)
+ident(
+  def newmainmdir3 "mOOLtoir3.ml" 311 10395 10397 "mOOLtoir3.ml" 316 10584 10613
+)
+"mOOLtoir3.ml" 309 10317 10323 "mOOLtoir3.ml" 309 10317 10349
+type(
+  (MOOL_structs.class_name * 'b list) * Ir3mOOL_structs.md_decl3
+)
+"mOOLtoir3.ml" 310 10353 10357 "mOOLtoir3.ml" 310 10353 10379
+type(
+  MOOL_structs.class_main ->
+  (MOOL_structs.class_name * 'b list) * Ir3mOOL_structs.md_decl3
+)
+ident(
+  int_ref mOOL_class_main_to_IR3 "mOOLtoir3.ml" 291 9846 9851 "mOOLtoir3.ml" 291 9846 9873
+)
+"mOOLtoir3.ml" 310 10353 10380 "mOOLtoir3.ml" 310 10353 10389
+type(
+  MOOL_structs.class_main
+)
+ident(
+  int_ref mainclass "mOOLtoir3.ml" 308 10281 10288 "mOOLtoir3.ml" 308 10281 10297
+)
+"mOOLtoir3.ml" 310 10353 10356 "mOOLtoir3.ml" 310 10353 10390
+call(
+  stack
+)
+type(
+  (MOOL_structs.class_name * 'b list) * Ir3mOOL_structs.md_decl3
+)
+"mOOLtoir3.ml" 311 10395 10401 "mOOLtoir3.ml" 311 10395 10417
+type(
+  ((MOOL_structs.class_name * Ir3mOOL_structs.var_decl3 list) *
+   Ir3mOOL_structs.md_decl3 list)
+  list
+)
+ident(
+  def newir3classesLst "mOOLtoir3.ml" 313 10471 10473 "mOOLtoir3.ml" 316 10584 10613
+)
+"mOOLtoir3.ml" 312 10422 10426 "mOOLtoir3.ml" 312 10422 10434
+type(
+  (MOOL_structs.class_decl ->
+   (MOOL_structs.class_name * Ir3mOOL_structs.var_decl3 list) *
+   Ir3mOOL_structs.md_decl3 list) ->
+  MOOL_structs.class_decl list ->
+  ((MOOL_structs.class_name * Ir3mOOL_structs.var_decl3 list) *
+   Ir3mOOL_structs.md_decl3 list)
+  list
+)
+ident(
+  ext_ref List.map
+)
+"mOOLtoir3.ml" 312 10422 10435 "mOOLtoir3.ml" 312 10422 10457
+type(
+  MOOL_structs.class_decl ->
+  (MOOL_structs.class_name * Ir3mOOL_structs.var_decl3 list) *
+  Ir3mOOL_structs.md_decl3 list
+)
+ident(
+  int_ref mOOL_class_decl_to_IR3 "mOOLtoir3.ml" 295 9968 9977 "mOOLtoir3.ml" 295 9968 9999
+)
+"mOOLtoir3.ml" 312 10422 10458 "mOOLtoir3.ml" 312 10422 10465
+type(
+  MOOL_structs.class_decl list
+)
+ident(
+  int_ref classes "mOOLtoir3.ml" 308 10281 10299 "mOOLtoir3.ml" 308 10281 10306
+)
+"mOOLtoir3.ml" 312 10422 10425 "mOOLtoir3.ml" 312 10422 10466
+call(
+  stack
+)
+type(
+  ((MOOL_structs.class_name * Ir3mOOL_structs.var_decl3 list) *
+   Ir3mOOL_structs.md_decl3 list)
+  list
+)
+"mOOLtoir3.ml" 313 10471 10478 "mOOLtoir3.ml" 313 10471 10488
+type(
+  (MOOL_structs.class_name * Ir3mOOL_structs.var_decl3 list) list
+)
+ident(
+  def newclasses "mOOLtoir3.ml" 315 10543 10545 "mOOLtoir3.ml" 316 10584 10613
+)
+"mOOLtoir3.ml" 313 10471 10489 "mOOLtoir3.ml" 313 10471 10499
+type(
+  Ir3mOOL_structs.md_decl3 list list
+)
+ident(
+  def newmethods "mOOLtoir3.ml" 315 10543 10545 "mOOLtoir3.ml" 316 10584 10613
+)
+"mOOLtoir3.ml" 313 10471 10477 "mOOLtoir3.ml" 313 10471 10500
+type(
+  (MOOL_structs.class_name * Ir3mOOL_structs.var_decl3 list) list *
+  Ir3mOOL_structs.md_decl3 list list
+)
+"mOOLtoir3.ml" 314 10505 10509 "mOOLtoir3.ml" 314 10505 10519
+type(
+  ((MOOL_structs.class_name * Ir3mOOL_structs.var_decl3 list) *
+   Ir3mOOL_structs.md_decl3 list)
+  list ->
+  (MOOL_structs.class_name * Ir3mOOL_structs.var_decl3 list) list *
+  Ir3mOOL_structs.md_decl3 list list
+)
+ident(
+  ext_ref List.split
+)
+"mOOLtoir3.ml" 314 10505 10520 "mOOLtoir3.ml" 314 10505 10536
+type(
+  ((MOOL_structs.class_name * Ir3mOOL_structs.var_decl3 list) *
+   Ir3mOOL_structs.md_decl3 list)
+  list
+)
+ident(
+  int_ref newir3classesLst "mOOLtoir3.ml" 311 10395 10401 "mOOLtoir3.ml" 311 10395 10417
+)
+"mOOLtoir3.ml" 314 10505 10508 "mOOLtoir3.ml" 314 10505 10537
+call(
+  stack
+)
+type(
+  (MOOL_structs.class_name * Ir3mOOL_structs.var_decl3 list) list *
+  Ir3mOOL_structs.md_decl3 list list
+)
+"mOOLtoir3.ml" 315 10543 10546 "mOOLtoir3.ml" 315 10543 10556
+type(
+  Ir3mOOL_structs.cdata3
+)
+ident(
+  int_ref newmainir3 "mOOLtoir3.ml" 309 10317 10324 "mOOLtoir3.ml" 309 10317 10334
+)
+"mOOLtoir3.ml" 315 10543 10558 "mOOLtoir3.ml" 315 10543 10568
+type(
+  Ir3mOOL_structs.cdata3 list
+)
+ident(
+  int_ref newclasses "mOOLtoir3.ml" 313 10471 10478 "mOOLtoir3.ml" 313 10471 10488
+)
+"mOOLtoir3.ml" 315 10543 10546 "mOOLtoir3.ml" 315 10543 10568
+type(
+  Ir3mOOL_structs.cdata3 list
+)
+"mOOLtoir3.ml" 315 10543 10569 "mOOLtoir3.ml" 315 10543 10581
+type(
+  Ir3mOOL_structs.md_decl3
+)
+ident(
+  int_ref newmainmdir3 "mOOLtoir3.ml" 309 10317 10336 "mOOLtoir3.ml" 309 10317 10348
+)
+"mOOLtoir3.ml" 316 10584 10588 "mOOLtoir3.ml" 316 10584 10600
+type(
+  Ir3mOOL_structs.md_decl3 list list -> Ir3mOOL_structs.md_decl3 list
+)
+ident(
+  ext_ref List.flatten
+)
+"mOOLtoir3.ml" 316 10584 10601 "mOOLtoir3.ml" 316 10584 10611
+type(
+  Ir3mOOL_structs.md_decl3 list list
+)
+ident(
+  int_ref newmethods "mOOLtoir3.ml" 313 10471 10489 "mOOLtoir3.ml" 313 10471 10499
+)
+"mOOLtoir3.ml" 316 10584 10587 "mOOLtoir3.ml" 316 10584 10612
+call(
+  stack
+)
+type(
+  Ir3mOOL_structs.md_decl3 list
+)
+"mOOLtoir3.ml" 315 10543 10545 "mOOLtoir3.ml" 316 10584 10613
+type(
+  Ir3mOOL_structs.ir3_program
+)
+"mOOLtoir3.ml" 313 10471 10473 "mOOLtoir3.ml" 316 10584 10613
+type(
+  Ir3mOOL_structs.ir3_program
+)
+"mOOLtoir3.ml" 311 10395 10397 "mOOLtoir3.ml" 316 10584 10613
+type(
+  Ir3mOOL_structs.ir3_program
+)
+"mOOLtoir3.ml" 309 10317 10319 "mOOLtoir3.ml" 316 10584 10613
+type(
+  Ir3mOOL_structs.ir3_program
+)
+"mOOLtoir3.ml" 307 10273 10274 "mOOLtoir3.ml" 317 10615 10619
+type(
+  Ir3mOOL_structs.ir3_program
+)
+"mOOLtoir3.ml" 295 9968 9969 "mOOLtoir3.ml" 317 10615 10619
+type(
+  Ir3mOOL_structs.ir3_program
+)
+"mOOLtoir3.ml" 291 9846 9847 "mOOLtoir3.ml" 317 10615 10619
+type(
+  Ir3mOOL_structs.ir3_program
+)
+type(
+  Ir3mOOL_structs.ir3_program
+)

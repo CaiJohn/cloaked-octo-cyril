@@ -1,0 +1,4877 @@
+"ir3_bbl_generator.ml" 20 476 480 "ir3_bbl_generator.ml" 20 476 497
+type(
+  md_bbls -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def ir3_bbls_to_stmts "ir3_bbl_generator.ml" 27 693 693 "ir3_bbl_generator.ml" 1 0 -1
+)
+"ir3_bbl_generator.ml" 20 476 499 "ir3_bbl_generator.ml" 20 476 503
+type(
+  md_bbls
+)
+ident(
+  def bbls "ir3_bbl_generator.ml" 20 476 514 "ir3_bbl_generator.ml" 25 661 691
+)
+"ir3_bbl_generator.ml" 21 537 547 "ir3_bbl_generator.ml" 21 537 559
+type(
+  ir3_bbl list -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def process_bbls "ir3_bbl_generator.ml" 21 537 539 "ir3_bbl_generator.ml" 25 661 691
+)
+"ir3_bbl_generator.ml" 21 537 560 "ir3_bbl_generator.ml" 21 537 567
+type(
+  ir3_bbl list
+)
+ident(
+  def bbl_lst "ir3_bbl_generator.ml" 22 571 575 "ir3_bbl_generator.ml" 24 609 659
+)
+"ir3_bbl_generator.ml" 22 571 581 "ir3_bbl_generator.ml" 22 571 588
+type(
+  ir3_bbl list
+)
+ident(
+  int_ref bbl_lst "ir3_bbl_generator.ml" 21 537 560 "ir3_bbl_generator.ml" 21 537 567
+)
+"ir3_bbl_generator.ml" 23 594 600 "ir3_bbl_generator.ml" 23 594 602
+type(
+  ir3_bbl list
+)
+"ir3_bbl_generator.ml" 23 594 606 "ir3_bbl_generator.ml" 23 594 608
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 24 609 615 "ir3_bbl_generator.ml" 24 609 618
+type(
+  ir3_bbl
+)
+ident(
+  def bbl "ir3_bbl_generator.ml" 24 609 628 "ir3_bbl_generator.ml" 24 609 659
+)
+"ir3_bbl_generator.ml" 24 609 620 "ir3_bbl_generator.ml" 24 609 624
+type(
+  ir3_bbl list
+)
+ident(
+  def rest "ir3_bbl_generator.ml" 24 609 628 "ir3_bbl_generator.ml" 24 609 659
+)
+"ir3_bbl_generator.ml" 24 609 615 "ir3_bbl_generator.ml" 24 609 624
+type(
+  ir3_bbl list
+)
+"ir3_bbl_generator.ml" 24 609 628 "ir3_bbl_generator.ml" 24 609 631
+type(
+  ir3_bbl
+)
+ident(
+  int_ref bbl "ir3_bbl_generator.ml" 24 609 615 "ir3_bbl_generator.ml" 24 609 618
+)
+"ir3_bbl_generator.ml" 24 609 628 "ir3_bbl_generator.ml" 24 609 637
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 24 609 638 "ir3_bbl_generator.ml" 24 609 639
+type(
+  Ir3_structs_new.ir3_stmt_new list ->
+  Ir3_structs_new.ir3_stmt_new list -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"ir3_bbl_generator.ml" 24 609 641 "ir3_bbl_generator.ml" 24 609 653
+type(
+  ir3_bbl list -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref process_bbls "ir3_bbl_generator.ml" 21 537 547 "ir3_bbl_generator.ml" 21 537 559
+)
+"ir3_bbl_generator.ml" 24 609 654 "ir3_bbl_generator.ml" 24 609 658
+type(
+  ir3_bbl list
+)
+ident(
+  int_ref rest "ir3_bbl_generator.ml" 24 609 620 "ir3_bbl_generator.ml" 24 609 624
+)
+"ir3_bbl_generator.ml" 24 609 640 "ir3_bbl_generator.ml" 24 609 659
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 24 609 628 "ir3_bbl_generator.ml" 24 609 659
+call(
+  tail
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 22 571 575 "ir3_bbl_generator.ml" 24 609 659
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 25 661 666 "ir3_bbl_generator.ml" 25 661 678
+type(
+  ir3_bbl list -> Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref process_bbls "ir3_bbl_generator.ml" 21 537 547 "ir3_bbl_generator.ml" 21 537 559
+)
+"ir3_bbl_generator.ml" 25 661 679 "ir3_bbl_generator.ml" 25 661 683
+type(
+  md_bbls
+)
+ident(
+  int_ref bbls "ir3_bbl_generator.ml" 20 476 499 "ir3_bbl_generator.ml" 20 476 503
+)
+"ir3_bbl_generator.ml" 25 661 679 "ir3_bbl_generator.ml" 25 661 691
+type(
+  ir3_bbl list
+)
+"ir3_bbl_generator.ml" 25 661 666 "ir3_bbl_generator.ml" 25 661 691
+call(
+  tail
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 21 537 539 "ir3_bbl_generator.ml" 25 661 691
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 27 693 697 "ir3_bbl_generator.ml" 27 693 714
+type(
+  Ir3_structs_new.ir3_stmt_new list -> md_bbls
+)
+ident(
+  def ir3_stmts_to_bbls "ir3_bbl_generator.ml" 147 5920 5920 "ir3_bbl_generator.ml" 1 0 -1
+)
+"ir3_bbl_generator.ml" 27 693 716 "ir3_bbl_generator.ml" 27 693 721
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def stmts "ir3_bbl_generator.ml" 27 693 743 "ir3_bbl_generator.ml" 145 5913 5917
+)
+"ir3_bbl_generator.ml" 28 755 762 "ir3_bbl_generator.ml" 28 755 769
+type(
+  (Ir3_structs_new.label3_new, int) Hashtbl.t
+)
+ident(
+  def lblHtbl "ir3_bbl_generator.ml" 29 814 817 "ir3_bbl_generator.ml" 145 5913 5917
+)
+"ir3_bbl_generator.ml" 28 755 772 "ir3_bbl_generator.ml" 28 755 786
+type(
+  ?random:bool -> int -> (Ir3_structs_new.label3_new, int) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"ir3_bbl_generator.ml" 28 755 787 "ir3_bbl_generator.ml" 28 755 789
+type(
+  int
+)
+"ir3_bbl_generator.ml" 28 755 772 "ir3_bbl_generator.ml" 28 755 789
+call(
+  stack
+)
+type(
+  (Ir3_structs_new.label3_new, int) Hashtbl.t
+)
+"ir3_bbl_generator.ml" 29 814 821 "ir3_bbl_generator.ml" 29 814 832
+type(
+  ('a, 'b) Hashtbl.t -> 'a -> 'b -> unit
+)
+ident(
+  def add_to_htbl "ir3_bbl_generator.ml" 39 1090 1093 "ir3_bbl_generator.ml" 145 5913 5917
+)
+"ir3_bbl_generator.ml" 29 814 833 "ir3_bbl_generator.ml" 29 814 837
+type(
+  ('a, 'b) Hashtbl.t
+)
+ident(
+  def htbl "ir3_bbl_generator.ml" 29 814 838 "ir3_bbl_generator.ml" 37 1053 1081
+)
+"ir3_bbl_generator.ml" 29 814 838 "ir3_bbl_generator.ml" 29 814 839
+type(
+  'a
+)
+ident(
+  def k "ir3_bbl_generator.ml" 29 814 840 "ir3_bbl_generator.ml" 37 1053 1081
+)
+"ir3_bbl_generator.ml" 29 814 840 "ir3_bbl_generator.ml" 29 814 841
+type(
+  'b
+)
+ident(
+  def v "ir3_bbl_generator.ml" 30 844 849 "ir3_bbl_generator.ml" 37 1053 1081
+)
+"ir3_bbl_generator.ml" 30 844 854 "ir3_bbl_generator.ml" 30 844 865
+type(
+  ('a, 'b) Hashtbl.t -> 'a -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"ir3_bbl_generator.ml" 30 844 866 "ir3_bbl_generator.ml" 30 844 870
+type(
+  ('a, 'b) Hashtbl.t
+)
+ident(
+  int_ref htbl "ir3_bbl_generator.ml" 29 814 833 "ir3_bbl_generator.ml" 29 814 837
+)
+"ir3_bbl_generator.ml" 30 844 871 "ir3_bbl_generator.ml" 30 844 872
+type(
+  'a
+)
+ident(
+  int_ref k "ir3_bbl_generator.ml" 29 814 838 "ir3_bbl_generator.ml" 29 814 839
+)
+"ir3_bbl_generator.ml" 30 844 853 "ir3_bbl_generator.ml" 30 844 873
+call(
+  stack
+)
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 30 844 873 "ir3_bbl_generator.ml" 30 844 875
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ir3_bbl_generator.ml" 30 844 875 "ir3_bbl_generator.ml" 30 844 879
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 30 844 852 "ir3_bbl_generator.ml" 30 844 880
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 32 893 904 "ir3_bbl_generator.ml" 32 893 908
+type(
+  'b list
+)
+ident(
+  def vlst "ir3_bbl_generator.ml" 33 938 945 "ir3_bbl_generator.ml" 35 1008 1041
+)
+"ir3_bbl_generator.ml" 32 893 911 "ir3_bbl_generator.ml" 32 893 927
+type(
+  ('a, 'b) Hashtbl.t -> 'a -> 'b list
+)
+ident(
+  ext_ref Hashtbl.find_all
+)
+"ir3_bbl_generator.ml" 32 893 928 "ir3_bbl_generator.ml" 32 893 932
+type(
+  ('a, 'b) Hashtbl.t
+)
+ident(
+  int_ref htbl "ir3_bbl_generator.ml" 29 814 833 "ir3_bbl_generator.ml" 29 814 837
+)
+"ir3_bbl_generator.ml" 32 893 933 "ir3_bbl_generator.ml" 32 893 934
+type(
+  'a
+)
+ident(
+  int_ref k "ir3_bbl_generator.ml" 29 814 838 "ir3_bbl_generator.ml" 29 814 839
+)
+"ir3_bbl_generator.ml" 32 893 911 "ir3_bbl_generator.ml" 32 893 934
+call(
+  stack
+)
+type(
+  'b list
+)
+"ir3_bbl_generator.ml" 33 938 950 "ir3_bbl_generator.ml" 33 938 961
+type(
+  ('b -> bool) -> 'b list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"ir3_bbl_generator.ml" 33 938 967 "ir3_bbl_generator.ml" 33 938 968
+type(
+  'b
+)
+ident(
+  def x "ir3_bbl_generator.ml" 33 938 972 "ir3_bbl_generator.ml" 33 938 978
+)
+"ir3_bbl_generator.ml" 33 938 972 "ir3_bbl_generator.ml" 33 938 973
+type(
+  'b
+)
+ident(
+  int_ref v "ir3_bbl_generator.ml" 29 814 840 "ir3_bbl_generator.ml" 29 814 841
+)
+"ir3_bbl_generator.ml" 33 938 974 "ir3_bbl_generator.ml" 33 938 976
+type(
+  'b -> 'b -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ir3_bbl_generator.ml" 33 938 977 "ir3_bbl_generator.ml" 33 938 978
+type(
+  'b
+)
+ident(
+  int_ref x "ir3_bbl_generator.ml" 33 938 967 "ir3_bbl_generator.ml" 33 938 968
+)
+"ir3_bbl_generator.ml" 33 938 972 "ir3_bbl_generator.ml" 33 938 978
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 33 938 962 "ir3_bbl_generator.ml" 33 938 979
+type(
+  'b -> bool
+)
+"ir3_bbl_generator.ml" 33 938 980 "ir3_bbl_generator.ml" 33 938 984
+type(
+  'b list
+)
+ident(
+  int_ref vlst "ir3_bbl_generator.ml" 32 893 904 "ir3_bbl_generator.ml" 32 893 908
+)
+"ir3_bbl_generator.ml" 33 938 949 "ir3_bbl_generator.ml" 33 938 985
+call(
+  stack
+)
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 33 938 985 "ir3_bbl_generator.ml" 33 938 987
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ir3_bbl_generator.ml" 33 938 987 "ir3_bbl_generator.ml" 33 938 991
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 33 938 948 "ir3_bbl_generator.ml" 33 938 992
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 34 993 1005 "ir3_bbl_generator.ml" 34 993 1007
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 35 1008 1020 "ir3_bbl_generator.ml" 35 1008 1031
+type(
+  ('a, 'b) Hashtbl.t -> 'a -> 'b -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"ir3_bbl_generator.ml" 35 1008 1032 "ir3_bbl_generator.ml" 35 1008 1036
+type(
+  ('a, 'b) Hashtbl.t
+)
+ident(
+  int_ref htbl "ir3_bbl_generator.ml" 29 814 833 "ir3_bbl_generator.ml" 29 814 837
+)
+"ir3_bbl_generator.ml" 35 1008 1037 "ir3_bbl_generator.ml" 35 1008 1038
+type(
+  'a
+)
+ident(
+  int_ref k "ir3_bbl_generator.ml" 29 814 838 "ir3_bbl_generator.ml" 29 814 839
+)
+"ir3_bbl_generator.ml" 35 1008 1039 "ir3_bbl_generator.ml" 35 1008 1040
+type(
+  'b
+)
+ident(
+  int_ref v "ir3_bbl_generator.ml" 29 814 840 "ir3_bbl_generator.ml" 29 814 841
+)
+"ir3_bbl_generator.ml" 35 1008 1020 "ir3_bbl_generator.ml" 35 1008 1040
+call(
+  tail
+)
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 33 938 945 "ir3_bbl_generator.ml" 35 1008 1041
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 32 893 900 "ir3_bbl_generator.ml" 35 1008 1041
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 37 1053 1060 "ir3_bbl_generator.ml" 37 1053 1071
+type(
+  ('a, 'b) Hashtbl.t -> 'a -> 'b -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"ir3_bbl_generator.ml" 37 1053 1072 "ir3_bbl_generator.ml" 37 1053 1076
+type(
+  ('a, 'b) Hashtbl.t
+)
+ident(
+  int_ref htbl "ir3_bbl_generator.ml" 29 814 833 "ir3_bbl_generator.ml" 29 814 837
+)
+"ir3_bbl_generator.ml" 37 1053 1077 "ir3_bbl_generator.ml" 37 1053 1078
+type(
+  'a
+)
+ident(
+  int_ref k "ir3_bbl_generator.ml" 29 814 838 "ir3_bbl_generator.ml" 29 814 839
+)
+"ir3_bbl_generator.ml" 37 1053 1079 "ir3_bbl_generator.ml" 37 1053 1080
+type(
+  'b
+)
+ident(
+  int_ref v "ir3_bbl_generator.ml" 29 814 840 "ir3_bbl_generator.ml" 29 814 841
+)
+"ir3_bbl_generator.ml" 37 1053 1060 "ir3_bbl_generator.ml" 37 1053 1080
+call(
+  tail
+)
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 30 844 849 "ir3_bbl_generator.ml" 37 1053 1081
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 39 1090 1101 "ir3_bbl_generator.ml" 39 1090 1123
+type(
+  Arm_structs.arm_instr list -> int
+)
+ident(
+  def get_lbl_from_arm_stmts "ir3_bbl_generator.ml" 39 1090 1093 "ir3_bbl_generator.ml" 145 5913 5917
+)
+"ir3_bbl_generator.ml" 39 1090 1124 "ir3_bbl_generator.ml" 39 1090 1133
+type(
+  Arm_structs.arm_instr list
+)
+ident(
+  def arm_stmts "ir3_bbl_generator.ml" 39 1090 1134 "ir3_bbl_generator.ml" 48 1456 1530
+)
+"ir3_bbl_generator.ml" 40 1142 1153 "ir3_bbl_generator.ml" 40 1142 1162
+type(
+  Arm_structs.arm_instr list
+)
+ident(
+  int_ref arm_stmts "ir3_bbl_generator.ml" 39 1090 1124 "ir3_bbl_generator.ml" 39 1090 1133
+)
+"ir3_bbl_generator.ml" 41 1168 1176 "ir3_bbl_generator.ml" 41 1168 1180
+type(
+  Arm_structs.arm_instr
+)
+ident(
+  def stmt "ir3_bbl_generator.ml" 42 1186 1193 "ir3_bbl_generator.ml" 46 1397 1407
+)
+"ir3_bbl_generator.ml" 41 1168 1175 "ir3_bbl_generator.ml" 41 1168 1181
+type(
+  Arm_structs.arm_instr list
+)
+"ir3_bbl_generator.ml" 43 1199 1214 "ir3_bbl_generator.ml" 43 1199 1218
+type(
+  Arm_structs.arm_instr
+)
+ident(
+  int_ref stmt "ir3_bbl_generator.ml" 41 1168 1176 "ir3_bbl_generator.ml" 41 1168 1180
+)
+"ir3_bbl_generator.ml" 44 1224 1238 "ir3_bbl_generator.ml" 44 1224 1239
+type(
+  Arm_structs.cond
+)
+"ir3_bbl_generator.ml" 44 1224 1240 "ir3_bbl_generator.ml" 44 1224 1246
+type(
+  Arm_structs.label
+)
+ident(
+  def lblStr "ir3_bbl_generator.ml" 44 1224 1251 "ir3_bbl_generator.ml" 44 1224 1313
+)
+"ir3_bbl_generator.ml" 44 1224 1235 "ir3_bbl_generator.ml" 44 1224 1247
+type(
+  Arm_structs.arm_instr
+)
+"ir3_bbl_generator.ml" 44 1224 1251 "ir3_bbl_generator.ml" 44 1224 1264
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"ir3_bbl_generator.ml" 44 1224 1266 "ir3_bbl_generator.ml" 44 1224 1276
+type(
+  Arm_structs.label -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"ir3_bbl_generator.ml" 44 1224 1277 "ir3_bbl_generator.ml" 44 1224 1283
+type(
+  Arm_structs.label
+)
+ident(
+  int_ref lblStr "ir3_bbl_generator.ml" 44 1224 1240 "ir3_bbl_generator.ml" 44 1224 1246
+)
+"ir3_bbl_generator.ml" 44 1224 1284 "ir3_bbl_generator.ml" 44 1224 1285
+type(
+  int
+)
+"ir3_bbl_generator.ml" 44 1224 1288 "ir3_bbl_generator.ml" 44 1224 1301
+type(
+  Arm_structs.label -> int
+)
+ident(
+  ext_ref String.length
+)
+"ir3_bbl_generator.ml" 44 1224 1302 "ir3_bbl_generator.ml" 44 1224 1308
+type(
+  Arm_structs.label
+)
+ident(
+  int_ref lblStr "ir3_bbl_generator.ml" 44 1224 1240 "ir3_bbl_generator.ml" 44 1224 1246
+)
+"ir3_bbl_generator.ml" 44 1224 1287 "ir3_bbl_generator.ml" 44 1224 1309
+type(
+  int
+)
+"ir3_bbl_generator.ml" 44 1224 1309 "ir3_bbl_generator.ml" 44 1224 1310
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ir3_bbl_generator.ml" 44 1224 1310 "ir3_bbl_generator.ml" 44 1224 1311
+type(
+  int
+)
+"ir3_bbl_generator.ml" 44 1224 1286 "ir3_bbl_generator.ml" 44 1224 1312
+type(
+  int
+)
+"ir3_bbl_generator.ml" 44 1224 1265 "ir3_bbl_generator.ml" 44 1224 1313
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 44 1224 1251 "ir3_bbl_generator.ml" 44 1224 1313
+type(
+  int
+)
+"ir3_bbl_generator.ml" 45 1315 1326 "ir3_bbl_generator.ml" 45 1315 1327
+type(
+  Arm_structs.arm_instr
+)
+"ir3_bbl_generator.ml" 45 1315 1331 "ir3_bbl_generator.ml" 45 1315 1339
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ir3_bbl_generator.ml" 45 1315 1340 "ir3_bbl_generator.ml" 45 1315 1396
+type(
+  string
+)
+"ir3_bbl_generator.ml" 45 1315 1331 "ir3_bbl_generator.ml" 45 1315 1396
+call(
+  tail
+)
+type(
+  int
+)
+"ir3_bbl_generator.ml" 42 1186 1193 "ir3_bbl_generator.ml" 46 1397 1407
+type(
+  int
+)
+"ir3_bbl_generator.ml" 47 1409 1416 "ir3_bbl_generator.ml" 47 1409 1417
+type(
+  Arm_structs.arm_instr
+)
+"ir3_bbl_generator.ml" 47 1409 1419 "ir3_bbl_generator.ml" 47 1409 1423
+type(
+  Arm_structs.arm_instr list
+)
+ident(
+  def rest "ir3_bbl_generator.ml" 47 1409 1427 "ir3_bbl_generator.ml" 47 1409 1454
+)
+"ir3_bbl_generator.ml" 47 1409 1416 "ir3_bbl_generator.ml" 47 1409 1423
+type(
+  Arm_structs.arm_instr list
+)
+"ir3_bbl_generator.ml" 47 1409 1427 "ir3_bbl_generator.ml" 47 1409 1449
+type(
+  Arm_structs.arm_instr list -> int
+)
+ident(
+  int_ref get_lbl_from_arm_stmts "ir3_bbl_generator.ml" 39 1090 1101 "ir3_bbl_generator.ml" 39 1090 1123
+)
+"ir3_bbl_generator.ml" 47 1409 1450 "ir3_bbl_generator.ml" 47 1409 1454
+type(
+  Arm_structs.arm_instr list
+)
+ident(
+  int_ref rest "ir3_bbl_generator.ml" 47 1409 1419 "ir3_bbl_generator.ml" 47 1409 1423
+)
+"ir3_bbl_generator.ml" 47 1409 1427 "ir3_bbl_generator.ml" 47 1409 1454
+call(
+  tail
+)
+type(
+  int
+)
+"ir3_bbl_generator.ml" 48 1456 1463 "ir3_bbl_generator.ml" 48 1456 1465
+type(
+  Arm_structs.arm_instr list
+)
+"ir3_bbl_generator.ml" 48 1456 1469 "ir3_bbl_generator.ml" 48 1456 1477
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ir3_bbl_generator.ml" 48 1456 1478 "ir3_bbl_generator.ml" 48 1456 1530
+type(
+  string
+)
+"ir3_bbl_generator.ml" 48 1456 1469 "ir3_bbl_generator.ml" 48 1456 1530
+call(
+  tail
+)
+type(
+  int
+)
+"ir3_bbl_generator.ml" 40 1142 1147 "ir3_bbl_generator.ml" 48 1456 1530
+type(
+  int
+)
+type(
+  int
+)
+"ir3_bbl_generator.ml" 50 1537 1544 "ir3_bbl_generator.ml" 50 1537 1557
+type(
+  Ir3_structs_new.ir3_stmt_new list ->
+  ir3_bbl list * (int, int) Hashtbl.t * (int, int) Hashtbl.t * int
+)
+ident(
+  def stmts_to_bbls "ir3_bbl_generator.ml" 139 5739 5742 "ir3_bbl_generator.ml" 145 5913 5917
+)
+"ir3_bbl_generator.ml" 50 1537 1558 "ir3_bbl_generator.ml" 50 1537 1567
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def ir3_stmts "ir3_bbl_generator.ml" 50 1537 1568 "ir3_bbl_generator.ml" 137 5682 5731
+)
+"ir3_bbl_generator.ml" 51 1636 1645 "ir3_bbl_generator.ml" 51 1636 1659
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  def next_bbls_htbl "ir3_bbl_generator.ml" 52 1683 1688 "ir3_bbl_generator.ml" 137 5682 5731
+)
+"ir3_bbl_generator.ml" 51 1636 1662 "ir3_bbl_generator.ml" 51 1636 1676
+type(
+  ?random:bool -> int -> (int, int) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"ir3_bbl_generator.ml" 51 1636 1677 "ir3_bbl_generator.ml" 51 1636 1679
+type(
+  int
+)
+"ir3_bbl_generator.ml" 51 1636 1662 "ir3_bbl_generator.ml" 51 1636 1679
+call(
+  stack
+)
+type(
+  (int, int) Hashtbl.t
+)
+"ir3_bbl_generator.ml" 52 1683 1692 "ir3_bbl_generator.ml" 52 1683 1709
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  def tmp_pre_bbls_htbl "ir3_bbl_generator.ml" 53 1734 1739 "ir3_bbl_generator.ml" 137 5682 5731
+)
+"ir3_bbl_generator.ml" 52 1683 1712 "ir3_bbl_generator.ml" 52 1683 1726
+type(
+  ?random:bool -> int -> (int, int) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"ir3_bbl_generator.ml" 52 1683 1727 "ir3_bbl_generator.ml" 52 1683 1729
+type(
+  int
+)
+"ir3_bbl_generator.ml" 52 1683 1712 "ir3_bbl_generator.ml" 52 1683 1729
+call(
+  stack
+)
+type(
+  (int, int) Hashtbl.t
+)
+"ir3_bbl_generator.ml" 53 1734 1747 "ir3_bbl_generator.ml" 53 1734 1760
+type(
+  int ->
+  bool ->
+  Ir3_structs_new.ir3_stmt_new list ->
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+ident(
+  def iterate_stmts "ir3_bbl_generator.ml" 53 1734 1739 "ir3_bbl_generator.ml" 137 5682 5731
+)
+"ir3_bbl_generator.ml" 53 1734 1761 "ir3_bbl_generator.ml" 53 1734 1767
+type(
+  int
+)
+ident(
+  def bbl_id "ir3_bbl_generator.ml" 53 1734 1768 "ir3_bbl_generator.ml" 119 4961 5012
+)
+"ir3_bbl_generator.ml" 53 1734 1768 "ir3_bbl_generator.ml" 53 1734 1779
+type(
+  bool
+)
+ident(
+  def startNewBbl "ir3_bbl_generator.ml" 53 1734 1780 "ir3_bbl_generator.ml" 119 4961 5012
+)
+"ir3_bbl_generator.ml" 53 1734 1780 "ir3_bbl_generator.ml" 53 1734 1785
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def stmts "ir3_bbl_generator.ml" 53 1734 1786 "ir3_bbl_generator.ml" 119 4961 5012
+)
+"ir3_bbl_generator.ml" 54 1829 1842 "ir3_bbl_generator.ml" 54 1829 1847
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref stmts "ir3_bbl_generator.ml" 53 1734 1780 "ir3_bbl_generator.ml" 53 1734 1785
+)
+"ir3_bbl_generator.ml" 55 1853 1862 "ir3_bbl_generator.ml" 55 1853 1864
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 55 1853 1869 "ir3_bbl_generator.ml" 55 1853 1871
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 55 1853 1878 "ir3_bbl_generator.ml" 55 1853 1884
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 53 1734 1761 "ir3_bbl_generator.ml" 53 1734 1767
+)
+"ir3_bbl_generator.ml" 55 1853 1884 "ir3_bbl_generator.ml" 55 1853 1885
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ir3_bbl_generator.ml" 55 1853 1885 "ir3_bbl_generator.ml" 55 1853 1886
+type(
+  int
+)
+"ir3_bbl_generator.ml" 55 1853 1878 "ir3_bbl_generator.ml" 55 1853 1886
+type(
+  int
+)
+"ir3_bbl_generator.ml" 55 1853 1894 "ir3_bbl_generator.ml" 55 1853 1896
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 55 1853 1873 "ir3_bbl_generator.ml" 55 1853 1899
+type(
+  ir3_bbl
+)
+"ir3_bbl_generator.ml" 55 1853 1901 "ir3_bbl_generator.ml" 55 1853 1903
+type(
+  ir3_bbl list
+)
+"ir3_bbl_generator.ml" 55 1853 1873 "ir3_bbl_generator.ml" 55 1853 1903
+type(
+  ir3_bbl list
+)
+"ir3_bbl_generator.ml" 55 1853 1905 "ir3_bbl_generator.ml" 55 1853 1911
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 53 1734 1761 "ir3_bbl_generator.ml" 53 1734 1767
+)
+"ir3_bbl_generator.ml" 55 1853 1911 "ir3_bbl_generator.ml" 55 1853 1912
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ir3_bbl_generator.ml" 55 1853 1912 "ir3_bbl_generator.ml" 55 1853 1913
+type(
+  int
+)
+"ir3_bbl_generator.ml" 55 1853 1905 "ir3_bbl_generator.ml" 55 1853 1913
+type(
+  int
+)
+"ir3_bbl_generator.ml" 55 1853 1868 "ir3_bbl_generator.ml" 55 1853 1914
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 56 1916 1925 "ir3_bbl_generator.ml" 56 1916 1929
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  def stmt "ir3_bbl_generator.ml" 57 1939 1948 "ir3_bbl_generator.ml" 119 4961 5012
+)
+"ir3_bbl_generator.ml" 56 1916 1931 "ir3_bbl_generator.ml" 56 1916 1935
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def rest "ir3_bbl_generator.ml" 57 1939 1948 "ir3_bbl_generator.ml" 119 4961 5012
+)
+"ir3_bbl_generator.ml" 56 1916 1925 "ir3_bbl_generator.ml" 56 1916 1935
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 57 1939 1954 "ir3_bbl_generator.ml" 57 1939 1958
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "ir3_bbl_generator.ml" 56 1916 1925 "ir3_bbl_generator.ml" 56 1916 1929
+)
+"ir3_bbl_generator.ml" 58 1965 1992 "ir3_bbl_generator.ml" 58 1965 1994
+type(
+  Arm_structs.arm_instr list
+)
+"ir3_bbl_generator.ml" 58 1965 1976 "ir3_bbl_generator.ml" 58 1965 1994
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"ir3_bbl_generator.ml" 58 1965 1998 "ir3_bbl_generator.ml" 58 1965 2011
+type(
+  int ->
+  bool ->
+  Ir3_structs_new.ir3_stmt_new list ->
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+ident(
+  int_ref iterate_stmts "ir3_bbl_generator.ml" 53 1734 1747 "ir3_bbl_generator.ml" 53 1734 1760
+)
+"ir3_bbl_generator.ml" 58 1965 2012 "ir3_bbl_generator.ml" 58 1965 2018
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 53 1734 1761 "ir3_bbl_generator.ml" 53 1734 1767
+)
+"ir3_bbl_generator.ml" 58 1965 2019 "ir3_bbl_generator.ml" 58 1965 2024
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 58 1965 2025 "ir3_bbl_generator.ml" 58 1965 2029
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref rest "ir3_bbl_generator.ml" 56 1916 1931 "ir3_bbl_generator.ml" 56 1916 1935
+)
+"ir3_bbl_generator.ml" 58 1965 1998 "ir3_bbl_generator.ml" 58 1965 2029
+call(
+  tail
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 59 2056 2079 "ir3_bbl_generator.ml" 59 2056 2080
+type(
+  Ir3_structs_new.label3_new
+)
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"ir3_bbl_generator.ml" 59 2056 2067 "ir3_bbl_generator.ml" 59 2056 2080
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"ir3_bbl_generator.ml" 59 2056 2099 "ir3_bbl_generator.ml" 59 2056 2100
+type(
+  Arm_structs.arm_instr list
+)
+"ir3_bbl_generator.ml" 59 2056 2083 "ir3_bbl_generator.ml" 59 2056 2100
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"ir3_bbl_generator.ml" 59 2056 2067 "ir3_bbl_generator.ml" 59 2056 2100
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"ir3_bbl_generator.ml" 60 2105 2116 "ir3_bbl_generator.ml" 60 2105 2127
+type(
+  (int, int) Hashtbl.t -> int -> int -> unit
+)
+ident(
+  int_ref add_to_htbl "ir3_bbl_generator.ml" 29 814 821 "ir3_bbl_generator.ml" 29 814 832
+)
+"ir3_bbl_generator.ml" 60 2105 2128 "ir3_bbl_generator.ml" 60 2105 2142
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  int_ref next_bbls_htbl "ir3_bbl_generator.ml" 51 1636 1645 "ir3_bbl_generator.ml" 51 1636 1659
+)
+"ir3_bbl_generator.ml" 60 2105 2143 "ir3_bbl_generator.ml" 60 2105 2149
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 53 1734 1761 "ir3_bbl_generator.ml" 53 1734 1767
+)
+"ir3_bbl_generator.ml" 60 2105 2151 "ir3_bbl_generator.ml" 60 2105 2157
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 53 1734 1761 "ir3_bbl_generator.ml" 53 1734 1767
+)
+"ir3_bbl_generator.ml" 60 2105 2157 "ir3_bbl_generator.ml" 60 2105 2158
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ir3_bbl_generator.ml" 60 2105 2158 "ir3_bbl_generator.ml" 60 2105 2159
+type(
+  int
+)
+"ir3_bbl_generator.ml" 60 2105 2150 "ir3_bbl_generator.ml" 60 2105 2160
+type(
+  int
+)
+"ir3_bbl_generator.ml" 60 2105 2116 "ir3_bbl_generator.ml" 60 2105 2160
+call(
+  stack
+)
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 61 2162 2173 "ir3_bbl_generator.ml" 61 2162 2184
+type(
+  (int, int) Hashtbl.t -> int -> int -> unit
+)
+ident(
+  int_ref add_to_htbl "ir3_bbl_generator.ml" 29 814 821 "ir3_bbl_generator.ml" 29 814 832
+)
+"ir3_bbl_generator.ml" 61 2162 2185 "ir3_bbl_generator.ml" 61 2162 2202
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  int_ref tmp_pre_bbls_htbl "ir3_bbl_generator.ml" 52 1683 1692 "ir3_bbl_generator.ml" 52 1683 1709
+)
+"ir3_bbl_generator.ml" 61 2162 2204 "ir3_bbl_generator.ml" 61 2162 2210
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 53 1734 1761 "ir3_bbl_generator.ml" 53 1734 1767
+)
+"ir3_bbl_generator.ml" 61 2162 2210 "ir3_bbl_generator.ml" 61 2162 2211
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ir3_bbl_generator.ml" 61 2162 2211 "ir3_bbl_generator.ml" 61 2162 2212
+type(
+  int
+)
+"ir3_bbl_generator.ml" 61 2162 2203 "ir3_bbl_generator.ml" 61 2162 2213
+type(
+  int
+)
+"ir3_bbl_generator.ml" 61 2162 2214 "ir3_bbl_generator.ml" 61 2162 2220
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 53 1734 1761 "ir3_bbl_generator.ml" 53 1734 1767
+)
+"ir3_bbl_generator.ml" 61 2162 2173 "ir3_bbl_generator.ml" 61 2162 2220
+call(
+  stack
+)
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 62 2223 2239 "ir3_bbl_generator.ml" 62 2223 2248
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def new_stmts "ir3_bbl_generator.ml" 63 2308 2319 "ir3_bbl_generator.ml" 73 2839 2890
+)
+"ir3_bbl_generator.ml" 62 2223 2250 "ir3_bbl_generator.ml" 62 2223 2258
+type(
+  ir3_bbl list
+)
+ident(
+  def new_bbls "ir3_bbl_generator.ml" 63 2308 2319 "ir3_bbl_generator.ml" 73 2839 2890
+)
+"ir3_bbl_generator.ml" 62 2223 2260 "ir3_bbl_generator.ml" 62 2223 2266
+type(
+  int
+)
+ident(
+  def end_id "ir3_bbl_generator.ml" 63 2308 2319 "ir3_bbl_generator.ml" 73 2839 2890
+)
+"ir3_bbl_generator.ml" 62 2223 2238 "ir3_bbl_generator.ml" 62 2223 2267
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 62 2223 2270 "ir3_bbl_generator.ml" 62 2223 2283
+type(
+  int ->
+  bool ->
+  Ir3_structs_new.ir3_stmt_new list ->
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+ident(
+  int_ref iterate_stmts "ir3_bbl_generator.ml" 53 1734 1747 "ir3_bbl_generator.ml" 53 1734 1760
+)
+"ir3_bbl_generator.ml" 62 2223 2285 "ir3_bbl_generator.ml" 62 2223 2291
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 53 1734 1761 "ir3_bbl_generator.ml" 53 1734 1767
+)
+"ir3_bbl_generator.ml" 62 2223 2291 "ir3_bbl_generator.ml" 62 2223 2292
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ir3_bbl_generator.ml" 62 2223 2292 "ir3_bbl_generator.ml" 62 2223 2293
+type(
+  int
+)
+"ir3_bbl_generator.ml" 62 2223 2284 "ir3_bbl_generator.ml" 62 2223 2294
+type(
+  int
+)
+"ir3_bbl_generator.ml" 62 2223 2295 "ir3_bbl_generator.ml" 62 2223 2299
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 62 2223 2300 "ir3_bbl_generator.ml" 62 2223 2304
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref rest "ir3_bbl_generator.ml" 56 1916 1931 "ir3_bbl_generator.ml" 56 1916 1935
+)
+"ir3_bbl_generator.ml" 62 2223 2270 "ir3_bbl_generator.ml" 62 2223 2304
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 63 2308 2323 "ir3_bbl_generator.ml" 63 2308 2334
+type(
+  int
+)
+ident(
+  def goto_bbl_id "ir3_bbl_generator.ml" 69 2606 2617 "ir3_bbl_generator.ml" 73 2839 2890
+)
+"ir3_bbl_generator.ml" 64 2338 2357 "ir3_bbl_generator.ml" 64 2338 2361
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "ir3_bbl_generator.ml" 56 1916 1925 "ir3_bbl_generator.ml" 56 1916 1929
+)
+"ir3_bbl_generator.ml" 65 2368 2396 "ir3_bbl_generator.ml" 65 2368 2397
+type(
+  Ir3_structs_new.ir3_exp_new
+)
+"ir3_bbl_generator.ml" 65 2368 2398 "ir3_bbl_generator.ml" 65 2368 2401
+type(
+  Ir3_structs_new.label3_new
+)
+ident(
+  def lbl "ir3_bbl_generator.ml" 65 2368 2406 "ir3_bbl_generator.ml" 65 2368 2430
+)
+"ir3_bbl_generator.ml" 65 2368 2383 "ir3_bbl_generator.ml" 65 2368 2402
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"ir3_bbl_generator.ml" 65 2368 2406 "ir3_bbl_generator.ml" 65 2368 2418
+type(
+  (Ir3_structs_new.label3_new, int) Hashtbl.t ->
+  Ir3_structs_new.label3_new -> int
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"ir3_bbl_generator.ml" 65 2368 2419 "ir3_bbl_generator.ml" 65 2368 2426
+type(
+  (Ir3_structs_new.label3_new, int) Hashtbl.t
+)
+ident(
+  int_ref lblHtbl "ir3_bbl_generator.ml" 28 755 762 "ir3_bbl_generator.ml" 28 755 769
+)
+"ir3_bbl_generator.ml" 65 2368 2427 "ir3_bbl_generator.ml" 65 2368 2430
+type(
+  Ir3_structs_new.label3_new
+)
+ident(
+  int_ref lbl "ir3_bbl_generator.ml" 65 2368 2398 "ir3_bbl_generator.ml" 65 2368 2401
+)
+"ir3_bbl_generator.ml" 65 2368 2406 "ir3_bbl_generator.ml" 65 2368 2430
+call(
+  stack
+)
+type(
+  int
+)
+"ir3_bbl_generator.ml" 66 2432 2463 "ir3_bbl_generator.ml" 66 2432 2472
+type(
+  Arm_structs.arm_instr list
+)
+ident(
+  def arm_stmts "ir3_bbl_generator.ml" 66 2432 2476 "ir3_bbl_generator.ml" 66 2432 2531
+)
+"ir3_bbl_generator.ml" 66 2432 2447 "ir3_bbl_generator.ml" 66 2432 2472
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"ir3_bbl_generator.ml" 66 2432 2476 "ir3_bbl_generator.ml" 66 2432 2488
+type(
+  (Ir3_structs_new.label3_new, int) Hashtbl.t ->
+  Ir3_structs_new.label3_new -> int
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"ir3_bbl_generator.ml" 66 2432 2489 "ir3_bbl_generator.ml" 66 2432 2496
+type(
+  (Ir3_structs_new.label3_new, int) Hashtbl.t
+)
+ident(
+  int_ref lblHtbl "ir3_bbl_generator.ml" 28 755 762 "ir3_bbl_generator.ml" 28 755 769
+)
+"ir3_bbl_generator.ml" 66 2432 2498 "ir3_bbl_generator.ml" 66 2432 2520
+type(
+  Arm_structs.arm_instr list -> Ir3_structs_new.label3_new
+)
+ident(
+  int_ref get_lbl_from_arm_stmts "ir3_bbl_generator.ml" 39 1090 1101 "ir3_bbl_generator.ml" 39 1090 1123
+)
+"ir3_bbl_generator.ml" 66 2432 2521 "ir3_bbl_generator.ml" 66 2432 2530
+type(
+  Arm_structs.arm_instr list
+)
+ident(
+  int_ref arm_stmts "ir3_bbl_generator.ml" 66 2432 2463 "ir3_bbl_generator.ml" 66 2432 2472
+)
+"ir3_bbl_generator.ml" 66 2432 2497 "ir3_bbl_generator.ml" 66 2432 2531
+call(
+  stack
+)
+type(
+  Ir3_structs_new.label3_new
+)
+"ir3_bbl_generator.ml" 66 2432 2476 "ir3_bbl_generator.ml" 66 2432 2531
+call(
+  stack
+)
+type(
+  int
+)
+"ir3_bbl_generator.ml" 67 2533 2548 "ir3_bbl_generator.ml" 67 2533 2549
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"ir3_bbl_generator.ml" 67 2533 2553 "ir3_bbl_generator.ml" 67 2533 2561
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ir3_bbl_generator.ml" 67 2533 2562 "ir3_bbl_generator.ml" 67 2533 2591
+type(
+  string
+)
+"ir3_bbl_generator.ml" 67 2533 2553 "ir3_bbl_generator.ml" 67 2533 2591
+call(
+  stack
+)
+type(
+  int
+)
+"ir3_bbl_generator.ml" 64 2338 2351 "ir3_bbl_generator.ml" 67 2533 2591
+type(
+  int
+)
+"ir3_bbl_generator.ml" 69 2606 2617 "ir3_bbl_generator.ml" 69 2606 2628
+type(
+  (int, int) Hashtbl.t -> int -> int -> unit
+)
+ident(
+  int_ref add_to_htbl "ir3_bbl_generator.ml" 29 814 821 "ir3_bbl_generator.ml" 29 814 832
+)
+"ir3_bbl_generator.ml" 69 2606 2629 "ir3_bbl_generator.ml" 69 2606 2643
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  int_ref next_bbls_htbl "ir3_bbl_generator.ml" 51 1636 1645 "ir3_bbl_generator.ml" 51 1636 1659
+)
+"ir3_bbl_generator.ml" 69 2606 2644 "ir3_bbl_generator.ml" 69 2606 2650
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 53 1734 1761 "ir3_bbl_generator.ml" 53 1734 1767
+)
+"ir3_bbl_generator.ml" 69 2606 2651 "ir3_bbl_generator.ml" 69 2606 2662
+type(
+  int
+)
+ident(
+  int_ref goto_bbl_id "ir3_bbl_generator.ml" 63 2308 2323 "ir3_bbl_generator.ml" 63 2308 2334
+)
+"ir3_bbl_generator.ml" 69 2606 2617 "ir3_bbl_generator.ml" 69 2606 2662
+call(
+  stack
+)
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 70 2664 2675 "ir3_bbl_generator.ml" 70 2664 2686
+type(
+  (int, int) Hashtbl.t -> int -> int -> unit
+)
+ident(
+  int_ref add_to_htbl "ir3_bbl_generator.ml" 29 814 821 "ir3_bbl_generator.ml" 29 814 832
+)
+"ir3_bbl_generator.ml" 70 2664 2687 "ir3_bbl_generator.ml" 70 2664 2704
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  int_ref tmp_pre_bbls_htbl "ir3_bbl_generator.ml" 52 1683 1692 "ir3_bbl_generator.ml" 52 1683 1709
+)
+"ir3_bbl_generator.ml" 70 2664 2705 "ir3_bbl_generator.ml" 70 2664 2716
+type(
+  int
+)
+ident(
+  int_ref goto_bbl_id "ir3_bbl_generator.ml" 63 2308 2323 "ir3_bbl_generator.ml" 63 2308 2334
+)
+"ir3_bbl_generator.ml" 70 2664 2717 "ir3_bbl_generator.ml" 70 2664 2723
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 53 1734 1761 "ir3_bbl_generator.ml" 53 1734 1767
+)
+"ir3_bbl_generator.ml" 70 2664 2675 "ir3_bbl_generator.ml" 70 2664 2723
+call(
+  stack
+)
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 71 2726 2741 "ir3_bbl_generator.ml" 71 2726 2752
+type(
+  bool
+)
+ident(
+  int_ref startNewBbl "ir3_bbl_generator.ml" 53 1734 1768 "ir3_bbl_generator.ml" 53 1734 1779
+)
+"ir3_bbl_generator.ml" 71 2726 2752 "ir3_bbl_generator.ml" 71 2726 2754
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ir3_bbl_generator.ml" 71 2726 2754 "ir3_bbl_generator.ml" 71 2726 2758
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 71 2726 2740 "ir3_bbl_generator.ml" 71 2726 2759
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 72 2761 2778 "ir3_bbl_generator.ml" 72 2761 2780
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 72 2761 2787 "ir3_bbl_generator.ml" 72 2761 2793
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 53 1734 1761 "ir3_bbl_generator.ml" 53 1734 1767
+)
+"ir3_bbl_generator.ml" 72 2761 2801 "ir3_bbl_generator.ml" 72 2761 2805
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "ir3_bbl_generator.ml" 56 1916 1925 "ir3_bbl_generator.ml" 56 1916 1929
+)
+"ir3_bbl_generator.ml" 72 2761 2807 "ir3_bbl_generator.ml" 72 2761 2816
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref new_stmts "ir3_bbl_generator.ml" 62 2223 2239 "ir3_bbl_generator.ml" 62 2223 2248
+)
+"ir3_bbl_generator.ml" 72 2761 2801 "ir3_bbl_generator.ml" 72 2761 2816
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 72 2761 2782 "ir3_bbl_generator.ml" 72 2761 2819
+type(
+  ir3_bbl
+)
+"ir3_bbl_generator.ml" 72 2761 2821 "ir3_bbl_generator.ml" 72 2761 2829
+type(
+  ir3_bbl list
+)
+ident(
+  int_ref new_bbls "ir3_bbl_generator.ml" 62 2223 2250 "ir3_bbl_generator.ml" 62 2223 2258
+)
+"ir3_bbl_generator.ml" 72 2761 2782 "ir3_bbl_generator.ml" 72 2761 2829
+type(
+  ir3_bbl list
+)
+"ir3_bbl_generator.ml" 72 2761 2831 "ir3_bbl_generator.ml" 72 2761 2837
+type(
+  int
+)
+ident(
+  int_ref end_id "ir3_bbl_generator.ml" 62 2223 2260 "ir3_bbl_generator.ml" 62 2223 2266
+)
+"ir3_bbl_generator.ml" 72 2761 2777 "ir3_bbl_generator.ml" 72 2761 2838
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 73 2839 2856 "ir3_bbl_generator.ml" 73 2839 2860
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "ir3_bbl_generator.ml" 56 1916 1925 "ir3_bbl_generator.ml" 56 1916 1929
+)
+"ir3_bbl_generator.ml" 73 2839 2862 "ir3_bbl_generator.ml" 73 2839 2871
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref new_stmts "ir3_bbl_generator.ml" 62 2223 2239 "ir3_bbl_generator.ml" 62 2223 2248
+)
+"ir3_bbl_generator.ml" 73 2839 2856 "ir3_bbl_generator.ml" 73 2839 2871
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 73 2839 2873 "ir3_bbl_generator.ml" 73 2839 2881
+type(
+  ir3_bbl list
+)
+ident(
+  int_ref new_bbls "ir3_bbl_generator.ml" 62 2223 2250 "ir3_bbl_generator.ml" 62 2223 2258
+)
+"ir3_bbl_generator.ml" 73 2839 2883 "ir3_bbl_generator.ml" 73 2839 2889
+type(
+  int
+)
+ident(
+  int_ref end_id "ir3_bbl_generator.ml" 62 2223 2260 "ir3_bbl_generator.ml" 62 2223 2266
+)
+"ir3_bbl_generator.ml" 73 2839 2855 "ir3_bbl_generator.ml" 73 2839 2890
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 71 2726 2737 "ir3_bbl_generator.ml" 73 2839 2890
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 70 2664 2675 "ir3_bbl_generator.ml" 73 2839 2890
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 69 2606 2617 "ir3_bbl_generator.ml" 73 2839 2890
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 63 2308 2319 "ir3_bbl_generator.ml" 73 2839 2890
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 62 2223 2234 "ir3_bbl_generator.ml" 73 2839 2890
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 61 2162 2173 "ir3_bbl_generator.ml" 73 2839 2890
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 60 2105 2116 "ir3_bbl_generator.ml" 73 2839 2890
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 74 2894 2915 "ir3_bbl_generator.ml" 74 2894 2918
+type(
+  Ir3_structs_new.label3_new
+)
+ident(
+  def lbl "ir3_bbl_generator.ml" 75 2922 2933 "ir3_bbl_generator.ml" 84 3414 3430
+)
+"ir3_bbl_generator.ml" 74 2894 2905 "ir3_bbl_generator.ml" 74 2894 2918
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"ir3_bbl_generator.ml" 75 2922 2938 "ir3_bbl_generator.ml" 75 2922 2947
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def new_stmts "ir3_bbl_generator.ml" 76 3007 3018 "ir3_bbl_generator.ml" 84 3414 3430
+)
+"ir3_bbl_generator.ml" 75 2922 2949 "ir3_bbl_generator.ml" 75 2922 2957
+type(
+  ir3_bbl list
+)
+ident(
+  def new_bbls "ir3_bbl_generator.ml" 76 3007 3018 "ir3_bbl_generator.ml" 84 3414 3430
+)
+"ir3_bbl_generator.ml" 75 2922 2959 "ir3_bbl_generator.ml" 75 2922 2965
+type(
+  int
+)
+ident(
+  def end_id "ir3_bbl_generator.ml" 76 3007 3018 "ir3_bbl_generator.ml" 84 3414 3430
+)
+"ir3_bbl_generator.ml" 75 2922 2937 "ir3_bbl_generator.ml" 75 2922 2966
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 75 2922 2969 "ir3_bbl_generator.ml" 75 2922 2982
+type(
+  int ->
+  bool ->
+  Ir3_structs_new.ir3_stmt_new list ->
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+ident(
+  int_ref iterate_stmts "ir3_bbl_generator.ml" 53 1734 1747 "ir3_bbl_generator.ml" 53 1734 1760
+)
+"ir3_bbl_generator.ml" 75 2922 2984 "ir3_bbl_generator.ml" 75 2922 2990
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 53 1734 1761 "ir3_bbl_generator.ml" 53 1734 1767
+)
+"ir3_bbl_generator.ml" 75 2922 2990 "ir3_bbl_generator.ml" 75 2922 2991
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ir3_bbl_generator.ml" 75 2922 2991 "ir3_bbl_generator.ml" 75 2922 2992
+type(
+  int
+)
+"ir3_bbl_generator.ml" 75 2922 2983 "ir3_bbl_generator.ml" 75 2922 2993
+type(
+  int
+)
+"ir3_bbl_generator.ml" 75 2922 2994 "ir3_bbl_generator.ml" 75 2922 2998
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 75 2922 2999 "ir3_bbl_generator.ml" 75 2922 3003
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref rest "ir3_bbl_generator.ml" 56 1916 1931 "ir3_bbl_generator.ml" 56 1916 1935
+)
+"ir3_bbl_generator.ml" 75 2922 2969 "ir3_bbl_generator.ml" 75 2922 3003
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 76 3007 3022 "ir3_bbl_generator.ml" 76 3007 3033
+type(
+  int
+)
+ident(
+  def goto_bbl_id "ir3_bbl_generator.ml" 77 3064 3075 "ir3_bbl_generator.ml" 84 3414 3430
+)
+"ir3_bbl_generator.ml" 76 3007 3036 "ir3_bbl_generator.ml" 76 3007 3048
+type(
+  (Ir3_structs_new.label3_new, int) Hashtbl.t ->
+  Ir3_structs_new.label3_new -> int
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"ir3_bbl_generator.ml" 76 3007 3049 "ir3_bbl_generator.ml" 76 3007 3056
+type(
+  (Ir3_structs_new.label3_new, int) Hashtbl.t
+)
+ident(
+  int_ref lblHtbl "ir3_bbl_generator.ml" 28 755 762 "ir3_bbl_generator.ml" 28 755 769
+)
+"ir3_bbl_generator.ml" 76 3007 3057 "ir3_bbl_generator.ml" 76 3007 3060
+type(
+  Ir3_structs_new.label3_new
+)
+ident(
+  int_ref lbl "ir3_bbl_generator.ml" 74 2894 2915 "ir3_bbl_generator.ml" 74 2894 2918
+)
+"ir3_bbl_generator.ml" 76 3007 3036 "ir3_bbl_generator.ml" 76 3007 3060
+call(
+  stack
+)
+type(
+  int
+)
+"ir3_bbl_generator.ml" 77 3064 3079 "ir3_bbl_generator.ml" 77 3064 3090
+type(
+  bool
+)
+ident(
+  int_ref startNewBbl "ir3_bbl_generator.ml" 53 1734 1768 "ir3_bbl_generator.ml" 53 1734 1779
+)
+"ir3_bbl_generator.ml" 77 3064 3090 "ir3_bbl_generator.ml" 77 3064 3092
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ir3_bbl_generator.ml" 77 3064 3092 "ir3_bbl_generator.ml" 77 3064 3096
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 77 3064 3078 "ir3_bbl_generator.ml" 77 3064 3097
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 78 3159 3176 "ir3_bbl_generator.ml" 78 3159 3178
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 78 3159 3180 "ir3_bbl_generator.ml" 78 3159 3188
+type(
+  ir3_bbl list
+)
+ident(
+  int_ref new_bbls "ir3_bbl_generator.ml" 75 2922 2949 "ir3_bbl_generator.ml" 75 2922 2957
+)
+"ir3_bbl_generator.ml" 78 3159 3190 "ir3_bbl_generator.ml" 78 3159 3196
+type(
+  int
+)
+ident(
+  int_ref end_id "ir3_bbl_generator.ml" 75 2922 2959 "ir3_bbl_generator.ml" 75 2922 2965
+)
+"ir3_bbl_generator.ml" 78 3159 3175 "ir3_bbl_generator.ml" 78 3159 3197
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 81 3235 3250 "ir3_bbl_generator.ml" 81 3235 3261
+type(
+  (int, int) Hashtbl.t -> int -> int -> unit
+)
+ident(
+  int_ref add_to_htbl "ir3_bbl_generator.ml" 29 814 821 "ir3_bbl_generator.ml" 29 814 832
+)
+"ir3_bbl_generator.ml" 81 3235 3262 "ir3_bbl_generator.ml" 81 3235 3276
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  int_ref next_bbls_htbl "ir3_bbl_generator.ml" 51 1636 1645 "ir3_bbl_generator.ml" 51 1636 1659
+)
+"ir3_bbl_generator.ml" 81 3235 3277 "ir3_bbl_generator.ml" 81 3235 3283
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 53 1734 1761 "ir3_bbl_generator.ml" 53 1734 1767
+)
+"ir3_bbl_generator.ml" 81 3235 3284 "ir3_bbl_generator.ml" 81 3235 3295
+type(
+  int
+)
+ident(
+  int_ref goto_bbl_id "ir3_bbl_generator.ml" 76 3007 3022 "ir3_bbl_generator.ml" 76 3007 3033
+)
+"ir3_bbl_generator.ml" 81 3235 3250 "ir3_bbl_generator.ml" 81 3235 3295
+call(
+  stack
+)
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 82 3297 3312 "ir3_bbl_generator.ml" 82 3297 3323
+type(
+  (int, int) Hashtbl.t -> int -> int -> unit
+)
+ident(
+  int_ref add_to_htbl "ir3_bbl_generator.ml" 29 814 821 "ir3_bbl_generator.ml" 29 814 832
+)
+"ir3_bbl_generator.ml" 82 3297 3324 "ir3_bbl_generator.ml" 82 3297 3341
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  int_ref tmp_pre_bbls_htbl "ir3_bbl_generator.ml" 52 1683 1692 "ir3_bbl_generator.ml" 52 1683 1709
+)
+"ir3_bbl_generator.ml" 82 3297 3342 "ir3_bbl_generator.ml" 82 3297 3353
+type(
+  int
+)
+ident(
+  int_ref goto_bbl_id "ir3_bbl_generator.ml" 76 3007 3022 "ir3_bbl_generator.ml" 76 3007 3033
+)
+"ir3_bbl_generator.ml" 82 3297 3354 "ir3_bbl_generator.ml" 82 3297 3360
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 53 1734 1761 "ir3_bbl_generator.ml" 53 1734 1767
+)
+"ir3_bbl_generator.ml" 82 3297 3312 "ir3_bbl_generator.ml" 82 3297 3360
+call(
+  stack
+)
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 83 3363 3379 "ir3_bbl_generator.ml" 83 3363 3383
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "ir3_bbl_generator.ml" 56 1916 1925 "ir3_bbl_generator.ml" 56 1916 1929
+)
+"ir3_bbl_generator.ml" 83 3363 3385 "ir3_bbl_generator.ml" 83 3363 3394
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref new_stmts "ir3_bbl_generator.ml" 75 2922 2938 "ir3_bbl_generator.ml" 75 2922 2947
+)
+"ir3_bbl_generator.ml" 83 3363 3379 "ir3_bbl_generator.ml" 83 3363 3394
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 83 3363 3396 "ir3_bbl_generator.ml" 83 3363 3404
+type(
+  ir3_bbl list
+)
+ident(
+  int_ref new_bbls "ir3_bbl_generator.ml" 75 2922 2949 "ir3_bbl_generator.ml" 75 2922 2957
+)
+"ir3_bbl_generator.ml" 83 3363 3406 "ir3_bbl_generator.ml" 83 3363 3412
+type(
+  int
+)
+ident(
+  int_ref end_id "ir3_bbl_generator.ml" 75 2922 2959 "ir3_bbl_generator.ml" 75 2922 2965
+)
+"ir3_bbl_generator.ml" 83 3363 3378 "ir3_bbl_generator.ml" 83 3363 3413
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 82 3297 3312 "ir3_bbl_generator.ml" 83 3363 3413
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 80 3215 3228 "ir3_bbl_generator.ml" 84 3414 3430
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 77 3064 3075 "ir3_bbl_generator.ml" 84 3414 3430
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 76 3007 3018 "ir3_bbl_generator.ml" 84 3414 3430
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 75 2922 2933 "ir3_bbl_generator.ml" 84 3414 3430
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 85 3431 3453 "ir3_bbl_generator.ml" 85 3431 3456
+type(
+  Ir3_structs_new.label3_new
+)
+ident(
+  def lbl "ir3_bbl_generator.ml" 86 3460 3471 "ir3_bbl_generator.ml" 98 3962 4034
+)
+"ir3_bbl_generator.ml" 85 3431 3442 "ir3_bbl_generator.ml" 85 3431 3456
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"ir3_bbl_generator.ml" 86 3460 3475 "ir3_bbl_generator.ml" 86 3460 3481
+type(
+  int
+)
+ident(
+  def bbl_id "ir3_bbl_generator.ml" 87 3536 3547 "ir3_bbl_generator.ml" 98 3962 4034
+)
+"ir3_bbl_generator.ml" 86 3460 3488 "ir3_bbl_generator.ml" 86 3460 3499
+type(
+  bool
+)
+ident(
+  int_ref startNewBbl "ir3_bbl_generator.ml" 53 1734 1768 "ir3_bbl_generator.ml" 53 1734 1779
+)
+"ir3_bbl_generator.ml" 86 3460 3499 "ir3_bbl_generator.ml" 86 3460 3501
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ir3_bbl_generator.ml" 86 3460 3501 "ir3_bbl_generator.ml" 86 3460 3505
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 86 3460 3487 "ir3_bbl_generator.ml" 86 3460 3506
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 86 3460 3512 "ir3_bbl_generator.ml" 86 3460 3518
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 53 1734 1761 "ir3_bbl_generator.ml" 53 1734 1767
+)
+"ir3_bbl_generator.ml" 86 3460 3524 "ir3_bbl_generator.ml" 86 3460 3530
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 53 1734 1761 "ir3_bbl_generator.ml" 53 1734 1767
+)
+"ir3_bbl_generator.ml" 86 3460 3530 "ir3_bbl_generator.ml" 86 3460 3531
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ir3_bbl_generator.ml" 86 3460 3531 "ir3_bbl_generator.ml" 86 3460 3532
+type(
+  int
+)
+"ir3_bbl_generator.ml" 86 3460 3524 "ir3_bbl_generator.ml" 86 3460 3532
+type(
+  int
+)
+"ir3_bbl_generator.ml" 86 3460 3484 "ir3_bbl_generator.ml" 86 3460 3532
+type(
+  int
+)
+"ir3_bbl_generator.ml" 87 3536 3547 "ir3_bbl_generator.ml" 87 3536 3558
+type(
+  (Ir3_structs_new.label3_new, int) Hashtbl.t ->
+  Ir3_structs_new.label3_new -> int -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"ir3_bbl_generator.ml" 87 3536 3559 "ir3_bbl_generator.ml" 87 3536 3566
+type(
+  (Ir3_structs_new.label3_new, int) Hashtbl.t
+)
+ident(
+  int_ref lblHtbl "ir3_bbl_generator.ml" 28 755 762 "ir3_bbl_generator.ml" 28 755 769
+)
+"ir3_bbl_generator.ml" 87 3536 3567 "ir3_bbl_generator.ml" 87 3536 3570
+type(
+  Ir3_structs_new.label3_new
+)
+ident(
+  int_ref lbl "ir3_bbl_generator.ml" 85 3431 3453 "ir3_bbl_generator.ml" 85 3431 3456
+)
+"ir3_bbl_generator.ml" 87 3536 3571 "ir3_bbl_generator.ml" 87 3536 3577
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 86 3460 3475 "ir3_bbl_generator.ml" 86 3460 3481
+)
+"ir3_bbl_generator.ml" 87 3536 3547 "ir3_bbl_generator.ml" 87 3536 3577
+call(
+  stack
+)
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 88 3579 3595 "ir3_bbl_generator.ml" 88 3579 3604
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def new_stmts "ir3_bbl_generator.ml" 89 3661 3672 "ir3_bbl_generator.ml" 98 3962 4034
+)
+"ir3_bbl_generator.ml" 88 3579 3606 "ir3_bbl_generator.ml" 88 3579 3614
+type(
+  ir3_bbl list
+)
+ident(
+  def new_bbls "ir3_bbl_generator.ml" 89 3661 3672 "ir3_bbl_generator.ml" 98 3962 4034
+)
+"ir3_bbl_generator.ml" 88 3579 3616 "ir3_bbl_generator.ml" 88 3579 3622
+type(
+  int
+)
+ident(
+  def end_id "ir3_bbl_generator.ml" 89 3661 3672 "ir3_bbl_generator.ml" 98 3962 4034
+)
+"ir3_bbl_generator.ml" 88 3579 3594 "ir3_bbl_generator.ml" 88 3579 3623
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 88 3579 3626 "ir3_bbl_generator.ml" 88 3579 3639
+type(
+  int ->
+  bool ->
+  Ir3_structs_new.ir3_stmt_new list ->
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+ident(
+  int_ref iterate_stmts "ir3_bbl_generator.ml" 53 1734 1747 "ir3_bbl_generator.ml" 53 1734 1760
+)
+"ir3_bbl_generator.ml" 88 3579 3640 "ir3_bbl_generator.ml" 88 3579 3646
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 86 3460 3475 "ir3_bbl_generator.ml" 86 3460 3481
+)
+"ir3_bbl_generator.ml" 88 3579 3647 "ir3_bbl_generator.ml" 88 3579 3652
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 88 3579 3653 "ir3_bbl_generator.ml" 88 3579 3657
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref rest "ir3_bbl_generator.ml" 56 1916 1931 "ir3_bbl_generator.ml" 56 1916 1935
+)
+"ir3_bbl_generator.ml" 88 3579 3626 "ir3_bbl_generator.ml" 88 3579 3657
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 90 3678 3697 "ir3_bbl_generator.ml" 90 3678 3706
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref new_stmts "ir3_bbl_generator.ml" 88 3579 3595 "ir3_bbl_generator.ml" 88 3579 3604
+)
+"ir3_bbl_generator.ml" 91 3712 3727 "ir3_bbl_generator.ml" 91 3712 3729
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 93 3756 3773 "ir3_bbl_generator.ml" 93 3756 3784
+type(
+  (int, int) Hashtbl.t -> int -> int -> unit
+)
+ident(
+  int_ref add_to_htbl "ir3_bbl_generator.ml" 29 814 821 "ir3_bbl_generator.ml" 29 814 832
+)
+"ir3_bbl_generator.ml" 93 3756 3785 "ir3_bbl_generator.ml" 93 3756 3799
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  int_ref next_bbls_htbl "ir3_bbl_generator.ml" 51 1636 1645 "ir3_bbl_generator.ml" 51 1636 1659
+)
+"ir3_bbl_generator.ml" 93 3756 3800 "ir3_bbl_generator.ml" 93 3756 3806
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 86 3460 3475 "ir3_bbl_generator.ml" 86 3460 3481
+)
+"ir3_bbl_generator.ml" 93 3756 3808 "ir3_bbl_generator.ml" 93 3756 3814
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 86 3460 3475 "ir3_bbl_generator.ml" 86 3460 3481
+)
+"ir3_bbl_generator.ml" 93 3756 3814 "ir3_bbl_generator.ml" 93 3756 3815
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ir3_bbl_generator.ml" 93 3756 3815 "ir3_bbl_generator.ml" 93 3756 3816
+type(
+  int
+)
+"ir3_bbl_generator.ml" 93 3756 3807 "ir3_bbl_generator.ml" 93 3756 3817
+type(
+  int
+)
+"ir3_bbl_generator.ml" 93 3756 3773 "ir3_bbl_generator.ml" 93 3756 3817
+call(
+  stack
+)
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 94 3836 3853 "ir3_bbl_generator.ml" 94 3836 3864
+type(
+  (int, int) Hashtbl.t -> int -> int -> unit
+)
+ident(
+  int_ref add_to_htbl "ir3_bbl_generator.ml" 29 814 821 "ir3_bbl_generator.ml" 29 814 832
+)
+"ir3_bbl_generator.ml" 94 3836 3865 "ir3_bbl_generator.ml" 94 3836 3882
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  int_ref tmp_pre_bbls_htbl "ir3_bbl_generator.ml" 52 1683 1692 "ir3_bbl_generator.ml" 52 1683 1709
+)
+"ir3_bbl_generator.ml" 94 3836 3884 "ir3_bbl_generator.ml" 94 3836 3890
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 86 3460 3475 "ir3_bbl_generator.ml" 86 3460 3481
+)
+"ir3_bbl_generator.ml" 94 3836 3890 "ir3_bbl_generator.ml" 94 3836 3891
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ir3_bbl_generator.ml" 94 3836 3891 "ir3_bbl_generator.ml" 94 3836 3892
+type(
+  int
+)
+"ir3_bbl_generator.ml" 94 3836 3883 "ir3_bbl_generator.ml" 94 3836 3893
+type(
+  int
+)
+"ir3_bbl_generator.ml" 94 3836 3894 "ir3_bbl_generator.ml" 94 3836 3900
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 86 3460 3475 "ir3_bbl_generator.ml" 86 3460 3481
+)
+"ir3_bbl_generator.ml" 94 3836 3853 "ir3_bbl_generator.ml" 94 3836 3901
+call(
+  stack
+)
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 92 3734 3749 "ir3_bbl_generator.ml" 95 3903 3922
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 96 3923 3938 "ir3_bbl_generator.ml" 96 3923 3939
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 96 3923 3943 "ir3_bbl_generator.ml" 96 3923 3945
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 89 3661 3672 "ir3_bbl_generator.ml" 97 3946 3960
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 98 3962 3974 "ir3_bbl_generator.ml" 98 3962 3976
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 98 3962 3983 "ir3_bbl_generator.ml" 98 3962 3989
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 86 3460 3475 "ir3_bbl_generator.ml" 86 3460 3481
+)
+"ir3_bbl_generator.ml" 98 3962 3997 "ir3_bbl_generator.ml" 98 3962 4001
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "ir3_bbl_generator.ml" 56 1916 1925 "ir3_bbl_generator.ml" 56 1916 1929
+)
+"ir3_bbl_generator.ml" 98 3962 4003 "ir3_bbl_generator.ml" 98 3962 4012
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref new_stmts "ir3_bbl_generator.ml" 88 3579 3595 "ir3_bbl_generator.ml" 88 3579 3604
+)
+"ir3_bbl_generator.ml" 98 3962 3997 "ir3_bbl_generator.ml" 98 3962 4012
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 98 3962 3978 "ir3_bbl_generator.ml" 98 3962 4015
+type(
+  ir3_bbl
+)
+"ir3_bbl_generator.ml" 98 3962 4017 "ir3_bbl_generator.ml" 98 3962 4025
+type(
+  ir3_bbl list
+)
+ident(
+  int_ref new_bbls "ir3_bbl_generator.ml" 88 3579 3606 "ir3_bbl_generator.ml" 88 3579 3614
+)
+"ir3_bbl_generator.ml" 98 3962 3978 "ir3_bbl_generator.ml" 98 3962 4025
+type(
+  ir3_bbl list
+)
+"ir3_bbl_generator.ml" 98 3962 4027 "ir3_bbl_generator.ml" 98 3962 4033
+type(
+  int
+)
+ident(
+  int_ref end_id "ir3_bbl_generator.ml" 88 3579 3616 "ir3_bbl_generator.ml" 88 3579 3622
+)
+"ir3_bbl_generator.ml" 98 3962 3973 "ir3_bbl_generator.ml" 98 3962 4034
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 89 3661 3672 "ir3_bbl_generator.ml" 98 3962 4034
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 88 3579 3590 "ir3_bbl_generator.ml" 98 3962 4034
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 87 3536 3547 "ir3_bbl_generator.ml" 98 3962 4034
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 86 3460 3471 "ir3_bbl_generator.ml" 98 3962 4034
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 99 4035 4062 "ir3_bbl_generator.ml" 99 4035 4063
+type(
+  Ir3_structs_new.id3_new
+)
+"ir3_bbl_generator.ml" 99 4035 4046 "ir3_bbl_generator.ml" 99 4035 4063
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"ir3_bbl_generator.ml" 99 4035 4066 "ir3_bbl_generator.ml" 99 4035 4085
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"ir3_bbl_generator.ml" 99 4035 4046 "ir3_bbl_generator.ml" 99 4035 4085
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"ir3_bbl_generator.ml" 100 4089 4105 "ir3_bbl_generator.ml" 100 4089 4114
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def new_stmts "ir3_bbl_generator.ml" 101 4174 4185 "ir3_bbl_generator.ml" 105 4396 4447
+)
+"ir3_bbl_generator.ml" 100 4089 4116 "ir3_bbl_generator.ml" 100 4089 4124
+type(
+  ir3_bbl list
+)
+ident(
+  def new_bbls "ir3_bbl_generator.ml" 101 4174 4185 "ir3_bbl_generator.ml" 105 4396 4447
+)
+"ir3_bbl_generator.ml" 100 4089 4126 "ir3_bbl_generator.ml" 100 4089 4132
+type(
+  int
+)
+ident(
+  def end_id "ir3_bbl_generator.ml" 101 4174 4185 "ir3_bbl_generator.ml" 105 4396 4447
+)
+"ir3_bbl_generator.ml" 100 4089 4104 "ir3_bbl_generator.ml" 100 4089 4133
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 100 4089 4136 "ir3_bbl_generator.ml" 100 4089 4149
+type(
+  int ->
+  bool ->
+  Ir3_structs_new.ir3_stmt_new list ->
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+ident(
+  int_ref iterate_stmts "ir3_bbl_generator.ml" 53 1734 1747 "ir3_bbl_generator.ml" 53 1734 1760
+)
+"ir3_bbl_generator.ml" 100 4089 4151 "ir3_bbl_generator.ml" 100 4089 4157
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 53 1734 1761 "ir3_bbl_generator.ml" 53 1734 1767
+)
+"ir3_bbl_generator.ml" 100 4089 4157 "ir3_bbl_generator.ml" 100 4089 4158
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ir3_bbl_generator.ml" 100 4089 4158 "ir3_bbl_generator.ml" 100 4089 4159
+type(
+  int
+)
+"ir3_bbl_generator.ml" 100 4089 4150 "ir3_bbl_generator.ml" 100 4089 4160
+type(
+  int
+)
+"ir3_bbl_generator.ml" 100 4089 4161 "ir3_bbl_generator.ml" 100 4089 4165
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 100 4089 4166 "ir3_bbl_generator.ml" 100 4089 4170
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref rest "ir3_bbl_generator.ml" 56 1916 1931 "ir3_bbl_generator.ml" 56 1916 1935
+)
+"ir3_bbl_generator.ml" 100 4089 4136 "ir3_bbl_generator.ml" 100 4089 4170
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 101 4174 4185 "ir3_bbl_generator.ml" 101 4174 4196
+type(
+  (int, int) Hashtbl.t -> int -> int -> unit
+)
+ident(
+  int_ref add_to_htbl "ir3_bbl_generator.ml" 29 814 821 "ir3_bbl_generator.ml" 29 814 832
+)
+"ir3_bbl_generator.ml" 101 4174 4197 "ir3_bbl_generator.ml" 101 4174 4211
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  int_ref next_bbls_htbl "ir3_bbl_generator.ml" 51 1636 1645 "ir3_bbl_generator.ml" 51 1636 1659
+)
+"ir3_bbl_generator.ml" 101 4174 4212 "ir3_bbl_generator.ml" 101 4174 4218
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 53 1734 1761 "ir3_bbl_generator.ml" 53 1734 1767
+)
+"ir3_bbl_generator.ml" 101 4174 4219 "ir3_bbl_generator.ml" 101 4174 4225
+type(
+  int
+)
+ident(
+  int_ref end_id "ir3_bbl_generator.ml" 100 4089 4126 "ir3_bbl_generator.ml" 100 4089 4132
+)
+"ir3_bbl_generator.ml" 101 4174 4185 "ir3_bbl_generator.ml" 101 4174 4225
+call(
+  stack
+)
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 102 4227 4238 "ir3_bbl_generator.ml" 102 4227 4249
+type(
+  (int, int) Hashtbl.t -> int -> int -> unit
+)
+ident(
+  int_ref add_to_htbl "ir3_bbl_generator.ml" 29 814 821 "ir3_bbl_generator.ml" 29 814 832
+)
+"ir3_bbl_generator.ml" 102 4227 4250 "ir3_bbl_generator.ml" 102 4227 4267
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  int_ref tmp_pre_bbls_htbl "ir3_bbl_generator.ml" 52 1683 1692 "ir3_bbl_generator.ml" 52 1683 1709
+)
+"ir3_bbl_generator.ml" 102 4227 4268 "ir3_bbl_generator.ml" 102 4227 4274
+type(
+  int
+)
+ident(
+  int_ref end_id "ir3_bbl_generator.ml" 100 4089 4126 "ir3_bbl_generator.ml" 100 4089 4132
+)
+"ir3_bbl_generator.ml" 102 4227 4275 "ir3_bbl_generator.ml" 102 4227 4281
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 53 1734 1761 "ir3_bbl_generator.ml" 53 1734 1767
+)
+"ir3_bbl_generator.ml" 102 4227 4238 "ir3_bbl_generator.ml" 102 4227 4281
+call(
+  stack
+)
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 103 4284 4299 "ir3_bbl_generator.ml" 103 4284 4310
+type(
+  bool
+)
+ident(
+  int_ref startNewBbl "ir3_bbl_generator.ml" 53 1734 1768 "ir3_bbl_generator.ml" 53 1734 1779
+)
+"ir3_bbl_generator.ml" 103 4284 4310 "ir3_bbl_generator.ml" 103 4284 4312
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ir3_bbl_generator.ml" 103 4284 4312 "ir3_bbl_generator.ml" 103 4284 4316
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 103 4284 4298 "ir3_bbl_generator.ml" 103 4284 4317
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 104 4318 4335 "ir3_bbl_generator.ml" 104 4318 4337
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 104 4318 4344 "ir3_bbl_generator.ml" 104 4318 4350
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 53 1734 1761 "ir3_bbl_generator.ml" 53 1734 1767
+)
+"ir3_bbl_generator.ml" 104 4318 4358 "ir3_bbl_generator.ml" 104 4318 4362
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "ir3_bbl_generator.ml" 56 1916 1925 "ir3_bbl_generator.ml" 56 1916 1929
+)
+"ir3_bbl_generator.ml" 104 4318 4364 "ir3_bbl_generator.ml" 104 4318 4373
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref new_stmts "ir3_bbl_generator.ml" 100 4089 4105 "ir3_bbl_generator.ml" 100 4089 4114
+)
+"ir3_bbl_generator.ml" 104 4318 4358 "ir3_bbl_generator.ml" 104 4318 4373
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 104 4318 4339 "ir3_bbl_generator.ml" 104 4318 4376
+type(
+  ir3_bbl
+)
+"ir3_bbl_generator.ml" 104 4318 4378 "ir3_bbl_generator.ml" 104 4318 4386
+type(
+  ir3_bbl list
+)
+ident(
+  int_ref new_bbls "ir3_bbl_generator.ml" 100 4089 4116 "ir3_bbl_generator.ml" 100 4089 4124
+)
+"ir3_bbl_generator.ml" 104 4318 4339 "ir3_bbl_generator.ml" 104 4318 4386
+type(
+  ir3_bbl list
+)
+"ir3_bbl_generator.ml" 104 4318 4388 "ir3_bbl_generator.ml" 104 4318 4394
+type(
+  int
+)
+ident(
+  int_ref end_id "ir3_bbl_generator.ml" 100 4089 4126 "ir3_bbl_generator.ml" 100 4089 4132
+)
+"ir3_bbl_generator.ml" 104 4318 4334 "ir3_bbl_generator.ml" 104 4318 4395
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 105 4396 4413 "ir3_bbl_generator.ml" 105 4396 4417
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "ir3_bbl_generator.ml" 56 1916 1925 "ir3_bbl_generator.ml" 56 1916 1929
+)
+"ir3_bbl_generator.ml" 105 4396 4419 "ir3_bbl_generator.ml" 105 4396 4428
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref new_stmts "ir3_bbl_generator.ml" 100 4089 4105 "ir3_bbl_generator.ml" 100 4089 4114
+)
+"ir3_bbl_generator.ml" 105 4396 4413 "ir3_bbl_generator.ml" 105 4396 4428
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 105 4396 4430 "ir3_bbl_generator.ml" 105 4396 4438
+type(
+  ir3_bbl list
+)
+ident(
+  int_ref new_bbls "ir3_bbl_generator.ml" 100 4089 4116 "ir3_bbl_generator.ml" 100 4089 4124
+)
+"ir3_bbl_generator.ml" 105 4396 4440 "ir3_bbl_generator.ml" 105 4396 4446
+type(
+  int
+)
+ident(
+  int_ref end_id "ir3_bbl_generator.ml" 100 4089 4126 "ir3_bbl_generator.ml" 100 4089 4132
+)
+"ir3_bbl_generator.ml" 105 4396 4412 "ir3_bbl_generator.ml" 105 4396 4447
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 103 4284 4295 "ir3_bbl_generator.ml" 105 4396 4447
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 102 4227 4238 "ir3_bbl_generator.ml" 105 4396 4447
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 101 4174 4185 "ir3_bbl_generator.ml" 105 4396 4447
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 100 4089 4100 "ir3_bbl_generator.ml" 105 4396 4447
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 106 4448 4459 "ir3_bbl_generator.ml" 106 4448 4460
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+"ir3_bbl_generator.ml" 107 4465 4481 "ir3_bbl_generator.ml" 107 4465 4490
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  def new_stmts "ir3_bbl_generator.ml" 108 4547 4558 "ir3_bbl_generator.ml" 119 4961 5012
+)
+"ir3_bbl_generator.ml" 107 4465 4492 "ir3_bbl_generator.ml" 107 4465 4500
+type(
+  ir3_bbl list
+)
+ident(
+  def new_bbls "ir3_bbl_generator.ml" 108 4547 4558 "ir3_bbl_generator.ml" 119 4961 5012
+)
+"ir3_bbl_generator.ml" 107 4465 4502 "ir3_bbl_generator.ml" 107 4465 4508
+type(
+  int
+)
+ident(
+  def end_id "ir3_bbl_generator.ml" 108 4547 4558 "ir3_bbl_generator.ml" 119 4961 5012
+)
+"ir3_bbl_generator.ml" 107 4465 4480 "ir3_bbl_generator.ml" 107 4465 4509
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 107 4465 4512 "ir3_bbl_generator.ml" 107 4465 4525
+type(
+  int ->
+  bool ->
+  Ir3_structs_new.ir3_stmt_new list ->
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+ident(
+  int_ref iterate_stmts "ir3_bbl_generator.ml" 53 1734 1747 "ir3_bbl_generator.ml" 53 1734 1760
+)
+"ir3_bbl_generator.ml" 107 4465 4526 "ir3_bbl_generator.ml" 107 4465 4532
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 53 1734 1761 "ir3_bbl_generator.ml" 53 1734 1767
+)
+"ir3_bbl_generator.ml" 107 4465 4533 "ir3_bbl_generator.ml" 107 4465 4538
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 107 4465 4539 "ir3_bbl_generator.ml" 107 4465 4543
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref rest "ir3_bbl_generator.ml" 56 1916 1931 "ir3_bbl_generator.ml" 56 1916 1935
+)
+"ir3_bbl_generator.ml" 107 4465 4512 "ir3_bbl_generator.ml" 107 4465 4543
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 109 4564 4583 "ir3_bbl_generator.ml" 109 4564 4592
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref new_stmts "ir3_bbl_generator.ml" 107 4465 4481 "ir3_bbl_generator.ml" 107 4465 4490
+)
+"ir3_bbl_generator.ml" 110 4598 4613 "ir3_bbl_generator.ml" 110 4598 4615
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 112 4641 4658 "ir3_bbl_generator.ml" 112 4641 4669
+type(
+  (int, int) Hashtbl.t -> int -> int -> unit
+)
+ident(
+  int_ref add_to_htbl "ir3_bbl_generator.ml" 29 814 821 "ir3_bbl_generator.ml" 29 814 832
+)
+"ir3_bbl_generator.ml" 112 4641 4670 "ir3_bbl_generator.ml" 112 4641 4684
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  int_ref next_bbls_htbl "ir3_bbl_generator.ml" 51 1636 1645 "ir3_bbl_generator.ml" 51 1636 1659
+)
+"ir3_bbl_generator.ml" 112 4641 4685 "ir3_bbl_generator.ml" 112 4641 4691
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 53 1734 1761 "ir3_bbl_generator.ml" 53 1734 1767
+)
+"ir3_bbl_generator.ml" 112 4641 4693 "ir3_bbl_generator.ml" 112 4641 4699
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 53 1734 1761 "ir3_bbl_generator.ml" 53 1734 1767
+)
+"ir3_bbl_generator.ml" 112 4641 4699 "ir3_bbl_generator.ml" 112 4641 4700
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ir3_bbl_generator.ml" 112 4641 4700 "ir3_bbl_generator.ml" 112 4641 4701
+type(
+  int
+)
+"ir3_bbl_generator.ml" 112 4641 4692 "ir3_bbl_generator.ml" 112 4641 4702
+type(
+  int
+)
+"ir3_bbl_generator.ml" 112 4641 4658 "ir3_bbl_generator.ml" 112 4641 4702
+call(
+  stack
+)
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 113 4721 4738 "ir3_bbl_generator.ml" 113 4721 4749
+type(
+  (int, int) Hashtbl.t -> int -> int -> unit
+)
+ident(
+  int_ref add_to_htbl "ir3_bbl_generator.ml" 29 814 821 "ir3_bbl_generator.ml" 29 814 832
+)
+"ir3_bbl_generator.ml" 113 4721 4750 "ir3_bbl_generator.ml" 113 4721 4767
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  int_ref tmp_pre_bbls_htbl "ir3_bbl_generator.ml" 52 1683 1692 "ir3_bbl_generator.ml" 52 1683 1709
+)
+"ir3_bbl_generator.ml" 113 4721 4769 "ir3_bbl_generator.ml" 113 4721 4775
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 53 1734 1761 "ir3_bbl_generator.ml" 53 1734 1767
+)
+"ir3_bbl_generator.ml" 113 4721 4775 "ir3_bbl_generator.ml" 113 4721 4776
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ir3_bbl_generator.ml" 113 4721 4776 "ir3_bbl_generator.ml" 113 4721 4777
+type(
+  int
+)
+"ir3_bbl_generator.ml" 113 4721 4768 "ir3_bbl_generator.ml" 113 4721 4778
+type(
+  int
+)
+"ir3_bbl_generator.ml" 113 4721 4779 "ir3_bbl_generator.ml" 113 4721 4785
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 53 1734 1761 "ir3_bbl_generator.ml" 53 1734 1767
+)
+"ir3_bbl_generator.ml" 113 4721 4738 "ir3_bbl_generator.ml" 113 4721 4786
+call(
+  stack
+)
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 111 4620 4635 "ir3_bbl_generator.ml" 114 4788 4807
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 115 4809 4824 "ir3_bbl_generator.ml" 115 4809 4825
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 115 4809 4829 "ir3_bbl_generator.ml" 115 4809 4831
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 108 4547 4558 "ir3_bbl_generator.ml" 116 4832 4846
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 117 4848 4863 "ir3_bbl_generator.ml" 117 4848 4874
+type(
+  bool
+)
+ident(
+  int_ref startNewBbl "ir3_bbl_generator.ml" 53 1734 1768 "ir3_bbl_generator.ml" 53 1734 1779
+)
+"ir3_bbl_generator.ml" 117 4848 4874 "ir3_bbl_generator.ml" 117 4848 4876
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ir3_bbl_generator.ml" 117 4848 4876 "ir3_bbl_generator.ml" 117 4848 4880
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 117 4848 4862 "ir3_bbl_generator.ml" 117 4848 4881
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 118 4883 4900 "ir3_bbl_generator.ml" 118 4883 4902
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 118 4883 4909 "ir3_bbl_generator.ml" 118 4883 4915
+type(
+  int
+)
+ident(
+  int_ref bbl_id "ir3_bbl_generator.ml" 53 1734 1761 "ir3_bbl_generator.ml" 53 1734 1767
+)
+"ir3_bbl_generator.ml" 118 4883 4923 "ir3_bbl_generator.ml" 118 4883 4927
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "ir3_bbl_generator.ml" 56 1916 1925 "ir3_bbl_generator.ml" 56 1916 1929
+)
+"ir3_bbl_generator.ml" 118 4883 4929 "ir3_bbl_generator.ml" 118 4883 4938
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref new_stmts "ir3_bbl_generator.ml" 107 4465 4481 "ir3_bbl_generator.ml" 107 4465 4490
+)
+"ir3_bbl_generator.ml" 118 4883 4923 "ir3_bbl_generator.ml" 118 4883 4938
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 118 4883 4904 "ir3_bbl_generator.ml" 118 4883 4941
+type(
+  ir3_bbl
+)
+"ir3_bbl_generator.ml" 118 4883 4943 "ir3_bbl_generator.ml" 118 4883 4951
+type(
+  ir3_bbl list
+)
+ident(
+  int_ref new_bbls "ir3_bbl_generator.ml" 107 4465 4492 "ir3_bbl_generator.ml" 107 4465 4500
+)
+"ir3_bbl_generator.ml" 118 4883 4904 "ir3_bbl_generator.ml" 118 4883 4951
+type(
+  ir3_bbl list
+)
+"ir3_bbl_generator.ml" 118 4883 4953 "ir3_bbl_generator.ml" 118 4883 4959
+type(
+  int
+)
+ident(
+  int_ref end_id "ir3_bbl_generator.ml" 107 4465 4502 "ir3_bbl_generator.ml" 107 4465 4508
+)
+"ir3_bbl_generator.ml" 118 4883 4899 "ir3_bbl_generator.ml" 118 4883 4960
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 119 4961 4978 "ir3_bbl_generator.ml" 119 4961 4982
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "ir3_bbl_generator.ml" 56 1916 1925 "ir3_bbl_generator.ml" 56 1916 1929
+)
+"ir3_bbl_generator.ml" 119 4961 4984 "ir3_bbl_generator.ml" 119 4961 4993
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref new_stmts "ir3_bbl_generator.ml" 107 4465 4481 "ir3_bbl_generator.ml" 107 4465 4490
+)
+"ir3_bbl_generator.ml" 119 4961 4978 "ir3_bbl_generator.ml" 119 4961 4993
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 119 4961 4995 "ir3_bbl_generator.ml" 119 4961 5003
+type(
+  ir3_bbl list
+)
+ident(
+  int_ref new_bbls "ir3_bbl_generator.ml" 107 4465 4492 "ir3_bbl_generator.ml" 107 4465 4500
+)
+"ir3_bbl_generator.ml" 119 4961 5005 "ir3_bbl_generator.ml" 119 4961 5011
+type(
+  int
+)
+ident(
+  int_ref end_id "ir3_bbl_generator.ml" 107 4465 4502 "ir3_bbl_generator.ml" 107 4465 4508
+)
+"ir3_bbl_generator.ml" 119 4961 4977 "ir3_bbl_generator.ml" 119 4961 5012
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 117 4848 4859 "ir3_bbl_generator.ml" 119 4961 5012
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 108 4547 4558 "ir3_bbl_generator.ml" 119 4961 5012
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 107 4465 4476 "ir3_bbl_generator.ml" 119 4961 5012
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 57 1939 1948 "ir3_bbl_generator.ml" 119 4961 5012
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 54 1829 1836 "ir3_bbl_generator.ml" 119 4961 5012
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 121 5021 5031 "ir3_bbl_generator.ml" 121 5021 5032
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 121 5021 5033 "ir3_bbl_generator.ml" 121 5021 5037
+type(
+  ir3_bbl list
+)
+ident(
+  def bbls "ir3_bbl_generator.ml" 122 5083 5088 "ir3_bbl_generator.ml" 137 5682 5731
+)
+"ir3_bbl_generator.ml" 121 5021 5038 "ir3_bbl_generator.ml" 121 5021 5044
+type(
+  int
+)
+ident(
+  def end_id "ir3_bbl_generator.ml" 122 5083 5088 "ir3_bbl_generator.ml" 137 5682 5731
+)
+"ir3_bbl_generator.ml" 121 5021 5030 "ir3_bbl_generator.ml" 121 5021 5045
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 121 5021 5048 "ir3_bbl_generator.ml" 121 5021 5061
+type(
+  int ->
+  bool ->
+  Ir3_structs_new.ir3_stmt_new list ->
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+ident(
+  int_ref iterate_stmts "ir3_bbl_generator.ml" 53 1734 1747 "ir3_bbl_generator.ml" 53 1734 1760
+)
+"ir3_bbl_generator.ml" 121 5021 5062 "ir3_bbl_generator.ml" 121 5021 5063
+type(
+  int
+)
+"ir3_bbl_generator.ml" 121 5021 5064 "ir3_bbl_generator.ml" 121 5021 5068
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 121 5021 5069 "ir3_bbl_generator.ml" 121 5021 5078
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref ir3_stmts "ir3_bbl_generator.ml" 50 1537 1558 "ir3_bbl_generator.ml" 50 1537 1567
+)
+"ir3_bbl_generator.ml" 121 5021 5048 "ir3_bbl_generator.ml" 121 5021 5078
+call(
+  stack
+)
+type(
+  Ir3_structs_new.ir3_stmt_new list * ir3_bbl list * int
+)
+"ir3_bbl_generator.ml" 122 5083 5096 "ir3_bbl_generator.ml" 122 5083 5102
+type(
+  ir3_bbl list -> ir3_bbl list
+)
+ident(
+  def filter "ir3_bbl_generator.ml" 122 5083 5088 "ir3_bbl_generator.ml" 137 5682 5731
+)
+"ir3_bbl_generator.ml" 122 5083 5103 "ir3_bbl_generator.ml" 122 5083 5111
+type(
+  ir3_bbl list
+)
+ident(
+  def bbl_list "ir3_bbl_generator.ml" 123 5115 5122 "ir3_bbl_generator.ml" 128 5285 5317
+)
+"ir3_bbl_generator.ml" 123 5115 5128 "ir3_bbl_generator.ml" 123 5115 5136
+type(
+  ir3_bbl list
+)
+ident(
+  int_ref bbl_list "ir3_bbl_generator.ml" 122 5083 5103 "ir3_bbl_generator.ml" 122 5083 5111
+)
+"ir3_bbl_generator.ml" 124 5142 5151 "ir3_bbl_generator.ml" 124 5142 5153
+type(
+  ir3_bbl list
+)
+"ir3_bbl_generator.ml" 124 5142 5157 "ir3_bbl_generator.ml" 124 5142 5159
+type(
+  ir3_bbl list
+)
+"ir3_bbl_generator.ml" 125 5160 5169 "ir3_bbl_generator.ml" 125 5160 5172
+type(
+  ir3_bbl
+)
+ident(
+  def bbl "ir3_bbl_generator.ml" 126 5183 5192 "ir3_bbl_generator.ml" 128 5285 5317
+)
+"ir3_bbl_generator.ml" 125 5160 5174 "ir3_bbl_generator.ml" 125 5160 5178
+type(
+  ir3_bbl list
+)
+ident(
+  def rest "ir3_bbl_generator.ml" 126 5183 5192 "ir3_bbl_generator.ml" 128 5285 5317
+)
+"ir3_bbl_generator.ml" 125 5160 5169 "ir3_bbl_generator.ml" 125 5160 5178
+type(
+  ir3_bbl list
+)
+"ir3_bbl_generator.ml" 126 5183 5196 "ir3_bbl_generator.ml" 126 5183 5199
+type(
+  ir3_bbl
+)
+ident(
+  int_ref bbl "ir3_bbl_generator.ml" 125 5160 5169 "ir3_bbl_generator.ml" 125 5160 5172
+)
+"ir3_bbl_generator.ml" 126 5183 5196 "ir3_bbl_generator.ml" 126 5183 5202
+type(
+  int
+)
+"ir3_bbl_generator.ml" 126 5183 5202 "ir3_bbl_generator.ml" 126 5183 5203
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"ir3_bbl_generator.ml" 126 5183 5203 "ir3_bbl_generator.ml" 126 5183 5204
+type(
+  int
+)
+"ir3_bbl_generator.ml" 126 5183 5196 "ir3_bbl_generator.ml" 126 5183 5204
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 126 5183 5205 "ir3_bbl_generator.ml" 126 5183 5207
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ir3_bbl_generator.ml" 126 5183 5209 "ir3_bbl_generator.ml" 126 5183 5220
+type(
+  (int, int) Hashtbl.t -> int -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"ir3_bbl_generator.ml" 126 5183 5221 "ir3_bbl_generator.ml" 126 5183 5238
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  int_ref tmp_pre_bbls_htbl "ir3_bbl_generator.ml" 52 1683 1692 "ir3_bbl_generator.ml" 52 1683 1709
+)
+"ir3_bbl_generator.ml" 126 5183 5239 "ir3_bbl_generator.ml" 126 5183 5242
+type(
+  ir3_bbl
+)
+ident(
+  int_ref bbl "ir3_bbl_generator.ml" 125 5160 5169 "ir3_bbl_generator.ml" 125 5160 5172
+)
+"ir3_bbl_generator.ml" 126 5183 5239 "ir3_bbl_generator.ml" 126 5183 5245
+type(
+  int
+)
+"ir3_bbl_generator.ml" 126 5183 5208 "ir3_bbl_generator.ml" 126 5183 5246
+call(
+  stack
+)
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 126 5183 5246 "ir3_bbl_generator.ml" 126 5183 5248
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"ir3_bbl_generator.ml" 126 5183 5248 "ir3_bbl_generator.ml" 126 5183 5253
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 126 5183 5208 "ir3_bbl_generator.ml" 126 5183 5253
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 126 5183 5195 "ir3_bbl_generator.ml" 126 5183 5254
+type(
+  bool
+)
+"ir3_bbl_generator.ml" 127 5256 5271 "ir3_bbl_generator.ml" 127 5256 5277
+type(
+  ir3_bbl list -> ir3_bbl list
+)
+ident(
+  int_ref filter "ir3_bbl_generator.ml" 122 5083 5096 "ir3_bbl_generator.ml" 122 5083 5102
+)
+"ir3_bbl_generator.ml" 127 5256 5278 "ir3_bbl_generator.ml" 127 5256 5282
+type(
+  ir3_bbl list
+)
+ident(
+  int_ref rest "ir3_bbl_generator.ml" 125 5160 5174 "ir3_bbl_generator.ml" 125 5160 5178
+)
+"ir3_bbl_generator.ml" 127 5256 5270 "ir3_bbl_generator.ml" 127 5256 5283
+call(
+  tail
+)
+type(
+  ir3_bbl list
+)
+"ir3_bbl_generator.ml" 128 5285 5299 "ir3_bbl_generator.ml" 128 5285 5302
+type(
+  ir3_bbl
+)
+ident(
+  int_ref bbl "ir3_bbl_generator.ml" 125 5160 5169 "ir3_bbl_generator.ml" 125 5160 5172
+)
+"ir3_bbl_generator.ml" 128 5285 5305 "ir3_bbl_generator.ml" 128 5285 5311
+type(
+  ir3_bbl list -> ir3_bbl list
+)
+ident(
+  int_ref filter "ir3_bbl_generator.ml" 122 5083 5096 "ir3_bbl_generator.ml" 122 5083 5102
+)
+"ir3_bbl_generator.ml" 128 5285 5312 "ir3_bbl_generator.ml" 128 5285 5316
+type(
+  ir3_bbl list
+)
+ident(
+  int_ref rest "ir3_bbl_generator.ml" 125 5160 5174 "ir3_bbl_generator.ml" 125 5160 5178
+)
+"ir3_bbl_generator.ml" 128 5285 5304 "ir3_bbl_generator.ml" 128 5285 5317
+call(
+  stack
+)
+type(
+  ir3_bbl list
+)
+"ir3_bbl_generator.ml" 128 5285 5299 "ir3_bbl_generator.ml" 128 5285 5317
+type(
+  ir3_bbl list
+)
+"ir3_bbl_generator.ml" 126 5183 5192 "ir3_bbl_generator.ml" 128 5285 5317
+type(
+  ir3_bbl list
+)
+"ir3_bbl_generator.ml" 123 5115 5122 "ir3_bbl_generator.ml" 128 5285 5317
+type(
+  ir3_bbl list
+)
+"ir3_bbl_generator.ml" 129 5322 5331 "ir3_bbl_generator.ml" 129 5322 5337
+type(
+  ir3_bbl list
+)
+ident(
+  def f_bbls "ir3_bbl_generator.ml" 130 5355 5360 "ir3_bbl_generator.ml" 137 5682 5731
+)
+"ir3_bbl_generator.ml" 129 5322 5340 "ir3_bbl_generator.ml" 129 5322 5346
+type(
+  ir3_bbl list -> ir3_bbl list
+)
+ident(
+  int_ref filter "ir3_bbl_generator.ml" 122 5083 5096 "ir3_bbl_generator.ml" 122 5083 5102
+)
+"ir3_bbl_generator.ml" 129 5322 5347 "ir3_bbl_generator.ml" 129 5322 5351
+type(
+  ir3_bbl list
+)
+ident(
+  int_ref bbls "ir3_bbl_generator.ml" 121 5021 5033 "ir3_bbl_generator.ml" 121 5021 5037
+)
+"ir3_bbl_generator.ml" 129 5322 5340 "ir3_bbl_generator.ml" 129 5322 5351
+call(
+  stack
+)
+type(
+  ir3_bbl list
+)
+"ir3_bbl_generator.ml" 130 5355 5364 "ir3_bbl_generator.ml" 130 5355 5377
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  def pre_bbls_htbl "ir3_bbl_generator.ml" 131 5401 5406 "ir3_bbl_generator.ml" 137 5682 5731
+)
+"ir3_bbl_generator.ml" 130 5355 5380 "ir3_bbl_generator.ml" 130 5355 5394
+type(
+  ?random:bool -> int -> (int, int) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"ir3_bbl_generator.ml" 130 5355 5395 "ir3_bbl_generator.ml" 130 5355 5397
+type(
+  int
+)
+"ir3_bbl_generator.ml" 130 5355 5380 "ir3_bbl_generator.ml" 130 5355 5397
+call(
+  stack
+)
+type(
+  (int, int) Hashtbl.t
+)
+"ir3_bbl_generator.ml" 131 5401 5410 "ir3_bbl_generator.ml" 131 5401 5421
+type(
+  ir3_bbl list -> unit
+)
+ident(
+  def pre_hashing "ir3_bbl_generator.ml" 136 5657 5662 "ir3_bbl_generator.ml" 137 5682 5731
+)
+"ir3_bbl_generator.ml" 131 5401 5422 "ir3_bbl_generator.ml" 131 5401 5430
+type(
+  ir3_bbl list
+)
+ident(
+  def bbl_list "ir3_bbl_generator.ml" 132 5434 5441 "ir3_bbl_generator.ml" 135 5609 5652
+)
+"ir3_bbl_generator.ml" 132 5434 5445 "ir3_bbl_generator.ml" 132 5434 5451
+type(
+  ir3_bbl -> unit
+)
+ident(
+  def helper "ir3_bbl_generator.ml" 135 5609 5619 "ir3_bbl_generator.ml" 135 5609 5652
+)
+"ir3_bbl_generator.ml" 132 5434 5452 "ir3_bbl_generator.ml" 132 5434 5455
+type(
+  ir3_bbl
+)
+ident(
+  def bbl "ir3_bbl_generator.ml" 133 5458 5467 "ir3_bbl_generator.ml" 134 5530 5608
+)
+"ir3_bbl_generator.ml" 133 5458 5471 "ir3_bbl_generator.ml" 133 5458 5478
+type(
+  int -> unit
+)
+ident(
+  def helper2 "ir3_bbl_generator.ml" 134 5530 5542 "ir3_bbl_generator.ml" 134 5530 5608
+)
+"ir3_bbl_generator.ml" 133 5458 5479 "ir3_bbl_generator.ml" 133 5458 5486
+type(
+  int
+)
+ident(
+  def next_id "ir3_bbl_generator.ml" 133 5458 5489 "ir3_bbl_generator.ml" 133 5458 5529
+)
+"ir3_bbl_generator.ml" 133 5458 5489 "ir3_bbl_generator.ml" 133 5458 5500
+type(
+  (int, int) Hashtbl.t -> int -> int -> unit
+)
+ident(
+  int_ref add_to_htbl "ir3_bbl_generator.ml" 29 814 821 "ir3_bbl_generator.ml" 29 814 832
+)
+"ir3_bbl_generator.ml" 133 5458 5501 "ir3_bbl_generator.ml" 133 5458 5514
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  int_ref pre_bbls_htbl "ir3_bbl_generator.ml" 130 5355 5364 "ir3_bbl_generator.ml" 130 5355 5377
+)
+"ir3_bbl_generator.ml" 133 5458 5515 "ir3_bbl_generator.ml" 133 5458 5522
+type(
+  int
+)
+ident(
+  int_ref next_id "ir3_bbl_generator.ml" 133 5458 5479 "ir3_bbl_generator.ml" 133 5458 5486
+)
+"ir3_bbl_generator.ml" 133 5458 5523 "ir3_bbl_generator.ml" 133 5458 5526
+type(
+  ir3_bbl
+)
+ident(
+  int_ref bbl "ir3_bbl_generator.ml" 132 5434 5452 "ir3_bbl_generator.ml" 132 5434 5455
+)
+"ir3_bbl_generator.ml" 133 5458 5523 "ir3_bbl_generator.ml" 133 5458 5529
+type(
+  int
+)
+"ir3_bbl_generator.ml" 133 5458 5489 "ir3_bbl_generator.ml" 133 5458 5529
+call(
+  tail
+)
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 134 5530 5542 "ir3_bbl_generator.ml" 134 5530 5548
+type(
+  unit list -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"ir3_bbl_generator.ml" 134 5530 5550 "ir3_bbl_generator.ml" 134 5530 5558
+type(
+  (int -> unit) -> int list -> unit list
+)
+ident(
+  ext_ref List.map
+)
+"ir3_bbl_generator.ml" 134 5530 5559 "ir3_bbl_generator.ml" 134 5530 5566
+type(
+  int -> unit
+)
+ident(
+  int_ref helper2 "ir3_bbl_generator.ml" 133 5458 5471 "ir3_bbl_generator.ml" 133 5458 5478
+)
+"ir3_bbl_generator.ml" 134 5530 5568 "ir3_bbl_generator.ml" 134 5530 5584
+type(
+  (int, int) Hashtbl.t -> int -> int list
+)
+ident(
+  ext_ref Hashtbl.find_all
+)
+"ir3_bbl_generator.ml" 134 5530 5585 "ir3_bbl_generator.ml" 134 5530 5599
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  int_ref next_bbls_htbl "ir3_bbl_generator.ml" 51 1636 1645 "ir3_bbl_generator.ml" 51 1636 1659
+)
+"ir3_bbl_generator.ml" 134 5530 5600 "ir3_bbl_generator.ml" 134 5530 5603
+type(
+  ir3_bbl
+)
+ident(
+  int_ref bbl "ir3_bbl_generator.ml" 132 5434 5452 "ir3_bbl_generator.ml" 132 5434 5455
+)
+"ir3_bbl_generator.ml" 134 5530 5600 "ir3_bbl_generator.ml" 134 5530 5606
+type(
+  int
+)
+"ir3_bbl_generator.ml" 134 5530 5567 "ir3_bbl_generator.ml" 134 5530 5607
+call(
+  stack
+)
+type(
+  int list
+)
+"ir3_bbl_generator.ml" 134 5530 5549 "ir3_bbl_generator.ml" 134 5530 5608
+call(
+  stack
+)
+type(
+  unit list
+)
+"ir3_bbl_generator.ml" 134 5530 5542 "ir3_bbl_generator.ml" 134 5530 5608
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 133 5458 5467 "ir3_bbl_generator.ml" 134 5530 5608
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 135 5609 5619 "ir3_bbl_generator.ml" 135 5609 5625
+type(
+  unit list -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"ir3_bbl_generator.ml" 135 5609 5627 "ir3_bbl_generator.ml" 135 5609 5635
+type(
+  (ir3_bbl -> unit) -> ir3_bbl list -> unit list
+)
+ident(
+  ext_ref List.map
+)
+"ir3_bbl_generator.ml" 135 5609 5636 "ir3_bbl_generator.ml" 135 5609 5642
+type(
+  ir3_bbl -> unit
+)
+ident(
+  int_ref helper "ir3_bbl_generator.ml" 132 5434 5445 "ir3_bbl_generator.ml" 132 5434 5451
+)
+"ir3_bbl_generator.ml" 135 5609 5643 "ir3_bbl_generator.ml" 135 5609 5651
+type(
+  ir3_bbl list
+)
+ident(
+  int_ref bbl_list "ir3_bbl_generator.ml" 131 5401 5422 "ir3_bbl_generator.ml" 131 5401 5430
+)
+"ir3_bbl_generator.ml" 135 5609 5626 "ir3_bbl_generator.ml" 135 5609 5652
+call(
+  stack
+)
+type(
+  unit list
+)
+"ir3_bbl_generator.ml" 135 5609 5619 "ir3_bbl_generator.ml" 135 5609 5652
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 132 5434 5441 "ir3_bbl_generator.ml" 135 5609 5652
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 136 5657 5662 "ir3_bbl_generator.ml" 136 5657 5673
+type(
+  ir3_bbl list -> unit
+)
+ident(
+  int_ref pre_hashing "ir3_bbl_generator.ml" 131 5401 5410 "ir3_bbl_generator.ml" 131 5401 5421
+)
+"ir3_bbl_generator.ml" 136 5657 5674 "ir3_bbl_generator.ml" 136 5657 5680
+type(
+  ir3_bbl list
+)
+ident(
+  int_ref f_bbls "ir3_bbl_generator.ml" 129 5322 5331 "ir3_bbl_generator.ml" 129 5322 5337
+)
+"ir3_bbl_generator.ml" 136 5657 5662 "ir3_bbl_generator.ml" 136 5657 5680
+call(
+  stack
+)
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 137 5682 5688 "ir3_bbl_generator.ml" 137 5682 5694
+type(
+  ir3_bbl list
+)
+ident(
+  int_ref f_bbls "ir3_bbl_generator.ml" 129 5322 5331 "ir3_bbl_generator.ml" 129 5322 5337
+)
+"ir3_bbl_generator.ml" 137 5682 5695 "ir3_bbl_generator.ml" 137 5682 5708
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  int_ref pre_bbls_htbl "ir3_bbl_generator.ml" 130 5355 5364 "ir3_bbl_generator.ml" 130 5355 5377
+)
+"ir3_bbl_generator.ml" 137 5682 5709 "ir3_bbl_generator.ml" 137 5682 5723
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  int_ref next_bbls_htbl "ir3_bbl_generator.ml" 51 1636 1645 "ir3_bbl_generator.ml" 51 1636 1659
+)
+"ir3_bbl_generator.ml" 137 5682 5724 "ir3_bbl_generator.ml" 137 5682 5730
+type(
+  int
+)
+ident(
+  int_ref end_id "ir3_bbl_generator.ml" 121 5021 5038 "ir3_bbl_generator.ml" 121 5021 5044
+)
+"ir3_bbl_generator.ml" 137 5682 5687 "ir3_bbl_generator.ml" 137 5682 5731
+type(
+  ir3_bbl list * (int, int) Hashtbl.t * (int, int) Hashtbl.t * int
+)
+"ir3_bbl_generator.ml" 136 5657 5662 "ir3_bbl_generator.ml" 137 5682 5731
+type(
+  ir3_bbl list * (int, int) Hashtbl.t * (int, int) Hashtbl.t * int
+)
+"ir3_bbl_generator.ml" 131 5401 5406 "ir3_bbl_generator.ml" 137 5682 5731
+type(
+  ir3_bbl list * (int, int) Hashtbl.t * (int, int) Hashtbl.t * int
+)
+"ir3_bbl_generator.ml" 130 5355 5360 "ir3_bbl_generator.ml" 137 5682 5731
+type(
+  ir3_bbl list * (int, int) Hashtbl.t * (int, int) Hashtbl.t * int
+)
+"ir3_bbl_generator.ml" 129 5322 5327 "ir3_bbl_generator.ml" 137 5682 5731
+type(
+  ir3_bbl list * (int, int) Hashtbl.t * (int, int) Hashtbl.t * int
+)
+"ir3_bbl_generator.ml" 122 5083 5088 "ir3_bbl_generator.ml" 137 5682 5731
+type(
+  ir3_bbl list * (int, int) Hashtbl.t * (int, int) Hashtbl.t * int
+)
+"ir3_bbl_generator.ml" 121 5021 5026 "ir3_bbl_generator.ml" 137 5682 5731
+type(
+  ir3_bbl list * (int, int) Hashtbl.t * (int, int) Hashtbl.t * int
+)
+"ir3_bbl_generator.ml" 53 1734 1739 "ir3_bbl_generator.ml" 137 5682 5731
+type(
+  ir3_bbl list * (int, int) Hashtbl.t * (int, int) Hashtbl.t * int
+)
+"ir3_bbl_generator.ml" 52 1683 1688 "ir3_bbl_generator.ml" 137 5682 5731
+type(
+  ir3_bbl list * (int, int) Hashtbl.t * (int, int) Hashtbl.t * int
+)
+"ir3_bbl_generator.ml" 51 1636 1641 "ir3_bbl_generator.ml" 137 5682 5731
+type(
+  ir3_bbl list * (int, int) Hashtbl.t * (int, int) Hashtbl.t * int
+)
+type(
+  ir3_bbl list * (int, int) Hashtbl.t * (int, int) Hashtbl.t * int
+)
+"ir3_bbl_generator.ml" 139 5739 5747 "ir3_bbl_generator.ml" 139 5739 5751
+type(
+  ir3_bbl list
+)
+ident(
+  def bbls "ir3_bbl_generator.ml" 140 5804 5807 "ir3_bbl_generator.ml" 145 5913 5917
+)
+"ir3_bbl_generator.ml" 139 5739 5752 "ir3_bbl_generator.ml" 139 5739 5760
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  def pre_bbls "ir3_bbl_generator.ml" 140 5804 5807 "ir3_bbl_generator.ml" 145 5913 5917
+)
+"ir3_bbl_generator.ml" 139 5739 5761 "ir3_bbl_generator.ml" 139 5739 5770
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  def next_bbls "ir3_bbl_generator.ml" 140 5804 5807 "ir3_bbl_generator.ml" 145 5913 5917
+)
+"ir3_bbl_generator.ml" 139 5739 5771 "ir3_bbl_generator.ml" 139 5739 5777
+type(
+  int
+)
+ident(
+  def end_id "ir3_bbl_generator.ml" 140 5804 5807 "ir3_bbl_generator.ml" 145 5913 5917
+)
+"ir3_bbl_generator.ml" 139 5739 5746 "ir3_bbl_generator.ml" 139 5739 5778
+type(
+  ir3_bbl list * (int, int) Hashtbl.t * (int, int) Hashtbl.t * int
+)
+"ir3_bbl_generator.ml" 139 5739 5781 "ir3_bbl_generator.ml" 139 5739 5794
+type(
+  Ir3_structs_new.ir3_stmt_new list ->
+  ir3_bbl list * (int, int) Hashtbl.t * (int, int) Hashtbl.t * int
+)
+ident(
+  int_ref stmts_to_bbls "ir3_bbl_generator.ml" 50 1537 1544 "ir3_bbl_generator.ml" 50 1537 1557
+)
+"ir3_bbl_generator.ml" 139 5739 5795 "ir3_bbl_generator.ml" 139 5739 5800
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+ident(
+  int_ref stmts "ir3_bbl_generator.ml" 27 693 716 "ir3_bbl_generator.ml" 27 693 721
+)
+"ir3_bbl_generator.ml" 139 5739 5781 "ir3_bbl_generator.ml" 139 5739 5800
+call(
+  stack
+)
+type(
+  ir3_bbl list * (int, int) Hashtbl.t * (int, int) Hashtbl.t * int
+)
+"ir3_bbl_generator.ml" 141 5809 5822 "ir3_bbl_generator.ml" 141 5809 5826
+type(
+  ir3_bbl list
+)
+ident(
+  int_ref bbls "ir3_bbl_generator.ml" 139 5739 5747 "ir3_bbl_generator.ml" 139 5739 5751
+)
+"ir3_bbl_generator.ml" 142 5828 5847 "ir3_bbl_generator.ml" 142 5828 5855
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  int_ref pre_bbls "ir3_bbl_generator.ml" 139 5739 5752 "ir3_bbl_generator.ml" 139 5739 5760
+)
+"ir3_bbl_generator.ml" 143 5857 5877 "ir3_bbl_generator.ml" 143 5857 5886
+type(
+  (int, int) Hashtbl.t
+)
+ident(
+  int_ref next_bbls "ir3_bbl_generator.ml" 139 5739 5761 "ir3_bbl_generator.ml" 139 5739 5770
+)
+"ir3_bbl_generator.ml" 144 5888 5904 "ir3_bbl_generator.ml" 144 5888 5910
+type(
+  int
+)
+ident(
+  int_ref end_id "ir3_bbl_generator.ml" 139 5739 5771 "ir3_bbl_generator.ml" 139 5739 5777
+)
+"ir3_bbl_generator.ml" 140 5804 5807 "ir3_bbl_generator.ml" 145 5913 5917
+type(
+  md_bbls
+)
+"ir3_bbl_generator.ml" 139 5739 5742 "ir3_bbl_generator.ml" 145 5913 5917
+type(
+  md_bbls
+)
+"ir3_bbl_generator.ml" 50 1537 1540 "ir3_bbl_generator.ml" 145 5913 5917
+type(
+  md_bbls
+)
+"ir3_bbl_generator.ml" 39 1090 1093 "ir3_bbl_generator.ml" 145 5913 5917
+type(
+  md_bbls
+)
+"ir3_bbl_generator.ml" 29 814 817 "ir3_bbl_generator.ml" 145 5913 5917
+type(
+  md_bbls
+)
+"ir3_bbl_generator.ml" 28 755 758 "ir3_bbl_generator.ml" 145 5913 5917
+type(
+  md_bbls
+)
+type(
+  md_bbls
+)
+"ir3_bbl_generator.ml" 159 6220 6224 "ir3_bbl_generator.ml" 159 6220 6243
+type(
+  Ir3_structs_new.cdata3_new list * Ir3_structs_new.md_decl3_new *
+  Ir3_structs_new.md_decl3_new list -> ir3_program_bbl
+)
+ident(
+  def ir3_program_to_bbls "ir3_bbl_generator.ml" 173 6731 6731 "ir3_bbl_generator.ml" 1 0 -1
+)
+"ir3_bbl_generator.ml" 159 6220 6245 "ir3_bbl_generator.ml" 159 6220 6251
+type(
+  Ir3_structs_new.cdata3_new list
+)
+ident(
+  def cdatas "ir3_bbl_generator.ml" 159 6220 6269 "ir3_bbl_generator.ml" 171 6642 6728
+)
+"ir3_bbl_generator.ml" 159 6220 6252 "ir3_bbl_generator.ml" 159 6220 6259
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  def ir3Main "ir3_bbl_generator.ml" 159 6220 6269 "ir3_bbl_generator.ml" 171 6642 6728
+)
+"ir3_bbl_generator.ml" 159 6220 6260 "ir3_bbl_generator.ml" 159 6220 6267
+type(
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  def ir3Mtds "ir3_bbl_generator.ml" 159 6220 6269 "ir3_bbl_generator.ml" 171 6642 6728
+)
+"ir3_bbl_generator.ml" 159 6220 6244 "ir3_bbl_generator.ml" 159 6220 6268
+type(
+  Ir3_structs_new.cdata3_new list * Ir3_structs_new.md_decl3_new *
+  Ir3_structs_new.md_decl3_new list
+)
+"ir3_bbl_generator.ml" 160 6289 6295 "ir3_bbl_generator.ml" 160 6289 6316
+type(
+  Ir3_structs_new.md_decl3_new -> md_decl3_bbl
+)
+ident(
+  def generate_md_decl3_bbl "ir3_bbl_generator.ml" 171 6642 6647 "ir3_bbl_generator.ml" 171 6642 6728
+)
+"ir3_bbl_generator.ml" 160 6289 6317 "ir3_bbl_generator.ml" 160 6289 6325
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  def md_decl3 "ir3_bbl_generator.ml" 161 6328 6332 "ir3_bbl_generator.ml" 170 6633 6640
+)
+"ir3_bbl_generator.ml" 161 6328 6336 "ir3_bbl_generator.ml" 161 6328 6340
+type(
+  md_bbls
+)
+ident(
+  def bbls "ir3_bbl_generator.ml" 162 6382 6388 "ir3_bbl_generator.ml" 170 6633 6640
+)
+"ir3_bbl_generator.ml" 161 6328 6343 "ir3_bbl_generator.ml" 161 6328 6360
+type(
+  Ir3_structs_new.ir3_stmt_new list -> md_bbls
+)
+ident(
+  int_ref ir3_stmts_to_bbls "ir3_bbl_generator.ml" 27 693 697 "ir3_bbl_generator.ml" 27 693 714
+)
+"ir3_bbl_generator.ml" 161 6328 6361 "ir3_bbl_generator.ml" 161 6328 6369
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref md_decl3 "ir3_bbl_generator.ml" 160 6289 6317 "ir3_bbl_generator.ml" 160 6289 6325
+)
+"ir3_bbl_generator.ml" 161 6328 6361 "ir3_bbl_generator.ml" 161 6328 6378
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 161 6328 6343 "ir3_bbl_generator.ml" 161 6328 6378
+call(
+  stack
+)
+type(
+  md_bbls
+)
+"ir3_bbl_generator.ml" 162 6382 6393 "ir3_bbl_generator.ml" 162 6382 6398
+type(
+  string
+)
+ident(
+  def fname "ir3_bbl_generator.ml" 163 6420 6426 "ir3_bbl_generator.ml" 170 6633 6640
+)
+"ir3_bbl_generator.ml" 162 6382 6399 "ir3_bbl_generator.ml" 162 6382 6400
+type(
+  Ir3_structs_new.reg_or_mem
+)
+"ir3_bbl_generator.ml" 162 6382 6392 "ir3_bbl_generator.ml" 162 6382 6401
+type(
+  Ir3_structs_new.id3_new
+)
+"ir3_bbl_generator.ml" 162 6382 6404 "ir3_bbl_generator.ml" 162 6382 6412
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref md_decl3 "ir3_bbl_generator.ml" 160 6289 6317 "ir3_bbl_generator.ml" 160 6289 6325
+)
+"ir3_bbl_generator.ml" 162 6382 6404 "ir3_bbl_generator.ml" 162 6382 6416
+type(
+  Ir3_structs_new.id3_new
+)
+"ir3_bbl_generator.ml" 164 6428 6440 "ir3_bbl_generator.ml" 164 6428 6445
+type(
+  string
+)
+ident(
+  int_ref fname "ir3_bbl_generator.ml" 162 6382 6393 "ir3_bbl_generator.ml" 162 6382 6398
+)
+"ir3_bbl_generator.ml" 165 6447 6464 "ir3_bbl_generator.ml" 165 6447 6472
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref md_decl3 "ir3_bbl_generator.ml" 160 6289 6317 "ir3_bbl_generator.ml" 160 6289 6325
+)
+"ir3_bbl_generator.ml" 165 6447 6464 "ir3_bbl_generator.ml" 165 6447 6481
+type(
+  Ir3_structs_new.ir3_type_new
+)
+"ir3_bbl_generator.ml" 166 6483 6499 "ir3_bbl_generator.ml" 166 6483 6507
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref md_decl3 "ir3_bbl_generator.ml" 160 6289 6317 "ir3_bbl_generator.ml" 160 6289 6325
+)
+"ir3_bbl_generator.ml" 166 6483 6499 "ir3_bbl_generator.ml" 166 6483 6515
+type(
+  Ir3_structs_new.var_decl3_new list
+)
+"ir3_bbl_generator.ml" 167 6517 6533 "ir3_bbl_generator.ml" 167 6517 6537
+type(
+  md_bbls
+)
+ident(
+  int_ref bbls "ir3_bbl_generator.ml" 161 6328 6336 "ir3_bbl_generator.ml" 161 6328 6340
+)
+"ir3_bbl_generator.ml" 167 6517 6533 "ir3_bbl_generator.ml" 167 6517 6545
+type(
+  ir3_bbl list
+)
+"ir3_bbl_generator.ml" 168 6547 6569 "ir3_bbl_generator.ml" 168 6547 6573
+type(
+  md_bbls
+)
+ident(
+  int_ref bbls "ir3_bbl_generator.ml" 161 6328 6336 "ir3_bbl_generator.ml" 161 6328 6340
+)
+"ir3_bbl_generator.ml" 168 6547 6569 "ir3_bbl_generator.ml" 168 6547 6587
+type(
+  (int, int) Hashtbl.t
+)
+"ir3_bbl_generator.ml" 169 6589 6612 "ir3_bbl_generator.ml" 169 6589 6616
+type(
+  md_bbls
+)
+ident(
+  int_ref bbls "ir3_bbl_generator.ml" 161 6328 6336 "ir3_bbl_generator.ml" 161 6328 6340
+)
+"ir3_bbl_generator.ml" 169 6589 6612 "ir3_bbl_generator.ml" 169 6589 6631
+type(
+  (int, int) Hashtbl.t
+)
+"ir3_bbl_generator.ml" 163 6420 6426 "ir3_bbl_generator.ml" 170 6633 6640
+type(
+  md_decl3_bbl
+)
+"ir3_bbl_generator.ml" 162 6382 6388 "ir3_bbl_generator.ml" 170 6633 6640
+type(
+  md_decl3_bbl
+)
+"ir3_bbl_generator.ml" 161 6328 6332 "ir3_bbl_generator.ml" 170 6633 6640
+type(
+  md_decl3_bbl
+)
+"ir3_bbl_generator.ml" 171 6642 6648 "ir3_bbl_generator.ml" 171 6642 6654
+type(
+  Ir3_structs_new.cdata3_new list
+)
+ident(
+  int_ref cdatas "ir3_bbl_generator.ml" 159 6220 6245 "ir3_bbl_generator.ml" 159 6220 6251
+)
+"ir3_bbl_generator.ml" 171 6642 6656 "ir3_bbl_generator.ml" 171 6642 6677
+type(
+  Ir3_structs_new.md_decl3_new -> md_decl3_bbl
+)
+ident(
+  int_ref generate_md_decl3_bbl "ir3_bbl_generator.ml" 160 6289 6295 "ir3_bbl_generator.ml" 160 6289 6316
+)
+"ir3_bbl_generator.ml" 171 6642 6678 "ir3_bbl_generator.ml" 171 6642 6685
+type(
+  Ir3_structs_new.md_decl3_new
+)
+ident(
+  int_ref ir3Main "ir3_bbl_generator.ml" 159 6220 6252 "ir3_bbl_generator.ml" 159 6220 6259
+)
+"ir3_bbl_generator.ml" 171 6642 6656 "ir3_bbl_generator.ml" 171 6642 6685
+call(
+  stack
+)
+type(
+  md_decl3_bbl
+)
+"ir3_bbl_generator.ml" 171 6642 6688 "ir3_bbl_generator.ml" 171 6642 6696
+type(
+  (Ir3_structs_new.md_decl3_new -> md_decl3_bbl) ->
+  Ir3_structs_new.md_decl3_new list -> md_decl3_bbl list
+)
+ident(
+  ext_ref List.map
+)
+"ir3_bbl_generator.ml" 171 6642 6697 "ir3_bbl_generator.ml" 171 6642 6718
+type(
+  Ir3_structs_new.md_decl3_new -> md_decl3_bbl
+)
+ident(
+  int_ref generate_md_decl3_bbl "ir3_bbl_generator.ml" 160 6289 6295 "ir3_bbl_generator.ml" 160 6289 6316
+)
+"ir3_bbl_generator.ml" 171 6642 6719 "ir3_bbl_generator.ml" 171 6642 6726
+type(
+  Ir3_structs_new.md_decl3_new list
+)
+ident(
+  int_ref ir3Mtds "ir3_bbl_generator.ml" 159 6220 6260 "ir3_bbl_generator.ml" 159 6220 6267
+)
+"ir3_bbl_generator.ml" 171 6642 6687 "ir3_bbl_generator.ml" 171 6642 6727
+call(
+  stack
+)
+type(
+  md_decl3_bbl list
+)
+"ir3_bbl_generator.ml" 171 6642 6647 "ir3_bbl_generator.ml" 171 6642 6728
+type(
+  ir3_program_bbl
+)
+"ir3_bbl_generator.ml" 160 6289 6291 "ir3_bbl_generator.ml" 171 6642 6728
+type(
+  ir3_program_bbl
+)
+type(
+  ir3_program_bbl
+)
+"ir3_bbl_generator.ml" 173 6731 6735 "ir3_bbl_generator.ml" 173 6731 6757
+type(
+  md_decl3_bbl -> string
+)
+ident(
+  def string_of_md_decl3_bbl "ir3_bbl_generator.ml" 194 7767 7767 "ir3_bbl_generator.ml" 1 0 -1
+)
+"ir3_bbl_generator.ml" 173 6731 6759 "ir3_bbl_generator.ml" 173 6731 6760
+type(
+  md_decl3_bbl
+)
+ident(
+  def m "ir3_bbl_generator.ml" 174 6779 6781 "ir3_bbl_generator.ml" 192 7706 7765
+)
+"ir3_bbl_generator.ml" 174 6779 6785 "ir3_bbl_generator.ml" 174 6779 6807
+type(
+  Ir3_structs_new.ir3_stmt_new -> string
+)
+ident(
+  def string_of_ir3_stmt_bbl "ir3_bbl_generator.ml" 176 6866 6868 "ir3_bbl_generator.ml" 192 7706 7765
+)
+"ir3_bbl_generator.ml" 174 6779 6808 "ir3_bbl_generator.ml" 174 6779 6812
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  def stmt "ir3_bbl_generator.ml" 175 6815 6819 "ir3_bbl_generator.ml" 175 6815 6862
+)
+"ir3_bbl_generator.ml" 175 6815 6819 "ir3_bbl_generator.ml" 175 6815 6828
+type(
+  unit -> string
+)
+ident(
+  ext_ref Ir3_structs_new.print_tab
+)
+"ir3_bbl_generator.ml" 175 6815 6828 "ir3_bbl_generator.ml" 175 6815 6830
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 175 6815 6819 "ir3_bbl_generator.ml" 175 6815 6830
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 175 6815 6831 "ir3_bbl_generator.ml" 175 6815 6832
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 175 6815 6834 "ir3_bbl_generator.ml" 175 6815 6856
+type(
+  Ir3_structs_new.ir3_stmt_new -> string
+)
+ident(
+  ext_ref Ir3_structs_new.string_of_ir3_stmt_new
+)
+"ir3_bbl_generator.ml" 175 6815 6857 "ir3_bbl_generator.ml" 175 6815 6861
+type(
+  Ir3_structs_new.ir3_stmt_new
+)
+ident(
+  int_ref stmt "ir3_bbl_generator.ml" 174 6779 6808 "ir3_bbl_generator.ml" 174 6779 6812
+)
+"ir3_bbl_generator.ml" 175 6815 6833 "ir3_bbl_generator.ml" 175 6815 6862
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 175 6815 6819 "ir3_bbl_generator.ml" 175 6815 6862
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 176 6866 6872 "ir3_bbl_generator.ml" 176 6866 6885
+type(
+  ir3_bbl -> string
+)
+ident(
+  def string_of_bbl "ir3_bbl_generator.ml" 183 7356 7358 "ir3_bbl_generator.ml" 192 7706 7765
+)
+"ir3_bbl_generator.ml" 176 6866 6886 "ir3_bbl_generator.ml" 176 6866 6889
+type(
+  ir3_bbl
+)
+ident(
+  def bbl "ir3_bbl_generator.ml" 177 6892 6896 "ir3_bbl_generator.ml" 182 7286 7351
+)
+"ir3_bbl_generator.ml" 177 6892 6896 "ir3_bbl_generator.ml" 177 6892 6905
+type(
+  unit -> string
+)
+ident(
+  ext_ref Ir3_structs_new.print_tab
+)
+"ir3_bbl_generator.ml" 177 6892 6905 "ir3_bbl_generator.ml" 177 6892 6907
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 177 6892 6896 "ir3_bbl_generator.ml" 177 6892 6907
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 177 6892 6908 "ir3_bbl_generator.ml" 177 6892 6909
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 177 6892 6910 "ir3_bbl_generator.ml" 177 6892 6935
+type(
+  string
+)
+"ir3_bbl_generator.ml" 177 6892 6936 "ir3_bbl_generator.ml" 177 6892 6937
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 177 6892 6939 "ir3_bbl_generator.ml" 177 6892 6952
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"ir3_bbl_generator.ml" 177 6892 6953 "ir3_bbl_generator.ml" 177 6892 6956
+type(
+  ir3_bbl
+)
+ident(
+  int_ref bbl "ir3_bbl_generator.ml" 176 6866 6886 "ir3_bbl_generator.ml" 176 6866 6889
+)
+"ir3_bbl_generator.ml" 177 6892 6953 "ir3_bbl_generator.ml" 177 6892 6959
+type(
+  int
+)
+"ir3_bbl_generator.ml" 177 6892 6938 "ir3_bbl_generator.ml" 177 6892 6960
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 177 6892 6961 "ir3_bbl_generator.ml" 177 6892 6962
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 177 6892 6963 "ir3_bbl_generator.ml" 177 6892 6978
+type(
+  string
+)
+"ir3_bbl_generator.ml" 177 6892 6979 "ir3_bbl_generator.ml" 177 6892 6980
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 178 6981 6985 "ir3_bbl_generator.ml" 178 6981 6994
+type(
+  unit -> string
+)
+ident(
+  ext_ref Ir3_structs_new.print_tab
+)
+"ir3_bbl_generator.ml" 178 6981 6994 "ir3_bbl_generator.ml" 178 6981 6996
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 178 6981 6985 "ir3_bbl_generator.ml" 178 6981 6996
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 178 6981 6997 "ir3_bbl_generator.ml" 178 6981 6998
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 178 6981 6999 "ir3_bbl_generator.ml" 178 6981 7011
+type(
+  string
+)
+"ir3_bbl_generator.ml" 178 6981 7012 "ir3_bbl_generator.ml" 178 6981 7013
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 178 6981 7015 "ir3_bbl_generator.ml" 178 6981 7029
+type(
+  int list -> (int -> string) -> string -> string
+)
+ident(
+  ext_ref Arm_structs.string_of_list
+)
+"ir3_bbl_generator.ml" 178 6981 7031 "ir3_bbl_generator.ml" 178 6981 7047
+type(
+  (int, int) Hashtbl.t -> int -> int list
+)
+ident(
+  ext_ref Hashtbl.find_all
+)
+"ir3_bbl_generator.ml" 178 6981 7048 "ir3_bbl_generator.ml" 178 6981 7049
+type(
+  md_decl3_bbl
+)
+ident(
+  int_ref m "ir3_bbl_generator.ml" 173 6731 6759 "ir3_bbl_generator.ml" 173 6731 6760
+)
+"ir3_bbl_generator.ml" 178 6981 7048 "ir3_bbl_generator.ml" 178 6981 7063
+type(
+  (int, int) Hashtbl.t
+)
+"ir3_bbl_generator.ml" 178 6981 7064 "ir3_bbl_generator.ml" 178 6981 7067
+type(
+  ir3_bbl
+)
+ident(
+  int_ref bbl "ir3_bbl_generator.ml" 176 6866 6886 "ir3_bbl_generator.ml" 176 6866 6889
+)
+"ir3_bbl_generator.ml" 178 6981 7064 "ir3_bbl_generator.ml" 178 6981 7070
+type(
+  int
+)
+"ir3_bbl_generator.ml" 178 6981 7030 "ir3_bbl_generator.ml" 178 6981 7071
+call(
+  stack
+)
+type(
+  int list
+)
+"ir3_bbl_generator.ml" 178 6981 7072 "ir3_bbl_generator.ml" 178 6981 7085
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"ir3_bbl_generator.ml" 178 6981 7086 "ir3_bbl_generator.ml" 178 6981 7089
+type(
+  string
+)
+"ir3_bbl_generator.ml" 178 6981 7014 "ir3_bbl_generator.ml" 178 6981 7090
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 178 6981 7091 "ir3_bbl_generator.ml" 178 6981 7092
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 179 7093 7097 "ir3_bbl_generator.ml" 179 7093 7101
+type(
+  string
+)
+"ir3_bbl_generator.ml" 179 7093 7102 "ir3_bbl_generator.ml" 179 7093 7103
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 179 7093 7104 "ir3_bbl_generator.ml" 179 7093 7113
+type(
+  unit -> string
+)
+ident(
+  ext_ref Ir3_structs_new.print_tab
+)
+"ir3_bbl_generator.ml" 179 7093 7113 "ir3_bbl_generator.ml" 179 7093 7115
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 179 7093 7104 "ir3_bbl_generator.ml" 179 7093 7115
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 179 7093 7116 "ir3_bbl_generator.ml" 179 7093 7117
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 180 7119 7123 "ir3_bbl_generator.ml" 180 7119 7136
+type(
+  string
+)
+"ir3_bbl_generator.ml" 180 7119 7137 "ir3_bbl_generator.ml" 180 7119 7138
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 180 7119 7140 "ir3_bbl_generator.ml" 180 7119 7154
+type(
+  int list -> (int -> string) -> string -> string
+)
+ident(
+  ext_ref Arm_structs.string_of_list
+)
+"ir3_bbl_generator.ml" 180 7119 7156 "ir3_bbl_generator.ml" 180 7119 7172
+type(
+  (int, int) Hashtbl.t -> int -> int list
+)
+ident(
+  ext_ref Hashtbl.find_all
+)
+"ir3_bbl_generator.ml" 180 7119 7173 "ir3_bbl_generator.ml" 180 7119 7174
+type(
+  md_decl3_bbl
+)
+ident(
+  int_ref m "ir3_bbl_generator.ml" 173 6731 6759 "ir3_bbl_generator.ml" 173 6731 6760
+)
+"ir3_bbl_generator.ml" 180 7119 7173 "ir3_bbl_generator.ml" 180 7119 7189
+type(
+  (int, int) Hashtbl.t
+)
+"ir3_bbl_generator.ml" 180 7119 7190 "ir3_bbl_generator.ml" 180 7119 7193
+type(
+  ir3_bbl
+)
+ident(
+  int_ref bbl "ir3_bbl_generator.ml" 176 6866 6886 "ir3_bbl_generator.ml" 176 6866 6889
+)
+"ir3_bbl_generator.ml" 180 7119 7190 "ir3_bbl_generator.ml" 180 7119 7196
+type(
+  int
+)
+"ir3_bbl_generator.ml" 180 7119 7155 "ir3_bbl_generator.ml" 180 7119 7197
+call(
+  stack
+)
+type(
+  int list
+)
+"ir3_bbl_generator.ml" 180 7119 7198 "ir3_bbl_generator.ml" 180 7119 7211
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"ir3_bbl_generator.ml" 180 7119 7212 "ir3_bbl_generator.ml" 180 7119 7215
+type(
+  string
+)
+"ir3_bbl_generator.ml" 180 7119 7139 "ir3_bbl_generator.ml" 180 7119 7216
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 180 7119 7217 "ir3_bbl_generator.ml" 180 7119 7218
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 181 7219 7223 "ir3_bbl_generator.ml" 181 7219 7227
+type(
+  string
+)
+"ir3_bbl_generator.ml" 181 7219 7228 "ir3_bbl_generator.ml" 181 7219 7229
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 181 7219 7230 "ir3_bbl_generator.ml" 181 7219 7239
+type(
+  unit -> string
+)
+ident(
+  ext_ref Ir3_structs_new.print_tab
+)
+"ir3_bbl_generator.ml" 181 7219 7239 "ir3_bbl_generator.ml" 181 7219 7241
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 181 7219 7230 "ir3_bbl_generator.ml" 181 7219 7241
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 181 7219 7242 "ir3_bbl_generator.ml" 181 7219 7243
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 181 7219 7244 "ir3_bbl_generator.ml" 181 7219 7283
+type(
+  string
+)
+"ir3_bbl_generator.ml" 181 7219 7284 "ir3_bbl_generator.ml" 181 7219 7285
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 182 7286 7291 "ir3_bbl_generator.ml" 182 7286 7305
+type(
+  Ir3_structs_new.ir3_stmt_new list ->
+  (Ir3_structs_new.ir3_stmt_new -> string) -> string -> string
+)
+ident(
+  ext_ref Arm_structs.string_of_list
+)
+"ir3_bbl_generator.ml" 182 7286 7306 "ir3_bbl_generator.ml" 182 7286 7309
+type(
+  ir3_bbl
+)
+ident(
+  int_ref bbl "ir3_bbl_generator.ml" 176 6866 6886 "ir3_bbl_generator.ml" 176 6866 6889
+)
+"ir3_bbl_generator.ml" 182 7286 7306 "ir3_bbl_generator.ml" 182 7286 7315
+type(
+  Ir3_structs_new.ir3_stmt_new list
+)
+"ir3_bbl_generator.ml" 182 7286 7316 "ir3_bbl_generator.ml" 182 7286 7338
+type(
+  Ir3_structs_new.ir3_stmt_new -> string
+)
+ident(
+  int_ref string_of_ir3_stmt_bbl "ir3_bbl_generator.ml" 174 6779 6785 "ir3_bbl_generator.ml" 174 6779 6807
+)
+"ir3_bbl_generator.ml" 182 7286 7339 "ir3_bbl_generator.ml" 182 7286 7343
+type(
+  string
+)
+"ir3_bbl_generator.ml" 182 7286 7290 "ir3_bbl_generator.ml" 182 7286 7344
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 182 7286 7345 "ir3_bbl_generator.ml" 182 7286 7346
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 182 7286 7347 "ir3_bbl_generator.ml" 182 7286 7351
+type(
+  string
+)
+"ir3_bbl_generator.ml" 182 7286 7290 "ir3_bbl_generator.ml" 182 7286 7351
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 181 7219 7244 "ir3_bbl_generator.ml" 182 7286 7351
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 181 7219 7230 "ir3_bbl_generator.ml" 182 7286 7351
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 181 7219 7223 "ir3_bbl_generator.ml" 182 7286 7351
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 180 7119 7139 "ir3_bbl_generator.ml" 182 7286 7351
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 180 7119 7123 "ir3_bbl_generator.ml" 182 7286 7351
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 179 7093 7104 "ir3_bbl_generator.ml" 182 7286 7351
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 179 7093 7097 "ir3_bbl_generator.ml" 182 7286 7351
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 178 6981 7014 "ir3_bbl_generator.ml" 182 7286 7351
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 178 6981 6999 "ir3_bbl_generator.ml" 182 7286 7351
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 178 6981 6985 "ir3_bbl_generator.ml" 182 7286 7351
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 177 6892 6963 "ir3_bbl_generator.ml" 182 7286 7351
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 177 6892 6938 "ir3_bbl_generator.ml" 182 7286 7351
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 177 6892 6910 "ir3_bbl_generator.ml" 182 7286 7351
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 177 6892 6896 "ir3_bbl_generator.ml" 182 7286 7351
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 183 7356 7362 "ir3_bbl_generator.ml" 183 7356 7374
+type(
+  string
+)
+ident(
+  def methodHeader "ir3_bbl_generator.ml" 188 7535 7537 "ir3_bbl_generator.ml" 192 7706 7765
+)
+"ir3_bbl_generator.ml" 184 7378 7382 "ir3_bbl_generator.ml" 184 7378 7391
+type(
+  unit -> string
+)
+ident(
+  ext_ref Ir3_structs_new.print_tab
+)
+"ir3_bbl_generator.ml" 184 7378 7391 "ir3_bbl_generator.ml" 184 7378 7393
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 184 7378 7382 "ir3_bbl_generator.ml" 184 7378 7393
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 184 7378 7394 "ir3_bbl_generator.ml" 184 7378 7395
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 184 7378 7397 "ir3_bbl_generator.ml" 184 7378 7419
+type(
+  Ir3_structs_new.ir3_type_new -> string
+)
+ident(
+  ext_ref Ir3_structs_new.string_of_ir3_type_new
+)
+"ir3_bbl_generator.ml" 184 7378 7420 "ir3_bbl_generator.ml" 184 7378 7421
+type(
+  md_decl3_bbl
+)
+ident(
+  int_ref m "ir3_bbl_generator.ml" 173 6731 6759 "ir3_bbl_generator.ml" 173 6731 6760
+)
+"ir3_bbl_generator.ml" 184 7378 7420 "ir3_bbl_generator.ml" 184 7378 7430
+type(
+  Ir3_structs_new.ir3_type_new
+)
+"ir3_bbl_generator.ml" 184 7378 7396 "ir3_bbl_generator.ml" 184 7378 7431
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 185 7433 7435 "ir3_bbl_generator.ml" 185 7433 7436
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 185 7433 7437 "ir3_bbl_generator.ml" 185 7433 7440
+type(
+  string
+)
+"ir3_bbl_generator.ml" 185 7433 7441 "ir3_bbl_generator.ml" 185 7433 7442
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 185 7433 7443 "ir3_bbl_generator.ml" 185 7433 7444
+type(
+  md_decl3_bbl
+)
+ident(
+  int_ref m "ir3_bbl_generator.ml" 173 6731 6759 "ir3_bbl_generator.ml" 173 6731 6760
+)
+"ir3_bbl_generator.ml" 185 7433 7443 "ir3_bbl_generator.ml" 185 7433 7448
+type(
+  string
+)
+"ir3_bbl_generator.ml" 185 7433 7449 "ir3_bbl_generator.ml" 185 7433 7450
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 186 7452 7454 "ir3_bbl_generator.ml" 186 7452 7457
+type(
+  string
+)
+"ir3_bbl_generator.ml" 186 7452 7458 "ir3_bbl_generator.ml" 186 7452 7459
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 186 7452 7461 "ir3_bbl_generator.ml" 186 7452 7475
+type(
+  Ir3_structs_new.var_decl3_new list ->
+  (Ir3_structs_new.var_decl3_new -> string) -> string -> string
+)
+ident(
+  ext_ref Arm_structs.string_of_list
+)
+"ir3_bbl_generator.ml" 186 7452 7476 "ir3_bbl_generator.ml" 186 7452 7477
+type(
+  md_decl3_bbl
+)
+ident(
+  int_ref m "ir3_bbl_generator.ml" 173 6731 6759 "ir3_bbl_generator.ml" 173 6731 6760
+)
+"ir3_bbl_generator.ml" 186 7452 7476 "ir3_bbl_generator.ml" 186 7452 7485
+type(
+  Ir3_structs_new.var_decl3_new list
+)
+"ir3_bbl_generator.ml" 186 7452 7486 "ir3_bbl_generator.ml" 186 7452 7509
+type(
+  Ir3_structs_new.var_decl3_new -> string
+)
+ident(
+  ext_ref Ir3_structs_new.string_of_arg_decl3_new
+)
+"ir3_bbl_generator.ml" 186 7452 7510 "ir3_bbl_generator.ml" 186 7452 7513
+type(
+  string
+)
+"ir3_bbl_generator.ml" 186 7452 7460 "ir3_bbl_generator.ml" 186 7452 7515
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 186 7452 7516 "ir3_bbl_generator.ml" 186 7452 7517
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 186 7452 7518 "ir3_bbl_generator.ml" 186 7452 7521
+type(
+  string
+)
+"ir3_bbl_generator.ml" 187 7523 7525 "ir3_bbl_generator.ml" 187 7523 7526
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 187 7523 7526 "ir3_bbl_generator.ml" 187 7523 7531
+type(
+  string
+)
+"ir3_bbl_generator.ml" 186 7452 7518 "ir3_bbl_generator.ml" 187 7523 7531
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 186 7452 7460 "ir3_bbl_generator.ml" 187 7523 7531
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 186 7452 7454 "ir3_bbl_generator.ml" 187 7523 7531
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 185 7433 7443 "ir3_bbl_generator.ml" 187 7523 7531
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 185 7433 7437 "ir3_bbl_generator.ml" 187 7523 7531
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 184 7378 7396 "ir3_bbl_generator.ml" 187 7523 7531
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 184 7378 7382 "ir3_bbl_generator.ml" 187 7523 7531
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 188 7535 7541 "ir3_bbl_generator.ml" 188 7535 7548
+type(
+  string
+)
+ident(
+  def indentI "ir3_bbl_generator.ml" 189 7567 7569 "ir3_bbl_generator.ml" 192 7706 7765
+)
+"ir3_bbl_generator.ml" 188 7535 7551 "ir3_bbl_generator.ml" 188 7535 7561
+type(
+  unit -> string
+)
+ident(
+  ext_ref Ir3_structs_new.indent_inc
+)
+"ir3_bbl_generator.ml" 188 7535 7561 "ir3_bbl_generator.ml" 188 7535 7563
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 188 7535 7551 "ir3_bbl_generator.ml" 188 7535 7563
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 189 7567 7573 "ir3_bbl_generator.ml" 189 7567 7583
+type(
+  string
+)
+ident(
+  def methodBbls "ir3_bbl_generator.ml" 190 7633 7635 "ir3_bbl_generator.ml" 192 7706 7765
+)
+"ir3_bbl_generator.ml" 189 7567 7586 "ir3_bbl_generator.ml" 189 7567 7600
+type(
+  ir3_bbl list -> (ir3_bbl -> string) -> string -> string
+)
+ident(
+  ext_ref Arm_structs.string_of_list
+)
+"ir3_bbl_generator.ml" 189 7567 7601 "ir3_bbl_generator.ml" 189 7567 7602
+type(
+  md_decl3_bbl
+)
+ident(
+  int_ref m "ir3_bbl_generator.ml" 173 6731 6759 "ir3_bbl_generator.ml" 173 6731 6760
+)
+"ir3_bbl_generator.ml" 189 7567 7601 "ir3_bbl_generator.ml" 189 7567 7610
+type(
+  ir3_bbl list
+)
+"ir3_bbl_generator.ml" 189 7567 7611 "ir3_bbl_generator.ml" 189 7567 7624
+type(
+  ir3_bbl -> string
+)
+ident(
+  int_ref string_of_bbl "ir3_bbl_generator.ml" 176 6866 6872 "ir3_bbl_generator.ml" 176 6866 6885
+)
+"ir3_bbl_generator.ml" 189 7567 7625 "ir3_bbl_generator.ml" 189 7567 7629
+type(
+  string
+)
+"ir3_bbl_generator.ml" 189 7567 7586 "ir3_bbl_generator.ml" 189 7567 7629
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 190 7633 7639 "ir3_bbl_generator.ml" 190 7633 7646
+type(
+  string
+)
+ident(
+  def indentD "ir3_bbl_generator.ml" 191 7665 7667 "ir3_bbl_generator.ml" 192 7706 7765
+)
+"ir3_bbl_generator.ml" 190 7633 7649 "ir3_bbl_generator.ml" 190 7633 7659
+type(
+  unit -> string
+)
+ident(
+  ext_ref Ir3_structs_new.indent_dec
+)
+"ir3_bbl_generator.ml" 190 7633 7659 "ir3_bbl_generator.ml" 190 7633 7661
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 190 7633 7649 "ir3_bbl_generator.ml" 190 7633 7661
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 191 7665 7671 "ir3_bbl_generator.ml" 191 7665 7680
+type(
+  string
+)
+ident(
+  def methodEnd "ir3_bbl_generator.ml" 192 7706 7708 "ir3_bbl_generator.ml" 192 7706 7765
+)
+"ir3_bbl_generator.ml" 191 7665 7683 "ir3_bbl_generator.ml" 191 7665 7692
+type(
+  unit -> string
+)
+ident(
+  ext_ref Ir3_structs_new.print_tab
+)
+"ir3_bbl_generator.ml" 191 7665 7692 "ir3_bbl_generator.ml" 191 7665 7694
+type(
+  unit
+)
+"ir3_bbl_generator.ml" 191 7665 7683 "ir3_bbl_generator.ml" 191 7665 7694
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 191 7665 7695 "ir3_bbl_generator.ml" 191 7665 7696
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 191 7665 7697 "ir3_bbl_generator.ml" 191 7665 7702
+type(
+  string
+)
+"ir3_bbl_generator.ml" 191 7665 7683 "ir3_bbl_generator.ml" 191 7665 7702
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 192 7706 7708 "ir3_bbl_generator.ml" 192 7706 7720
+type(
+  string
+)
+ident(
+  int_ref methodHeader "ir3_bbl_generator.ml" 183 7356 7362 "ir3_bbl_generator.ml" 183 7356 7374
+)
+"ir3_bbl_generator.ml" 192 7706 7721 "ir3_bbl_generator.ml" 192 7706 7722
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 192 7706 7723 "ir3_bbl_generator.ml" 192 7706 7730
+type(
+  string
+)
+ident(
+  int_ref indentI "ir3_bbl_generator.ml" 188 7535 7541 "ir3_bbl_generator.ml" 188 7535 7548
+)
+"ir3_bbl_generator.ml" 192 7706 7731 "ir3_bbl_generator.ml" 192 7706 7732
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 192 7706 7733 "ir3_bbl_generator.ml" 192 7706 7743
+type(
+  string
+)
+ident(
+  int_ref methodBbls "ir3_bbl_generator.ml" 189 7567 7573 "ir3_bbl_generator.ml" 189 7567 7583
+)
+"ir3_bbl_generator.ml" 192 7706 7744 "ir3_bbl_generator.ml" 192 7706 7745
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 192 7706 7746 "ir3_bbl_generator.ml" 192 7706 7753
+type(
+  string
+)
+ident(
+  int_ref indentD "ir3_bbl_generator.ml" 190 7633 7639 "ir3_bbl_generator.ml" 190 7633 7646
+)
+"ir3_bbl_generator.ml" 192 7706 7754 "ir3_bbl_generator.ml" 192 7706 7755
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 192 7706 7756 "ir3_bbl_generator.ml" 192 7706 7765
+type(
+  string
+)
+ident(
+  int_ref methodEnd "ir3_bbl_generator.ml" 191 7665 7671 "ir3_bbl_generator.ml" 191 7665 7680
+)
+"ir3_bbl_generator.ml" 192 7706 7746 "ir3_bbl_generator.ml" 192 7706 7765
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 192 7706 7733 "ir3_bbl_generator.ml" 192 7706 7765
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 192 7706 7723 "ir3_bbl_generator.ml" 192 7706 7765
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 192 7706 7708 "ir3_bbl_generator.ml" 192 7706 7765
+call(
+  tail
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 191 7665 7667 "ir3_bbl_generator.ml" 192 7706 7765
+type(
+  string
+)
+"ir3_bbl_generator.ml" 190 7633 7635 "ir3_bbl_generator.ml" 192 7706 7765
+type(
+  string
+)
+"ir3_bbl_generator.ml" 189 7567 7569 "ir3_bbl_generator.ml" 192 7706 7765
+type(
+  string
+)
+"ir3_bbl_generator.ml" 188 7535 7537 "ir3_bbl_generator.ml" 192 7706 7765
+type(
+  string
+)
+"ir3_bbl_generator.ml" 183 7356 7358 "ir3_bbl_generator.ml" 192 7706 7765
+type(
+  string
+)
+"ir3_bbl_generator.ml" 176 6866 6868 "ir3_bbl_generator.ml" 192 7706 7765
+type(
+  string
+)
+"ir3_bbl_generator.ml" 174 6779 6781 "ir3_bbl_generator.ml" 192 7706 7765
+type(
+  string
+)
+"ir3_bbl_generator.ml" 194 7767 7771 "ir3_bbl_generator.ml" 194 7767 7796
+type(
+  'a * md_decl3_bbl * md_decl3_bbl list -> string
+)
+ident(
+  def string_of_ir3_program_bbl "ir3_bbl_generator.ml" 198 7977 8032 "ir3_bbl_generator.ml" 1 0 -1
+)
+"ir3_bbl_generator.ml" 194 7767 7798 "ir3_bbl_generator.ml" 194 7767 7799
+type(
+  'a
+)
+"ir3_bbl_generator.ml" 194 7767 7801 "ir3_bbl_generator.ml" 194 7767 7809
+type(
+  md_decl3_bbl
+)
+ident(
+  def main_bbl "ir3_bbl_generator.ml" 195 7823 7825 "ir3_bbl_generator.ml" 198 7977 8032
+)
+"ir3_bbl_generator.ml" 194 7767 7811 "ir3_bbl_generator.ml" 194 7767 7819
+type(
+  md_decl3_bbl list
+)
+ident(
+  def bbl_list "ir3_bbl_generator.ml" 195 7823 7825 "ir3_bbl_generator.ml" 198 7977 8032
+)
+"ir3_bbl_generator.ml" 194 7767 7797 "ir3_bbl_generator.ml" 194 7767 7820
+type(
+  'a * md_decl3_bbl * md_decl3_bbl list
+)
+"ir3_bbl_generator.ml" 195 7823 7825 "ir3_bbl_generator.ml" 195 7823 7868
+type(
+  string
+)
+"ir3_bbl_generator.ml" 195 7823 7869 "ir3_bbl_generator.ml" 195 7823 7870
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 196 7872 7875 "ir3_bbl_generator.ml" 196 7872 7897
+type(
+  md_decl3_bbl -> string
+)
+ident(
+  int_ref string_of_md_decl3_bbl "ir3_bbl_generator.ml" 173 6731 6735 "ir3_bbl_generator.ml" 173 6731 6757
+)
+"ir3_bbl_generator.ml" 196 7872 7898 "ir3_bbl_generator.ml" 196 7872 7906
+type(
+  md_decl3_bbl
+)
+ident(
+  int_ref main_bbl "ir3_bbl_generator.ml" 194 7767 7801 "ir3_bbl_generator.ml" 194 7767 7809
+)
+"ir3_bbl_generator.ml" 196 7872 7874 "ir3_bbl_generator.ml" 196 7872 7907
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 196 7872 7908 "ir3_bbl_generator.ml" 196 7872 7909
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 196 7872 7910 "ir3_bbl_generator.ml" 196 7872 7916
+type(
+  string
+)
+"ir3_bbl_generator.ml" 196 7872 7917 "ir3_bbl_generator.ml" 196 7872 7918
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 197 7919 7922 "ir3_bbl_generator.ml" 197 7919 7936
+type(
+  md_decl3_bbl list -> (md_decl3_bbl -> string) -> string -> string
+)
+ident(
+  ext_ref Arm_structs.string_of_list
+)
+"ir3_bbl_generator.ml" 197 7919 7937 "ir3_bbl_generator.ml" 197 7919 7945
+type(
+  md_decl3_bbl list
+)
+ident(
+  int_ref bbl_list "ir3_bbl_generator.ml" 194 7767 7811 "ir3_bbl_generator.ml" 194 7767 7819
+)
+"ir3_bbl_generator.ml" 197 7919 7946 "ir3_bbl_generator.ml" 197 7919 7968
+type(
+  md_decl3_bbl -> string
+)
+ident(
+  int_ref string_of_md_decl3_bbl "ir3_bbl_generator.ml" 173 6731 6735 "ir3_bbl_generator.ml" 173 6731 6757
+)
+"ir3_bbl_generator.ml" 197 7919 7969 "ir3_bbl_generator.ml" 197 7919 7973
+type(
+  string
+)
+"ir3_bbl_generator.ml" 197 7919 7921 "ir3_bbl_generator.ml" 197 7919 7974
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 197 7919 7975 "ir3_bbl_generator.ml" 197 7919 7976
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ir3_bbl_generator.ml" 198 7977 7979 "ir3_bbl_generator.ml" 198 7977 8032
+type(
+  string
+)
+"ir3_bbl_generator.ml" 197 7919 7921 "ir3_bbl_generator.ml" 198 7977 8032
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 196 7872 7910 "ir3_bbl_generator.ml" 198 7977 8032
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 196 7872 7874 "ir3_bbl_generator.ml" 198 7977 8032
+call(
+  stack
+)
+type(
+  string
+)
+"ir3_bbl_generator.ml" 195 7823 7825 "ir3_bbl_generator.ml" 198 7977 8032
+call(
+  tail
+)
+type(
+  string
+)

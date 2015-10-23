@@ -1,0 +1,132 @@
+"optimization_flags.ml" 1 0 4 "optimization_flags.ml" 1 0 16
+type(
+  bool ref
+)
+ident(
+  def opt_deadcode "optimization_flags.ml" 2 29 29 "optimization_flags.ml" 1 0 -1
+)
+"optimization_flags.ml" 1 0 19 "optimization_flags.ml" 1 0 22
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"optimization_flags.ml" 1 0 23 "optimization_flags.ml" 1 0 28
+type(
+  bool
+)
+"optimization_flags.ml" 1 0 19 "optimization_flags.ml" 1 0 28
+type(
+  bool ref
+)
+"optimization_flags.ml" 2 29 33 "optimization_flags.ml" 2 29 58
+type(
+  bool ref
+)
+ident(
+  def opt_common_sub_expression "optimization_flags.ml" 3 71 71 "optimization_flags.ml" 1 0 -1
+)
+"optimization_flags.ml" 2 29 61 "optimization_flags.ml" 2 29 64
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"optimization_flags.ml" 2 29 65 "optimization_flags.ml" 2 29 70
+type(
+  bool
+)
+"optimization_flags.ml" 2 29 61 "optimization_flags.ml" 2 29 70
+type(
+  bool ref
+)
+"optimization_flags.ml" 3 71 75 "optimization_flags.ml" 3 71 107
+type(
+  bool ref
+)
+ident(
+  def opt_global_common_sub_expression "optimization_flags.ml" 4 120 120 "optimization_flags.ml" 1 0 -1
+)
+"optimization_flags.ml" 3 71 110 "optimization_flags.ml" 3 71 113
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"optimization_flags.ml" 3 71 114 "optimization_flags.ml" 3 71 119
+type(
+  bool
+)
+"optimization_flags.ml" 3 71 110 "optimization_flags.ml" 3 71 119
+type(
+  bool ref
+)
+"optimization_flags.ml" 4 120 124 "optimization_flags.ml" 4 120 144
+type(
+  bool ref
+)
+ident(
+  def opt_copy_propagation "optimization_flags.ml" 5 157 157 "optimization_flags.ml" 1 0 -1
+)
+"optimization_flags.ml" 4 120 147 "optimization_flags.ml" 4 120 150
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"optimization_flags.ml" 4 120 151 "optimization_flags.ml" 4 120 156
+type(
+  bool
+)
+"optimization_flags.ml" 4 120 147 "optimization_flags.ml" 4 120 156
+type(
+  bool ref
+)
+"optimization_flags.ml" 5 157 161 "optimization_flags.ml" 5 157 173
+type(
+  bool ref
+)
+ident(
+  def opt_peephole "optimization_flags.ml" 6 186 186 "optimization_flags.ml" 1 0 -1
+)
+"optimization_flags.ml" 5 157 176 "optimization_flags.ml" 5 157 179
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"optimization_flags.ml" 5 157 180 "optimization_flags.ml" 5 157 185
+type(
+  bool
+)
+"optimization_flags.ml" 5 157 176 "optimization_flags.ml" 5 157 185
+type(
+  bool ref
+)
+"optimization_flags.ml" 6 186 190 "optimization_flags.ml" 6 186 201
+type(
+  bool ref
+)
+ident(
+  def opt_ldr_str "optimization_flags.ml" 6 186 213 "optimization_flags.ml" 1 0 -1
+)
+"optimization_flags.ml" 6 186 204 "optimization_flags.ml" 6 186 207
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"optimization_flags.ml" 6 186 208 "optimization_flags.ml" 6 186 213
+type(
+  bool
+)
+"optimization_flags.ml" 6 186 204 "optimization_flags.ml" 6 186 213
+type(
+  bool ref
+)
