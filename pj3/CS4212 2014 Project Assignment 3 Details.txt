@@ -1,31 +1,6 @@
 CS4214 Compiler Design Project 3
 
-Team Members:
--------------
-Cai Zhuohong   A0109706E 
-Huang Zhuo     A0048273A 
-Li Jiashu      A0045428E 
-Lin Lixun      A0048272E 
 
-
-Folder Structure:
------------------
-|-- CS4212 2014 Project Assignment 3 Details.txt
-|-- make.sh			---> Make Script
-|-- clean.sh			---> Clean Script
-|-- *.ml			---> ocaml source code             
-|-- jlite_compiler        	---> final executable
-|-- testcases
-    |-- given_testcases		---> Test cases given by the TA
-    |-- general_testcases       ---> General test cases for sanity check
-    |-- optimization_test	---> Test cases for optimizations
-    |-- realworld_tests		---> Realworld test cases
-
-
-How to compile/run:
--------------------
-1. Compile/Clean
-$ sh make.sh/clean.sh
 
 2. Run
 $./jlite_compiler [option] jlite_src_file
