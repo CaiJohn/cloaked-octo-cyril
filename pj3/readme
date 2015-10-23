@@ -1,0 +1,191 @@
+CS4214 Compiler Design Project 3
+
+
+
+2. Run
+$./jlite_compiler [option] jlite_src_file
+
+-a    Enable all optimizations
+-d    Enables deadcode optimization
+-cse  Enables common sub-expression optimization (within basic block)
+-gcse Enables global common sub-expression optimization (across basic blocks)
+-cp   Enables copy propagation optimization
+-ph   Enables peephole optimization
+-cl   Enables consecutive ldr optimization
+-o    Set output file name
+-v    Enable debug information
+
+Note:
+There is no console output if compilation is successful and -v is not enabled. 
+The default output file is <file_name>.s
+
+Enabling -cse/-gsce will also enable -d option.
+
+
+Code Generation:
+----------------
+The flow of code generation is illustrated in the following chart.
+
+            +-------------------------+
+            |  Pre-processing of IR3  |
+            +-----------+-------------+
+                        |
+                        |
+                        v
+            +-------------------------+
+            |    Liveness Analysis    |
+            +-----------+-------------+
+                        |
+                        |
+                        v
+                 +--------------+
+                 |   Coloring   |
+                 +--------------+        
+                        |                           
+                        |                           
+                        v                              
+            +-------------------------+             
+            |    Register Allocation  |          
+            +-----------+-------------+             
+                        |                           
+                        |                           
+                        v                           
+         +-------------------------------+             
+         |  ARM instruction translation  |
+         +-------------------------------+
+
+
+Function Call Stack Layout:
+---------------------------
+At the caller side, a1-a4 are used to pass arg1-arg4. For arguments more than 4, 
+they are pushed onto the stack in reverse order and can be referenced using 
+positive offset of fp.
+
+At the callee side, v1-v5, fp and lr will be saved and pushed onto the stack. 
+fp and sp registers are adjusted accordingly to the correct position. 
+After the function call, the stack looks like the following:
+
+...
+Arg6
+Arg5
+----
+v1   <------ fp
+v2
+v3
+v4
+v5
+fp
+lr
+----
+local vars  <---- sp
+...
+
+
+a1-a4 are only used for parameter passing. To avoid register conflict during 
+function call, they are not allocated to specific vars within the function. 
+But they are used for temporary storage of spilled variables, which is faster 
+compared to using stack memory as temporary storage.
+
+
+Optimizations:
+--------------
+The flow of multi-stage optimizations is illustrated below:
+
+            +-------------------------+
+            |  Peephole Optimization  |
+            +-----------+-------------+
+                        |
+                        |
+                        v
+      +------------------------------------+
+      |  Common Subexpression Elimination  |<-------+
+      +-----------------+------------------+        |
+                        |                           |
+                        |                           |
+                        v                           |   
+            +-------------------------+             |
+            |     Copy Propagation    |             |
+            +-----------+-------------+             |
+                        |                           |
+                        |                           |
+                        v                           |
+            +-------------------------+             |
+            |   Deadcode Elimination  |-------------+
+            +-----------+-------------+
+                        |
+                        |
+                        v
+        +--------------------------------+
+        |  Consecutive Load Elimination  |
+        +--------------------------------+
+
+Optimization Details:
+
+1) Peephole Optimization: 
+
+   Implements constant folding and strength reduction. Constant folding 
+   will calculate integer arithmetic, relational and boolean operation 
+   for constant literals during compile time. Strength reduction changes
+   multiplications to additions, but not more than two additions.
+
+2) Common-subexpression Elimination: 
+
+   Find common subexpressions among the code and try to avoid re-computation 
+   of the same expression. Refer to the below example:
+
+	a = b + c;
+	b = c + d;
+	e = b + c;
+	f = c + d; [*]
+
+   The marked expression can be optimized to f = b;
+
+3) Copy Propagation:
+
+   Optimize copying assignments among variables. It tries to replace the 
+   occurrences of targets of direct assignments with their values. For example:
+
+	b = a;
+	c = b + 1; [*]
+
+   The marked expression can be optimized to c = a + 1;
+
+4) Deadcode Elimination: 
+ 
+   Use liveness analysis information to eliminate dead code, iterating 
+   until a fixpoint is reached. For example,
+
+	d=1;
+	a=d+1;
+	b=1;
+	c=b;
+
+   a=d+1; will first be eliminated. Then in the second round, d=1; 
+   will be eliminated too. 
+
+5) Consecutive LDR/STR Elimination: 
+ 
+   Because some variables are chosen to be spilled in register allocation, 
+   there is a case that there are consecutive LDR/STR instructions for the 
+   same variable without its register being changed, refer to below example: 
+
+         LDR r0 [fp+b's offset]
+    	 LDR r0 [fp+b's offset] [X]
+    	 ADD r0 r1 r2
+         STR r0 [fp+b's offset] 
+    	 LDR r0 [fp+b's offset] [X]
+
+   The instructions marked with [X] are redundant and are eliminated. 
+   In addition, this optimization is done globally across all basic blocks.
+
+
+Additional Feature:
+-------------------
+
+We support 32-bit integer for the arm instruction, for integer literals 
+bigger than 1020, the generated arm code is LDR r, =<Literal> 
+instead of MOV r,<Literal>. However, in some cases, to save
+register usage, if integer literals are smaller or equal to 1020, 
+the integer literals are used as immediate values in arm instruction, 
+e.g. ADD r1 500
+
