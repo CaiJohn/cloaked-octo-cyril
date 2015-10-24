@@ -53,22 +53,22 @@ let get_register_id var_id3 reg_alloc spill_list isRight
     try
     let (_, reg_id) =  List.find (fun (x, _) -> name = x) reg_alloc in
         let reg_name = "__R"^string_of_int reg_id in  
-            (name, Reg reg_name, None)
+            (name, Ir3_structs_new.Reg reg_name, None)
     with Not_found ->
         try
         let found_reg = Hashtbl.find used_var_to_reg name in
-            if isRight = true then (name, Reg found_reg, None)
+            if isRight = true then (name, Ir3_structs_new.Reg found_reg, None)
             else let number = get_number name 0 spill_list
             in let mem_name = "__M"^(string_of_int number)
-            in (name, Reg found_reg, Some (ST (found_reg, mem_name)))
+            in (name, Ir3_structs_new.Reg found_reg, Some (ST (found_reg, mem_name)))
         with Not_found ->
         let number = get_number name 0 spill_list
         (*Assign reg V1 if it is not found anywhere*)
-        in if number = -1 then (name, Reg "__R0", None)
+        in if number = -1 then (name, Ir3_structs_new.Reg "__R0", None)
         else let spilled_reg = get_tmp_a_reg name number
             in let mem_name = "__M"^(string_of_int number)
-            in if isRight = true then (name, Reg spilled_reg, Some (LD (spilled_reg, mem_name)))
-                else (name, Reg spilled_reg, Some (ST (spilled_reg, mem_name)))
+            in if isRight = true then (name, Ir3_structs_new.Reg spilled_reg, Some (LD (spilled_reg, mem_name)))
+                else (name, Ir3_structs_new.Reg spilled_reg, Some (ST (spilled_reg, mem_name)))
 
 let get_register_idc var_idc3 reg_alloc spill_list isRight
     (*: (Var3_new * (ir3_stmt_new option))*)=
@@ -78,22 +78,22 @@ let get_register_idc var_idc3 reg_alloc spill_list isRight
         try
             let (_, reg_id) =  List.find (fun (x, _) -> str = x) reg_alloc in
             let reg_name = "__R"^string_of_int reg_id in  
-                (Var3_new (str, Reg reg_name), None)
+                (Var3_new (str, Ir3_structs_new.Reg reg_name), None)
         with Not_found ->
             try
             let found_reg = Hashtbl.find used_var_to_reg str in
-                if isRight = true then (Var3_new (str, Reg found_reg), None)
+                if isRight = true then (Var3_new (str, Ir3_structs_new.Reg found_reg), None)
                 else let number = get_number str 0 spill_list
                 in let mem_name = "__M"^(string_of_int number)
-                in (Var3_new (str, Reg found_reg), Some (ST (found_reg, mem_name)))
+                in (Var3_new (str, Ir3_structs_new.Reg found_reg), Some (ST (found_reg, mem_name)))
             with Not_found -> 
             let number = get_number str 0 spill_list
-            in if number = -1 then (Var3_new (str, Reg "__R0"), None)
+            in if number = -1 then (Var3_new (str, Ir3_structs_new.Reg "__R0"), None)
             else 
                 let spilled_reg = get_tmp_a_reg str number
                 in let mem_name = "__M"^(string_of_int number)
-                in if isRight = true then (Var3_new (str, Reg spilled_reg), Some (LD (spilled_reg, mem_name)))
-                else (Var3_new (str, Reg spilled_reg), Some (ST (spilled_reg, mem_name)))
+                in if isRight = true then (Var3_new (str, Ir3_structs_new.Reg spilled_reg), Some (LD (spilled_reg, mem_name)))
+                else (Var3_new (str, Ir3_structs_new.Reg spilled_reg), Some (ST (spilled_reg, mem_name)))
         end
     | t -> (t, None)
 
@@ -107,10 +107,10 @@ let get_register_idc_mdcall var_idc3 reg_alloc spill_list isRight
         try
             let (_, reg_id) =  List.find (fun (x, _) -> str = x) reg_alloc in
             let reg_name = "__R"^string_of_int reg_id in
-                (Var3_new (str, Reg reg_name), None)
+                (Var3_new (str, Ir3_structs_new.Reg reg_name), None)
         with Not_found ->
             let number = get_number str 0 spill_list
-            in if number = -1 then (Var3_new (str, Reg "__R0"), None)
+            in if number = -1 then (Var3_new (str, Ir3_structs_new.Reg "__R0"), None)
             else 
                 let mem_name = "__M"^(string_of_int number)
                 in if isRight = true then (Var3_new (str, Mem mem_name), None)
@@ -175,8 +175,8 @@ let rec assign_register_stmts input_stmts reg_alloc spill_list
             let (e_new, stmts) = assign_reg_exp3 e true in
             match (e_new, stmts) with
             (*Binary expression has to be in the form of reg == false *)
-            | (BinaryExp3_new (_, Var3_new (_, Reg reg), _), None) ->  [AnnoIfStmt3_new [(CMP ("", convert reg, ImmedOp "#0"));(B ("EQ", "."^string_of_int l))]]  (*[IfStmt3_new (e, l)]*)
-            | (BinaryExp3_new (_, Var3_new (_, Reg reg), _), Some s) -> 
+            | (BinaryExp3_new (_, Var3_new (_, Ir3_structs_new.Reg reg), _), None) ->  [AnnoIfStmt3_new [(CMP ("", convert reg, ImmedOp "#0"));(B ("EQ", "."^string_of_int l))]]  (*[IfStmt3_new (e, l)]*)
+            | (BinaryExp3_new (_, Var3_new (_, Ir3_structs_new.Reg reg), _), Some s) -> 
                 begin 
                 match List.hd s with
                 | LD (reg, mem) ->
@@ -189,8 +189,8 @@ let rec assign_register_stmts input_stmts reg_alloc spill_list
                 if b = true then [AnnoIfStmt3_new []]
                 else [AnnoIfStmt3_new [(B ("", "."^string_of_int l))]] 
             (*Unary expression in form of !reg*)
-            | (UnaryExp3_new (_, Var3_new (_, Reg reg)), None) ->  [AnnoIfStmt3_new [(CMP ("", convert reg, ImmedOp "#0"));(B ("EQ", "."^string_of_int l))]] 
-            | (UnaryExp3_new (_, Var3_new (_, Reg reg)), Some s) -> 
+            | (UnaryExp3_new (_, Var3_new (_, Ir3_structs_new.Reg reg)), None) ->  [AnnoIfStmt3_new [(CMP ("", convert reg, ImmedOp "#0"));(B ("EQ", "."^string_of_int l))]] 
+            | (UnaryExp3_new (_, Var3_new (_, Ir3_structs_new.Reg reg)), Some s) -> 
                 begin 
                 match List.hd s with
                 | LD (reg, mem) ->
@@ -270,13 +270,13 @@ let rec get_anno_param (params:var_decl3_new list) (alloc:(string*int) list) spi
             let (str, _) = id3 in
         try
             let (_, reg_id) =  List.find (fun (x, _) -> str = x) alloc in
-            (Reg ("__R"^string_of_int(reg_id)))::get_anno_param t alloc spill_list
+            (Ir3_structs_new.Reg ("__R"^string_of_int(reg_id)))::get_anno_param t alloc spill_list
         with Not_found ->
 			try
 		    let number = get_number1 str 0 spill_list in
             (Mem ("__M"^string_of_int(number)))::get_anno_param t alloc spill_list
 			with Not_found ->
-			(Reg ("dead"))::get_anno_param t alloc spill_list
+			(Ir3_structs_new.Reg ("dead"))::get_anno_param t alloc spill_list
             
 let assign_register md reg_alloc spill_list =
     let updated_ir3stmts = assign_register_stmts md.ir3stmts reg_alloc spill_list in
